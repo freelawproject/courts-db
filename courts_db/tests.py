@@ -7,7 +7,7 @@ import re
 
 
 def load_template():
-    with open('courts-by-state.json', "r") as f:
+    with open('data/courts.json', "r") as f:
         court_data = json.loads(f.read())
     s = Template(json.dumps(court_data["courts"])).substitute(
         **court_data['variables']).replace("\\", "\\\\")
