@@ -1,0 +1,273 @@
+Abbeville
+Adamsville 
+Addison 
+Alabaster 
+Albertville 
+Alexander City 
+Aliceville 
+Altoona 
+Andalusia 
+Anniston 
+Arab 
+Ardmore 
+Argo 
+Arley 
+Ashford 
+Ashland 
+Ashville 
+Athens 
+Atmore 
+Attalla 
+Auburn 
+Autaugaville 
+Bay Minette 
+Bayou La Batre 
+Bear Creek 
+Berry 
+Bessemer 
+Birmingham 
+Blountsville 
+Boaz 
+Bon Air 
+Branchville 
+Brantley 
+Brent 
+Brewton 
+Bridgeport 
+Brighton 
+Brookside 
+Brookwood 
+Brundidge 
+Calera 
+Camden 
+Camp Hill 
+Carbon Hill 
+Carrollton 
+Centre 
+Centreville 
+Chatom 
+Chickasaw 
+Childersburg 
+Citronelle 
+Clanton 
+Coffeeville 
+Collinsville 
+Columbiana 
+Cordova 
+Cottonwood 
+Courtland 
+Creola 
+Crossville 
+Cullman 
+Dadeville 
+Daleville 
+Daphne 
+Dauphin Island 
+Decatur 
+Demopolis 
+Dora 
+Dothan 
+Double Springs 
+Douglas 
+Elberta 
+Enterprise 
+Eufaula 
+Eutaw 
+Evergreen 
+Excel 
+Fairfield 
+Fairhope 
+Falkville 
+Fayette 
+Florala 
+Florence 
+Foley 
+Fort Payne 
+Fulton 
+Fultondale 
+Fyffe 
+Gadsden 
+Gantt 
+Gardendale 
+Geneva 
+Geraldine 
+Gilbertown 
+Glencoe 
+Gordo 
+Gordon 
+Grant 
+Graysville 
+Greensboro 
+Greenville 
+Grove Hill 
+Guin 
+Gulf Shores 
+Guntersville 
+Gurley 
+Hackleburg 
+Haleyville 
+Hamilton 
+Hanceville 
+Harpersville 
+Hartford 
+Hartselle
+Hayneville 
+Headland 
+Helena 
+Henagar 
+Hillsboro 
+Hobson City 
+Hokes Bluff 
+Hollywood 
+Homewood 
+Hoover 
+Hueytown 
+Huntsville 
+Hurtsboro 
+Ider 
+Irondale 
+Jackson 
+Jacksonville 
+Jacksons Gap 
+Jasper 
+Jemison 
+Killen 
+Kimberly 
+LaFayette 
+Lake View 
+Leeds 
+Leighton 
+Level Plains 
+Lexington 
+Lincoln 
+Linden 
+Lineville 
+Lipscomb 
+Littleville 
+Livingston 
+Lockhart 
+Loxley 
+Luverne 
+Madison 
+Maplesville 
+Margaret 
+Marion 
+McIntosh 
+Mentone 
+Midfield 
+Midland City 
+Millbrook 
+Millry 
+Mobile 
+Monroeville 
+Montevallo 
+Montgomery 
+Moody 
+Morris 
+Moulton 
+Mount Vernon 
+Mt Vernon
+Mountain Brook
+Mountainboro 
+Muscle Shoals 
+Napier Field 
+New Hope 
+Newton 
+North Courtland 
+Northport 
+Notasulga 
+Oakman 
+Odenville 
+Ohatchee 
+Oneonta 
+Opelika 
+Opp 
+Orange Beach 
+Owens Cross Roads 
+Oxford 
+Ozark 
+Parrish 
+Pelham 
+Pell City 
+Pennington 
+Phenix City 
+Phil Campbell 
+Pickensville 
+Piedmont 
+Pinckard 
+Pine Hill 
+Pisgah 
+Pleasant Grove 
+Powell 
+Prattville 
+Priceville 
+Prichard 
+Ragland 
+Rainbow City 
+Rainsville 
+Ranburne 
+Red Bay 
+Red Level 
+Reform 
+Repton 
+River Falls 
+Riverside 
+Roanoke 
+Robertsdale 
+Rogersville 
+Samson 
+Saraland 
+Sardis City 
+Satsuma 
+Scottsboro 
+Section 
+Selma 
+Sheffield 
+Shorter 
+Silas 
+Silverhill 
+Sipsey 
+Slocomb 
+Snead 
+Somerville 
+Southside 
+Spanish Fort 
+Springville 
+Steele 
+Stevenson 
+Sumiton 
+Summerdale 
+Sylacauga 
+Sylvania 
+Talladega 
+Tallassee 
+Tarrant 
+Thomasville 
+Thorsby 
+Town Creek 
+Toxey 
+Trafford 
+Triana 
+Trinity 
+Troy 
+Trussville 
+Tuscaloosa 
+Tuscumbia 
+Tuskegee 
+Uniontown 
+Valley Head 
+Vance 
+Vernon 
+Vestavia Hills 
+Vincent 
+Wadley 
+Warrior 
+Wedowee 
+West Blocton 
+Wetumpka 
+White Hall 
+Wilsonville 
+Wilton 
+Winfield 
+Woodstock 
+York

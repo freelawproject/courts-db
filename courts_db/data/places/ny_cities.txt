@@ -1,0 +1,63 @@
+Albany
+Amsterdam
+Auburn
+Batavia
+Beacon
+Binghamton
+Buffalo
+Canandaigua
+Cohoes
+Corning
+Cortland
+Dunkirk
+Elmira
+Fulton
+Geneva
+Glen Cove
+Glens Falls
+Gloversville
+Hornell
+Hudson
+Ithaca
+Jamestown
+Johnstown
+Kingston
+Lackawanna
+Little Falls
+Lockport
+Long Beach
+Mechanicville
+Middletown
+Mount Vernon
+Mt Vernon
+New Rochelle
+New York
+Newburgh
+Niagara Falls
+North Tonawanda
+Norwich
+Ogdensburg
+Olean
+Oneida
+Oneonta
+Oswego
+Peekskill
+Plattsburgh
+Port Jervis
+Poughkeepsie
+Rensselaer
+Rochester
+Rome
+Rye
+Salamanca
+Saratoga Springs
+Schenectady
+Sherrill
+Syracuse
+Tonawanda
+Troy
+Utica
+Watertown
+Watervliet
+White Plains
+Yonkers

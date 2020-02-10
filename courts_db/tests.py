@@ -5,17 +5,37 @@ import json
 from string import Template
 from datetime import datetime as dt
 import re
+from glob import iglob
 
 
 def load_template():
+    """
+
+    :return:
+    """
     with open('data/courts.json', "r") as f:
         court_data = json.loads(f.read())
-    s = Template(json.dumps(court_data["courts"])).substitute(
-        **court_data['variables']).replace("\\", "\\\\")
-    return s
+
+    with open('data/variables.json', "r") as v:
+        variables = json.loads(v.read())
+
+    for path in iglob("data/places/*.txt"):
+        with open(path, "r") as p:
+            places = "(%s)" % "|".join(p.read().splitlines())
+            variables[path.split("/")[-1].split(".txt")[0]] = places
+
+    s = Template(json.dumps(court_data["courts"])).substitute(**variables)
+    return s.replace("\\", "\\\\")
 
 
 def find_court(court_str, filed_date=None, courts_db=None):
+    """
+
+    :param court_str:
+    :param filed_date:
+    :param courts_db:
+    :return:
+    """
     court_matches = []
     if filed_date is None:
         for court in courts_db:
