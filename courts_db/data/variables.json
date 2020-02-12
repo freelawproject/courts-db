@@ -21,7 +21,7 @@
     "va": "Virginia|Virgina",
     "sjc": "(\\b)Supreme Judicial Court ?(of)? ?",
     "super": "(\\b)Superior Court ?(of?)? ?",
-    "sd": "(\\b)S(outhern)? ?D(ist(rict)?)? ?(of)?",
+    "sd": "(\\b)S(our?thern)? ?D(ist(rict)?)? ?(of)?",
     "n1": "(First|One|1st|1)",
     "n2": "(Second|Two|2nd|2)",
     "n3": "(Third|Three|3rd|3)",
