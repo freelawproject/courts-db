@@ -1,0 +1,142 @@
+Apache
+Alpine
+Eagar
+Greer
+St Johns
+Springerville
+Cochise Countys
+Benson
+Bisbee
+Bowie
+Douglas
+Huachuca City
+Pearce \& Sunsite
+Sierra Vista
+Sunsite
+Tombstone
+Wilcox
+Coconino Countys
+Flagstaff
+Fredonia
+Page
+Sedona
+Tuba City
+Gila Countys
+Globe
+Hayden
+Miami
+Payson
+Pine \& Strawberry
+Star Valley
+Strawberry
+Winkelman
+Young
+Graham Countys
+Pima
+Safford
+Thatcher
+La Paz Countys
+Bouse
+Ehrenberg
+Parker
+Quartzsite
+Salome \& Wenden
+Maricopa Countys
+Avondale
+Buckeye
+Carefree
+Cave Creek
+Chandler
+El Mirage
+Fountain Hills
+Gila Bend
+Gilbert
+Glendale
+Goodyear
+Guadalupe
+Mesa
+Paradise Valley
+Peoria
+Phoenix 
+Queen Creek
+Scottsdale
+Sun City
+Sun City West
+Sun Lakes
+Surprise
+Tempe
+Tolleson
+Tonopah
+Wickenburg
+Youngtown
+Mohave Countys
+Bullhead City
+Chloride
+Colorado City
+Dolan Springs
+Kingman
+Lake Havasu City
+Moccasin
+Oatman
+Navajo Countys
+Heber-Overgaard
+Holbrook
+Joseph City
+Lakeside
+Overgaard
+Pinetop-Lakeside
+Show Low
+Snowflake
+Taylor
+Winslow
+Pima Countys
+Ajo
+Arivaca
+Catalina
+Green Valley
+Marana
+Oro Valley
+Sahuarita
+South Tucson
+Tucson
+Pinal
+Apache Junction
+Arizona City
+Casa Grande
+Coolidge
+Eloy
+Florence
+Kearny
+Mammoth
+Maricopa
+Oracle
+Picacho\/Picacho Peak\/Red Rock
+Red Rock
+San Manuel
+Superior
+Yavapai Countys
+Ashfork
+Bagdad
+Black Canyon City
+Camp Verde
+Chino Valley
+Clarkdale
+Cottonwood
+Dewey-Humboldt
+Jerome
+Lake Montezuma
+Mayer
+McGuireville
+Oak Creek Canyon
+Peeples Valley
+Prescott
+Prescott Valley
+Rimrock
+Seligman
+Verde Village
+Yarnell\/Peeples Valley
+Yuma
+San Luis
+Somerton
+Welton
+Yuma
