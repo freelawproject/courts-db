@@ -13134,7 +13134,7 @@
         "location": ""
     },
       {
-        "regex": "Circuit Court Ala",
+        "regex": "Circuit Court D Ala",
         "name_abbreviation": "Ala. Cir. Ct",
         "dates": [
             {
@@ -13152,7 +13152,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Mid D Ala",
+        "regex": "Circuit Court D Mid D Ala",
         "name_abbreviation": "Mid. Ala. Cir. Ct",
         "dates": [
             {
@@ -13206,7 +13206,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Ark",
+        "regex": "Circuit Court D Ark",
         "name_abbreviation": "Ark. Cir. Ct",
         "dates": [
             {
@@ -13260,7 +13260,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Terr D of Ark",
+        "regex": "Circuit Court D Terr D of Ark",
         "name_abbreviation": "Terr. of Ark. Cir. Ct",
         "dates": [
             {
@@ -13278,7 +13278,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Cal",
+        "regex": "Circuit Court D Cal",
         "name_abbreviation": "Cal. Cir. Ct",
         "dates": [
             {
@@ -13332,7 +13332,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court South Carolina",
+        "regex": "Circuit Court D South Carolina",
         "name_abbreviation": "South Carolina. Cir. Ct",
         "dates": [
             {
@@ -13350,7 +13350,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Colorado",
+        "regex": "Circuit Court D Colorado",
         "name_abbreviation": "Colorado. Cir. Ct",
         "dates": [
             {
@@ -13368,7 +13368,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Dist D of Columbi",
+        "regex": "Circuit Court D Dist D of Columbi",
         "name_abbreviation": "Dist. of Columbia Cir. Ct",
         "dates": [
             {
@@ -13386,7 +13386,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Connecticut",
+        "regex": "Circuit Court D Connecticut",
         "name_abbreviation": "Connecticut. Cir. Ct",
         "dates": [
             {
@@ -13404,7 +13404,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court North Dakota",
+        "regex": "Circuit Court D North Dakota",
         "name_abbreviation": "North Dakota. Cir. Ct",
         "dates": [
             {
@@ -13422,7 +13422,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court South Dakota",
+        "regex": "Circuit Court D South Dakota",
         "name_abbreviation": "South Dakota. Cir. Ct",
         "dates": [
             {
@@ -13440,7 +13440,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Delaware",
+        "regex": "Circuit Court D Delaware",
         "name_abbreviation": "Delaware. Cir. Ct",
         "dates": [
             {
@@ -13494,7 +13494,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Ga",
+        "regex": "Circuit Court D Ga",
         "name_abbreviation": "Ga. Cir. Ct",
         "dates": [
             {
@@ -13548,7 +13548,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court New Hampshire",
+        "regex": "Circuit Court D New Hampshire",
         "name_abbreviation": "New Hampshire. Cir. Ct",
         "dates": [
             {
@@ -13566,7 +13566,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Idaho",
+        "regex": "Circuit Court D Idaho",
         "name_abbreviation": "Idaho. Cir. Ct",
         "dates": [
             {
@@ -13584,7 +13584,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Ill",
+        "regex": "Circuit Court D Ill",
         "name_abbreviation": "Ill. Cir. Ct",
         "dates": [
             {
@@ -13656,7 +13656,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Indiana",
+        "regex": "Circuit Court D Indiana",
         "name_abbreviation": "Indiana. Cir. Ct",
         "dates": [
             {
@@ -13710,7 +13710,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Iowa",
+        "regex": "Circuit Court D Iowa",
         "name_abbreviation": "Iowa. Cir. Ct",
         "dates": [
             {
@@ -13728,7 +13728,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Rhode Island",
+        "regex": "Circuit Court D Rhode Island",
         "name_abbreviation": "Rhode Island. Cir. Ct",
         "dates": [
             {
@@ -13746,7 +13746,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court New Jersey",
+        "regex": "Circuit Court D New Jersey",
         "name_abbreviation": "New Jersey. Cir. Ct",
         "dates": [
             {
@@ -13764,7 +13764,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Kansas",
+        "regex": "Circuit Court D Kansas",
         "name_abbreviation": "Kansas. Cir. Ct",
         "dates": [
             {
@@ -13800,7 +13800,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Ky",
+        "regex": "Circuit Court D Ky",
         "name_abbreviation": "Ky. Cir. Ct",
         "dates": [
             {
@@ -13854,7 +13854,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court La",
+        "regex": "Circuit Court D La",
         "name_abbreviation": "La. Cir. Ct",
         "dates": [
             {
@@ -13890,7 +13890,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Maine",
+        "regex": "Circuit Court D Maine",
         "name_abbreviation": "Maine. Cir. Ct",
         "dates": [
             {
@@ -13908,7 +13908,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Maryland",
+        "regex": "Circuit Court D Maryland",
         "name_abbreviation": "Maryland. Cir. Ct",
         "dates": [
             {
@@ -13926,7 +13926,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Massachusetts",
+        "regex": "Circuit Court D Massachusetts",
         "name_abbreviation": "Massachusetts. Cir. Ct",
         "dates": [
             {
@@ -13980,7 +13980,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Minnesota",
+        "regex": "Circuit Court D Minnesota",
         "name_abbreviation": "Minnesota. Cir. Ct",
         "dates": [
             {
@@ -14052,7 +14052,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Mo",
+        "regex": "Circuit Court D Mo",
         "name_abbreviation": "Mo. Cir. Ct",
         "dates": [
             {
@@ -14088,7 +14088,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Montana",
+        "regex": "Circuit Court D Montana",
         "name_abbreviation": "Montana. Cir. Ct",
         "dates": [
             {
@@ -14160,7 +14160,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Nebraska",
+        "regex": "Circuit Court D Nebraska",
         "name_abbreviation": "Nebraska. Cir. Ct",
         "dates": [
             {
@@ -14178,7 +14178,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Nevada",
+        "regex": "Circuit Court D Nevada",
         "name_abbreviation": "Nevada. Cir. Ct",
         "dates": [
             {
@@ -14232,7 +14232,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Ohio",
+        "regex": "Circuit Court D Ohio",
         "name_abbreviation": "Ohio. Cir. Ct",
         "dates": [
             {
@@ -14286,7 +14286,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Oregon",
+        "regex": "Circuit Court D Oregon",
         "name_abbreviation": "Oregon. Cir. Ct",
         "dates": [
             {
@@ -14322,7 +14322,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Mid D Pa",
+        "regex": "Circuit Court D Mid D Pa",
         "name_abbreviation": "Mid. Pa. Cir. Ct",
         "dates": [
             {
@@ -14340,7 +14340,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Pa",
+        "regex": "Circuit Court D Pa",
         "name_abbreviation": "Pa. Cir. Ct",
         "dates": [
             {
@@ -14394,7 +14394,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Mid D Tenn",
+        "regex": "Circuit Court D Mid D Tenn",
         "name_abbreviation": "Mid. Tenn. Cir. Ct",
         "dates": [
             {
@@ -14412,7 +14412,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Tenn",
+        "regex": "Circuit Court D Tenn",
         "name_abbreviation": "Tenn. Cir. Ct",
         "dates": [
             {
@@ -14520,7 +14520,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Utah",
+        "regex": "Circuit Court D Utah",
         "name_abbreviation": "Utah. Cir. Ct",
         "dates": [
             {
@@ -14538,7 +14538,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Va",
+        "regex": "Circuit Court D Va",
         "name_abbreviation": "Va. Cir. Ct",
         "dates": [
             {
@@ -14628,7 +14628,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court West Va",
+        "regex": "Circuit Court D West Va",
         "name_abbreviation": "West Va. Cir. Ct",
         "dates": [
             {
@@ -14646,7 +14646,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Vermont",
+        "regex": "Circuit Court D Vermont",
         "name_abbreviation": "Vermont. Cir. Ct",
         "dates": [
             {
@@ -14682,7 +14682,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Wash",
+        "regex": "Circuit Court D Wash",
         "name_abbreviation": "Wash. Cir. Ct",
         "dates": [
             {
@@ -14754,7 +14754,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Wis",
+        "regex": "Circuit Court D Wis",
         "name_abbreviation": "Wis. Cir. Ct",
         "dates": [
             {
@@ -14772,7 +14772,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Wyoming",
+        "regex": "Circuit Court D Wyoming",
         "name_abbreviation": "Wyoming. Cir. Ct",
         "dates": [
             {
@@ -14790,7 +14790,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Albany New York",
+        "regex": "Circuit Court D Albany New York",
         "name_abbreviation": "Albany New York. Cir. Ct",
         "dates": [
             {
@@ -14808,7 +14808,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Eastern New York",
+        "regex": "Circuit Court D Eastern New York",
         "name_abbreviation": "Eastern New York. Cir. Ct",
         "dates": [
             {
@@ -14826,7 +14826,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Northern New York",
+        "regex": "Circuit Court D Northern New York",
         "name_abbreviation": "Northern New York. Cir. Ct",
         "dates": [
             {
@@ -14844,7 +14844,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Southern New York",
+        "regex": "Circuit Court D Southern New York",
         "name_abbreviation": "Southern New York. Cir. Ct",
         "dates": [
             {
@@ -14862,7 +14862,7 @@
         "examples": []
     },
     {
-        "regex": "Circuit Court Western New York",
+        "regex": "Circuit Court D Western New York",
         "name_abbreviation": "Western New York. Cir. Ct",
         "dates": [
             {
