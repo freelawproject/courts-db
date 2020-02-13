@@ -798,7 +798,8 @@
     },
     {
         "regex": [
-            "Tax Court of Arizona"
+            "Tax Court of Arizona",
+            "Arizona Tax Court"
         ],
         "dates": [
             {
@@ -1446,7 +1447,8 @@
             "Appellate Division Superior Court Of California ${ca_counties}",
             "Appellate Division Superior Court Of California",
             "Appellate Dept Superior Court Of California",
-            "Appellate Department Of The Superior Court Of California"
+            "Appellate Department Of The Superior Court Of California",
+            "Court Of Appeal Of California"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2161,7 +2163,10 @@
     {
         "regex": [
             "Court Of Chancery Of Delware Kent County",
-            "Court Of Chancery Of Delaware"
+            "Court Of Chancery Of Delaware",
+            "Court Of Chancery Of (The) ?State Of Delaware",
+            "Court Of Chancery Of State Of Delaware",
+            "Court Of Chancery Delaware"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2192,7 +2197,9 @@
     {
         "regex": [
             "Superior Court Of Delaware New Castle County",
-            "Superior Court Of Delaware"
+            "Superior Court Of Delaware",
+            "Superior Of Court Delaware New Castle",
+            "Superior Of Delaware Kent"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2251,7 +2258,8 @@
     },
     {
         "regex": [
-            "Delaware Court of Common Pleas"
+            "Delaware Court of Common Pleas",
+            "Court Of Common Pleas of Delaware"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2612,7 +2620,9 @@
             "Florida ${bw} District ${coa}",
             "Florida ${coa} ${bw} District",
             "Florida Court Of Appeal Of Florida",
-            "Court Of Appeal State Of Florida"
+            "Court Of Appeal State Of Florida",
+            "Court Of Appeals? (Of)? ?Florida",
+            "Court Of Appeal Of The State Of Florida"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2849,7 +2859,7 @@
     },
     {
         "regex": [
-            "${usdc} ${md} Georgia"
+            "${usdc} ${md} G(eorgi)?a"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -3185,6 +3195,7 @@
         "regex": [
             "${d} Guam",
             "${usdc} D Guam",
+            "${usdc} Guam",
             "${usdc} Guam"
         ],
         "dates": [
@@ -3231,6 +3242,7 @@
             "${usdc} ${d} Hawaii?",
             "${usdc} For Territory Of Hawaii",
             "${usdc} D Hawai",
+            "${usdc} Hawai",
             "District Court Territory Of Hawai I"
         ],
         "name_abbreviation": null,
@@ -3664,7 +3676,8 @@
         "regex": [
             "${app} Illinois",
             "Illinois ${app}",
-            "Illinois Court Of Appeals"
+            "Illinois Court Of Appeals",
+            "Court Of Appeals Of Illinois"
         ],
         "dates": [
             {
@@ -4241,6 +4254,7 @@
             "${usdc} Topeka",
             "${d} D Kansas",
             "${usdc} D Kansas",
+            "${usdc} Kansas",
             "United States District Court District Of Kansas"
         ],
         "dates": [
@@ -4486,6 +4500,7 @@
             "^${d} ?(D)? ?Louisiana",
             "District Court Territory Of Orleans",
             "${usdc} D Louisiana",
+            "${usdc} Louisiana",
             "${usdc} Louisiana"
         ],
         "dates": [
@@ -4845,8 +4860,8 @@
     },
     {
         "regex": [
-            "^${d} ?(D)? ?Maryland",
-            "^${usdc} ${d} Maryland",
+            "${d} ?(D)? ?Maryland",
+            "${usdc} ${d} Maryland",
             "United States District District Of Maryland",
             "Untied States District Court District Of Maryland"
         ],
@@ -4886,6 +4901,25 @@
         "court_url": "https://www.oag.state.md.us/",
         "type": "ag",
         "id": "mdag",
+        "location": "Maryland"
+    },
+  {
+        "regex": [
+            "Circuit Court Of Maryland ${md_circuits}"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court Of Maryland",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": null,
         "location": "Maryland"
     },
     {
@@ -4983,9 +5017,31 @@
         "id": "maworkcompcom",
         "location": "Massachusetts"
     },
+      {
+        "regex": [
+            "Massachusetts Land Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Massachusetts Land Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+          "Massachusetts Land Court"
+        ],
+        "type": "trial",
+        "id": "massland",
+        "location": "Massachusetts"
+    },
     {
         "regex": [
-            "Massachusetts Appellate Division"
+            "Massachusetts Appellate Division",
+            "Massachusetts District Court Appellate Division"
         ],
         "dates": [
             {
@@ -5530,7 +5586,8 @@
             "Kansas City (of)? ?Court of appeals",
             "Springfield Court of appeals",
             "St Louis Court Of Appeals Missouri",
-            "State Of Missouri St Louis Court Of Appeals"
+            "State Of Missouri St Louis Court Of Appeals",
+            "Court Of Appeals? Of Missouri"
         ],
         "dates": [
             {
@@ -5553,7 +5610,8 @@
     {
         "regex": [
             "Supreme Court of Missouri",
-            "STATE OF MISSOURI,? SUPREME COURT"
+            "State of Missouri Supreme Court",
+            "Missouri Supreme Court"
         ],
         "dates": [
             {
@@ -5726,7 +5784,8 @@
         "regex": [
             "Supreme Court of Montana",
             "Montana Supreme Court",
-            "Supreme Court Of The Territory Of Montana"
+            "Supreme Court Of The Territory Of Montana",
+            "Supreme Court State Of Montana"
         ],
         "dates": [
             {
@@ -5875,7 +5934,8 @@
     {
         "regex": [
             "^${d} ?(D)? ?Nebraska",
-            "${usdc} ${d} Nebraska"
+            "${usdc} ${d} Nebraska",
+            "${usdc} Nebraska"
         ],
         "dates": [
             {
@@ -6089,7 +6149,8 @@
             "State Of New Jersey Superior Court Chancery Division",
             "County Court.* New Jersey",
             "State Of New Jersey Superior Court",
-            "Court Of Chancery Of New Jersey"
+            "Court Of Chancery Of New Jersey",
+            "New Jersey Superior Court"
         ],
         "dates": [
             {
@@ -6293,7 +6354,9 @@
             "Department Of The Treasury Division Of Tax Appeals New Jersey",
             "Board Of Taxation Hudson County New Jersey",
             "New Jersey State Board Of Tax Appeals",
-            "New Jersey Department Of Taxation"
+            "New Jersey Department Of Taxation",
+            "Hudson County Board Of Taxation New Jersey",
+            "Department Of Taxation And Finance New Jersey"
         ],
         "dates": [
             {
@@ -6402,7 +6465,8 @@
     {
         "regex": [
             "^${d} ?(D)? ?New Mexico",
-            "${usdc} D New Mexico"
+            "${usdc} D New Mexico",
+            "${usdc} New Mexico"
         ],
         "dates": [
             {
@@ -6487,7 +6551,9 @@
     {
         "regex": [
             "Court Of General Sessions Kings County New York",
-            "Court Of General Sessions New York "
+            "Court Of General Sessions New York",
+            "Court Of General Sessions Of New York",
+            "Court Of General Sessions.* New York"
         ],
         "dates": [
             {
@@ -6741,7 +6807,8 @@
             "State Of New York Appellate Term Of The Supreme Court First Department At Law",
             "Court Appellate Term 2D 11Th And 13Th Judicial Districts",
             "Court Appellate Term 9Th And 10Th Judicial Districts",
-            "In The Supreme Court Of New York Appellate Term Second Department"
+            "In The Supreme Court Of New York Appellate Term Second Department",
+            "New York Supreme Court Supreme Court Appellate Term ${bw} Department"
         ],
         "court_url": "https://www.nycourts.gov/courts/1jd/supctmanh/appellate_term.shtml",
         "type": "appellate",
@@ -6769,7 +6836,8 @@
         "regex": [
             "Superior Court City Of New York",
             "Superior Court City Of Buffalo",
-            "Superior Court Of New York"
+            "Superior Court Of New York",
+            "New York Superior Court"
         ],
         "dates": [
             {
@@ -6851,7 +6919,9 @@
         "location": "New York"
     },
     {
-        "regex": [],
+        "regex": [
+          "New York Marine Court"
+        ],
         "dates": [
             {
                 "start": "1807-01-01",
@@ -6862,7 +6932,11 @@
         "level": "",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+          "New York Marine Court General Term",
+          "New York Marine Court Trial Term",
+          "New York Marine Court"
+        ],
         "type": "trial",
         "id": null,
         "location": "New York"
@@ -6997,7 +7071,9 @@
             "Integrated Domestic Violence Court Richmond County New York",
             "State Of New York City Court Trial",
             "Municipal Court Of New York",
-            "Municipal Court.*New York"
+            "Municipal Court.*New York",
+            "City Court Of The City Of New York",
+            "Brooklyn City Court"
         ],
         "dates": [
             {
@@ -7045,7 +7121,8 @@
             "Children S Court Of New York",
             "Domestic Relations Court.* New York",
             "Family Court Of New York",
-            "Family Court.* New York"
+            "Family Court.* New York",
+            "Children S Court"
         ],
         "dates": [
             {
@@ -7131,7 +7208,8 @@
             "Civil Court For The City Of New York",
             "State Of New York Civil Court Of The City Of New York",
             "Civil Court Of The City Of New York",
-            "Civil Court Of City Of New York Special Term"
+            "Civil Court Of City Of New York Special Term",
+            "Civil Court Of City Of New York"
         ],
         "dates": [
             {
@@ -7173,7 +7251,11 @@
             "Criminal Court County Of New York",
             "Magistrate S Court Of City Of New York",
             "State Of New York Criminal Court Of The City",
-            "State Of New York Magistrates Court Of The City Of New York Borough"
+            "State Of New York Magistrates Court Of The City Of New York Borough",
+            "Criminal Court Of The City Of New York",
+            "Magistrates Court City Of New York",
+            "Magistrate S Court Of New York",
+            "Magistrates Court Of New York City Of New York"
         ],
         "dates": [
             {
@@ -7225,7 +7307,8 @@
             "New York Court of Common Pleas",
             "Cour?t Of Common Pleas Of New York City",
             "Common Pleas Of New York City And County General Term",
-            "Court Of Common Pleas Of New York"
+            "Court Of Common Pleas Of New York",
+            "Common Pleas Of New York"
         ],
         "dates": [
             {
@@ -7365,7 +7448,13 @@
             "Supreme Court State Of New York County Of New York",
             "New York Supreme Court Of New York County",
             "New York Supreme Court Court Of First Instance Special Term King S County",
-            "Supreme Court Of New York"
+            "Supreme Court Of New York",
+            "New York Supreme Court",
+            "Supreme Court Special Term Part ${bw} New York County",
+            "Supreme Court Special Term ${ny_counties} County",
+            "Supreme Court Of The State Of New York County Of ${ny_counties}",
+            "Supreme Court Special Term ${ny_counties} County",
+            "Supreme Court Of Special Term ${ny_counties}"
         ],
         "dates": [
             {
@@ -8125,7 +8214,7 @@
             "Ohio Court of Appeals",
             "Ohio Appeals?.*Dist",
             "Ohio Appeals ${bw} Dist",
-            "Court Of Appeals?.*Ohio"
+            "Courts? Of Appeals?.* Ohio"
         ],
         "dates": [
             {
@@ -8170,7 +8259,11 @@
             "Court Of Common Pleas Summit County",
             "Court Of Common Pleas Portage County",
             "Court Of Common Pleas Wood County",
-            "Ohio Court Of Common Pleas"
+            "Ohio Court Of Common Pleas",
+            "Court Of Common Pleas Of.* Ohio",
+            "Common Pleas Court Of Ohio",
+            "Ohio Common Pleas",
+            "State Of Ohio Common Pleas Court"
         ],
         "dates": [
             {
@@ -8187,7 +8280,9 @@
             "Court Of Common Pleas Of Ohio Juvenile Division Lake County",
             "Court Of Common Pleas Of Ohio Greene County",
             "Court Of Common Pleas Summit County",
-            "Court Of Common Pleas Franklin County Ohio Civil Division"
+            "Court Of Common Pleas Franklin County Ohio Civil Division",
+            "Ohio Common Pleas",
+            "State Of Ohio Common Pleas Court"
         ],
         "type": "trial",
         "id": null,
@@ -8222,7 +8317,8 @@
             "(${oh_counties}) County Municipal Court",
             "Newton Falls Municipal Court",
             "State Of Ohio Municipal Court",
-            "Circleville Municipal Court"
+            "Circleville Municipal Court",
+            "State Of Ohio.* Municipal Court"
         ],
         "dates": [
             {
@@ -8690,7 +8786,8 @@
     {
         "regex": [
             "Supreme Court (((for)|(of)) the State )?of (the )?Oregon",
-            "Oregon,? Supreme Court"
+            "Oregon,? Supreme Court",
+            "Supreme Court Oregon"
         ],
         "dates": [
             {
@@ -8755,7 +8852,9 @@
     },
     {
         "regex": [
-            "Common Pleas Court Of.* Pennsylvania"
+            "Common Pleas Court.* Pennsylvania",
+            "Common Pleas Of.* Pennsylvania",
+            "Court Of Common Pleas.* Pennsylvania"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -8934,7 +9033,8 @@
         "regex": [
             "${dc} D Pennsylvania",
             "${dc} Pennsylvania",
-            "${usdc} D Pennsylvania"
+            "${usdc} D Pennsylvania",
+            "${usdc} Pennsylvania"
         ],
         "dates": [
             {
@@ -9077,7 +9177,17 @@
     },
     {
         "regex": [
-            "Tribunal Circuito De Apelaciones De Puerto Rico"
+            "Tribunal Circuito De Apelaciones De Puerto Rico",
+            "Tribunal Circuito De Apelaci Nes De Puerto Rico",
+            "Tribunal Circuito De Apelacines",
+            "Tribunal Circuito De Pel Ci Nes De Puerto",
+            "Tribunal De Apelaciones",
+            "Tribunal De Circuito De Apelaciones",
+            "Tribunal Circuito De Apelaciones",
+            "Tribunal Circuito De Apelac",
+            "Tribunal Circu To De Apelaciones",
+            "Tribunal De Apelaci Nes De Puerto",
+            "Tribunal Del Circuito De Apelaciones"
         ],
         "dates": [
             {
@@ -9090,6 +9200,29 @@
         "case_types": [],
         "system": "federal",
         "examples": [],
+        "type": "appellate",
+        "id": null,
+        "location": "Puerto Rico"
+    },
+  {
+        "regex": [
+            "Tribunal Supremo De Puerto Rico",
+            "Tribunal Supremo Of Puerto Rico"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Supreme Court of Puerto Rico",
+        "level": "colr",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Tribunal Supremo Of Puerto Rico",
+            "Tribunal Supremo De Puerto Rico0"
+        ],
         "type": "appellate",
         "id": null,
         "location": "Puerto Rico"
@@ -10128,7 +10261,8 @@
     {
         "regex": [
             "Circuit Court Of ${va_circuits} County Virginia",
-            "Circuit Court Of The City Of ${va_cities} Virginia"
+            "Circuit Court Of The City Of ${va_cities} Virginia",
+            "Circuit Court Of The City Of"
         ],
         "dates": [
             {
@@ -11070,7 +11204,32 @@
         "court_url": "http://www.dccourts.gov/internet/appellate/main.jsf",
         "type": "appellate",
         "id": "dc",
-        "location": ""
+        "location": "Washington D.C."
+    },
+  {
+        "regex": [
+            "${super} ${dc}",
+            "Superior Court Of The District Of Columbia"
+        ],
+        "dates": [
+            {
+                "start": "1970-01-01",
+                "end": null
+            }
+        ],
+        "name": "District of Columbia Court of Appeals",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+          "Superior Court Of The District Of Columbia",
+          "Superior Court Of The District Of Columbia Family Court",
+          "Superior Court Of The District Of Columbia Criminal Division",
+          "Superior Court Of The District Of Columbia Civil Division"
+        ],
+        "type": "trial",
+        "id": "dc",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -11230,7 +11389,9 @@
             "United States (Claims|Calims) Court",
             "United States Court of (Claims|Calims)",
             "Court Of Claims Of The United States",
-            "U S Court Of Claims"
+            "U S Court Of Claims",
+            "United States Of Court Claims",
+            "U S Claims Court"
         ],
         "name_abbreviation": "Ct. of Claims",
         "dates": [
@@ -12419,7 +12580,9 @@
         "regex": [
             "United States Court Of Military Appeals",
             "Court Of Military Appeals",
-            "U S Court Of Military Appeals"
+            "U S Court Of Military Appeals",
+            "United States Court Of Of Military Appeals",
+            "United States Of Court Military Appeals"
         ],
         "dates": [
             {
@@ -12442,7 +12605,8 @@
     {
         "regex": [
             "U S Navy Marine Corps Court Of Military Review",
-            "U S Navy Court Of Military Review"
+            "U S Navy Court Of Military Review",
+            "United States Navy Marine Corps Court Of Military"
         ],
         "name_abbreviation": "N-M. Ct. Mil. Rev.",
         "dates": [
@@ -12489,7 +12653,7 @@
     },
     {
         "regex": [
-            "U S Court Of Appeals For The Armed Forces"
+            "${uscoa} Armed Forces"
         ],
         "name_abbreviation": "",
         "dates": [
@@ -12503,7 +12667,8 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "U S Court Of Appeals For The Armed Forces"
+            "U S Court Of Appeals For The Armed Forces",
+            "United States Court Of Appeals For The Armed Forces Daily Journal"
         ],
         "court_url": "",
         "type": "special",
@@ -13412,7 +13577,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Dist D of Columbi"],
+        "regex": [
+            "Circuit Court D Dist D of Columbi",
+            "Circuit Court District Of Columbia"
+        ],
         "name_abbreviation": "Dist. of Columbia Cir. Ct",
         "dates": [
             {
@@ -13958,7 +14126,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Maryland"],
+        "regex": [
+            "Circuit Court D Maryland",
+            "Circuit Court Of The United States For The Maryland District"
+        ],
         "name_abbreviation": "Maryland. Cir. Ct",
         "dates": [
             {
@@ -13976,7 +14147,11 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Massachusetts"],
+        "regex": [
+            "Circuit Court D Massachusetts",
+            "Circuit Court District Of Massachusetts",
+            "Circuit Court Of U S Massachusetts District"
+        ],
         "name_abbreviation": "Massachusetts. Cir. Ct",
         "dates": [
             {
@@ -13991,7 +14166,9 @@
         "location": "Massachusetts",
         "type": "appellate",
         "id": "circtmass",
-        "examples": []
+        "examples": [
+            "Circuit Court Of U S Massachusetts District Equity Term"
+        ]
     },
     {
         "regex": ["Circuit Court E D Mich"],
@@ -14390,7 +14567,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Pa"],
+        "regex": [
+          "Circuit Court D Pa",
+          "Circuit Court D Pennsylvania"
+        ],
         "name_abbreviation": "Pa. Cir. Ct",
         "dates": [
             {
@@ -14405,10 +14585,12 @@
         "location": "Pa",
         "type": "appellate",
         "id": "circtpa",
-        "examples": []
+        "examples": [
+          "Circuit Court D Pennsylvania"
+        ]
     },
     {
-        "regex": ["Circuit Court W D Pa"],
+        "regex": ["Circuit Court W D Pennsylvania"],
         "name_abbreviation": "W. Pa. Cir. Ct",
         "dates": [
             {

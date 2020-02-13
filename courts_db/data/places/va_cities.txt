@@ -22,7 +22,7 @@ Buena Vista
 Campbell
 Caroline
 Carroll
-Charles City
+Charles
 Charlotte
 Charlottesville
 Chesapeake
@@ -59,10 +59,13 @@ Hopewell
 Isle of Wight
 James City County/Williamsburg
 King & Queen
+Williamsburg
 King George
 King William
 Lancaster
+Williamsburg And James City County
 Lee
+Princess Anne County
 Loudoun
 Louisa
 Lunenburg
@@ -93,12 +96,10 @@ Prince William
 Pulaski
 Radford
 Rappahannock
-Rappahannock
-Rappahannock
-Richmond City
-Richmond City
+Richmond
+Richmond
 Richmond County
-Roanoke City
+Roanoke
 Roanoke County
 Rockbridge
 Rockingham
@@ -117,6 +118,7 @@ Tazewell
 Virginia Beach
 Warren
 Washington
+Beach
 Washington
 Waynesboro
 Westmoreland

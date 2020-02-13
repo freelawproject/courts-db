@@ -1,27 +1,40 @@
 {
-    "md": "(\\b)M(iddle)? ?D(ist(rict)?)? ?(of)? ?",
-    "wd": "(\\b)W(estern)? ?D(ist(rict)?)? ?(of)? ?",
+    "md": "M(iddle)? ?D(ist)?((rict)?)? ?(of)? ?",
+    "wd": "W(est)?(ern)? ?D(ist(rict)?)? ?(of)? ?",
+    "sd": "S(o)?(ur?thern)? ?D(ist(rict)?)? ?(of)?",
+    "ed": "E(ast)?(ern)? ?D(ist(rict)?)? ?((of)|(to))? ?",
+    "nd": "N(o)?(rthern)? ?D(ist(rict)?)? ?(of)? ?",
+    "cd": "C(entral)? ?D(ist(rict)?)? ?(of)? ?",
+
     "d": "D(ist(rict)?)? ?(Court)? ?(of)? ?",
-    "usa": "((\\b)((U ?S)|(Unite(d|s)? State(s|d)?)) ?)",
-    "usdc": "(Unite(d|s) State(s|d))? ?District Court ?(for|of)? ?(the)? ?",
+
+    "usa": "(((U ?S ?)|(Unite(d|s)? State(s|d)?)) ?)",
+    "usdc": "(U(nite(d|s))? S(tate(s|d))?)? ?Dist(rict)? Court ?(for|of)? ?(the)? ?",
     "usdca": "Unite(t)?(d|s) State(s|d)? District Court of Appea(l|r)s? ?",
-    "uscoa": "Unite(t)?(d|s) State(s|d)? Court (of)? ?(of|on|to) Appea(l|r)s? ?((for ?(the)?)|(of the))?",
-    "ed": "(\\b)E(astern)? ?D(ist(rict)?)? ?((of)|(to))?",
-    "app": "(\\b)Appellate Court ?(of)? ?",
-    "la": "(Louisiana|Louisians|Lousiana)",
-    "nd": "(\\b)N(orthern)? ?D(ist(rict)?)? ?(of)?",
-    "dc": "(\\b)D(istrict) (of )?C(olumbia)",
-    "cd": "(\\b)C(entral)? ?D(ist(rict)?)? ?(of)?",
-    "coa": "(\\b)Courts? (of)? ?App?eals? ?(of ?)?",
-    "ccoa": "(\\b)Circuit Courts? of Appeals? ?(of ?)? ?(for the)?",
+    "uscoa": "U(nite(t)?(d|s))? S(tate(s|d)?)? Court (of)? ?(of|on|to) Appea(l|r)s? ?((for ?(the)?)|(of the))?",
+
+    "usbap": "United States Bankruptcy Appellate Panels? ?(of|for) ?(the)?",
+    "usbc": "United States Bankruptcy Court",
+
+    "app": "Appellate Court ?(of)? ?",
+
     "wv": "W(est) V(a|(irginia))",
     "pa": "(P(a|(ennsylvania))|Penna)",
+    "la": "(Louisiana|Louisians|Lousiana)",
+    "dc": "D(istrict) (of )?C(olumbia)",
     "il": "Illinois|Illinons|Ill(inois)",
-    "sup": "(\\b)Supreme Court ?(of ?)? ?(the)? ?",
     "va": "Virginia|Virgina",
+    "ny": "N(\\.|(ew)) ?Y(ork)?",
+    "sc": "S(\\.|(ou(r)?th))? C(\\.|(arolina))?",
+    "ga": "G(eorgi)?a",
+
+    "coa": "Courts? (ofr?t?)? ?App?eals? ?(of ?)?",
+    "ccoa": "Circuit Courts? of Appeals? ?(of ?)? ?(for the)?",
+
+    "sup": "(\\b)Supreme Court ?(of ?)? ?(the)? ?",
     "sjc": "Supreme Judicial Court ?(of)? ?",
-    "super": "(\\b)Superior Court ?(of?)? ?",
-    "sd": "(\\b)S(our?thern)? ?D(ist(rict)?)? ?(of)?",
+    "super": "Superior Court ?(of?)? ?",
+
     "n1": "(First|One|1st|1)",
     "n2": "(Second|Two|2nd|2)",
     "n3": "(Third|Three|3rd|3)",
@@ -33,10 +46,7 @@
     "n9": "(Ninth|Nine|9th|9)",
     "n10": "(Tenth|Ten|10th|10)",
     "n11": "(Eleventh|Eleven|11th|11)",
-    "ny": "N(\\.|(ew)) ?Y(ork)?",
-    "sc": "S(\\.|(ou(r)?th))? C(\\.|(arolina))?",
-    "usbap": "United States Bankruptcy Appellate Panels? ?(of|for) ?(the)?",
-    "usbc": "United States Bankruptcy Court",
+
     "bw": "([A-Za-z]+)"
 
 }
