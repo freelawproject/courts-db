@@ -19,7 +19,7 @@
     "il": "Illinois|Illinons|Ill(inois)",
     "sup": "(\\b)Supreme Court ?(of ?)? ?(the)? ?",
     "va": "Virginia|Virgina",
-    "sjc": "(\\b)Supreme Judicial Court ?(of)? ?",
+    "sjc": "Supreme Judicial Court ?(of)? ?",
     "super": "(\\b)Superior Court ?(of?)? ?",
     "sd": "(\\b)S(our?thern)? ?D(ist(rict)?)? ?(of)?",
     "n1": "(First|One|1st|1)",
