@@ -90,7 +90,7 @@ def gather_regexes(courts, bankruptcy=False):
     return regexes
 
 
-def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
+def find_court(court_str, filed_date=None, regexes=None, bankruptcy=False):
     """
 
     :param court_str:
@@ -152,7 +152,7 @@ class ConstantsTest(TestCase):
         for court in courts:
             try:
                 for example in court["examples"]:
-                    matches = find_court_alt(
+                    matches = find_court(
                         court_str=example, regexes=regexes
                     )
                     results = list(set(matches))
@@ -209,7 +209,7 @@ class ConstantsTest(TestCase):
 
         regexes = gather_regexes(courts)
 
-        matches2 = find_court_alt(court_str=sample_text, regexes=regexes)
+        matches2 = find_court(court_str=sample_text, regexes=regexes)
         self.assertEqual(list(set(matches2)), [court_id], "Failure")
 
         print(list(set(matches2)), end=" ")
