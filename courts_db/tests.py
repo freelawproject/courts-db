@@ -67,6 +67,52 @@ def get_court_list(fp):
 
     return court_set
 
+def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
+    """
+
+    :param court_str:
+    :param filed_date:
+    :param regexes:
+    :return:
+    """
+    cd = {}
+    cdd = []
+    court_matches = []
+    for regex in regexes:
+        if re.search(regex[0], court_str):
+            court_matches.append(regex[1])
+
+            cd[re.search(regex[0], court_str).group()] = regex[1]
+            cdd.append(
+                {"id": regex[1],
+                 "text": re.search(regex[0], court_str).group()}
+            )
+            print cdd
+
+    results = list(set(court_matches))
+    if len(results) > 1:
+        flist = []
+        remove_list = [x['text'] for x in cdd]
+        subsetlist = []
+
+        for test in remove_list:
+            for item in [x for x in remove_list if x != test]:
+                if test in item:
+                    subsetlist.append(test)
+        final_list = [x for x in remove_list if x not in subsetlist]
+        for r in cdd:
+            if r['text'] in final_list:
+                if bankruptcy == True:
+                    pass
+                else:
+                    court_key = r['id']
+                    if court_key != "" and court_key is not None:
+                        if court_key[-1] != "b":
+                            flist.append(r['id'])
+        return flist
+
+    return court_matches
+
 
 def find_court(court_str, filed_date=None, courts_db=None):
     """
@@ -95,7 +141,6 @@ def find_court(court_str, filed_date=None, courts_db=None):
                         {"id":court['id'],
                         "text":re.search(regex, court_str).group()}
                    )
-                    break
     else:
         filed_date = dt.strptime(filed_date, "%Y-%m-%d")
         court_matches = []
@@ -124,12 +169,14 @@ def find_court(court_str, filed_date=None, courts_db=None):
 
     results = list(set(court_matches))
     flist = []
+
     if len(results) > 1:
+        print results
         remove_list = [x['text'] for x in cdd]
         subsetlist = []
 
         for test in remove_list:
-            # print remove_list
+            print remove_list
             for item in [x for x in remove_list if x != test]:
                 if test in item:
                     subsetlist.append(test)
@@ -176,14 +223,35 @@ class ConstantsTest(TestCase):
                 print (str(e))
                 print "Fail at", court['name']
 
+    def test_specific_example(self):
+        s = load_template()
+        courts = json.loads(s)
+        for court in courts:
+            if court["id"] == "illappct":
+                try:
+                    for example in court['examples']:
+                        matches = find_court(
+                            court_str=example,
+                            filed_date=None,
+                            courts_db=courts
+                        )
+                        results = list(set(matches))
+                        if len(results) == 1:
+                            if results == [court['id']]:
+                                continue
+                        else:
+                            print results, [court["id"]], "\txx\t", example, "\n" #court['regex']
+                except Exception as e:
+                    print (str(e))
+                    print "Fail at", court['name']
 
     def test_str(self):
         # """Can we extract the correct court id from string and date?"""
 
         s = load_template()
         courts = json.loads(s)
-
-        text = "United States District Court For The District Of Canal Zone"
+        regexes = []
+        text = "Supreme Court of the United States"
         if re.search(accents, text):
             text = remove_accents(text)
 
@@ -192,6 +260,34 @@ class ConstantsTest(TestCase):
             filed_date=None,
             courts_db=courts
         )
+
+        for court in courts:
+            for reg_str in court['regex']:
+                if re.search(accents, reg_str):
+                    reg_str = unicodedata.normalize('NFKD',
+                                  reg_str.decode('unicode-escape')).\
+                                          encode('ascii', 'ignore')
+
+                reg_str = re.sub(r'\s{2,}', ' ', reg_str)
+                regex = re.compile(reg_str, re.I)
+                regexes.append((regex, court['id']))
+
+        matches2 = find_court_alt(
+            court_str=text,
+            filed_date=None,
+            regexes=regexes,
+            bankruptcy=None
+        )
+
+        self.assertEqual(matches,
+                         matches2,
+                         "%s != %s" % (list(set(matches)),
+                                       list(set(matches2))
+                               )
+                         )
+        print matches,
+        print list(set(matches2)),
+        print u"√"
 
 
 if __name__ == '__main__':
