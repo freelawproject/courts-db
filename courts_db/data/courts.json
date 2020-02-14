@@ -4,7 +4,8 @@
             "${sup} Alabama",
             "(State of )?Alabama,? ${sup}",
             "State of Alabama Judicial Department ${sup}",
-            "Supreme Court Of Alabama"
+            "Supreme Court Of Alabama",
+            "Alabama Supreme Court"
         ],
         "name_abbreviation": null,
         "dates": [
