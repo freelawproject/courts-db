@@ -15,8 +15,7 @@ from glob import iglob
 from string import Template, punctuation
 from unittest import TestCase
 
-reg_punc = re.compile("[%s]" % re.escape(punctuation))
-combined_whitespace = re.compile(r"\s+")
+
 accents = re.compile("([^\w\s%s]+)" % re.escape(punctuation))
 courts = re.compile("(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)")
 
@@ -40,14 +39,6 @@ def load_template():
     s = Template(json.dumps(court_data)).substitute(**variables)
 
     return s.replace("\\", "\\\\")
-
-
-def clean_punct(court_str):
-    clean_court_str = reg_punc.sub(" ", court_str)
-    clean_court_str = combined_whitespace.sub(" ", clean_court_str).strip()
-    ccs = "%s" % clean_court_str.title()
-
-    return ccs
 
 
 def remove_accents(text):
