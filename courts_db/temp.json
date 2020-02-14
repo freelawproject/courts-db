@@ -1,0 +1,3386 @@
+{
+    "ilsd": {
+        "end_date": "None",
+        "url": "http://www.ilsd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Illinois",
+        "id": "ilsd"
+    },
+    "kanag": {
+        "end_date": "None",
+        "url": "http://ag.ks.gov/about-the-office/contact-us",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Kansas Attorney General Reports",
+        "id": "kanag"
+    },
+    "ilsb": {
+        "end_date": "None",
+        "url": "http://www.ilsb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Illinois",
+        "id": "ilsb"
+    },
+    "scd": {
+        "end_date": "None",
+        "url": "http://www.scd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. South Carolina",
+        "id": "scd"
+    },
+    "ald": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Alabama",
+        "id": "ald"
+    },
+    "cacb": {
+        "end_date": "None",
+        "url": "http://www.cacb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, C.D. California",
+        "id": "cacb"
+    },
+    "scb": {
+        "end_date": "None",
+        "url": "http://www.scb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. South Carolina",
+        "id": "scb"
+    },
+    "ganb": {
+        "end_date": "None",
+        "url": "http://www.ganb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Georgia",
+        "id": "ganb"
+    },
+    "bva": {
+        "end_date": "None",
+        "url": "http://www.index.va.gov/search/va/bva_search.jsp",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "Board of Veterans' Appeals",
+        "id": "bva"
+    },
+    "gand": {
+        "end_date": "None",
+        "url": "http://www.gand.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Georgia",
+        "id": "gand"
+    },
+    "mnb": {
+        "end_date": "None",
+        "url": "http://www.mnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Minnesota",
+        "id": "mnb"
+    },
+    "flsd": {
+        "end_date": "None",
+        "url": "http://www.flsd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Florida",
+        "id": "flsd"
+    },
+    "mnd": {
+        "end_date": "None",
+        "url": "http://www.mnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Minnesota",
+        "id": "mnd"
+    },
+    "flsb": {
+        "end_date": "None",
+        "url": "http://www.flsb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Florida.",
+        "id": "flsb"
+    },
+    "illinoised": {
+        "end_date": "1978-10-02",
+        "url": "https://en.wikipedia.org/wiki/United_States_District_Court_for_the_Eastern_District_of_Illinois",
+        "jurisdiction": "FD",
+        "start_date": "1905-03-03",
+        "full_name": "District Court, E.D. Illinois",
+        "id": "illinoised"
+    },
+    "ncsuperct": {
+        "end_date": "None",
+        "url": "http://www.nccourts.org/Courts/Trial/Superior/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Superior Court of North Carolina",
+        "id": "ncsuperct"
+    },
+    "circtnc": {
+        "end_date": "1912-01-01",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_circuit_nc.html",
+        "jurisdiction": "FD",
+        "start_date": "1790-06-04",
+        "full_name": "U.S. Circuit Court for the District of North Carolina",
+        "id": "circtnc"
+    },
+    "ariz": {
+        "end_date": "None",
+        "url": "http://www.azcourts.gov/azsupremecourt.aspx",
+        "jurisdiction": "S",
+        "start_date": "1912-01-01",
+        "full_name": "Arizona Supreme Court",
+        "id": "ariz"
+    },
+    "jpml": {
+        "end_date": "None",
+        "url": "http://www.jpml.uscourts.gov/",
+        "jurisdiction": "C",
+        "start_date": "None",
+        "full_name": "United States Judicial Panel on Multidistrict Litigation",
+        "id": "jpml"
+    },
+    "fladistctapp": {
+        "end_date": "None",
+        "url": "http://www.flcourts.org/courts/dca/dca.shtml",
+        "jurisdiction": "SA",
+        "start_date": "1957-01-01",
+        "full_name": "District Court of Appeal of Florida",
+        "id": "fladistctapp"
+    },
+    "flmb": {
+        "end_date": "None",
+        "url": "http://www.flmb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. Florida",
+        "id": "flmb"
+    },
+    "flmd": {
+        "end_date": "None",
+        "url": "http://www.flmd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. Florida",
+        "id": "flmd"
+    },
+    "bap9": {
+        "end_date": "None",
+        "url": "http://www.ca9.uscourts.gov/bap/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Appellate Panel for the Ninth Circuit",
+        "id": "bap9"
+    },
+    "bap8": {
+        "end_date": "None",
+        "url": "http://www.ca8.uscourts.gov/bankruptcy-appellate-panel",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Appellate Panel for the Eighth Circuit",
+        "id": "bap8"
+    },
+    "bap2": {
+        "end_date": "None",
+        "url": "http://www.bap2.uscourts.gov/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "Bankruptcy Appellate Panel of the Second Circuit",
+        "id": "bap2"
+    },
+    "bap1": {
+        "end_date": "None",
+        "url": "http://www.bap1.uscourts.gov/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "Bankruptcy Appellate Panel of the First Circuit",
+        "id": "bap1"
+    },
+    "ala": {
+        "end_date": "None",
+        "url": "http://judicial.alabama.gov/supreme.cfm",
+        "jurisdiction": "S",
+        "start_date": "1819-01-01",
+        "full_name": "Supreme Court of Alabama",
+        "id": "ala"
+    },
+    "bap6": {
+        "end_date": "None",
+        "url": "http://www.bap6.uscourts.gov/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "Bankruptcy Appellate Panel of the Sixth Circuit",
+        "id": "bap6"
+    },
+    "almd": {
+        "end_date": "None",
+        "url": "http://www.almd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. Alabama",
+        "id": "almd"
+    },
+    "gub": {
+        "end_date": "None",
+        "url": "https://en.wikipedia.org/wiki/District_Court_of_Guam",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Guam",
+        "id": "gub"
+    },
+    "almb": {
+        "end_date": "None",
+        "url": "http://www.almb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. Alabama",
+        "id": "almb"
+    },
+    "gud": {
+        "end_date": "None",
+        "url": "http://www.gud.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Guam",
+        "id": "gud"
+    },
+    "njch": {
+        "end_date": "1947-12-31",
+        "url": "http://www.nj.gov/state/archives/catsjchance.html",
+        "jurisdiction": "SA",
+        "start_date": "1684-01-01",
+        "full_name": "New Jersey Court of Chancery",
+        "id": "njch"
+    },
+    "txwd": {
+        "end_date": "None",
+        "url": "http://www.txwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Texas",
+        "id": "txwd"
+    },
+    "idahoctapp": {
+        "end_date": "None",
+        "url": "http://www.isc.idaho.gov/",
+        "jurisdiction": "SA",
+        "start_date": "1982-01-04",
+        "full_name": "Idaho Court of Appeals",
+        "id": "idahoctapp"
+    },
+    "txwb": {
+        "end_date": "None",
+        "url": "http://www.txwd.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States District Court, W.D. Texas",
+        "id": "txwb"
+    },
+    "delsuperct": {
+        "end_date": "None",
+        "url": "http://courts.delaware.gov/Superior/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Superior Court of Delaware",
+        "id": "delsuperct"
+    },
+    "nynb": {
+        "end_date": "None",
+        "url": "http://www.nynb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. New York",
+        "id": "nynb"
+    },
+    "nynd": {
+        "end_date": "None",
+        "url": "http://www.nynd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. New York",
+        "id": "nynd"
+    },
+    "illappct": {
+        "end_date": "None",
+        "url": "http://www.state.il.us/court/appellatecourt/",
+        "jurisdiction": "SA",
+        "start_date": "1877-01-01",
+        "full_name": "Appellate Court of Illinois",
+        "id": "illappct"
+    },
+    "tex": {
+        "end_date": "None",
+        "url": "http://www.supreme.courts.state.tx.us/",
+        "jurisdiction": "S",
+        "start_date": "1840-01-01",
+        "full_name": "Texas Supreme Court",
+        "id": "tex"
+    },
+    "afcca": {
+        "end_date": "None",
+        "url": "http://afcca.law.af.mil/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "United States Air Force Court of Criminal Appeals",
+        "id": "afcca"
+    },
+    "asbca": {
+        "end_date": "None",
+        "url": "http://www.asbca.mil/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "Armed Services Board of Contract Appeals",
+        "id": "asbca"
+    },
+    "ohnd": {
+        "end_date": "None",
+        "url": "http://www.ohnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Ohio",
+        "id": "ohnd"
+    },
+    "ohnb": {
+        "end_date": "None",
+        "url": "http://www.ohnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Ohio",
+        "id": "ohnb"
+    },
+    "missctapp": {
+        "end_date": "None",
+        "url": "http://courts.ms.gov/appellate_courts/coa/coa.html",
+        "jurisdiction": "SA",
+        "start_date": "1995-01-01",
+        "full_name": "Court of Appeals of Mississippi",
+        "id": "missctapp"
+    },
+    "ned": {
+        "end_date": "None",
+        "url": "http://www.ned.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Nebraska",
+        "id": "ned"
+    },
+    "neb": {
+        "end_date": "None",
+        "url": "http://supremecourt.ne.gov/",
+        "jurisdiction": "S",
+        "start_date": "1854-01-01",
+        "full_name": "Nebraska Supreme Court",
+        "id": "neb"
+    },
+    "tenncrimapp": {
+        "end_date": "None",
+        "url": "http://www.tsc.state.tn.us/courts/court-criminal-appeals",
+        "jurisdiction": "SA",
+        "start_date": "1925-01-01",
+        "full_name": "Court of Criminal Appeals of Tennessee",
+        "id": "tenncrimapp"
+    },
+    "cit": {
+        "end_date": "None",
+        "url": "http://www.cit.uscourts.gov/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "United States Court of International Trade",
+        "id": "cit"
+    },
+    "washd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Washington",
+        "id": "washd"
+    },
+    "nev": {
+        "end_date": "None",
+        "url": "http://www.nevadajudiciary.us/index.php/supremecourt",
+        "jurisdiction": "S",
+        "start_date": "1864-01-01",
+        "full_name": "Nevada Supreme Court",
+        "id": "nev"
+    },
+    "med": {
+        "end_date": "None",
+        "url": "http://www.med.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Maine",
+        "id": "med"
+    },
+    "meb": {
+        "end_date": "None",
+        "url": "http://www.meb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": " United States Bankruptcy Court, D. Maine",
+        "id": "meb"
+    },
+    "texjpml": {
+        "end_date": "None",
+        "url": "http://www.txcourts.gov/about-texas-courts/multi-district-litigation-panel.aspx",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Texas Judicial Panel on Multidistrict Litigation",
+        "id": "texjpml"
+    },
+    "michd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Michigan",
+        "id": "michd"
+    },
+    "vaeb": {
+        "end_date": "None",
+        "url": "https://www.vaeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Virginia",
+        "id": "vaeb"
+    },
+    "vaed": {
+        "end_date": "None",
+        "url": "http://www.vaed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Virginia",
+        "id": "vaed"
+    },
+    "southcarolinaed": {
+        "end_date": "1965-10-07",
+        "url": "http://www.scd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1823-02-21",
+        "full_name": "District Court, E.D. South Carolina",
+        "id": "southcarolinaed"
+    },
+    "alaska": {
+        "end_date": "None",
+        "url": "http://courts.alaska.gov/sp.htm",
+        "jurisdiction": "S",
+        "start_date": "1959-01-03",
+        "full_name": "Alaska Supreme Court",
+        "id": "alaska"
+    },
+    "fld": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Florida",
+        "id": "fld"
+    },
+    "ctd": {
+        "end_date": "None",
+        "url": "http://www.ctd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Connecticut",
+        "id": "ctd"
+    },
+    "ctb": {
+        "end_date": "None",
+        "url": "http://www.ctb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Connecticut",
+        "id": "ctb"
+    },
+    "akb": {
+        "end_date": "None",
+        "url": "http://www.akb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Alaska",
+        "id": "akb"
+    },
+    "lactapp": {
+        "end_date": "None",
+        "url": "http://louisiana.gov/Government/Judicial_Branch/#courtsofappeal",
+        "jurisdiction": "SA",
+        "start_date": "1879-01-01",
+        "full_name": "Louisiana Court of Appeal",
+        "id": "lactapp"
+    },
+    "akd": {
+        "end_date": "None",
+        "url": "http://www.akd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Alaska",
+        "id": "akd"
+    },
+    "iand": {
+        "end_date": "None",
+        "url": "http://www.iand.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Iowa",
+        "id": "iand"
+    },
+    "ianb": {
+        "end_date": "None",
+        "url": "http://www.ianb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Iowa",
+        "id": "ianb"
+    },
+    "wis": {
+        "end_date": "None",
+        "url": "http://www.wicourts.gov/courts/supreme/index.htm",
+        "jurisdiction": "S",
+        "start_date": "1836-01-01",
+        "full_name": "Wisconsin Supreme Court",
+        "id": "wis"
+    },
+    "risuperct": {
+        "end_date": "None",
+        "url": "https://www.courts.ri.gov/Courts/SuperiorCourt/Pages/default.aspx",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Superior Court of Rhode Island",
+        "id": "risuperct"
+    },
+    "ca9": {
+        "end_date": "None",
+        "url": "http://www.ca9.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Ninth Circuit",
+        "id": "ca9"
+    },
+    "ca8": {
+        "end_date": "None",
+        "url": "http://www.ca8.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Eighth Circuit",
+        "id": "ca8"
+    },
+    "kanctapp": {
+        "end_date": "None",
+        "url": "http://www.kscourts.org/kansas-courts/court-of-appeals/",
+        "jurisdiction": "SA",
+        "start_date": "1977-01-10",
+        "full_name": "Court of Appeals of Kansas",
+        "id": "kanctapp"
+    },
+    "ksd": {
+        "end_date": "None",
+        "url": "http://www.ksd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Kansas",
+        "id": "ksd"
+    },
+    "ca3": {
+        "end_date": "None",
+        "url": "http://www.ca3.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Third Circuit",
+        "id": "ca3"
+    },
+    "ca2": {
+        "end_date": "None",
+        "url": "http://www.ca2.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Second Circuit",
+        "id": "ca2"
+    },
+    "ca1": {
+        "end_date": "None",
+        "url": "http://www.ca1.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the First Circuit",
+        "id": "ca1"
+    },
+    "ca7": {
+        "end_date": "None",
+        "url": "http://www.ca7.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Seventh Circuit",
+        "id": "ca7"
+    },
+    "ca6": {
+        "end_date": "None",
+        "url": "http://www.ca6.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Sixth Circuit",
+        "id": "ca6"
+    },
+    "ca5": {
+        "end_date": "None",
+        "url": "http://www.ca5.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Fifth Circuit",
+        "id": "ca5"
+    },
+    "ccpa": {
+        "end_date": "1982-04-02",
+        "url": "http://www.cafc.uscourts.gov/",
+        "jurisdiction": "FS",
+        "start_date": "1909-08-05",
+        "full_name": "Court of Customs and Patent Appeals",
+        "id": "ccpa"
+    },
+    "flnb": {
+        "end_date": "None",
+        "url": "http://www.flnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Florida",
+        "id": "flnb"
+    },
+    "flnd": {
+        "end_date": "None",
+        "url": "http://www.flnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Florida",
+        "id": "flnd"
+    },
+    "tax": {
+        "end_date": "None",
+        "url": "http://www.ustaxcourt.gov/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "United States Tax Court",
+        "id": "tax"
+    },
+    "moed": {
+        "end_date": "None",
+        "url": "http://www.moed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Missouri",
+        "id": "moed"
+    },
+    "oklajeap": {
+        "end_date": "None",
+        "url": "http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKCSJE&level=1",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Oklahoma Judicial Ethics Advisory Panel",
+        "id": "oklajeap"
+    },
+    "tnmd": {
+        "end_date": "None",
+        "url": "http://www.tnmd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. Tennessee",
+        "id": "tnmd"
+    },
+    "caca": {
+        "end_date": "1812-04-30",
+        "url": "http://www.fjc.gov/history/home.nsf/page/landmark_07.html",
+        "jurisdiction": "FD",
+        "start_date": "1804-10-01",
+        "full_name": "Circuit Court for California",
+        "id": "caca"
+    },
+    "southcarolinawd": {
+        "end_date": "1965-10-07",
+        "url": "http://www.ncwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1823-02-21",
+        "full_name": "District Court, W.D. South Carolina",
+        "id": "southcarolinawd"
+    },
+    "tnmb": {
+        "end_date": "None",
+        "url": "http://www.tnmb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. Tennessee",
+        "id": "tnmb"
+    },
+    "vawd": {
+        "end_date": "None",
+        "url": "http://www.vawd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Virginia",
+        "id": "vawd"
+    },
+    "wva": {
+        "end_date": "None",
+        "url": "http://www.courtswv.gov/supreme-court/",
+        "jurisdiction": "S",
+        "start_date": "1863-01-01",
+        "full_name": "West Virginia Supreme Court",
+        "id": "wva"
+    },
+    "vawb": {
+        "end_date": "None",
+        "url": "http://www.vawb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Virginia",
+        "id": "vawb"
+    },
+    "me": {
+        "end_date": "None",
+        "url": "http://www.courts.state.me.us/maine_courts/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1830-01-01",
+        "full_name": "Supreme Judicial Court of Maine",
+        "id": "me"
+    },
+    "md": {
+        "end_date": "None",
+        "url": "http://www.courts.state.md.us/coappeals/",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Court of Appeals of Maryland",
+        "id": "md"
+    },
+    "mc": {
+        "end_date": "None",
+        "url": "http://www.mc.mil/cases/USCourtofMilitaryCommissionReview.aspx",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "United States Court of Military Commission Review",
+        "id": "mc"
+    },
+    "mo": {
+        "end_date": "None",
+        "url": "http://www.courts.mo.gov/page.jsp?id=27",
+        "jurisdiction": "S",
+        "start_date": "1821-01-01",
+        "full_name": "Supreme Court of Missouri",
+        "id": "mo"
+    },
+    "del": {
+        "end_date": "None",
+        "url": "http://courts.delaware.gov/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1832-01-01",
+        "full_name": "Supreme Court of Delaware",
+        "id": "del"
+    },
+    "cal": {
+        "end_date": "None",
+        "url": "http://www.courts.ca.gov/supremecourt.htm",
+        "jurisdiction": "S",
+        "start_date": "1849-01-01",
+        "full_name": "California Supreme Court",
+        "id": "cal"
+    },
+    "fla": {
+        "end_date": "None",
+        "url": "http://www.floridasupremecourt.org/",
+        "jurisdiction": "S",
+        "start_date": "1845-01-01",
+        "full_name": "Supreme Court of Florida",
+        "id": "fla"
+    },
+    "vt": {
+        "end_date": "None",
+        "url": "http://www.vermontjudiciary.org/gtc/supreme/default.aspx",
+        "jurisdiction": "S",
+        "start_date": "1778-01-01",
+        "full_name": "Supreme Court of Vermont",
+        "id": "vt"
+    },
+    "deb": {
+        "end_date": "None",
+        "url": "http://www.deb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Delaware",
+        "id": "deb"
+    },
+    "txsb": {
+        "end_date": "None",
+        "url": "http://www.txs.uscourts.gov/bankruptcy/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Texas",
+        "id": "txsb"
+    },
+    "ded": {
+        "end_date": "None",
+        "url": "http://www.ded.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Delaware",
+        "id": "ded"
+    },
+    "txsd": {
+        "end_date": "None",
+        "url": "http://www.txs.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Texas",
+        "id": "txsd"
+    },
+    "hid": {
+        "end_date": "None",
+        "url": "http://www.hid.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Hawaii",
+        "id": "hid"
+    },
+    "kyeb": {
+        "end_date": "None",
+        "url": "http://www.kyeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Kentucky",
+        "id": "kyeb"
+    },
+    "kyed": {
+        "end_date": "None",
+        "url": "http://www.kyed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Kentucky",
+        "id": "kyed"
+    },
+    "pawb": {
+        "end_date": "None",
+        "url": "http://www.pawb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Pennsylvania",
+        "id": "pawb"
+    },
+    "ndctapp": {
+        "end_date": "None",
+        "url": "http://www.ndcourts.gov/default.htm",
+        "jurisdiction": "SA",
+        "start_date": "1987-09-01",
+        "full_name": "North Dakota Court of Appeals",
+        "id": "ndctapp"
+    },
+    "pawd": {
+        "end_date": "None",
+        "url": "http://www.pawd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Pennsylvania",
+        "id": "pawd"
+    },
+    "kyd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Kentucky",
+        "id": "kyd"
+    },
+    "canalzoned": {
+        "end_date": "1982-03-31",
+        "url": "https://en.wikipedia.org/wiki/United_States_District_Court_for_the_Canal_Zone",
+        "jurisdiction": "FD",
+        "start_date": "1937-07-26",
+        "full_name": "District Court, Canal Zone",
+        "id": "canalzoned"
+    },
+    "lamb": {
+        "end_date": "None",
+        "url": "http://www.lamb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. Louisiana",
+        "id": "lamb"
+    },
+    "lamd": {
+        "end_date": "None",
+        "url": "http://www.lamd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. Louisiana",
+        "id": "lamd"
+    },
+    "monttc": {
+        "end_date": "None",
+        "url": "http://mtab.mt.gov/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Montana Tax Appeal Board",
+        "id": "monttc"
+    },
+    "nyd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. New York",
+        "id": "nyd"
+    },
+    "insb": {
+        "end_date": "None",
+        "url": "http://www.insb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Indiana",
+        "id": "insb"
+    },
+    "insd": {
+        "end_date": "None",
+        "url": "http://www.insd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1928-04-21",
+        "full_name": "District Court, S.D. Indiana",
+        "id": "insd"
+    },
+    "lad": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Louisiana",
+        "id": "lad"
+    },
+    "gasb": {
+        "end_date": "None",
+        "url": "http://www.gasb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Georgia",
+        "id": "gasb"
+    },
+    "gasd": {
+        "end_date": "None",
+        "url": "http://www.gasd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Georgia",
+        "id": "gasd"
+    },
+    "mab": {
+        "end_date": "None",
+        "url": "http://www.mab.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Massachusetts",
+        "id": "mab"
+    },
+    "mad": {
+        "end_date": "None",
+        "url": "http://www.mad.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Massachusetts",
+        "id": "mad"
+    },
+    "waed": {
+        "end_date": "None",
+        "url": "http://www.waed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1905-03-02",
+        "full_name": "District Court, E.D. Washington",
+        "id": "waed"
+    },
+    "nebraskab": {
+        "end_date": "None",
+        "url": "http://www.neb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Nebraska",
+        "id": "nebraskab"
+    },
+    "waeb": {
+        "end_date": "None",
+        "url": "http://www.waeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Washington",
+        "id": "waeb"
+    },
+    "tennesseeb": {
+        "end_date": "1801-01-01",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_district_tn_mp.html",
+        "jurisdiction": "FB",
+        "start_date": "1797-01-01",
+        "full_name": "United States Bankruptcy Court, D. Tennessee",
+        "id": "tennesseeb"
+    },
+    "ncworkcompcom": {
+        "end_date": "None",
+        "url": "http://www.ic.nc.gov/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "North Carolina Industrial Commission",
+        "id": "ncworkcompcom"
+    },
+    "ilcd": {
+        "end_date": "None",
+        "url": "http://www.ilcd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, C.D. Illinois",
+        "id": "ilcd"
+    },
+    "sc": {
+        "end_date": "None",
+        "url": "http://www.judicial.state.sc.us/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Supreme Court of South Carolina",
+        "id": "sc"
+    },
+    "ilcb": {
+        "end_date": "None",
+        "url": "http://www.ilcb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": " United States Bankruptcy Court, C.D. Illinois",
+        "id": "ilcb"
+    },
+    "mdag": {
+        "end_date": "None",
+        "url": "https://www.oag.state.md.us/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Maryland Attorney General Reports",
+        "id": "mdag"
+    },
+    "sd": {
+        "end_date": "None",
+        "url": "http://www.sdjudicial.com/",
+        "jurisdiction": "S",
+        "start_date": "1889-01-01",
+        "full_name": "South Dakota Supreme Court",
+        "id": "sd"
+    },
+    "wawd": {
+        "end_date": "None",
+        "url": "http://www.wawd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1905-03-02",
+        "full_name": "District Court, W.D. Washington",
+        "id": "wawd"
+    },
+    "wawb": {
+        "end_date": "None",
+        "url": "http://www.wawb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Washington",
+        "id": "wawb"
+    },
+    "vtb": {
+        "end_date": "None",
+        "url": "http://www.vtb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Vermont",
+        "id": "vtb"
+    },
+    "orctapp": {
+        "end_date": "None",
+        "url": "http://courts.oregon.gov/COA/",
+        "jurisdiction": "SA",
+        "start_date": "1969-07-01",
+        "full_name": "Court of Appeals of Oregon",
+        "id": "orctapp"
+    },
+    "vtd": {
+        "end_date": "None",
+        "url": "http://www.vtd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Vermont",
+        "id": "vtd"
+    },
+    "la": {
+        "end_date": "None",
+        "url": "http://www.lasc.org/",
+        "jurisdiction": "S",
+        "start_date": "1813-01-01",
+        "full_name": "Supreme Court of Louisiana",
+        "id": "la"
+    },
+    "tennctapp": {
+        "end_date": "None",
+        "url": "http://www.tncourts.gov/courts/court-appeals",
+        "jurisdiction": "SA",
+        "start_date": "1925-01-01",
+        "full_name": "Court of Appeals of Tennessee",
+        "id": "tennctapp"
+    },
+    "texag": {
+        "end_date": "None",
+        "url": "https://texasattorneygeneral.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Texas Attorney General Reports",
+        "id": "texag"
+    },
+    "sttex": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "C",
+        "start_date": "None",
+        "full_name": "United States Special Tribunal of Texas",
+        "id": "sttex"
+    },
+    "wvsb": {
+        "end_date": "None",
+        "url": "http://www.wvsb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. West Virginia",
+        "id": "wvsb"
+    },
+    "wvsd": {
+        "end_date": "None",
+        "url": "http://www.wvsd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. West Virginia",
+        "id": "wvsd"
+    },
+    "wisctapp": {
+        "end_date": "None",
+        "url": "http://www.wicourts.gov/courts/appeals/",
+        "jurisdiction": "SA",
+        "start_date": "1978-08-01",
+        "full_name": "Court of Appeals of Wisconsin",
+        "id": "wisctapp"
+    },
+    "iowa": {
+        "end_date": "None",
+        "url": "http://www.iowacourts.gov/supreme_court/",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Supreme Court of Iowa",
+        "id": "iowa"
+    },
+    "scotus": {
+        "end_date": "None",
+        "url": "http://supremecourt.gov/",
+        "jurisdiction": "F",
+        "start_date": "1789-09-24",
+        "full_name": "Supreme Court of the United States",
+        "id": "scotus"
+    },
+    "nyappterm": {
+        "end_date": "None",
+        "url": "https://www.nycourts.gov/courts/1jd/supctmanh/appellate_term.shtml",
+        "jurisdiction": "SA",
+        "start_date": "1896-01-01",
+        "full_name": "Appellate Terms of the Supreme Court of New York",
+        "id": "nyappterm"
+    },
+    "cusc": {
+        "end_date": "1980-01-01",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_special_cc_bib.html",
+        "jurisdiction": "FS",
+        "start_date": "1926-01-01",
+        "full_name": "United States Customs Court",
+        "id": "cusc"
+    },
+    "wvad": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. West Virginia",
+        "id": "wvad"
+    },
+    "okwb": {
+        "end_date": "None",
+        "url": "http://www.okwb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Oklahoma",
+        "id": "okwb"
+    },
+    "texreview": {
+        "end_date": "None",
+        "url": "http://www.scjc.state.tx.us/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Texas Special Court of Review",
+        "id": "texreview"
+    },
+    "okwd": {
+        "end_date": "None",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Oklahoma",
+        "id": "okwd"
+    },
+    "idaho": {
+        "end_date": "None",
+        "url": "http://www.isc.idaho.gov/",
+        "jurisdiction": "S",
+        "start_date": "1863-01-01",
+        "full_name": "Idaho Supreme Court",
+        "id": "idaho"
+    },
+    "fisc": {
+        "end_date": "None",
+        "url": "http://www.fisc.uscourts.gov/",
+        "jurisdiction": "FS",
+        "start_date": "1978-10-25",
+        "full_name": "Foreign Intelligence Surveillance Court",
+        "id": "fisc"
+    },
+    "mdb": {
+        "end_date": "None",
+        "url": "http://www.mdb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Maryland",
+        "id": "mdb"
+    },
+    "mdd": {
+        "end_date": "None",
+        "url": "https://www.mdd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Maryland",
+        "id": "mdd"
+    },
+    "iasb": {
+        "end_date": "None",
+        "url": "http://www.iasb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Iowa",
+        "id": "iasb"
+    },
+    "calappdeptsuper": {
+        "end_date": "None",
+        "url": "http://www.courts.ca.gov/12430.htm",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Appellate Division of the Superior Court of California",
+        "id": "calappdeptsuper"
+    },
+    "iasd": {
+        "end_date": "None",
+        "url": "http://www.iasd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Iowa",
+        "id": "iasd"
+    },
+    "okeb": {
+        "end_date": "None",
+        "url": "http://www.okeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Oklahoma",
+        "id": "okeb"
+    },
+    "oked": {
+        "end_date": "None",
+        "url": "http://www.oked.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Oklahoma",
+        "id": "oked"
+    },
+    "alacrimapp": {
+        "end_date": "None",
+        "url": "http://judicial.alabama.gov/criminal.cfm",
+        "jurisdiction": "SA",
+        "start_date": "1969-01-01",
+        "full_name": "Court of Criminal Appeals of Alabama",
+        "id": "alacrimapp"
+    },
+    "fiscr": {
+        "end_date": "None",
+        "url": "http://www.fisc.uscourts.gov/",
+        "jurisdiction": "FS",
+        "start_date": "1978-10-25",
+        "full_name": "Foreign Intelligence Surveillance Court of Review",
+        "id": "fiscr"
+    },
+    "coloag": {
+        "end_date": "None",
+        "url": "http://coag.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Colorado Attorney General Reports",
+        "id": "coloag"
+    },
+    "ri": {
+        "end_date": "None",
+        "url": "http://www.courts.ri.gov/courts/supremecourt/default.aspx",
+        "jurisdiction": "S",
+        "start_date": "1747-01-01",
+        "full_name": "Supreme Court of Rhode Island",
+        "id": "ri"
+    },
+    "paed": {
+        "end_date": "None",
+        "url": "http://www.paed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Pennsylvania",
+        "id": "paed"
+    },
+    "paeb": {
+        "end_date": "None",
+        "url": "http://www.paeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Pennsylvania",
+        "id": "paeb"
+    },
+    "pennsylvaniad": {
+        "end_date": "1818-04-20",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1789-09-24",
+        "full_name": "District Court, D. Pennsylvania",
+        "id": "pennsylvaniad"
+    },
+    "eca": {
+        "end_date": "1962-04-18",
+        "url": "https://secure.wikimedia.org/wikipedia/en/wiki/Emergency_Court_of_Appeals",
+        "jurisdiction": "FS",
+        "start_date": "1942-01-30",
+        "full_name": "Emergency Court of Appeals",
+        "id": "eca"
+    },
+    "ord": {
+        "end_date": "None",
+        "url": "http://www.ord.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Oregon",
+        "id": "ord"
+    },
+    "orb": {
+        "end_date": "None",
+        "url": "http://www.orb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Oregon",
+        "id": "orb"
+    },
+    "reglrailreorgct": {
+        "end_date": "1996-03-01",
+        "url": "http://www.uscourts.gov/news/TheThirdBranch/96-11-01/Special_Railroad_Court_to_Close_Doors.aspx",
+        "jurisdiction": "FS",
+        "start_date": "1973-01-01",
+        "full_name": "Special Court under the Regional Rail Reorganization Act",
+        "id": "reglrailreorgct"
+    },
+    "kywb": {
+        "end_date": "None",
+        "url": "http://www.kywb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Kentucky",
+        "id": "kywb"
+    },
+    "kywd": {
+        "end_date": "None",
+        "url": "http://www.kywd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Kentucky",
+        "id": "kywd"
+    },
+    "okla": {
+        "end_date": "None",
+        "url": "http://www.oscn.net/oscn/schome/start.htm",
+        "jurisdiction": "S",
+        "start_date": "1884-01-01",
+        "full_name": "Supreme Court of Oklahoma",
+        "id": "okla"
+    },
+    "nhd": {
+        "end_date": "None",
+        "url": "http://www.nhd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. New Hampshire",
+        "id": "nhd"
+    },
+    "nhb": {
+        "end_date": "None",
+        "url": "http://www.nhb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. New Hampshire",
+        "id": "nhb"
+    },
+    "acca": {
+        "end_date": "None",
+        "url": "https://www.jagcnet.army.mil/ACCA",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "Army Court of Criminal Appeals",
+        "id": "acca"
+    },
+    "wash": {
+        "end_date": "None",
+        "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/",
+        "jurisdiction": "S",
+        "start_date": "1889-01-01",
+        "full_name": "Washington Supreme Court",
+        "id": "wash"
+    },
+    "cadc": {
+        "end_date": "None",
+        "url": "http://www.cadc.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1893-02-09",
+        "full_name": "Court of Appeals for the D.C. Circuit",
+        "id": "cadc"
+    },
+    "nysb": {
+        "end_date": "None",
+        "url": "http://www.nysb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. New York",
+        "id": "nysb"
+    },
+    "miss": {
+        "end_date": "None",
+        "url": "http://courts.ms.gov/appellate_courts/sc/sc.html",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Mississippi Supreme Court",
+        "id": "miss"
+    },
+    "kyctapphigh": {
+        "end_date": "1975-12-31",
+        "url": "http://courts.ky.gov/courts/coa/Pages/coa.aspx",
+        "jurisdiction": "S",
+        "start_date": "1792-01-01",
+        "full_name": "Court of Appeals of Kentucky (pre-1976)",
+        "id": "kyctapphigh"
+    },
+    "nysd": {
+        "end_date": "None",
+        "url": "http://www.nysd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. New York",
+        "id": "nysd"
+    },
+    "coloctapp": {
+        "end_date": "None",
+        "url": "http://www.courts.state.co.us/Courts/Court_Of_Appeals/",
+        "jurisdiction": "SA",
+        "start_date": "1970-01-01",
+        "full_name": "Colorado Court of Appeals",
+        "id": "coloctapp"
+    },
+    "circttenn": {
+        "end_date": "1912-01-01",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_circuit_tn.html",
+        "jurisdiction": "FD",
+        "start_date": "1807-02-24",
+        "full_name": "U.S. Circuit Court for the District of Tennessee",
+        "id": "circttenn"
+    },
+    "moag": {
+        "end_date": "None",
+        "url": "https://www.ago.mo.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Missouri Attorney General Reports",
+        "id": "moag"
+    },
+    "iad": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Iowa",
+        "id": "iad"
+    },
+    "nyag": {
+        "end_date": "None",
+        "url": "http://www.ag.ny.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "New York Attorney General Reports",
+        "id": "nyag"
+    },
+    "ncd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. North Carolina",
+        "id": "ncd"
+    },
+    "massdistct": {
+        "end_date": "None",
+        "url": "http://www.mass.gov/courts/court-info/trial-court/dc/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Massachusetts District Court",
+        "id": "massdistct"
+    },
+    "usjc": {
+        "end_date": "None",
+        "url": "http://www.uscourts.gov/FederalCourts/JudicialConference/Committees.aspx",
+        "jurisdiction": "C",
+        "start_date": "None",
+        "full_name": "United States Judicial Conference Committee",
+        "id": "usjc"
+    },
+    "stp": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "C",
+        "start_date": "None",
+        "full_name": "United States Special Tribunals of Pennsylvania",
+        "id": "stp"
+    },
+    "calag": {
+        "end_date": "None",
+        "url": "https://oag.ca.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "California Attorney General Reports",
+        "id": "calag"
+    },
+    "prd": {
+        "end_date": "None",
+        "url": "http://www.prd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Puerto Rico",
+        "id": "prd"
+    },
+    "minn": {
+        "end_date": "None",
+        "url": "http://www.mncourts.gov/?page=550",
+        "jurisdiction": "S",
+        "start_date": "1858-05-24",
+        "full_name": "Supreme Court of Minnesota",
+        "id": "minn"
+    },
+    "prb": {
+        "end_date": "None",
+        "url": "http://www.prb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Puerto Rico",
+        "id": "prb"
+    },
+    "kingsbench": {
+        "end_date": "1873-12-31",
+        "url": "https://en.wikipedia.org/wiki/Court_of_King%27s_Bench_(England)",
+        "jurisdiction": "I",
+        "start_date": "1200-01-01",
+        "full_name": "Court of King's Bench",
+        "id": "kingsbench"
+    },
+    "alactapp": {
+        "end_date": "1969-01-01",
+        "url": "http://judicial.alabama.gov/",
+        "jurisdiction": "SA",
+        "start_date": "1911-01-01",
+        "full_name": "Alabama Court of Appeals",
+        "id": "alactapp"
+    },
+    "pasuperct": {
+        "end_date": "None",
+        "url": "http://www.pacourts.us/courts/superior-court/",
+        "jurisdiction": "SA",
+        "start_date": "1895-01-01",
+        "full_name": "Superior Court of Pennsylvania",
+        "id": "pasuperct"
+    },
+    "cavc": {
+        "end_date": "None",
+        "url": "http://www.uscourts.cavc.gov/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "United States Court of Appeals for Veterans Claims",
+        "id": "cavc"
+    },
+    "laeb": {
+        "end_date": "None",
+        "url": "http://www.laeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Louisiana",
+        "id": "laeb"
+    },
+    "circtdel": {
+        "end_date": "1912-01-01",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_circuit_de.html",
+        "jurisdiction": "FD",
+        "start_date": "1789-09-24",
+        "full_name": "U.S. Circuit Court for the District of Delaware",
+        "id": "circtdel"
+    },
+    "washag": {
+        "end_date": "None",
+        "url": "http://www.atg.wa.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Washington Attorney General Reports",
+        "id": "washag"
+    },
+    "alsb": {
+        "end_date": "None",
+        "url": "http://www.alsb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Alabama",
+        "id": "alsb"
+    },
+    "laed": {
+        "end_date": "None",
+        "url": "http://www.laed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Louisiana.",
+        "id": "laed"
+    },
+    "nysupct": {
+        "end_date": "None",
+        "url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "jurisdiction": "ST",
+        "start_date": "1896-01-01",
+        "full_name": "New York Supreme Court",
+        "id": "nysupct"
+    },
+    "nyeb": {
+        "end_date": "None",
+        "url": "http://www.nyeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. New York",
+        "id": "nyeb"
+    },
+    "kan": {
+        "end_date": "None",
+        "url": "http://www.kscourts.org/kansas-courts/supreme-court/",
+        "jurisdiction": "S",
+        "start_date": "1854-01-01",
+        "full_name": "Supreme Court of Kansas",
+        "id": "kan"
+    },
+    "coloworkcompcom": {
+        "end_date": "None",
+        "url": "https://www.colorado.gov/pacific/cdle/icao-wc",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Colorado Industrial Claim Appeals Office",
+        "id": "coloworkcompcom"
+    },
+    "ariztaxct": {
+        "end_date": "None",
+        "url": "http://www.superiorcourt.maricopa.gov/SuperiorCourt/TaxCourt/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Arizona Tax Court",
+        "id": "ariztaxct"
+    },
+    "sdd": {
+        "end_date": "None",
+        "url": "http://www.sdd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. South Dakota",
+        "id": "sdd"
+    },
+    "ncmd": {
+        "end_date": "None",
+        "url": "http://www.ncmd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. North Carolina",
+        "id": "ncmd"
+    },
+    "ncmb": {
+        "end_date": "None",
+        "url": "http://www.ncmb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. North Carolina",
+        "id": "ncmb"
+    },
+    "lawd": {
+        "end_date": "None",
+        "url": "http://www.lawd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Louisiana",
+        "id": "lawd"
+    },
+    "lawb": {
+        "end_date": "None",
+        "url": "http://www.lawb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Louisiana",
+        "id": "lawb"
+    },
+    "nmib": {
+        "end_date": "None",
+        "url": "http://www.nmid.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, Northern Mariana Islands",
+        "id": "nmib"
+    },
+    "nmid": {
+        "end_date": "None",
+        "url": "http://www.nmid.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, Northern Mariana Islands",
+        "id": "nmid"
+    },
+    "ky": {
+        "end_date": "None",
+        "url": "http://courts.ky.gov/courts/supreme/\u200e",
+        "jurisdiction": "S",
+        "start_date": "1976-01-01",
+        "full_name": "Kentucky Supreme Court",
+        "id": "ky"
+    },
+    "indianad": {
+        "end_date": "1928-04-21",
+        "url": "http://www.insd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1817-03-03",
+        "full_name": "District Court, D. Indiana",
+        "id": "indianad"
+    },
+    "cjdpa": {
+        "end_date": "None",
+        "url": "http://www.pacourts.us/courts/court-of-judicial-discipline\u200e",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Court of Judicial Discipline of Pennsylvania",
+        "id": "cjdpa"
+    },
+    "gamd": {
+        "end_date": "None",
+        "url": "http://www.gamd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. Georgia",
+        "id": "gamd"
+    },
+    "gactapp": {
+        "end_date": "None",
+        "url": "http://www.gaappeals.us/",
+        "jurisdiction": "SA",
+        "start_date": "1906-11-06",
+        "full_name": "Court of Appeals of Georgia",
+        "id": "gactapp"
+    },
+    "miwb": {
+        "end_date": "None",
+        "url": "http://www.miwb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Michigan",
+        "id": "miwb"
+    },
+    "miwd": {
+        "end_date": "None",
+        "url": "http://www.miwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Michigan",
+        "id": "miwd"
+    },
+    "texd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Texas",
+        "id": "texd"
+    },
+    "moeb": {
+        "end_date": "None",
+        "url": "http://www.moeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Missouri",
+        "id": "moeb"
+    },
+    "ksb": {
+        "end_date": "None",
+        "url": "http://www.ksb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Kansas",
+        "id": "ksb"
+    },
+    "dc": {
+        "end_date": "None",
+        "url": "http://www.dccourts.gov/internet/appellate/main.jsf",
+        "jurisdiction": "S",
+        "start_date": "None",
+        "full_name": "District of Columbia Court of Appeals",
+        "id": "dc"
+    },
+    "vactapp": {
+        "end_date": "None",
+        "url": "http://www.courts.state.va.us/courts/cav/",
+        "jurisdiction": "SA",
+        "start_date": "1985-01-01",
+        "full_name": "Court of Appeals of Virginia",
+        "id": "vactapp"
+    },
+    "hib": {
+        "end_date": "None",
+        "url": "http://www.hib.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Hawaii",
+        "id": "hib"
+    },
+    "nyed": {
+        "end_date": "None",
+        "url": "http://www.nyed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. New York",
+        "id": "nyed"
+    },
+    "colo": {
+        "end_date": "None",
+        "url": "http://www.coloradosupremecourt.com/",
+        "jurisdiction": "S",
+        "start_date": "1876-08-01",
+        "full_name": "Supreme Court of Colorado",
+        "id": "colo"
+    },
+    "nycivct": {
+        "end_date": "None",
+        "url": "https://www.nycourts.gov/COURTS/nyc/civil/index.shtml",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Civil Court of the City of New York",
+        "id": "nycivct"
+    },
+    "maworkcompcom": {
+        "end_date": "None",
+        "url": "http://www.mass.gov/lwd/workers-compensation/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Massachusetts Department of Industrial Accidents",
+        "id": "maworkcompcom"
+    },
+    "msnb": {
+        "end_date": "None",
+        "url": "http://www.msnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Mississippi",
+        "id": "msnb"
+    },
+    "californiad": {
+        "end_date": "1886-08-05",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1866-07-27",
+        "full_name": "District Court, D. California",
+        "id": "californiad"
+    },
+    "msnd": {
+        "end_date": "None",
+        "url": "http://www.msnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Mississippi",
+        "id": "msnd"
+    },
+    "ohio": {
+        "end_date": "None",
+        "url": "http://www.supremecourt.ohio.gov/",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Ohio Supreme Court",
+        "id": "ohio"
+    },
+    "ncwb": {
+        "end_date": "None",
+        "url": "http://www.ncwb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. North Carolina",
+        "id": "ncwb"
+    },
+    "ncwd": {
+        "end_date": "None",
+        "url": "http://www.ncwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. North Carolina",
+        "id": "ncwd"
+    },
+    "laag": {
+        "end_date": "None",
+        "url": "https://www.ag.state.la.us/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Louisiana Attorney General Reports",
+        "id": "laag"
+    },
+    "utahctapp": {
+        "end_date": "None",
+        "url": "http://www.utcourts.gov/courts/appell/",
+        "jurisdiction": "SA",
+        "start_date": "1987-01-17",
+        "full_name": "Court of Appeals of Utah",
+        "id": "utahctapp"
+    },
+    "iowactapp": {
+        "end_date": "None",
+        "url": "http://www.iowacourts.gov/court_of_appeals/",
+        "jurisdiction": "SA",
+        "start_date": "1976-07-01",
+        "full_name": "Court of Appeals of Iowa",
+        "id": "iowactapp"
+    },
+    "arb": {
+        "end_date": "None",
+        "url": "https://ecf.azb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Arizona",
+        "id": "arb"
+    },
+    "innd": {
+        "end_date": "None",
+        "url": "http://www.innd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1928-04-21",
+        "full_name": "District Court, N.D. Indiana",
+        "id": "innd"
+    },
+    "bta": {
+        "end_date": "1942-12-31",
+        "url": "",
+        "jurisdiction": "FS",
+        "start_date": "1924-01-01",
+        "full_name": "United States Board of Tax Appeals",
+        "id": "bta"
+    },
+    "innb": {
+        "end_date": "None",
+        "url": "http://www.innb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Indiana",
+        "id": "innb"
+    },
+    "ark": {
+        "end_date": "None",
+        "url": "https://courts.arkansas.gov/courts/supreme-court",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Supreme Court of Arkansas",
+        "id": "ark"
+    },
+    "nmctapp": {
+        "end_date": "None",
+        "url": "https://coa.nmcourts.gov/index.php",
+        "jurisdiction": "SA",
+        "start_date": "1966-04-01",
+        "full_name": "New Mexico Court of Appeals",
+        "id": "nmctapp"
+    },
+    "tenn": {
+        "end_date": "None",
+        "url": "https://www.tncourts.gov/courts/supreme-court",
+        "jurisdiction": "S",
+        "start_date": "1790-01-01",
+        "full_name": "Tennessee Supreme Court",
+        "id": "tenn"
+    },
+    "mieb": {
+        "end_date": "None",
+        "url": "http://www.mieb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Michigan",
+        "id": "mieb"
+    },
+    "mied": {
+        "end_date": "None",
+        "url": "http://www.mied.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Michigan",
+        "id": "mied"
+    },
+    "bap10": {
+        "end_date": "None",
+        "url": "http://www.bap10.uscourts.gov/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "Bankruptcy Appellate Panel of the Tenth Circuit",
+        "id": "bap10"
+    },
+    "masssuperct": {
+        "end_date": "None",
+        "url": "http://www.mass.gov/courts/court-info/trial-court/sc/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Massachusetts Superior Court",
+        "id": "masssuperct"
+    },
+    "moctapp": {
+        "end_date": "None",
+        "url": "http://www.courts.mo.gov/page.jsp?id=261",
+        "jurisdiction": "SA",
+        "start_date": "1820-01-01",
+        "full_name": "Missouri Court of Appeals",
+        "id": "moctapp"
+    },
+    "mowb": {
+        "end_date": "None",
+        "url": "http://www.mow.uscourts.gov/bankruptcy/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Missouri",
+        "id": "mowb"
+    },
+    "mowd": {
+        "end_date": "None",
+        "url": "http://www.mow.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Missouri",
+        "id": "mowd"
+    },
+    "pamd": {
+        "end_date": "None",
+        "url": "http://www.pamd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, M.D. Pennsylvania",
+        "id": "pamd"
+    },
+    "pamb": {
+        "end_date": "None",
+        "url": "http://www.pamb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. Pennsylvania",
+        "id": "pamb"
+    },
+    "texapp": {
+        "end_date": "None",
+        "url": "http://www.courts.state.tx.us/courts/coa.asp",
+        "jurisdiction": "SA",
+        "start_date": "1891-01-01",
+        "full_name": "Court of Appeals of Texas",
+        "id": "texapp"
+    },
+    "uscfc": {
+        "end_date": "None",
+        "url": "http://www.uscfc.uscourts.gov/",
+        "jurisdiction": "FS",
+        "start_date": "1982-04-02",
+        "full_name": "United States Court of Federal Claims",
+        "id": "uscfc"
+    },
+    "bapma": {
+        "end_date": "None",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "Bankruptcy Appellate Panel of Massachusetts",
+        "id": "bapma"
+    },
+    "bapme": {
+        "end_date": "None",
+        "url": "http://www.meb.uscourts.gov/",
+        "jurisdiction": "FBP",
+        "start_date": "None",
+        "full_name": "Bankruptcy Appellate Panel, D. Maine",
+        "id": "bapme"
+    },
+    "nywd": {
+        "end_date": "None",
+        "url": "http://www.nywd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. New York",
+        "id": "nywd"
+    },
+    "nywb": {
+        "end_date": "None",
+        "url": "http://www.nywb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. New York",
+        "id": "nywb"
+    },
+    "michctapp": {
+        "end_date": "None",
+        "url": "http://courts.mi.gov/courts/coa/pages/default.aspx",
+        "jurisdiction": "SA",
+        "start_date": "1964-01-01",
+        "full_name": "Michigan Court of Appeals",
+        "id": "michctapp"
+    },
+    "mont": {
+        "end_date": "None",
+        "url": "http://courts.mt.gov/supreme/default.mcpx",
+        "jurisdiction": "S",
+        "start_date": "1864-01-01",
+        "full_name": "Montana Supreme Court",
+        "id": "mont"
+    },
+    "cob": {
+        "end_date": "None",
+        "url": "http://www.cob.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Colorado",
+        "id": "cob"
+    },
+    "cod": {
+        "end_date": "None",
+        "url": "http://www.cod.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Colorado",
+        "id": "cod"
+    },
+    "com": {
+        "end_date": "1913-01-01",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_special_com.html",
+        "jurisdiction": "FS",
+        "start_date": "1910-01-01",
+        "full_name": "Commerce Court",
+        "id": "com"
+    },
+    "arkworkcompcom": {
+        "end_date": "None",
+        "url": "http://www.awcc.state.ar.us/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Arkansas Workers' Compensation Commission",
+        "id": "arkworkcompcom"
+    },
+    "nmcca": {
+        "end_date": "None",
+        "url": "http://www.jag.navy.mil/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "Navy-Marine Corps Court of Criminal Appeals",
+        "id": "nmcca"
+    },
+    "cc": {
+        "end_date": "1992-10-29",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_special_coc.html",
+        "jurisdiction": "FS",
+        "start_date": "1855-02-24",
+        "full_name": "United States Court of Claims",
+        "id": "cc"
+    },
+    "oklacivapp": {
+        "end_date": "None",
+        "url": "http://www.oscn.net/oscn/schome/civilappeals.htm",
+        "jurisdiction": "SA",
+        "start_date": "1968-01-01",
+        "full_name": "Court of Civil Appeals of Oklahoma",
+        "id": "oklacivapp"
+    },
+    "oklaag": {
+        "end_date": "None",
+        "url": "http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKAG&level=1",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Oklahoma Attorney General Reports",
+        "id": "oklaag"
+    },
+    "tennessed": {
+        "end_date": "1839-06-18",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1797-01-31",
+        "full_name": "District Court, D. Tennessee",
+        "id": "tennessed"
+    },
+    "wied": {
+        "end_date": "None",
+        "url": "http://www.wied.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Wisconsin",
+        "id": "wied"
+    },
+    "armfor": {
+        "end_date": "None",
+        "url": "http://www.armfor.uscourts.gov/",
+        "jurisdiction": "FS",
+        "start_date": "1951-05-31",
+        "full_name": "Court of Appeals for the Armed Forces",
+        "id": "armfor"
+    },
+    "arkctapp": {
+        "end_date": "None",
+        "url": "https://courts.arkansas.gov/courts/court-of-appeals",
+        "jurisdiction": "SA",
+        "start_date": "1979-08-08",
+        "full_name": "Court of Appeals of Arkansas",
+        "id": "arkctapp"
+    },
+    "mssb": {
+        "end_date": "None",
+        "url": "http://www.mssb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Mississippi",
+        "id": "mssb"
+    },
+    "mssd": {
+        "end_date": "None",
+        "url": "http://www.mssd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Mississippi",
+        "id": "mssd"
+    },
+    "pa": {
+        "end_date": "None",
+        "url": "http://www.pacourts.us/courts/supreme-court/",
+        "jurisdiction": "S",
+        "start_date": "1722-05-22",
+        "full_name": "Supreme Court of Pennsylvania",
+        "id": "pa"
+    },
+    "calctapp": {
+        "end_date": "None",
+        "url": "http://www.courts.ca.gov/courtsofappeal.htm",
+        "jurisdiction": "SA",
+        "start_date": "1905-04-10",
+        "full_name": "California Court of Appeal",
+        "id": "calctapp"
+    },
+    "ohioctcl": {
+        "end_date": "None",
+        "url": "http://www.cco.state.oh.us/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Ohio Court of Claims",
+        "id": "ohioctcl"
+    },
+    "gad": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Georgia",
+        "id": "gad"
+    },
+    "casd": {
+        "end_date": "None",
+        "url": "http://www.casd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. California",
+        "id": "casd"
+    },
+    "oklacoj": {
+        "end_date": "None",
+        "url": "http://en.wikipedia.org/wiki/Oklahoma_Court_on_the_Judiciary",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Court on the Judiciary of Oklahoma",
+        "id": "oklacoj"
+    },
+    "casb": {
+        "end_date": "None",
+        "url": "http://www.casb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. California",
+        "id": "casb"
+    },
+    "tennworkcompcl": {
+        "end_date": "None",
+        "url": "https://www.tn.gov/workforce/injuries-at-work/bureau-services/bureau-services/court-of-wc-claims.html",
+        "jurisdiction": "SS",
+        "start_date": "2013-01-01",
+        "full_name": "Tennessee Court of Workers' Compensation Claims",
+        "id": "tennworkcompcl"
+    },
+    "haw": {
+        "end_date": "None",
+        "url": "http://www.courts.state.hi.us/",
+        "jurisdiction": "S",
+        "start_date": "1840-10-08",
+        "full_name": "Hawaii Supreme Court",
+        "id": "haw"
+    },
+    "ill": {
+        "end_date": "None",
+        "url": "http://www.state.il.us/court/",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Illinois Supreme Court",
+        "id": "ill"
+    },
+    "va": {
+        "end_date": "None",
+        "url": "http://www.courts.state.va.us/courts/scv/",
+        "jurisdiction": "S",
+        "start_date": "1779-01-01",
+        "full_name": "Supreme Court of Virginia",
+        "id": "va"
+    },
+    "cand": {
+        "end_date": "None",
+        "url": "http://www.cand.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. California",
+        "id": "cand"
+    },
+    "canb": {
+        "end_date": "None",
+        "url": "http://www.canb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. California",
+        "id": "canb"
+    },
+    "minnag": {
+        "end_date": "None",
+        "url": "http://www.ag.state.mn.us/office/opinions/DATE.asp",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Minnesota Attorney General Reports",
+        "id": "minnag"
+    },
+    "wiwd": {
+        "end_date": "None",
+        "url": "http://www.wiwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Wisconsin",
+        "id": "wiwd"
+    },
+    "rid": {
+        "end_date": "None",
+        "url": "http://www.rid.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Rhode Island",
+        "id": "rid"
+    },
+    "rib": {
+        "end_date": "None",
+        "url": "http://www.rib.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Rhode Island",
+        "id": "rib"
+    },
+    "conn": {
+        "end_date": "None",
+        "url": "http://www.jud.state.ct.us/external/supapp/",
+        "jurisdiction": "S",
+        "start_date": "1784-01-01",
+        "full_name": "Supreme Court of Connecticut",
+        "id": "conn"
+    },
+    "wiwb": {
+        "end_date": "None",
+        "url": "http://www.wiwb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Wisconsin",
+        "id": "wiwb"
+    },
+    "arizctapp": {
+        "end_date": "None",
+        "url": "http://www.azcourts.gov/AZCourts/CourtofAppeals.aspx\u200e",
+        "jurisdiction": "SA",
+        "start_date": "1965-01-01",
+        "full_name": "Court of Appeals of Arizona",
+        "id": "arizctapp"
+    },
+    "texcrimapp": {
+        "end_date": "None",
+        "url": "http://www.cca.courts.state.tx.us/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Court of Criminal Appeals of Texas",
+        "id": "texcrimapp"
+    },
+    "ohsb": {
+        "end_date": "None",
+        "url": "http://www.ohsb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, S.D. Ohio",
+        "id": "ohsb"
+    },
+    "tennworkcompapp": {
+        "end_date": "None",
+        "url": "https://www.tn.gov/workforce/injuries-at-work/bureau-services/bureau-services/appeals-board.html",
+        "jurisdiction": "SS",
+        "start_date": "2013-01-01",
+        "full_name": "Tennessee Workers' Compensation Appeals Board",
+        "id": "tennworkcompapp"
+    },
+    "ohsd": {
+        "end_date": "None",
+        "url": "http://www.ohsd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Ohio",
+        "id": "ohsd"
+    },
+    "caeb": {
+        "end_date": "None",
+        "url": "http://www.caeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. California",
+        "id": "caeb"
+    },
+    "caed": {
+        "end_date": "None",
+        "url": "http://www.caed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. California",
+        "id": "caed"
+    },
+    "nm": {
+        "end_date": "None",
+        "url": "https://nmsupremecourt.nmcourts.gov/index.php",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "New Mexico Supreme Court",
+        "id": "nm"
+    },
+    "alaskactapp": {
+        "end_date": "None",
+        "url": "http://courts.alaska.gov/appcts.htm",
+        "jurisdiction": "SA",
+        "start_date": "1980-07-01",
+        "full_name": "Court of Appeals of Alaska",
+        "id": "alaskactapp"
+    },
+    "delfamct": {
+        "end_date": "None",
+        "url": "http://courts.delaware.gov/family/\u200e",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Delaware Family Court",
+        "id": "delfamct"
+    },
+    "ortc": {
+        "end_date": "None",
+        "url": "http://courts.oregon.gov/Tax/Pages/index.aspx",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Oregon Tax Court",
+        "id": "ortc"
+    },
+    "wyd": {
+        "end_date": "None",
+        "url": "http://www.wyd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Wyoming",
+        "id": "wyd"
+    },
+    "wyb": {
+        "end_date": "None",
+        "url": "http://www.wyb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Wyoming",
+        "id": "wyb"
+    },
+    "wyo": {
+        "end_date": "None",
+        "url": "http://www.courts.state.wy.us/",
+        "jurisdiction": "S",
+        "start_date": "1921-01-01",
+        "full_name": "Wyoming Supreme Court",
+        "id": "wyo"
+    },
+    "njtaxct": {
+        "end_date": "None",
+        "url": "http://www.judiciary.state.nj.us/taxcourt/\u200e",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "New Jersey Tax Court",
+        "id": "njtaxct"
+    },
+    "nced": {
+        "end_date": "None",
+        "url": "http://www.nced.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. North Carolina",
+        "id": "nced"
+    },
+    "nceb": {
+        "end_date": "None",
+        "url": "https://ecf.nceb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. North Carolina",
+        "id": "nceb"
+    },
+    "connsuperct": {
+        "end_date": "None",
+        "url": "http://www.jud.ct.gov/external/super/\u200e",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Connecticut Superior Court",
+        "id": "connsuperct"
+    },
+    "nvb": {
+        "end_date": "None",
+        "url": "http://www.nvb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Nevada",
+        "id": "nvb"
+    },
+    "vib": {
+        "end_date": "None",
+        "url": "http://www.vid.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Virgin Islands",
+        "id": "vib"
+    },
+    "tnwd": {
+        "end_date": "None",
+        "url": "http://www.tnwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Tennessee",
+        "id": "tnwd"
+    },
+    "tnwb": {
+        "end_date": "None",
+        "url": "http://www.tnwb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Tennessee",
+        "id": "tnwb"
+    },
+    "nebctapp": {
+        "end_date": "None",
+        "url": "http://supremecourt.ne.gov/",
+        "jurisdiction": "SA",
+        "start_date": "1991-11-06",
+        "full_name": "Nebraska Court of Appeals",
+        "id": "nebctapp"
+    },
+    "washctapp": {
+        "end_date": "None",
+        "url": "https://www.courts.wa.gov/appellate_trial_courts/",
+        "jurisdiction": "SA",
+        "start_date": "1969-01-01",
+        "full_name": "Court of Appeals of Washington",
+        "id": "washctapp"
+    },
+    "vid": {
+        "end_date": "None",
+        "url": "http://www.vid.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, Virgin Islands",
+        "id": "vid"
+    },
+    "scctapp": {
+        "end_date": "None",
+        "url": "http://www.judicial.state.sc.us/appeals/",
+        "jurisdiction": "SA",
+        "start_date": "1983-01-01",
+        "full_name": "Court of Appeals of South Carolina",
+        "id": "scctapp"
+    },
+    "delch": {
+        "end_date": "None",
+        "url": "http://courts.delaware.gov/chancery/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Court of Chancery of Delaware",
+        "id": "delch"
+    },
+    "psc": {
+        "end_date": "None",
+        "url": "https://dcecf.psc.uscourts.gov/cgi-bin/ShowIndex.pl",
+        "jurisdiction": "T",
+        "start_date": "None",
+        "full_name": "U.S. DISTRICT COURT for the PACER Training Site",
+        "id": "psc"
+    },
+    "utah": {
+        "end_date": "None",
+        "url": "http://www.utcourts.gov/opinions/supopin/index.htm",
+        "jurisdiction": "S",
+        "start_date": "1850-01-01",
+        "full_name": "Utah Supreme Court",
+        "id": "utah"
+    },
+    "nvd": {
+        "end_date": "None",
+        "url": "http://www.nvd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Nevada",
+        "id": "nvd"
+    },
+    "gamb": {
+        "end_date": "None",
+        "url": "http://www.gamb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, M.D. Georgia",
+        "id": "gamb"
+    },
+    "nyappdiv": {
+        "end_date": "None",
+        "url": "http://www.courts.state.ny.us/courts/appellatedivisions.shtml\u200e",
+        "jurisdiction": "SA",
+        "start_date": "1896-01-01",
+        "full_name": "Appellate Division of the Supreme Court of the State of New York",
+        "id": "nyappdiv"
+    },
+    "alsd": {
+        "end_date": "None",
+        "url": "http://www.als.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, S.D. Alabama",
+        "id": "alsd"
+    },
+    "mod": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Missouri",
+        "id": "mod"
+    },
+    "nebag": {
+        "end_date": "None",
+        "url": "https://ago.nebraska.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Nebraska Attorney General Reports",
+        "id": "nebag"
+    },
+    "nyfamct": {
+        "end_date": "None",
+        "url": "http://www.courts.state.ny.us/courts/cts-outside-nyc-FAMILY.shtml",
+        "jurisdiction": "SS",
+        "start_date": "1962-09-01",
+        "full_name": "New York Family Court",
+        "id": "nyfamct"
+    },
+    "oknb": {
+        "end_date": "None",
+        "url": "http://www.oknb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Oklahoma",
+        "id": "oknb"
+    },
+    "oknd": {
+        "end_date": "None",
+        "url": "http://www.oknd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Oklahoma",
+        "id": "oknd"
+    },
+    "njb": {
+        "end_date": "None",
+        "url": "http://www.njb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. New Jersey",
+        "id": "njb"
+    },
+    "njd": {
+        "end_date": "None",
+        "url": "http://www.njd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. New Jersey",
+        "id": "njd"
+    },
+    "indtc": {
+        "end_date": "None",
+        "url": "http://www.in.gov/judiciary/tax/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Indiana Tax Court",
+        "id": "indtc"
+    },
+    "ncctapp": {
+        "end_date": "None",
+        "url": "http://www.nccourts.org/courts/appellate/appeal/",
+        "jurisdiction": "SA",
+        "start_date": "1968-01-01",
+        "full_name": "Court of Appeals of North Carolina",
+        "id": "ncctapp"
+    },
+    "montag": {
+        "end_date": "None",
+        "url": "https://dojmt.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Montana Attorney General Reports",
+        "id": "montag"
+    },
+    "alnd": {
+        "end_date": "None",
+        "url": "http://www.alnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Alabama",
+        "id": "alnd"
+    },
+    "alnb": {
+        "end_date": "None",
+        "url": "http://www.alnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Alabama",
+        "id": "alnb"
+    },
+    "oklacrimapp": {
+        "end_date": "None",
+        "url": "http://www.okcca.net/",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "Court of Criminal Appeals of Oklahoma",
+        "id": "oklacrimapp"
+    },
+    "alacivapp": {
+        "end_date": "None",
+        "url": "http://judicial.alabama.gov/civil.cfm",
+        "jurisdiction": "SA",
+        "start_date": "1969-01-01",
+        "full_name": "Court of Civil Appeals of Alabama",
+        "id": "alacivapp"
+    },
+    "deljudct": {
+        "end_date": "None",
+        "url": "http://courts.delaware.gov/\u200e",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Court on the Judiciary of Delaware.",
+        "id": "deljudct"
+    },
+    "dcd": {
+        "end_date": "None",
+        "url": "http://www.dcd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, District of Columbia",
+        "id": "dcd"
+    },
+    "dcb": {
+        "end_date": "None",
+        "url": "http://www.dcb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, District of Columbia",
+        "id": "dcb"
+    },
+    "nmd": {
+        "end_date": "None",
+        "url": "http://www.nmcourt.fed.us/web/DCDOCS/dcindex.html",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. New Mexico",
+        "id": "nmd"
+    },
+    "orld": {
+        "end_date": "1812-04-08",
+        "url": "https://en.wikipedia.org/wiki/United_States_District_Court_for_the_District_of_Orleans",
+        "jurisdiction": "FD",
+        "start_date": "1804-10-01",
+        "full_name": "District Court, Orleans",
+        "id": "orld"
+    },
+    "nmb": {
+        "end_date": "None",
+        "url": "http://www.nmb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. New Mexico",
+        "id": "nmb"
+    },
+    "ohiod": {
+        "end_date": "1855-02-10",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1803-02-19",
+        "full_name": "District Court, D. Ohio",
+        "id": "ohiod"
+    },
+    "indctapp": {
+        "end_date": "None",
+        "url": "http://www.in.gov/judiciary/appeals/",
+        "jurisdiction": "SA",
+        "start_date": "1891-01-01",
+        "full_name": "Indiana Court of Appeals",
+        "id": "indctapp"
+    },
+    "illinoisd": {
+        "end_date": "1855-02-13",
+        "url": "http://www.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "1819-03-03",
+        "full_name": "District Court, D. Illinois",
+        "id": "illinoisd"
+    },
+    "wieb": {
+        "end_date": "None",
+        "url": "http://www.wieb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Wisconsin",
+        "id": "wieb"
+    },
+    "mspb": {
+        "end_date": "None",
+        "url": "http://www.mspb.gov/",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "Merit Systems Protection Board",
+        "id": "mspb"
+    },
+    "mdctspecapp": {
+        "end_date": "None",
+        "url": "http://www.courts.state.md.us/cosappeals/",
+        "jurisdiction": "SA",
+        "start_date": "1967-01-01",
+        "full_name": "Court of Special Appeals of Maryland",
+        "id": "mdctspecapp"
+    },
+    "arwb": {
+        "end_date": "None",
+        "url": "http://www.arb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, W.D. Arkansas",
+        "id": "arwb"
+    },
+    "ndb": {
+        "end_date": "None",
+        "url": "http://www.ndd.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": " United States Bankruptcy Court, D. North Dakota",
+        "id": "ndb"
+    },
+    "arwd": {
+        "end_date": "None",
+        "url": "http://www.arwd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, W.D. Arkansas",
+        "id": "arwd"
+    },
+    "ndd": {
+        "end_date": "None",
+        "url": "http://www.ndd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. North Dakota",
+        "id": "ndd"
+    },
+    "ga": {
+        "end_date": "None",
+        "url": "http://www.gasupreme.us/",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Supreme Court of Georgia",
+        "id": "ga"
+    },
+    "njsuperctappdiv": {
+        "end_date": "None",
+        "url": "http://www.judiciary.state.nj.us/appdiv/index.htm",
+        "jurisdiction": "SA",
+        "start_date": "None",
+        "full_name": "New Jersey Superior Court",
+        "id": "njsuperctappdiv"
+    },
+    "idd": {
+        "end_date": "None",
+        "url": "http://www.id.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Idaho",
+        "id": "idd"
+    },
+    "idb": {
+        "end_date": "None",
+        "url": "http://www.id.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Idaho",
+        "id": "idb"
+    },
+    "or": {
+        "end_date": "None",
+        "url": "http://www.publications.ojd.state.or.us/Pages/OpinionsSC.aspx",
+        "jurisdiction": "S",
+        "start_date": "1841-01-01",
+        "full_name": "Oregon Supreme Court",
+        "id": "or"
+    },
+    "massappct": {
+        "end_date": "None",
+        "url": "http://www.mass.gov/courts/appealscourt/",
+        "jurisdiction": "SA",
+        "start_date": "1972-10-06",
+        "full_name": "Massachusetts Appeals Court",
+        "id": "massappct"
+    },
+    "kyctapp": {
+        "end_date": "None",
+        "url": "http://courts.ky.gov/courts/coa/Pages/coa.aspx",
+        "jurisdiction": "SA",
+        "start_date": "1976-01-01",
+        "full_name": "Court of Appeals of Kentucky",
+        "id": "kyctapp"
+    },
+    "minnctapp": {
+        "end_date": "None",
+        "url": "http://www.mncourts.gov/?page=551",
+        "jurisdiction": "SA",
+        "start_date": "1983-11-01",
+        "full_name": "Court of Appeals of Minnesota",
+        "id": "minnctapp"
+    },
+    "ca4": {
+        "end_date": "None",
+        "url": "http://www.ca4.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1891-03-03",
+        "full_name": "Court of Appeals for the Fourth Circuit",
+        "id": "ca4"
+    },
+    "ared": {
+        "end_date": "None",
+        "url": "http://www.are.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Arkansas",
+        "id": "ared"
+    },
+    "areb": {
+        "end_date": "None",
+        "url": "http://www.arb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Arkansas",
+        "id": "areb"
+    },
+    "ohioctapp": {
+        "end_date": "None",
+        "url": "http://www.supremecourt.ohio.gov/JudSystem/districtCourts/",
+        "jurisdiction": "SA",
+        "start_date": "1912-01-01",
+        "full_name": "Ohio Court of Appeals",
+        "id": "ohioctapp"
+    },
+    "missd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Mississippi",
+        "id": "missd"
+    },
+    "vad": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Virginia",
+        "id": "vad"
+    },
+    "txed": {
+        "end_date": "None",
+        "url": "http://www.txed.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Texas",
+        "id": "txed"
+    },
+    "txeb": {
+        "end_date": "None",
+        "url": "http://www.txeb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Texas",
+        "id": "txeb"
+    },
+    "wisag": {
+        "end_date": "None",
+        "url": "https://docs.legis.wisconsin.gov/misc/oag",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Wisconsin Attorney General Reports",
+        "id": "wisag"
+    },
+    "connworkcompcom": {
+        "end_date": "None",
+        "url": "http://wcc.state.ct.us/crb/menus/crb-opin.htm",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Connecticut Compensation Review Board",
+        "id": "connworkcompcom"
+    },
+    "sdb": {
+        "end_date": "None",
+        "url": "https://ecf.sdb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. South Dakota",
+        "id": "sdb"
+    },
+    "mich": {
+        "end_date": "None",
+        "url": "http://courts.mi.gov/",
+        "jurisdiction": "S",
+        "start_date": "1837-01-01",
+        "full_name": "Michigan Supreme Court",
+        "id": "mich"
+    },
+    "arkag": {
+        "end_date": "None",
+        "url": "http://www.arkansasag.gov/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Arkansas Attorney General Reports",
+        "id": "arkag"
+    },
+    "connappct": {
+        "end_date": "None",
+        "url": "http://www.jud.ct.gov/external/supapp/appellate.htm\u200e",
+        "jurisdiction": "SA",
+        "start_date": "1983-10-04",
+        "full_name": "Connecticut Appellate Court",
+        "id": "connappct"
+    },
+    "utb": {
+        "end_date": "None",
+        "url": "http://www.utb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Utah",
+        "id": "utb"
+    },
+    "wisd": {
+        "end_date": "None",
+        "url": "",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Wisconsin",
+        "id": "wisd"
+    },
+    "utd": {
+        "end_date": "None",
+        "url": "http://www.utd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Utah",
+        "id": "utd"
+    },
+    "ilnb": {
+        "end_date": "None",
+        "url": "http://www.ilnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": " United States Bankruptcy Court, N.D. Illinois",
+        "id": "ilnb"
+    },
+    "azd": {
+        "end_date": "None",
+        "url": "http://www.azd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Arizona",
+        "id": "azd"
+    },
+    "hawapp": {
+        "end_date": "None",
+        "url": "http://www.courts.state.hi.us/",
+        "jurisdiction": "SA",
+        "start_date": "1979-11-06",
+        "full_name": "Hawaii Intermediate Court of Appeals",
+        "id": "hawapp"
+    },
+    "delctcompl": {
+        "end_date": "None",
+        "url": "http://courts.delaware.gov/commonpleas/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Delaware Court of Common Pleas",
+        "id": "delctcompl"
+    },
+    "mtb": {
+        "end_date": "None",
+        "url": "http://www.mtb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, D. Montana",
+        "id": "mtb"
+    },
+    "tned": {
+        "end_date": "None",
+        "url": "http://www.tned.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, E.D. Tennessee",
+        "id": "tned"
+    },
+    "nycrimct": {
+        "end_date": "None",
+        "url": "https://www.nycourts.gov/courts/nyc/criminal/",
+        "jurisdiction": "SS",
+        "start_date": "None",
+        "full_name": "Criminal Court of the City of New York",
+        "id": "nycrimct"
+    },
+    "mtd": {
+        "end_date": "None",
+        "url": "http://www.mtd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, D. Montana",
+        "id": "mtd"
+    },
+    "tneb": {
+        "end_date": "None",
+        "url": "http://www.tneb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, E.D. Tennessee",
+        "id": "tneb"
+    },
+    "ag": {
+        "end_date": "None",
+        "url": "https://www.justice.gov/olc/opinions-main",
+        "jurisdiction": "FS",
+        "start_date": "None",
+        "full_name": "United States Attorneys General",
+        "id": "ag"
+    },
+    "ca11": {
+        "end_date": "None",
+        "url": "http://www.ca11.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1980-10-14",
+        "full_name": "Court of Appeals for the Eleventh Circuit",
+        "id": "ca11"
+    },
+    "ca10": {
+        "end_date": "None",
+        "url": "http://www.ca10.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1929-02-28",
+        "full_name": "Court of Appeals for the Tenth Circuit",
+        "id": "ca10"
+    },
+    "flaag": {
+        "end_date": "None",
+        "url": "http://www.myfloridalegal.com/",
+        "jurisdiction": "SAG",
+        "start_date": "None",
+        "full_name": "Florida Attorney General Reports",
+        "id": "flaag"
+    },
+    "ind": {
+        "end_date": "None",
+        "url": "http://www.in.gov/judiciary/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1816-01-01",
+        "full_name": "Indiana Supreme Court",
+        "id": "ind"
+    },
+    "cafc": {
+        "end_date": "None",
+        "url": "http://www.cafc.uscourts.gov/",
+        "jurisdiction": "F",
+        "start_date": "1982-04-02",
+        "full_name": "Court of Appeals for the Federal Circuit",
+        "id": "cafc"
+    },
+    "nh": {
+        "end_date": "None",
+        "url": "http://www.courts.state.nh.us/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1776-01-01",
+        "full_name": "Supreme Court of New Hampshire",
+        "id": "nh"
+    },
+    "nj": {
+        "end_date": "None",
+        "url": "http://www.judiciary.state.nj.us/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1776-01-01",
+        "full_name": "Supreme Court of New Jersey",
+        "id": "nj"
+    },
+    "wvnb": {
+        "end_date": "None",
+        "url": "http://www.wvnd.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States District Court, N.D. West Virginia",
+        "id": "wvnb"
+    },
+    "wvnd": {
+        "end_date": "None",
+        "url": "http://www.wvnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. West Virginia",
+        "id": "wvnd"
+    },
+    "nc": {
+        "end_date": "None",
+        "url": "http://www.nccourts.org/courts/appellate/supreme/",
+        "jurisdiction": "S",
+        "start_date": "1799-01-01",
+        "full_name": "Supreme Court of North Carolina",
+        "id": "nc"
+    },
+    "nd": {
+        "end_date": "None",
+        "url": "http://www.ndcourts.gov/default.htm",
+        "jurisdiction": "S",
+        "start_date": "1861-01-01",
+        "full_name": "North Dakota Supreme Court",
+        "id": "nd"
+    },
+    "ny": {
+        "end_date": "None",
+        "url": "http://www.nycourts.gov/ctapps/",
+        "jurisdiction": "S",
+        "start_date": "1777-01-01",
+        "full_name": "New York Court of Appeals",
+        "id": "ny"
+    },
+    "test": {
+        "end_date": "None",
+        "url": "http://www.example.com/",
+        "jurisdiction": "T",
+        "start_date": "None",
+        "full_name": "Testing Supreme Court",
+        "id": "test"
+    },
+    "pacommwct": {
+        "end_date": "None",
+        "url": "http://www.pacourts.us/courts/commonwealth-court/",
+        "jurisdiction": "SA",
+        "start_date": "1968-01-01",
+        "full_name": "Commonwealth Court of Pennsylvania",
+        "id": "pacommwct"
+    },
+    "nysurct": {
+        "end_date": "None",
+        "url": "https://en.wikipedia.org/wiki/New_York_Surrogate%27s_Court",
+        "jurisdiction": "SS",
+        "start_date": "1896-01-01",
+        "full_name": "New York Surrogate's Court",
+        "id": "nysurct"
+    },
+    "tecoa": {
+        "end_date": "1992-10-29",
+        "url": "http://www.fjc.gov/history/home.nsf/page/courts_special_tecoa.html",
+        "jurisdiction": "FS",
+        "start_date": "1971-12-01",
+        "full_name": "Temporary Emergency Court of Appeals",
+        "id": "tecoa"
+    },
+    "tennsuperct": {
+        "end_date": "1809-12-31",
+        "url": "https://familysearch.org/wiki/en/Tennessee_Court_Records",
+        "jurisdiction": "SA",
+        "start_date": "1796-01-01",
+        "full_name": "Tennessee Superior Court for Law and Equity",
+        "id": "tennsuperct"
+    },
+    "txnb": {
+        "end_date": "None",
+        "url": "http://www.txnb.uscourts.gov/",
+        "jurisdiction": "FB",
+        "start_date": "None",
+        "full_name": "United States Bankruptcy Court, N.D. Texas",
+        "id": "txnb"
+    },
+    "ilnd": {
+        "end_date": "None",
+        "url": "http://www.ilnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Illinois",
+        "id": "ilnd"
+    },
+    "txnd": {
+        "end_date": "None",
+        "url": "http://www.txnd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, N.D. Texas",
+        "id": "txnd"
+    },
+    "cacd": {
+        "end_date": "None",
+        "url": "http://www.cacd.uscourts.gov/",
+        "jurisdiction": "FD",
+        "start_date": "None",
+        "full_name": "District Court, C.D. California",
+        "id": "cacd"
+    },
+    "mass": {
+        "end_date": "None",
+        "url": "http://www.mass.gov/courts/sjc/",
+        "jurisdiction": "S",
+        "start_date": "1692-01-01",
+        "full_name": "Massachusetts Supreme Judicial Court",
+        "id": "mass"
+    }
+}

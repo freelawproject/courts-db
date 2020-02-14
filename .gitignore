@@ -140,3 +140,4 @@ dmypy.json
 
 .idea/courts-db.iml
 
+/.github/workflows/tests.yml
