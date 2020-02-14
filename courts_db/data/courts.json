@@ -1424,7 +1424,8 @@
             "Court Of Appeal Superior Court California",
             "State Of California District Court Of Appeal Second",
             "Court Of Appeal Second District California Division 8",
-            "Court Of Appeal First District Division 1 California"
+            "Court Of Appeal First District Division 1 California",
+            "Court Of Appeal Of California ${bw} Appellate District Division"
         ],
         "court_url": "http://www.courts.ca.gov/courtsofappeal.htm",
         "type": "appellate",
@@ -1442,15 +1443,13 @@
     {
         "regex": [
             "Appellate Department Superior Court.* California",
-            "State Of California Appellate Department",
             "State Of California Superior Court Appellate Department",
             "Appellate Division Superior Court ${ca_counties} County",
             "Appellate Division Superior Court Of California",
             "Appellate Division Superior Court Of California ${ca_counties}",
             "Appellate Division Superior Court Of California",
             "Appellate Dept Superior Court Of California",
-            "Appellate Department Of The Superior Court Of California",
-            "Court Of Appeal Of California"
+            "Appellate Department Of The Superior Court Of California"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -3679,7 +3678,8 @@
             "${app} Illinois",
             "Illinois ${app}",
             "Illinois Court Of Appeals",
-            "Court Of Appeals Of Illinois"
+            "Court Of Appeals Of Illinois",
+            "Appellate Court Of Illinois Fifth District Industrial Commission"
         ],
         "dates": [
             {
@@ -3694,7 +3694,9 @@
         ],
         "jurisdiction": "I.L.",
         "system": "state",
-        "examples": [],
+        "examples": [
+            "Appellate Court Of Illinois Fifth District Industrial Commission Division"
+        ],
         "court_url": "http://www.state.il.us/court/appellatecourt/",
         "type": "appellate",
         "id": "illappct",
@@ -10698,7 +10700,7 @@
         "regex": [
             "${d} ${wv}",
             "${d} D ${wv}",
-            "U S District Court West Dist Va"
+            "${usdc} ${wd} ${wv}"
         ],
         "dates": [
             {
@@ -10803,7 +10805,8 @@
     },
     {
         "regex": [
-            "(Supreme Court of )?Wisconsin( Supreme Court)?"
+            "Wisconsin ${sup}",
+            "${sup} ?Wisconsin"
         ],
         "dates": [
             {
@@ -11600,7 +11603,7 @@
     },
     {
         "regex": [
-            "Canal Zone"
+            "${usdc} District Of Canal Zone"
         ],
         "dates": [
             {
@@ -14936,7 +14939,9 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court W D Wash"],
+        "regex": [
+            "Circuit Court ${wd} Wash(ington)?"
+        ],
         "name_abbreviation": "W. Wash. Cir. Ct",
         "dates": [
             {
@@ -14972,7 +14977,9 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court W D Wis"],
+        "regex": [
+            "Circuit Court ${wd} ${wi}",
+            "Circuit Court W D Wis"],
         "name_abbreviation": "W. Wis. Cir. Ct",
         "dates": [
             {
