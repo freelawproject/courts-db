@@ -16,6 +16,8 @@ from glob import iglob
 from string import Template, punctuation
 from unittest import TestCase
 
+from courts_db.text_utils import strip_punc
+
 
 accents = re.compile("([^\w\s%s]+)" % re.escape(punctuation))
 courts = re.compile("(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)")
@@ -56,7 +58,7 @@ def get_court_list(fp):
 
     for court_str in court_list:
         try:
-            clean_str = clean_punct(court_str)
+            clean_str = strip_punc(court_str)
             court_set.add(clean_str)
         except Exception as e:
             print(court_str, str(e))
