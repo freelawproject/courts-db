@@ -140,102 +140,18 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     return court_matches
 
 
-def find_court(court_str, filed_date=None, courts_db=None):
-    """
-
-    :param court_str:
-    :param filed_date:
-    :param courts_db:
-    :return:
-    """
-    cd = {}
-    court_matches = []
-    cdd = []
-
-    if filed_date is None:
-        for court in courts_db:
-            for reg_str in court["regex"]:
-                reg_str = unicodedata.normalize(
-                    "NFKD", reg_str.decode("unicode-escape")
-                ).encode("ascii", "ignore")
-
-                reg_str = re.sub(r"\s{2,}", " ", reg_str)
-                regex = re.compile(reg_str, re.I)
-                if re.search(regex, court_str):
-                    court_matches.append(court["id"])
-                    cdd.append(
-                        {
-                            "id": court["id"],
-                            "text": re.search(regex, court_str).group(),
-                        }
-                    )
-    else:
-        filed_date = dt.strptime(filed_date, "%Y-%m-%d")
-        court_matches = []
-        for court in courts_db:
-            for date in court["dates"]:
-                if date["start"] is None:
-                    continue
-                date_start = dt.strptime(date["start"], "%Y-%m-%d")
-
-                if date["end"] is None:
-                    date_end = dt.today()
-                else:
-                    date_end = dt.strptime(date["end"], "%Y-%m-%d")
-
-                if not date_start <= filed_date <= date_end:
-                    continue
-                if court["id"] is None:
-                    continue
-
-                for reg_str in court["regex"]:
-                    regex = re.compile(reg_str, re.I)
-                    if re.search(regex, court_str):
-                        court_matches.append(court["id"])
-                        cd[court["id"]] = re.search(regex, court_str)
-                        continue
-
-    results = list(set(court_matches))
-    flist = []
-
-    if len(results) > 1:
-        print(results)
-        remove_list = [x["text"] for x in cdd]
-        subsetlist = []
-
-        for test in remove_list:
-            print(remove_list)
-            for item in [x for x in remove_list if x != test]:
-                if test in item:
-                    subsetlist.append(test)
-        final_list = [x for x in remove_list if x not in subsetlist]
-        bankruptcy = False
-
-        for r in cdd:
-            if r["text"] in final_list:
-                if bankruptcy == True:
-                    pass
-                else:
-                    court_key = r["id"]
-                    if court_key is not None and court_key != "":
-                        if court_key[-1] != "b":
-                            flist.append(r["id"])
-
-        return flist
-    return results
-
-
 class ConstantsTest(TestCase):
     """ """
 
     def test_all_examples(self):
         s = load_template()
         courts = json.loads(s)
+        regexes = gather_regexes(courts)
         for court in courts:
             try:
                 for example in court["examples"]:
-                    matches = find_court(
-                        court_str=example, filed_date=None, courts_db=courts
+                    matches = find_court_alt(
+                        court_str=example, regexes=regexes
                     )
                     results = list(set(matches))
                     if len(results) == 1:
@@ -243,10 +159,14 @@ class ConstantsTest(TestCase):
                             continue
                     else:
                         print(
-                            results, [court["id"]], "\txx\t", example, "\n"
-                        )  # court['regex']
+                            results,
+                            [court["id"]],
+                            "\txx\t",
+                            example,
+                            "\n",  # court['regex']
+                        )
             except Exception as e:
-                print((str(e)))
+                print(str(e))
                 print("Fail at", court["name"])
 
     def test_specific_example(self):
