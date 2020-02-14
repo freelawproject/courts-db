@@ -21,9 +21,13 @@ courts = re.compile("(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)")
 
 
 def load_template():
-    """
+    """Load the court data from disk
 
-    :return:
+    Court data is on disk as one main JSON file, another containing variables,
+    and several others containing placenames. These get combined via Python's
+    template system and loaded as a Python object
+
+    :return: A python object containing the rendered courts DB
     """
     with open(os.path.join("data", "courts.json"), "r") as f:
         court_data = json.loads(f.read())
@@ -60,6 +64,17 @@ def get_court_list(fp):
 
 
 def gather_regexes(courts, bankruptcy=False):
+    """Create a variable mapping regexes to court IDs
+
+    :param courts: The court DB
+    :type courts: list
+    :param bankruptcy: Whether to include bankruptcy courts in the final
+    mapping.
+    :type bankruptcy: bool
+    :return: A list of two-tuples, with tuple[0] being a compiled regex and
+    tuple[1] being the court ID.
+    :rtype: list
+    """
     regexes = []
     for court in courts:
         if bankruptcy == False:
