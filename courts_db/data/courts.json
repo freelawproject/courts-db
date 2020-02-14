@@ -3244,7 +3244,10 @@
             "${usdc} For Territory Of Hawaii",
             "${usdc} D Hawai",
             "${usdc} Hawai",
-            "District Court Territory Of Hawai I"
+            "District Court Territory Of Hawai",
+            "United States District Court For The Territory Of Hawaii",
+            "United States District Court For The District Of Honolulu",
+            "United States District Court Territory Of Hawaii"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -3272,7 +3275,9 @@
     {
         "regex": [
             "${sup} Hawai",
-            "State Of Hawaii Supreme Court"
+            "State Of Hawaii Supreme Court",
+            "Hawaii Supreme Court",
+            "Supreme Court (Of ?){1,2} Hawaii"
         ],
         "dates": [
             {
@@ -10359,7 +10364,8 @@
     {
         "regex": [
             "${wd} ${va}",
-            "${usdc} ${wd} ${va}"
+            "${usdc} ${wd} ${va}",
+            "United States District Court For The Western Division Of Virginia"
         ],
         "dates": [
             {
@@ -10371,7 +10377,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+            "United States District Court For The Western Division Of Virginia"
+        ],
         "court_url": "http://www.vawd.uscourts.gov/",
         "type": "trial",
         "id": "vawd",
@@ -11603,7 +11611,7 @@
     },
     {
         "regex": [
-            "${usdc} District Of Canal Zone"
+            "${usdc} District Of (the) ?Canal Zone"
         ],
         "dates": [
             {
@@ -11615,7 +11623,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+            "United States District Court For The District Of The Canal Zone Balboa Division"
+        ],
         "court_url": "https://en.wikipedia.org/wiki/United_States_District_Court_for_the_Canal_Zone",
         "type": "trial",
         "id": "canalzoned",
