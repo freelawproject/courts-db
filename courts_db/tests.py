@@ -12,7 +12,7 @@ import unicodedata
 reg_punc = re.compile('[%s]' % re.escape(punctuation))
 combined_whitespace = re.compile(r"\s+")
 accents = re.compile('([^\w\s%s]+)' % re.escape(punctuation))
-
+courts = re.compile('(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)')
 
 def load_template():
     """
@@ -31,12 +31,13 @@ def load_template():
             variables[path.split("/")[-1].split(".txt")[0]] = places
 
     s = Template(json.dumps(court_data)).substitute(**variables)
+
     return s.replace("\\", "\\\\")
 
 def clean_punct(court_str):
     clean_court_str = reg_punc.sub(' ', court_str)
     clean_court_str = combined_whitespace.sub(' ', clean_court_str).strip()
-    ccs = clean_court_str.title()
+    ccs = u"%s" % clean_court_str.title()
 
     return ccs
 
@@ -78,6 +79,7 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     cd = {}
     cdd = []
     court_matches = []
+    assert type(court_str) == unicode, "text not unicode"
     for regex in regexes:
         if re.search(regex[0], court_str):
             court_matches.append(regex[1])
@@ -245,32 +247,66 @@ class ConstantsTest(TestCase):
                     print (str(e))
                     print "Fail at", court['name']
 
+
     def test_str(self):
         # """Can we extract the correct court id from string and date?"""
 
-        s = load_template()
-        courts = json.loads(s)
-        regexes = []
-        text = "United States District Court For The District Of The Virgin Islands"
-        if re.search(accents, text):
-            text = remove_accents(text)
+        # s = load_template()
+        # bankruptcy = False
+        # courts = json.loads(s)
+        # regexes = []
+        courts = [{"id":"prapp", "regex":["é", "é"]}]
 
-        matches = find_court(
-            court_str=text,
-            filed_date=None,
-            courts_db=courts
-        )
+        matches = ["prapp"]
+
+        text = "é".decode('unicode-escape') #u'\xe9' u"\u00e9"
+        # text = "\u00e9"
+        print "é"
+        print "é".decode("utf-8").encode("latin-1")
+        # print unicodedata.decomposition(text)
+        # text = clean_punct(text)
+        for court in courts:
+            if court['id'] == 'prapp':
+                regex = court['regex'][1].decode('unicode-escape')
+
+        if re.search(regex, text, (re.I|re.UNICODE)):
+            print("Mike's test worked.")
+            print("regex is %s of type %s" % (regex, type(regex)))
+            print("text is %s of type %s" % (text, type(text)))
+
+        else:
+            print("IT FAILED.")
+            print("regex is %s of type %s" % (regex, type(regex)))
+            print("text is %s of type %s" % (text, type(text)))
+
+            print "Equal" if regex == text else "Not Equal"
+
+
+        return
 
         for court in courts:
+            if bankruptcy == False:
+                if court["type"] == "bankruptcy":
+                    continue
             for reg_str in court['regex']:
-                if re.search(accents, reg_str):
-                    reg_str = unicodedata.normalize('NFKD',
-                                  reg_str.decode('unicode-escape')).\
-                                          encode('ascii', 'ignore')
+                # print reg_str
+                if court['id'] == "prapp":
+                    # print reg_str
+                    # print type(reg_str)
+                    # reg_str = u"é"
+                    # print text
+                # reg_str = u"%s" % reg_str
+                # reg_str = re.sub(r'\s{2,}', ' ', reg_str)
+                # assert type(reg_str) == unicode, "reg not unicode"
+                # regex = re.compile(reg_str, (re.IGNORECASE | re.UNICODE))
+                # regexes.append((regex, court['id']))
 
-                reg_str = re.sub(r'\s{2,}', ' ', reg_str)
-                regex = re.compile(reg_str, re.I)
-                regexes.append((regex, court['id']))
+                    if re.search(re.compile(reg_str, (re.IGNORECASE | re.UNICODE)),
+                                 text):
+                        print "doesnt work 2222"
+
+        # if re.search(re.compile(u"é", (re.IGNORECASE | re.UNICODE)), u"É"):
+        #     print "should work "
 
         matches2 = find_court_alt(
             court_str=text,
@@ -279,8 +315,8 @@ class ConstantsTest(TestCase):
             bankruptcy=None
         )
 
-        self.assertEqual(matches,
-                         matches2,
+        self.assertEqual(list(set(matches)),
+                         list(set(matches2)),
                          "%s != %s" % (list(set(matches)),
                                        list(set(matches2))
                                )
@@ -288,6 +324,22 @@ class ConstantsTest(TestCase):
         print matches,
         print list(set(matches2)),
         print u"√"
+
+
+    def test_json(self):
+
+
+        try:
+            with open('data/courts.json', "r") as f:
+                court_data = json.loads(f.read())
+        except Exception as e:
+            print e
+            with open('data/courts.json', "r") as f:
+                cd = f.read()
+
+            matches = re.match(courts, cd)
+            print matches
+            # "(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
 
 
 if __name__ == '__main__':
