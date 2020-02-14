@@ -68,6 +68,19 @@ def get_court_list(fp):
 
     return court_set
 
+
+def gather_regexes(courts, bankruptcy=False):
+    regexes = []
+    for court in courts:
+        if bankruptcy == False:
+            if court["type"] == "bankruptcy":
+                continue
+        for reg_str in court['regex']:
+            reg_str = reg_str.decode('unicode-escape')
+            regex = re.compile(reg_str, (re.I | re.U))
+            regexes.append((regex, court['id']))
+    return regexes
+
 def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     """
 
@@ -251,77 +264,23 @@ class ConstantsTest(TestCase):
     def test_str(self):
         # """Can we extract the correct court id from string and date?"""
 
-        # s = load_template()
-        # bankruptcy = False
-        # courts = json.loads(s)
-        # regexes = []
-        courts = [{"id":"prapp", "regex":["é", "é"]}]
+        bankruptcy = False
+        s = load_template()
+        courts = json.loads(s)
 
-        matches = ["prapp"]
+        court_id = "prapp"
 
-        text = "é".decode('unicode-escape') #u'\xe9' u"\u00e9"
-        # text = "\u00e9"
-        print "é"
-        print "é".decode("utf-8").encode("latin-1")
-        # print unicodedata.decomposition(text)
-        # text = clean_punct(text)
-        for court in courts:
-            if court['id'] == 'prapp':
-                regex = court['regex'][1].decode('unicode-escape')
-
-        if re.search(regex, text, (re.I|re.UNICODE)):
-            print("Mike's test worked.")
-            print("regex is %s of type %s" % (regex, type(regex)))
-            print("text is %s of type %s" % (text, type(text)))
-
-        else:
-            print("IT FAILED.")
-            print("regex is %s of type %s" % (regex, type(regex)))
-            print("text is %s of type %s" % (text, type(text)))
-
-            print "Equal" if regex == text else "Not Equal"
+        sample_text = u"é"
+        sample_text = u"Tribunal Dé Apelaciones De Puerto Rico"
 
 
-        return
+        regexes = gather_regexes(courts)
 
-        for court in courts:
-            if bankruptcy == False:
-                if court["type"] == "bankruptcy":
-                    continue
-            for reg_str in court['regex']:
-                # print reg_str
-                if court['id'] == "prapp":
-                    # print reg_str
-                    # print type(reg_str)
-                    # reg_str = u"é"
-                    # print text
-                # reg_str = u"%s" % reg_str
-                # reg_str = re.sub(r'\s{2,}', ' ', reg_str)
-                # assert type(reg_str) == unicode, "reg not unicode"
-                # regex = re.compile(reg_str, (re.IGNORECASE | re.UNICODE))
-                # regexes.append((regex, court['id']))
+        matches2 = find_court_alt(court_str=sample_text,
+                                  regexes=regexes
+                                  )
+        self.assertEqual(list(set(matches2)), [court_id], "Failure")
 
-                    if re.search(re.compile(reg_str, (re.IGNORECASE | re.UNICODE)),
-                                 text):
-                        print "doesnt work 2222"
-
-        # if re.search(re.compile(u"é", (re.IGNORECASE | re.UNICODE)), u"É"):
-        #     print "should work "
-
-        matches2 = find_court_alt(
-            court_str=text,
-            filed_date=None,
-            regexes=regexes,
-            bankruptcy=None
-        )
-
-        self.assertEqual(list(set(matches)),
-                         list(set(matches2)),
-                         "%s != %s" % (list(set(matches)),
-                                       list(set(matches2))
-                               )
-                         )
-        print matches,
         print list(set(matches2)),
         print u"√"
 
