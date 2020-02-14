@@ -41,15 +41,6 @@ def load_template():
     return s.replace("\\", "\\\\")
 
 
-def remove_accents(text):
-    if re.search(accents, text):
-        text = str(text, "utf-8")
-        text = unicodedata.normalize("NFD", text)
-        text = text.encode("ascii", "ignore")
-        text = text.decode("utf-8")
-    return text
-
-
 def get_court_list(fp):
     print(fp)
     court_set = set()
