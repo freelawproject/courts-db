@@ -7,6 +7,7 @@ from __future__ import (
 )
 
 import json
+import os
 import re
 import unittest
 from datetime import datetime as dt
@@ -25,16 +26,16 @@ def load_template():
 
     :return:
     """
-    with open("data/courts.json", "r") as f:
+    with open(os.path.join("data", "courts.json"), "r") as f:
         court_data = json.loads(f.read())
 
-    with open("data/variables.json", "r") as v:
+    with open(os.path.join("data", "variables.json"), "r") as v:
         variables = json.loads(v.read())
 
-    for path in iglob("data/places/*.txt"):
+    for path in iglob(os.path.join("data", "places", "*.txt")):
         with open(path, "r") as p:
             places = "(%s)" % "|".join(p.read().splitlines())
-            variables[path.split("/")[-1].split(".txt")[0]] = places
+            variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
     s = Template(json.dumps(court_data)).substitute(**variables)
 
@@ -295,11 +296,11 @@ class ConstantsTest(TestCase):
     def test_json(self):
 
         try:
-            with open("data/courts.json", "r") as f:
+            with open(os.path.join("data", "courts.json"), "r") as f:
                 court_data = json.loads(f.read())
         except Exception as e:
             print(e)
-            with open("data/courts.json", "r") as f:
+            with open(os.path.join("data", "courts.json"), "r") as f:
                 cd = f.read()
 
             matches = re.match(courts, cd)
