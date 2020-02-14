@@ -5,15 +5,14 @@ from __future__ import (
     print_function,
     unicode_literals,
 )
-from unittest import TestCase
-import unittest
+
 import json
-from string import Template, punctuation
-from datetime import datetime as dt
 import re
+import unittest
+from datetime import datetime as dt
 from glob import iglob
-import pandas
-import unicodedata
+from string import Template, punctuation
+from unittest import TestCase
 
 reg_punc = re.compile("[%s]" % re.escape(punctuation))
 combined_whitespace = re.compile(r"\s+")
