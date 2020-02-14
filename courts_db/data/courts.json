@@ -11383,7 +11383,7 @@
     },
     {
         "regex": [
-            "${usdc} ${d} Virgin Islands?",
+            "${usdc} ${d} (the)? ?Virgin Islands?",
             "${usdc} Virgin Islands",
             "${usdc} ${d} St Croix"
         ],

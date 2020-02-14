@@ -251,7 +251,7 @@ class ConstantsTest(TestCase):
         s = load_template()
         courts = json.loads(s)
         regexes = []
-        text = "Supreme Court of the United States"
+        text = "United States District Court For The District Of The Virgin Islands"
         if re.search(accents, text):
             text = remove_accents(text)
 
