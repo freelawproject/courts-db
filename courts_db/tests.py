@@ -9,6 +9,7 @@ from __future__ import (
 import json
 import os
 import re
+import six
 import unittest
 from datetime import datetime as dt
 from glob import iglob
@@ -98,7 +99,9 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     cd = {}
     cdd = []
     court_matches = []
-    assert type(court_str) == str, "text not unicode"
+    assert (
+        type(court_str) == six.text_type
+    ), "court_str is not a text type, it's of type %s" % type(court_str)
     for regex in regexes:
         if re.search(regex[0], court_str):
             court_matches.append(regex[1])
