@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+from __future__ import (
+    absolute_import,
+    division,
+    print_function,
+    unicode_literals,
+)
 from unittest import TestCase
 import unittest
 import json
@@ -39,14 +45,14 @@ def load_template():
 def clean_punct(court_str):
     clean_court_str = reg_punc.sub(" ", court_str)
     clean_court_str = combined_whitespace.sub(" ", clean_court_str).strip()
-    ccs = u"%s" % clean_court_str.title()
+    ccs = "%s" % clean_court_str.title()
 
     return ccs
 
 
 def remove_accents(text):
     if re.search(accents, text):
-        text = unicode(text, "utf-8")
+        text = str(text, "utf-8")
         text = unicodedata.normalize("NFD", text)
         text = text.encode("ascii", "ignore")
         text = text.decode("utf-8")
@@ -54,7 +60,7 @@ def remove_accents(text):
 
 
 def get_court_list(fp):
-    print fp
+    print(fp)
     court_set = set()
     df = pandas.read_csv(fp, usecols=["court"])
     cl = df["court"].tolist()
@@ -66,7 +72,7 @@ def get_court_list(fp):
             clean_str = clean_punct(court_str)
             court_set.add(clean_str)
         except Exception as e:
-            print court_str, str(e)
+            print(court_str, str(e))
 
     return court_set
 
@@ -95,7 +101,7 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     cd = {}
     cdd = []
     court_matches = []
-    assert type(court_str) == unicode, "text not unicode"
+    assert type(court_str) == str, "text not unicode"
     for regex in regexes:
         if re.search(regex[0], court_str):
             court_matches.append(regex[1])
@@ -107,7 +113,7 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
                     "text": re.search(regex[0], court_str).group(),
                 }
             )
-            print cdd
+            print(cdd)
 
     results = list(set(court_matches))
     if len(results) > 1:
@@ -193,12 +199,12 @@ def find_court(court_str, filed_date=None, courts_db=None):
     flist = []
 
     if len(results) > 1:
-        print results
+        print(results)
         remove_list = [x["text"] for x in cdd]
         subsetlist = []
 
         for test in remove_list:
-            print remove_list
+            print(remove_list)
             for item in [x for x in remove_list if x != test]:
                 if test in item:
                     subsetlist.append(test)
@@ -236,12 +242,12 @@ class ConstantsTest(TestCase):
                         if results == [court["id"]]:
                             continue
                     else:
-                        print results, [
-                            court["id"]
-                        ], "\txx\t", example, "\n"  # court['regex']
+                        print(
+                            results, [court["id"]], "\txx\t", example, "\n"
+                        )  # court['regex']
             except Exception as e:
-                print (str(e))
-                print "Fail at", court["name"]
+                print((str(e)))
+                print("Fail at", court["name"])
 
     def test_specific_example(self):
         s = load_template()
@@ -260,12 +266,12 @@ class ConstantsTest(TestCase):
                             if results == [court["id"]]:
                                 continue
                         else:
-                            print results, [
-                                court["id"]
-                            ], "\txx\t", example, "\n"  # court['regex']
+                            print(
+                                results, [court["id"]], "\txx\t", example, "\n"
+                            )  # court['regex']
                 except Exception as e:
-                    print (str(e))
-                    print "Fail at", court["name"]
+                    print((str(e)))
+                    print("Fail at", court["name"])
 
     def test_str(self):
         # """Can we extract the correct court id from string and date?"""
@@ -276,16 +282,16 @@ class ConstantsTest(TestCase):
 
         court_id = "prapp"
 
-        sample_text = u"é"
-        sample_text = u"Tribunal Dé Apelaciones De Puerto Rico"
+        sample_text = "é"
+        sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
 
         regexes = gather_regexes(courts)
 
         matches2 = find_court_alt(court_str=sample_text, regexes=regexes)
         self.assertEqual(list(set(matches2)), [court_id], "Failure")
 
-        print list(set(matches2)),
-        print u"√"
+        print(list(set(matches2)), end=" ")
+        print("√")
 
     def test_json(self):
 
@@ -293,12 +299,12 @@ class ConstantsTest(TestCase):
             with open("data/courts.json", "r") as f:
                 court_data = json.loads(f.read())
         except Exception as e:
-            print e
+            print(e)
             with open("data/courts.json", "r") as f:
                 cd = f.read()
 
             matches = re.match(courts, cd)
-            print matches
+            print(matches)
             # "(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
 
 
