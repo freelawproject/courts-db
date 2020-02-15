@@ -11,7 +11,6 @@ import os
 import re
 import six
 import unittest
-from datetime import datetime as dt
 from glob import iglob
 from io import open
 from string import Template, punctuation
@@ -145,13 +144,15 @@ class ConstantsTest(TestCase):
     """ """
 
     courts = load_courts_db()
+    regexes = gather_regexes(courts)
 
     def test_all_examples(self):
-        regexes = gather_regexes(self.courts)
         for court in self.courts:
             try:
                 for example in court["examples"]:
-                    matches = find_court(court_str=example, regexes=regexes)
+                    matches = find_court(
+                        court_str=example, regexes=self.regexes
+                    )
                     results = list(set(matches))
                     if len(results) == 1:
                         if results == [court["id"]]:
@@ -169,7 +170,6 @@ class ConstantsTest(TestCase):
                 print("Fail at", court["name"])
 
     def test_specific_example(self):
-        regexes = gather_regexes(self.courts)
         for court in self.courts:
             if court["id"] == "illappct":
                 try:
@@ -177,7 +177,7 @@ class ConstantsTest(TestCase):
                         matches = find_court(
                             court_str=example,
                             filed_date=None,
-                            regexes=regexes,
+                            regexes=self.regexes,
                         )
                         results = list(set(matches))
                         if len(results) == 1:
@@ -197,9 +197,7 @@ class ConstantsTest(TestCase):
 
         sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
 
-        regexes = gather_regexes(self.courts)
-
-        matches2 = find_court(court_str=sample_text, regexes=regexes)
+        matches2 = find_court(court_str=sample_text, regexes=self.regexes)
         self.assertEqual(list(set(matches2)), [court_id], "Failure")
 
         print(list(set(matches2)), end=" ")
