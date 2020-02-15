@@ -9190,7 +9190,7 @@
     },
     {
         "regex": [
-            "Tribunal De Apelaciones Dé Puerto Rico"
+            "Tribunal D[eé] Apelaciones D[eé] Puerto Rico"
         ],
         "dates": [
             {
@@ -9204,7 +9204,7 @@
         "system": "federal",
         "examples": [],
         "type": "appellate",
-        "id": null,
+        "id": "prapp",
         "location": "Puerto Rico"
     },
     {
