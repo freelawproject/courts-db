@@ -102,17 +102,12 @@ def find_court(court_str, filed_date=None, regexes=None, bankruptcy=False):
     assert (
         type(court_str) == six.text_type
     ), "court_str is not a text type, it's of type %s" % type(court_str)
-    for regex in regexes:
-        if re.search(regex[0], court_str):
-            court_matches.append(regex[1])
-
-            cd[re.search(regex[0], court_str).group()] = regex[1]
-            cdd.append(
-                {
-                    "id": regex[1],
-                    "text": re.search(regex[0], court_str).group(),
-                }
-            )
+    for regex, court_id in regexes:
+        match = re.search(regex, court_str)
+        if match:
+            court_matches.append(court_id)
+            cd[match.group()] = court_id
+            cdd.append({"id": court_id, "text": match.group()})
             print(cdd)
 
     results = list(set(court_matches))
