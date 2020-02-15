@@ -37,18 +37,8 @@ def load_template():
 def clean_punct(court_str):
     clean_court_str = reg_punc.sub(' ', court_str)
     clean_court_str = combined_whitespace.sub(' ', clean_court_str).strip()
-    ccs = u"%s" % clean_court_str.title()
-
+    ccs = u"%s" % clean_court_str.lower()
     return ccs
-
-
-def remove_accents(text):
-    if re.search(accents, text):
-        text = unicode(text, 'utf-8')
-        text = unicodedata.normalize('NFD', text)
-        text = text.encode('ascii', 'ignore')
-        text = text.decode("utf-8")
-    return text
 
 
 def get_court_list(fp):
@@ -81,9 +71,9 @@ def gather_regexes(courts, bankruptcy=False):
             regexes.append((regex, court['id']))
     return regexes
 
+
 def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     """
-
     :param court_str:
     :param filed_date:
     :param regexes:
@@ -102,19 +92,20 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
                 {"id": regex[1],
                  "text": re.search(regex[0], court_str).group()}
             )
-            print cdd
+            # print cdd
 
     results = list(set(court_matches))
     if len(results) > 1:
         flist = []
         remove_list = [x['text'] for x in cdd]
         subsetlist = []
-
         for test in remove_list:
             for item in [x for x in remove_list if x != test]:
                 if test in item:
                     subsetlist.append(test)
         final_list = [x for x in remove_list if x not in subsetlist]
+        # print final_list
+
         for r in cdd:
             if r['text'] in final_list:
                 if bankruptcy == True:
@@ -124,6 +115,8 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
                     if court_key != "" and court_key is not None:
                         if court_key[-1] != "b":
                             flist.append(r['id'])
+                    else:
+                        flist.append(r['text'])
         return flist
 
     return court_matches
@@ -213,20 +206,23 @@ def find_court(court_str, filed_date=None, courts_db=None):
 
 
 
-class ConstantsTest(TestCase):
-    """ """
+class DataTests(TestCase):
+    """
+     python tests.py DataTests.test_court
+     """
 
 
     def test_all_examples(self):
         s = load_template()
         courts = json.loads(s)
+        regexes = gather_regexes(courts)
+
         for court in courts:
             try:
                 for example in court['examples']:
-                    matches = find_court(
+                    matches = find_court_alt(
                         court_str=example,
-                        filed_date=None,
-                        courts_db=courts
+                        regexes=regexes
                     )
                     results = list(set(matches))
                     if len(results) == 1:
@@ -238,27 +234,6 @@ class ConstantsTest(TestCase):
                 print (str(e))
                 print "Fail at", court['name']
 
-    def test_specific_example(self):
-        s = load_template()
-        courts = json.loads(s)
-        for court in courts:
-            if court["id"] == "illappct":
-                try:
-                    for example in court['examples']:
-                        matches = find_court(
-                            court_str=example,
-                            filed_date=None,
-                            courts_db=courts
-                        )
-                        results = list(set(matches))
-                        if len(results) == 1:
-                            if results == [court['id']]:
-                                continue
-                        else:
-                            print results, [court["id"]], "\txx\t", example, "\n" #court['regex']
-                except Exception as e:
-                    print (str(e))
-                    print "Fail at", court['name']
 
 
     def test_str(self):
@@ -270,35 +245,64 @@ class ConstantsTest(TestCase):
 
         court_id = "prapp"
 
-        sample_text = u"é"
-        sample_text = u"Tribunal Dé Apelaciones De Puerto Rico"
-
-
+        sample_text = u"Tribunal Circuito De Apelaciones"
+        s_text = sample_text
         regexes = gather_regexes(courts)
 
-        matches2 = find_court_alt(court_str=sample_text,
+        matches2 = find_court_alt(court_str=s_text,
                                   regexes=regexes
                                   )
-        self.assertEqual(list(set(matches2)), [court_id], "Failure")
+        print matches2
+        # self.assertEqual(list(set(matches2)), [court_id], "Failure %s" % matches2)
 
         print list(set(matches2)),
         print u"√"
 
 
-    def test_json(self):
+    def test_one_example(self):
+        """Can we extract the correct court id from string and date?"""
 
+        bankruptcy = False
+        s = load_template()
+        courts = json.loads(s)
+        court_id = "prapp"
+        court = [x for x in courts if x['id'] == "prapp"][0]
+        regexes = gather_regexes(courts)
+
+        for example in court['examples']:
+            print "Testing ... %s" % example.decode('unicode-escape'),
+            example = example.decode('unicode-escape')
+            matches2 = find_court_alt(court_str=example, regexes=regexes)
+            self.assertEqual(list(set(matches2)), [court['id']], "Failure %s" % matches2)
+            print u"√"
+
+
+
+    def test_json(self):
+        """
+        A simple testing mechanism to show where the JSON problems exist.
+        :return:
+        """
 
         try:
             with open('data/courts.json', "r") as f:
-                court_data = json.loads(f.read())
+                json.loads(f.read())
         except Exception as e:
-            print e
             with open('data/courts.json', "r") as f:
                 cd = f.read()
 
-            matches = re.match(courts, cd)
-            print matches
-            # "(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
+        regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
+        matches = re.finditer(regex, cd, re.MULTILINE)
+        for match in enumerate(matches, start=1):
+            court = match[1].group()[:-1]
+            try:
+                j = json.loads(court.strip())
+            except:
+                problem = court.strip()
+                name = re.search('\"name\": \"(?P<name>.*)\"', problem).group('name')
+                id = re.search('\"id\": \"(?P<id>.*)\"', problem).group('id')
+                print id, "-", name
+
 
 
 if __name__ == '__main__':
