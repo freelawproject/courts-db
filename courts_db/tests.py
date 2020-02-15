@@ -13,6 +13,7 @@ import six
 import unittest
 from datetime import datetime as dt
 from glob import iglob
+from io import open
 from string import Template, punctuation
 from unittest import TestCase
 
@@ -23,8 +24,8 @@ accents = re.compile("([^\w\s%s]+)" % re.escape(punctuation))
 courts = re.compile("(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)")
 
 
-def load_template():
-    """Load the court data from disk
+def load_courts_db():
+    """Load the court data from disk, and render regex variables
 
     Court data is on disk as one main JSON file, another containing variables,
     and several others containing placenames. These get combined via Python's
@@ -32,20 +33,18 @@ def load_template():
 
     :return: A python object containing the rendered courts DB
     """
-    with open(os.path.join("data", "courts.json"), "r") as f:
-        court_data = json.loads(f.read())
-
     with open(os.path.join("data", "variables.json"), "r") as v:
-        variables = json.loads(v.read())
+        variables = json.load(v)
 
     for path in iglob(os.path.join("data", "places", "*.txt")):
         with open(path, "r") as p:
             places = "(%s)" % "|".join(p.read().splitlines())
             variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
-    s = Template(json.dumps(court_data)).substitute(**variables)
-
-    return s.replace("\\", "\\\\")
+    with open(os.path.join("data", "courts.json"), "r") as f:
+        s = Template(f.read()).substitute(**variables)
+    s = s.replace("\\", "\\\\")
+    return json.loads(s)
 
 
 def get_court_list(fp):
@@ -145,16 +144,14 @@ def find_court(court_str, filed_date=None, regexes=None, bankruptcy=False):
 class ConstantsTest(TestCase):
     """ """
 
+    courts = load_courts_db()
+
     def test_all_examples(self):
-        s = load_template()
-        courts = json.loads(s)
-        regexes = gather_regexes(courts)
-        for court in courts:
+        regexes = gather_regexes(self.courts)
+        for court in self.courts:
             try:
                 for example in court["examples"]:
-                    matches = find_court(
-                        court_str=example, regexes=regexes
-                    )
+                    matches = find_court(court_str=example, regexes=regexes)
                     results = list(set(matches))
                     if len(results) == 1:
                         if results == [court["id"]]:
@@ -172,16 +169,15 @@ class ConstantsTest(TestCase):
                 print("Fail at", court["name"])
 
     def test_specific_example(self):
-        s = load_template()
-        courts = json.loads(s)
-        for court in courts:
+        regexes = gather_regexes(self.courts)
+        for court in self.courts:
             if court["id"] == "illappct":
                 try:
                     for example in court["examples"]:
                         matches = find_court(
                             court_str=example,
                             filed_date=None,
-                            courts_db=courts,
+                            regexes=regexes,
                         )
                         results = list(set(matches))
                         if len(results) == 1:
@@ -197,17 +193,11 @@ class ConstantsTest(TestCase):
 
     def test_str(self):
         # """Can we extract the correct court id from string and date?"""
-
-        bankruptcy = False
-        s = load_template()
-        courts = json.loads(s)
-
         court_id = "prapp"
 
-        sample_text = "é"
         sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
 
-        regexes = gather_regexes(courts)
+        regexes = gather_regexes(self.courts)
 
         matches2 = find_court(court_str=sample_text, regexes=regexes)
         self.assertEqual(list(set(matches2)), [court_id], "Failure")
