@@ -82,7 +82,6 @@ def gather_regexes(courts, bankruptcy=False, court_id=None):
             if court["type"] == "bankruptcy":
                 continue
         for reg_str in court["regex"]:
-            reg_str = reg_str.decode("unicode-escape")
             regex = re.compile(reg_str, (re.I | re.U))
             regexes.append((regex, court["id"]))
 
@@ -190,17 +189,12 @@ class ConstantsTest(TestCase):
                     print((str(e)))
                     print("Fail at", court["name"])
 
-    def test_str(self):
-        # """Can we extract the correct court id from string and date?"""
-        court_id = "prapp"
-
+    def test_unicode_handling(self):
+        """Do we handle regex matching with accents or other non-ascii?"""
         sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
-
-        matches2 = find_court(court_str=sample_text, regexes=self.regexes)
-        self.assertEqual(list(set(matches2)), [court_id], "Failure")
-
-        print(list(set(matches2)), end=" ")
-        print("√")
+        matches = find_court(court_str=sample_text, regexes=self.regexes)
+        expected_matches = ["prapp"]
+        self.assertEqual(matches, expected_matches)
 
     def test_json(self):
 
