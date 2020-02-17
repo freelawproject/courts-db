@@ -1,79 +1,100 @@
 # -*- coding: utf-8 -*-
-from unittest import TestCase
-import unittest
+from __future__ import (
+    absolute_import,
+    division,
+    print_function,
+    unicode_literals,
+)
+
 import json
-from string import Template, punctuation
-from datetime import datetime as dt
+import os
 import re
+import six
+import unittest
 from glob import iglob
-import pandas
-import unicodedata
+from io import open
+from string import Template, punctuation
+from unittest import TestCase
 
-reg_punc = re.compile('[%s]' % re.escape(punctuation))
-combined_whitespace = re.compile(r"\s+")
-accents = re.compile('([^\w\s%s]+)' % re.escape(punctuation))
-courts = re.compile('(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)')
+from text_utils import strip_punc
 
-def load_template():
+
+accents = re.compile("([^\w\s%s]+)" % re.escape(punctuation))
+courts = re.compile("(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)")
+
+
+def load_courts_db():
+    """Load the court data from disk, and render regex variables
+
+    Court data is on disk as one main JSON file, another containing variables,
+    and several others containing placenames. These get combined via Python's
+    template system and loaded as a Python object
+
+    :return: A python object containing the rendered courts DB
     """
+    with open(os.path.join("data", "variables.json"), "r") as v:
+        variables = json.load(v)
 
-    :return:
-    """
-    with open('data/courts.json', "r") as f:
-        court_data = json.loads(f.read())
-
-    with open('data/variables.json', "r") as v:
-        variables = json.loads(v.read())
-
-    for path in iglob("data/places/*.txt"):
+    for path in iglob(os.path.join("data", "places", "*.txt")):
         with open(path, "r") as p:
             places = "(%s)" % "|".join(p.read().splitlines())
-            variables[path.split("/")[-1].split(".txt")[0]] = places
+            variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
-    s = Template(json.dumps(court_data)).substitute(**variables)
+    with open(os.path.join("data", "courts.json"), "r") as f:
+        s = Template(f.read()).substitute(**variables)
+    s = s.replace("\\", "\\\\")
 
-    return s.replace("\\", "\\\\")
-
-def clean_punct(court_str):
-    clean_court_str = reg_punc.sub(' ', court_str)
-    clean_court_str = combined_whitespace.sub(' ', clean_court_str).strip()
-    ccs = u"%s" % clean_court_str.lower()
-    return ccs
+    return json.loads(s)
 
 
 def get_court_list(fp):
-    print fp
+    print(fp)
     court_set = set()
-    df = pandas.read_csv(fp, usecols=['court'])
-    cl = df['court'].tolist()
+    df = pandas.read_csv(fp, usecols=["court"])
+    cl = df["court"].tolist()
     cl = [x for x in cl if type(x) == str]
     court_list = set(cl)
 
     for court_str in court_list:
         try:
-            clean_str = clean_punct(court_str)
+            clean_str = strip_punc(court_str)
             court_set.add(clean_str)
         except Exception as e:
-            print court_str, str(e)
+            print(court_str, str(e))
 
     return court_set
 
 
-def gather_regexes(courts, bankruptcy=False):
+def gather_regexes(courts, bankruptcy=False, court_id=None):
+    """Create a variable mapping regexes to court IDs
+
+    :param courts: The court DB
+    :type courts: list
+    :param bankruptcy: Whether to include bankruptcy courts in the final
+    mapping.
+    :type bankruptcy: bool
+    :return: A list of two-tuples, with tuple[0] being a compiled regex and
+    tuple[1] being the court ID.
+    :rtype: list
+    """
     regexes = []
     for court in courts:
         if bankruptcy == False:
             if court["type"] == "bankruptcy":
                 continue
-        for reg_str in court['regex']:
-            reg_str = reg_str.decode('unicode-escape')
+        for reg_str in court["regex"]:
             regex = re.compile(reg_str, (re.I | re.U))
-            regexes.append((regex, court['id']))
+            regexes.append((regex, court["id"]))
+
+    if court_id is not None:
+        regexes = list(filter(lambda x: x[1] == court_id, regexes))
+
     return regexes
 
 
-def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
+def find_court(court_str, filed_date=None, regexes=None, bankruptcy=False):
     """
+
     :param court_str:
     :param filed_date:
     :param regexes:
@@ -82,228 +103,205 @@ def find_court_alt(court_str, filed_date=None, regexes=None, bankruptcy=False):
     cd = {}
     cdd = []
     court_matches = []
-    assert type(court_str) == unicode, "text not unicode"
-    for regex in regexes:
-        if re.search(regex[0], court_str):
-            court_matches.append(regex[1])
-
-            cd[re.search(regex[0], court_str).group()] = regex[1]
-            cdd.append(
-                {"id": regex[1],
-                 "text": re.search(regex[0], court_str).group()}
-            )
-            # print cdd
+    assert (
+        type(court_str) == six.text_type
+    ), "court_str is not a text type, it's of type %s" % type(court_str)
+    for regex, court_id in regexes:
+        match = re.search(regex, court_str)
+        if match:
+            court_matches.append(court_id)
+            cd[match.group()] = court_id
+            cdd.append({"id": court_id, "text": match.group()})
+            # print(cdd)
 
     results = list(set(court_matches))
     if len(results) > 1:
         flist = []
-        remove_list = [x['text'] for x in cdd]
+        remove_list = [x["text"] for x in cdd]
         subsetlist = []
+
         for test in remove_list:
             for item in [x for x in remove_list if x != test]:
                 if test in item:
                     subsetlist.append(test)
         final_list = [x for x in remove_list if x not in subsetlist]
-        # print final_list
-
         for r in cdd:
-            if r['text'] in final_list:
+            if r["text"] in final_list:
                 if bankruptcy == True:
                     pass
                 else:
-                    court_key = r['id']
+                    court_key = r["id"]
                     if court_key != "" and court_key is not None:
                         if court_key[-1] != "b":
-                            flist.append(r['id'])
-                    else:
-                        flist.append(r['text'])
+                            flist.append(r["id"])
         return flist
 
     return court_matches
 
 
-def find_court(court_str, filed_date=None, courts_db=None):
-    """
+class DataTest(TestCase):
+    """ """
 
-    :param court_str:
-    :param filed_date:
-    :param courts_db:
-    :return:
-    """
-    cd = {}
-    court_matches = []
-    cdd = []
-
-    if filed_date is None:
-        for court in courts_db:
-            for reg_str in court['regex']:
-                reg_str = unicodedata.normalize('NFKD',
-                              reg_str.decode('unicode-escape')).\
-                                      encode('ascii', 'ignore')
-
-                reg_str = re.sub(r'\s{2,}', ' ', reg_str)
-                regex = re.compile(reg_str, re.I)
-                if re.search(regex, court_str):
-                    court_matches.append(court['id'])
-                    cdd.append(
-                        {"id":court['id'],
-                        "text":re.search(regex, court_str).group()}
-                   )
-    else:
-        filed_date = dt.strptime(filed_date, "%Y-%m-%d")
-        court_matches = []
-        for court in courts_db:
-            for date in court['dates']:
-                if date['start'] is None:
-                    continue
-                date_start = dt.strptime(date['start'], "%Y-%m-%d")
-
-                if date['end'] is None:
-                    date_end = dt.today()
-                else:
-                    date_end = dt.strptime(date['end'], "%Y-%m-%d")
-
-                if not date_start <= filed_date <= date_end:
-                    continue
-                if court['id'] is None:
-                    continue
-
-                for reg_str in court['regex']:
-                    regex = re.compile(reg_str, re.I)
-                    if re.search(regex, court_str):
-                        court_matches.append(court['id'])
-                        cd[court['id']] = re.search(regex, court_str)
-                        continue
-
-    results = list(set(court_matches))
-    flist = []
-
-    if len(results) > 1:
-        print results
-        remove_list = [x['text'] for x in cdd]
-        subsetlist = []
-
-        for test in remove_list:
-            print remove_list
-            for item in [x for x in remove_list if x != test]:
-                if test in item:
-                    subsetlist.append(test)
-        final_list = [x for x in remove_list if x not in subsetlist]
-        bankruptcy = False
-
-        for r in cdd:
-            if r['text'] in final_list:
-                if bankruptcy == True:
-                    pass
-                else:
-                    court_key = r['id']
-                    if court_key is not None and court_key != "":
-                        if court_key[-1] != "b":
-                            flist.append(r['id'])
-
-        return flist
-    return results
-
-
-
-class DataTests(TestCase):
-    """
-     python tests.py DataTests.test_court
-     """
-
+    try:
+        courts = load_courts_db()
+        regexes = gather_regexes(courts)
+    except:
+        print("\n")
+        pass
 
     def test_all_examples(self):
-        s = load_template()
-        courts = json.loads(s)
-        regexes = gather_regexes(courts)
-
-        for court in courts:
+        for court in self.courts:
             try:
-                for example in court['examples']:
-                    matches = find_court_alt(
-                        court_str=example,
-                        regexes=regexes
+                for example in court["examples"]:
+                    matches = find_court(
+                        court_str=example, regexes=self.regexes
                     )
                     results = list(set(matches))
                     if len(results) == 1:
-                        if results == [court['id']]:
+                        if results == [court["id"]]:
                             continue
                     else:
-                        print results, [court["id"]], "\txx\t", example, "\n" #court['regex']
+                        print(
+                            results,
+                            [court["id"]],
+                            "\txx\t",
+                            example,
+                            "\n",  # court['regex']
+                        )
             except Exception as e:
-                print (str(e))
-                print "Fail at", court['name']
+                print(str(e))
+                print("Fail at", court["name"])
 
+    def test_specific_example(self):
+        for court in self.courts:
+            if court["id"] == "illappct":
+                try:
+                    for example in court["examples"]:
+                        matches = find_court(
+                            court_str=example,
+                            filed_date=None,
+                            regexes=self.regexes,
+                        )
+                        results = list(set(matches))
+                        if len(results) == 1:
+                            if results == [court["id"]]:
+                                continue
+                        else:
+                            print(
+                                results, [court["id"]], "\txx\t", example, "\n"
+                            )  # court['regex']
+                except Exception as e:
+                    print((str(e)))
+                    print("Fail at", court["name"])
 
-
-    def test_str(self):
-        # """Can we extract the correct court id from string and date?"""
-
-        bankruptcy = False
-        s = load_template()
-        courts = json.loads(s)
-
-        court_id = "prapp"
-
-        sample_text = u"Tribunal Circuito De Apelaciones"
-        s_text = sample_text
-        regexes = gather_regexes(courts)
-
-        matches2 = find_court_alt(court_str=s_text,
-                                  regexes=regexes
-                                  )
-        print matches2
-        # self.assertEqual(list(set(matches2)), [court_id], "Failure %s" % matches2)
-
-        print list(set(matches2)),
-        print u"√"
-
+    def test_unicode_handling(self):
+        """Do we handle regex matching with accents or other non-ascii?"""
+        sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
+        matches = find_court(court_str=sample_text, regexes=self.regexes)
+        expected_matches = ["prapp"]
+        self.assertEqual(matches, expected_matches)
 
     def test_one_example(self):
         """Can we extract the correct court id from string and date?"""
 
         bankruptcy = False
-        s = load_template()
-        courts = json.loads(s)
+        courts = load_courts_db()
+        # print(courts)
         court_id = "prapp"
-        court = [x for x in courts if x['id'] == "prapp"][0]
+        court = [x for x in courts if x["id"] == "prapp"][0]
         regexes = gather_regexes(courts)
 
-        for example in court['examples']:
-            print "Testing ... %s" % example.decode('unicode-escape'),
-            example = example.decode('unicode-escape')
-            matches2 = find_court_alt(court_str=example, regexes=regexes)
-            self.assertEqual(list(set(matches2)), [court['id']], "Failure %s" % matches2)
-            print u"√"
-
-
+        for example in court["examples"]:
+            print("Testing ... %s" % example),
+            matches2 = find_court(court_str=example, regexes=regexes)
+            self.assertEqual(
+                list(set(matches2)), [court["id"]], "Failure %s" % matches2
+            )
+            print("√")
 
     def test_json(self):
         """
         A simple testing mechanism to show where the JSON problems exist.
         :return:
         """
+        name = '"name": "(?P<name>.*)",'
+        regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
+        count = 1
 
         try:
-            with open('data/courts.json', "r") as f:
-                json.loads(f.read())
-        except Exception as e:
-            with open('data/courts.json', "r") as f:
-                cd = f.read()
+            with open(os.path.join("data", "courts.json"), "r") as f:
+                data = f.read()
+                json.loads(data)
+                print("JSON is correct. %s", "√√√")
+                return
 
-        regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
-        matches = re.finditer(regex, cd, re.MULTILINE)
+        except Exception as e:
+            pass
+
+        matches = re.finditer(regex, data, re.MULTILINE)
         for match in enumerate(matches, start=1):
             court = match[1].group()[:-1]
             try:
                 j = json.loads(court.strip())
+                continue
             except:
-                problem = court.strip()
-                name = re.search('\"name\": \"(?P<name>.*)\"', problem).group('name')
-                id = re.search('\"id\": \"(?P<id>.*)\"', problem).group('id')
-                print id, "-", name
+                pass
+
+            problem = court.strip()
+            options = re.findall('"(.*)":', problem)
+            name = re.search('"name": "(?P<name>.*)"', problem).group(
+                "name"
+            )
+            id = re.search('"id": "(?P<id>.*)"', problem).group("id")
+            print("Issues with (%s) -- %s" % (id, name))
+
+            options.remove("start")
+            options.remove("end")
+
+            for key in options:
+                stuff = None
+                p = '("%s":)(\s{1,})?(?P<key>{|\[)' % key
+                q = '("%s": (\[))(\s+)?((\n.*?){1,})?\],?' % key
+                if re.search(p, problem):
+                    if re.search(q, problem):
+                        stuff = re.search(q, problem).group()
+                else:
+                    thisone = '("%s": ".*",?)' % key
+                    if re.search(thisone, problem):
+                        stuff = re.search(thisone, problem).group()
+
+                try:
+                    last_key = False
+                    if key == options[-1]:
+                        last_key = True
+
+                    if stuff[-1] == "," and last_key == True:
+                        print(
+                            "Error: Extra comma -- %s -- %s (%s)"
+                            % (key.upper(), name, id)
+                        )
+                        continue
+                    elif stuff[-1] != ",":
+                        print(
+                            "Error: Missing comma -- %s -- %s (%s)"
+                            % (key.upper(), name, id)
+                        )
+                        continue
+
+                    try:
+                        json.loads("{%s}" % stuff.strip(","))
+                    except:
+                        print(
+                            "Error: Other: -- %s -- %s (%s)"
+                            % (key.upper(), name, id)
+                        )
+
+                except:
+                    print(
+                        "Error: Other -- %s -- %s (%s)"
+                        % (key.upper(), name, id)
+                    )
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
