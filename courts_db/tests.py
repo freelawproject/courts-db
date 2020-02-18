@@ -206,9 +206,9 @@ class DataTest(TestCase):
 
         bankruptcy = False
         courts = load_courts_db()
-        # print(courts)
-        court_id = "prapp"
-        court = [x for x in courts if x["id"] == "prapp"][0]
+
+        court_id = "mdcrctct"
+        court = [x for x in courts if x["id"] == court_id][0]
         regexes = gather_regexes(courts)
 
         for example in court["examples"]:
@@ -224,8 +224,9 @@ class DataTest(TestCase):
         A simple testing mechanism to show where the JSON problems exist.
         :return:
         """
-        name = '"name": "(?P<name>.*)",'
-        regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
+        name_regex = r'"name": "(?P<name>.*)",'
+        court_regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
+        id_regex = r'"id": ("(?P<id>.*)"|null)'
         count = 1
 
         try:
@@ -236,71 +237,23 @@ class DataTest(TestCase):
                 return
 
         except Exception as e:
+            print("problem")
             pass
 
-        matches = re.finditer(regex, data, re.MULTILINE)
+        matches = re.finditer(court_regex, data, re.MULTILINE)
         for match in enumerate(matches, start=1):
-            court = match[1].group()[:-1]
+            court = match[1].group().strip(",")
             try:
-                j = json.loads(court.strip())
+                j = json.loads(court)
                 continue
             except:
                 pass
 
-            problem = court.strip()
-            options = re.findall('"(.*)":', problem)
-            name = re.search('"name": "(?P<name>.*)"', problem).group(
-                "name"
-            )
-            id = re.search('"id": "(?P<id>.*)"', problem).group("id")
+            id = re.search(id_regex, court).group("id")
+            name = re.search(name_regex, court).group("name")
             print("Issues with (%s) -- %s" % (id, name))
 
-            options.remove("start")
-            options.remove("end")
 
-            for key in options:
-                stuff = None
-                p = '("%s":)(\s{1,})?(?P<key>{|\[)' % key
-                q = '("%s": (\[))(\s+)?((\n.*?){1,})?\],?' % key
-                if re.search(p, problem):
-                    if re.search(q, problem):
-                        stuff = re.search(q, problem).group()
-                else:
-                    thisone = '("%s": ".*",?)' % key
-                    if re.search(thisone, problem):
-                        stuff = re.search(thisone, problem).group()
-
-                try:
-                    last_key = False
-                    if key == options[-1]:
-                        last_key = True
-
-                    if stuff[-1] == "," and last_key == True:
-                        print(
-                            "Error: Extra comma -- %s -- %s (%s)"
-                            % (key.upper(), name, id)
-                        )
-                        continue
-                    elif stuff[-1] != ",":
-                        print(
-                            "Error: Missing comma -- %s -- %s (%s)"
-                            % (key.upper(), name, id)
-                        )
-                        continue
-
-                    try:
-                        json.loads("{%s}" % stuff.strip(","))
-                    except:
-                        print(
-                            "Error: Other: -- %s -- %s (%s)"
-                            % (key.upper(), name, id)
-                        )
-
-                except:
-                    print(
-                        "Error: Other -- %s -- %s (%s)"
-                        % (key.upper(), name, id)
-                    )
 
 
 if __name__ == "__main__":
