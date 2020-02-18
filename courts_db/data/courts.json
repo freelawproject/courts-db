@@ -1171,7 +1171,8 @@
     {
         "regex": [
             "${usdc} ${sd} ${cali}",
-            "^${d} ${sd} ${cali}"
+            "^${d} ${sd} ${cali}",
+            "${usdc} ${cali} ${sd}"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1183,7 +1184,8 @@
         "name": "United States District Court for the Southern District of California",
         "examples": [
             "United States District Court S D California",
-            "District Court S D California"
+            "District Court S D California",
+            "United States District Court Of California Southern District"
         ],
         "level": "gjc",
         "case_types": [
@@ -1788,7 +1790,8 @@
     {
         "regex": [
             "${d} ?(D)? ${co}",
-            "${usdc} ${d} ${co}"
+            "${usdc} ${d} ${co}",
+            "United States District Court Jefferson County Colorado"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1807,7 +1810,8 @@
         "appeal_to": "ca10",
         "system": "federal",
         "examples": [
-            "United States District Court D Colorado"
+            "United States District Court D Colorado",
+            "United States District Court Jefferson County Colorado"
         ],
         "court_url": "http://www.cod.uscourts.gov/",
         "type": "trial",
@@ -1879,7 +1883,8 @@
         "regex": [
             "${usdc} ${d} ${conn}",
             "^${d} ?(D)? ?Connecticut",
-            "United States District District Of Connecticut"
+            "United States District District Of Connecticut",
+            "${usdc} ${conn}"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1898,7 +1903,8 @@
         "appeal_to": "ca2",
         "locations": 3,
         "examples": [
-            "United States District District Of Connecticut"
+            "United States District District Of Connecticut",
+            "United States District Court Of Connecticut"
         ],
         "court_url": "http://www.ctd.uscourts.gov/",
         "system": "federal",
@@ -2506,7 +2512,8 @@
     {
         "regex": [
             "${usdc} ${sd} ${fl}",
-            "United States District Court For The District Of Florida Southern Division"
+            "United States District Court For The District Of Florida Southern Division",
+            "United States District Court In And For The Southern District Of Florida Miami Division"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2527,7 +2534,9 @@
         "jurisdiction": "F.L.",
         "appeal_to": "ca11",
         "system": "federal",
-        "examples": [],
+        "examples": [
+          "United States District Court In And For The Southern District Of Florida Miami Division"
+        ],
         "court_url": "http://www.flsd.uscourts.gov/",
         "type": "trial",
         "id": "flsd",
@@ -2808,7 +2817,8 @@
     },
     {
         "regex": [
-            "${usdc} ${nd} ${ga}"
+            "${usdc} ${nd} ${ga}",
+            "United States District Court For The Northern Division Of Georgia Atlanta"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2830,7 +2840,8 @@
         "appeal_to": "ca11",
         "divisions": [],
         "examples": [
-            "United States District Court N D Georgia Rome Division"
+            "United States District Court N D Georgia Rome Division",
+            "United States District Court For The Northern Division Of Georgia Atlanta"
         ],
         "court_url": "http://www.gand.uscourts.gov/",
         "location": "Georgia",
@@ -3209,7 +3220,7 @@
             "${d} Guam",
             "${usdc} D Guam",
             "${usdc} Guam",
-            "United States District Court For The Territory Of Guam"
+            "${usdc} Territory Of Guam"
         ],
         "dates": [
             {
@@ -3260,7 +3271,8 @@
             "United States District Court For The Territory Of Hawaii",
             "United States District Court For The District Of Honolulu",
             "United States District Court Territory Of Hawaii",
-            "United States District Court For The Territory Of Hawaii"
+            "United States District Court For The Territory Of Hawaii",
+            "United States District Court Of Honolulu"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -3278,7 +3290,9 @@
         "jurisdiction": "H.I.",
         "appeal_to": "ca9",
         "divisions": [],
-        "examples": [],
+        "examples": [
+            "United States District Court Of Honolulu For The District Of Hawaii First Division"
+        ],
         "court_url": "http://www.hid.uscourts.gov/",
         "location": "Hawaii",
         "type": "trial",
@@ -4152,7 +4166,8 @@
     {
         "regex": [
             "${usdc} ${nd} Iowa",
-            "${nd} Iowa"
+            "${nd} Iowa",
+            "United States District Court Iowa Black Hawk County"
         ],
         "dates": [
             {
@@ -4165,7 +4180,9 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "United States District Court N D Iowa Cedar Rapids Division"
+            "United States District Court N D Iowa Cedar Rapids Division",
+            "United States District Court Iowa Black Hawk County",
+            "United States District Court For The District Of Iowa Eastern Division Dubuque"
         ],
         "court_url": "http://www.iand.uscourts.gov/",
         "type": "appellate",
@@ -5699,7 +5716,8 @@
         "regex": [
             "${ed} ${mo}",
             "${usdc} ${d} ${mo} Eastern Division",
-            "${usdc} ${ed} Eastern Division Of ${mo}"
+            "${usdc} ${ed} Eastern Division Of ${mo}",
+            "${usdc} For The District Of Eastern Missouri Eastern Division"
         ],
         "dates": [
             {
@@ -5713,7 +5731,8 @@
         "system": "federal",
         "examples": [
             "United States District Court D Missouri Eastern Division",
-            "United States District Court Eastern District Eastern Division Of Missouri"
+            "United States District Court Eastern District Eastern Division Of Missouri",
+            "United States District Court For The District Of Eastern Missouri Eastern Division"
         ],
         "court_url": "http://www.moed.uscourts.gov/",
         "type": "appellate",
@@ -7548,7 +7567,9 @@
             "Supreme Court Special Term ${ny_counties} County",
             "Supreme Court Of Special Term ${ny_counties}",
             "Yonkers Court Of New York Special Sessions",
-            "Upreme Court Of New York General Term"
+            "Upreme Court Of New York General Term",
+            "Supreme Court Of ${ny_counties} Special Term",
+            "Supreme Court Of ${ny_cities} Special Term"
         ],
         "dates": [
             {
@@ -7587,7 +7608,8 @@
             "${usdc} Eastern of ${ny}",
             "United States District Colurt ${ed} Of New York",
             "United States Court ${ed} Of New York",
-            "${usdc} Fastern District Of New York"
+            "${usdc} Fastern District Of New York",
+            "United States District Court Fot The Eastern District Of New York"
         ],
         "dates": [
             {
@@ -7609,7 +7631,8 @@
             "United States District Court Eastern Of New York",
             "District Court E D New York",
             "United States District Colurt Eastern District Of New York",
-            "United States District Court Fastern District Of New York"
+            "United States District Court Fastern District Of New York",
+            "United States District Court Fot The Eastern District Of New York"
         ],
         "court_url": "http://www.nyed.uscourts.gov/",
         "type": "appellate",
@@ -8785,7 +8808,8 @@
     {
         "regex": [
             "${wd} ${ok}",
-            "${usdc} ${wd} ${ok}"
+            "${usdc} ${wd} ${ok}",
+            "United States District Court For The Westrn District Of Oklahoma"
         ],
         "dates": [
             {
@@ -8797,7 +8821,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+          "United States District Court For The Westrn District Of Oklahoma"
+        ],
         "court_url": "http://www.uscourts.gov/",
         "type": "appellate",
         "id": "okwd",
@@ -9189,7 +9215,8 @@
         "regex": [
             "${usdc} ${ed} ${pa}",
             "${usdc} Eastern Disthict Of ${pa}",
-            "United States Ditsrict Court Eastern Disthict Of ${pa}"
+            "United States Ditsrict Court Eastern Disthict Of ${pa}",
+            "United States District Court Of For The Eastern District Of Pennsylvania"
         ],
         "dates": [
             {
@@ -9206,7 +9233,9 @@
             "United States District Court Eastern Disthict Of Pennsylvania",
             "United States District Court Eastern Dist Of Pennsylvania",
             "United States Ditsrict Court Eastern District Of Pennsylvania",
-            "United States District Of Court Eastern District Of Pennsylvania"
+            "United States District Of Court Eastern District Of Pennsylvania",
+            "United States District Court Of For The Eastern District Of Pennsylvania",
+            "United States District Court For The District For The Eastern District Of Pennsylvania"
         ],
         "court_url": "http://www.paed.uscourts.gov/",
         "type": "appellate",
@@ -9262,7 +9291,9 @@
     },
     {
         "regex": [
-            "${wd} P(a|(ennsylvania))"
+            "${wd} ${pa}",
+            "United States District Court For The Westernd District Of Pennsylvania",
+            "${usdc} ${wd} ${pa}"
         ],
         "dates": [
             {
@@ -9274,7 +9305,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+          "United States District Court For The Westernd District Of Pennsylvania"
+        ],
         "court_url": "http://www.pawd.uscourts.gov/",
         "type": "trial",
         "id": "pawd",
@@ -9641,7 +9674,8 @@
     {
         "regex": [
             "${usdc} ${sdak}",
-            "${usdc} ${d} ${sdak}"
+            "${usdc} ${d} ${sdak}",
+            "United States District Court For The Central District Of South Dakota"
         ],
         "dates": [
             {
@@ -9653,7 +9687,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+          "United States District Court For The Central District Of South Dakota"
+        ],
         "court_url": "http://www.sdd.uscourts.gov/",
         "type": "trial",
         "id": "sdd",
@@ -9986,7 +10022,8 @@
             "The Texas Court Of Civil Appeals",
             "Tx Court Of Civil Appeals Houston 1St Dist",
             "Court Of Civil Appeal Of Texas",
-            "Court Of Civil Appeals Second Supreme Judicial District Of Texas"
+            "Court Of Civil Appeals Second Supreme Judicial District Of Texas",
+            "Texas Court Of Civil Appeals"
         ],
         "dates": [
             {
@@ -10012,7 +10049,8 @@
         "regex": [
             "Court of Criminal Appeals? of Texas",
             "State Of Texas Court Of Criminal Appeals",
-            "The Texas Court Of Criminal Appeals"
+            "The Texas Court Of Criminal Appeals",
+            "Texas Court Of Criminal Appeals"
         ],
         "dates": [
             {
@@ -10053,7 +10091,9 @@
     {
         "regex": [
             "${usdc} ${wd} ${tx}",
-            "U S District Court West Dist Tex"
+            "U S District Court West Dist Tex",
+            "${usdc} For The Western Of District Texas Austin Division",
+            "United States District Court For The Western Division Of Texas Waco Division"
         ],
         "dates": [
             {
@@ -10065,7 +10105,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+          "United States District Court For The Western Of District Texas Austin Division"
+        ],
         "court_url": "http://www.txwd.uscourts.gov/",
         "type": "appellate",
         "id": "txwd",
@@ -10117,7 +10159,10 @@
     {
         "regex": [
             "${nd} ${tx}",
-            "${usdc} ${nd} ${tx}"
+            "${usdc} ${nd} ${tx}",
+            "United States District Court For The Northern Disstrict Of Texas Fort Worth Division",
+            "United States District Court For The Northern District Division Of Texas Dallas Division",
+            "United States District Court For The Northern Division Texas Wichita Falls Division"
         ],
         "dates": [
             {
@@ -10285,7 +10330,8 @@
             "^${d} ?(D)? ?Utah",
             "${usdc} District Of Utah Central Division",
             "${usdc} ${d} Utah",
-            "${usdc} Utah"
+            "${usdc} Utah",
+            "${usdc} In And For The District Of Utah Northern Division"
         ],
         "dates": [
             {
@@ -10298,7 +10344,8 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "United States District Court District Of Utah Central Division"
+            "United States District Court District Of Utah Central Division",
+            "United States District Court In And For The District Of Utah Northern Division"
         ],
         "court_url": "http://www.utd.uscourts.gov/",
         "type": "trial",
@@ -10588,7 +10635,8 @@
         "regex": [
             "${wd} ${va}",
             "${usdc} ${wd} ${va}",
-            "United States District Court For The Western Division Of Virginia"
+            "United States District Court For The Western Division Of Virginia",
+            "United States District Court Virginia Roanoke Division"
         ],
         "dates": [
             {
@@ -10601,7 +10649,8 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "United States District Court For The Western Division Of Virginia"
+            "United States District Court For The Western Division Of Virginia",
+            "United States District Court Virginia Roanoke Division"
         ],
         "court_url": "http://www.vawd.uscourts.gov/",
         "type": "trial",
@@ -10912,7 +10961,8 @@
     },
     {
         "regex": [
-            "${sd} ${wv}"
+            "${sd} ${wv}",
+            "${usdc} ${sd} ${wv}"
         ],
         "dates": [
             {
@@ -10924,7 +10974,9 @@
         "level": "",
         "case_types": [],
         "system": "federal",
-        "examples": [],
+        "examples": [
+          "United States District Court S D W Va Huntington Division"
+        ],
         "court_url": "http://www.wvsd.uscourts.gov/",
         "type": "appellate",
         "id": "wvsd",
@@ -12174,7 +12226,8 @@
             "${usa} ${ccoa} ${n5} Circuit",
             "United States Court Appeals Fifth Circuit",
             "U S Court Of Appeals For The Fifth Circuit",
-            "Court Of Appeal Fifth District"
+            "Court Of Appeal Fifth District",
+            "United States Court Of The Appeals For The Fifth Circuit"
         ],
         "dates": [
             {
@@ -12191,7 +12244,8 @@
             "United States Court Of Appeals For Fifth Circuit",
             "United States Court On Appeals Fifth Circuit",
             "Court Of Appeals Fifth Circuit",
-            "Court Of Appeal Fifth District"
+            "Court Of Appeal Fifth District",
+            "United States Court Of The Appeals For The Fifth Circuit"
         ],
         "court_url": "http://www.ca5.uscourts.gov/",
         "type": "appellate",
@@ -12238,7 +12292,8 @@
             "Court Of Appeals Of The District Of Columbia",
             "Court Of Appeals Of District Of Columbia",
             "Court Of Appeals District Of Columbia",
-            "Court Of Appeals For The District Of Columbia Circuit"
+            "Court Of Appeals For The District Of Columbia Circuit",
+            "United States Court Of Appeals For District Of Columbia"
         ],
         "dates": [
             {
@@ -12251,7 +12306,8 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "Court Of Appeals Of The District Of Columbia"
+            "Court Of Appeals Of The District Of Columbia",
+            "United States Court Of Appeals For District Of Columbia"
         ],
         "court_url": "http://www.cadc.uscourts.gov/",
         "type": "appellate",
@@ -12263,7 +12319,8 @@
             "${usa} (Circuit )?(Courts? )?(of Appeals?(,|.)? ?)?(for the )?(Tenth,? )(Circuit)?",
             "Tenth Circuit ${coa}",
             "Circuit ${coa} ${n10} Circuit",
-            "${uscoa} ${n10} Circuit"
+            "${uscoa} ${n10} Circuit",
+            "United States States Circuit Court Of Appeals For The Tenth Circuit"
         ],
         "dates": [
             {
@@ -12851,7 +12908,7 @@
     },
     {
         "regex": [
-            "United States Court Of Military Appeals",
+            "${usa} Court Of Military (of)? ?Appeals",
             "Court Of Military Appeals",
             "U S Court Of Military Appeals",
             "United States Court Of Of Military Appeals",
@@ -12895,9 +12952,9 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "U S Navy Marine Corps Court Of Military Review",
-            "U S Navy Court Of Military Review",
-            "United States V Navy Marine Corps Court Of Military Review"
+            "${usa} Navy Marine Corps Court Of Military Review",
+            "${usa} Navy Court Of Military Review",
+            "${usa} V Navy Marine Corps Court Of Military Review"
         ],
         "court_url": "",
         "type": "special",
