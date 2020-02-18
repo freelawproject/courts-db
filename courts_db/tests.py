@@ -140,13 +140,12 @@ def find_court(court_str, filed_date=None, regexes=None, bankruptcy=False):
 
 
 class DataTest(TestCase):
-    """ """
+    """Data tests are used to confirm our data set is functional."""
 
     try:
         courts = load_courts_db()
         regexes = gather_regexes(courts)
     except:
-        print("\n")
         pass
 
     def test_all_examples(self):
@@ -173,6 +172,8 @@ class DataTest(TestCase):
                 print("Fail at", court["name"])
 
     def test_specific_example(self):
+        """"Can we process illappct correctly."""
+
         for court in self.courts:
             if court["id"] == "illappct":
                 try:
@@ -220,10 +221,7 @@ class DataTest(TestCase):
             print("√")
 
     def test_json(self):
-        """
-        A simple testing mechanism to show where the JSON problems exist.
-        :return:
-        """
+        """Does our json load properly, and if not where are the issues"""
         name_regex = r'"name": "(?P<name>.*)",'
         court_regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
         id_regex = r'"id": ("(?P<id>.*)"|null)'
@@ -252,8 +250,6 @@ class DataTest(TestCase):
             id = re.search(id_regex, court).group("id")
             name = re.search(name_regex, court).group("name")
             print("Issues with (%s) -- %s" % (id, name))
-
-
 
 
 if __name__ == "__main__":
