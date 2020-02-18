@@ -29,8 +29,7 @@ class DataTest(TestCase):
             try:
                 for example in court["examples"]:
                     matches = find_court(
-                        court_str=example,
-                        regexes=self.regexes
+                        court_str=example, regexes=self.regexes
                     )
                     results = list(set(matches))
                     if len(results) == 1:
@@ -56,8 +55,7 @@ class DataTest(TestCase):
                 try:
                     for example in court["examples"]:
                         matches = find_court(
-                            court_str=example,
-                            filed_date=None
+                            court_str=example, filed_date=None
                         )
                         results = list(set(matches))
                         if len(results) == 1:
@@ -92,7 +90,7 @@ class DataTest(TestCase):
             self.assertEqual(
                 list(set(matches2)), [court["id"]], "Failure %s" % matches2
             )
-            print(u"%s" % u"√".encode("ascii", "ignore"))
+            print("%s" % "√".encode("ascii", "ignore"))
 
     def test_json(self):
         """Does our json load properly, and if not where are the issues"""

@@ -18,6 +18,7 @@ import six
 courts = load_courts_db()
 court_dict = make_court_dictionary(courts)
 
+
 def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
     """
     :param court_str:
