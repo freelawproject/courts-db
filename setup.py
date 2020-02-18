@@ -8,8 +8,8 @@ except ImportError:  # for pip <= 9.0.3
     from pip.req import parse_requirements
 
 VERSION = "1.0.0"
-AUTHOR = "William E. Palin, Esq."
-EMAIL = "bill@free.law"
+AUTHOR = "Free Law Project"
+EMAIL = "info@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -36,18 +36,19 @@ setup(
     long_description=read("README.rst"),
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    package_data={"courts_db": ["data/*", "data/places/*",]},
+    package_data={"courts_db": ["data/*", "data/places/*", "*"]},
     classifiers=[
-        "Development Status :: 5 - Beta",
+        "Production Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.6",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
