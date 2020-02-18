@@ -92,7 +92,7 @@ class DataTest(TestCase):
             self.assertEqual(
                 list(set(matches2)), [court["id"]], "Failure %s" % matches2
             )
-            print("√")
+            print("%s" % "√")
 
     def test_json(self):
         """Does our json load properly, and if not where are the issues"""
