@@ -15,11 +15,8 @@ from io import open
 from string import Template, punctuation
 from unittest import TestCase
 
-# from .text_utils import strip_punc
-
 accents = re.compile("([^\w\s%s]+)" % re.escape(punctuation))
 db_root = os.path.dirname(os.path.realpath(__file__))
-
 
 
 def load_courts_db():
@@ -32,42 +29,26 @@ def load_courts_db():
     :return: A python object containing the rendered courts DB
     """
 
-    with open(os.path.join(db_root, 'data', 'variables.json')) as f:
+    with open(os.path.join(db_root, "data", "variables.json")) as f:
         variables = json.load(f)
 
-    for path in iglob(os.path.join(db_root, 'data', 'places', '*.txt')):
+    for path in iglob(os.path.join(db_root, "data", "places", "*.txt")):
         with open(path, "r") as p:
             places = "(%s)" % "|".join(p.read().splitlines())
             variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
-    with open(os.path.join(db_root, 'data', 'courts.json'), "r") as f:
+    with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
         s = Template(f.read()).substitute(**variables)
 
     s = s.replace("\\", "\\\\")
 
     return json.loads(s)
 
-def get_court_list(fp):
-    court_set = set()
-    df = pandas.read_csv(fp, usecols=["court"])
-    cl = df["court"].tolist()
-    cl = [x for x in cl if type(x) == str]
-    court_list = set(cl)
-
-    for court_str in court_list:
-        try:
-            clean_str = strip_punc(court_str)
-            court_set.add(clean_str)
-        except Exception as e:
-            print(court_str, str(e))
-
-    return court_set
-
 
 def make_court_dictionary(courts):
     cd = {}
     for court in courts:
-        cd[court['id']] = court
+        cd[court["id"]] = court
     return cd
 
 
@@ -149,7 +130,7 @@ def find_court_id(court_str, filed_date=None, regexes=None, bankruptcy=False):
 
     if len(court_matches) == 0:
         return None
-    assert len(court_matches)==1, "Too many matches"
+    assert len(court_matches) == 1, "Too many matches"
     return court_matches[0]
 
 

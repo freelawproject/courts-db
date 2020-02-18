@@ -7,9 +7,9 @@ try:  # for pip >= 10
 except ImportError:  # for pip <= 9.0.3
     from pip.req import parse_requirements
 
-VERSION = '1.0.0'
-AUTHOR = 'William E. Palin, Esq.'
-EMAIL = 'bill@free.law'
+VERSION = "1.0.0"
+AUTHOR = "William E. Palin, Esq."
+EMAIL = "bill@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -32,16 +32,11 @@ setup(
     author_email=EMAIL,
     maintainer=AUTHOR,
     maintainer_email=EMAIL,
-    keywords=['legal', 'courts'],
+    keywords=["legal", "courts"],
     long_description=read("README.rst"),
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    package_data={
-        'courts_db': [
-            'data/*',
-            'data/places/*',
-        ]
-    },
+    package_data={"courts_db": ["data/*", "data/places/*",]},
     classifiers=[
         "Development Status :: 5 - Beta",
         "Intended Audience :: Developers",
@@ -58,9 +53,8 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
-        str(r.req) for r in
-        parse_requirements('requirements.txt', session=False)
-
+        str(r.req)
+        for r in parse_requirements("requirements.txt", session=False)
     ],
     test_suite="tests",
 )

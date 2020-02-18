@@ -16,8 +16,6 @@ from io import open
 from string import Template, punctuation
 from unittest import TestCase
 
-from text_utils import strip_punc
-
 
 accents = re.compile("([^\w\s%s]+)" % re.escape(punctuation))
 courts = re.compile("(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)")
@@ -45,24 +43,6 @@ def load_courts_db():
     s = s.replace("\\", "\\\\")
 
     return json.loads(s)
-
-
-def get_court_list(fp):
-    print(fp)
-    court_set = set()
-    df = pandas.read_csv(fp, usecols=["court"])
-    cl = df["court"].tolist()
-    cl = [x for x in cl if type(x) == str]
-    court_list = set(cl)
-
-    for court_str in court_list:
-        try:
-            clean_str = strip_punc(court_str)
-            court_set.add(clean_str)
-        except Exception as e:
-            print(court_str, str(e))
-
-    return court_set
 
 
 def gather_regexes(courts, bankruptcy=False, court_id=None):
