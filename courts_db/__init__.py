@@ -16,11 +16,9 @@ import re
 import six
 
 courts = load_courts_db()
-regexes = gather_regexes(courts)
 court_dict = make_court_dictionary(courts)
 
-
-def find_court(court_str, filed_date=None, bankruptcy=False):
+def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
     """
     :param court_str:
     :param filed_date:
@@ -30,6 +28,9 @@ def find_court(court_str, filed_date=None, bankruptcy=False):
     cd = {}
     cdd = []
     court_matches = []
+    if regexes == None:
+        regexes = gather_regexes(courts)
+
     assert (
         type(court_str) == six.text_type
     ), "court_str is not a text type, it's of type %s" % type(court_str)

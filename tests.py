@@ -6,8 +6,8 @@ from __future__ import (
     unicode_literals,
 )
 
-from utils import load_courts_db, gather_regexes
-from __init__ import find_court
+from courts_db.utils import load_courts_db, gather_regexes, db_root
+from courts_db import find_court
 from unittest import TestCase
 from io import open
 
@@ -29,7 +29,8 @@ class DataTest(TestCase):
             try:
                 for example in court["examples"]:
                     matches = find_court(
-                        court_str=example, regexes=self.regexes
+                        court_str=example,
+                        regexes=self.regexes
                     )
                     results = list(set(matches))
                     if len(results) == 1:
@@ -56,8 +57,7 @@ class DataTest(TestCase):
                     for example in court["examples"]:
                         matches = find_court(
                             court_str=example,
-                            filed_date=None,
-                            regexes=self.regexes,
+                            filed_date=None
                         )
                         results = list(set(matches))
                         if len(results) == 1:
@@ -88,7 +88,7 @@ class DataTest(TestCase):
 
         for example in court["examples"]:
             print("Testing ... %s" % example),
-            matches2 = find_court(court_str=example, regexes=self.regexes)
+            matches2 = find_court(court_str=example, regexes=None)
             self.assertEqual(
                 list(set(matches2)), [court["id"]], "Failure %s" % matches2
             )
@@ -103,14 +103,13 @@ class DataTest(TestCase):
         count = 1
 
         try:
-            with open(os.path.join("data", "courts.json"), "r") as f:
+            with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
                 data = f.read()
                 json.loads(data)
                 print("JSON is correct. %s", "√√√")
                 return
 
         except Exception as e:
-            print("problem")
             pass
 
         matches = re.finditer(court_regex, data, re.MULTILINE)
