@@ -2951,7 +2951,8 @@
     {
         "regex": [
             "Georgia ${coa}",
-            "${coa} Georgia"
+            "${coa} Georgia",
+            "Coiurt Of Appeals Of Georgia"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -4956,11 +4957,13 @@
         "id": "mdag",
         "location": "Maryland"
     },
-  {
+    {
         "regex": [
             "Circuit Court Of Maryland ${md_circuits}",
             "Circuit Court Of Maryland Pfunce George",
-            "Circuit Court Of${va_circuits}.* Maryland"
+            "Circuit Court Of ${md_circuits}.* Maryland",
+            "Court For ${md_circuits} County Maryland",
+            "Circuit Court Of Maryland Pfunce George"
         ],
         "dates": [
             {
@@ -4973,7 +4976,8 @@
         "case_types": [],
         "system": "state",
         "examples": [
-          "Circuit Court Of Maryland Pfunce George"
+            "Circuit Court Of Maryland Pfunce George",
+            "Court For Prince George's County Maryland"
         ],
         "type": "trial",
         "id": "mdcrctct",
@@ -6891,7 +6895,8 @@
         "regex": [
           "Vice Chancellor S Court Of New York",
           "Chancellor S Court Of New York",
-          "Chancery Court Of New York"
+          "Chancery Court Of New York",
+          "Court Of Chancery New York"
         ],
         "dates": [
             {
@@ -7368,7 +7373,7 @@
     {
         "regex": [
             "New York Court Of Claims",
-            "Court Of Claims Of New York"
+            "Court Of Claims? Of New York"
         ],
         "dates": [
             {
@@ -9979,7 +9984,9 @@
             "State Of Texas First Court Of Civil Appeals",
             "State Of Texas Fourteenth Court Of Appeals",
             "The Texas Court Of Civil Appeals",
-            "Tx Court Of Civil Appeals Houston 1St Dist"
+            "Tx Court Of Civil Appeals Houston 1St Dist",
+            "Court Of Civil Appeal Of Texas",
+            "Court Of Civil Appeals Second Supreme Judicial District Of Texas"
         ],
         "dates": [
             {
@@ -9993,7 +10000,8 @@
         "system": "state",
         "examples": [
             "State Of Texas Fourteenth Court Of Appeals",
-            "Tx Court Of Civil Appeals Houston 1St Dist"
+            "Tx Court Of Civil Appeals Houston 1St Dist",
+            "Court Of Civil Appeals Second Supreme Judicial District Of Texas"
         ],
         "court_url": "http://www.courts.state.tx.us/courts/coa.asp",
         "type": "appellate",
@@ -11010,8 +11018,9 @@
     },
     {
         "regex": [
-            "Court of Appeals? of (of )?Wisconsin",
-            "Wisconsin Court of Appeals"
+            "Court of Appeals? (of ?){1,2} Wisconsin",
+            "Wisconsin Court of Appeals",
+            "Court Appeals Of Wisconsin"
         ],
         "dates": [
             {
@@ -13992,7 +14001,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court S D Fla"],
+        "regex": [
+          "Circuit Court S D Fla",
+          "Circuit Court S D Florida"
+        ],
         "name_abbreviation": "S. Fla. Cir. Ct",
         "dates": [
             {
@@ -14010,7 +14022,9 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Ga"],
+        "regex": [
+          "Circuit Court D ${ga}"
+        ],
         "name_abbreviation": "Ga. Cir. Ct",
         "dates": [
             {
@@ -14255,7 +14269,8 @@
     },
     {
         "regex": [
-          "Circuit Court D Rhode Island"
+          "Circuit Court D Rhode Island",
+          "Circuit Court Rhode Island"
         ],
         "name_abbreviation": "Rhode Island. Cir. Ct",
         "dates": [
@@ -14669,7 +14684,7 @@
                 "end": "1872-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N.C.",
+        "name": "U.S. Circuit Court for the District of North Carolina",
         "level": "iac",
         "case_types": [],
         "system": "federal",
@@ -14679,7 +14694,135 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court W D N.C"],
+        "regex": [
+          "Circuit Court D Cape Fear North Carolina"
+        ],
+        "dates": [
+            {
+                "start": "1801-01-01",
+                "end": "1872-12-31"
+            }
+        ],
+        "name": "U.S. Circuit Court District of Cape Fear (North Carolina)",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "N.C",
+        "type": "appellate",
+        "id": "circtcapefearnc",
+        "examples": [
+          "Circuit Court D Cape Fear North Carolina"
+        ]
+    },
+      {
+        "regex": [
+        ],
+        "name_abbreviation": "",
+        "dates": [
+            {
+                "start": "1794-01-01",
+                "end": "1797-12-31"
+            }
+        ],
+        "name": "U.S. Circuit Court District of Edenton (North Carolina)",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "N.C",
+        "type": "appellate",
+        "id": "circtedentonnc",
+        "examples": [
+          ""
+        ]
+    },
+  {
+        "regex": [
+        ],
+        "name_abbreviation": "",
+        "dates": [
+            {
+                "start": "1794-01-01",
+                "end": "1797-12-31"
+            }
+        ],
+        "name": "U.S. Circuit Court District of New Bern (North Carolina)",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "N.C",
+        "type": "appellate",
+        "id": "circtnewbernnc",
+        "examples": [
+          ""
+        ]
+    },
+  {
+        "regex": [
+        ],
+        "name_abbreviation": "",
+        "dates": [
+            {
+                "start": "1794-01-01",
+                "end": "1797-12-31"
+            }
+        ],
+        "name": "U.S. Circuit Court District of Wilmington (North Carolina)",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "N.C",
+        "type": "appellate",
+        "id": "circtwilmingtonnc",
+        "examples": [
+          ""
+        ]
+    },
+  {
+        "regex": [
+        ],
+        "name_abbreviation": "",
+        "dates": [
+            {
+                "start": "1801-01-01",
+                "end": "1872-12-31"
+            }
+        ],
+        "name": "U.S. Circuit Court District of Albemarle (North Carolina)",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "N.C",
+        "type": "appellate",
+        "id": "circtalbermarlenc",
+        "examples": [
+          ""
+        ]
+    },
+  {
+        "regex": [
+        ],
+        "name_abbreviation": "",
+        "dates": [
+            {
+                "start": "1801-01-01",
+                "end": "1872-12-31"
+            }
+        ],
+        "name": "U.S. Circuit Court District of Pamptico (North Carolina)",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "N.C",
+        "type": "appellate",
+        "id": "circtpampticonc",
+        "examples": [
+          ""
+        ]
+    },
+    {
+        "regex": [
+          "Circuit Court W D N.C"
+        ],
         "name_abbreviation": "W. N.C. Cir. Ct",
         "dates": [
             {
@@ -14697,7 +14840,9 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Nebraska"],
+        "regex": [
+          "Circuit Court D Nebraska"
+        ],
         "name_abbreviation": "Nebraska. Cir. Ct",
         "dates": [
             {
@@ -15401,7 +15546,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Southern New York"],
+        "regex": [
+            "Circuit Court D Southern New York",
+            "Circuit Court S D New York"
+        ],
         "name_abbreviation": "Southern New York. Cir. Ct",
         "dates": [
             {
