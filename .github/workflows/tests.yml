@@ -22,4 +22,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run tests
       run: |
-        python courts_db/tests.py DataTest
+        python /courts_db/tests.py DataTest
