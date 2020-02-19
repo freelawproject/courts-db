@@ -140,10 +140,6 @@ dmypy.json
 
 .idea/courts-db.iml
 
-courts_db/all_crts.json
-
-courts_db/lexis_output.txt
-
 courts_db/*.json
 
 courts_db/*.txt
