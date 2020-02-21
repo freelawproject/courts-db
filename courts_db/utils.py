@@ -71,7 +71,7 @@ def gather_regexes(courts, court_id=None):
     for court in courts:
         for reg_str in court["regex"]:
             regex = re.compile(reg_str, (re.I | re.U))
-            regexes.append((regex, court["id"], court['name'], court['type']))
+            regexes.append((regex, court["id"], court["name"], court["type"]))
 
     if court_id is not None:
         regexes = list(filter(lambda x: x[1] == court_id, regexes))
