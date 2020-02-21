@@ -59,6 +59,7 @@
     "vt": "V(ermon)?t?(\\b|$)",
     "nmex": "N(ew)? Mex(ico)?(\\b|$)",
     "conn": "Conn(ecticut)?(\\b|$)",
+    "ma": "Ma(ss(achusetts)?)?(\\b|$)",
 
 
     "sup": "Supreme Court ?(of ?)? ?(the)? ?",
