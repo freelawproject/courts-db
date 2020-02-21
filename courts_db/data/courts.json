@@ -5512,10 +5512,10 @@
     },
     {
         "regex": [
-            "${sjc} Massachusetts?",
-            "Massachusetts ${sjc}",
-            "Supreme Court Of Massachusetts",
-            "State Of Massachusetts Supreme Court"
+            "${sjc} ${ma}?",
+            "${ma} ${sjc}",
+            "Supreme Court Of ${ma}",
+            "State Of ${ma} Supreme Court"
         ],
         "name_abbreviation": "Mass. Sup. Jud. Ct.",
         "dates": [
