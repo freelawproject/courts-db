@@ -401,7 +401,8 @@
     },
     {
         "regex": [
-            "${usdc} ${md} Alabama"
+            "${usdc} ${md} Alabama",
+            "${usbcmd} Alabama"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -458,7 +459,10 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Alabama"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Alabama",
+            "${usbcnd} Alabama",
+            "United States District Court For The Northern District Of Alabama",
+            "United States Bankruptcy Court Nortnern District Of Alabama"
         ],
         "dates": [
             {
@@ -478,7 +482,9 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?Alabama"
+            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?Alabama",
+            "${usbcsd} Alabama",
+            "United States District Court For The Southern District Of Alabama"
         ],
         "dates": [
             {
@@ -653,7 +659,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. Alaska"
+            "(^|\\s)D\\. Alaska",
+            "${usbcd} Alaska"
         ],
         "dates": [
             {
@@ -835,7 +842,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D(\\.|(istrict))? ?Arizona"
+            "(^|\\s)D(\\.|(istrict))? ?Arizona",
+            "${usbcd} Arizona"
         ],
         "dates": [
             {
@@ -963,7 +971,10 @@
         "regex": [
             "${sup} Arkansas",
             "Arkansas ${sup}",
-            "Supreme Court Territory Of Arkansas"
+            "Supreme Court Territory Of Arkansas",
+            "Superior Court Territory (Of)? ?Arkansas",
+            "Superior Court Of Arkansas",
+            "Superior Court D Arkansas"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1116,9 +1127,71 @@
         "id": "arkag",
         "location": "Arkansas"
     },
+  {
+        "regex": [
+            "Opinion Of The Ohio Attorney General"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Opinion Of The Ohio Attorney General",
+        "level": "",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": "ag",
+        "id": "ohioag",
+        "location": "Ohio"
+    },
+  {
+        "regex": [
+            "Ohio State Racing Commission"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Ohio State Racing Commission",
+        "level": "",
+        "case_types": [],
+        "system": "special",
+        "examples": [
+          "Ohio State Racing Commission"
+        ],
+        "type": "",
+        "id": null,
+        "location": "Ohio"
+    },
+  {
+        "regex": [
+            "Ohio Civil Rights Commission"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Ohio Civil Rights Commission",
+        "level": "",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+          "Ohio Civil Rights Commission"
+        ],
+        "type": "",
+        "id": null,
+        "location": "Ohio"
+    },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? ?(of )?Arkansas"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? ?(of )?Arkansas",
+            "${usbcwd} Arkansas"
         ],
         "dates": [
             {
@@ -1138,7 +1211,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? ?(of )?Arkansas"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? ?(of )?Arkansas",
+            "${usbced} Arkansas"
         ],
         "dates": [
             {
@@ -1444,7 +1518,8 @@
             "Court Of Appeal California",
             "Court Of Appeal Fo California",
             "Court Of Appeal Of California Third Appellate District Nevada",
-            "Court Of Appeal ${bw} Appellate District Division"
+            "Court Of Appeal ${bw} Appellate District Division",
+            "Court Of Appeals Of California Third Appellate District"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1463,15 +1538,13 @@
             "District Court Of Appeal Second District Division 3 California",
             "Court Of Appeal First District Division 4 California",
             "Court Of Appeal Fourth District Division 3",
-            "Court Of Appeal Superior Court California",
             "State Of California District Court Of Appeal Second",
             "Court Of Appeal Second District California Division 8",
             "Court Of Appeal First District Division 1 California",
             "Court Of Appeal Of California ${bw} Appellate District Division",
             "Court Of Appeal Of California",
             "Court Of Appeal Of California Third Appellate District Nevada",
-            "Court Of Appeals Of California Third Appellate District",
-            "Court Of Appeal Superior Court California"
+            "Court Of Appeals Of California Third Appellate District"
         ],
         "court_url": "http://www.courts.ca.gov/courtsofappeal.htm",
         "type": "appellate",
@@ -1495,7 +1568,10 @@
             "Appellate Division Superior Court Of California ${ca_counties}",
             "Appellate Division Superior Court Of California",
             "Appellate Dept Superior Court Of California",
-            "Appellate Department Of The Superior Court Of California"
+            "Appellate Department Of The Superior Court Of California",
+            "State Of California Appellate Department",
+            "Court Of Appeal Superior Court California",
+            "Appellate Department Superior Court"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1550,7 +1626,8 @@
     },
     {
         "regex": [
-            "(^|\\s)C\\.? ?D(\\.|(istrict))? ?(of )?Cal(ifornia)?"
+            "(^|\\s)C\\.? ?D(\\.|(istrict))? ?(of )?Cal(ifornia)?",
+            "${usbccd} California"
         ],
         "dates": [
             {
@@ -1570,7 +1647,8 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.? ?D(\\.|(istrict))? ?(of )?Cal(ifornia)?"
+            "(^|\\s)S\\.? ?D(\\.|(istrict))? ?(of )?Cal(ifornia)?",
+            "${usbcsd} California"
         ],
         "dates": [
             {
@@ -1590,7 +1668,9 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? ?(of )?Cal(ifornia)?"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? ?(of )?Cal(ifornia)?",
+            "${usbcnd} California",
+            "${usdc} Northern District Of California"
         ],
         "dates": [
             {
@@ -1610,7 +1690,8 @@
     },
     {
         "regex": [
-            "${ed} Cal(ifornia)?"
+            "${ed} Cal(ifornia)?",
+            "${usbced} California"
         ],
         "dates": [
             {
@@ -1838,6 +1919,7 @@
         "regex": [
             "${d} ?(D)? ${co}",
             "${usdc} ${d} ${co}",
+            "${usdc} ${co}",
             "United States District Court Jefferson County Colorado"
         ],
         "name_abbreviation": null,
@@ -1908,7 +1990,8 @@
     {
         "regex": [
             "${usdc} Colorado",
-            "${d} Colorado"
+            "${d} Colorado",
+            "${usbcd} Colorado"
         ],
         "dates": [
             {
@@ -2142,7 +2225,7 @@
     {
         "regex": [
             "${d} Connecticut",
-            "${usdc} Connecticut"
+            "${usbcd} Connecticut"
         ],
         "dates": [
             {
@@ -2510,7 +2593,10 @@
     },
     {
         "regex": [
-            "(^|\\s)D(\\.|(istrict))? (of )?Delaware"
+            "(^|\\s)D(\\.|(istrict))? (of )?Delaware",
+            "${usbcd} Delaware",
+            "United States District Court For The District Of Delaware",
+            "United States Bankruptcy Court For The Northern District Of Delaware"
         ],
         "dates": [
             {
@@ -2815,7 +2901,14 @@
             "${usbc} ${sd} ${fl}",
             "${usbc} West Palm Beach Division",
             "${usbc} Broward Division",
-            "${usbc} Ft Lauderdale Division"
+            "${usbc} Ft Lauderdale Division",
+            "United States Bankruptcy Court Ft Lauderdale Division Ft Lauderdale Division",
+            "${usbcsd} Florida",
+            "United States Bankruptcy Court In And For The Southern District Of Florida",
+            "United States Bankruptcy Court South District Of Florida",
+            "United States Bankruptcy Court In And For The South?ern District Of Florida",
+            "United States Bankruptcy Court Broward Division",
+            "U S Bankruptcy Court Southern District Of Florida"
         ],
         "dates": [
             {
@@ -2841,7 +2934,9 @@
         "regex": [
             "(^|\\s)M(\\.|(iddle))? ?D(\\.|(istrict))? ?(of )?${fl}",
             "Florida, Tampa Division",
-            "Florida, Jacksonville Division"
+            "Florida, Jacksonville Division",
+            "${usbcmd} Florida",
+            "United States Bankruptcy Court For The District Of Florida"
         ],
         "dates": [
             {
@@ -2861,7 +2956,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N(\\.|(orthern))? ?D(\\.|(istrict))? (of )?${fl}"
+            "(^|\\s)N(\\.|(orthern))? ?D(\\.|(istrict))? (of )?${fl}",
+            "${usbcnd} Florida"
         ],
         "dates": [
             {
@@ -3249,7 +3345,8 @@
     {
         "regex": [
             "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Georgia",
-            "Atlanta Division"
+            "Atlanta Division",
+            "${usbcnd} Georgia"
         ],
         "dates": [
             {
@@ -3270,7 +3367,8 @@
     {
         "regex": [
             "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?Georgia",
-            "${usbc} M D Georgia"
+            "${usbc} M D Georgia",
+            "${usbcmd} Georgia"
         ],
         "dates": [
             {
@@ -3292,7 +3390,8 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\. ?D(\\.|(istrict))? Georgia"
+            "(^|\\s)S\\. ?D(\\.|(istrict))? Georgia",
+            "${usbcsd} Georgia"
         ],
         "dates": [
             {
@@ -3358,7 +3457,7 @@
     {
         "regex": [
             "${d} Guam",
-            "${usdc} D Guam",
+            "${usdc} ${d} Guam",
             "${usdc} Guam",
             "${usdc} Territory Of Guam"
         ],
@@ -3383,7 +3482,7 @@
     },
     {
         "regex": [
-            "Guam"
+            "${usbcd} Guam"
         ],
         "dates": [
             {
@@ -3596,7 +3695,9 @@
     },
     {
         "regex": [
-            "(^|\\s)D(\\.|(istrict))? ?Hawai"
+            "(^|\\s)D(\\.|(istrict))? ?Hawai",
+            "${usbcd} Hawai",
+            "United States Bankruptcy Court For The Middle District Of Hawaii"
         ],
         "dates": [
             {
@@ -3808,7 +3909,9 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. Idaho"
+            "(^|\\s)D\\. Idaho",
+            "${usbcd} Idaho",
+            "United States District Court For The District Of Idaho"
         ],
         "dates": [
             {
@@ -3943,7 +4046,8 @@
     },
     {
         "regex": [
-            "${cd} Ill(inois)?"
+            "${cd} Ill(inois)?",
+            "${usdc} ${cd} Illinois"
         ],
         "dates": [
             {
@@ -4003,7 +4107,9 @@
             "United States District Court For The Northern Disctrict Of Illinois",
             "District Court For The Northern Division Illinois E Div",
             "United States Distric Court For The Northern District Of Illinois ",
-            "United States District Court For The Eastern Division Northern District Of Illinois"
+            "United States District Court For The Eastern Division Northern District Of Illinois",
+            "${usdc} ${nd} Illinois",
+            "United States (Distrlct|Disttict|District) Court For The Northern District Of (Illnois|Illinois)"
         ],
         "dates": [
             {
@@ -4025,7 +4131,8 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.? ?D(\\.|(istrict))? ?(of )?Ill(inois)?"
+            "(^|\\s)S\\.? ?D(\\.|(istrict))? ?(of )?Ill(inois)?",
+            "${usbcsd} Illinois"
         ],
         "dates": [
             {
@@ -4045,7 +4152,8 @@
     },
     {
         "regex": [
-            "(^|\\s)C\\.? ?D(\\.|(istrict))? ?(of )?Ill(inois)?"
+            "(^|\\s)C\\.? ?D(\\.|(istrict))? ?(of )?Ill(inois)?",
+            "${usbccd} Illinois"
         ],
         "dates": [
             {
@@ -4065,7 +4173,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? ?(of )?Ill(inois)?"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? ?(of )?Ill(inois)?",
+            "${usbcnd} Illinois"
         ],
         "dates": [
             {
@@ -4240,7 +4349,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? ?(of )?${in}"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? ?(of )?${in}",
+            "${usbcnd} Indiana"
         ],
         "dates": [
             {
@@ -4260,7 +4370,9 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.D\\. (of )?${in}"
+            "(^|\\s)S\\.D\\. (of )?${in}",
+            "${usbcsd} Indiana",
+            "United States Bankruptcy Court For The Souther District"
         ],
         "dates": [
             {
@@ -4375,7 +4487,8 @@
         "regex": [
             "${usdc} ${nd} Iowa",
             "${nd} Iowa",
-            "United States District Court Iowa Black Hawk County"
+            "United States District Court Iowa Black Hawk County",
+            "United States District Court For The District Of Iowa Eastern Division Dubuque"
         ],
         "dates": [
             {
@@ -4418,7 +4531,8 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?Iowa"
+            "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?Iowa",
+            "${usbcsd} Iowa"
         ],
         "dates": [
             {
@@ -4438,7 +4552,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\. ?D(\\.|(istrict))? Iowa"
+            "(^|\\s)N\\. ?D(\\.|(istrict))? Iowa",
+            "${usbcnd} Iowa"
         ],
         "dates": [
             {
@@ -4554,7 +4669,8 @@
     },
     {
         "regex": [
-            "(^|\\s)(D|M)(\\.|(istrict)) (of )?Kan(sas)?"
+            "(^|\\s)(D|M)(\\.|(istrict)) (of )?Kan(sas)?",
+            "${usbcd} Kansas"
         ],
         "dates": [
             {
@@ -4678,7 +4794,8 @@
         "regex": [
             "${ed} ${ky}",
             "${usdc} ${ed} Lexington Ky",
-            "U S District Court East Dist Lexington Ky"
+            "U S District Court East Dist Lexington Ky",
+            "${usdc} ${ed} Kentucky"
         ],
         "dates": [
             {
@@ -4723,7 +4840,9 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${ky}"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${ky}",
+            "${usbcwd} Kentucky",
+            "United States District Court For The Western District Of Kentucky"
         ],
         "dates": [
             {
@@ -4743,7 +4862,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${ky}"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${ky}",
+            "${usbced} Kentucky"
         ],
         "dates": [
             {
@@ -4973,7 +5093,8 @@
     },
     {
         "regex": [
-            "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?Loui?siana"
+            "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?Loui?siana",
+            "${usbcmd} Louisiana"
         ],
         "dates": [
             {
@@ -4994,7 +5115,8 @@
     {
         "regex": [
             "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Loui?siana",
-            "Eastern District, Louisiana"
+            "Eastern District, Louisiana",
+            "${usbced} Louisiana"
         ],
         "dates": [
             {
@@ -5014,7 +5136,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?Loui?siana"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?Loui?siana",
+            "${usbcwd} Louisiana"
         ],
         "dates": [
             {
@@ -5105,7 +5228,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. Maine"
+            "(^|\\s)D\\. Maine",
+            "${usbcd} Maine"
         ],
         "dates": [
             {
@@ -5150,9 +5274,14 @@
         "regex": [
             "${coa} Maryland",
             "${sup} Maryland",
-            "(State of )?Maryland ${coa}"
+            "(State of )?Maryland ${coa}",
+            "Provincial Court Of The Province Of Maryland"
         ],
         "dates": [
+            {
+                "start": "1714-01-01",
+                "end": "1774-12-31"
+            },
             {
                 "start": "1841-01-01",
                 "end": null
@@ -5243,7 +5372,9 @@
     },
     {
         "regex": [
-            "District Court Of The United States District Of Maryland In Bankruptcy"
+            "District Court Of The United States District Of Maryland In Bankruptcy",
+            "${usbcd} Maryland",
+            "United States District Court For The District Of Maryland"
         ],
         "dates": [
             {
@@ -5434,7 +5565,7 @@
     {
         "regex": [
             "D(\\.|(istrict))? ?(of )?Mass",
-            ", Massachusetts"
+            "${usbcd} Massachusetts"
         ],
         "dates": [
             {
@@ -5565,7 +5696,8 @@
     },
     {
         "regex": [
-            "${wd} ${mi}"
+            "${wd} ${mi}",
+            "${usbcwd} Michigan"
         ],
         "dates": [
             {
@@ -5585,7 +5717,9 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${mi}"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${mi}",
+            "${usbced} Michigan",
+            "United States District Court For The Eastern District Of Michigan"
         ],
         "dates": [
             {
@@ -5617,9 +5751,11 @@
         "level": "",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+          "Minnesota Tax Court"
+        ],
         "type": null,
-        "id": null,
+        "id": "mntaxct",
         "location": "Minnesota"
     },
     {
@@ -5693,7 +5829,8 @@
         "regex": [
             "${d} ?(D)? ?Minn(esota)?",
             "${usdc} ${d} Minnesota",
-            "${usdc} ${d} ${mn}"
+            "${usdc} ${d} ${mn}",
+            "${usdc} ${mn}"
         ],
         "dates": [
             {
@@ -5715,7 +5852,9 @@
     },
     {
         "regex": [
-            "^${d} ?(D)? ?Minnesota"
+            "^${d} ?(D)? ?Minnesota",
+            "${usbcd} Minnesota",
+            "United States District Court For The District Of Minnesota"
         ],
         "dates": [
             {
@@ -5873,7 +6012,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Mississippi"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Mississippi",
+            "${usbcnd} Mississippi"
         ],
         "dates": [
             {
@@ -5893,7 +6033,9 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?Mississippi"
+            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?Mississippi",
+            "${usbcsd} Mississippi",
+            "United States District Court For The Southern District Of Mississippi"
         ],
         "dates": [
             {
@@ -5971,7 +6113,9 @@
             "${usdc} ${d} ${mo} Eastern Division",
             "${usdc} ${ed} Eastern Division Of ${mo}",
             "${usdc} For The District Of Eastern Missouri Eastern Division",
-            "District Court E D Of The Missouri E D"
+            "District Court E D Of The Missouri E D",
+            "${usdc} ${ed} Missouri",
+            "United States District Court Of Missouri Eastern Division"
         ],
         "dates": [
             {
@@ -6059,7 +6203,9 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? ?(of )?${mo}"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? ?(of )?${mo}",
+            "${usbced} Missouri",
+            "United States Bankruptcy Court For The District Of Missouri Eastern Division"
         ],
         "dates": [
             {
@@ -6079,7 +6225,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? ?(of )?${mo}"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? ?(of )?${mo}",
+            "${usbcwd} Missouri"
         ],
         "dates": [
             {
@@ -6221,7 +6368,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. Montana"
+            "(^|\\s)D\\. Montana",
+            "${usbcd} Montana"
         ],
         "dates": [
             {
@@ -6329,7 +6477,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D(\\.|(istrict))? (of )?${nb}"
+            "(^|\\s)D(\\.|(istrict))? (of )?${nb}",
+            "${usbcd} Nebraska"
         ],
         "dates": [
             {
@@ -6413,7 +6562,8 @@
     },
     {
         "regex": [
-            "${usdc} ${d} Nevada"
+            "${usdc} ${d} Nevada",
+            "${usbcd} Nevada"
         ],
         "dates": [
             {
@@ -6454,9 +6604,32 @@
         ],
         "location": "New Hampshire"
     },
+  {
+        "regex": [
+            "Superior Court of New Hampshire",
+            "Superior Court Of Judicature Of New Hampshire"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Superior Court of New Hampshire",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "id": "nhsuperct",
+        "examples": [],
+        "court_url": "http://www.courts.state.nh.us/supreme/",
+        "type": "trial",
+        "location": "New Hampshire"
+    },
     {
         "regex": [
-            "New Hampshire"
+            "${usdc} ${d} New Hampshire",
+            "District Court N New Hampshire",
+            "United States District Court For The Eastern District Of New Hampshire"
         ],
         "dates": [
             {
@@ -6476,8 +6649,7 @@
     },
     {
         "regex": [
-            "New Hampshire",
-            "D\\.N\\.H"
+            "${usbcd} New Hampshire"
         ],
         "dates": [
             {
@@ -6782,7 +6954,8 @@
     {
         "regex": [
             "(^|\\s)D(\\.|(istrict))? ?New Jersey",
-            ", New Jersey"
+            "${usbcd} New Jersey",
+            "United States District Court For The District Of New Jersey"
         ],
         "dates": [
             {
@@ -6870,7 +7043,8 @@
     {
         "regex": [
             "New Mexico",
-            "State of New Mexico"
+            "State of New Mexico",
+            "${usbcd} New Mexico"
         ],
         "dates": [
             {
@@ -6898,7 +7072,8 @@
             "Supreme Court Appellate Division",
             "Supreme Ourt Appellate Division Fourth Department",
             "Supreme Court First Department",
-            "Court Appellate Term 2Nd 11Th And 13Th Judicial Districts"
+            "Court Appellate Term 2Nd 11Th And 13Th Judicial Districts",
+            "2Nd 11Th And 13Th Judicial Districts"
         ],
         "dates": [
             {
@@ -7246,7 +7421,6 @@
     },
     {
         "regex": [
-            "Circuit Court.* New York",
             "Supreme Court (${ny_counties}) Circuit"
         ],
         "dates": [
@@ -7311,7 +7485,10 @@
             "Court Of New York Special Term Brooklyn County",
             "Supereme Court Of New York Special Term",
             "New York County CourtZ",
-            "Criminal Court Bronx County"
+            "Criminal Court Bronx County",
+            "County Court Of New York General Sessions",
+            "County Court Of New York General Sessions New York County",
+            "County Court Of New York New York County General Sessions"
         ],
         "dates": [
             {
@@ -7326,7 +7503,6 @@
         "jurisdiction": "N.Y.",
         "system": "state",
         "examples": [
-            "County Court (${ny_counties}) County",
             "Nassau County Court"
         ],
         "type": "trial",
@@ -7392,8 +7568,10 @@
             "District Court Of Suffolk County Of New York First District",
             "State Of New York District Court Of Nassau County First District",
             "Justice Court Town Of Dewitt New York",
+            "District Court Of New York Fourth District Suffolk County",
             "District Court New York County New York",
-            "District Court New York County New York"
+            "District Court New York County New York",
+            "District Court Of New York Fourth District Nassau County"
         ],
         "dates": [
             {
@@ -7454,7 +7632,8 @@
             "Civil Court City Of New Rochelle",
             "Civil Cour City Of New York New York County",
             "State Of New York New York City Court Special Term Part I At Law",
-            "Schoharie Court Of New York"
+            "Schoharie Court Of New York",
+            "City Court Of New York Special Term Brooklyn County"
         ],
         "dates": [
             {
@@ -7757,7 +7936,6 @@
         "system": "state",
         "examples": [
             "Cout Of Common Pleas Of New York City And County General Term",
-            "Mayors' Court",
             "New York Court of Common Pleas",
             "New York General Sessions",
             "Ny General Session"
@@ -7850,7 +8028,7 @@
             "Supreme Court New County",
             "(?=^.*New York Supreme Court)(?!^.*Appellate).*",
             "(?=^.*New York)(?=^.*Supreme Court)(?!^.*Appellate).*",
-            "(?=^.*${ny_counties})(?=^.*Supreme Court)(?!^.*Appellate)(?!^.*(Delaware|Washington|Wyoming))(?!^.*Ohio).*",
+            "(?=^.*${ny_counties})(?=^.*Supreme Court)(?!^.*Appellate)(?!^.*(Delaware|Washington|Wyoming|Columbia|District))(?!^.*Ohio).*",
             "(?=^.*New York)(?=^.*Supreme)(?!^.*Appellate).*",
             "(?=^.*New York)(?=^.*Supreme Court)(?!^.*Ohio)(?!^.*Appellate).*",
             "Supremet Court Kings County",
@@ -7860,7 +8038,8 @@
             "Supreme Court Of New Yourk General Term",
             "Supreme Court Of New Yprk",
             "Suprerior Court Of New York",
-            "Suprome Court Of New York Onondaga"
+            "Suprome Court Of New York Onondaga",
+            "Upreme Court Of New York General Term"
         ],
         "dates": [
             {
@@ -7966,9 +8145,7 @@
             "District Court E D New York",
             "United States District Colurt Eastern District Of New York",
             "United States District Court Fastern District Of New York",
-            "United States District Court Fot The Eastern District Of New York",
-            "United States District Court For The Northern Division Of New York",
-            "United States District Court For The Northern District Of New Yorke0"
+            "United States District Court Fot The Eastern District Of New York"
         ],
         "court_url": "http://www.nyed.uscourts.gov/",
         "type": "appellate",
@@ -7977,7 +8154,9 @@
     },
     {
         "regex": [
-            "${usdc} ${nd} ${ny}"
+            "${usdc} ${nd} ${ny}",
+            "United States District Court For The Northern Division Of New York",
+            "United States District Court For The Northern District Of New Yorke0"
         ],
         "dates": [
             {
@@ -8040,7 +8219,9 @@
             "${usdc} South Dist N Y",
             "${usdc} ${sd} New (Youk|Yrok)",
             "United States District Court For The Southern Division Of New York",
-            "United States District Court For The Southern Idstrict Of New York"
+            "United States District Court For The Southern Idstrict Of New York",
+            "United States District Court For The Southern District Or?n? New York",
+            "United States District Court For The Souther District Of New York"
         ],
         "dates": [
             {
@@ -8063,7 +8244,6 @@
             "United States District Court Southern District Of A New York",
             "United States District Court Southern District Of N Y",
             "United States District Courthern District Of New York",
-            "United States District Court For The Southern District Or?n? New York",
             "United States District Court Southern District Of New Youk",
             "United States District Court For The Souther District Of New York"
         ],
@@ -8094,7 +8274,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?New York"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?New York",
+            "${usbcnd} New York"
         ],
         "dates": [
             {
@@ -8114,7 +8295,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?New York"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?New York",
+            "${usbcwd} New York"
         ],
         "dates": [
             {
@@ -8136,7 +8318,8 @@
         "regex": [
             "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?New York",
             "Southern District of New York",
-            "S.D.N.Y"
+            "S.D.N.Y",
+            "${usbcsd} New York"
         ],
         "dates": [
             {
@@ -8157,7 +8340,8 @@
     {
         "regex": [
             "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?New York",
-            "E\\.D\\.N\\.Y"
+            "E\\.D\\.N\\.Y",
+            "${usbced} New York"
         ],
         "dates": [
             {
@@ -8349,7 +8533,8 @@
     {
         "regex": [
             "${wd} N(\\.|(orth)) Car?olina",
-            "Charlotte Division"
+            "Charlotte Division",
+            "${usdc} ${wd} North Carolina"
         ],
         "dates": [
             {
@@ -8371,6 +8556,7 @@
         "regex": [
             "${md} N(\\.|(orth)) Car?olina",
             "Greensboro Division",
+            "${usdc} ${md} North Carolina",
             "United States District Court For The Middle Distrist Of North Carolina Winston Salem"
         ],
         "dates": [
@@ -8414,7 +8600,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?North Carolina"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?North Carolina",
+            "${usbcwd} North Carolina"
         ],
         "dates": [
             {
@@ -8434,7 +8621,8 @@
     },
     {
         "regex": [
-            "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?North Carolina"
+            "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?North Carolina",
+            "${usbcmd} North Carolina"
         ],
         "dates": [
             {
@@ -8457,7 +8645,10 @@
             "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?North Carolina",
             "North Carolina Raleigh Division",
             "${usbc} Greenville Division",
-            "${usbc} Raleigh Division"
+            "${usbc} Raleigh Division",
+            "United States Bankruptcy Court Greenville Division",
+            "${usbced} North Carolina",
+            "United States District Court For The Eastern District Of North Carolina"
         ],
         "dates": [
             {
@@ -8471,7 +8662,9 @@
         "system": "federal",
         "examples": [
             "United States Bankruptcy Court Greenville Division Greenville Division",
-            "United States Bankruptcy Court Raleigh Division Raleigh Division"
+            "United States Bankruptcy Court Raleigh Division Raleigh Division",
+            "United States District Court For The Eastern District Of North Carolina",
+            "United States Bankruptcy Court Raleigh Division"
         ],
         "court_url": "https://ecf.nceb.uscourts.gov/",
         "type": "bankruptcy",
@@ -8545,7 +8738,8 @@
     },
     {
         "regex": [
-            "${d} (D)? ?${ndak}"
+            "${d} (D)? ?${ndak}",
+            "${usdc} ${d} North Dakota"
         ],
         "dates": [
             {
@@ -8565,7 +8759,8 @@
     },
     {
         "regex": [
-            "${d} ${ndak}"
+            "${d} ${ndak}",
+            "${usbcd} North Dakota"
         ],
         "dates": [
             {
@@ -8737,38 +8932,6 @@
     },
     {
         "regex": [
-            "Probate Court of.* Ohio",
-            "Probate Court Of Hamilton County",
-            "State Of Ohio Probate Court",
-            "State Of Ohio Court Of Probate",
-            "Ohio.* Probate",
-            "Court Of Insolvency.* ohio",
-            "Probate Court ${oh_counties}",
-            "State Of Ohio Court Of Insolvency"
-        ],
-        "dates": [
-            {
-                "start": "1976-01-01",
-                "end": null
-            }
-        ],
-        "name": "Probate Courts of Ohio",
-        "level": "",
-        "case_types": [],
-        "system": "state",
-        "examples": [
-            "Probate Court Of Hamilton County",
-            "State Of Ohio Probate Court Putnam County",
-            "Court Of Insolvency Of Cincinnati Ohio",
-            "Court Of Insolvency Of Hamilton County Ohio",
-            "Court Of Insolvency Of Hamilton Ohio"
-        ],
-        "type": "appellate",
-        "id": null,
-        "location": "Ohio"
-    },
-    {
-        "regex": [
             "Court of Appeals of Ohio",
             "Ohio Court of Appeals",
             "Ohio Appeals?.*Dist",
@@ -8841,7 +9004,15 @@
             "Police Court Of.* Ohio",
             "Ohio Police Court",
             "Court Of Common Pleas Of Delaware County Ohio",
-            "Court Of Common Pleas Of Delaware County Probate Division State Of Ohio"
+            "Court Of Common Pleas Of Delaware County Probate Division State Of Ohio",
+            "Probate Court of.* Ohio",
+            "Probate Court Of Hamilton County",
+            "State Of Ohio Probate Court",
+            "State Of Ohio Court Of Probate",
+            "Ohio.* Probate",
+            "Court Of Insolvency.* ohio",
+            "Probate Court ${oh_counties}",
+            "State Of Ohio Court Of Insolvency"
         ],
         "dates": [
             {
@@ -9072,7 +9243,8 @@
         "regex": [
             "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Ohio",
             "Northern District of Ohio",
-            "${usbc} N D Ohio"
+            "${usbc} N D Ohio",
+            "${usbcnd} Ohio"
         ],
         "dates": [
             {
@@ -9116,7 +9288,11 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?Ohio"
+            "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?Ohio",
+            "${usbcsd} Ohio",
+            "United States Bankruptcy Court For The Western Southern District Of Ohio Western Division",
+            "United States District Court For The Southern District Of Ohio",
+            "United States Bankruptcy For The Court For The Southern District Of Ohio Eastern Division"
         ],
         "dates": [
             {
@@ -9389,7 +9565,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?Oklahoma"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?Oklahoma",
+            "${usbcwd} Oklahoma"
         ],
         "dates": [
             {
@@ -9409,7 +9586,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Oklahoma"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Oklahoma",
+            "${usbcnd} Oklahoma"
         ],
         "dates": [
             {
@@ -9429,7 +9607,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Oklahoma"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Oklahoma",
+            "${usbced} Oklahoma"
         ],
         "dates": [
             {
@@ -9559,7 +9738,8 @@
     },
     {
         "regex": [
-            "Oregon"
+            "${usbcd} Oregon",
+            "United States District Court For The District Of Oregon"
         ],
         "dates": [
             {
@@ -9586,7 +9766,9 @@
             "Common Pleas Of Philadelphia",
             "Common Pleas.* ${pa}",
             "Common Pleas Court Of Lancaster County",
-            "Pa Ct Of Common Pleas"
+            "Pa Ct Of Common Pleas",
+            "Common Pleas Court Of Philadelphia County Reported In Volume One Of The United States Reports",
+            "Common Pleas Of Philadelphia Reported In Volume Two Of The United States Reports"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -9746,7 +9928,7 @@
             "United States District Court Of For The Eastern District Of Pennsylvania",
             "United States District Court Eartern District Pennsylvania",
             "District Court Of The United States Eastern District Of Pennsylvania",
-            "United States District Court For The District For The Eastern District Of Pennsylvania",
+            "States District Court For The District For The Eastern District Of Pennsylvania",
             "United States Ditsrict Court Eastern District Of Pennsylvania",
             "United States District Of Court Eastern District Of Pennsylvania",
             "United States District Court For The Eastern Division Of Pennsylvania",
@@ -9858,7 +10040,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${pa}"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${pa}",
+            "${usbced} Pennsylvania"
         ],
         "dates": [
             {
@@ -9878,7 +10061,8 @@
     },
     {
         "regex": [
-            "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?${pa}"
+            "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?${pa}",
+            "${usbcmd} ${pa}"
         ],
         "dates": [
             {
@@ -9898,7 +10082,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${pa}"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${pa}",
+            "${usbcwd} ${pa}"
         ],
         "dates": [
             {
@@ -10068,8 +10253,8 @@
     {
         "regex": [
             "(^|\\s)D(\\.|(istrict))? ?Rhode Island",
-            ", Rhode Island",
-            ", D\\.R\\.I"
+            ", D\\.R\\.I",
+            "${usbcd} Rhode Island"
         ],
         "dates": [
             {
@@ -10232,7 +10417,8 @@
     {
         "regex": [
             "(^|\\s)D(\\.|(istrict))? ?(of )?South Carolina",
-            "D\\.S\\.C"
+            "D\\.S\\.C",
+            "${usbcd} South Carolina"
         ],
         "dates": [
             {
@@ -10309,7 +10495,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. ${sdak}"
+            "(^|\\s)D\\. ${sdak}",
+            "${usbcd} South Dakota"
         ],
         "dates": [
             {
@@ -10376,7 +10563,8 @@
             "Tennessee Court of Appeals",
             "${coa} ${tn}",
             "Court Of Chancery Appeals Of Tennessee",
-            "Court Of Appeals At Tennessee"
+            "Court Of Appeals At Tennessee",
+            "Court Of Appeals State Of Tennessee Middle Section At Nashville"
         ],
         "dates": [
             {
@@ -10399,7 +10587,8 @@
     },
       {
       "regex": [
-          "Tennessee Special Workers Compensation Appeals Panel"
+          "Tennessee Special Workers Compensation Appeals Panel",
+          "Supreme Court Of Tennessee Special Workers Compensation Appeals Panel"
       ],
       "dates": [
         {
@@ -10514,7 +10703,9 @@
     },
     {
         "regex": [
-            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${tn}"
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${tn}",
+            "${usbcwd} ${tn}",
+            "United States Bankruptcy Court For Thw Western District Of Tennessee"
         ],
         "dates": [
             {
@@ -10536,7 +10727,8 @@
         "regex": [
             "(^|\\s)M\\.? ?D(\\.|(istrict))? (of) ?${tn}",
             "Middle District of Tennessee",
-            "M\\.D\\.S\\. Tennessee"
+            "M\\.D\\.S\\. Tennessee",
+            "${usbcmd} ${tn}"
         ],
         "dates": [
             {
@@ -10556,7 +10748,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${tn}"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?${tn}",
+            "${usbced} Tennessee"
         ],
         "dates": [
             {
@@ -10576,7 +10769,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. ${tn}"
+            "(^|\\s)D\\. ${tn}",
+            "${usbcd} ${tn}"
         ],
         "dates": [
             {
@@ -10887,7 +11081,8 @@
     },
     {
         "regex": [
-            "${ed} Texas"
+            "${ed} Texas",
+            "${usbced} Texas"
         ],
         "dates": [
             {
@@ -10907,7 +11102,9 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?Texas"
+            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?Texas",
+            "${usbcsd} Texas",
+            "United States District Court For The Southern District Of Texas"
         ],
         "dates": [
             {
@@ -10927,7 +11124,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Texas"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?Texas",
+            "${usbcnd} Texas"
         ],
         "dates": [
             {
@@ -11020,7 +11218,9 @@
     },
     {
         "regex": [
-            "Utah"
+            "${usbcd} Utah",
+            "United States District Court For The District Of Utah",
+            "United States Bankruptcy Court Utah"
         ],
         "dates": [
             {
@@ -11106,7 +11306,9 @@
     },
     {
         "regex": [
-            "(^|\\s)D(\\.|(istrict))? ?(of )?Vermont"
+            "(^|\\s)D(\\.|(istrict))? ?(of )?Vermont",
+            "${usbcd} Vermont",
+            "${usdc} ${d} Vermont"
         ],
         "dates": [
             {
@@ -11189,7 +11391,7 @@
             "Circuit Court Of (the)? ?City Of.* Virginia",
             "Circuit Court Of Franklin County Virginia",
             "Circuit Court Of .* County Virginia",
-            "Circuit Court Of .* County"
+            "Hustings Court Of The City Of Richmond Virginia"
         ],
         "dates": [
             {
@@ -11240,7 +11442,9 @@
     },
   {
         "regex": [
-            "Chancery Court Of The City Of Richmond Virginia"
+            "Chancery Court Of The City Of Richmond Virginia",
+            "Law And Chancery Court Of The City Of Norfolk Virginia",
+            "Law And Equity Court Of The City Of Richmond Virginia"
         ],
         "dates": [
             {
@@ -11289,7 +11493,8 @@
             "United States District Court Eastern District Of Virgnia",
             "District Court E Virginia Norfolk Division",
             "United States District Court For The Eastern Division Of Virginia",
-            "District Court For The Eastern Division Virginia Alexandria Div"
+            "District Court For The Eastern Division Virginia Alexandria Div",
+            "District Court For The Eastern Division Of Virginia"
         ],
         "dates": [
             {
@@ -11340,7 +11545,9 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))?,? ?(of )?${va}"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))?,? ?(of )?${va}",
+            "${usbced} Virginia",
+            "United States District Court For The Eastern District Of Virginia"
         ],
         "dates": [
             {
@@ -11361,7 +11568,8 @@
     {
         "regex": [
             "(^|\\s)W\\.? ?D(\\.|(istrict))?,? ?(of )?${va}",
-            "Big Stone Gap"
+            "Big Stone Gap",
+            "${usbcwd} Virginia"
         ],
         "dates": [
             {
@@ -11492,7 +11700,8 @@
             "${usdc} Western Distict Of Washington At Seattle",
             "United States District Court For The Western Division Of Washington",
             "District Court W Washington S D",
-            "United States District Court Westhern District"
+            "United States District Court Westhern District",
+            "${usdc} ${wd} Wash(ington)"
         ],
         "dates": [
             {
@@ -11563,7 +11772,8 @@
     },
     {
         "regex": [
-            "${wd} Washington"
+            "${wd} Washington",
+            "${usbcwd} Washington"
         ],
         "dates": [
             {
@@ -11583,7 +11793,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Washington"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Washington",
+            "${usbced} Washington"
         ],
         "dates": [
             {
@@ -11658,7 +11869,8 @@
         "regex": [
             "${sd} ${wv}",
             "${usdc} ${sd} ${wv}",
-            "United States District Court For The Southern West Virginia"
+            "United States District Court For The Southern West Virginia",
+            "United States District Court S D W Va Huntington Division"
         ],
         "dates": [
             {
@@ -11726,7 +11938,9 @@
     },
     {
         "regex": [
-            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?W(\\.|(est)) Virginia"
+            "(^|\\s)S\\.? ?D(\\.|(istrict))? (of )?W(\\.|(est)) Virginia",
+            "${usbcsd} ${wv}",
+            "United States District Court For The Southern District Of West Virginia"
         ],
         "dates": [
             {
@@ -11746,7 +11960,8 @@
     },
     {
         "regex": [
-            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?W(\\.|(est)) Virginia"
+            "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?W(\\.|(est)) Virginia",
+            "${usbcnd} ${wv}"
         ],
         "dates": [
             {
@@ -11832,7 +12047,8 @@
     },
   {
         "regex": [
-            "State Of Wisconsin Circuit Court"
+            "State Of Wisconsin Circuit Court",
+            "State Of Wisconsin Circuit Court Of Waukesha County"
         ],
         "dates": [
             {
@@ -11848,7 +12064,7 @@
           "State Of Wisconsin Circuit Court Of Waukesha County"
         ],
         "type": "trial",
-        "id": null,
+        "id": "wisccircct",
         "location": "Wisconsin"
     },
     {
@@ -11939,7 +12155,8 @@
     },
     {
         "regex": [
-            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Wis(consin)?"
+            "(^|\\s)E\\.? ?D(\\.|(istrict))? (of )?Wis(consin)?",
+            "${usbced} Wisconsin"
         ],
         "dates": [
             {
@@ -11959,7 +12176,8 @@
     },
     {
         "regex": [
-            "(^|\\s)W(\\.|(estern))? ?D(\\.|(istrict))? (of )?Wis(consin)?"
+            "(^|\\s)W(\\.|(estern))? ?D(\\.|(istrict))? (of )?Wis(consin)?",
+            "${usbcwd} Wisconsin"
         ],
         "dates": [
             {
@@ -12005,7 +12223,8 @@
             "Circuit ${coa} ${n11} Circuit",
             "${uscoa} ${n11} ?(Circuit)?",
             "Eleventh Circuit Court Of Appeals",
-            "U S Court Of Appeals For The Eleventh Circuit"
+            "U S Court Of Appeals For The Eleventh Circuit",
+            "Court Of Appeals Eleventh Appellate District"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -13353,6 +13572,7 @@
             "${usdc} For The District Of Columbia",
             "District Court Of The United States For District Of Columbia",
             "${usdc} For The Central District Of Columbia",
+            "United States District Court For The District Central Of District Of Columbia",
             "${usdc} Court For The District Central Of District Of Columbia"
         ],
         "dates": [
@@ -13576,7 +13796,7 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-          "United States Patent And Trademark Office?"
+          "United States Patent And Trademark Office"
         ],
         "court_url": "http://www.cafc.uscourts.gov/",
         "type": "appellate",
@@ -13605,7 +13825,7 @@
     },
     {
         "regex": [
-            "(^|\\s)(U\\. S\\.)|(United States) Court of International Trade"
+            "${usa} Court Of International Trade"
         ],
         "dates": [
             {
@@ -13959,8 +14179,7 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "Circuit Court Of Appeals Sixth Circuit",
-            "Court Of Appeals State Of Tennessee Middle Section At Nashville"
+            "Circuit Court Of Appeals Sixth Circuit"
         ],
         "court_url": "http://www.ca6.uscourts.gov/",
         "type": "appellate",
@@ -14165,7 +14384,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D(\\.|(istrict)) of Columbia"
+            "(^|\\s)D(\\.|(istrict)) of Columbia",
+            "${usbcd} Columbia"
         ],
         "dates": [
             {
@@ -14185,7 +14405,9 @@
     },
     {
         "regex": [
-            "${usdc} {d} Virgin Islands"
+            "${usdc} {d} Virgin Islands",
+            "${usbcd} (the)? ?Virgin Islands",
+            "District Court Of The Virgin Islands"
         ],
         "dates": [
             {
@@ -14201,11 +14423,12 @@
         "court_url": "http://www.vid.uscourts.gov/",
         "type": "bankruptcy",
         "id": "vib",
-        "location": ""
+        "location": "Virgin Islands"
     },
     {
         "regex": [
-            "${d} Puerto Rico"
+            "${d} Puerto Rico",
+            "${usbcd} Puerto Rico"
         ],
         "dates": [
             {
@@ -14221,7 +14444,7 @@
         "court_url": "http://www.prb.uscourts.gov/",
         "type": "bankruptcy",
         "id": "prb",
-        "location": ""
+        "location": "Puerto Rico"
     },
     {
         "regex": [
@@ -14245,7 +14468,8 @@
     },
     {
         "regex": [
-            "(^|\\s)D\\. ${wy}"
+            "(^|\\s)D\\. ${wy}",
+            "${usbcd} Wyoming"
         ],
         "dates": [
             {
@@ -14330,7 +14554,9 @@
     {
         "regex": [
             "United States Judicial Panel on Multidistrict Litigation",
-            "Before The Judicial Panel On Multidistrict Litigation"
+            "Before The Judicial Panel On Multidistrict Litigation",
+            "Judicial Panel On Multidistrict Litigation",
+            "Judicial Panel On Multidistrict Litigation Western District Of Oklahoma"
         ],
         "dates": [
             {
@@ -14567,7 +14793,10 @@
     },
     {
         "regex": [
-            "${usbap} ${n9} Circuit"
+            "${usbap} ${n9} Circuit",
+            "United States Bankruptcy Appellate Panels Ninth Circuit",
+            "Bankruptcy Appellate Panel Of The Ninth Circuit",
+            "United States Bankruptcy For The Appellate Panels Of The Ninth Circuit"
         ],
         "dates": [
             {
@@ -14587,7 +14816,7 @@
     },
     {
         "regex": [
-            "${usbap} ${n10} Circuit"
+            "${usbap} ${n10} ?Circuit"
         ],
         "dates": [
             {
@@ -14607,7 +14836,7 @@
         ],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap10",
         "location": ""
     },
     {
@@ -14728,9 +14957,9 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "${usa} Navy Marine Corps Court Of Military Review",
-            "${usa} Navy Court Of Military Review",
-            "${usa} V Navy Marine Corps Court Of Military Review"
+            "U S Navy Marine Corps Court Of Military Review",
+            "United States Navy Court Of Military Review",
+            "United States V Navy Marine Corps Court Of Military Review"
         ],
         "court_url": "",
         "type": "special",
@@ -14847,29 +15076,6 @@
         "system": "federal",
         "examples": [
             "U S Navy Board Of Review"
-        ],
-        "court_url": "",
-        "type": "special",
-        "id": null,
-        "location": ""
-    },
-    {
-        "regex": [
-            "${usa} Court Of International Trade"
-        ],
-        "name_abbreviation": "U.S. Ct. of Int'l Trade",
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "U S Court Of International Trade",
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "examples": [
-            "U S Court Of International Trade"
         ],
         "court_url": "",
         "type": "special",
@@ -15361,7 +15567,8 @@
     },
     {
         "regex": [
-            "Office of Hearings & Appeals U.S. Department of Education"
+            "Office of Hearings & Appeals U.S. Department of Education",
+            "Office Of Hearings Appeals U S Department Of Education"
         ],
         "dates": [
             {
@@ -16661,9 +16868,7 @@
         "location": "North Carolina",
         "type": "appellate",
         "id": "circtedentonnc",
-        "examples": [
-          ""
-        ]
+        "examples": []
     },
   {
         "regex": [
@@ -16682,9 +16887,7 @@
         "location": "North Carolina",
         "type": "appellate",
         "id": "circtnewbernnc",
-        "examples": [
-          ""
-        ]
+        "examples": []
     },
   {
         "regex": [
@@ -16704,7 +16907,6 @@
         "type": "appellate",
         "id": "circtwilmingtonnc",
         "examples": [
-          ""
         ]
     },
   {
@@ -16724,9 +16926,7 @@
         "location": "North Carolina",
         "type": "appellate",
         "id": "circtalbermarlenc",
-        "examples": [
-          ""
-        ]
+        "examples": []
     },
   {
         "regex": [
@@ -17485,7 +17685,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Albany New York"],
+        "regex": [
+            "Circuit Court D Albany New York",
+            "Circuit Court ${d} New York"
+        ],
         "name_abbreviation": "Albany New York. Cir. Ct",
         "dates": [
             {
@@ -17503,7 +17706,10 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Eastern New York"],
+        "regex": [
+            "Circuit Court D Eastern New York",
+            "Circuit Court ${ed} New York"
+        ],
         "name_abbreviation": "Eastern New York. Cir. Ct",
         "dates": [
             {
@@ -17521,7 +17727,11 @@
         "examples": []
     },
     {
-        "regex": ["Circuit Court D Northern New York"],
+        "regex": [
+            "Circuit Court D Northern New York",
+            "Circuit Court ${nd} New York",
+            "Circuit Court Of New York Northern District"
+        ],
         "name_abbreviation": "Northern New York. Cir. Ct",
         "dates": [
             {
@@ -17542,6 +17752,7 @@
         "regex": [
             "Circuit Court D Southern New York",
             "Circuit Court S D New York",
+            "Circuit Court Of New York Southern District",
             "U S Circuit Court Southern District Of New York"
         ],
         "name_abbreviation": "Southern New York. Cir. Ct",
@@ -17627,5 +17838,70 @@
       "type": "appellate",
       "id": "coaiterr",
       "location": "Washinton D.C."
+    },
+  {
+      "regex": [
+          "State Of California Commission On Judicial Performance"
+      ],
+      "dates": [
+        {
+          "start": null,
+          "end": null
+        }
+      ],
+      "name": "State Of California Commission On Judicial Performance",
+      "level": "ljc",
+      "case_types": [],
+      "system": "special",
+      "examples": [
+          "State Of California Commission On Judicial Performance"
+      ],
+      "court_url": "",
+      "type": "trial",
+      "id": null,
+      "location": "California"
+    },
+  {
+      "regex": [
+          "State Of New York Court On The Judiciary"
+      ],
+      "dates": [
+        {
+          "start": null,
+          "end": null
+        }
+      ],
+      "name": "State Of New York Court On The Judiciary",
+      "level": "ljc",
+      "case_types": [],
+      "system": "special",
+      "examples": [
+      ],
+      "court_url": "",
+      "type": "trial",
+      "id": null,
+      "location": "State Of New York Court On The Judiciary"
+    },
+  {
+      "regex": [
+          "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law"
+      ],
+      "dates": [
+        {
+          "start": null,
+          "end": null
+        }
+      ],
+      "name": "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law",
+      "level": "ljc",
+      "case_types": [],
+      "system": "special",
+      "examples": [
+          "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law"
+      ],
+      "court_url": "",
+      "type": "trial",
+      "id": null,
+      "location": ""
     }
 ]
