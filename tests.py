@@ -7,6 +7,7 @@ from __future__ import (
 )
 
 from courts_db.utils import load_courts_db, gather_regexes, db_root
+from courts_db.text_utils import strip_punc
 from courts_db import find_court
 from unittest import TestCase
 from io import open
@@ -20,14 +21,19 @@ import re
 class DataTest(TestCase):
     """Data tests are used to confirm our data set is functional."""
 
-    courts = load_courts_db()
-    regexes = gather_regexes(courts)
+    try:
+        courts = load_courts_db()
+        regexes = gather_regexes(courts)
+    except:
+        print("JSON FAIL")
+        pass
 
     def test_all_examples(self):
 
         for court in self.courts:
             try:
                 for example in court["examples"]:
+                    example = strip_punc(example)
                     matches = find_court(
                         court_str=example, regexes=self.regexes
                     )
@@ -51,15 +57,17 @@ class DataTest(TestCase):
         """"Can we process illappct correctly."""
 
         for court in self.courts:
-            if court["id"] == "illappct":
+            if court["id"] == "nyspecsessct":
                 try:
                     for example in court["examples"]:
+                        example = strip_punc(example)
                         matches = find_court(
                             court_str=example, filed_date=None
                         )
                         results = list(set(matches))
                         if len(results) == 1:
                             if results == [court["id"]]:
+                                print("pass")
                                 continue
                         else:
                             print(
@@ -81,16 +89,18 @@ class DataTest(TestCase):
 
         bankruptcy = False
 
-        court_id = "mdcrctct"
+        court_id = "nysupct"
         court = [x for x in self.courts if x["id"] == court_id][0]
+        regexes = gather_regexes([court], bankruptcy=True)
 
         for example in court["examples"]:
+            example = strip_punc(example)
             print("Testing ... %s" % example),
-            matches2 = find_court(court_str=example, regexes=None)
+            matches2 = find_court(court_str=example, regexes=regexes)
             self.assertEqual(
-                list(set(matches2)), [court["id"]], "Failure %s" % matches2
+                list(set(matches2)), [court_id], "Failure %s" % matches2
             )
-            print("%s" % "√".encode("ascii", "ignore"))
+            print("Success.")
 
     def test_json(self):
         """Does our json load properly, and if not where are the issues"""
@@ -108,10 +118,12 @@ class DataTest(TestCase):
                 return
 
         except Exception as e:
+            print("error")
             pass
 
         matches = re.finditer(court_regex, data, re.MULTILINE)
         for match in enumerate(matches, start=1):
+
             court = match[1].group().strip(",")
             try:
                 j = json.loads(court)

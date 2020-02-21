@@ -15,9 +15,11 @@ import os
 import re
 import six
 
-courts = load_courts_db()
-court_dict = make_court_dictionary(courts)
-
+try:
+    courts = load_courts_db()
+    court_dict = make_court_dictionary(courts)
+except:
+    pass
 
 def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
     """
@@ -65,7 +67,6 @@ def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
                             court_matches.append(r["id"])
 
     court_matches = list(set(court_matches))
-
     return court_matches
 
 
