@@ -38,7 +38,7 @@ setup(
     include_package_data=True,
     package_data={"courts_db": ["data/*", "data/places/*", "*"]},
     classifiers=[
-        "Production Status :: 5 - Production/Stable",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "License :: OSI Approved :: BSD License",
