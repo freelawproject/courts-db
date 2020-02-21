@@ -55,7 +55,7 @@ def load_courts_db():
     return json.loads(s)
 
 
-def gather_regexes(courts, bankruptcy=False, court_id=None):
+def gather_regexes(courts, court_id=None):
     """Create a variable mapping regexes to court IDs
 
     :param courts: The court DB
@@ -69,12 +69,9 @@ def gather_regexes(courts, bankruptcy=False, court_id=None):
     """
     regexes = []
     for court in courts:
-        if bankruptcy == False:
-            if court["type"] == "bankruptcy":
-                continue
         for reg_str in court["regex"]:
             regex = re.compile(reg_str, (re.I | re.U))
-            regexes.append((regex, court["id"]))
+            regexes.append((regex, court["id"], court['name'], court['type']))
 
     if court_id is not None:
         regexes = list(filter(lambda x: x[1] == court_id, regexes))

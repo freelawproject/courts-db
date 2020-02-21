@@ -6,7 +6,7 @@ from __future__ import (
     unicode_literals,
 )
 
-from courts_db.utils import load_courts_db, gather_regexes, db_root
+from courts_db.utils import load_courts_db, db_root
 from courts_db.text_utils import strip_punc
 from courts_db import find_court
 from unittest import TestCase
@@ -23,20 +23,22 @@ class DataTest(TestCase):
 
     try:
         courts = load_courts_db()
-        regexes = gather_regexes(courts)
     except:
         print("JSON FAIL")
         pass
 
     def test_all_examples(self):
-
         for court in self.courts:
+            bank = False
             try:
+                if court["type"] == "bankruptcy":
+                    bank = True
+
                 for example in court["examples"]:
                     example = strip_punc(example)
-                    matches = find_court(
-                        court_str=example, regexes=self.regexes
-                    )
+
+                    matches = find_court(court_str=example, bankruptcy=bank)
+
                     results = list(set(matches))
                     if len(results) == 1:
                         if results == [court["id"]]:
@@ -53,54 +55,27 @@ class DataTest(TestCase):
                 print(str(e))
                 print("Fail at", court["name"])
 
-    def test_specific_example(self):
-        """"Can we process illappct correctly."""
-
-        for court in self.courts:
-            if court["id"] == "nyspecsessct":
-                try:
-                    for example in court["examples"]:
-                        example = strip_punc(example)
-                        matches = find_court(
-                            court_str=example, filed_date=None
-                        )
-                        results = list(set(matches))
-                        if len(results) == 1:
-                            if results == [court["id"]]:
-                                print("pass")
-                                continue
-                        else:
-                            print(
-                                results, [court["id"]], "\txx\t", example, "\n"
-                            )  # court['regex']
-                except Exception as e:
-                    print((str(e)))
-                    print("Fail at", court["name"])
-
     def test_unicode_handling(self):
         """Do we handle regex matching with accents or other non-ascii?"""
         sample_text = "Tribunal Dé Apelaciones De Puerto Rico"
-        matches = find_court(court_str=sample_text, regexes=self.regexes)
+        matches = find_court(court_str=sample_text)
         expected_matches = ["prapp"]
         self.assertEqual(matches, expected_matches)
 
     def test_one_example(self):
         """Can we extract the correct court id from string and date?"""
 
-        bankruptcy = False
-
-        court_id = "nysupct"
+        court_id = "mntaxct"
         court = [x for x in self.courts if x["id"] == court_id][0]
-        regexes = gather_regexes([court], bankruptcy=True)
 
         for example in court["examples"]:
             example = strip_punc(example)
             print("Testing ... %s" % example),
-            matches2 = find_court(court_str=example, regexes=regexes)
+            matches2 = find_court(court_str=example)
             self.assertEqual(
                 list(set(matches2)), [court_id], "Failure %s" % matches2
             )
-            print("Success.")
+            print("Success.", matches2[0], "<=>", court_id)
 
     def test_json(self):
         """Does our json load properly, and if not where are the issues"""
