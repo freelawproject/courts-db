@@ -15,11 +15,15 @@ import os
 import re
 import six
 
-courts = load_courts_db()
-court_dict = make_court_dictionary(courts)
+try:
+    courts = load_courts_db()
+    court_dict = make_court_dictionary(courts)
+    regexes = gather_regexes(courts)
+except:
+    pass
 
 
-def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
+def find_court(court_str, filed_date=None, bankruptcy=False):
     """
     :param court_str:
     :param filed_date:
@@ -29,18 +33,25 @@ def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
     cd = {}
     cdd = []
     court_matches = []
-    if regexes == None:
-        regexes = gather_regexes(courts)
 
     assert (
         type(court_str) == six.text_type
     ), "court_str is not a text type, it's of type %s" % type(court_str)
-    for regex, court_id in regexes:
+    for regex, court_id, court_name, court_type in regexes:
         match = re.search(regex, court_str)
         if match:
             court_matches.append(court_id)
+            if court_id is None:
+                court_id = court_name
             cd[match.group()] = court_id
-            cdd.append({"id": court_id, "text": match.group()})
+            cdd.append(
+                {
+                    "id": court_id,
+                    "text": match.group(),
+                    "court_name": court_name,
+                    "court_type": court_type,
+                }
+            )
             # print(cdd)
 
     results = list(set(court_matches))
@@ -54,17 +65,32 @@ def find_court(court_str, regexes=None, filed_date=None, bankruptcy=False):
                 if test in item:
                     subsetlist.append(test)
         final_list = [x for x in remove_list if x not in subsetlist]
+
         for r in cdd:
             if r["text"] in final_list:
-                if bankruptcy == True:
-                    pass
-                else:
-                    court_key = r["id"]
-                    if court_key != "" and court_key is not None:
-                        if court_key[-1] != "b":
-                            court_matches.append(r["id"])
+                court_key = r["id"]
+                court_matches.append(court_key)
 
     court_matches = list(set(court_matches))
+
+    if court_matches > 1:
+        new_cd = [x for x in cdd if x["id"] in court_matches]
+        bank = list(
+            set([x["id"] for x in new_cd if x["court_type"] == "bankruptcy"])
+        )
+        non_bank = list(
+            set([x["id"] for x in new_cd if x["court_type"] != "bankruptcy"])
+        )
+
+        if bankruptcy == True:
+            if len(bank) == 1:
+                return bank
+            else:
+                if len(non_bank) == 1:
+                    return non_bank
+        else:
+            if len(non_bank) == 1:
+                return non_bank
 
     return court_matches
 
