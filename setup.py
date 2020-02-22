@@ -7,7 +7,7 @@ try:  # for pip >= 10
 except ImportError:  # for pip <= 9.0.3
     from pip.req import parse_requirements
 
-VERSION = "1.0.0"
+VERSION = "0.9.2"
 AUTHOR = "Free Law Project"
 EMAIL = "info@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -38,7 +38,7 @@ setup(
     include_package_data=True,
     package_data={"courts_db": ["data/*", "data/places/*", "*"]},
     classifiers=[
-        "Production Status :: 5 - Production/Stable",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "License :: OSI Approved :: BSD License",
