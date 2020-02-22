@@ -2908,7 +2908,8 @@
             "United States Bankruptcy Court South District Of Florida",
             "United States Bankruptcy Court In And For The South?ern District Of Florida",
             "United States Bankruptcy Court Broward Division",
-            "U S Bankruptcy Court Southern District Of Florida"
+            "U S Bankruptcy Court Southern District Of Florida",
+            "${usbc} West Palm Beach Division West Palm Beach Division"
         ],
         "dates": [
             {
@@ -7421,7 +7422,8 @@
     },
     {
         "regex": [
-            "Supreme Court (${ny_counties}) Circuit"
+            "Supreme Court ${ny_counties} Circuit",
+            "Circuit Court ${ny_counties} County New York"
         ],
         "dates": [
             {
@@ -7437,8 +7439,7 @@
         "examples": [
             "Circuit Court Cayuga County New York",
             "Circuit Court Cattaraugus County New York",
-            "Circuit Court Albany County New York",
-            "Supreme Court Cayuga Circuit"
+            "Circuit Court Albany County New York"
         ],
         "type": "trial",
         "id": null,
@@ -8648,7 +8649,8 @@
             "${usbc} Raleigh Division",
             "United States Bankruptcy Court Greenville Division",
             "${usbced} North Carolina",
-            "United States District Court For The Eastern District Of North Carolina"
+            "${usbc} Raleigh Division",
+            "${usdc} ${ed} North Carolina"
         ],
         "dates": [
             {
@@ -8889,7 +8891,7 @@
             "State Of Ohio ${bw} Circuit ${oh_counties} County",
             "State Of Ohio Circuit Court",
             "State Of Ohio Second Circuit Clarke County",
-            "State Of Ohio.* Circuit Court"
+            "State Of Ohio Circuit Court"
         ],
         "dates": [
             {
@@ -10114,7 +10116,8 @@
             "Tribunal D(e|é)",
             "Tribunal Circu(í|i)to De Apelaciones",
             "Tribunal CircuíTo De Apelaciones",
-            "Apelaciones De Puerto Rico"
+            "Apelaciones De Puerto Rico",
+            "Estado Libre Asocian?do De Puerto Rico"
         ],
         "dates": [
             {
@@ -10128,57 +10131,37 @@
         "system": "federal",
         "examples": [
             "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam",
-            "Tribunal Circuito Dé Apelaci"
+            "Tribunal Circuito Dé Apelaci",
+            "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
+            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla"
         ],
         "type": "appellate",
         "id": "prapp",
         "location": "Puerto Rico"
     },
-  {
-        "regex": [
-            "Tribunal Supremo De Puerto Rico",
-            "Tribunal Supremo Of Puerto Rico",
-            "Supremo Tribunal De Puerto Rico"
-        ],
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "Supreme Court of Puerto Rico",
-        "level": "colr",
-        "case_types": [],
-        "system": "state",
-        "examples": [
-            "Tribunal Supremo Of Puerto Rico",
-            "Tribunal Supremo De Puerto Rico0"
-        ],
-        "type": "appellate",
-        "id": "prsupreme",
-        "location": "Puerto Rico"
-    },
-  {
-        "regex": [
-            "Estado Libre Asociando De Puerto Rico"
-        ],
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "Commonwealth of Puerto Rico Regional",
-        "level": "",
-        "case_types": [],
-        "system": "state",
-        "examples": [
-            "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
-            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla"
-        ],
-        "type": "appellate",
-        "id": "prsupreme",
-        "location": "Puerto Rico"
+    {
+      "regex": [
+        "Tribunal Supremo De Puerto Rico",
+        "Tribunal Supremo Of Puerto Rico",
+        "Supremo Tribunal De Puerto Rico"
+      ],
+      "dates": [
+        {
+          "start": null,
+          "end": null
+        }
+      ],
+      "name": "Supreme Court of Puerto Rico",
+      "level": "colr",
+      "case_types": [],
+      "system": "state",
+      "examples": [
+        "Tribunal Supremo Of Puerto Rico",
+        "Tribunal Supremo De Puerto Rico0"
+      ],
+      "type": "appellate",
+      "id": "prsupreme",
+      "location": "Puerto Rico"
     },
     {
         "regex": [
@@ -11391,7 +11374,8 @@
             "Circuit Court Of (the)? ?City Of.* Virginia",
             "Circuit Court Of Franklin County Virginia",
             "Circuit Court Of .* County Virginia",
-            "Hustings Court Of The City Of Richmond Virginia"
+            "Hustings Court Of The City Of Richmond Virginia",
+            "Circuit Court Of Westmoreland County Virgina"
         ],
         "dates": [
             {

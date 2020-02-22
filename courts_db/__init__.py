@@ -73,7 +73,7 @@ def find_court(court_str, filed_date=None, bankruptcy=False):
 
     court_matches = list(set(court_matches))
 
-    if court_matches > 1:
+    if len(court_matches) > 1:
         new_cd = [x for x in cdd if x["id"] in court_matches]
         bank = list(
             set([x["id"] for x in new_cd if x["court_type"] == "bankruptcy"])
