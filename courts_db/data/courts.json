@@ -2617,7 +2617,8 @@
     {
         "regex": [
             "${usdc} ${nd} ${fl}",
-            "United States District Court For The District Of Florida Pensacola Division"
+            "${usdc} District Of Florida Pensacola Division",
+            "In The ${usdc} In And For The ${nd} ${fl}"
         ],
         "name_abbreviation": null,
         "dates": [
