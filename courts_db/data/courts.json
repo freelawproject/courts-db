@@ -132,7 +132,7 @@
         "locations": 41,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "alacirct",
         "sub_names": [
             "Numbered 1-41"
         ],
@@ -157,7 +157,7 @@
         "locations": 67,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "aladistct",
         "sub_names": [],
         "location": "Alabama"
     },
@@ -180,7 +180,7 @@
         "locations": 273,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "alamunict",
         "location": "Alabama"
     },
     {
@@ -204,7 +204,7 @@
         "locations": 68,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "alaproct",
         "location": "Alabama"
     },
     {
@@ -227,7 +227,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "alajuvct",
         "location": "Alabama"
     },
     {
@@ -250,7 +250,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "alascct",
         "location": "Alabama"
     },
     {
@@ -275,7 +275,7 @@
         "examples": [],
         "system": "state",
         "type": "trial",
-        "id": null,
+        "id": "alajudct",
         "location": "Alabama"
     },
     {
@@ -525,7 +525,7 @@
         "examples": [],
         "system": "state",
         "type": "trial",
-        "id": null,
+        "id": "akdistct",
         "sub_names": [
             "First",
             "Second",
@@ -557,7 +557,7 @@
         "examples": [],
         "system": "state",
         "type": "trial",
-        "id": null,
+        "id": "aksupct",
         "sub_names": [
             "First",
             "Second",
@@ -792,7 +792,7 @@
         "division_type": "county",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "azsupct",
         "location": "Arizona"
     },
     {
@@ -815,7 +815,7 @@
         "division_type": "city",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "azjustct",
         "sub_names": [],
         "location": "Arizona"
     },
@@ -1037,7 +1037,7 @@
         "locations": 28,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "arkcirct",
         "location": "Arkansas"
     },
     {
@@ -1060,7 +1060,7 @@
         "division_type": "county",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "arkdistct",
         "location": "Arkansas"
     },
     {
@@ -1084,7 +1084,7 @@
         "division_type": "city",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "arkcityct",
         "location": "Arkansas"
     },
     {
@@ -1104,7 +1104,7 @@
         "examples": [],
         "court_url": "http://www.awcc.state.ar.us/",
         "type": "appellate",
-        "id": "arkworkcompcom",
+        "id": "arkworkcomp",
         "location": "Arkansas"
     },
     {
@@ -1163,8 +1163,8 @@
         "examples": [
           "Ohio State Racing Commission"
         ],
-        "type": "",
-        "id": null,
+        "type": "special",
+        "id": "ohiorac",
         "location": "Ohio"
     },
   {
@@ -1185,7 +1185,7 @@
           "Ohio Civil Rights Commission"
         ],
         "type": "",
-        "id": null,
+        "id": "ohiocivright",
         "location": "Ohio"
     },
     {
@@ -1499,7 +1499,7 @@
             "California Trial Court In The Superior Court Of The State Of California In And For The County Of Alameda County Northern Division Unlimited Jurisdiction"
         ],
         "type": "trial",
-        "id": null,
+        "id": "calsupct",
         "location": "California"
     },
     {
@@ -1729,7 +1729,7 @@
         "division_type": "county",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "colcntyct",
         "location": "Colorado"
     },
     {
@@ -1751,7 +1751,7 @@
         "locations": 31,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "colmunict",
         "location": "Colorado"
     },
     {
@@ -1776,7 +1776,7 @@
         "division_type": "local",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "denproct",
         "sub_names": [],
         "location": "Colorado"
     },
@@ -1802,7 +1802,7 @@
         "division_type": "local",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "denjuvct",
         "sub_names": [],
         "location": "Colorado"
     },
@@ -1826,7 +1826,7 @@
         "division_type": "county",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "coldistct",
         "sub_names": [
             "First thru Twenty-Second District"
         ],
@@ -1854,7 +1854,7 @@
         "division_type": "Seven Water Basins",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "colwaterct",
         "sub_names": [
             "Water Division One thru Water Division Seven"
         ],
@@ -2064,7 +2064,7 @@
         "locations": 54,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "connproct",
         "location": "Connecticut"
     },
     {
@@ -2403,7 +2403,7 @@
         "examples": [],
         "active": false,
         "type": "trial",
-        "id": null,
+        "id": "delfamct",
         "location": "Delaware"
     },
     {
@@ -2469,7 +2469,7 @@
         "examples": [],
         "active": true,
         "type": "trial",
-        "id": null,
+        "id": "deljustpct",
         "location": "Delaware"
     },
     {
@@ -2497,7 +2497,7 @@
             "Court Of General Sessions Of Delaware Kent County"
         ],
         "type": "trial",
-        "id": null,
+        "id": "delgensess",
         "location": "Delaware"
     },
     {
@@ -2524,7 +2524,7 @@
         "active": true,
         "system": "local",
         "type": "trial",
-        "id": null,
+        "id": "delaldct",
         "examples": []
     },
     {
@@ -2566,7 +2566,7 @@
             "Orphans Court Of Delaware"
         ],
         "type": null,
-        "id": null,
+        "id": "delorphct",
         "location": "Delaware"
     },
 
@@ -2848,7 +2848,7 @@
         "locations": 20,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "flacirct",
         "sub_names": [
             "1st thru 20th"
         ],
@@ -2873,7 +2873,7 @@
         "locations": 67,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "flacntyct",
         "location": "Florida"
     },
     {
@@ -3171,7 +3171,7 @@
         "locations": 10,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gasupct",
         "location": "Georgia"
     },
     {
@@ -3196,7 +3196,7 @@
         "division_type": "county",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gaproct",
         "location": "Georgia"
     },
     {
@@ -3218,7 +3218,7 @@
         "locations": 70,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gastct",
         "location": "Georgia"
     },
     {
@@ -3242,7 +3242,7 @@
         "locations": 159,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gamagct",
         "location": "Georgia"
     },
     {
@@ -3267,7 +3267,7 @@
         "locations": 368,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gamunict",
         "location": "Georgia"
     },
     {
@@ -3292,7 +3292,7 @@
         "locations": 159,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gajuvct",
         "location": "Georgia"
     },
     {
@@ -3316,7 +3316,7 @@
         "locations": 1,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "gabizct",
         "location": "Georgia"
     },
   {
@@ -3340,7 +3340,7 @@
         "locations": 1,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "ncbizct",
         "location": "North Carolina"
     },
     {
@@ -3606,7 +3606,7 @@
         "locations": 4,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "hawfamct",
         "sub_names": [
             "O'ahu",
             "Maui",
@@ -3634,7 +3634,7 @@
         "locations": 4,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "hawdistct",
         "sub_names": [
             "O'ahu",
             "Maui",
@@ -3662,7 +3662,7 @@
         "locations": 4,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "hawcirct",
         "sub_names": [
             "O'ahu",
             "Maui",
@@ -3691,7 +3691,7 @@
         "system": "state",
         "examples": [],
         "type": "appellate",
-        "id": null,
+        "id": "hawtaxct",
         "location": "Hawaii"
     },
     {
@@ -3824,7 +3824,7 @@
         "locations": 4,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "iddistct",
         "sub_names": [
             "1st",
             "2nd",
@@ -3855,7 +3855,7 @@
         "locations": 7,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "idmagdiv",
         "sub_names": [
             "Idaho Magistrate Division One",
             "Idaho Magistrate Division Seven"
@@ -3882,7 +3882,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "iddrugct",
         "location": "Idaho"
     },
     {
@@ -3905,7 +3905,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "idmhct",
         "location": "Idaho"
     },
     {
@@ -4997,7 +4997,7 @@
             "Superior Court Of The State Of Louisiana First District"
         ],
         "type": "trial",
-        "id": null,
+        "id": "lasupct",
         "location": "Louisiana"
     },
     {
@@ -5198,7 +5198,7 @@
             "Superior Court Of Maine Knox County"
         ],
         "type": "trial",
-        "id": null,
+        "id": "mesupct",
         "location": "Maine"
     },
     {
@@ -5780,7 +5780,7 @@
             "Minnesota District Court County Of Anoka Tenth Judicial District"
         ],
         "type": null,
-        "id": null,
+        "id": "minndistct",
         "location": "Minnesota"
     },
     {
@@ -6270,7 +6270,7 @@
             "Montana Water Court Yellowstone Division Tongue River Above And Including Hanging Woman Creek Basin 42B"
         ],
         "type": "trial",
-        "id": null,
+        "id": "mtwaterct",
         "location": "Montana"
     },
     {
@@ -6796,7 +6796,7 @@
             "Orphans Court Of New Jersey"
         ],
         "type": null,
-        "id": null,
+        "id": "njorphct",
         "location": "New Jersey"
     },
     {
@@ -6822,7 +6822,7 @@
             "Municipal Court City Of Palmyra Burlington County New Jersey"
         ],
         "type": null,
-        "id": null,
+        "id": "njmunict",
         "location": "New Jersey"
     },
     {
@@ -6846,7 +6846,7 @@
             "Court Of Common Pleas Of New Jersey Gloucester County"
         ],
         "type": null,
-        "id": null,
+        "id": "njcomnpl",
         "location": "New Jersey"
     },
     {
@@ -6868,7 +6868,7 @@
             "Court Of Oyer And Terminer Of New Jersey"
         ],
         "type": null,
-        "id": null,
+        "id": "njoytermct",
         "location": "New Jersey"
     },
   {
@@ -6890,7 +6890,7 @@
             "Court Of Oyer And Terminer At Philadelphia"
         ],
         "type": null,
-        "id": null,
+        "id": "paoytermct",
         "location": "Pennsylvania"
     },
     {
@@ -7126,7 +7126,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "nygensess",
         "location": "New York"
     },
     {
@@ -7153,7 +7153,7 @@
             "Court Of Sessions Ulster County New York"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nysessct",
         "location": "New York"
     },
     {
@@ -7240,7 +7240,7 @@
         ],
         "court_url": "",
         "type": "appellate",
-        "id": null,
+        "id": "nyerrct",
         "location": "New York"
     },
     {
@@ -7266,7 +7266,7 @@
         "court_url": "",
         "active": true,
         "type": "appellate",
-        "id": null,
+        "id": "nyimpct",
         "location": "New York"
     },
     {
@@ -7355,7 +7355,7 @@
             "Vice Chancellor S Court Of New York First Circuit Ithaca"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nychanct",
         "location": "New York"
     },
     {
@@ -7400,7 +7400,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "nyadmct",
         "location": "New York"
     },
     {
@@ -7417,7 +7417,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "nyproct",
         "location": "New York"
     },
     {
@@ -7442,7 +7442,7 @@
             "Circuit Court Albany County New York"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nycirct",
         "location": "New York"
     },
     {
@@ -7467,7 +7467,7 @@
             "Marine Court Of New York Special Term"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nymarct",
         "location": "New York"
     },
     {
@@ -7532,11 +7532,13 @@
             "Court Of Oyer And Terminer Monroe County New York"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nyoytermct",
         "location": "New York"
     },
     {
-        "regex": [],
+        "regex": [
+            "State Of New York Court On The Judiciary"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7549,7 +7551,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "nyjudct",
         "location": "New York"
     },
     {
@@ -7595,7 +7597,7 @@
             "District Court Nassau Dist Ct"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nydistct",
         "location": "New York"
     },
     {
@@ -7942,7 +7944,7 @@
             "Ny General Session"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nycmnpleas",
         "location": "New York"
     },
     {
@@ -7961,7 +7963,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "nyprobsolvct",
         "location": "New York"
     },
     {
@@ -8383,7 +8385,7 @@
             "Arbitration At New York March 1952"
         ],
         "type": "special",
-        "id": null,
+        "id": "nyarbct",
         "location": "New York"
     },
     {
@@ -8466,7 +8468,7 @@
             "North Carolina Superior Court New Hanover County"
         ],
         "type": "trial",
-        "id": null,
+        "id": "nysupct",
         "location": "North Carolina"
     },
     {
@@ -8858,7 +8860,7 @@
             "State Of Ohio Superior Court Of Cincinnati Hamilton County"
         ],
         "type": "trial",
-        "id": null,
+        "id": "ohiosupct",
         "location": "Ohio"
     },
   {
@@ -8883,7 +8885,7 @@
             "Magistrate S Court Of Lucas County Ohio"
         ],
         "type": "trial",
-        "id": null,
+        "id": "ohiomagct",
         "location": "Ohio"
     },
     {
@@ -8907,7 +8909,7 @@
             "State Of Ohio Circuit Court Belmont County"
         ],
         "type": "trial",
-        "id": null,
+        "id": "ohiocirct",
         "location": "Ohio"
     },
     {
@@ -8929,7 +8931,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "ohiodistct",
         "location": "Ohio"
     },
     {
@@ -9331,7 +9333,7 @@
             "Board Of Tax Appeals Of Ohio Department Of Taxation"
         ],
         "type": "special",
-        "id": null,
+        "id": "ohiotaxct",
         "location": "Ohio"
     },
     {
@@ -9788,7 +9790,7 @@
             "Common Pleas Court Of Chester County Pennsylvania"
         ],
         "type": null,
-        "id": null,
+        "id": "pacmnpleasct",
         "location": "Pennsylvania"
     },
     {
@@ -9828,7 +9830,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "pacirct",
         "location": "Pennsylvania"
     },
     {
@@ -9881,30 +9883,10 @@
     },
     {
         "regex": [
+            "Commonwealth Court of Pennsylvania",
+            "Pennsylvania, Commonwealth Court",
             "Pennsylvania Commonwealth Court",
             "Pa Comm Ct"
-        ],
-        "dates": [
-            {
-                "start": "1968-01-01",
-                "end": null
-            }
-        ],
-        "name": "Pennsylvania Commonwealth Court",
-        "level": "iac",
-        "case_types": [],
-        "system": "state",
-        "examples": [
-            "Pennsylvania Commonwealth Court"
-        ],
-        "type": "appellate",
-        "id": null,
-        "location": "Pennsylvania"
-    },
-    {
-        "regex": [
-            "Commonwealth Court of Pennsylvania",
-            "Pennsylvania, Commonwealth Court"
         ],
         "dates": [
             {
@@ -9916,7 +9898,9 @@
         "level": "",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+            "Pennsylvania Commonwealth Court"
+        ],
         "court_url": "http://www.pacourts.us/courts/commonwealth-court/",
         "type": "appellate",
         "id": "pacommwct",
@@ -11421,7 +11405,7 @@
             "Corporation Court Of The City Of Lynchburg Virginia"
         ],
         "type": "trial",
-        "id": null,
+        "id": "vacorpct",
         "location": "Virginia"
     },
   {
@@ -11444,7 +11428,7 @@
             "Chancery Court Of The City Of Richmond Virginia"
         ],
         "type": "trial",
-        "id": null,
+        "id": "vachanct",
         "location": "Virginia"
     },
     {
@@ -11675,7 +11659,7 @@
             "State Of Washington Intermediate Court Of Appeals Division One"
         ],
         "type": "appellate",
-        "id": null,
+        "id": "wacoa",
         "location": "Washington"
     },
     {
@@ -12026,7 +12010,7 @@
         "locations": 236,
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "wismunict",
         "location": "Wisconsin"
     },
   {
@@ -12048,7 +12032,7 @@
           "State Of Wisconsin Circuit Court Of Waukesha County"
         ],
         "type": "trial",
-        "id": "wisccircct",
+        "id": "wisccirct",
         "location": "Wisconsin"
     },
     {
@@ -12269,7 +12253,7 @@
         "examples": [],
         "system": "tribal",
         "type": "trial",
-        "id": null,
+        "id": "natribct",
         "location": ""
     },
     {
@@ -12292,7 +12276,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "hopitr",
         "location": "Arizona"
     },
     {
@@ -12315,7 +12299,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "hopiappct",
         "location": "Arizona"
     },
 
@@ -12338,7 +12322,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "chehcoa",
         "location": "Washington"
     },
   {
@@ -12361,7 +12345,7 @@
         "court_url": "https://www.cherokeecourts.org/Supreme-Court",
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "cherokee",
         "location": "Oklahoma"
     },
   {
@@ -12383,7 +12367,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "chitcoa",
         "location": "Louisiana"
     },
   {
@@ -12396,17 +12380,17 @@
                 "end": null
             }
         ],
-        "name": "Washington",
+        "name": "Colville Confederated Court of Appeals",
         "level": "iac",
-        "jurisdiction": "",
+        "jurisdiction": "W.A.",
         "appeal_to": null,
         "lower_courts": [],
         "locations": 1,
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
-        "location": "W.A."
+        "id": "colvcoa",
+        "location": "Washington"
     },
   {
         "regex": [
@@ -12427,7 +12411,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "coosct",
         "location": "Oregon"
     },
   {
@@ -12449,7 +12433,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "coquct",
         "location": "Oregon"
     },
   {
@@ -12471,7 +12455,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "Coushct",
         "location": "Louisiana"
     },
   {
@@ -12493,7 +12477,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "crowcoa",
         "location": "Montana"
     },
   {
@@ -12515,7 +12499,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "eastcherkokee",
         "location": "North Carolina"
     },
     {
@@ -12537,7 +12521,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "echerkct",
         "location": "North Carolina"
     },
   {
@@ -12559,7 +12543,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "ftmcdowell",
         "location": "Arizona"
     },
   {
@@ -12581,7 +12565,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "ftmcdowct",
         "location": "Arizona"
     },
   {
@@ -12603,7 +12587,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "ftmcdowcoa",
         "location": "Arizona"
     },
   {
@@ -12626,7 +12610,7 @@
         "system": "tribal",
         "court_url": "https://fptc.org",
         "type": "special",
-        "id": null,
+        "id": "ftpeckcoa",
         "location": "Montana"
     },
   {
@@ -12648,7 +12632,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "grrondecoa",
         "location": "Oregon"
     },
   {
@@ -12670,7 +12654,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "grrondect",
         "location": "Oregon"
     },
   {
@@ -12692,7 +12676,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "grtravbandcoa",
         "location": "Michigan"
     },
   {
@@ -12714,7 +12698,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "hochunk",
         "location": "Wisconsin"
     },
   {
@@ -12736,7 +12720,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "hochunkct",
         "location": "Wisconsin"
     },
   {
@@ -12758,7 +12742,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "hualacoa",
         "location": "Nevada"
     },
   {
@@ -12780,7 +12764,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "lrbottawact",
         "location": "Michigan"
     },{
         "regex": [
@@ -12801,7 +12785,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "odawacoa",
         "location": "Michigan"
     },{
         "regex": [
@@ -12822,7 +12806,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "makahct",
         "location": "Washington"
     },{
         "regex": [
@@ -12834,7 +12818,7 @@
                 "end": null
             }
         ],
-        "name": "Mashantucket Pequot Ct. of App.",
+        "name": "Mashantucket Pequot Court of Appeals",
         "level": "ljc",
         "jurisdiction": "C.T.",
         "appeal_to": null,
@@ -12843,7 +12827,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "pequotcoa",
         "location": "Connecticut"
     },
   {
@@ -12865,7 +12849,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "pequotct",
         "location": "Connecticut"
     },
   {
@@ -12887,7 +12871,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "ojibwecoa",
         "location": ""
     },{
         "regex": [
@@ -12908,7 +12892,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "mohegangcoa",
         "location": "Connecticut"
     },{
         "regex": [
@@ -12929,7 +12913,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "mohegangct",
         "location": "Connecticut"
     },{
         "regex": [
@@ -12950,7 +12934,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "moheganct",
         "location": "Connecticut"
     },{
         "regex": [
@@ -12971,7 +12955,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "mohegancoa",
         "location": "Connecticut"
     },
     {
@@ -12994,7 +12978,7 @@
         "system": "tribal",
         "court_url": "http://www.creeksupremecourt.com/index.php/case-law",
         "type": "special",
-        "id": null,
+        "id": "muscogee",
         "location": "Oklahoma"
     },{
         "regex": [
@@ -13016,7 +13000,7 @@
         "system": "tribal",
         "court_url": "http://www.navajocourts.org/indexsuct.htm",
         "type": "special",
-        "id": null,
+        "id": "navajodistct",
         "location": "Arizona"
     },{
         "regex": [
@@ -13038,7 +13022,7 @@
         "court_url": "http://www.navajocourts.org/indexsuct.htm",
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "navajocoa",
         "location": "Arizona"
     },
     {
@@ -13061,7 +13045,7 @@
         "system": "tribal",
         "court_url": "http://www.navajocourts.org/indexsuct.htm",
         "type": "special",
-        "id": null,
+        "id": "navajo",
         "location": "Arizona"
     },{
         "regex": [
@@ -13082,7 +13066,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "npalinscoa",
         "location": ""
     },{
         "regex": [
@@ -13103,7 +13087,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "oneidacoa",
         "location": "New York"
     },
   {
@@ -13125,7 +13109,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "oneidact",
         "location": "New York"
     },
   {
@@ -13147,7 +13131,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "passamacoa",
         "location": "Maine"
     },
   {
@@ -13170,7 +13154,7 @@
         "court_url": "http://www.puyallup-tribe.com/court/",
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "puyallupcoa",
         "location": ""
     },
   {
@@ -13193,7 +13177,7 @@
         "system": "tribal",
         "court_url": "http://www.puyallup-tribe.com/court/",
         "type": "special",
-        "id": null,
+        "id": "puyallupct",
         "location": "Washington"
     },
   {
@@ -13216,7 +13200,7 @@
         "court_url": "https://www.srmt-nsn.gov/tribal_court",
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "strmohawkct",
         "location": "New York"
     },
   {
@@ -13239,7 +13223,7 @@
         "court_url": "http://www.csktribes.org/judicial/appellate-court",
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "salishcoa",
         "location": "Montana"
     },
   {
@@ -13261,7 +13245,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "tulalipcoa",
         "location": "Washington"
     },
   {
@@ -13283,7 +13267,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "tunicabct",
         "location": "Louisiana"
     },
   {
@@ -13305,7 +13289,7 @@
         "examples": [],
         "system": "tribal",
         "type": "special",
-        "id": null,
+        "id": "turtlemtncoa",
         "location": "North Dakota"
     },
 
@@ -13336,54 +13320,6 @@
     },
     {
         "regex": [
-            "Court of Common Pleas and Oyer and Terminer for the City of Savannah"
-        ],
-        "dates": [
-            {
-                "start": "1819-01-01",
-                "regorginization_date": "1853-01-01",
-                "end": null,
-                "notes": "Converted to the city court of Savannah"
-            }
-        ],
-        "name": "Court of Common Pleas and Oyer and Terminer for the City of Savannah",
-        "level": "gjc",
-        "case_types": null,
-        "jurisdiction": "G.A.",
-        "system": "state",
-        "locations": 1,
-        "examples": [],
-        "active": false,
-        "type": "trial",
-        "id": null,
-        "location": ""
-    },
-    {
-        "regex": [
-            "Mayor\\'s Court of Common Pleas"
-        ],
-        "name_abbreviation": null,
-        "dates": [
-            {
-                "start": "1805-01-01",
-                "notes": "Converted to the Court of Common Pleas and Oyer and Terminer",
-                "end": "1819-01-01"
-            }
-        ],
-        "name": "Mayor's Court of Common Pleas",
-        "level": "gjc",
-        "case_types": null,
-        "jurisdiction": "G.A.",
-        "system": "state",
-        "locations": 1,
-        "examples": [],
-        "active": false,
-        "type": "trial",
-        "id": null,
-        "location": ""
-    },
-    {
-        "regex": [
             "Land Court of the State of Hawai"
         ],
         "name_abbreviation": null,
@@ -13402,8 +13338,8 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
-        "location": ""
+        "id": "hawlandct",
+        "location": "Hawaii"
     },
     {
         "regex": [
@@ -13495,8 +13431,8 @@
             "Court Of Quarter Sessions Of New Jersey"
         ],
         "type": "trial",
-        "id": null,
-        "location": ""
+        "id": "njqrtsess",
+        "location": "New Jersey"
     },
     {
         "regex": [
@@ -13520,8 +13456,8 @@
         ],
         "court_url": "https://www.courts.wa.gov/appellate_trial_courts/?fa=atc.crtPage&crtType=Super",
         "type": "trial",
-        "id": null,
-        "location": ""
+        "id": "washsupct",
+        "location": "Washington"
     },
     {
         "regex": [
@@ -13665,7 +13601,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "vimunict",
         "location": "Virgin Islands"
     },
     {
@@ -13685,7 +13621,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "vipolct",
         "location": "Virgin Islands"
     },
     {
@@ -13705,7 +13641,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "visupct",
         "location": "Virgin Islands"
     },
     {
@@ -13726,7 +13662,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": null,
+        "id": "virginislands",
         "location": "Virgin Islands"
     },
     {
@@ -13895,7 +13831,7 @@
         "court_url": "http://www.fjc.gov/history/home.nsf/page/courts_special_cc_bib.html",
         "type": "appellate",
         "id": "cusc",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -13945,7 +13881,7 @@
         "court_url": "http://www.nmid.uscourts.gov/",
         "type": "trial",
         "id": "nmid",
-        "location": ""
+        "location": "Northern Mariana Islands"
     },
     {
         "regex": [
@@ -14109,7 +14045,7 @@
         "court_url": "http://www.ca1.uscourts.gov/",
         "type": "appellate",
         "id": "ca1",
-        "location": ""
+        "location": "Massachusetts"
     },
     {
         "regex": [
@@ -14324,7 +14260,7 @@
         "court_url": "http://www.cafc.uscourts.gov/",
         "type": "appellate",
         "id": "cafc",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14363,8 +14299,8 @@
         "examples": [],
         "court_url": "",
         "type": "international",
-        "id": null,
-        "location": ""
+        "id": "phillipines",
+        "location": "Phillipines"
     },
     {
         "regex": [
@@ -14385,7 +14321,7 @@
         "court_url": "http://www.dcb.uscourts.gov/",
         "type": "bankruptcy",
         "id": "dcb",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14448,7 +14384,7 @@
         "court_url": "http://www.nmid.uscourts.gov/",
         "type": "bankruptcy",
         "id": "nmib",
-        "location": ""
+        "location": "Northern Mariana Islands"
     },
     {
         "regex": [
@@ -14469,7 +14405,7 @@
         "court_url": "http://www.wyb.uscourts.gov/",
         "type": "bankruptcy",
         "id": "wyb",
-        "location": ""
+        "location": "Wyoming"
     },
     {
         "regex": [
@@ -14488,8 +14424,8 @@
         "system": "extraterritorial",
         "examples": [],
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usberlinct",
+        "location": "Berlin"
     },
     {
         "regex": [
@@ -14511,8 +14447,8 @@
         "examples": [],
         "active": false,
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "tempemergcoa",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14532,8 +14468,8 @@
         "examples": [],
         "active": false,
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "emergcoa",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14558,7 +14494,7 @@
         ],
         "active": true,
         "type": "special",
-        "id": null,
+        "id": "usmultidist",
         "location": ""
     },
     {
@@ -14582,7 +14518,7 @@
         "active": true,
         "type": "special",
         "id": "fisa",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14603,8 +14539,8 @@
         "examples": [],
         "active": true,
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usfedclaims",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14623,7 +14559,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap1",
         "location": ""
     },
     {
@@ -14643,7 +14579,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap2",
         "location": ""
     },
     {
@@ -14665,7 +14601,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap3",
         "location": ""
     },
     {
@@ -14687,7 +14623,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap4",
         "location": ""
     },
     {
@@ -14709,7 +14645,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap5",
         "location": ""
     },
     {
@@ -14752,7 +14688,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap7",
         "location": ""
     },
     {
@@ -14772,7 +14708,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap8",
         "location": ""
     },
     {
@@ -14795,7 +14731,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap9",
         "location": ""
     },
     {
@@ -14840,7 +14776,7 @@
         "examples": [],
         "court_url": "",
         "type": "bankruptcy",
-        "id": null,
+        "id": "usbap11",
         "location": ""
     },
     {
@@ -14866,8 +14802,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usvetapp",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14889,8 +14825,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usmilcommn",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14918,8 +14854,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "uscoma",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14947,8 +14883,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usnmcmilrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14970,8 +14906,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usnmccoca",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -14994,8 +14930,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "uscoaarmedforces",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15017,8 +14953,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "cgcomilrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15040,8 +14976,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "uscoastguardbrdrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15063,8 +14999,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usnvybrdrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15086,8 +15022,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usarmyctofmilrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15109,8 +15045,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "armycoca",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15119,7 +15055,7 @@
         "name_abbreviation": "C.G. Ct. Crim. App.",
         "dates": [
             {
-                "start": null,
+                "start": "1968-01-01",
                 "end": null
             }
         ],
@@ -15131,9 +15067,10 @@
             "U S Coast Guard Court Of Criminal Appeals"
         ],
         "court_url": "",
+        "notes": "https://en.wikipedia.org/wiki/Coast_Guard_Court_of_Criminal_Appeals",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "uscgcoca",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15155,8 +15092,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usarmybrdrev",
+        "location": "Washignton D.C."
     },
     {
         "regex": [
@@ -15178,8 +15115,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usafctmilrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15201,8 +15138,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usafcoca",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15224,8 +15161,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usafbrdrev",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15247,8 +15184,8 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
-        "location": ""
+        "id": "usjconfdisord",
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15268,7 +15205,7 @@
             "Court Of International Trade"
         ],
         "type": "special",
-        "id": null,
+        "id": "intltradect",
         "location": ""
     },
     {
@@ -15291,7 +15228,7 @@
             "Judicial Council Of The First Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun1",
         "location": ""
     },
     {
@@ -15314,7 +15251,7 @@
             "Judicial Council Of The Second Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun2",
         "location": ""
     },
     {
@@ -15337,7 +15274,7 @@
             "Judicial Council Of The Third Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun3",
         "location": ""
     },
     {
@@ -15360,7 +15297,7 @@
             "Judicial Council Of The Fourth Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun4",
         "location": ""
     },
     {
@@ -15383,7 +15320,7 @@
             "Judicial Council Of The Fifth Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun5",
         "location": ""
     },
     {
@@ -15406,7 +15343,7 @@
             "Judicial Council Of The Sixth Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun6",
         "location": ""
     },
     {
@@ -15430,7 +15367,7 @@
             "Judicial Council Of The Seventh Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun7",
         "location": ""
     },
     {
@@ -15453,7 +15390,7 @@
             "Judicial Council Of The Eighth Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun8",
         "location": ""
     },
     {
@@ -15477,7 +15414,7 @@
             "Judicial Council Of The Ninth Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun9",
         "location": ""
     },
     {
@@ -15500,7 +15437,7 @@
             "Judicial Council Of The Tenth Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun10",
         "location": ""
     },
     {
@@ -15523,7 +15460,7 @@
             "Judicial Council Of The Eleventh Circuit"
         ],
         "type": "special",
-        "id": null,
+        "id": "judcoun11",
         "location": ""
     },
     {
@@ -15546,7 +15483,7 @@
         ],
         "court_url": "https://www.energy.gov/oha/decision-summaries",
         "type": "special",
-        "id": null,
+        "id": "energyoha",
         "location": ""
     },
     {
@@ -15570,7 +15507,7 @@
         ],
         "court_url": "https://oha.ed.gov/oha-judges-decisions/",
         "type": "special",
-        "id": null,
+        "id": "educationoha",
         "location": ""
     },
     {
@@ -15593,7 +15530,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": null,
+        "id": "usmaritcommn",
         "location": ""
     },
     {
@@ -15618,7 +15555,7 @@
         ],
         "court_url": "https://www.justice.gov/eoir/board-of-immigration-appeals",
         "type": "special",
-        "id": null,
+        "id": "justicboia",
         "location": ""
     },
     {
@@ -15642,7 +15579,7 @@
             "Special Court Regional Rail Reorganization Act Of 1973"
         ],
         "type": "special",
-        "id": null,
+        "id": "specrailroadct",
         "location": ""
     },
       {
@@ -17842,29 +17779,8 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": null,
+      "id": "caljudct",
       "location": "California"
-    },
-  {
-      "regex": [
-          "State Of New York Court On The Judiciary"
-      ],
-      "dates": [
-        {
-          "start": null,
-          "end": null
-        }
-      ],
-      "name": "State Of New York Court On The Judiciary",
-      "level": "ljc",
-      "case_types": [],
-      "system": "special",
-      "examples": [
-      ],
-      "court_url": "",
-      "type": "trial",
-      "id": null,
-      "location": "State Of New York Court On The Judiciary"
     },
   {
       "regex": [
@@ -17885,7 +17801,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": null,
-      "location": ""
+      "id": "ohiobar",
+      "location": "Ohio"
     }
 ]
