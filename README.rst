@@ -2,7 +2,7 @@ Courts-DB
 =========
 
 Courts-DB is an open source repository of all courts current and historical.
-It was originally built for use in Courtlistner.com.
+It was originally built for use in Courtlistener.com.
 
 
 Quickstart
