@@ -89,8 +89,7 @@ def find_court(court_str, filed_date=None, bankruptcy=False):
                 if len(non_bank) == 1:
                     return non_bank
         else:
-            if len(non_bank) == 1:
-                return non_bank
+            return non_bank
 
     return court_matches
 
