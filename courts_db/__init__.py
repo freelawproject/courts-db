@@ -5,11 +5,17 @@ from __future__ import (
     unicode_literals,
 )
 
-from .utils import load_courts_db, gather_regexes, make_court_dictionary
+from .utils import (
+    load_courts_db,
+    gather_regexes,
+    make_court_dictionary,
+    find_state,
+)
 from string import Template, punctuation
 from glob import iglob
 from io import open
 
+from datetime import datetime
 import json
 import os
 import re
@@ -104,3 +110,82 @@ def find_court_info(court_str, filed_date=None, bankruptcy=False):
     """
     matches = find_court(court_str, filed_date, bankruptcy)
     return [court_dict[x] for x in matches]
+
+
+def find_court_ids_by_name(court_str):
+
+    if not type(court_str) == six.text_type:
+        court_str = unicode(court_str)
+
+    assert (
+        type(court_str) == six.text_type
+    ), "court_str is not a text type, it's of type %s" % type(court_str)
+
+    court_matches = set()
+    for regex, court_id, court_name, court_type in regexes:
+        match = re.search(regex, court_str)
+        if match:
+            court_matches.add(court_id)
+
+    return list(court_matches)
+
+
+def filter_courts_by_date(found_ids, date_found, strict=False):
+    """
+
+    :param found_ids:
+    :param date_found:
+    :param strict:
+    :return:
+    """
+    date_format = "%Y-%m-%d"
+    results = [court for court in courts if court["id"] in found_ids]
+    filtered_results = []
+    for result in results:
+        for date_object in result["dates"]:
+
+            date_start = date_object["start"]
+            date_end = date_object["end"]
+
+            if strict == False:
+                if date_start == None:
+                    date_start = "1600-01-01"
+                if date_end == None:
+                    date_end = "2100-01-01"
+            if strict:
+                if date_start == None:
+                    continue
+                if date_end == None:
+                    date_end = "2100-01-01"
+
+            df = datetime.strptime(date_found, date_format)
+
+            date_start = datetime.strptime(date_start, date_format)
+            date_end = datetime.strptime(date_end, date_format)
+
+            if date_start <= df <= date_end:
+                filtered_results.append(result["id"])
+
+    return filtered_results
+
+
+def filter_courts_by_bankruptcy(found_ids, bankruptcy):
+    results = [court for court in courts if court["id"] in found_ids]
+    if bankruptcy:
+        return [
+            court["id"] for court in results if court["type"] == "bankruptcy"
+        ]
+    return [court["id"] for court in results if court["type"] != "bankruptcy"]
+
+
+def filter_courts_by_state(found_ids, state):
+    state = find_state(state)
+    return [
+        court["id"]
+        for court in courts
+        if court["id"] in found_ids and court["location"] == state
+    ]
+
+
+def find_court_by_id(court_id):
+    return [court for court in courts if court["id"] == court_id]

@@ -55,6 +55,23 @@ def load_courts_db():
     return json.loads(s)
 
 
+def find_state(state_str):
+
+    with open(os.path.join(db_root, "data", "variables.json"), "r") as v:
+        variables = json.load(v)
+
+    with open(os.path.join(db_root, "data", "states.json"), "r") as v:
+        states = json.load(v)
+
+    for key in variables.keys():
+        if key.upper() in states.keys():
+            regex = re.compile(variables[key], (re.I | re.U))
+            match = re.search(regex, state_str)
+            if match:
+                return states[key.upper()]
+    return None
+
+
 def gather_regexes(courts, court_id=None):
     """Create a variable mapping regexes to court IDs
 
