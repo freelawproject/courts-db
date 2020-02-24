@@ -5526,11 +5526,13 @@
             }
         ],
         "name": "Massachusetts Supreme Judicial Court",
-        "level": "",
-        "case_types": [],
+        "level": "colr",
+        "case_types": ["All"],
         "system": "state",
         "examples": [
-            "Supreme Court Of Massachusetts"
+            "Supreme Court Of Massachusetts",
+            "Supreme Judicial Court Of Massachusetts",
+            "Massachusetts Supreme Judicial Court"
         ],
         "court_url": "http://www.mass.gov/courts/sjc/",
         "type": "appellate",
