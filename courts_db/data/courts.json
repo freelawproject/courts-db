@@ -2439,7 +2439,7 @@
         "court_url": "http://courts.delaware.gov/Superior/",
         "active": true,
         "type": "trial",
-        "id": "delsuperct",
+        "id": "delcommpleas",
         "location": "Delaware"
     },
     {
@@ -12229,32 +12229,7 @@
         "court_url": "http://www.ca11.uscourts.gov/",
         "type": "appellate",
         "id": "ca11",
-        "location": ""
-    },
-    {
-        "regex": [
-            "Native American Tribal Courts"
-        ],
-        "name_abbreviation": null,
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "Native American Tribal Courts",
-        "level": "ljc",
-        "case_types": [
-            "all"
-        ],
-        "jurisdiction": null,
-        "appeal_to": null,
-        "locations": 40,
-        "examples": [],
-        "system": "tribal",
-        "type": "trial",
-        "id": "natribct",
-        "location": ""
+        "location": "Georgia"
     },
     {
         "regex": [
@@ -12869,10 +12844,11 @@
         "lower_courts": [],
         "locations": 1,
         "examples": [],
+        "court_url": "https://millelacsband.com/services/tribal-court",
         "system": "tribal",
         "type": "special",
         "id": "ojibwecoa",
-        "location": ""
+        "location": "Minnesota"
     },{
         "regex": [
         ],
@@ -13057,7 +13033,7 @@
                 "end": null
             }
         ],
-        "name": "Northern Plains Intertribal Court of Appeals.",
+        "name": "Northern Plains Intertribal Court of Appeals",
         "level": "iac",
         "jurisdiction": "",
         "appeal_to": null,
@@ -13067,7 +13043,7 @@
         "system": "tribal",
         "type": "special",
         "id": "npalinscoa",
-        "location": ""
+        "location": "South Dakota"
     },{
         "regex": [
         ],
@@ -13155,7 +13131,7 @@
         "system": "tribal",
         "type": "special",
         "id": "puyallupcoa",
-        "location": ""
+        "location": "Washington"
     },
   {
         "regex": [
@@ -13315,8 +13291,8 @@
         "court_url": "http://courts.delaware.gov/Superior/",
         "active": false,
         "type": "trial",
-        "id": "delsuperct",
-        "location": ""
+        "id": "deloyerterm",
+        "location": "Delaware"
     },
     {
         "regex": [
@@ -13476,7 +13452,7 @@
         "examples": [],
         "type": "appellate",
         "id": "bta",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -13531,7 +13507,7 @@
         "court_url": "https://en.wikipedia.org/wiki/United_States_District_Court_for_the_District_of_Orleans",
         "type": "appellate",
         "id": "orld",
-        "location": ""
+        "location": "Louisiana"
     },
     {
         "regex": [
@@ -13552,7 +13528,7 @@
         "court_url": "http://www.fjc.gov/history/home.nsf/page/courts_special_com.html",
         "type": "appellate",
         "id": "com",
-        "location": ""
+        "location": "Washignton D.C."
     },
     {
         "regex": [
@@ -13693,7 +13669,7 @@
         "court_url": "http://www.fjc.gov/history/home.nsf/page/courts_special_coc.html",
         "type": "",
         "id": "cc",
-        "location": ""
+        "location": "Washignton D.C."
     },
     {
         "regex": [
@@ -13721,7 +13697,7 @@
         "court_url": "http://www.cafc.uscourts.gov/",
         "type": "appellate",
         "id": "ccpa",
-        "location": ""
+        "location": "Washignton D.C."
     },
     {
         "regex": [
@@ -13741,11 +13717,12 @@
         "court_url": "http://www.ustaxcourt.gov/",
         "type": "appellate",
         "id": "tax",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
-            "${usa} Court Of International Trade"
+            "${usa} Court Of International Trade",
+            "Court Of International Trade"
         ],
         "dates": [
             {
@@ -13761,7 +13738,7 @@
         "court_url": "http://www.cit.uscourts.gov/",
         "type": "appellate",
         "id": "cit",
-        "location": ""
+        "location": "New York"
     },
     {
         "regex": [
@@ -13808,7 +13785,7 @@
         "court_url": "https://en.wikipedia.org/wiki/United_States_District_Court_for_the_Canal_Zone",
         "type": "trial",
         "id": "canalzoned",
-        "location": ""
+        "location": "Panama"
     },
     {
         "regex": [
@@ -13916,7 +13893,7 @@
         "court_url": "http://www.ca9.uscourts.gov/",
         "type": "appellate",
         "id": "ca9",
-        "location": ""
+        "location": "California"
     },
     {
         "regex": [
@@ -13947,7 +13924,7 @@
         "court_url": "http://www.ca8.uscourts.gov/",
         "type": "appellate",
         "id": "ca8",
-        "location": ""
+        "location": "Missouri"
     },
     {
         "regex": [
@@ -13983,7 +13960,7 @@
         "court_url": "http://www.ca3.uscourts.gov/",
         "type": "appellate",
         "id": "ca3",
-        "location": ""
+        "location": "Pennsylvania"
     },
     {
         "regex": [
@@ -14018,7 +13995,7 @@
         "court_url": "http://www.ca2.uscourts.gov/",
         "type": "appellate",
         "id": "ca2",
-        "location": ""
+        "location": "New YOrk"
     },
     {
         "regex": [
@@ -14076,7 +14053,7 @@
         "court_url": "http://www.ca7.uscourts.gov/",
         "type": "appellate",
         "id": "ca7",
-        "location": ""
+        "location": "Chicago"
     },
     {
         "regex": [
@@ -14143,7 +14120,7 @@
         "court_url": "http://www.ca5.uscourts.gov/",
         "type": "appellate",
         "id": "ca5",
-        "location": ""
+        "location": "Louisiana"
     },
     {
         "regex": [
@@ -14177,7 +14154,7 @@
         "court_url": "http://www.ca4.uscourts.gov/",
         "type": "appellate",
         "id": "ca4",
-        "location": ""
+        "location": "Virginia"
     },
     {
         "regex": [
@@ -14238,7 +14215,7 @@
         "court_url": "http://www.ca10.uscourts.gov/",
         "type": "appellate",
         "id": "ca10",
-        "location": ""
+        "location": "Colorado"
     },
     {
         "regex": [
@@ -14280,7 +14257,7 @@
         "court_url": "https://en.wikipedia.org/wiki/Court_of_King%27s_Bench_(England)",
         "type": "international",
         "id": "kingsbench",
-        "location": ""
+        "location": "England"
     },
     {
         "regex": [
@@ -14495,7 +14472,7 @@
         "active": true,
         "type": "special",
         "id": "usmultidist",
-        "location": ""
+        "location": "Washignton D.C."
     },
     {
         "regex": [
@@ -14560,94 +14537,9 @@
         "court_url": "",
         "type": "bankruptcy",
         "id": "usbap1",
-        "location": ""
+        "location": "Massachusetts"
     },
-    {
-        "regex": [
-            "${usbap} ${n2} Circuit"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States Bankruptcy Appellate Panel Of The Second Circuit",
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "court_url": "",
-        "type": "bankruptcy",
-        "id": "usbap2",
-        "location": ""
-    },
-    {
-        "regex": [
-            "${usbap} ${n3} Circuit"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States Bankruptcy Appellate Panel Of The Third Circuit",
-        "level": "iac",
-        "case_types": [
-            "bankruptcy"
-        ],
-        "system": "federal",
-        "examples": [],
-        "court_url": "",
-        "type": "bankruptcy",
-        "id": "usbap3",
-        "location": ""
-    },
-    {
-        "regex": [
-            "${usbap} ${n4} Circuit"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States Bankruptcy Appellate Panel Of The Fourth Circuit",
-        "level": "iac",
-        "case_types": [
-            "bankruptcy"
-        ],
-        "system": "federal",
-        "examples": [],
-        "court_url": "",
-        "type": "bankruptcy",
-        "id": "usbap4",
-        "location": ""
-    },
-    {
-        "regex": [
-            "${usbap} ${n5} Circuit"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States Bankruptcy Appellate Panel Of The Fifth Circuit",
-        "level": "iac",
-        "case_types": [
-            "bankruptcy"
-        ],
-        "system": "federal",
-        "examples": [],
-        "court_url": "",
-        "type": "bankruptcy",
-        "id": "usbap5",
-        "location": ""
-    },
+
     {
         "regex": [
             "${usbap} ${n6} Circuit",
@@ -14669,28 +14561,9 @@
         "court_url": "",
         "type": "bankruptcy",
         "id": "usbap6",
-        "location": ""
+        "location": "Ohio"
     },
-    {
-        "regex": [
-            "${usbap} ${n7} Circuit"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States Bankruptcy Appellate Panel Of The Seventh Circuit",
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "court_url": "",
-        "type": "bankruptcy",
-        "id": "usbap7",
-        "location": ""
-    },
+
     {
         "regex": [
             "${usbap} ${n8} Circuit"
@@ -14709,7 +14582,7 @@
         "court_url": "",
         "type": "bankruptcy",
         "id": "usbap8",
-        "location": ""
+        "location": "Missouri"
     },
     {
         "regex": [
@@ -14732,7 +14605,7 @@
         "court_url": "",
         "type": "bankruptcy",
         "id": "usbap9",
-        "location": ""
+        "location": "California"
     },
     {
         "regex": [
@@ -14757,28 +14630,9 @@
         "court_url": "",
         "type": "bankruptcy",
         "id": "usbap10",
-        "location": ""
+        "location": "Colorado"
     },
-    {
-        "regex": [
-            "${usbap} ${n11} Circuit"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States Bankruptcy Appellate Panel Of The Eleventh Circuit",
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "court_url": "",
-        "type": "bankruptcy",
-        "id": "usbap11",
-        "location": ""
-    },
+
     {
         "regex": [
             "United States Court of Veterans? Appeals",
@@ -15187,27 +15041,7 @@
         "id": "usjconfdisord",
         "location": "Washington D.C."
     },
-    {
-        "regex": [
-            "Court Of International Trade"
-        ],
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "Court Of International Trade",
-        "level": "",
-        "case_types": [],
-        "system": "International",
-        "examples": [
-            "Court Of International Trade"
-        ],
-        "type": "special",
-        "id": "intltradect",
-        "location": ""
-    },
+
     {
         "regex": [
             "Judicial Council Of The First Circuit"
@@ -15229,7 +15063,7 @@
         ],
         "type": "special",
         "id": "judcoun1",
-        "location": ""
+        "location": "Massachusetts"
     },
     {
         "regex": [
@@ -15252,7 +15086,7 @@
         ],
         "type": "special",
         "id": "judcoun2",
-        "location": ""
+        "location": "New York"
     },
     {
         "regex": [
@@ -15275,7 +15109,7 @@
         ],
         "type": "special",
         "id": "judcoun3",
-        "location": ""
+        "location": "Pennsylvania"
     },
     {
         "regex": [
@@ -15298,7 +15132,7 @@
         ],
         "type": "special",
         "id": "judcoun4",
-        "location": ""
+        "location": "Virginia"
     },
     {
         "regex": [
@@ -15321,7 +15155,7 @@
         ],
         "type": "special",
         "id": "judcoun5",
-        "location": ""
+        "location": "Louisiana"
     },
     {
         "regex": [
@@ -15344,7 +15178,7 @@
         ],
         "type": "special",
         "id": "judcoun6",
-        "location": ""
+        "location": "Ohio"
     },
     {
         "regex": [
@@ -15368,7 +15202,7 @@
         ],
         "type": "special",
         "id": "judcoun7",
-        "location": ""
+        "location": "Illinois"
     },
     {
         "regex": [
@@ -15391,7 +15225,7 @@
         ],
         "type": "special",
         "id": "judcoun8",
-        "location": ""
+        "location": "Missouri"
     },
     {
         "regex": [
@@ -15415,7 +15249,7 @@
         ],
         "type": "special",
         "id": "judcoun9",
-        "location": ""
+        "location": "California"
     },
     {
         "regex": [
@@ -15438,7 +15272,7 @@
         ],
         "type": "special",
         "id": "judcoun10",
-        "location": ""
+        "location": "Colorado"
     },
     {
         "regex": [
@@ -15461,7 +15295,7 @@
         ],
         "type": "special",
         "id": "judcoun11",
-        "location": ""
+        "location": "Georgia"
     },
     {
         "regex": [
@@ -15484,7 +15318,7 @@
         "court_url": "https://www.energy.gov/oha/decision-summaries",
         "type": "special",
         "id": "energyoha",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15508,7 +15342,7 @@
         "court_url": "https://oha.ed.gov/oha-judges-decisions/",
         "type": "special",
         "id": "educationoha",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15531,7 +15365,7 @@
         "court_url": "",
         "type": "special",
         "id": "usmaritcommn",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15556,7 +15390,7 @@
         "court_url": "https://www.justice.gov/eoir/board-of-immigration-appeals",
         "type": "special",
         "id": "justicboia",
-        "location": ""
+        "location": "Washington D.C."
     },
     {
         "regex": [
@@ -15580,7 +15414,7 @@
         ],
         "type": "special",
         "id": "specrailroadct",
-        "location": ""
+        "location": "Washignton D.C."
     },
       {
         "regex": [
