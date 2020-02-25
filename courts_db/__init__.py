@@ -109,7 +109,7 @@ def find_court_by_id(court_id):
 
 
 def find_court(
-    court_str, bankruptcy=False, state=None, date_found=None, strict=False
+    court_str, bankruptcy=None, state=None, date_found=None, strict=False
 ):
     """
 
@@ -122,7 +122,10 @@ def find_court(
     """
 
     matches = find_court_ids_by_name(court_str)
-    matches = filter_courts_by_bankruptcy(matches=matches, bankruptcy=bankruptcy)
+    if bankruptcy is not None:
+        matches = filter_courts_by_bankruptcy(
+            matches=matches, bankruptcy=bankruptcy
+        )
     if state:
         matches = filter_courts_by_state(matches=matches, state=state)
     if date_found:
