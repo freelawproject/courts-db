@@ -5,12 +5,7 @@ from __future__ import (
     unicode_literals,
 )
 
-from .utils import (
-    load_courts_db,
-    gather_regexes,
-    make_court_dictionary,
-    find_state,
-)
+from .utils import load_courts_db, gather_regexes, make_court_dictionary
 from string import Template, punctuation
 from glob import iglob
 from io import open
@@ -95,21 +90,12 @@ def filter_courts_by_bankruptcy(matches, bankruptcy):
     return [court["id"] for court in results if court["type"] != "bankruptcy"]
 
 
-def filter_courts_by_state(matches, state):
-    state = find_state(state)
-    return [
-        court["id"]
-        for court in courts
-        if court["id"] in matches and court["location"] == state
-    ]
-
-
 def find_court_by_id(court_id):
     return [court for court in courts if court["id"] == court_id]
 
 
 def find_court(
-    court_str, bankruptcy=None, state=None, date_found=None, strict=False
+    court_str, bankruptcy=None, date_found=None, strict_dates=False
 ):
     """
 
@@ -126,8 +112,6 @@ def find_court(
         matches = filter_courts_by_bankruptcy(
             matches=matches, bankruptcy=bankruptcy
         )
-    if state:
-        matches = filter_courts_by_state(matches=matches, state=state)
     if date_found:
         matches = filter_courts_by_date(
             matches=matches, date_found=date_found, strict=strict
