@@ -7217,6 +7217,7 @@
             "Town Court City of Gates New York Monroe County",
             "Town Court Kinderhook County"
         ],
+        "court_url": "http://www.nycourts.gov/courts/townandvillage/",
         "type": "trial",
         "id": "nytownct",
         "location": "New York"
@@ -7510,6 +7511,7 @@
         "examples": [
             "Nassau County Court"
         ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "type": "trial",
         "id": "nycountyct",
         "location": "New York"
@@ -7535,6 +7537,7 @@
             "Court Of Oyer And Terminer Tompkins County New York",
             "Court Of Oyer And Terminer Monroe County New York"
         ],
+        "active": false,
         "type": "trial",
         "id": "nyoytermct",
         "location": "New York"
@@ -7600,6 +7603,7 @@
             "District Court Nassau City",
             "District Court Nassau Dist Ct"
         ],
+      "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-DISTRICT.shtml",
         "type": "trial",
         "id": "nydistct",
         "location": "New York"
@@ -7670,6 +7674,7 @@
             "Municipal Court of The City Of Buffalo New York",
             "Municipal Court of The City Of Syracuse New York"
         ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-CITY.shtml",
         "type": "trial",
         "id": "nycityct",
         "location": "New York"
@@ -7734,6 +7739,7 @@
             "Family Court Cattaraugus County",
             "Family Court Clinton County"
         ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-FAMILY.shtml",
         "type": "trial",
         "id": "nyfamcourt",
         "location": "New York"
@@ -7773,6 +7779,7 @@
             "Surrogate S Court Greene County New York",
             "Surrogate'S Court Of New York Kings County"
         ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SURROGATES.shtml",
         "active": true,
         "type": "trial",
         "id": "nysurgct",
