@@ -42,40 +42,41 @@ def find_court_ids_by_name(court_str):
     return list(court_matches)
 
 
-def filter_courts_by_date(matches, date_found, strict=False):
-    """
+def filter_courts_by_date(matches, date_found, strict_dates=False):
+    """ Filter IDs by date found.
 
-    :param found_ids:
-    :param date_found:
-    :param strict:
-    :return:
+    Strict dates should be more useful as dates are filled in.
+    :param matches:
+    :param date_found: datetime object
+    :param strict_dates: Boolean that helps tell the sytsem how to handle
+    null dates in courts-db
+    :return: List of court IDs matched
     """
-    date_format = "%Y-%m-%d"
+    assert (
+        type(date_found) is datetime
+    ), "date_found is not a date object, it's of type %s" % type(date_found)
+
     results = [court for court in courts if court["id"] in matches]
     filtered_results = []
     for result in results:
         for date_object in result["dates"]:
-
             date_start = date_object["start"]
             date_end = date_object["end"]
-
-            if strict == False:
+            if strict_dates == False:
                 if date_start == None:
                     date_start = "1600-01-01"
                 if date_end == None:
                     date_end = "2100-01-01"
-            if strict:
+            if strict_dates:
                 if date_start == None:
                     continue
                 if date_end == None:
                     date_end = "2100-01-01"
 
-            df = datetime.strptime(date_found, date_format)
+            date_start = datetime.strptime(date_start, "%Y-%m-%d")
+            date_end = datetime.strptime(date_end, "%Y-%m-%d")
 
-            date_start = datetime.strptime(date_start, date_format)
-            date_end = datetime.strptime(date_end, date_format)
-
-            if date_start <= df <= date_end:
+            if date_start <= date_found <= date_end:
                 filtered_results.append(result["id"])
 
     return filtered_results
@@ -114,7 +115,7 @@ def find_court(
         )
     if date_found:
         matches = filter_courts_by_date(
-            matches=matches, date_found=date_found, strict=strict
+            matches=matches, date_found=date_found, strict_dates=strict_dates
         )
 
     return matches
