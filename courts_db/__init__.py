@@ -20,15 +20,16 @@ try:
     courts = load_courts_db()
     court_dict = make_court_dictionary(courts)
     regexes = gather_regexes(courts)
-except:
-    pass
+except Exception as e:
+    print(str(e))
 
 
 def find_court_ids_by_name(court_str):
+    """ Find court IDs with our courts-db regex list
 
-    if not type(court_str) == six.text_type:
-        court_str = unicode(court_str)
-
+    :param court_str: test string
+    :return: List of Court IDs matched
+    """
     assert (
         type(court_str) == six.text_type
     ), "court_str is not a text type, it's of type %s" % type(court_str)
@@ -92,22 +93,26 @@ def filter_courts_by_bankruptcy(matches, bankruptcy):
 
 
 def find_court_by_id(court_id):
+    """ Find court dictionary using court id code.
+
+    :param court_id: Court code used by Courtlistener.com
+    :return: Return dictionary court object from db
+    """
     return [court for court in courts if court["id"] == court_id]
 
 
 def find_court(
     court_str, bankruptcy=None, date_found=None, strict_dates=False
 ):
-    """
+    """Finds a list of court ID for a given string and parameters
 
-    :param court_str:
-    :param bankruptcy:
-    :param state:
-    :param date_found:
-    :param strict:
-    :return:
+    :param court_str: The unicode string we are testing
+    :param bankruptcy: Tells function to exclude or include bankruptcy cases
+    :param date_found: Date object
+    :param strict_dates: Boolean that helps tell the sytsem how to handle
+    null dates in courts-db
+    :return: List of court IDs if any
     """
-
     matches = find_court_ids_by_name(court_str)
     if bankruptcy is not None:
         matches = filter_courts_by_bankruptcy(
