@@ -1,20 +1,31 @@
 Courts-DB
 =========
 
-Courts-DB is an open source repository of all courts current and historical.
-It was originally built for use in Courtlistener.com.
+Courts-DB is an open source repository to organize a db of all courts current and historical.
+It was built for use in Courtlistener.com.
 
+Its main goal is to interface with CL to identify historical and current courts
+by string.  It incldues mechanisms to filter results based on dates and/or whether it is a bankruptcy court.
+
+Further development is intended and all contributors, corrections and additions are welcome.
+
+Background
+==========
+
+Free Law Project built this database using the metadata (case names, dates etc.)
+of over 16 millions data points.  This data represents hundreds of hours of
+research and testing.  We believe to be the most extensive open dataset of its kind.
 
 Quickstart
 ===========
 
-Find court information by unicode string
+You can feed in a courtlistener Court_ID or string to find a court.
 
 ::
 
-        from courts_db import find_court_info
+        from courts_db import find_court, find_court_by_id
 
-        mass_sjc = find_court_info(u"Massachusetts Supreme Judicial Court")
+        find_court_by_id(["mass"])
 
         returns:
         [{
@@ -51,9 +62,38 @@ Find court information by unicode string
 
         from courts_db import find_court
 
-        mass_sjc = find_court(u"Massachusetts Supreme Judicial Court")
+        mass_sjc = find_court_by_id(u"Massachusetts Supreme Judicial Court")
 
         returns: ["mass"]
+
+
+Filtering on less unique strings is built in.
+
+Feed a date string or bankruptcy flag to filter on those parameters
+For example District of Massachusetts is non unique and returns both the Federal District Court of Massachusetts and its Bankruptcy Court
+::
+
+        from datetime import datetime as dt
+
+        courts_db.find_court(
+            u"District of Massachusetts",
+        )
+
+        returns ==> ["mad", "mab"]
+
+        courts_db.find_court(
+            u"District of Massachusetts",
+            bankruptcy=True,
+        )
+
+        returns ==> ["mab"]
+
+        courts_db.find_court(
+            u"District of Massachusetts",
+            date_found=dt.strptime("10/02/1975", "%m/%d/%Y"),
+        )
+
+        returns ==> ["mad"]
 
 
 
@@ -72,6 +112,14 @@ Or install the latest dev version from github
     ::
 
         pip install git+https://github.com/freelawproject/courts-db.git@master
+
+
+
+Future
+=======
+
+1) Continue to improve and expand the dataset.
+2) Add filtering mechanisms by state, reporters, citation(s), judges, counties and cities.
 
 
 Deployment
