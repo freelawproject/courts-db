@@ -62,7 +62,7 @@ You can feed in a courtlistener Court_ID or string to find a court.
 
         from courts_db import find_court
 
-        mass_sjc = find_court_by_id(u"Massachusetts Supreme Judicial Court")
+        mass_sjc = find_court(u"Massachusetts Supreme Judicial Court")
 
         returns: ["mass"]
 
