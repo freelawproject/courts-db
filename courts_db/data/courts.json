@@ -9282,7 +9282,8 @@
     },
       {
       "regex": [
-          "Board Of Commissioners On The Unauthorized Practice Of Law State Of Ohio"
+          "Board Of Commissioners On The Unauthorized Practice Of Law State Of Ohio",
+          "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law"
       ],
       "dates": [
         {
@@ -9299,7 +9300,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "",
+      "id": "ohiobar",
       "location": "Ohio"
     },
     {
@@ -17783,27 +17784,4 @@
       "id": "caljudct",
       "location": "California"
     },
-  {
-      "regex": [
-          "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law"
-      ],
-      "dates": [
-        {
-          "start": null,
-          "end": null
-        }
-      ],
-      "name": "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law",
-      "level": "ljc",
-      "case_types": [],
-      "system": "special",
-      "examples": [
-          "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law"
-      ],
-      "active": true,
-      "court_url": "",
-      "type": "trial",
-      "id": "ohiobar",
-      "location": "Ohio"
-    }
 ]
