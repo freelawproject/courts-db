@@ -3999,7 +3999,7 @@
       "examples": [],
       "court_url": "",
       "type": "trial",
-      "id": "",
+      "id": "ilclaimsct",
       "location": "Illinois"
     },
     {
@@ -9180,7 +9180,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "",
+      "id": "ohiopuc",
       "location": "Ohio"
     },
   {
@@ -9202,7 +9202,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "",
+      "id": "njpuc",
       "location": "New Jersey"
     },
   {
@@ -9224,7 +9224,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "",
+      "id": "njlaborcomp",
       "location": "New Jersey"
     },
     {
@@ -10585,7 +10585,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "",
+      "id": "tennworkerscompapp",
       "location": "Tennessee"
     },
     {
@@ -12899,7 +12899,7 @@
                 "end": null
             }
         ],
-        "name": "",
+        "name": "Mohegan Gaming Disputes Ct. of App.",
         "level": "ljc",
         "jurisdiction": "C.T.",
         "appeal_to": null,
