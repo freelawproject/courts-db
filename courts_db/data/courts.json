@@ -44,9 +44,6 @@
         ],
         "name": "Alabama Court of Civil Appeals",
         "level": "iac",
-        "case_types": [
-            "civil"
-        ],
         "jurisdiction": "A.L.",
         "system": "state",
         "locations": 1,
@@ -73,9 +70,6 @@
         ],
         "name": "Alabama Court of Criminal Appeals",
         "level": "iac",
-        "case_types": [
-            "criminal"
-        ],
         "jurisdiction": "A.L.",
         "system": "state",
         "locations": 1,
@@ -99,9 +93,6 @@
         ],
         "name": "Alabama Court of Appeals",
         "level": "iac",
-        "case_types": [
-            "criminal"
-        ],
         "jurisdiction": "A.L.",
         "system": "state",
         "locations": 1,
@@ -196,9 +187,6 @@
         ],
         "name": "Alabama Probate Courts",
         "level": "ljc",
-        "case_types": [
-            "probate"
-        ],
         "jurisdiction": "A.L.",
         "system": "state",
         "locations": 68,
@@ -220,9 +208,6 @@
         ],
         "name": "Alabama Juvenile Courts",
         "level": "ljc",
-        "case_types": [
-            "juvenile"
-        ],
         "jurisdiction": "A.L.",
         "system": "state",
         "examples": [],
@@ -243,9 +228,6 @@
         ],
         "name": "Alabama Small Claims Courts",
         "level": "ljc",
-        "case_types": [
-            "small claims"
-        ],
         "jurisdiction": "A.L.",
         "system": "state",
         "examples": [],
@@ -266,9 +248,6 @@
         ],
         "name": "Alabama Court of the Judiciary",
         "level": "ljc",
-        "case_types": [
-            "judicial-complaints"
-        ],
         "jurisdiction": "A.L.",
         "appeal_to": "colr",
         "locations": 1,
@@ -306,9 +285,6 @@
             "Southern",
             "Western"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "A.L.",
         "appeal_to": "ca11",
@@ -345,9 +321,6 @@
             "Mobile",
             "Selma"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "A.L.",
         "appeal_to": "ca11",
@@ -381,9 +354,6 @@
             "Northern",
             "Southern"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "A.L.",
         "appeal_to": "ca11",
@@ -416,9 +386,6 @@
             "Eastern",
             "Northern",
             "Southern"
-        ],
-        "case_types": [
-            "bankruptcy"
         ],
         "federal_circuit": 11,
         "jurisdiction": "A.L.",
@@ -515,9 +482,6 @@
         ],
         "name": "Alaska District Court",
         "level": "ljc",
-        "case_types": [
-            "low level"
-        ],
         "jurisdiction": null,
         "appeal_to": null,
         "lower_courts": [],
@@ -547,9 +511,6 @@
         ],
         "name": "Alaska Superior Court",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "jurisdiction": null,
         "appeal_to": null,
         "lower_courts": [],
@@ -580,9 +541,6 @@
         ],
         "name": "Alaska Court of Appeals",
         "level": "iac",
-        "case_types": [
-            "all"
-        ],
         "jurisdiction": null,
         "appeal_to": null,
         "locations": 1,
@@ -608,9 +566,6 @@
         ],
         "name": "Alaska Supreme Court",
         "level": "colr",
-        "case_types": [
-            "all"
-        ],
         "system": "state",
         "locations": 1,
         "examples": [
@@ -639,9 +594,6 @@
         ],
         "name": "United States District Court for the District of Alaska",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "jurisdiction": null,
         "system": "federal",
@@ -693,9 +645,6 @@
         ],
         "name": "United States District Court for the District of Arizona",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "jurisdiction": null,
         "appeal_to": null,
@@ -882,9 +831,6 @@
             "Pine Bluff",
             "Western"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 8,
         "jurisdiction": "A.R.",
         "appeal_to": "ca8",
@@ -919,9 +865,6 @@
             "Hot Springs",
             "Texarkana"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 8,
         "jurisdiction": "A.R.",
         "appeal_to": "ca8",
@@ -952,9 +895,6 @@
         ],
         "name": "United States District Court for the District of Arkansas",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 8,
         "notes": "Subdivided/Extinct",
         "jurisdiction": [
@@ -1244,9 +1184,6 @@
         ],
         "name": "United States District Court for the District of California",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "notes": "Subdivided/Extinct",
         "jurisdiction": [
@@ -1286,9 +1223,6 @@
             "District Court Of The United States Southern District Of California Central Division"
         ],
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "notes": "Subdivided/Extinct",
         "jurisdiction": [
@@ -1334,9 +1268,6 @@
             "District Court For The Northern Division California"
         ],
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "notes": "Subdivided",
         "jurisdiction": [
@@ -1372,9 +1303,6 @@
         ],
         "name": "United States District Court for the Eastern District of California",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "jurisdiction": [
             "C.A."
@@ -1417,9 +1345,6 @@
         ],
         "name": "United States District Court for the Central District of California",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "jurisdiction": [
             "C.A."
@@ -1767,9 +1692,6 @@
         ],
         "name": "Denver Probate Court",
         "level": "ljc",
-        "case_types": [
-            "probate"
-        ],
         "jurisdiction": "C.O.",
         "system": "state",
         "locations": 1,
@@ -1793,9 +1715,6 @@
         ],
         "name": "Denver Juvenile Court",
         "level": "ljc",
-        "case_types": [
-            "juvenile"
-        ],
         "jurisdiction": "C.O.",
         "system": "state",
         "locations": 1,
@@ -1845,9 +1764,6 @@
         ],
         "name": "Colorado Water Court",
         "level": "ljc",
-        "case_types": [
-            "Water Rights"
-        ],
         "jurisdiction": "C.O.",
         "system": "state",
         "locations": 22,
@@ -1931,9 +1847,6 @@
         ],
         "name": "United States District Court for the District of Colorado",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 10,
         "jurisdiction": "C.O.",
         "appeal_to": "ca10",
@@ -2026,9 +1939,6 @@
         ],
         "name": "United States District Court for the District of Connecticut",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 2,
         "jurisdiction": "C.T.",
         "appeal_to": "ca2",
@@ -2056,9 +1966,6 @@
         ],
         "name": "Connecticut Probate Court",
         "level": "ljc",
-        "case_types": [
-            "probate"
-        ],
         "jurisdiction": "C.T.",
         "system": "state",
         "locations": 54,
@@ -2129,9 +2036,6 @@
         ],
         "name": "Connecticut Superior Court",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "jurisdiction": "C.T.",
         "system": "state",
         "locations": 13,
@@ -2259,9 +2163,6 @@
         "division": [
             "Wilmington"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 3,
         "jurisdiction": "D.E.",
         "appeal_to": "ca3",
@@ -2325,9 +2226,6 @@
         ],
         "name": "Delaware Court of Chancery",
         "level": "ljc",
-        "case_types": [
-            "trusts, real property, guardianships, civil rights, and commercial litigation"
-        ],
         "notes": null,
         "jurisdiction": "D.E.",
         "system": "state",
@@ -2359,9 +2257,6 @@
         ],
         "name": "Superior Court of Delaware",
         "level": "gjc",
-        "case_types": [
-            "trusts, real property, guardianships, civil rights, and commercial litigation"
-        ],
         "notes": null,
         "jurisdiction": "D.E.",
         "system": "state",
@@ -2394,9 +2289,6 @@
         ],
         "name": "Delaware Family Court",
         "level": "ljc",
-        "case_types": [
-            "family, juvenile, adoption, support, custody, divorce and guardianship"
-        ],
         "notes": null,
         "jurisdiction": "D.E.",
         "system": "state",
@@ -2460,9 +2352,6 @@
         ],
         "name": "Delaware Justice of the Peace Courts",
         "level": "ljc",
-        "case_types": [
-            "criminal"
-        ],
         "notes": null,
         "jurisdiction": "D.E.",
         "system": "state",
@@ -2513,9 +2402,6 @@
         ],
         "name": "Delaware Alderman's Courts",
         "level": "ljc",
-        "case_types": [
-            "criminal"
-        ],
         "notes": null,
         "jurisdiction": "D.E.",
         "appeal_to": "Court of Common Pleas",
@@ -2637,9 +2523,6 @@
             "Pensacola",
             "Pensacola"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "F.L.",
         "appeal_to": "ca11",
@@ -2675,9 +2558,6 @@
         ],
         "name": "United States District Court for the Southern District of Florida",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "F.L.",
         "appeal_to": "ca11",
@@ -2710,9 +2590,6 @@
             "Ocala",
             "Orlando"
         ],
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "F.L.",
         "appeal_to": "ca11",
@@ -2743,9 +2620,6 @@
         ],
         "name": "United States District Court for the District of Florida",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "F.L.",
         "appeal_to": "ca11",
@@ -2996,9 +2870,6 @@
         ],
         "name": "United States District Court for the Northern District of Georgia",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "G.A.",
         "appeal_to": "ca11",
@@ -3032,9 +2903,6 @@
         ],
         "name": "United States District Court for the Southern District of Georgia",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "G.A.",
         "appeal_to": "ca11",
@@ -3061,9 +2929,6 @@
         ],
         "name": "United States District Court for the Middle District of Georgia",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "G.A.",
         "appeal_to": "ca11",
@@ -3088,9 +2953,6 @@
         ],
         "name": "United States District Court for the District of Georgia",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "G.A.",
         "appeal_to": "ca11",
@@ -3188,9 +3050,6 @@
         ],
         "name": "Georgia Probate Courts",
         "level": "ljc",
-        "case_types": [
-            "probate"
-        ],
         "jurisdiction": "G.A.",
         "system": "state",
         "locations": 159,
@@ -3235,9 +3094,6 @@
         ],
         "name": "Georgia Magistrate Courts",
         "level": "ljc",
-        "case_types": [
-            "criminal and civil"
-        ],
         "jurisdiction": "G.A.",
         "system": "state",
         "locations": 159,
@@ -3259,9 +3115,6 @@
         ],
         "name": "Georgia Municipal Courts",
         "level": "ljc",
-        "case_types": [
-            "small"
-        ],
         "notes": "Georgia Municipal Courts serve incorporated municipalities and try ordinance violations, issue criminal warrants, conduct preliminary hearings, and hear misdemeanor shoplifting and possession of marijuana cases",
         "jurisdiction": "G.A.",
         "system": "state",
@@ -3285,9 +3138,6 @@
         ],
         "name": "Georgia Juvenile Courts",
         "level": "ljc",
-        "case_types": [
-            "juvenile"
-        ],
         "jurisdiction": "G.A.",
         "system": "state",
         "locations": 159,
@@ -3309,9 +3159,6 @@
         ],
         "name": "Georgia Business Court",
         "level": "ljc",
-        "case_types": [
-            "business litigation"
-        ],
         "jurisdiction": "G.A.",
         "system": "state",
         "locations": 1,
@@ -3333,9 +3180,6 @@
         ],
         "name": "North Carolina Business Court",
         "level": "ljc",
-        "case_types": [
-            "business litigation"
-        ],
         "jurisdiction": "N.C.",
         "system": "state",
         "locations": 1,
@@ -3524,9 +3368,6 @@
         ],
         "name": "United States District Court for the District of Hawaii",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "jurisdiction": "H.I.",
         "appeal_to": "ca9",
@@ -3685,9 +3526,6 @@
         ],
         "name": "Hawaii State Tax Appeal Court",
         "level": "ljc",
-        "case_types": [
-            "tax"
-        ],
         "jurisdiction": "H.I.",
         "system": "state",
         "examples": [],
@@ -3737,9 +3575,6 @@
             "Coeur d'Alene",
             "Moscow",
             "Pocatello"
-        ],
-        "case_types": [
-            "all"
         ],
         "federal_circuit": 9,
         "jurisdiction": "I.D.",
@@ -3876,9 +3711,6 @@
         ],
         "name": "Idaho Drug Court",
         "level": "ljc",
-        "case_types": [
-            "drug"
-        ],
         "jurisdiction": "I.D.",
         "system": "state",
         "examples": [],
@@ -3899,9 +3731,6 @@
         ],
         "name": "Idaho Mental Health Court",
         "level": "ljc",
-        "case_types": [
-            "mental health"
-        ],
         "jurisdiction": "I.D.",
         "system": "state",
         "examples": [],
@@ -3969,9 +3798,6 @@
         ],
         "name": "Appellate Court of Illinois",
         "level": "iac",
-        "case_types": [
-            "All"
-        ],
         "jurisdiction": "I.L.",
         "system": "state",
         "examples": [
@@ -4282,7 +4108,7 @@
     {
         "regex": [
             "${d} ${in}",
-            "${d} D ${in}"
+            "${usdc} ${in}"
         ],
         "dates": [
             {
@@ -4405,9 +4231,6 @@
         ],
         "name": "United States District Court for the District of Iowa",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 8,
         "jurisdiction": "",
         "appeal_to": "ca8",
@@ -4708,9 +4531,6 @@
         ],
         "name": "United States District Court for the District of Kentucky",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 6,
         "jurisdiction": "",
         "appeal_to": "ca6",
@@ -4905,9 +4725,6 @@
         ],
         "name": "United States District Court for the District of Louisiana",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 5,
         "jurisdiction": "",
         "appeal_to": "ca5",
@@ -6263,9 +6080,6 @@
         ],
         "name": "Water Court Of The State Of Montana",
         "level": "ljc",
-        "case_types": [
-            "Water Rights"
-        ],
         "jurisdiction": "M.T.",
         "system": "state",
         "locations": 22,
@@ -7122,9 +6936,6 @@
         ],
         "name": "The Court of General Sessions",
         "level": "trial",
-        "case_types": [
-            "high level criminal"
-        ],
         "notes": "It was state wide criminal court until 1846 then only Manhattan",
         "jurisdiction": "N.Y.",
         "system": "state",
@@ -7147,9 +6958,6 @@
         ],
         "name": "Court of Sessions",
         "level": "trial",
-        "case_types": [
-            "all"
-        ],
         "notes": "See https://history.nycourts.gov/case/court-sessions",
         "jurisdiction": "N.Y.",
         "system": "state",
@@ -7288,9 +7096,6 @@
         ],
         "name": "United States District Court for the District of New York",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 2,
         "jurisdiction": "",
         "appeal_to": "ca2",
@@ -7883,9 +7688,6 @@
         ],
         "name": "The Criminal Court of the City of New York",
         "level": "trial",
-        "case_types": [
-            "misdemeanors"
-        ],
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
         "system": "state",
         "examples": [
@@ -7943,9 +7745,6 @@
         ],
         "name": "New York Court of Common Pleas",
         "level": "trial",
-        "case_types": [
-            "civil"
-        ],
         "notes": "Appears to be the civil side of the Court of General Sessions",
         "system": "state",
         "examples": [
@@ -7968,9 +7767,6 @@
         ],
         "name": "New York Problem Solving Courts",
         "level": "trial",
-        "case_types": [
-            "Mental Health"
-        ],
         "system": "state",
         "examples": [],
         "type": "trial",
@@ -8422,9 +8218,6 @@
         ],
         "name": "United States District Court for the District of North Carolina",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 4,
         "jurisdiction": "",
         "appeal_to": "ca4",
@@ -8754,7 +8547,6 @@
     },
     {
         "regex": [
-            "${d} (D)? ?${ndak}",
             "${usdc} ${d} North Dakota"
         ],
         "dates": [
@@ -9363,9 +9155,6 @@
         ],
         "name": "United States District Court for the District of Oklahoma",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 10,
         "jurisdiction": "",
         "appeal_to": "ca10",
@@ -11326,9 +11115,6 @@
         ],
         "name": "United States District Court for the District of Virginia",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 4,
         "jurisdiction": "V.A.",
         "appeal_to": "ca4",
@@ -11581,9 +11367,6 @@
         ],
         "name": "United States District Court for the District of Washington",
         "level": "gjc",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 9,
         "jurisdiction": "",
         "appeal_to": "ca9",
@@ -12216,9 +11999,6 @@
         ],
         "name": "United States Court of Appeals for the Eleventh Circuit",
         "level": "iac",
-        "case_types": [
-            "all"
-        ],
         "federal_circuit": 11,
         "jurisdiction": "ca11",
         "appeal_to": [
@@ -13362,9 +13142,6 @@
         ],
         "name": "Land Court of the State of Hawai\u02bbi",
         "level": "ljc",
-        "case_types": [
-            "land"
-        ],
         "jurisdiction": "H.I.",
         "system": "state",
         "examples": [],
@@ -14476,9 +14253,6 @@
         ],
         "name": "Temporary Emergency Court of Appeals",
         "level": "iac",
-        "case_types": [
-            "Exclusive appeals under the wage and price control program (1970)"
-        ],
         "notes": "Transfered to United States Court of Appeals for the Federal Circuit See: https://en.wikipedia.org/wiki/Temporary_Emergency_Court_of_Appeals",
         "system": "federal",
         "examples": [],
@@ -14683,9 +14457,6 @@
         ],
         "name": "United States Bankruptcy Appellate Panel Of The Tenth Circuit",
         "level": "iac",
-        "case_types": [
-            "bankruptcy"
-        ],
         "system": "federal",
         "examples": [
             "United States Bankruptcy Appellate Panel For The Tenth Circuit",
@@ -15121,9 +14892,6 @@
         ],
         "name": "Judicial Council Of The First Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The First Circuit"
@@ -15144,9 +14912,6 @@
         ],
         "name": "Judicial Council Of The Second Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Second Circuit"
@@ -15167,9 +14932,6 @@
         ],
         "name": "Judicial Council Of The Third Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Third Circuit"
@@ -15190,9 +14952,6 @@
         ],
         "name": "Judicial Council Of The Fourth Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Fourth Circuit"
@@ -15213,9 +14972,6 @@
         ],
         "name": "Judicial Council Of The Fifth Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Fifth Circuit"
@@ -15236,9 +14992,6 @@
         ],
         "name": "Judicial Council Of The Sixth Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Sixth Circuit"
@@ -15260,9 +15013,6 @@
         ],
         "name": "Judicial Council Of The Seventh Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Seventh Circuit"
@@ -15283,9 +15033,6 @@
         ],
         "name": "Judicial Council Of The Eighth Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Eighth Circuit"
@@ -15307,9 +15054,6 @@
         ],
         "name": "Judicial Council Of The Ninth Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Ninth Circuit"
@@ -15330,9 +15074,6 @@
         ],
         "name": "Judicial Council Of The Tenth Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Tenth Circuit"
@@ -15353,9 +15094,6 @@
         ],
         "name": "Judicial Council Of The Eleventh Circuit",
         "level": "trial",
-        "case_types": [
-            "Judicial Misconduct"
-        ],
         "system": "federal",
         "examples": [
             "Judicial Council Of The Eleventh Circuit"
@@ -15446,9 +15184,6 @@
         ],
         "name": "United States Department Of Justice Board Of Immigration Appeals",
         "level": "iac",
-        "case_types": [
-            "immigration"
-        ],
         "notes": "See: https://en.wikipedia.org/wiki/Board_of_Immigration_Appeals",
         "system": "federal",
         "examples": [
@@ -15843,7 +15578,6 @@
         "name": "U.S. Circuit Court for the District of South Dakota.",
         "active": false,
         "level": "iac",
-        "case_types": [],
         "system": "federal",
         "location": "South Dakota",
         "type": "appellate",
