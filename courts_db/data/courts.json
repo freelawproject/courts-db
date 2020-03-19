@@ -7085,7 +7085,9 @@
     {
         "regex": [
             "^${d} ?(D)? ?New York",
-            "${usdc} ${d} New York"
+            "${usdc} ${d} New York",
+            "Nathan District of New York",
+            "Nate District of New York"
         ],
         "dates": [
             {
@@ -7928,11 +7930,13 @@
             "United States District Colurt ${ed} Of New York",
             "United States Court ${ed} Of New York",
             "${usdc} Fastern District Of New York",
+            "Eastern District Of New York",
             "United States District Court For The Eastern Division New York",
             "United States District Court Fot The Eastern District Of New York",
             "U S District Court For The Eastern Div Of New York",
             "United States District Court For The Eastern Of District Of New York",
-            "United States District Court For The Eastern Division Of New York"
+            "United States District Court For The Eastern Division Of New York",
+            "United States District Court E D New York"
         ],
         "dates": [
             {
@@ -7953,12 +7957,13 @@
             "United States District Court E D New York",
             "United States District Court Eastern Of New York",
             "District Court E D New York",
+            "Eastern District of New York",
             "United States District Colurt Eastern District Of New York",
             "United States District Court Fastern District Of New York",
             "United States District Court Fot The Eastern District Of New York"
         ],
         "court_url": "http://www.nyed.uscourts.gov/",
-        "type": "appellate",
+        "type": "trial",
         "id": "nyed",
         "location": "New York"
     },
@@ -7966,7 +7971,8 @@
         "regex": [
             "${usdc} ${nd} ${ny}",
             "United States District Court For The Northern Division Of New York",
-            "United States District Court For The Northern District Of New Yorke0"
+            "United States District Court For The Northern District Of New Yorke0",
+            "Northern District of New York"
         ],
         "dates": [
             {
@@ -9779,7 +9785,9 @@
             "${usdc} ${md} ${pa}",
             "${md} ${pa}",
             "United States District Court For The Middle District Of Pennsylvaniaa",
-            "United States District Court For The Middle District District Of Pennsylvania"
+            "United States District Court For The Middle District District Of Pennsylvania",
+            "Middle Dist of Pennsylvania",
+            "M.D. of Pennsylvania"
         ],
         "dates": [
             {
@@ -13725,7 +13733,9 @@
             "Unites States Court Of Appeals Ninth Circuit",
             "United States Of Court Of Appeals Ninth Circuit",
             "United States Court Of Appears Ninth Circuit",
-            "United States Court Appeals Ninth Circuit"
+            "United States Court Appeals Ninth Circuit",
+            "U. S. Court of Appeals for the Ninth Circuit",
+            "U. S. Circuit Court for the Ninth Circuit"
         ],
         "court_url": "http://www.ca9.uscourts.gov/",
         "type": "appellate",
