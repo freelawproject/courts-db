@@ -6,6 +6,7 @@ from __future__ import (
 )
 
 from .utils import load_courts_db, gather_regexes, make_court_dictionary
+from courts_db.text_utils import strip_punc
 from string import Template, punctuation
 from glob import iglob
 from io import open
@@ -113,6 +114,7 @@ def find_court(
     null dates in courts-db
     :return: List of court IDs if any
     """
+    court_str = strip_punc(court_str)
     matches = find_court_ids_by_name(court_str)
     if bankruptcy is not None:
         matches = filter_courts_by_bankruptcy(
