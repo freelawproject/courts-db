@@ -1,11 +1,7 @@
 import codecs
 import os
 from setuptools import setup, find_packages
-
-try:  # for pip >= 10
-    from pip._internal.req import parse_requirements
-except ImportError:  # for pip <= 9.0.3
-    from pip.req import parse_requirements
+from setuptools.command.install import install
 
 VERSION = "0.9.4"
 AUTHOR = "Free Law Project"
@@ -54,8 +50,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
-        str(r.req)
-        for r in parse_requirements("requirements.txt", session=False)
+        "six",
     ],
     test_suite="tests",
 )
