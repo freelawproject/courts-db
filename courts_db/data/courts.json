@@ -786,7 +786,7 @@
         "examples": [],
         "court_url": "http://www.superiorcourt.maricopa.gov/SuperiorCourt/TaxCourt/",
         "type": "appellate",
-        "id": "ariztaxct",
+        "id": "ariztax",
         "location": "Arizona"
     },
     {
@@ -3530,7 +3530,7 @@
         "system": "state",
         "examples": [],
         "type": "appellate",
-        "id": "hawtaxct",
+        "id": "hawtax",
         "location": "Hawaii"
     },
     {
@@ -4038,7 +4038,7 @@
         "examples": [],
         "court_url": "http://www.in.gov/judiciary/tax/",
         "type": "appellate",
-        "id": "indtc",
+        "id": "indtax",
         "location": "Indiana"
     },
   {
@@ -4057,7 +4057,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": "mdtc",
+        "id": "mdtax",
         "location": "Maryland"
     },
     {
@@ -5577,7 +5577,7 @@
           "Minnesota Tax Court"
         ],
         "type": null,
-        "id": "mntaxct",
+        "id": "mntax",
         "location": "Minnesota"
     },
     {
@@ -6159,7 +6159,7 @@
         "examples": [],
         "court_url": "http://mtab.mt.gov/",
         "type": "appellate",
-        "id": "monttc",
+        "id": "monttax",
         "location": "Montana"
     },
     {
@@ -6744,7 +6744,7 @@
         ],
         "court_url": "http://www.judiciary.state.nj.us/taxcourt/\u200e",
         "type": "appellate",
-        "id": "njtaxct",
+        "id": "njtax",
         "location": "New Jersey"
     },
     {
@@ -9143,7 +9143,7 @@
             "Board Of Tax Appeals Of Ohio Department Of Taxation"
         ],
         "type": "special",
-        "id": "ohiotaxct",
+        "id": "ohiotax",
         "location": "Ohio"
     },
     {
@@ -9476,7 +9476,7 @@
         "examples": [],
         "court_url": "http://courts.oregon.gov/Tax/Pages/index.aspx",
         "type": "appellate",
-        "id": "ortc",
+        "id": "ortax",
         "location": "Oregon"
     },
   {
