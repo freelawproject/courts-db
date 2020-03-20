@@ -1526,7 +1526,7 @@
             "Court Of Appeal Superior Court California"
         ],
         "type": "appellate",
-        "id": "calappdeptsuperct",
+        "id": "calappdeptsuper",
         "location": "California"
     },
     {
@@ -7086,8 +7086,7 @@
         "regex": [
             "^${d} ?(D)? ?New York",
             "${usdc} ${d} New York",
-            "Nathan District of New York",
-            "Nate District of New York"
+            "District of New York"
         ],
         "dates": [
             {
@@ -10362,10 +10361,11 @@
         "id": "tennctapp",
         "location": "Tennessee"
     },
-      {
+    {
       "regex": [
           "Tennessee Special Workers Compensation Appeals Panel",
-          "Supreme Court Of Tennessee Special Workers Compensation Appeals Panel"
+          "Supreme Court Of Tennessee Special Workers Compensation Appeals Panel",
+          "Tennessee Workers Compensation Appeals Panel"
       ],
       "dates": [
         {
@@ -10382,7 +10382,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "tennworkerscompapp",
+      "id": "tennworkcompapp",
       "location": "Tennessee"
     },
     {
@@ -14632,7 +14632,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "armedforcesctapp",
+        "id": "armedforcesapp",
         "location": "Washington D.C."
     },
     {
@@ -14724,7 +14724,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "usarmyctofmilrev",
+        "id": "usarmymilrev",
         "location": "Washington D.C."
     },
     {
@@ -15484,7 +15484,7 @@
         "system": "federal",
         "location": "South Carolina",
         "type": "appellate",
-        "id": "circtsouthcarolina",
+        "id": "circtscarolina",
         "examples": []
     },
     {
@@ -15549,7 +15549,7 @@
         "system": "federal",
         "location": "Connecticut",
         "type": "appellate",
-        "id": "circtconnecticut",
+        "id": "circtconn",
         "examples": [
             "United States Circuit Court For The District Of Connecticut"
         ]
@@ -15570,7 +15570,7 @@
         "system": "federal",
         "location": "North Dakota",
         "type": "appellate",
-        "id": "circtnorthdakota",
+        "id": "circtndakota",
         "examples": []
     },
     {
@@ -15591,7 +15591,7 @@
         "system": "federal",
         "location": "South Dakota",
         "type": "appellate",
-        "id": "circtsouthdakota",
+        "id": "circtsdakota",
         "examples": []
     },
     {
@@ -15760,7 +15760,7 @@
         "system": "federal",
         "location": "New Hampshire",
         "type": "appellate",
-        "id": "circtnewhampshire",
+        "id": "circtnh",
         "examples": []
     },
     {
@@ -15973,7 +15973,7 @@
         "system": "federal",
         "location": "Rhode Island",
         "type": "appellate",
-        "id": "circtrhodeisland",
+        "id": "circtri",
         "examples": []
     },
     {
@@ -16529,7 +16529,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtwilmingtonnc",
+        "id": "circtwilmington",
         "examples": [
         ]
     },
@@ -16549,7 +16549,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtalbermarlenc",
+        "id": "circtalbermarle",
         "examples": []
     },
   {
@@ -17364,7 +17364,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtalbanynewyork",
+        "id": "circtalbanyny",
         "examples": []
     },
     {
@@ -17386,7 +17386,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circteasternnewyork",
+        "id": "circteasternny",
         "examples": []
     },
     {
@@ -17409,7 +17409,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtnorthernnewyork",
+        "id": "circtnorthernny",
         "examples": []
     },
     {
@@ -17433,7 +17433,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtsouthernnewyork",
+        "id": "circtsouthernny",
         "examples": []
     },
     {
@@ -17455,7 +17455,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtwesternnewyork",
+        "id": "circtwesternny",
         "examples": []
     },
   {
