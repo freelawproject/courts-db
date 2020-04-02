@@ -647,7 +647,7 @@
         "level": "gjc",
         "federal_circuit": 9,
         "jurisdiction": null,
-        "appeal_to": null,
+        "appeal_to": "ca9",
         "lower_courts": [],
         "locations": 5,
         "examples": [
@@ -1044,7 +1044,7 @@
         "examples": [],
         "court_url": "http://www.awcc.state.ar.us/",
         "type": "appellate",
-        "id": "arkworkcomp",
+        "id": "arkworkcompcom",
         "location": "Arkansas"
     },
     {
@@ -1194,7 +1194,7 @@
         "examples": [],
         "active": false,
         "type": "trial",
-        "id": "cad",
+        "id": "californiad",
         "location": "California"
     },
     {
@@ -2331,7 +2331,7 @@
         "court_url": "http://courts.delaware.gov/Superior/",
         "active": true,
         "type": "trial",
-        "id": "delcpct",
+        "id": "delctcompl",
         "location": "Delaware"
     },
     {
@@ -4057,7 +4057,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "id": "mdtax",
+        "id": "mdtc",
         "location": "Maryland"
     },
     {
@@ -5696,32 +5696,6 @@
     },
     {
         "regex": [
-            "^${d} ?(D)? ?Mississippi",
-            "District Court Territory Of Mississippi"
-        ],
-        "dates": [
-            {
-                "start": "1818-04-03",
-                "notes": "Divided in two",
-                "end": "1838-06-18"
-            }
-        ],
-        "name": "United States District Court for the District of Mississippi",
-        "level": "gjc",
-        "case_types": [],
-        "federal_circuit": 5,
-        "jurisdiction": "M.I.",
-        "appeal_to": "ca5",
-        "system": "federal",
-        "examples": [
-            "District Court D Mississippi"
-        ],
-        "type": "trial",
-        "id": "msd",
-        "location": "Mississippi"
-    },
-    {
-        "regex": [
             "${coa} Mississippi"
         ],
         "dates": [
@@ -5794,7 +5768,10 @@
     {
         "regex": [
             "${dc} D Mississippi",
-            "${dc} Mississippi"
+            "${dc} Mississippi",
+            "^${d} ?(D)? ?Mississippi",
+            "District Court Territory Of Mississippi"
+
         ],
         "dates": [
             {
@@ -6159,7 +6136,7 @@
         "examples": [],
         "court_url": "http://mtab.mt.gov/",
         "type": "appellate",
-        "id": "monttax",
+        "id": "monttc",
         "location": "Montana"
     },
     {
@@ -6664,7 +6641,7 @@
             "Court Of Common Pleas Of New Jersey Gloucester County"
         ],
         "type": null,
-        "id": "njcpct",
+        "id": "njctcompl",
         "location": "New Jersey"
     },
     {
@@ -6744,7 +6721,7 @@
         ],
         "court_url": "http://www.judiciary.state.nj.us/taxcourt/\u200e",
         "type": "appellate",
-        "id": "njtax",
+        "id": "njtc",
         "location": "New Jersey"
     },
     {
@@ -7547,7 +7524,7 @@
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-FAMILY.shtml",
         "type": "trial",
-        "id": "nyfamcourt",
+        "id": "nyfamct",
         "location": "New York"
     },
     {
@@ -7568,7 +7545,8 @@
             "Surrogate.* Court of New York",
             "Surrrogate S Court Of New York New York County",
             "Surrrogate.* New York",
-            "Snrrogate S Court Of New York New York County"
+            "Snrrogate S Court Of New York New York County",
+            "Surrogate's Court"
         ],
         "dates": [
             {
@@ -7755,7 +7733,7 @@
             "Ny General Session"
         ],
         "type": "trial",
-        "id": "nycpct",
+        "id": "nyctcompl",
         "location": "New York"
     },
     {
@@ -7805,26 +7783,6 @@
         "court_url": "http://www.nycourts.gov/ctapps/",
         "type": "appellate",
         "id": "ny",
-        "location": "New York"
-    },
-    {
-        "regex": [
-            "Surrogate's Court"
-        ],
-        "dates": [
-            {
-                "start": "1896-01-01",
-                "end": null
-            }
-        ],
-        "name": "New York Surrogate's Court",
-        "level": "",
-        "case_types": [],
-        "system": "state",
-        "examples": [],
-        "court_url": "https://en.wikipedia.org/wiki/New_York_Surrogate%27s_Court",
-        "type": "appellate",
-        "id": "nysurct",
         "location": "New York"
     },
     {
@@ -8261,29 +8219,9 @@
     },
     {
         "regex": [
-            "North Carolina Superior Court"
-        ],
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "North Carolina Superior Court",
-        "level": "gjc",
-        "case_types": [],
-        "system": "state",
-        "examples": [
-            "North Carolina Superior Court New Hanover County"
-        ],
-        "type": "trial",
-        "id": "nysuperct",
-        "location": "North Carolina"
-    },
-    {
-        "regex": [
             "Superior Court of North Carolina",
-            "In the General Court of Justice Superior Court Division"
+            "In the General Court of Justice Superior Court Division",
+            "North Carolina Superior Court"
         ],
         "dates": [
             {
@@ -8295,7 +8233,9 @@
         "level": "",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+          "North Carolina Superior Court New Hanover County"
+        ],
         "court_url": "http://www.nccourts.org/Courts/Trial/Superior/",
         "type": "appellate",
         "id": "ncsuperct",
@@ -8547,7 +8487,7 @@
         ],
         "active": false,
         "type": "appellate",
-        "id": "dakotaupct",
+        "id": "dakotasup",
         "location": ""
     },
     {
@@ -8848,7 +8788,7 @@
             "Ohio Police Court"
         ],
         "type": "trial",
-        "id": "ohcpct",
+        "id": "ohioctcompl",
         "location": "Ohio"
     },
     {
@@ -9476,7 +9416,7 @@
         "examples": [],
         "court_url": "http://courts.oregon.gov/Tax/Pages/index.aspx",
         "type": "appellate",
-        "id": "ortax",
+        "id": "ortc",
         "location": "Oregon"
     },
   {
@@ -9597,7 +9537,7 @@
             "Common Pleas Court Of Chester County Pennsylvania"
         ],
         "type": null,
-        "id": "pacpct",
+        "id": "pactcompl",
         "location": "Pennsylvania"
     },
     {
@@ -10065,7 +10005,7 @@
         "examples": [],
         "court_url": "http://www.judicial.state.sc.us/appeals/",
         "type": "trial",
-        "id": "sccpct",
+        "id": "scctcompl",
         "location": "South Carolina"
     },
     {
@@ -11076,6 +11016,8 @@
         "system": "federal",
         "id": "vtd",
         "examples": [],
+        "federal_circuit": 1,
+        "appeal_to": "ca1",
         "court_url": "http://www.vtd.uscourts.gov/",
         "type": "appellate",
         "cites": [],
@@ -11098,6 +11040,7 @@
         "case_types": [],
         "system": "federal",
         "examples": [],
+        "federal_circuit": 1,
         "court_url": "http://www.vtb.uscourts.gov/",
         "type": "bankruptcy",
         "id": "vtb",
@@ -11390,7 +11333,11 @@
         "regex": [
             "Court of Appeals? of Washington",
             "Washington,? Court of Appeals",
-            "Wash Ct Ap"
+            "Wash Ct Ap",
+            "State Of Washington Intermediate Court Of Appeals",
+            "Court Of Appeals Washington",
+            "Courts Of Appeals Of Washington"
+
         ],
         "dates": [
             {
@@ -11441,29 +11388,6 @@
         "court_url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/",
         "type": "appellate",
         "id": "wash",
-        "location": "Washington"
-    },
-    {
-        "regex": [
-            "State Of Washington Intermediate Court Of Appeals",
-            "Court Of Appeals Washington",
-            "Courts Of Appeals Of Washington"
-        ],
-        "dates": [
-            {
-                "start": "1969-05-12",
-                "end": null
-            }
-        ],
-        "name": "Washington Court of Appeals",
-        "level": "iac",
-        "case_types": [],
-        "system": "state",
-        "examples": [
-            "State Of Washington Intermediate Court Of Appeals Division One"
-        ],
-        "type": "appellate",
-        "id": "wactapp",
         "location": "Washington"
     },
     {
@@ -12286,7 +12210,7 @@
         "system": "tribal",
         "active": true,
         "type": "special",
-        "id": "eastcherkokee",
+        "id": "echerkokee",
         "location": "North Carolina"
     },
     {
@@ -12309,7 +12233,7 @@
         "system": "tribal",
         "active": true,
         "type": "special",
-        "id": "echerkct",
+        "id": "echerokeect",
         "location": "North Carolina"
     },
   {
@@ -12876,7 +12800,7 @@
         "system": "tribal",
         "active": true,
         "type": "special",
-        "id": "npalinsctapp",
+        "id": "nplainsctapp",
         "location": "South Dakota"
     },{
         "regex": [
@@ -13842,7 +13766,7 @@
         "court_url": "http://www.ca2.uscourts.gov/",
         "type": "appellate",
         "id": "ca2",
-        "location": "New YOrk"
+        "location": "New York"
     },
     {
         "regex": [
@@ -13891,7 +13815,7 @@
             }
         ],
         "name": "Court of Appeals for the Seventh Circuit",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13900,7 +13824,7 @@
         "court_url": "http://www.ca7.uscourts.gov/",
         "type": "appellate",
         "id": "ca7",
-        "location": "Chicago"
+        "location": "Illinois"
     },
     {
         "regex": [
@@ -13953,7 +13877,7 @@
             }
         ],
         "name": "Court of Appeals for the Fifth Circuit",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13990,7 +13914,7 @@
             }
         ],
         "name": "Court of Appeals for the Fourth Circuit",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -14028,7 +13952,7 @@
             }
         ],
         "name": "Court of Appeals for the D.C. Circuit",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -14055,7 +13979,7 @@
             }
         ],
         "name": "Court of Appeals for the Tenth Circuit",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14077,7 +14001,7 @@
             }
         ],
         "name": "Court of Appeals for the Federal Circuit",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14268,7 +14192,7 @@
         "examples": [],
         "active": false,
         "type": "special",
-        "id": "tempemergctapp",
+        "id": "tecoa",
         "location": "Washington D.C."
     },
     {
@@ -14289,7 +14213,7 @@
         "examples": [],
         "active": false,
         "type": "special",
-        "id": "emergctapp",
+        "id": "eca",
         "location": "Washington D.C."
     },
     {
@@ -14315,7 +14239,7 @@
         ],
         "active": true,
         "type": "special",
-        "id": "usmultidist",
+        "id": "jpml",
         "location": "Washignton D.C."
     },
     {
@@ -14360,7 +14284,7 @@
         "examples": [],
         "active": true,
         "type": "special",
-        "id": "usfedclaims",
+        "id": "uscfc",
         "location": "Washington D.C."
     },
     {
@@ -14381,7 +14305,7 @@
         "active": true,
         "court_url": "",
         "type": "bankruptcy",
-        "id": "usbap1",
+        "id": "bap1",
         "location": "Massachusetts"
     },
 
@@ -14406,7 +14330,7 @@
         "active": true,
         "court_url": "",
         "type": "bankruptcy",
-        "id": "usbap6",
+        "id": "bap6",
         "location": "Ohio"
     },
 
@@ -14428,7 +14352,7 @@
         "active": true,
         "court_url": "",
         "type": "bankruptcy",
-        "id": "usbap8",
+        "id": "bap8",
         "location": "Missouri"
     },
     {
@@ -14452,7 +14376,7 @@
         "active": true,
         "court_url": "",
         "type": "bankruptcy",
-        "id": "usbap9",
+        "id": "bap9",
         "location": "California"
     },
     {
@@ -14475,7 +14399,7 @@
         "active": true,
         "court_url": "",
         "type": "bankruptcy",
-        "id": "usbap10",
+        "id": "bap10",
         "location": "Colorado"
     },
 
@@ -14503,7 +14427,7 @@
         "active": true,
         "court_url": "",
         "type": "special",
-        "id": "usvetapp",
+        "id": "cavc",
         "location": "Washington D.C."
     },
     {
@@ -14527,7 +14451,7 @@
         "active": false,
         "court_url": "",
         "type": "special",
-        "id": "usmilcommn",
+        "id": "mc",
         "location": "Washington D.C."
     },
     {
@@ -14556,7 +14480,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "uscoma",
+        "id": "cma",
         "location": "Washington D.C."
     },
     {
@@ -14608,7 +14532,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "usnmccoca",
+        "id": "nmcca",
         "location": "Washington D.C."
     },
     {
@@ -14632,7 +14556,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "armedforcesapp",
+        "id": "armfor",
         "location": "Washington D.C."
     },
     {
@@ -14747,7 +14671,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "armycoca",
+        "id": "acca",
         "location": "Washington D.C."
     },
     {
@@ -14840,7 +14764,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "usafcoca",
+        "id": "afcca",
         "location": "Washington D.C."
     },
     {
@@ -14886,7 +14810,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "usjconfdisord",
+        "id": "usjc",
         "location": "Washington D.C."
     },
 
@@ -14907,7 +14831,7 @@
             "Judicial Council Of The First Circuit"
         ],
         "type": "special",
-        "id": "judcoun1",
+        "id": "jc1",
         "location": "Massachusetts"
     },
     {
@@ -14927,7 +14851,7 @@
             "Judicial Council Of The Second Circuit"
         ],
         "type": "special",
-        "id": "judcoun2",
+        "id": "jc2",
         "location": "New York"
     },
     {
@@ -14947,7 +14871,7 @@
             "Judicial Council Of The Third Circuit"
         ],
         "type": "special",
-        "id": "judcoun3",
+        "id": "jc3",
         "location": "Pennsylvania"
     },
     {
@@ -14967,7 +14891,7 @@
             "Judicial Council Of The Fourth Circuit"
         ],
         "type": "special",
-        "id": "judcoun4",
+        "id": "jc4",
         "location": "Virginia"
     },
     {
@@ -14987,7 +14911,7 @@
             "Judicial Council Of The Fifth Circuit"
         ],
         "type": "special",
-        "id": "judcoun5",
+        "id": "jc5",
         "location": "Louisiana"
     },
     {
@@ -15007,7 +14931,7 @@
             "Judicial Council Of The Sixth Circuit"
         ],
         "type": "special",
-        "id": "judcoun6",
+        "id": "jc6",
         "location": "Ohio"
     },
     {
@@ -15028,7 +14952,7 @@
             "Judicial Council Of The Seventh Circuit"
         ],
         "type": "special",
-        "id": "judcoun7",
+        "id": "jc7",
         "location": "Illinois"
     },
     {
@@ -15048,7 +14972,7 @@
             "Judicial Council Of The Eighth Circuit"
         ],
         "type": "special",
-        "id": "judcoun8",
+        "id": "jc8",
         "location": "Missouri"
     },
     {
@@ -15069,7 +14993,7 @@
             "Judicial Council Of The Ninth Circuit"
         ],
         "type": "special",
-        "id": "judcoun9",
+        "id": "jc9",
         "location": "California"
     },
     {
@@ -15089,7 +15013,7 @@
             "Judicial Council Of The Tenth Circuit"
         ],
         "type": "special",
-        "id": "judcoun10",
+        "id": "jc10",
         "location": "Colorado"
     },
     {
@@ -15109,7 +15033,7 @@
             "Judicial Council Of The Eleventh Circuit"
         ],
         "type": "special",
-        "id": "judcoun11",
+        "id": "jc11",
         "location": "Georgia"
     },
     {
@@ -15179,7 +15103,7 @@
         ],
         "court_url": "",
         "type": "special",
-        "id": "usmaritcommn",
+        "id": "maritimecomm",
         "location": "Washington D.C."
     },
     {
@@ -15201,7 +15125,7 @@
         ],
         "court_url": "https://www.justice.gov/eoir/board-of-immigration-appeals",
         "type": "special",
-        "id": "justicboia",
+        "id": "dojbia",
         "location": "Washington D.C."
     },
     {
@@ -15225,7 +15149,7 @@
             "Special Court Regional Rail Reorganization Act Of 1973"
         ],
         "type": "special",
-        "id": "specrailroadct",
+        "id": "reglrailreorgct",
         "location": "Washignton D.C."
     },
       {
@@ -17503,7 +17427,7 @@
       ],
       "court_url": "",
       "type": "appellate",
-      "id": "indterrctapp",
+      "id": "cait",
       "location": "Washinton D.C."
     },
   {
@@ -17525,7 +17449,7 @@
       ],
       "court_url": "",
       "type": "trial",
-      "id": "caljudct",
+      "id": "caljp",
       "location": "California"
     }
 ]
