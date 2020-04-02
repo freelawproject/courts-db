@@ -8488,7 +8488,7 @@
         "active": false,
         "type": "appellate",
         "id": "dakotasup",
-        "location": ""
+        "location": "Dakota Territory"
     },
     {
         "regex": [
@@ -8841,7 +8841,7 @@
         ],
         "type": "trial",
         "id": "ohmunict",
-        "location": "Ohilndio"
+        "location": "Ohio"
     },
     {
         "regex": [
