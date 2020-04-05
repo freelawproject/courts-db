@@ -3537,7 +3537,7 @@
         "regex": [
             "(^|\\s)D(\\.|(istrict))? ?Hawai",
             "${usbcd} Hawai",
-            "United States Bankruptcy Court For The Middle District Of Hawaii"
+            "United States Bankruptcy Court For The District Of Hawaii"
         ],
         "dates": [
             {
@@ -6289,7 +6289,7 @@
         "examples": [],
         "court_url": "http://www.neb.uscourts.gov/",
         "type": "bankruptcy",
-        "id": "nebraskab",
+        "id": "neb",
         "location": "Nebraska"
     },
     {
@@ -10858,6 +10858,27 @@
         "court_url": "http://www.txnb.uscourts.gov/",
         "type": "bankruptcy",
         "id": "txnb",
+        "location": "Texas"
+    },
+    {
+        "regex": [
+            "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?Texas",
+            "${usbcwd} Texas"
+        ],
+        "dates": [
+            {
+                "start": "1984-04-01",
+                "end": null
+            }
+        ],
+        "name": "United States Bankruptcy Court, W.D. Texas",
+        "level": "",
+        "case_types": [],
+        "system": "federal",
+        "examples": [],
+        "court_url": "http://www.txwb.uscourts.gov/",
+        "type": "bankruptcy",
+        "id": "txwb",
         "location": "Texas"
     },
     {
