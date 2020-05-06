@@ -2470,12 +2470,12 @@
                 "end": null
             }
         ],
-        "name": "Court on the Judiciary of Delaware.",
+        "name": "Court on the Judiciary of Delaware",
         "level": "",
         "case_types": [],
         "system": "state",
         "examples": [],
-        "court_url": "http://courts.delaware.gov/\u200e",
+        "court_url": "http://courts.delaware.gov/",
         "type": "appellate",
         "id": "deljudct",
         "location": "Delaware"
@@ -2838,7 +2838,7 @@
                 "end": null
             }
         ],
-        "name": "United States Bankruptcy Court, S.D. Florida.",
+        "name": "United States Bankruptcy Court, Southern District Florida",
         "level": "",
         "case_types": [],
         "system": "federal",
@@ -4900,7 +4900,7 @@
                 "end": null
             }
         ],
-        "name": "District Court, E.D. Louisiana.",
+        "name":"United States District Court Eastern District Of Lousiana",
         "level": "",
         "case_types": [],
         "system": "federal",
@@ -12678,7 +12678,7 @@
                 "end": null
             }
         ],
-        "name": "Mohegan Gaming Disputes Ct. of App.",
+        "name": "Mohegan Gaming Disputes Court of Appeals",
         "level": "ljc",
         "jurisdiction": "C.T.",
         "appeal_to": null,
@@ -13066,7 +13066,7 @@
                 "end": null
             }
         ],
-        "name": "Tunica-Biloxi Tribal Ct.",
+        "name": "Tunica-Biloxi Tribal Court",
         "level": "ljc",
         "jurisdiction": "L.A.",
         "appeal_to": null,
@@ -15230,7 +15230,7 @@
                 "end": "1874-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Ala.",
+        "name": "U.S. Circuit Court for the District of Alabama",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15252,7 +15252,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Mid. Ala.",
+        "name": "U.S. Circuit Court for the District of Middle Alabama",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15275,7 +15275,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Ala.",
+        "name": "U.S. Circuit Court for the District of Northern Alabama",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15294,7 +15294,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Ala.",
+        "name": "U.S. Circuit Court for the District of Southern Alabama",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15318,7 +15318,7 @@
                 "end": "1851-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Ark.",
+        "name": "U.S. Circuit Court for the District of Arkansas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15340,7 +15340,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Ark.",
+        "name": "U.S. Circuit Court for the District of Eastern Arkansas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15362,7 +15362,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Ark.",
+        "name": "U.S. Circuit Court for the District of Western Arkansas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15383,7 +15383,7 @@
                 "end": "1836-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Terr. of Ark.",
+        "name": "U.S. Circuit Court for the District of Territory of Arkansas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15405,7 +15405,7 @@
                 "end": "1863-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Cal.",
+        "name": "U.S. Circuit Court for the District of California",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15427,7 +15427,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Cal.",
+        "name": "U.S. Circuit Court for the District of Northern California",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15446,7 +15446,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Cal.",
+        "name": "U.S. Circuit Court for the District of Southern California",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15468,7 +15468,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of South Carolina.",
+        "name": "U.S. Circuit Court for the District of South Carolina",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15489,7 +15489,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Colorado.",
+        "name": "U.S. Circuit Court for the District of Colorado",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15511,7 +15511,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Dist. of Columbia",
+        "name": "U.S. Circuit Court for the District of District of Columbia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15533,7 +15533,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Connecticut.",
+        "name": "U.S. Circuit Court for the District of Connecticut",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15554,7 +15554,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of North Dakota.",
+        "name": "U.S. Circuit Court for the District of North Dakota",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15576,7 +15576,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of South Dakota.",
+        "name": "U.S. Circuit Court for the District of South Dakota",
         "active": false,
         "level": "iac",
         "system": "federal",
@@ -15601,7 +15601,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Delaware.",
+        "name": "U.S. Circuit Court for the District of Delaware",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15623,7 +15623,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Fla.",
+        "name": "U.S. Circuit Court for the District of Northern Florida",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15645,7 +15645,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Fla.",
+        "name": "U.S. Circuit Court for the District of Southern Florida",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15666,7 +15666,7 @@
                 "end": "1848-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Ga.",
+        "name": "U.S. Circuit Court for the District of Georgia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15685,7 +15685,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Ga.",
+        "name": "U.S. Circuit Court for the District of Northern Georgia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15704,7 +15704,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Ga.",
+        "name": "U.S. Circuit Court for the District of Southern Georgia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15723,7 +15723,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of New Hampshire.",
+        "name": "U.S. Circuit Court for the District of New Hampshire",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15745,7 +15745,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Idaho.",
+        "name": "U.S. Circuit Court for the District of Idaho",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15764,7 +15764,7 @@
                 "end": "1855-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Ill.",
+        "name": "U.S. Circuit Court for the District of Illinois",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15786,7 +15786,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Ill.",
+        "name": "U.S. Circuit Court for the District of Eastern Illinois",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15805,7 +15805,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Ill.",
+        "name": "U.S. Circuit Court for the District of Northern Illnois",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15826,7 +15826,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Ill.",
+        "name": "U.S. Circuit Court for the District of Southern Illnois",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15847,7 +15847,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Indiana.",
+        "name": "U.S. Circuit Court for the District of Indiana",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15870,7 +15870,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Iowa",
+        "name": "U.S. Circuit Court for the District of Northern Iowa",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15893,7 +15893,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Iowa",
+        "name": "U.S. Circuit Court for the District of Southern Iowa",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15914,7 +15914,7 @@
                 "end": "1882-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Iowa.",
+        "name": "U.S. Circuit Court for the District of Iowa",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15936,7 +15936,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Rhode Island.",
+        "name": "U.S. Circuit Court for the District of Rhode Island",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15958,7 +15958,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of New Jersey.",
+        "name": "U.S. Circuit Court for the District of New Jersey",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -15981,7 +15981,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Kansas.",
+        "name": "U.S. Circuit Court for the District of Kansas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16002,7 +16002,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Ky.",
+        "name": "U.S. Circuit Court for the District of Eastern Kentucky",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16021,7 +16021,7 @@
                 "end": "1901-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Ky.",
+        "name": "U.S. Circuit Court for the District of Kentucky",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16040,7 +16040,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Ky.",
+        "name": "U.S. Circuit Court for the District of Western Kentucky",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16059,7 +16059,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. La.",
+        "name": "U.S. Circuit Court for the District of Eastern Louisiana",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16100,7 +16100,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Louisiana",
+        "name": "U.S. Circuit Court for the District of Western Louisiana",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16142,7 +16142,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Maryland.",
+        "name": "U.S. Circuit Court for the District of Maryland",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16165,7 +16165,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Massachusetts.",
+        "name": "U.S. Circuit Court for the District of Massachusetts",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16188,7 +16188,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Mich.",
+        "name": "U.S. Circuit Court for the District of Eastern Michigan",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16210,7 +16210,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Michigan.",
+        "name": "U.S. Circuit Court for the District of Western Michigan",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16231,7 +16231,7 @@
                 "end": "1862-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Michigan.",
+        "name": "U.S. Circuit Court for the District of Michigan",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16250,7 +16250,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Minnesota.",
+        "name": "U.S. Circuit Court for the District of Minnesota",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16271,7 +16271,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Mississippi",
+        "name": "U.S. Circuit Court for the District of Northern Mississippi",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16290,7 +16290,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Mississippi",
+        "name": "U.S. Circuit Court for the District of Southern Mississippi",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16313,7 +16313,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Missouri",
+        "name": "U.S. Circuit Court for the District of Eastern Missouri",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16354,7 +16354,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Mo.",
+        "name": "U.S. Circuit Court for the District of Western Missouri",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16373,7 +16373,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Montana.",
+        "name": "U.S. Circuit Court for the District of Montana",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16392,7 +16392,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. N.C.",
+        "name": "U.S. Circuit Court for the District of Eastern North Carolina",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16553,7 +16553,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. N.C.",
+        "name": "U.S. Circuit Court for the District of Western North Carolina",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16576,7 +16576,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Nebraska.",
+        "name": "U.S. Circuit Court for the District of Nebraska",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16595,7 +16595,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Nevada.",
+        "name": "U.S. Circuit Court for the District of Nevada",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16614,7 +16614,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Ohio",
+        "name": "U.S. Circuit Court for the District of Northern Ohio",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16636,7 +16636,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Ohio",
+        "name": "U.S. Circuit Court for the District of Southern Ohio",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16659,7 +16659,7 @@
                 "end": "1855-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Ohio.",
+        "name": "U.S. Circuit Court for the District of Ohio",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16680,7 +16680,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Okla.",
+        "name": "U.S. Circuit Court for the District of Eastern Oklahoma",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16702,7 +16702,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Okla.",
+        "name": "U.S. Circuit Court for the District of Western Oklahoma",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16724,7 +16724,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Oregon.",
+        "name": "U.S. Circuit Court for the District of Oregon",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16745,7 +16745,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Pa.",
+        "name": "U.S. Circuit Court for the District of Eastern Pennsylvania",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16764,7 +16764,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Mid. Pennsylvania",
+        "name": "U.S. Circuit Court for the District of Middle Pennsylvania",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16809,7 +16809,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Pa.",
+        "name": "U.S. Circuit Court for the District of Western Pennsylvania",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16832,7 +16832,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Tennessee",
+        "name": "U.S. Circuit Court for the District of Eastern Tennessee",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16854,7 +16854,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Mid. Tenn.",
+        "name": "U.S. Circuit Court for the District of Middle Tennessee",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16895,7 +16895,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Tennessee",
+        "name": "U.S. Circuit Court for the District of Western Tennessee",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16940,7 +16940,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Texas",
+        "name": "U.S. Circuit Court for the District of Eastern Texas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16959,7 +16959,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. Texas",
+        "name": "U.S. Circuit Court for the District of Northern Texas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16978,7 +16978,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. Texas",
+        "name": "U.S. Circuit Court for the District of Southern Texas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -16997,7 +16997,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Tex.",
+        "name": "U.S. Circuit Court for the District of Western Texas",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17016,7 +17016,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Utah.",
+        "name": "U.S. Circuit Court for the District of Utah",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17058,7 +17058,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Va.",
+        "name": "U.S. Circuit Court for the District of Eastern Virginia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17099,7 +17099,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of N. West Virginia",
+        "name": "U.S. Circuit Court for the District of Northern West Virginia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17118,7 +17118,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of S. West Virginia",
+        "name": "U.S. Circuit Court for the District of Southern West Virginia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17137,7 +17137,7 @@
                 "end": "1901-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of West Va.",
+        "name": "U.S. Circuit Court for the District of West Virginia",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17156,7 +17156,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Vermont.",
+        "name": "U.S. Circuit Court for the District of Vermont",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17178,7 +17178,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Washington",
+        "name": "U.S. Circuit Court for the District of Eastern Washington",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17197,7 +17197,7 @@
                 "end": "1905-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Wash.",
+        "name": "U.S. Circuit Court for the District of Washington",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17218,7 +17218,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Wash.",
+        "name": "U.S. Circuit Court for the District of Western Washington",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17239,7 +17239,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of E. Wisconsin",
+        "name": "U.S. Circuit Court for the District of Eastern Wisconsin",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17261,7 +17261,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of W. Wis.",
+        "name": "U.S. Circuit Court for the District of Western Wisconsin",
         "active": false,
         "level": "iac",
         "case_types": [],
@@ -17305,7 +17305,7 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Wyoming.",
+        "name": "U.S. Circuit Court for the District of Wyoming",
         "active": false,
         "level": "iac",
         "case_types": [],
