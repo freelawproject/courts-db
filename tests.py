@@ -65,7 +65,7 @@ class DataTest(TestCase):
     def test_one_example(self):
         """Can we extract the correct court id from string and date?"""
 
-        court_id = "mntaxct"
+        court_id = "mntax"
         court = [x for x in self.courts if x["id"] == court_id][0]
 
         for example in court["examples"]:
