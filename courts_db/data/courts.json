@@ -630,6 +630,52 @@
         "id": "akb",
         "location": "Alaska"
     },
+  {
+        "regex": [
+            "High Court of American Samoa"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "High Court of American Samoa",
+        "level": "colr",
+        "case_types": [],
+        "jurisdiction": "American Samoa",
+        "system": "state",
+        "locations": 1,
+        "examples": [
+            "High Court of American Samoa"
+        ],
+        "type": "appellate",
+        "id": "amsamoa",
+        "location": "Guam"
+    },
+  {
+        "regex": [
+            "American Samoa District Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "American Samoa District Court",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "American Samoa",
+        "system": "state",
+        "locations": 1,
+        "examples": [
+            "American Samoa District Court"
+        ],
+        "type": "trial",
+        "id": "amsamoatc",
+        "location": "American Samoa"
+    },
     {
         "regex": [
             "${usdc} Arizona",
@@ -10346,7 +10392,7 @@
             "United States District Court For The Western District Of Tennesseee"
         ],
         "court_url": "http://www.tnwd.uscourts.gov/",
-        "type": "appellate",
+        "type": "trial",
         "id": "tnwd",
         "location": "Tennessee"
     },
@@ -10367,7 +10413,7 @@
         "system": "federal",
         "examples": [],
         "court_url": "http://www.uscourts.gov/",
-        "type": "appellate",
+        "type": "trial",
         "id": "tennessed",
         "location": "Tennessee"
     },
@@ -15545,27 +15591,6 @@
         "id": "circtdel",
         "examples": []
     },
-  {
-        "regex": [
-          "Circuit Court D Florida"
-        ],
-        "name_abbreviation": "Fla. Cir. Ct",
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "U.S. Circuit Court for the District of Florida",
-        "active": false,
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "location": "Florida",
-        "type": "appellate",
-        "id": "circtfla",
-        "examples": []
-    },
     {
         "regex": [
           "Circuit Court N D Florida"
@@ -16181,8 +16206,8 @@
         "name_abbreviation": "Mich. Cir. Ct",
         "dates": [
             {
-                "start": null,
-                "end": null
+                "start": "1837-01-01",
+                "end": "1862-12-31"
             }
         ],
         "name": "U.S. Circuit Court for the District of Michigan.",
