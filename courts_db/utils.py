@@ -61,11 +61,10 @@ def gather_regexes(courts):
 
     :param courts: The court DB
     :type courts: list
-    :param bankruptcy: Whether to include bankruptcy courts in the final
-    mapping.
-    :type bankruptcy: bool
-    :return: A list of two-tuples, with tuple[0] being a compiled regex and
-    tuple[1] being the court ID.
+    :return: A list of tuples, with tuple[0] being a compiled regex,
+    tuple[1] being the court ID, tuple[2] being the court name, and tuple[3]
+    being the court type. Example: (<_sre.SRE_Pattern object>, u’ala’,
+    u’Supreme Court of Alabama’, u’appellate’)
     :rtype: list
     """
     regexes = []
