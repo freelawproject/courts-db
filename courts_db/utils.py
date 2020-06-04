@@ -55,16 +55,16 @@ def load_courts_db():
     return json.loads(s)
 
 
-def gather_regexes(courts, court_id=None):
+def gather_regexes(courts):
+
     """Create a variable mapping regexes to court IDs
 
     :param courts: The court DB
     :type courts: list
-    :param bankruptcy: Whether to include bankruptcy courts in the final
-    mapping.
-    :type bankruptcy: bool
-    :return: A list of two-tuples, with tuple[0] being a compiled regex and
-    tuple[1] being the court ID.
+    :return: A list of tuples, with tuple[0] being a compiled regex,
+    tuple[1] being the court ID, tuple[2] being the court name, and tuple[3]
+    being the court type. Example: (<_sre.SRE_Pattern object>, u'ala',
+    'Supreme Court of Alabama', 'appellate')
     :rtype: list
     """
     regexes = []
@@ -72,8 +72,5 @@ def gather_regexes(courts, court_id=None):
         for reg_str in court["regex"]:
             regex = re.compile(reg_str, (re.I | re.U))
             regexes.append((regex, court["id"], court["name"], court["type"]))
-
-    if court_id is not None:
-        regexes = list(filter(lambda x: x[1] == court_id, regexes))
 
     return regexes
