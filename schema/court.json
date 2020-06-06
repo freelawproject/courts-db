@@ -1,0 +1,160 @@
+{
+    "$id": "https://free.law/schema/court.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Courts-DB",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "regex": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "format": "regex"
+                },
+                "description": "Array of regular expressions to identify citations to opinions by this court"
+            },
+            "name_abbreviation": {
+                "type": ["string", "null"],
+                "description": "court name abbreviations"
+            },
+            "dates": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/courtdates"
+                },
+                "description": "Start and end dates for this court"
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the court, e.g., \"United States District Court for the Northern District of California\""
+            },
+            "level": {
+                "type": ["string", "null"],
+                "enum": [
+                    null,
+                    "colr",
+                    "gjc",
+                    "iac",
+                    "ljc",
+                    "trial"
+                ],
+                "description": "code defining where court is in system structure, ex. COLR (Court of Last Resort), IAC (Intermediate Appellate Court), GJC (General Jurisdiction Court), LJC (Limited Jurisdiction Court)"
+            },
+            "federal_circuit": {
+                "type": "integer",
+                "description": "Number of the federal circuit to which the court belongs"
+            },
+            "notes": {
+                "type": ["string", "null"],
+                "description": "Notes about this court"
+            },
+            "jurisdiction": {
+                "type": ["string", "null"],
+                "description": "TODO"
+            },
+            "appeal_to": {
+                "type": ["string", "null"],
+                "description": "CourtListener ID of the court to which appeals from this court go"
+            },
+            "divisions": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "Names of divisions of the court, e.g., San Jose"
+            },
+            "reorganization_dates": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "description": "Dates on which the court was reorganized"
+            },
+            "location": {
+                "type": "string",
+                "description": "refers to the physical location of the main court"
+            },
+            "court_url": {
+                "type": "string",
+                "format": "uri",
+                "description": "URL of the court's website"
+            },
+            "active": {
+                "type": "boolean",
+                "description": "Whether the court is active or not"
+            },
+            "type": {
+                "type": ["string", "null"],
+                "enum": [
+                    null,
+                    "ag",
+                    "appellate",
+                    "bankruptcy",
+                    "international",
+                    "special",
+                    "trial"
+                ],
+                "description": "What kind of court it is, e.g., \"appellate\""
+            },
+            "id": {
+                "type": "string",
+                "description": "CourtListener Court Identifier"
+            },
+            "system": {
+                "type": "string",
+                "enum": [
+                    "extraterritorial",
+                    "federal",
+                    "international",
+                    "local",
+                    "special",
+                    "state",
+                    "tribal"
+                ],
+                "description": "To which system the court belongs. Must be either \"federal\", \"state\", or \"special\"."
+            },
+            "locations": {
+                "type": "number",
+                "description": "Number of locations"
+            },
+            "examples": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "Examples that should match the patterns in regex"
+            },
+            "case_types": {
+                "type": "array",
+                "items": {},
+                "description": "TODO"
+            }
+        },
+        "required": [
+            "regex"
+        ]
+    },
+    "definitions": {
+        "courtdates": {
+            "type": "object",
+            "properties": {
+                "start": {
+                    "type": ["string", "null"],
+                    "format": "date",
+                    "description": "the date the court was established, if known"
+                },
+                "end": {
+                    "type": ["string", "null"],
+                    "format": "date",
+                    "description": "the date the court was abolished, if known"
+                }
+            },
+            "required": [
+                "start",
+                "end"
+            ]
+        }
+    }
+}
