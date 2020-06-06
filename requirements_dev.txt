@@ -3,3 +3,5 @@
 twine
 # For making distributions
 wheel
+# To validate the courts data against the JSON Schema
+jsonschema
