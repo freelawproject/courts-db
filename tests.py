@@ -17,6 +17,15 @@ import json
 import os
 import re
 
+import jsonschema
+
+
+def open_courts():
+    return open(os.path.join(db_root, "data", "courts.json"), "r")
+
+def open_schema():
+    return open(os.path.join(".", "schema", "court.json"), "r")
+
 
 class DataTest(TestCase):
     """Data tests are used to confirm our data set is functional."""
@@ -86,7 +95,7 @@ class DataTest(TestCase):
         count = 1
 
         try:
-            with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
+            with open_courts() as f:
                 data = f.read()
                 json.loads(data)
                 print("JSON is correct. %s", "√√√")
@@ -109,6 +118,32 @@ class DataTest(TestCase):
             id = re.search(id_regex, court).group("id")
             name = re.search(name_regex, court).group("name")
             print("Issues with (%s) -- %s" % (id, name))
+
+
+class ValidationTest(TestCase):
+    """Validation makes sure the database conforms to its JSON Schema."""
+
+    try:
+        courts = load_courts_db()
+    except:
+        print("JSON FAIL")
+        pass
+
+    def test_validates(self):
+        with open_courts() as f:
+            data = f.read()
+            instance = json.loads(data)
+            with open_schema() as schema_f:
+                schema_data = schema_f.read()
+                schema = json.loads(schema_data)
+
+                try:
+                    jsonschema.validate(
+                        instance=instance,
+                        schema=schema,
+                    )
+                except jsonschema.ValidationError as e:
+                    self.fail("JSON failed validation against schema")
 
 
 if __name__ == "__main__":
