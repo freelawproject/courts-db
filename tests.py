@@ -143,7 +143,7 @@ class ValidationTest(TestCase):
                 instance=instance, schema=schema,
             )
         except jsonschema.ValidationError as exc:
-            self.fail(f"JSON failed validation against schema: {exc}")
+            self.fail("JSON failed validation against schema: " + str(exc))
 
 
 if __name__ == "__main__":
