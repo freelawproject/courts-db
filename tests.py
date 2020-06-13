@@ -131,19 +131,19 @@ class ValidationTest(TestCase):
         pass
 
     def test_validates(self):
+        instance, schema = None, None
         with open_courts() as f:
             data = f.read()
             instance = json.loads(data)
-            with open_schema() as schema_f:
-                schema_data = schema_f.read()
-                schema = json.loads(schema_data)
-
-                try:
-                    jsonschema.validate(
-                        instance=instance, schema=schema,
-                    )
-                except jsonschema.ValidationError as e:
-                    self.fail("JSON failed validation against schema")
+        with open_schema() as schema_f:
+            schema_data = schema_f.read()
+            schema = json.loads(schema_data)
+        try:
+            jsonschema.validate(
+                instance=instance, schema=schema,
+            )
+        except jsonschema.ValidationError as exc:
+            self.fail(f"JSON failed validation against schema: {exc}")
 
 
 if __name__ == "__main__":
