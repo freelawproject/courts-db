@@ -23,6 +23,7 @@ import jsonschema
 def open_courts():
     return open(os.path.join(db_root, "data", "courts.json"), "r")
 
+
 def open_schema():
     return open(os.path.join(".", "schema", "court.json"), "r")
 
@@ -139,8 +140,7 @@ class ValidationTest(TestCase):
 
                 try:
                     jsonschema.validate(
-                        instance=instance,
-                        schema=schema,
+                        instance=instance, schema=schema,
                     )
                 except jsonschema.ValidationError as e:
                     self.fail("JSON failed validation against schema")
