@@ -26,7 +26,7 @@ except Exception as e:
 
 
 def find_court_ids_by_name(court_str):
-    """ Find court IDs with our courts-db regex list
+    """Find court IDs with our courts-db regex list
 
     :param court_str: test string
     :return: List of Court IDs matched
@@ -45,7 +45,7 @@ def find_court_ids_by_name(court_str):
 
 
 def filter_courts_by_date(matches, date_found, strict_dates=False):
-    """ Filter IDs by date found.
+    """Filter IDs by date found.
 
     Strict dates should be more useful as dates are filled in.
     :param matches:
@@ -94,7 +94,7 @@ def filter_courts_by_bankruptcy(matches, bankruptcy):
 
 
 def find_court_by_id(court_id):
-    """ Find court dictionary using court id code.
+    """Find court dictionary using court id code.
 
     :param court_id: Court code used by Courtlistener.com
     :return: Return dictionary court object from db
