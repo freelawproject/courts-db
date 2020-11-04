@@ -249,7 +249,7 @@
         "name": "Alabama Court of the Judiciary",
         "level": "ljc",
         "jurisdiction": "A.L.",
-        "appeal_to": "colr",
+        "appeal_to": "ala",
         "locations": 1,
         "examples": [],
         "system": "state",
@@ -438,7 +438,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Alabama",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -460,7 +460,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Alabama",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -621,7 +621,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Alaska",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -826,7 +826,7 @@
             }
         ],
         "name": "Arizona Tax Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -847,7 +847,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Arizona",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -943,9 +943,7 @@
         "level": "gjc",
         "federal_circuit": 8,
         "notes": "Subdivided/Extinct",
-        "jurisdiction": [
-            "A.R."
-        ],
+        "jurisdiction": "A.R.",
         "system": "federal",
         "examples": [],
         "active": false,
@@ -1084,7 +1082,7 @@
             }
         ],
         "name": "Arkansas Workers' Compensation Commission",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -1104,7 +1102,7 @@
             }
         ],
         "name": "Arkansas Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -1124,7 +1122,7 @@
             }
         ],
         "name": "Opinion Of The Ohio Attorney General",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -1143,7 +1141,7 @@
             }
         ],
         "name": "Ohio State Racing Commission",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "special",
         "examples": [
@@ -1164,13 +1162,13 @@
             }
         ],
         "name": "Ohio Civil Rights Commission",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
           "Ohio Civil Rights Commission"
         ],
-        "type": "",
+        "type": null,
         "id": "ohiocivright",
         "location": "Ohio"
     },
@@ -1186,7 +1184,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Arkansas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -1207,7 +1205,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Arkansas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -1232,9 +1230,7 @@
         "level": "gjc",
         "federal_circuit": 9,
         "notes": "Subdivided/Extinct",
-        "jurisdiction": [
-            "C.A."
-        ],
+        "jurisdiction": "C.A.",
         "appeal_to": "ca9",
         "system": "federal",
         "examples": [],
@@ -1271,9 +1267,7 @@
         "level": "gjc",
         "federal_circuit": 9,
         "notes": "Subdivided/Extinct",
-        "jurisdiction": [
-            "C.A."
-        ],
+        "jurisdiction": "C.A.",
         "appeal_to": "ca9",
         "divisions": [
             "San Diego",
@@ -1316,9 +1310,7 @@
         "level": "gjc",
         "federal_circuit": 9,
         "notes": "Subdivided",
-        "jurisdiction": [
-            "C.A."
-        ],
+        "jurisdiction": "C.A.",
         "appeal_to": "ca9",
         "divisions": [
             "Oakland",
@@ -1350,9 +1342,7 @@
         "name": "United States District Court for the Eastern District of California",
         "level": "gjc",
         "federal_circuit": 9,
-        "jurisdiction": [
-            "C.A."
-        ],
+        "jurisdiction": "C.A.",
         "appeal_to": "ca9",
         "divisions": [
             "Fresno",
@@ -1392,9 +1382,7 @@
         "name": "United States District Court for the Central District of California",
         "level": "gjc",
         "federal_circuit": 9,
-        "jurisdiction": [
-            "C.A."
-        ],
+        "jurisdiction": "C.A.",
         "appeal_to": "ca9",
         "divisions": [
             "Eastern",
@@ -1556,7 +1544,7 @@
         "case_types": [],
         "notes": "Not sure if Appellate Department is unique from Appellate Division",
         "jurisdiction": "C.A.",
-        "system": "iac",
+        "system": "state",
         "locations": 58,
         "division_type": "county",
         "examples": [
@@ -1586,7 +1574,7 @@
             }
         ],
         "name": "California Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -1607,7 +1595,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, C.D. California",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -1628,7 +1616,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. California",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -1650,7 +1638,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. California",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -1671,7 +1659,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. California",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -1917,7 +1905,7 @@
             }
         ],
         "name": "Colorado Industrial Claim Appeals Office",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -1937,7 +1925,7 @@
             }
         ],
         "name": "Colorado Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -1959,7 +1947,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Colorado",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -2163,7 +2151,7 @@
             }
         ],
         "name": "Connecticut Compensation Review Board",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -2184,7 +2172,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Connecticut",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -2369,7 +2357,7 @@
         ],
         "name": "Delaware Court of Common Pleas",
         "level": "ljc",
-        "case_types": null,
+        "case_types": [],
         "notes": null,
         "jurisdiction": "D.E.",
         "system": "state",
@@ -2450,7 +2438,7 @@
         "level": "ljc",
         "notes": null,
         "jurisdiction": "D.E.",
-        "appeal_to": "Court of Common Pleas",
+        "appeal_to": "delctcompl",
         "locations": 6,
         "location": "Delaware",
         "active": true,
@@ -2471,7 +2459,7 @@
             }
         ],
         "name": "Court on the Judiciary of Delaware",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -2491,7 +2479,7 @@
             }
         ],
         "name": "Orphans Court Of Delaware",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -2514,7 +2502,7 @@
             }
         ],
         "name": "Delaware Family Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -2537,7 +2525,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Delaware",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -2808,7 +2796,7 @@
             }
         ],
         "name": "Florida Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -2839,7 +2827,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, Southern District Florida",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -2867,7 +2855,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, M.D. Florida",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -2888,7 +2876,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Florida",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3247,7 +3235,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Georgia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3269,7 +3257,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, M.D. Georgia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -3292,7 +3280,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Georgia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3363,7 +3351,7 @@
             }
         ],
         "name": "District Court, D. Guam",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3383,7 +3371,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Guam",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3592,7 +3580,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Hawaii",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3797,7 +3785,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Idaho",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3886,7 +3874,7 @@
             }
         ],
         "name": "District Court, S.D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3907,7 +3895,7 @@
             }
         ],
         "name": "District Court, E.D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -3930,7 +3918,7 @@
             }
         ],
         "name": "District Court, C.D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -3951,7 +3939,7 @@
             }
         ],
         "name": "District Court, D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4015,7 +4003,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4036,7 +4024,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, C.D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4057,7 +4045,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Illinois",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4078,7 +4066,7 @@
             }
         ],
         "name": "Indiana Tax Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4120,7 +4108,7 @@
             }
         ],
         "name": "Indiana Court of Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4142,7 +4130,7 @@
             }
         ],
         "name": "Indiana Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4163,7 +4151,7 @@
             }
         ],
         "name": "District Court, D. Indiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4188,7 +4176,7 @@
             }
         ],
         "name": "District Court, N.D. Indiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4212,7 +4200,7 @@
             }
         ],
         "name": "District Court, S.D. Indiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4233,7 +4221,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Indiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4255,7 +4243,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Indiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4300,7 +4288,7 @@
             }
         ],
         "name": "Supreme Court of Iowa",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4322,7 +4310,7 @@
             }
         ],
         "name": "Court of Appeals of Iowa",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4343,7 +4331,7 @@
             }
         ],
         "name": "District Court, S.D. Iowa",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4368,7 +4356,7 @@
             }
         ],
         "name": "District Court, N.D. Iowa",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4392,7 +4380,7 @@
             }
         ],
         "name": "District Court, D. Iowa",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4433,7 +4421,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Iowa",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4455,7 +4443,7 @@
             }
         ],
         "name": "Court of Appeals of Kansas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4506,7 +4494,7 @@
             }
         ],
         "name": "District Court, D. Kansas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4529,7 +4517,7 @@
             }
         ],
         "name": "Kansas Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4550,7 +4538,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Kansas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4602,7 +4590,7 @@
             }
         ],
         "name": "Court of Appeals of Kentucky",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4623,7 +4611,7 @@
             }
         ],
         "name": "Kentucky Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4647,7 +4635,7 @@
             }
         ],
         "name": "District Court, W.D. Kentucky",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4672,7 +4660,7 @@
             }
         ],
         "name": "District Court, E.D. Kentucky",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4719,7 +4707,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Kentucky",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4740,7 +4728,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Kentucky",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4800,7 +4788,7 @@
             }
         ],
         "name": "Supreme Court of Louisiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4832,7 +4820,7 @@
             }
         ],
         "name": "Louisiana Court of Appeal",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -4876,7 +4864,7 @@
             }
         ],
         "name": "District Court, M.D. Louisiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4901,7 +4889,7 @@
             }
         ],
         "name":"United States District Court Eastern District Of Lousiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -4947,7 +4935,7 @@
             }
         ],
         "name": "Louisiana Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -4968,7 +4956,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, M.D. Louisiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -4990,7 +4978,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Louisiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5011,7 +4999,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Louisiana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5034,7 +5022,7 @@
             }
         ],
         "name": "Supreme Judicial Court of Maine",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5055,7 +5043,7 @@
             }
         ],
         "name": "Superior Court Of Maine",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -5082,7 +5070,7 @@
             }
         ],
         "name": "District Court, D. Maine",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5103,7 +5091,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Maine",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5126,7 +5114,7 @@
             }
         ],
         "name": "Court of Special Appeals of Maryland",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5153,7 +5141,7 @@
             }
         ],
         "name": "Court of Appeals of Maryland",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5177,7 +5165,7 @@
             }
         ],
         "name": "District Court, D. Maryland",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -5199,7 +5187,7 @@
             }
         ],
         "name": "Maryland Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5248,7 +5236,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Maryland",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5270,7 +5258,7 @@
             }
         ],
         "name": "Massachusetts Superior Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -5300,7 +5288,7 @@
             }
         ],
         "name": "Massachusetts Appeals Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -5324,7 +5312,7 @@
             }
         ],
         "name": "Massachusetts Department of Industrial Accidents",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5366,7 +5354,7 @@
             }
         ],
         "name": "Massachusetts District Court, Appellate Division",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5418,7 +5406,7 @@
             }
         ],
         "name": "District Court, D. Massachusetts",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -5442,7 +5430,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Massachusetts",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5463,7 +5451,7 @@
             }
         ],
         "name": "Michigan Court of Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5484,7 +5472,7 @@
             }
         ],
         "name": "Michigan Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5507,7 +5495,7 @@
             }
         ],
         "name": "District Court, W.D. Michigan",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -5532,7 +5520,7 @@
             }
         ],
         "name": "District Court, E.D. Michigan",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5554,7 +5542,7 @@
             }
         ],
         "name": "District Court, D. Michigan",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5574,7 +5562,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Michigan",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5596,7 +5584,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Michigan",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5616,7 +5604,7 @@
             }
         ],
         "name": "Minnesota Tax Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -5637,7 +5625,7 @@
             }
         ],
         "name": "Minnesota District Courts",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -5662,7 +5650,7 @@
             }
         ],
         "name": "Court of Appeals of Minnesota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5684,7 +5672,7 @@
             }
         ],
         "name": "Supreme Court of Minnesota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5707,7 +5695,7 @@
             }
         ],
         "name": "District Court, D. Minnesota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -5731,7 +5719,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Minnesota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5751,7 +5739,7 @@
             }
         ],
         "name": "Court of Appeals of Mississippi",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5776,7 +5764,7 @@
             }
         ],
         "name": "Mississippi Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -5799,7 +5787,7 @@
             }
         ],
         "name": "District Court, N.D. Mississippi",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -5826,7 +5814,7 @@
             }
         ],
         "name": "District Court, D. Mississippi",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5846,7 +5834,7 @@
             }
         ],
         "name": "District Court, S.D. Mississippi",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5867,7 +5855,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Mississippi",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5889,7 +5877,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Mississippi",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -5943,7 +5931,7 @@
             }
         ],
         "name": "Supreme Court of Missouri",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -5969,7 +5957,7 @@
             }
         ],
         "name": "District Court, E.D. Missouri",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -5994,7 +5982,7 @@
             }
         ],
         "name": "District Court, D. Missouri",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6017,7 +6005,7 @@
             }
         ],
         "name": "District Court, W.D. Missouri",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6037,7 +6025,7 @@
             }
         ],
         "name": "Missouri Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -6059,7 +6047,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Missouri",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6080,7 +6068,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Missouri",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6128,7 +6116,7 @@
             }
         ],
         "name": "Montana Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6153,7 +6141,7 @@
             }
         ],
         "name": "Judicial District Court Of Montana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6176,7 +6164,7 @@
             }
         ],
         "name": "Montana Tax Appeal Board",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -6199,7 +6187,7 @@
             }
         ],
         "name": "District Court, D. Montana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6220,7 +6208,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Montana",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6241,7 +6229,7 @@
             }
         ],
         "name": "Nebraska Court of Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -6264,7 +6252,7 @@
             }
         ],
         "name": "Nebraska Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -6308,7 +6296,7 @@
             }
         ],
         "name": "Nebraska Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -6329,7 +6317,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Nebraska",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6393,7 +6381,7 @@
             }
         ],
         "name": "District Court, D. Nevada",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6414,7 +6402,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Nevada",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6434,7 +6422,7 @@
             }
         ],
         "name": "Supreme Court of New Hampshire",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "id": "nh",
@@ -6480,7 +6468,7 @@
             }
         ],
         "name": "District Court, D. New Hampshire",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6500,7 +6488,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. New Hampshire",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6562,7 +6550,7 @@
             }
         ],
         "name": "New Jersey Superior Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6606,7 +6594,7 @@
             }
         ],
         "name": "Supreme Court of New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6630,7 +6618,7 @@
             }
         ],
         "name": "Orphans Court Of New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6654,7 +6642,7 @@
             }
         ],
         "name": "Municipal Courts of New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6680,7 +6668,7 @@
             }
         ],
         "name": "Court Of Common Pleas Of New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6702,7 +6690,7 @@
             }
         ],
         "name": "Court Of Oyer And Terminer Of New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6724,7 +6712,7 @@
             }
         ],
         "name": "Court Of Oyer And Terminer of Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6757,7 +6745,7 @@
             }
         ],
         "name": "New Jersey Tax Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -6784,7 +6772,7 @@
             }
         ],
         "name": "District Court, D. New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6806,7 +6794,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. New Jersey",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6827,7 +6815,7 @@
             }
         ],
         "name": "New Mexico Court of Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -6873,7 +6861,7 @@
             }
         ],
         "name": "District Court, D. New Mexico",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6895,7 +6883,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. New Mexico",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -6924,7 +6912,7 @@
             }
         ],
         "name": "The Four Departments of the Appellate Division",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -7181,7 +7169,7 @@
             }
         ],
         "name": "New York Court of Chancery",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -7229,7 +7217,7 @@
             }
         ],
         "name": "The New York Court of Admiralty",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -7246,7 +7234,7 @@
             }
         ],
         "name": "The New York Probate Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -7266,7 +7254,7 @@
             }
         ],
         "name": "The New York Circuit Courts",
-        "level": "",
+        "level": null,
         "case_types": [],
         "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
         "system": "state",
@@ -7291,7 +7279,7 @@
             }
         ],
         "name": "The Marine Court of the City of New York, 1807-1883",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -7357,8 +7345,8 @@
             }
         ],
         "name": "Court Of Oyer And Terminer New York",
-        "level": "",
-        "case_types": "",
+        "level": null,
+        "case_types": [],
         "system": "state",
         "examples": [
             "Court Of Oyer And Terminer Steuben County New York",
@@ -7382,8 +7370,8 @@
             }
         ],
         "name": "Court On The Judiciary Of New York",
-        "level": "",
-        "case_types": "",
+        "level": null,
+        "case_types": [],
         "system": "state",
         "examples": [],
         "type": "trial",
@@ -7863,7 +7851,7 @@
             }
         ],
         "name": "New York Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -7953,7 +7941,7 @@
             }
         ],
         "name": "District Court, E.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -7994,7 +7982,7 @@
             }
         ],
         "name": "District Court, N.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8015,7 +8003,7 @@
             }
         ],
         "name": "District Court, W.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8053,7 +8041,7 @@
             }
         ],
         "name": "District Court, S.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -8082,7 +8070,7 @@
             }
         ],
         "name": "New York Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8103,7 +8091,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8124,7 +8112,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8147,7 +8135,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8169,7 +8157,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. New York",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8276,7 +8264,7 @@
             }
         ],
         "name": "Superior Court of North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -8299,7 +8287,7 @@
             }
         ],
         "name": "Court of Appeals of North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8319,7 +8307,7 @@
             }
         ],
         "name": "North Carolina Industrial Commission",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8341,7 +8329,7 @@
             }
         ],
         "name": "District Court, W.D. North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8364,7 +8352,7 @@
             }
         ],
         "name": "District Court, M.D. North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8408,7 +8396,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8429,7 +8417,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, M.D. North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8456,7 +8444,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. North Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -8481,7 +8469,7 @@
             }
         ],
         "name": "North Dakota Court of Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8502,7 +8490,7 @@
             }
         ],
         "name": "North Dakota Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -8547,7 +8535,7 @@
             }
         ],
         "name": "District Court, D. North Dakota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8568,7 +8556,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. North Dakota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8593,7 +8581,7 @@
             }
         ],
         "name": "Ohio Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8751,7 +8739,7 @@
             }
         ],
         "name": "Ohio Court of Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8772,7 +8760,7 @@
             }
         ],
         "name": "Ohio Court of Claims",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -8820,7 +8808,7 @@
             }
         ],
         "name": "Court Of Common Pleas Of Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -8878,7 +8866,7 @@
             }
         ],
         "name": "Municipal Courts of Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -8908,7 +8896,7 @@
             }
         ],
         "name": "District Court, N.D. Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -8934,7 +8922,7 @@
             }
         ],
         "name": "District Court, D. Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -8955,7 +8943,7 @@
         }
       ],
       "name": "Ohio Public Utilities Commission",
-      "level": "",
+      "level": null,
       "case_types": [],
       "system": "state",
       "examples": [
@@ -8977,7 +8965,7 @@
         }
       ],
       "name": "New Jersey Public Utilities Commission",
-      "level": "",
+      "level": null,
       "case_types": [],
       "system": "state",
       "examples": [
@@ -9026,7 +9014,7 @@
             }
         ],
         "name": "District Court, S.D. Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9052,7 +9040,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9101,7 +9089,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Ohio",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9195,7 +9183,7 @@
             }
         ],
         "name": "Supreme Court of Oklahoma",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -9246,7 +9234,7 @@
             }
         ],
         "name": "Oklahoma Judicial Ethics Advisory Panel",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9266,7 +9254,7 @@
             }
         ],
         "name": "Court on the Judiciary of Oklahoma",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9289,7 +9277,7 @@
             }
         ],
         "name": "United States District Court, Oklahoma Western",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9311,7 +9299,7 @@
             }
         ],
         "name": "United States District Court, Oklahoma Northern",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9331,7 +9319,7 @@
             }
         ],
         "name": "United States District Court, Oklahoma Eastern",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9351,7 +9339,7 @@
             }
         ],
         "name": "Oklahoma Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9372,7 +9360,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Oklahoma",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9393,7 +9381,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Oklahoma",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9414,7 +9402,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Oklahoma",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9436,7 +9424,7 @@
             }
         ],
         "name": "Court of Appeals of Oregon",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9456,7 +9444,7 @@
             }
         ],
         "name": "Oregon Tax Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9499,7 +9487,7 @@
             }
         ],
         "name": "Oregon Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9522,7 +9510,7 @@
             }
         ],
         "name": "District Court, D. Oregon",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9545,7 +9533,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Oregon",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9598,7 +9586,7 @@
             }
         ],
         "name": "Court of Judicial Discipline of Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9688,7 +9676,7 @@
             }
         ],
         "name": "Commonwealth Court of Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -9722,7 +9710,7 @@
             }
         ],
         "name": "District Court, E.D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9755,7 +9743,7 @@
             }
         ],
         "name": "District Court, D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "notes": "Removed working ${d} ${pa} because it worked too well and catches other courts",
         "system": "federal",
@@ -9781,7 +9769,7 @@
             }
         ],
         "name": "District Court, M.D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9807,7 +9795,7 @@
             }
         ],
         "name": "District Court, W.D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -9831,7 +9819,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9852,7 +9840,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, M.D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9873,7 +9861,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Pennsylvania",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -9956,7 +9944,7 @@
             }
         ],
         "name": "Supreme Court of Rhode Island",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -9980,7 +9968,7 @@
             }
         ],
         "name": "Superior Court of Rhode Island",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10003,7 +9991,7 @@
             }
         ],
         "name": "District Court, D. Rhode Island",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10025,7 +10013,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Rhode Island",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10120,7 +10108,7 @@
           }
         ],
         "name": "District Court, D. South Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -10147,7 +10135,7 @@
             }
         ],
         "name": "District Court, E.D. South Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10167,7 +10155,7 @@
             }
         ],
         "name": "District Court, W.D. South Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10189,7 +10177,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. South Carolina",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10244,7 +10232,7 @@
             }
         ],
         "name": "District Court, D. South Dakota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -10267,7 +10255,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. South Dakota",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10289,7 +10277,7 @@
             }
         ],
         "name": "Tennessee Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10310,7 +10298,7 @@
             }
         ],
         "name": "Court of Criminal Appeals of Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10335,7 +10323,7 @@
             }
         ],
         "name": "Court of Appeals of Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -10360,7 +10348,7 @@
         }
       ],
       "name": "Tennessee Special Workers Compensation Appeals Panel",
-      "level": "",
+      "level": null,
       "case_types": [],
       "system": "state",
       "examples": [
@@ -10384,7 +10372,7 @@
             }
         ],
         "name": "District Court, W.D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -10408,7 +10396,7 @@
             }
         ],
         "name": "District Court, D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10430,7 +10418,7 @@
             }
         ],
         "name": "District Court, M.D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10453,7 +10441,7 @@
             }
         ],
         "name": "District Court, E.D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -10477,7 +10465,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10500,7 +10488,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, M.D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10521,7 +10509,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10542,7 +10530,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Tennessee",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10563,7 +10551,7 @@
             }
         ],
         "name": "Texas Special Court of Review",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10586,7 +10574,7 @@
             }
         ],
         "name": "Texas Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10607,7 +10595,7 @@
             }
         ],
         "name": "Texas Judicial Panel on Multidistrict Litigation",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10644,7 +10632,7 @@
             }
         ],
         "name": "Court of Civil Appeals of Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -10674,7 +10662,7 @@
             }
         ],
         "name": "Court of Criminal Appeals of Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10695,7 +10683,7 @@
             }
         ],
         "name": "District Court, D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10719,7 +10707,7 @@
             }
         ],
         "name": "District Court, W.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -10741,7 +10729,7 @@
             }
         ],
         "name": "District Court, E.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10765,7 +10753,7 @@
             }
         ],
         "name": "District Court, S.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -10791,7 +10779,7 @@
             }
         ],
         "name": "District Court, N.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10811,7 +10799,7 @@
             }
         ],
         "name": "Texas Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10833,7 +10821,7 @@
             }
         ],
         "name": "United States District Court, W.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10854,7 +10842,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10876,7 +10864,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10897,7 +10885,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, N.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10918,7 +10906,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Texas",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -10939,7 +10927,7 @@
             }
         ],
         "name": "Court of Appeals of Utah",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10962,7 +10950,7 @@
             }
         ],
         "name": "Utah Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -10988,7 +10976,7 @@
             }
         ],
         "name": "District Court, D. Utah",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11013,7 +11001,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Utah",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11078,7 +11066,7 @@
             }
         ],
         "name": "District Court, D. Vermont",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "id": "vtd",
@@ -11103,7 +11091,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Vermont",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11157,7 +11145,7 @@
             }
         ],
         "name": "Court of Appeals of Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -11261,7 +11249,7 @@
             }
         ],
         "name": "Supreme Court of Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -11288,7 +11276,7 @@
             }
         ],
         "name": "District Court, E.D. Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11316,7 +11304,7 @@
             }
         ],
         "name": "District Court, W.D. Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11341,7 +11329,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11363,7 +11351,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11413,7 +11401,7 @@
             }
         ],
         "name": "Court of Appeals of Washington",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [
@@ -11473,7 +11461,7 @@
             }
         ],
         "name": "District Court, W.D. Washington",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11524,7 +11512,7 @@
             }
         ],
         "name": "Washington Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -11545,7 +11533,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Washington",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11566,7 +11554,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Washington",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11590,7 +11578,7 @@
             }
         ],
         "name": "Supreme Court of the United States",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "id": "scotus",
@@ -11619,7 +11607,7 @@
             }
         ],
         "name": "West Virginia Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -11642,7 +11630,7 @@
             }
         ],
         "name": "District Court, S.D. West Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11666,7 +11654,7 @@
             }
         ],
         "name": "District Court, D. West Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11688,7 +11676,7 @@
             }
         ],
         "name": "District Court, N.D. West Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11712,7 +11700,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, S.D. West Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11733,7 +11721,7 @@
             }
         ],
         "name": "United States District Court, N.D. West Virginia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11757,7 +11745,7 @@
             }
         ],
         "name": "Court of Appeals of Wisconsin",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -11779,7 +11767,7 @@
             }
         ],
         "name": "Wisconsin Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -11799,7 +11787,7 @@
             }
         ],
         "name": "Wisconsin Municipal Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "locations": 236,
@@ -11844,7 +11832,7 @@
             }
         ],
         "name": "District Court, E.D. Wisconsin",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -11867,7 +11855,7 @@
             }
         ],
         "name": "District Court, D. Wisconsin",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11887,7 +11875,7 @@
             }
         ],
         "name": "District Court, W.D. Wisconsin",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11907,7 +11895,7 @@
             }
         ],
         "name": "Wisconsin Attorney General Reports",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -11928,7 +11916,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, E.D. Wisconsin",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11949,7 +11937,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, W.D. Wisconsin",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -11971,7 +11959,7 @@
             }
         ],
         "name": "Wyoming Supreme Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -12000,9 +11988,7 @@
         "level": "iac",
         "federal_circuit": 11,
         "jurisdiction": "ca11",
-        "appeal_to": [
-            "scotus"
-        ],
+        "appeal_to": "scotus",
         "lower_courts": [
             "almd",
             "alnd",
@@ -13309,7 +13295,7 @@
             }
         ],
         "name": "District Court, District of Columbia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13331,7 +13317,7 @@
             }
         ],
         "name": "District Court, Orleans",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13352,7 +13338,7 @@
             }
         ],
         "name": "U.S. Commerce Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13382,7 +13368,7 @@
             }
         ],
         "name": "District Court, Virgin Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13403,7 +13389,7 @@
             }
         ],
         "name": "Municipal Court Of The Virgin Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -13423,7 +13409,7 @@
             }
         ],
         "name": "Police Court Of The Virgin Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -13443,7 +13429,7 @@
             }
         ],
         "name": "Superior Court Of The Virgin Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -13464,7 +13450,7 @@
             }
         ],
         "name": "Supreme Court Of The Virgin Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -13491,14 +13477,14 @@
             }
         ],
         "name": "United States Court of Claims",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
             "United States Court Of Calims"
         ],
         "court_url": "http://www.fjc.gov/history/home.nsf/page/courts_special_coc.html",
-        "type": "",
+        "type": null,
         "id": "cc",
         "location": "Washignton D.C."
     },
@@ -13519,7 +13505,7 @@
             }
         ],
         "name": "Court of Customs and Patent Appeals",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13541,7 +13527,7 @@
             }
         ],
         "name": "United States Tax Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13563,7 +13549,7 @@
             }
         ],
         "name": "United States Court of International Trade",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13586,7 +13572,7 @@
             }
         ],
         "name": "District Court, D. Puerto Rico",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13608,7 +13594,7 @@
             }
         ],
         "name": "District Court, Canal Zone",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13634,7 +13620,7 @@
             }
         ],
         "name": "United States Customs Court",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -13717,7 +13703,7 @@
             }
         ],
         "name": "Court of Appeals for the Ninth Circuit",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13751,7 +13737,7 @@
             }
         ],
         "name": "Court of Appeals for the Eighth Circuit",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13785,7 +13771,7 @@
             }
         ],
         "name": "Court of Appeals for the Third Circuit",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13821,7 +13807,7 @@
             }
         ],
         "name": "Court of Appeals for the Second Circuit",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13851,7 +13837,7 @@
             }
         ],
         "name": "Court of Appeals for the First Circuit",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -13910,7 +13896,7 @@
             }
         ],
         "name": "Court of Appeals for the Sixth Circuit",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [
@@ -14088,7 +14074,7 @@
             }
         ],
         "name": "Court of King's Bench",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "international",
         "examples": [],
@@ -14108,7 +14094,7 @@
             }
         ],
         "name": "Supreme Court Of The Phillippine Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "international",
         "examples": [],
@@ -14129,7 +14115,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, District of Columbia",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14151,7 +14137,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Virgin Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14172,7 +14158,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Puerto Rico",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14192,7 +14178,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, Northern Mariana Islands",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14213,7 +14199,7 @@
             }
         ],
         "name": "United States Bankruptcy Court, D. Wyoming",
-        "level": "",
+        "level": null,
         "case_types": [],
         "system": "federal",
         "examples": [],
@@ -14232,7 +14218,7 @@
                 "end": "1990-09-12"
             }
         ],
-        "name": " United States Court of Berlin",
+        "name": "United States Court of Berlin",
         "level": "trial",
         "case_types": [],
         "notes": "Convened only once, U.S. v. Tiede in 1979 see: https://en.wikipedia.org/wiki/United_States_Court_for_Berlin",
@@ -17440,7 +17426,7 @@
             }
         ],
         "name": "Decisions of the Federal Communications Commission",
-        "level": "",
+        "level": null,
         "jurisdiction": "D.C.",
         "appeal_to": null,
         "lower_courts": [],
