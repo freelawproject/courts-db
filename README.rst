@@ -25,7 +25,7 @@ You can feed in a courtlistener Court_ID or string to find a court.
 
         from courts_db import find_court, find_court_by_id
 
-        find_court_by_id(["mass"])
+        find_court_by_id("mass")
 
         returns:
         [{
