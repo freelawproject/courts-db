@@ -438,7 +438,7 @@
         "type": "trial",
         "id": "ald",
         "bankruptcy": null,
-        "citation_string": ""
+        "citation_string": "D. Ala."
     },
     {
         "regex": [
@@ -2774,7 +2774,7 @@
         "type": "trial",
         "id": "fld",
         "location": "Florida",
-        "citation_string": ""
+        "citation_string": "D. Fla."
     },
     {
         "regex": [
@@ -3093,7 +3093,7 @@
         "type": "trial",
         "id": "gamd",
         "location": "Georgia",
-        "citation_string": ""
+        "citation_string": "M.D. Ga."
     },
     {
         "regex": [
@@ -3119,7 +3119,7 @@
         "type": "trial",
         "id": "gad",
         "location": "Georgia",
-        "citation_string": ""
+        "citation_string": "D. Ga."
     },
     {
         "regex": [
@@ -4451,7 +4451,7 @@
         "type": "trial",
         "id": "iad",
         "location": "Iowa",
-        "citation_string": ""
+        "citation_string": "D. Iowa"
     },
     {
         "regex": [
@@ -4568,7 +4568,7 @@
         "type": "trial",
         "id": "iad",
         "location": "Iowa",
-        "citation_string": ""
+        "citation_string": "D. Iowa"
     },
     {
         "regex": [
@@ -4691,7 +4691,7 @@
         "type": "appellate",
         "id": "ksd",
         "location": "Kansas",
-        "citation_string": ""
+        "citation_string": "D. Kan."
     },
     {
         "regex": [
@@ -4764,7 +4764,7 @@
         "type": "trial",
         "id": "kyd",
         "location": "Kentucky",
-        "citation_string": ""
+        "citation_string": "D. Ky."
     },
     {
         "regex": [
@@ -4887,7 +4887,7 @@
         "type": "trial",
         "id": "kyd",
         "location": "Kentucky",
-        "citation_string": ""
+        "citation_string": "D. Ky."
     },
     {
         "regex": [
@@ -4967,7 +4967,7 @@
         "type": "trial",
         "id": "lad",
         "location": "Louisiana",
-        "citation_string": ""
+        "citation_string": "D. La."
     },
     {
         "regex": [
@@ -5735,7 +5735,7 @@
         "type": "appellate",
         "id": "miwd",
         "location": "Michigan",
-        "citation_string": ""
+        "citation_string": "W.D. Mich."
     },
     {
         "regex": [
@@ -5781,7 +5781,7 @@
         "type": "appellate",
         "id": "michd",
         "location": "Michigan",
-        "citation_string": ""
+        "citation_string": "D. Mich."
     },
     {
         "regex": [
@@ -6064,7 +6064,7 @@
         "type": "appellate",
         "id": "missd",
         "location": "Mississippi",
-        "citation_string": ""
+        "citation_string": "D. Miss."
     },
     {
         "regex": [
@@ -6239,7 +6239,7 @@
         "type": "appellate",
         "id": "mod",
         "location": "Missouri",
-        "citation_string": ""
+        "citation_string": "D. Mo."
     },
     {
         "regex": [
@@ -7409,7 +7409,7 @@
         "type": "trial",
         "id": "nyd",
         "location": "New York",
-        "citation_string": ""
+        "citation_string": "D. N.Y."
     },
     {
         "regex": [
@@ -8304,7 +8304,7 @@
         "type": "appellate",
         "id": "nynd",
         "location": "New York",
-        "citation_string": ""
+        "citation_string": "N.D.N.Y."
     },
     {
         "regex": [
@@ -8548,7 +8548,7 @@
         "type": "trial",
         "id": "ncd",
         "location": "North Carolina",
-        "citation_string": ""
+        "citation_string": "D.N.C."
     },
     {
         "regex": [
@@ -10768,7 +10768,7 @@
         "type": "trial",
         "id": "tennworkcompapp",
         "location": "Tennessee",
-        "citation_string": ""
+        "citation_string": "Tenn. Work. Comp. App. Bd."
     },
     {
         "regex": [
@@ -11114,7 +11114,7 @@
         "type": "appellate",
         "id": "texd",
         "location": "Texas",
-        "citation_string": ""
+        "citation_string": "D. Tex."
     },
     {
         "regex": [
@@ -11574,7 +11574,7 @@
         "type": "trial",
         "id": "vad",
         "location": "Virginia",
-        "citation_string": ""
+        "citation_string": "D. Va."
     },
     {
         "regex": [
@@ -11836,7 +11836,7 @@
         "type": "trial",
         "id": "washd",
         "location": "Washington",
-        "citation_string": ""
+        "citation_string": "D. Wash."
     },
     {
         "regex": [
@@ -12126,7 +12126,7 @@
         "type": "appellate",
         "id": "wvad",
         "location": "West Virginia",
-        "citation_string": ""
+        "citation_string": "D. W.Va."
     },
     {
         "regex": [
@@ -12313,7 +12313,7 @@
         "type": "appellate",
         "id": "wied",
         "location": "Wisconsin",
-        "citation_string": "D. Wis."
+        "citation_string": "E.D. Wis."
     },
     {
         "regex": [
@@ -12334,7 +12334,7 @@
         "type": "trial",
         "id": "wisd",
         "location": "Wisconsin",
-        "citation_string": ""
+        "citation_string": "D. Wis."
     },
     {
         "regex": [
@@ -13769,7 +13769,7 @@
         "type": "appellate",
         "id": "bta",
         "location": "Washington D.C.",
-        "citation_string": ""
+        "citation_string": "B.T.A."
     },
     {
         "regex": [
@@ -13805,7 +13805,7 @@
         "type": "appellate",
         "id": "dcd",
         "location": "Washington D.C.",
-        "citation_string": "D.C."
+        "citation_string": "D.D.C."
     },
     {
         "regex": [
@@ -13826,7 +13826,7 @@
         "type": "appellate",
         "id": "orld",
         "location": "Louisiana",
-        "citation_string": ""
+        "citation_string": "D. Orleans"
     },
     {
         "regex": [
@@ -15986,7 +15986,7 @@
         "type": "appellate",
         "id": "caca",
         "examples": [],
-        "citation_string": ""
+        "citation_string": "C. Cal."
     },
     {
         "regex": [
