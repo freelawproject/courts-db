@@ -25,7 +25,7 @@ You can feed in a courtlistener Court_ID or string to find a court.
 
         from courts_db import find_court, find_court_by_id
 
-        find_court_by_id(["mass"])
+        find_court_by_id("mass")
 
         returns:
         [{
@@ -54,7 +54,8 @@ You can feed in a courtlistener Court_ID or string to find a court.
             "court_url": "http://www.mass.gov/courts/sjc/",
             "type": "appellate",
             "id": "mass",
-            "location": "Massachusetts"
+            "location": "Massachusetts",
+            "citation_string": "Mass."
         }]
 
 
@@ -118,6 +119,7 @@ Fields
 9. :code:`level` ==> string; code defining where court is in system structure, ex. COLR (Court of Last Resort), IAC (Intermediate Appellate Court), GJC (General Jurisdiction Court), LJC (Limited Jurisdiction Court)
 10. :code:`location` ==> string; refers to the physical location of the main court
 11. :code:`type` ==> string; Identifies kind of cases handled (Trial, Appellate, Bankruptcy, AG)
+12. :code:`citation_string` ==> string; Identifies the string used in a citation to refer to the court
 
 Installation
 ============
