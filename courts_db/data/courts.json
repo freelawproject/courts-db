@@ -7388,7 +7388,7 @@
         "regex": [
             "^${d} ?(D)? ?New York",
             "${usdc} ${d} New York",
-            "District of New York"
+            "^District of New York"
         ],
         "dates": [
             {
