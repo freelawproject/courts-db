@@ -23,5 +23,5 @@ jobs:
     - name: Run tests
       run: |
         python tests.py DataTest
-        python tests.py JSONTest
+        python tests.py JsonTest
         python tests.py ExamplesTest
