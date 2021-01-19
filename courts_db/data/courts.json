@@ -7202,8 +7202,7 @@
         "system": "state",
         "examples": [
             "2nd 11th And 13th Judicial Districts",
-            "State Of New York Supreme Court County Of New York Appellate Division First Department Court Of Appeals",
-            "Supreme Court Of New York.*Depa"
+            "State Of New York Supreme Court County Of New York Appellate Division First Department Court Of Appeals"
         ],
         "court_url": "http://www.courts.state.ny.us/courts/appellatedivisions.shtml",
         "type": "appellate",
@@ -7787,12 +7786,11 @@
             "City Court City of Rochester",
             "City Court City of Rochester New York Monroe County",
             "City Court City of Hornell",
-            "Yonkers Court Of New York Special Sessions",
             "Municipal Court of the City of New York, Borough of Manhattan Fifth District Part",
             "Municipal Court of the City of Rochester New York",
             "Municipal Court of The City Of Rochester New York",
             "Municipal Court of The City Of Buffalo New York",
-            "Municipal Court of The City Of Syracuse New York"
+            "Municipal Court of The City Of Syracuse New York",
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-CITY.shtml",
         "type": "trial",
