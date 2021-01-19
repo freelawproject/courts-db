@@ -6,54 +6,21 @@ from __future__ import (
     unicode_literals,
 )
 
-from courts_db.utils import load_courts_db, db_root
-from courts_db.text_utils import strip_punc
-from courts_db import find_court
-from unittest import TestCase
-from io import open
-
-import unittest
 import json
 import os
 import re
+import unittest
+from io import open
+from json.decoder import JSONDecodeError
+from unittest import TestCase
+
+from courts_db import find_court
+from courts_db.text_utils import strip_punc
+from courts_db.utils import db_root, load_courts_db
 
 
 class DataTest(TestCase):
     """Data tests are used to confirm our data set is functional."""
-
-    try:
-        courts = load_courts_db()
-    except:
-        print("JSON FAIL")
-        pass
-
-    def test_all_examples(self):
-        for court in self.courts:
-            bank = False
-            try:
-                if court["type"] == "bankruptcy":
-                    bank = True
-
-                for example in court["examples"]:
-                    example = strip_punc(example)
-
-                    matches = find_court(court_str=example, bankruptcy=bank)
-
-                    results = list(set(matches))
-                    if len(results) == 1:
-                        if results == [court["id"]]:
-                            continue
-                    else:
-                        print(
-                            results,
-                            [court["id"]],
-                            "\txx\t",
-                            example,
-                            "\n",  # court['regex']
-                        )
-            except Exception as e:
-                print(str(e))
-                print("Fail at", court["name"])
 
     def test_unicode_handling(self):
         """Do we handle regex matching with accents or other non-ascii?"""
@@ -77,37 +44,61 @@ class DataTest(TestCase):
             )
             print("Success.", matches2[0], "<=>", court_id)
 
+
+class ExamplesTest(TestCase):
+    def setUp(self):
+        self.courts = load_courts_db()
+
+    def test_all_non_bankruptcy_examples(self):
+        for court in self.courts:
+            if court["type"] == "bankruptcy":
+                continue
+            for example in court["examples"]:
+                example = strip_punc(example)
+                matches = find_court(court_str=example, bankruptcy=False)
+                results = list(set(matches))
+                self.assertIn(court["id"], results, msg=f"Failed {example}")
+
+    def test_bankruptcy_examples(self):
+        for court in self.courts:
+            if court["type"] != "bankruptcy":
+                continue
+            for example in court["examples"]:
+                example = strip_punc(example)
+                matches = find_court(court_str=example, bankruptcy=True)
+                results = list(set(matches))
+                self.assertIn(court["id"], results, msg=f"Failed {example}")
+
+
+class JsonTest(TestCase):
+    def setUp(self) -> None:
+        self.name_regex = r'"name": "(?P<name>.*)",'
+        self.court_regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
+        self.id_regex = r'"id": ("(?P<id>.*)"|null)'
+
     def test_json(self):
         """Does our json load properly, and if not where are the issues"""
-
-        name_regex = r'"name": "(?P<name>.*)",'
-        court_regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
-        id_regex = r'"id": ("(?P<id>.*)"|null)'
-        count = 1
-
         try:
+            # Load entire json to shortcircuit testing
             with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
                 data = f.read()
                 json.loads(data)
-                print("JSON is correct. %s", "√√√")
                 return
-
-        except Exception as e:
-            print("error")
+        except JSONDecodeError as e:
+            print("Errors exist in the data structure")
             pass
 
-        matches = re.finditer(court_regex, data, re.MULTILINE)
+        matches = re.finditer(self.court_regex, data, re.MULTILINE)
         for match in enumerate(matches, start=1):
-
             court = match[1].group().strip(",")
             try:
+                # Load individual courts
                 j = json.loads(court)
                 continue
-            except:
+            except JSONDecodeError:
                 pass
-
-            id = re.search(id_regex, court).group("id")
-            name = re.search(name_regex, court).group("name")
+            id = re.search(self.id_regex, court).group("id")
+            name = re.search(self.name_regex, court).group("name")
             print("Issues with (%s) -- %s" % (id, name))
 
 
