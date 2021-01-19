@@ -19,7 +19,12 @@ from courts_db.text_utils import strip_punc
 from courts_db.utils import db_root, load_courts_db
 
 
-class DataTest(TestCase):
+class CourtsDBTestCase(TestCase):
+    def setUp(self):
+        self.courts = load_courts_db()
+
+
+class DataTest(CourtsDBTestCase):
     """Data tests are used to confirm our data set is functional."""
 
     def test_unicode_handling(self):
@@ -45,10 +50,7 @@ class DataTest(TestCase):
             print("Success.", matches2[0], "<=>", court_id)
 
 
-class ExamplesTest(TestCase):
-    def setUp(self):
-        self.courts = load_courts_db()
-
+class ExamplesTest(CourtsDBTestCase):
     def test_all_non_bankruptcy_examples(self):
         for court in self.courts:
             if court["type"] == "bankruptcy":
@@ -70,7 +72,7 @@ class ExamplesTest(TestCase):
                 self.assertIn(court["id"], results, msg=f"Failed {example}")
 
 
-class JsonTest(TestCase):
+class JsonTest(CourtsDBTestCase):
     def setUp(self) -> None:
         self.name_regex = r'"name": "(?P<name>.*)",'
         self.court_regex = r"(^\s{4}?{)((.*\n){1,100}?)(\s{4}?},)"
