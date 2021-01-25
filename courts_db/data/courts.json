@@ -4639,7 +4639,8 @@
     },
     {
         "regex": [
-            "Supreme Court ?of Kansas"
+            "Supreme Court ?of Kansas",
+            "Kansas Supreme Court"
         ],
         "dates": [
             {
@@ -4651,7 +4652,10 @@
         "level": "colr",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+          "Kansas Supreme Court",
+          "Supreme Court of Kansas"
+        ],
         "court_url": "http://www.kscourts.org/kansas-courts/supreme-court/",
         "type": "appellate",
         "id": "kan",
