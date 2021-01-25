@@ -6790,7 +6790,6 @@
             "Judicial District.* New Jersey",
             "District Court Of New Jersey",
             "District Court Of New Jersey Ocean County",
-            "District Court New Jersey",
             "District Court Of New Brunswick New Jersey",
             "District Court Of.* New Jersey",
             "Essex County Of New Jersey District Court",
@@ -6832,8 +6831,7 @@
             "Circuit Court Of New Jersey Essex County",
             "Circuit Court Of New Jersey Mercer County",
             "Circuit Court Of New Jersey Morris County",
-            "Essex County Juvenile Court New Jersey",
-            "Clifton District Court New Jersey"
+            "Essex County Juvenile Court New Jersey"
         ],
         "divisions": [
             "Family",
