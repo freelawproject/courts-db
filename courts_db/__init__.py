@@ -5,17 +5,20 @@ from __future__ import (
     unicode_literals,
 )
 
-from .utils import load_courts_db, gather_regexes, make_court_dictionary
-from courts_db.text_utils import strip_punc
-from string import Template, punctuation
-from glob import iglob
-from io import open
-
-from datetime import datetime
 import json
 import os
 import re
+from datetime import datetime
+from glob import iglob
+from io import open
+from string import Template, punctuation
+from typing import List, Optional, Tuple, Union
+
 import six
+
+from courts_db.text_utils import strip_punc
+
+from .utils import gather_regexes, load_courts_db, make_court_dictionary
 
 try:
     courts = load_courts_db()
