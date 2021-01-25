@@ -10158,7 +10158,10 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "United States District Court M D Pennsylvania"
+            "United States District Court M D Pennsylvania",
+            "Middle District of Pennsylvania",
+            "Middle Dist. of Pennsylvania",
+            "M.D. of Pennsylvania"
         ],
         "court_url": "http://www.pamd.uscourts.gov/",
         "type": "appellate",
