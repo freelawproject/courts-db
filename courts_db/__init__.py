@@ -28,7 +28,7 @@ except Exception as e:
     print(str(e))
 
 
-def find_court_ids_by_name(court_str):
+def find_court_ids_by_name(court_str: str, bankruptcy: bool) -> List[str]:
     """Find court IDs with our courts-db regex list
 
     :param court_str: test string
@@ -40,6 +40,13 @@ def find_court_ids_by_name(court_str):
 
     court_matches = set()
     for regex, court_id, court_name, court_type in regexes:
+        # Filter gathered regexes by bankruptcy flag.
+        if bankruptcy is True:
+            if court_type != "bankruptcy":
+                continue
+        elif bankruptcy is False:
+            if court_type == "bankruptcy":
+                continue
         match = re.search(regex, court_str)
         if match:
             court_matches.add(court_id)
@@ -118,7 +125,7 @@ def find_court(
     :return: List of court IDs if any
     """
     court_str = strip_punc(court_str)
-    matches = find_court_ids_by_name(court_str)
+    matches = find_court_ids_by_name(court_str, bankruptcy)
     if bankruptcy is not None:
         matches = filter_courts_by_bankruptcy(
             matches=matches, bankruptcy=bankruptcy
