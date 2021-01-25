@@ -7387,7 +7387,7 @@
         "regex": [
             "^${d} ?(D)? ?New York",
             "${usdc} ${d} New York",
-            "^District of New York"
+            "District of New York"
         ],
         "dates": [
             {
@@ -7403,7 +7403,8 @@
         "appeal_to": "ca2",
         "system": "federal",
         "examples": [
-            "District Court D New York"
+            "District Court D New York",
+            "Nathan District of New York"
         ],
         "type": "trial",
         "id": "nyd",
@@ -8366,7 +8367,8 @@
             "United States District Court Southern District Of N Y",
             "United States District Courthern District Of New York",
             "United States District Court Southern District Of New Youk",
-            "United States District Court For The Souther District Of New York"
+            "United States District Court For The Souther District Of New York",
+            "Southern District of New York"
         ],
         "court_url": "http://www.nysd.uscourts.gov/",
         "type": "trial",
