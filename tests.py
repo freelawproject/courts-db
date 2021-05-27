@@ -9,6 +9,7 @@ from __future__ import (
 import json
 import os
 import re
+import sys
 import unittest
 from io import open
 from json.decoder import JSONDecodeError
@@ -102,6 +103,19 @@ class JsonTest(CourtsDBTestCase):
             id = re.search(self.id_regex, court).group("id")
             name = re.search(self.name_regex, court).group("name")
             print("Issues with (%s) -- %s" % (id, name))
+
+
+class LazyLoadTest(TestCase):
+    def test_lazy_load(self):
+        """Each lazy attribute should only exist after it is first used."""
+        # reset courts_db module in case it was already loaded by another test
+        sys.modules.pop("courts_db")
+        import courts_db
+
+        for attr in ("courts", "court_dict", "regexes"):
+            self.assertNotIn(attr, dir(courts_db))
+            self.assertIsNotNone(getattr(courts_db, attr, None))
+            self.assertIn(attr, dir(courts_db))
 
 
 if __name__ == "__main__":
