@@ -5,14 +5,9 @@ from __future__ import (
     unicode_literals,
 )
 
-import json
-import os
 import re
 from datetime import datetime
-from glob import iglob
-from io import open
-from string import Template, punctuation
-from typing import List, Optional, Tuple, Union
+from typing import List
 
 import six
 
@@ -20,12 +15,37 @@ from courts_db.text_utils import strip_punc
 
 from .utils import gather_regexes, load_courts_db, make_court_dictionary
 
-try:
-    courts = load_courts_db()
-    court_dict = make_court_dictionary(courts)
-    regexes = gather_regexes(courts)
-except Exception as e:
-    print(str(e))
+
+__all__ = [
+    # lazy-loaded data structures:
+    "courts",
+    "court_dict",
+    "regexes",
+    # helper functions:
+    "find_court_ids_by_name",
+    "filter_courts_by_date",
+    "filter_courts_by_bankruptcy",
+    "find_court_by_id",
+    "find_court",
+]
+
+
+def __getattr__(name):
+    """Lazy load data structures from loaders module."""
+    if name == "courts":
+        value = load_courts_db()
+    elif name == "court_dict":
+        from . import courts
+
+        value = make_court_dictionary(courts)
+    elif name == "regexes":
+        from . import courts
+
+        value = gather_regexes(courts)
+    else:
+        raise AttributeError(f"module {__name__} has no attribute {name}")
+    globals()[name] = value
+    return value
 
 
 def find_court_ids_by_name(court_str: str, bankruptcy: bool) -> List[str]:
@@ -35,6 +55,8 @@ def find_court_ids_by_name(court_str: str, bankruptcy: bool) -> List[str]:
     :param bankruptcy: Are we searhing for a bankruptcy court
     :return: List of Court IDs matched
     """
+    from . import regexes
+
     assert (
         type(court_str) == six.text_type
     ), "court_str is not a text type, it's of type %s" % type(court_str)
@@ -76,6 +98,8 @@ def filter_courts_by_date(matches, date_found, strict_dates=False):
     null dates in courts-db
     :return: List of court IDs matched
     """
+    from . import courts
+
     assert (
         type(date_found) is datetime
     ), "date_found is not a date object, it's of type %s" % type(date_found)
@@ -107,6 +131,8 @@ def filter_courts_by_date(matches, date_found, strict_dates=False):
 
 
 def filter_courts_by_bankruptcy(matches, bankruptcy):
+    from . import courts
+
     results = [court for court in courts if court["id"] in matches]
     if bankruptcy:
         return [
@@ -121,6 +147,8 @@ def find_court_by_id(court_id):
     :param court_id: Court code used by Courtlistener.com
     :return: Return dictionary court object from db
     """
+    from . import courts
+
     return [court for court in courts if court["id"] == court_id]
 
 
