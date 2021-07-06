@@ -1536,6 +1536,7 @@
             "State of California District ${coa}",
             "California ${bw} Appellate District Division",
             "California District Court Of Appeal",
+            "District Court of Appeal of the State of California",
             "Court Of Appeal First District Division [1-8] California",
             "Court Of Appeal ${bw} District Division ${bw} California",
             "Court Of Appeal Fourth District Division [1-8]",
@@ -1622,6 +1623,7 @@
             "Appellate Division Superior Court Of California Stanislaus",
             "Appellate Division Superior Court Of California San Mateo",
             "Appellate Division Superior Court Of California Napa County",
+            "Appellate Division of the Superior Court of the State of California",
             "State Of California Appellate Department",
             "State Of California Appellate Department Of The Superior Court",
             "State Of California Appellate Department Superior Court",
@@ -2378,7 +2380,8 @@
             "Superior Court Of Delaware",
             "Superior Of Court Delaware New Castle",
             "Superior Of Delaware Kent",
-            "Superior Court Of The State Of Delaware"
+            "Superior Court Of The State Of Delaware",
+            "Delaware Superior Court"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2501,6 +2504,7 @@
         "regex": [
             "Court Of General Sessions Of The Peace And Jail Delivery Of Delaware",
             "Court Of General Sessions Of Delaware",
+            "Delaware Court of General Sessions",
             "Court Of Quarter Sessions.* Delaware",
             "Court Of General Sessions New Castle Delaware"
         ],
@@ -4002,7 +4006,8 @@
     },
     {
         "regex": [
-            "Court Of Claims Of Illinois"
+            "Court Of Claims Of Illinois",
+            "Illinois Court of Claims"
         ],
         "dates": [
             {
@@ -4775,7 +4780,8 @@
             "Court of Appeals?,? of ${ky}",
             "(State of )${ky},? Court of Appeals",
             "Court ?Appeals Of Kentucky",
-            "Court ?of Appeals Of Kentucky"
+            "Court ?of Appeals Of Kentucky",
+            "Kentucky Court of Appeals"
         ],
         "dates": [
             {
@@ -6000,6 +6006,7 @@
             "State of Mississippi ${coa}",
             "State of Mississippi ${sup}",
             "High Court of Errors and Appeals, Mississippi",
+            "High Court of Errors and Appeals of Mississippi",
             "Superior Court of Mississippi",
             "Supreme Court Of Mississippi"
         ],
@@ -6712,6 +6719,7 @@
     {
         "regex": [
             "Superior Court of New Hampshire",
+            "New Hampshire Superior Court",
             "Superior Court Of Judicature Of New Hampshire"
         ],
         "dates": [
@@ -6786,6 +6794,7 @@
             "Court Of Chancery Of New Jersey",
             "New Jersey Superior Court",
             "Court Chancery Of New Jersey",
+            "New Jersey Court of Chancery",
             "New Jersey Superior County Court",
             "New Jersey Essex County Court",
             "District Court Of.* County New Jersey",
@@ -7218,6 +7227,7 @@
             "Court Of General Sessions New York",
             "Court Of General Sessions Of New York",
             "Court Of General Sessions.* New York",
+            "New York Court of General Sessions",
             "Court Of New York New York County General Sessions"
         ],
         "dates": [
@@ -7335,7 +7345,8 @@
         "regex": [
             "Court Of Correction Of Errors Of New York",
             "Court For The Correction Of Errors New York",
-            "Court For The Correction Of Errors Of New York"
+            "Court For The Correction Of Errors Of New York",
+            "New York Court for the Correction of Errors"
         ],
         "dates": [
             {
@@ -7609,6 +7620,7 @@
             "Court Of New York Special Term Brooklyn County",
             "Supereme Court Of New York Special Term",
             "New York County CourtZ",
+            "New York County Court",
             "Criminal Court Bronx County",
             "County Court Of New York General Sessions",
             "County Court Of New York General Sessions New York County",
@@ -7694,7 +7706,10 @@
             "District Court New York County New York",
             "District Court Of Suffolk County Second District",
             "District Court Bronx County",
+            "Suffolk County Court",
+            "Suffolk County District Court",
             "Nassau District Court",
+            "Nassau County District Court",
             "Court Of New York Fourth District",
             "District Court Of Suffolk County Of New York First District",
             "State Of New York District Court Of Nassau County First District",
@@ -7733,6 +7748,7 @@
     {
         "regex": [
             "City of New York Municipal Court",
+            "New York City Municipal Court",
             "Municipal Court of the city of (${ny_cities}) New York",
             "City Court (City)? ?(of)? ?(${ny_cities})",
             "Municipal Term Court City Of New York Borough Of Manhattan",
@@ -7754,6 +7770,7 @@
             "Municipal Court.*New York",
             "City Court Of The City Of New York",
             "Brooklyn City Court",
+            "New York City Court",
             "City Court Of City Of New York",
             "City Court.* New York",
             "Court City Of New York Kings County",
@@ -7960,9 +7977,11 @@
             "Criminal Court? ?(of)? ?(City (of)?)?New York( New York County)?",
             "Criminal Court? ?(of)? ?City of New York (Kings|Bronx) County",
             "Court Of Special Sessions City Of New York",
+            "New York Court of Special Sessions",
             "Court Of Special Sessions New York",
             "Court Of Special Sessions.* New York",
             "Criminal Court City Of New York",
+            "New York City Criminal Court",
             "City Magistrates Court Of The City Of New York",
             "City Magistrate.* New York",
             "Court Of Special Sessions City Of Yonkers",
@@ -8110,6 +8129,7 @@
             "Court Of Appealsof New York",
             "Court Of Appeal S Of New York",
             "Commission Of Appeals Of New York",
+            "New York Commission of Appeals",
             "Court Op Appeals Of New York",
             "Ny Court Of Appeals"
         ],
@@ -8965,7 +8985,8 @@
             "Ohio Superior Court",
             "Superior Court Of Ohio",
             "Superior Court Of Cincinnati Ohio",
-            "State Of Ohio Cincinnati Superior"
+            "State Of Ohio Cincinnati Superior",
+            "Cincinnati Superior Court"
         ],
         "dates": [
             {
@@ -9021,7 +9042,8 @@
             "State Of Ohio ${bw} Circuit ${oh_counties} County",
             "State Of Ohio Circuit Court",
             "State Of Ohio Second Circuit Clarke County",
-            "State Of Ohio Circuit Court"
+            "State Of Ohio Circuit Court",
+            "Ohio Circuit Court"
         ],
         "dates": [
             {
@@ -9166,6 +9188,7 @@
             "Court Of Common Pleas Of Ohio Greene County",
             "Court Of Common Pleas Summit County",
             "Court Of Common Pleas Franklin County Ohio Civil Division",
+            "Franklin County Court of Common Pleas",
             "Ohio Common Pleas",
             "State Of Ohio Common Pleas Court",
             "Ohio Police Court"
@@ -9930,6 +9953,7 @@
             "Court Of Common Pleas.* Pennsylvania",
             "Common Pleas Court of Phila",
             "Common Pleas Of Philadelphia",
+            "Philadelphia County Court of Common Pleas",
             "Common Pleas.* ${pa}",
             "Common Pleas Court Of Lancaster County",
             "Pa Ct Of Common Pleas",
@@ -9949,7 +9973,8 @@
         "jurisdiction": "P.A.",
         "system": "state",
         "examples": [
-            "Common Pleas Court Of Chester County Pennsylvania"
+            "Common Pleas Court Of Chester County Pennsylvania",
+            "Chester County Court of Common Pleas"
         ],
         "type": null,
         "id": "pactcompl",
@@ -10281,7 +10306,8 @@
             "Tribunal Circu(í|i)to De Apelaciones",
             "Tribunal CircuíTo De Apelaciones",
             "Apelaciones De Puerto Rico",
-            "Estado Libre Asocian?do De Puerto Rico"
+            "Estado Libre Asocian?do De Puerto Rico",
+            "Puerto Rico Circuit Court of Appeals"
         ],
         "dates": [
             {
@@ -10990,7 +11016,8 @@
             "Supreme Court,? of Texas",
             "(State of )?Texas,? Supreme Court",
             "Commission of Appeals of Texas",
-            "Supreme Court Of Texes"
+            "Supreme Court Of Texes",
+            "Texas Commission of Appeals"
         ],
         "dates": [
             {
@@ -11037,14 +11064,14 @@
             "Court of Civil Appeals of (Beaumont, )?Texas",
             "Texas Court of Appeals Beaumont",
             "STATE OF TEXAS COURT OF CIVIL APPEALS",
-            "Texas Court Of Appeals",
+            "Texas Court [O|o]f Appeals",
             "State Of Texas First Court Of Civil Appeals",
             "State Of Texas Fourteenth Court Of Appeals",
             "The Texas Court Of Civil Appeals",
             "Tx Court Of Civil Appeals Houston 1St Dist",
             "Court Of Civil Appeal Of Texas",
             "Court Of Civil Appeals Second Supreme Judicial District Of Texas",
-            "Texas Court Of Civil Appeals",
+            "Texas Courts? Of Civil Appeals",
             "First Court Of Appeals.* Texas",
             "Supreme Judicial District Court Of Appeals Texas",
             "Court Of Appeals.* Texas",
@@ -11614,7 +11641,8 @@
             "Circuit Court Of Franklin County Virginia",
             "Circuit Court Of .* County Virginia",
             "Hustings Court Of The City Of Richmond Virginia",
-            "Circuit Court Of Westmoreland County Virgina"
+            "Circuit Court Of Westmoreland County Virgina",
+            "Virginia Circuit Court"
         ],
         "dates": [
             {
@@ -11633,6 +11661,7 @@
             "Circuit Court Of Shenandoah County Virginia",
             "Circuit Court Of Princess Anne County Virginia",
             "Circuit Court Of Richmond County Virginia",
+            "Richmond Circuit Court",
             "Hustings Court Of The City Of Richmond Virginia"
         ],
         "type": "trial",
@@ -13261,7 +13290,9 @@
         "citation_string": ""
     },
     {
-        "regex": [],
+        "regex": [
+            "Navajo Nation District Court"
+        ],
         "name_abbreviation": "Dist. Ct. of the Navajo Nation",
         "dates": [
             {
@@ -13284,7 +13315,9 @@
         "citation_string": ""
     },
     {
-        "regex": [],
+        "regex": [
+            "Navajo Nation Court of Appeals"
+        ],
         "name_abbreviation": "Navajo Ct. of App.",
         "dates": [
             {
@@ -13308,7 +13341,9 @@
         "citation_string": ""
     },
     {
-        "regex": [],
+        "regex": [
+            "Navajo Nation Supreme Court"
+        ],
         "name_abbreviation": "Navajo Nation Sup. Ct.",
         "dates": [
             {
@@ -15905,7 +15940,8 @@
     {
         "regex": [
             "Circuit Court E D Ark",
-            "Circuit Court ${ed} ${ar}"
+            "Circuit Court ${ed} ${ar}",
+            "United States Circuit Court for the Eastern District of Pennsylvania"
         ],
         "name_abbreviation": "E. Ark. Cir. Ct",
         "dates": [
@@ -16086,7 +16122,8 @@
     {
         "regex": [
             "Circuit Court D Dist D of Columbi",
-            "Circuit Court District Of Columbia"
+            "Circuit Court District Of Columbia",
+            "United States Circuit Court of the District of Columbia"
         ],
         "name_abbreviation": "Dist. of Columbia Cir. Ct",
         "dates": [
@@ -16747,7 +16784,8 @@
     },
     {
         "regex": [
-            "Circuit Court D Maine"
+            "Circuit Court D Maine",
+            "United States Circuit Court for the District of Maine"
         ],
         "name_abbreviation": "Maine. Cir. Ct",
         "dates": [
@@ -17296,7 +17334,8 @@
     {
         "regex": [
             "Circuit Court S D Ohio",
-            "Circuit Court W D Ohio S D"
+            "Circuit Court W D Ohio S D",
+            "United States Circuit Court for the Southern District of Ohio"
         ],
         "name_abbreviation": "S. Ohio Cir. Ct",
         "dates": [
@@ -17390,7 +17429,8 @@
     {
         "regex": [
             "Circuit Court D Oregon",
-            "Circuit Court District Of Oregon"
+            "Circuit Court District Of Oregon",
+            "United States Circuit Court for the District of Oregon"
         ],
         "name_abbreviation": "Oregon. Cir. Ct",
         "dates": [
@@ -17459,7 +17499,8 @@
             "Circuit Court D Pa",
             "Circuit Court D Pennsylvania",
             "Circuit Court Pennsylvania District",
-            "Circuit Court Pennsylvania"
+            "Circuit Court Pennsylvania",
+            "United States Circuit Court for the District of Pennsylvania"
         ],
         "name_abbreviation": "Pa. Cir. Ct",
         "dates": [
@@ -17867,7 +17908,8 @@
     },
     {
         "regex": [
-            "Circuit Court D Vermont"
+            "Circuit Court D Vermont",
+            "United States Circuit Court for the District of Vermont"
         ],
         "name_abbreviation": "Vermont. Cir. Ct",
         "dates": [
