@@ -9162,6 +9162,7 @@
             "Police Court Of.* Ohio",
             "Ohio Police Court",
             "Court Of Common Pleas Of Delaware County Ohio",
+            "Franklin County Court of Common Pleas",
             "Court Of Common Pleas Of Delaware County Probate Division State Of Ohio",
             "Probate Court of.* Ohio",
             "Probate Court Of Hamilton County",
@@ -9188,7 +9189,6 @@
             "Court Of Common Pleas Of Ohio Greene County",
             "Court Of Common Pleas Summit County",
             "Court Of Common Pleas Franklin County Ohio Civil Division",
-            "Franklin County Court of Common Pleas",
             "Ohio Common Pleas",
             "State Of Ohio Common Pleas Court",
             "Ohio Police Court"
@@ -9957,6 +9957,7 @@
             "Common Pleas.* ${pa}",
             "Common Pleas Court Of Lancaster County",
             "Pa Ct Of Common Pleas",
+            "Chester County Court of Common Pleas",
             "Common Pleas Court Of Philadelphia County Reported In Volume One Of The United States Reports",
             "Common Pleas Of Philadelphia Reported In Volume Two Of The United States Reports"
         ],
@@ -9973,8 +9974,7 @@
         "jurisdiction": "P.A.",
         "system": "state",
         "examples": [
-            "Common Pleas Court Of Chester County Pennsylvania",
-            "Chester County Court of Common Pleas"
+            "Common Pleas Court Of Chester County Pennsylvania"
         ],
         "type": null,
         "id": "pactcompl",
@@ -11642,6 +11642,7 @@
             "Circuit Court Of .* County Virginia",
             "Hustings Court Of The City Of Richmond Virginia",
             "Circuit Court Of Westmoreland County Virgina",
+            "Richmond Circuit Court",
             "Virginia Circuit Court"
         ],
         "dates": [
@@ -11661,7 +11662,6 @@
             "Circuit Court Of Shenandoah County Virginia",
             "Circuit Court Of Princess Anne County Virginia",
             "Circuit Court Of Richmond County Virginia",
-            "Richmond Circuit Court",
             "Hustings Court Of The City Of Richmond Virginia"
         ],
         "type": "trial",
