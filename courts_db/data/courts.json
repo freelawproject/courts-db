@@ -5975,7 +5975,9 @@
     },
     {
         "regex": [
-            "${coa} Mississippi"
+            "${coa} Mississippi",
+            "Mississippi ${coa}",
+            "(State of )?Mississippi ${coa}"
         ],
         "dates": [
             {
@@ -5984,10 +5986,12 @@
             }
         ],
         "name": "Court of Appeals of Mississippi",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+            "Mississippi Court of Appeals"
+        ],
         "court_url": "http://courts.ms.gov/appellate_courts/coa/coa.html",
         "type": "appellate",
         "id": "missctapp",
@@ -5997,7 +6001,6 @@
     {
         "regex": [
             "(State of) ?${sup} Mississippi",
-            "State of Mississippi ${coa}",
             "State of Mississippi ${sup}",
             "High Court of Errors and Appeals, Mississippi",
             "Superior Court of Mississippi",
