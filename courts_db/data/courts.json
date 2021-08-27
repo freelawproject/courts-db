@@ -4773,7 +4773,7 @@
     {
         "regex": [
             "Court of Appeals?,? of ${ky}",
-            "(State of )${ky},? Court of Appeals",
+            "(State of)? ?${ky},? Court of Appeals",
             "Court ?Appeals Of Kentucky",
             "Court ?of Appeals Of Kentucky"
         ],
@@ -4787,7 +4787,9 @@
         "level": "",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+            "Kentucky Court of Appeals"
+        ],
         "court_url": "http://courts.ky.gov/courts/coa/Pages/coa.aspx",
         "type": "appellate",
         "id": "kyctapp",
@@ -10683,7 +10685,7 @@
         "regex": [
             "${sup} Tennessee",
             "${sup} Errors and Appeals, Nashville",
-            "State of Tennessee Supreme Court"
+            "(State of)? ?Tennessee ${sup}"
         ],
         "dates": [
             {
@@ -10695,7 +10697,10 @@
         "level": "",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+            "Tennessee Supreme Court",
+            "Supreme Court of Tennessee"
+        ],
         "court_url": "https://www.tncourts.gov/courts/supreme-court",
         "type": "appellate",
         "id": "tenn",
@@ -10705,7 +10710,8 @@
     {
         "regex": [
             "Court of Criminal Appeals? (of) ?Tennessee",
-            "Court Of Criminal Appeals Tennessee"
+            "Court Of Criminal Appeals Tennessee",
+            "Tennessee Court of Criminal Appeals"
         ],
         "dates": [
             {
@@ -10714,10 +10720,12 @@
             }
         ],
         "name": "Court of Criminal Appeals of Tennessee",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "state",
-        "examples": [],
+        "examples": [
+            "Tennessee Court of Criminal Appeals"
+        ],
         "court_url": "http://www.tsc.state.tn.us/courts/court-criminal-appeals",
         "type": "appellate",
         "id": "tenncrimapp",
@@ -11036,6 +11044,7 @@
     },
     {
         "regex": [
+            "Texas Courts of Appeals",
             "Court of Appeals? of Texas",
             "Court of Civil Appeals of (Beaumont, )?Texas",
             "Texas Court of Appeals Beaumont",
@@ -11071,7 +11080,8 @@
             "Court Of Civil Appeals Second Supreme Judicial District Of Texas",
             "The First Court Of Appeals Houston Texas",
             "The First Court Of Appeals Texas",
-            "The First Supreme Judicial District Court Of Appeals Texas"
+            "The First Supreme Judicial District Court Of Appeals Texas",
+            "Texas Courts of Appeals"
         ],
         "court_url": "http://www.courts.state.tx.us/courts/coa.asp",
         "type": "appellate",
@@ -13997,7 +14007,7 @@
         "case_types": [],
         "system": "federal",
         "examples": [
-            "United States Court Of Calims"
+            "United States Court Of Claims"
         ],
         "court_url": "http://www.fjc.gov/history/home.nsf/page/courts_special_coc.html",
         "type": "",
