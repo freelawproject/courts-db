@@ -1762,7 +1762,7 @@
         "division_type": "county",
         "examples": [],
         "type": "trial",
-        "id": "colcntyct",
+        "id": "colctyct",
         "location": "Colorado",
         "citation_string": ""
     },
@@ -2896,7 +2896,7 @@
         "locations": 67,
         "examples": [],
         "type": "trial",
-        "id": "flacntyct",
+        "id": "flactyct",
         "location": "Florida",
         "citation_string": ""
     },
@@ -3003,6 +3003,4065 @@
         "id": "flnb",
         "location": "Florida",
         "citation_string": "Bankr. N.D. Fla."
+    },
+{
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Florida Judge's Courts",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Charlotte County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [
+            "Dade County Judge'?s'? Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Dade County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Dade County Judge's Court",
+            "Dade County Judges' Court"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Hamilton County Judges' Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Orange County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct4",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Lee County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct5",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Volusia County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct6",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Suwannee County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct7",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Lake County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct8",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Broward County Judges' Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct9",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Pinellas County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct10",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Monroe County Judge Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct11",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [
+            "Palm Beach County Judge\u2019s Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Palm Beach County Judge\u2019s Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct12",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Duval County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct13",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Sarasota County Judge's Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajudct14",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flajudct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Florida Small Claims Courts",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flasmclct",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Broward County Small Claims Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flasmclct1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flasmclct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Palm Beach County Small Claims Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flasmclct2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flasmclct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Dade County Small Claims Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flasmclct3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flasmclct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "St. Lucie County Small Claims Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flasmclct4",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flasmclct"
+    },
+    {
+        "regex": [
+            "Florida Public Utilities Commission",
+            "Railroad Public Utilities Commission",
+            "Florida Public Service Commission"
+        ],
+        "dates": [
+            {
+                "start": "1887-01-01",
+                "end": "1891-12-31"
+            },
+            {
+                "start": "1897-01-01",
+                "end": null
+            }
+        ],
+        "name": "Florida Railroad & Public Utilities Commission",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Railroad & Public Utilities Commission",
+            "Florida Public Utilities Commission",
+            "Florida Public Service Commission"
+        ],
+        "court_url": "",
+        "type": "",
+        "id": "flarrpubutil",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "(Florida)? ?Industrial Commission"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Industrial Commission",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Florida Industrial Commission"
+        ],
+        "court_url": "",
+        "type": "",
+        "id": "flaindcommn",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Real Estate Commission",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Florida Industrial Commission"
+        ],
+        "court_url": "",
+        "type": "",
+        "id": "flarealestcommn",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida First District Court of Appeal",
+        "level": "iac",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "fladistctapp1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "fladistctapp"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Second District Court of Appeal",
+        "level": "iac",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "fladistctapp2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "fladistctapp"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Third District Court of Appeal",
+        "level": "iac",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "fladistctapp3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "fladistctapp"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Fourth District Court of Appeal",
+        "level": "iac",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "fladistctapp4",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "fladistctapp"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Fifth District Court of Appeal",
+        "level": "iac",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "fladistctapp5",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "fladistctapp"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Palm Beach County Juvenile and Domestic Relations Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flamunict1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flamunict"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Florida's Civil and Criminal Court of Records",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Duval County Civil Court of Record"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Duval County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Duval County Civil Court of Record"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [
+            "Palm Beach County Criminal Court of Record"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Palm Beach County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Palm Beach County Criminal Court of Record"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [
+            "Pinellas County Civil Court of Record"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Pinellas County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Pinellas County Civil and Criminal Court of Record",
+            "Pinellas County Civil Court of Record"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [
+            "Escambia County Court of Record"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Escambia County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Escambia County Court of Record"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec4",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [
+            "Brevard County Court of Record"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Brevard County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Brevard County Court of Record"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec5",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [
+            "Dade County Civil Court( of Record)?"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Dade County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Dade County Civil Court of Record",
+            "Dade County Civil Court"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec6",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [
+            "Broward County Court Record"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Broward County Civil and Criminal Court of Record",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Broward County Court Record"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyctrec7",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyctrec"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Alachua County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Baker County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Bay County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Bradford County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct4",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Brevard County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct5",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Broward County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct6",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Calhoun County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct7",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Charlotte County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct8",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Citrus County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct9",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Clay County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct10",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Collier County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct11",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Columbia County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct12",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "De Soto County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct13",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Dixie County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct14",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Duval County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct15",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Escambia County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct16",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Flagler County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct17",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Franklin County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct18",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Gadsden County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct19",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Gilchrist County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct20",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Glades County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct21",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Gulf County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct22",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hamilton County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct23",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hardee County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct24",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hendry County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct25",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hernando County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct26",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Highlands County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct27",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hillsborough County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct28",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Holmes County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct29",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Indian River County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct30",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Jackson County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct31",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Jefferson County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct32",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lafayette County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct33",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lake County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct34",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lee County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct35",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Leon County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct36",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Levy County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct37",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Liberty County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct38",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Madison County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct39",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Manatee County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct40",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Marion County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct41",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Martin County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct42",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [
+            "Dade County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Miami-Dade County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Dade County Court",
+            "Miami-Dade County Court"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct43",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Monroe County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct44",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nassau County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct45",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Okaloosa County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct46",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Okeechobee County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct47",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Orange County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct48",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Osceola County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct49",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Palm Beach County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct50",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Pasco County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct51",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Pinellas County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Pinellas County Court"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct52",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Polk County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct53",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Putnam County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct54",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "St. Johns County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct55",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "St. Lucie County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct56",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Santa Rosa County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct57",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Sarasota County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct58",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Seminole County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct59",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Sumter County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct60",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Suwannee County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct61",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Taylor County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct62",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Union County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct63",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Volusia County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct64",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Wakulla County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct65",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Walton County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct66",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Washington County Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flactyct67",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flactyct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 1st Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Walton County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 1st Judicial Circuit of Florida, Walton County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct1wal",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct1"
+    },
+    {
+        "regex": [
+            "Okaloosa County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 1st Judicial Circuit of Florida, Okaloosa County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct1oka",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct1"
+    },
+    {
+        "regex": [
+            "Santa Rosa County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 1st Judicial Circuit of Florida, Santa Rosa County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct1san",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct1"
+    },
+    {
+        "regex": [
+            "Escambia County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 1st Judicial Circuit of Florida, Escambia County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct1esc",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct1"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida, Franklin County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2fra",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct2"
+    },
+    {
+        "regex": [
+            "Gadsden County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida, Gadsden County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2gad",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct2"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida, Jefferson County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2jef",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct2"
+    },
+    {
+        "regex": [
+            "Leon County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida, Leon County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2leo",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct2"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida, Liberty County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2lib",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct2"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 2nd Judicial Circuit of Florida, Wakulla County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct2wak",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct2"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Columbia County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Columbia County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3col",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Dixie County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3dix",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [
+            "Hamilton County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Hamilton County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3ham",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Lafayette County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3laf",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Madison County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3mad",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [
+            "Suwanee County Circuit Court",
+            "Suwannee County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Suwannee County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3suw",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 3rd Judicial Circuit of Florida, Taylor County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct3tay",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct3"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 4th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct4",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Clay County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 4th Judicial Circuit of Florida, Clay County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct4cla",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct4"
+    },
+    {
+        "regex": [
+            "Duval County Circ?uit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 4th Judicial Circuit of Florida, Duval County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct4duv",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct4"
+    },
+    {
+        "regex": [
+            "Nassau County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 4th Judicial Circuit of Florida, Nassau County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct4nas",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct4"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 5th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct5",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Citrus County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 5th Judicial Circuit of Florida, Citrus County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct5cit",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct5"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 5th Judicial Circuit of Florida, Hernando County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct5her",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct5"
+    },
+    {
+        "regex": [
+            "Lake County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 5th Judicial Circuit of Florida, Lake County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct5lak",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct5"
+    },
+    {
+        "regex": [
+            "Marion County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 5th Judicial Circuit of Florida, Marion County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct5mar",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct5"
+    },
+    {
+        "regex": [
+            "Sumter County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 5th Judicial Circuit of Florida, Sumter County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct5sum",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct5"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 6th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct6",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Pasco County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 6th Judicial Circuit of Florida, Pasco County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct6pas",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct6"
+    },
+    {
+        "regex": [
+            "Pinellas County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 6th Judicial Circuit of Florida, Pinellas County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct6pin",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct6"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 7th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct7",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Flagler County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 7th Judicial Circuit of Florida, Flagler County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct7fla",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct7"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 7th Judicial Circuit of Florida, Putnam County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct7put",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct7"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 7th Judicial Circuit of Florida, St. Johns County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct7stj",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct7"
+    },
+    {
+        "regex": [
+            "Volusia County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 7th Judicial Circuit of Florida, Volusia County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct7vol",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct7"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Alachua County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida, Alachua County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8ala",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct8"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida, Baker County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8bak",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct8"
+    },
+    {
+        "regex": [
+            "Bradford County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida, Bradford County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8bra",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct8"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida, Gilchrist County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8gil",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct8"
+    },
+    {
+        "regex": [
+            "Levy County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida, Levy County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8lev",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct8"
+    },
+    {
+        "regex": [
+            "Union County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 8th Judicial Circuit of Florida, Union County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct8uni",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct8"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 9th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct9",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Orange County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 9th Judicial Circuit of Florida, Orange County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct9ora",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct9"
+    },
+    {
+        "regex": [
+            "Osceola County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 9th Judicial Circuit of Florida, Osceola County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct9osc",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct9"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 10th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct10",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 10th Judicial Circuit of Florida, Hardee County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct10har",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct10"
+    },
+    {
+        "regex": [
+            "Highlands County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 10th Judicial Circuit of Florida, Highlands County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct10hig",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct10"
+    },
+    {
+        "regex": [
+            "Polk County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 10th Judicial Circuit of Florida, Polk County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct10pol",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct10"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 11th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct11",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Dade County Metropolitan Court",
+            "Dade County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 11th Judicial Circuit of Florida, Miami-Dade County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Dade County Metropolitan Court"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct11mia",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct11"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 12th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct12",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "De Soto County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 12th Judicial Circuit of Florida, De Soto County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct12des",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct12"
+    },
+    {
+        "regex": [
+            "Manatee County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 12th Judicial Circuit of Florida, Manatee County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct12man",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct12"
+    },
+    {
+        "regex": [
+            "Sarasota County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 12th Judicial Circuit of Florida, Sarasota County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct12sar",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct12"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 13th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct13",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Hillsborough County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 13th Judicial Circuit of Florida, Hillsborough County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct13hil",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct13"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Bay County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida, Bay County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14bay",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct14"
+    },
+    {
+        "regex": [
+            "Calhoun County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida, Calhoun County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14cal",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct14"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida, Gulf County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14gul",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct14"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida, Holmes County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14hol",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct14"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida, Jackson County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14jac",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct14"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 14th Judicial Circuit of Florida, Washington County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct14was",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct14"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 15th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct15",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Palm Beach County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 15th Judicial Circuit of Florida, Palm Beach County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Palm Beach County Circuit Court"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct15pal",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct15"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 16th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct16",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Mo|unroe County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 16th Judicial Circuit of Florida, Monroe County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct16mon",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct16"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 17th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct17",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Broward County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 17th Judicial Circuit of Florida, Broward County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct17bro",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct17"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 18th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct18",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Brevard County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 18th Judicial Circuit of Florida, Brevard County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct18bre",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct18"
+    },
+    {
+        "regex": [
+            "Seminole County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 18th Judicial Circuit of Florida, Seminole County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct18sem",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct18"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 19th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct19",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Indian River County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 19th Judicial Circuit of Florida, Indian River County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct19ind",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct19"
+    },
+    {
+        "regex": [
+            "Martin County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 19th Judicial Circuit of Florida, Martin County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct19mar",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct19"
+    },
+    {
+        "regex": [
+            "Okeechobee County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 19th Judicial Circuit of Florida, Okeechobee County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct19oke",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct19"
+    },
+    {
+        "regex": [
+            "St Lucie County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 19th Judicial Circuit of Florida, St. Lucie County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct19stl",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct19"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 20th Judicial Circuit of Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct20",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct"
+    },
+    {
+        "regex": [
+            "Charlotte County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 20th Judicial Circuit of Florida, Charlotte County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct20cha",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct20"
+    },
+    {
+        "regex": [
+            "Collier County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 20th Judicial Circuit of Florida, Collier County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct20col",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct20"
+    },
+    {
+        "regex": [
+            "Glades County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 20th Judicial Circuit of Florida, Glades County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct20gla",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct20"
+    },
+    {
+        "regex": [
+            "Hendry County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 20th Judicial Circuit of Florida, Hendry County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct20hen",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct20"
+    },
+    {
+        "regex": [
+            "Lee County Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 20th Judicial Circuit of Florida, Lee County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flacirct20lee",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flacirct20"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Florida Municipal Courts",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flamunict",
+        "location": "Florida",
+        "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Miami Beach Municipal Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flamunict1",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flamunict"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Surfside Municipal Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flamunict2",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flamunict"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "Miami Municipal Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flamunict3",
+        "location": "Florida",
+        "citation_string": "",
+        "groupid": "flamunict"
     },
     {
         "regex": [
