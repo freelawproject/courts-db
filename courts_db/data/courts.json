@@ -3582,6 +3582,25 @@
         "citation_string": "",
         "groupid": "fladistctapp"
     },
+  {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": "1972-12-31"
+            }
+        ],
+        "name": "FLorida Juvenile and Domestic Relations Courts",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "flajuv",
+        "location": "Florida",
+        "citation_string": "",
+    },
     {
         "regex": [],
         "dates": [
@@ -3597,10 +3616,10 @@
         "examples": [],
         "court_url": "",
         "type": "trial",
-        "id": "flamunict1",
+        "id": "flajuv1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flamunict"
+        "groupid": "flajuv"
     },
     {
         "regex": [],
