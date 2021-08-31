@@ -78,7 +78,7 @@ def find_court_ids_by_name(court_str: str, bankruptcy: bool) -> List[str]:
     # If no matches found - check against - Court Name - not regex patterns.
     if not matches:
         for court in courts:
-            if strip_punc(court_str) == strip_punc(court['name']):
+            if strip_punc(court_str) == strip_punc(court["name"]):
                 matches.append((court_str, court["id"]))
 
     matched_strings = [m[0] for m in matches]
