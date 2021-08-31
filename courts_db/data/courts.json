@@ -3582,7 +3582,7 @@
         "citation_string": "",
         "groupid": "fladistctapp"
     },
-  {
+    {
         "regex": [],
         "dates": [
             {
@@ -3599,7 +3599,7 @@
         "type": "trial",
         "id": "flajuv",
         "location": "Florida",
-        "citation_string": "",
+        "citation_string": ""
     },
     {
         "regex": [],
