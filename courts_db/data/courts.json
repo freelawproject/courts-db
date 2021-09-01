@@ -3425,7 +3425,7 @@
                 "end": null
             }
         ],
-        "name": "Florida Railroad & Public Utilities Commission",
+        "name": "Florida Public Service Commission",
         "level": "ljc",
         "case_types": [],
         "system": "state",
@@ -3436,9 +3436,10 @@
         ],
         "court_url": "",
         "type": "",
-        "id": "flarrpubutil",
+        "id": "flarrpubserv",
         "location": "Florida",
-        "citation_string": ""
+        "citation_string": "",
+        "notes": "Originally known as the Florida Railroad Commission."
     },
     {
         "regex": [
@@ -3446,8 +3447,8 @@
         ],
         "dates": [
             {
-                "start": null,
-                "end": null
+                "start": "1969-12-31",
+                "end": "1935-01-01"
             }
         ],
         "name": "Florida Industrial Commission",
