@@ -3041,7 +3041,7 @@
         "id": "flajudct1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [
@@ -3066,7 +3066,7 @@
         "id": "flajudct2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3086,7 +3086,7 @@
         "id": "flajudct3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3106,7 +3106,7 @@
         "id": "flajudct4",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3126,7 +3126,7 @@
         "id": "flajudct5",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3146,7 +3146,7 @@
         "id": "flajudct6",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3166,7 +3166,7 @@
         "id": "flajudct7",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3186,7 +3186,7 @@
         "id": "flajudct8",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3206,7 +3206,7 @@
         "id": "flajudct9",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3226,7 +3226,7 @@
         "id": "flajudct10",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3246,7 +3246,7 @@
         "id": "flajudct11",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [
@@ -3268,7 +3268,7 @@
         "id": "flajudct12",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3288,7 +3288,7 @@
         "id": "flajudct13",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3308,7 +3308,7 @@
         "id": "flajudct14",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajudct"
+        "group_id": "flajudct"
     },
     {
         "regex": [],
@@ -3347,7 +3347,7 @@
         "id": "flasmclct1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flasmclct"
+        "group_id": "flasmclct"
     },
     {
         "regex": [],
@@ -3367,7 +3367,7 @@
         "id": "flasmclct2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flasmclct"
+        "group_id": "flasmclct"
     },
     {
         "regex": [],
@@ -3387,7 +3387,7 @@
         "id": "flasmclct3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flasmclct"
+        "group_id": "flasmclct"
     },
     {
         "regex": [],
@@ -3407,7 +3407,7 @@
         "id": "flasmclct4",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flasmclct"
+        "group_id": "flasmclct"
     },
     {
         "regex": [
@@ -3500,7 +3500,7 @@
         "id": "fladistctapp1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "fladistctapp"
+        "group_id": "fladistctapp"
     },
     {
         "regex": [],
@@ -3520,7 +3520,7 @@
         "id": "fladistctapp2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "fladistctapp"
+        "group_id": "fladistctapp"
     },
     {
         "regex": [],
@@ -3540,7 +3540,7 @@
         "id": "fladistctapp3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "fladistctapp"
+        "group_id": "fladistctapp"
     },
     {
         "regex": [],
@@ -3560,7 +3560,7 @@
         "id": "fladistctapp4",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "fladistctapp"
+        "group_id": "fladistctapp"
     },
     {
         "regex": [],
@@ -3580,7 +3580,7 @@
         "id": "fladistctapp5",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "fladistctapp"
+        "group_id": "fladistctapp"
     },
     {
         "regex": [],
@@ -3619,7 +3619,7 @@
         "id": "flajuv1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flajuv"
+        "group_id": "flajuv"
     },
     {
         "regex": [],
@@ -3662,7 +3662,7 @@
         "id": "flactyctrec1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [
@@ -3686,7 +3686,7 @@
         "id": "flactyctrec2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [
@@ -3711,7 +3711,7 @@
         "id": "flactyctrec3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [
@@ -3735,7 +3735,7 @@
         "id": "flactyctrec4",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [
@@ -3759,7 +3759,7 @@
         "id": "flactyctrec5",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [
@@ -3784,7 +3784,7 @@
         "id": "flactyctrec6",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [
@@ -3808,7 +3808,7 @@
         "id": "flactyctrec7",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyctrec"
+        "group_id": "flactyctrec"
     },
     {
         "regex": [],
@@ -3828,7 +3828,7 @@
         "id": "flactyct1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3848,7 +3848,7 @@
         "id": "flactyct2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3868,7 +3868,7 @@
         "id": "flactyct3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3888,7 +3888,7 @@
         "id": "flactyct4",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3908,7 +3908,7 @@
         "id": "flactyct5",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3928,7 +3928,7 @@
         "id": "flactyct6",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3948,7 +3948,7 @@
         "id": "flactyct7",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3968,7 +3968,7 @@
         "id": "flactyct8",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -3988,7 +3988,7 @@
         "id": "flactyct9",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4008,7 +4008,7 @@
         "id": "flactyct10",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4028,7 +4028,7 @@
         "id": "flactyct11",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4048,7 +4048,7 @@
         "id": "flactyct12",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4068,7 +4068,7 @@
         "id": "flactyct13",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4088,7 +4088,7 @@
         "id": "flactyct14",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4108,7 +4108,7 @@
         "id": "flactyct15",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4128,7 +4128,7 @@
         "id": "flactyct16",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4148,7 +4148,7 @@
         "id": "flactyct17",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4168,7 +4168,7 @@
         "id": "flactyct18",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4188,7 +4188,7 @@
         "id": "flactyct19",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4208,7 +4208,7 @@
         "id": "flactyct20",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4228,7 +4228,7 @@
         "id": "flactyct21",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4248,7 +4248,7 @@
         "id": "flactyct22",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4268,7 +4268,7 @@
         "id": "flactyct23",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4288,7 +4288,7 @@
         "id": "flactyct24",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4308,7 +4308,7 @@
         "id": "flactyct25",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4328,7 +4328,7 @@
         "id": "flactyct26",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4348,7 +4348,7 @@
         "id": "flactyct27",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4368,7 +4368,7 @@
         "id": "flactyct28",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4388,7 +4388,7 @@
         "id": "flactyct29",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4408,7 +4408,7 @@
         "id": "flactyct30",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4428,7 +4428,7 @@
         "id": "flactyct31",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4448,7 +4448,7 @@
         "id": "flactyct32",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4468,7 +4468,7 @@
         "id": "flactyct33",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4488,7 +4488,7 @@
         "id": "flactyct34",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4508,7 +4508,7 @@
         "id": "flactyct35",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4528,7 +4528,7 @@
         "id": "flactyct36",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4548,7 +4548,7 @@
         "id": "flactyct37",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4568,7 +4568,7 @@
         "id": "flactyct38",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4588,7 +4588,7 @@
         "id": "flactyct39",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4608,7 +4608,7 @@
         "id": "flactyct40",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4628,7 +4628,7 @@
         "id": "flactyct41",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4648,7 +4648,7 @@
         "id": "flactyct42",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [
@@ -4673,7 +4673,7 @@
         "id": "flactyct43",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4693,7 +4693,7 @@
         "id": "flactyct44",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4713,7 +4713,7 @@
         "id": "flactyct45",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4733,7 +4733,7 @@
         "id": "flactyct46",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4753,7 +4753,7 @@
         "id": "flactyct47",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4773,7 +4773,7 @@
         "id": "flactyct48",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4793,7 +4793,7 @@
         "id": "flactyct49",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4813,7 +4813,7 @@
         "id": "flactyct50",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4833,7 +4833,7 @@
         "id": "flactyct51",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4855,7 +4855,7 @@
         "id": "flactyct52",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4875,7 +4875,7 @@
         "id": "flactyct53",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4895,7 +4895,7 @@
         "id": "flactyct54",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4915,7 +4915,7 @@
         "id": "flactyct55",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4935,7 +4935,7 @@
         "id": "flactyct56",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4955,7 +4955,7 @@
         "id": "flactyct57",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4975,7 +4975,7 @@
         "id": "flactyct58",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -4995,7 +4995,7 @@
         "id": "flactyct59",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5015,7 +5015,7 @@
         "id": "flactyct60",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5035,7 +5035,7 @@
         "id": "flactyct61",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5055,7 +5055,7 @@
         "id": "flactyct62",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5075,7 +5075,7 @@
         "id": "flactyct63",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5095,7 +5095,7 @@
         "id": "flactyct64",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5115,7 +5115,7 @@
         "id": "flactyct65",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5135,7 +5135,7 @@
         "id": "flactyct66",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5155,7 +5155,7 @@
         "id": "flactyct67",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flactyct"
+        "group_id": "flactyct"
     },
     {
         "regex": [],
@@ -5175,7 +5175,7 @@
         "id": "flacirct1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5197,7 +5197,7 @@
         "id": "flacirct1wal",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct1"
+        "group_id": "flacirct1"
     },
     {
         "regex": [
@@ -5219,7 +5219,7 @@
         "id": "flacirct1oka",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct1"
+        "group_id": "flacirct1"
     },
     {
         "regex": [
@@ -5241,7 +5241,7 @@
         "id": "flacirct1san",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct1"
+        "group_id": "flacirct1"
     },
     {
         "regex": [
@@ -5263,7 +5263,7 @@
         "id": "flacirct1esc",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct1"
+        "group_id": "flacirct1"
     },
     {
         "regex": [],
@@ -5283,7 +5283,7 @@
         "id": "flacirct2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [],
@@ -5303,7 +5303,7 @@
         "id": "flacirct2fra",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct2"
+        "group_id": "flacirct2"
     },
     {
         "regex": [
@@ -5325,7 +5325,7 @@
         "id": "flacirct2gad",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct2"
+        "group_id": "flacirct2"
     },
     {
         "regex": [],
@@ -5345,7 +5345,7 @@
         "id": "flacirct2jef",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct2"
+        "group_id": "flacirct2"
     },
     {
         "regex": [
@@ -5367,7 +5367,7 @@
         "id": "flacirct2leo",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct2"
+        "group_id": "flacirct2"
     },
     {
         "regex": [],
@@ -5387,7 +5387,7 @@
         "id": "flacirct2lib",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct2"
+        "group_id": "flacirct2"
     },
     {
         "regex": [],
@@ -5407,7 +5407,7 @@
         "id": "flacirct2wak",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct2"
+        "group_id": "flacirct2"
     },
     {
         "regex": [],
@@ -5427,7 +5427,7 @@
         "id": "flacirct3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5449,7 +5449,7 @@
         "id": "flacirct3col",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [],
@@ -5469,7 +5469,7 @@
         "id": "flacirct3dix",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [
@@ -5491,7 +5491,7 @@
         "id": "flacirct3ham",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [],
@@ -5511,7 +5511,7 @@
         "id": "flacirct3laf",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [],
@@ -5531,7 +5531,7 @@
         "id": "flacirct3mad",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [
@@ -5554,7 +5554,7 @@
         "id": "flacirct3suw",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [],
@@ -5574,7 +5574,7 @@
         "id": "flacirct3tay",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct3"
+        "group_id": "flacirct3"
     },
     {
         "regex": [],
@@ -5594,7 +5594,7 @@
         "id": "flacirct4",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5616,7 +5616,7 @@
         "id": "flacirct4cla",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct4"
+        "group_id": "flacirct4"
     },
     {
         "regex": [
@@ -5638,7 +5638,7 @@
         "id": "flacirct4duv",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct4"
+        "group_id": "flacirct4"
     },
     {
         "regex": [
@@ -5660,7 +5660,7 @@
         "id": "flacirct4nas",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct4"
+        "group_id": "flacirct4"
     },
     {
         "regex": [],
@@ -5680,7 +5680,7 @@
         "id": "flacirct5",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5702,7 +5702,7 @@
         "id": "flacirct5cit",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct5"
+        "group_id": "flacirct5"
     },
     {
         "regex": [],
@@ -5722,7 +5722,7 @@
         "id": "flacirct5her",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct5"
+        "group_id": "flacirct5"
     },
     {
         "regex": [
@@ -5744,7 +5744,7 @@
         "id": "flacirct5lak",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct5"
+        "group_id": "flacirct5"
     },
     {
         "regex": [
@@ -5766,7 +5766,7 @@
         "id": "flacirct5mar",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct5"
+        "group_id": "flacirct5"
     },
     {
         "regex": [
@@ -5788,7 +5788,7 @@
         "id": "flacirct5sum",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct5"
+        "group_id": "flacirct5"
     },
     {
         "regex": [],
@@ -5808,7 +5808,7 @@
         "id": "flacirct6",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5830,7 +5830,7 @@
         "id": "flacirct6pas",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct6"
+        "group_id": "flacirct6"
     },
     {
         "regex": [
@@ -5852,7 +5852,7 @@
         "id": "flacirct6pin",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct6"
+        "group_id": "flacirct6"
     },
     {
         "regex": [],
@@ -5872,7 +5872,7 @@
         "id": "flacirct7",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5894,7 +5894,7 @@
         "id": "flacirct7fla",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct7"
+        "group_id": "flacirct7"
     },
     {
         "regex": [],
@@ -5914,7 +5914,7 @@
         "id": "flacirct7put",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct7"
+        "group_id": "flacirct7"
     },
     {
         "regex": [],
@@ -5934,7 +5934,7 @@
         "id": "flacirct7stj",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct7"
+        "group_id": "flacirct7"
     },
     {
         "regex": [
@@ -5956,7 +5956,7 @@
         "id": "flacirct7vol",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct7"
+        "group_id": "flacirct7"
     },
     {
         "regex": [],
@@ -5976,7 +5976,7 @@
         "id": "flacirct8",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -5998,7 +5998,7 @@
         "id": "flacirct8ala",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct8"
+        "group_id": "flacirct8"
     },
     {
         "regex": [],
@@ -6018,7 +6018,7 @@
         "id": "flacirct8bak",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct8"
+        "group_id": "flacirct8"
     },
     {
         "regex": [
@@ -6040,7 +6040,7 @@
         "id": "flacirct8bra",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct8"
+        "group_id": "flacirct8"
     },
     {
         "regex": [],
@@ -6060,7 +6060,7 @@
         "id": "flacirct8gil",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct8"
+        "group_id": "flacirct8"
     },
     {
         "regex": [
@@ -6082,7 +6082,7 @@
         "id": "flacirct8lev",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct8"
+        "group_id": "flacirct8"
     },
     {
         "regex": [
@@ -6104,7 +6104,7 @@
         "id": "flacirct8uni",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct8"
+        "group_id": "flacirct8"
     },
     {
         "regex": [],
@@ -6124,7 +6124,7 @@
         "id": "flacirct9",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6146,7 +6146,7 @@
         "id": "flacirct9ora",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct9"
+        "group_id": "flacirct9"
     },
     {
         "regex": [
@@ -6168,7 +6168,7 @@
         "id": "flacirct9osc",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct9"
+        "group_id": "flacirct9"
     },
     {
         "regex": [],
@@ -6188,7 +6188,7 @@
         "id": "flacirct10",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [],
@@ -6208,7 +6208,7 @@
         "id": "flacirct10har",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct10"
+        "group_id": "flacirct10"
     },
     {
         "regex": [
@@ -6230,7 +6230,7 @@
         "id": "flacirct10hig",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct10"
+        "group_id": "flacirct10"
     },
     {
         "regex": [
@@ -6252,7 +6252,7 @@
         "id": "flacirct10pol",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct10"
+        "group_id": "flacirct10"
     },
     {
         "regex": [],
@@ -6272,7 +6272,7 @@
         "id": "flacirct11",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6297,7 +6297,7 @@
         "id": "flacirct11mia",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct11"
+        "group_id": "flacirct11"
     },
     {
         "regex": [],
@@ -6317,7 +6317,7 @@
         "id": "flacirct12",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6339,7 +6339,7 @@
         "id": "flacirct12des",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct12"
+        "group_id": "flacirct12"
     },
     {
         "regex": [
@@ -6361,7 +6361,7 @@
         "id": "flacirct12man",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct12"
+        "group_id": "flacirct12"
     },
     {
         "regex": [
@@ -6383,7 +6383,7 @@
         "id": "flacirct12sar",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct12"
+        "group_id": "flacirct12"
     },
     {
         "regex": [],
@@ -6403,7 +6403,7 @@
         "id": "flacirct13",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6425,7 +6425,7 @@
         "id": "flacirct13hil",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct13"
+        "group_id": "flacirct13"
     },
     {
         "regex": [],
@@ -6445,7 +6445,7 @@
         "id": "flacirct14",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6467,7 +6467,7 @@
         "id": "flacirct14bay",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct14"
+        "group_id": "flacirct14"
     },
     {
         "regex": [
@@ -6489,7 +6489,7 @@
         "id": "flacirct14cal",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct14"
+        "group_id": "flacirct14"
     },
     {
         "regex": [],
@@ -6509,7 +6509,7 @@
         "id": "flacirct14gul",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct14"
+        "group_id": "flacirct14"
     },
     {
         "regex": [],
@@ -6529,7 +6529,7 @@
         "id": "flacirct14hol",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct14"
+        "group_id": "flacirct14"
     },
     {
         "regex": [],
@@ -6549,7 +6549,7 @@
         "id": "flacirct14jac",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct14"
+        "group_id": "flacirct14"
     },
     {
         "regex": [],
@@ -6569,7 +6569,7 @@
         "id": "flacirct14was",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct14"
+        "group_id": "flacirct14"
     },
     {
         "regex": [],
@@ -6589,7 +6589,7 @@
         "id": "flacirct15",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6613,7 +6613,7 @@
         "id": "flacirct15pal",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct15"
+        "group_id": "flacirct15"
     },
     {
         "regex": [],
@@ -6633,7 +6633,7 @@
         "id": "flacirct16",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6655,7 +6655,7 @@
         "id": "flacirct16mon",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct16"
+        "group_id": "flacirct16"
     },
     {
         "regex": [],
@@ -6675,7 +6675,7 @@
         "id": "flacirct17",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6697,7 +6697,7 @@
         "id": "flacirct17bro",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct17"
+        "group_id": "flacirct17"
     },
     {
         "regex": [],
@@ -6717,7 +6717,7 @@
         "id": "flacirct18",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6739,7 +6739,7 @@
         "id": "flacirct18bre",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct18"
+        "group_id": "flacirct18"
     },
     {
         "regex": [
@@ -6761,7 +6761,7 @@
         "id": "flacirct18sem",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct18"
+        "group_id": "flacirct18"
     },
     {
         "regex": [],
@@ -6781,7 +6781,7 @@
         "id": "flacirct19",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6803,7 +6803,7 @@
         "id": "flacirct19ind",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct19"
+        "group_id": "flacirct19"
     },
     {
         "regex": [
@@ -6825,7 +6825,7 @@
         "id": "flacirct19mar",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct19"
+        "group_id": "flacirct19"
     },
     {
         "regex": [
@@ -6847,7 +6847,7 @@
         "id": "flacirct19oke",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct19"
+        "group_id": "flacirct19"
     },
     {
         "regex": [
@@ -6869,7 +6869,7 @@
         "id": "flacirct19stl",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct19"
+        "group_id": "flacirct19"
     },
     {
         "regex": [],
@@ -6889,7 +6889,7 @@
         "id": "flacirct20",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct"
+        "group_id": "flacirct"
     },
     {
         "regex": [
@@ -6911,7 +6911,7 @@
         "id": "flacirct20cha",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct20"
+        "group_id": "flacirct20"
     },
     {
         "regex": [
@@ -6933,7 +6933,7 @@
         "id": "flacirct20col",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct20"
+        "group_id": "flacirct20"
     },
     {
         "regex": [
@@ -6955,7 +6955,7 @@
         "id": "flacirct20gla",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct20"
+        "group_id": "flacirct20"
     },
     {
         "regex": [
@@ -6977,7 +6977,7 @@
         "id": "flacirct20hen",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct20"
+        "group_id": "flacirct20"
     },
     {
         "regex": [
@@ -6999,7 +6999,7 @@
         "id": "flacirct20lee",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flacirct20"
+        "group_id": "flacirct20"
     },
     {
         "regex": [],
@@ -7038,7 +7038,7 @@
         "id": "flamunict1",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flamunict"
+        "group_id": "flamunict"
     },
     {
         "regex": [],
@@ -7058,7 +7058,7 @@
         "id": "flamunict2",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flamunict"
+        "group_id": "flamunict"
     },
     {
         "regex": [],
@@ -7078,7 +7078,7 @@
         "id": "flamunict3",
         "location": "Florida",
         "citation_string": "",
-        "groupid": "flamunict"
+        "group_id": "flamunict"
     },
     {
         "regex": [
