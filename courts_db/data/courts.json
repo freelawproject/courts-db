@@ -15074,6 +15074,46 @@
         "citation_string": "Tex. Rev."
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Texas Court of Review Tribunal",
+        "level": "",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "texrevtrib",
+        "location": "Texas",
+        "citation_string": "Tex. Rev. Trib.",
+        "notes": "This court reviews recommendation for removal or retirement of a judge. Selected from appellate judges by the Chief Justice"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1918-01-01",
+                "end": "1945-12-31"
+            }
+        ],
+        "name": "Texas Commission of Appeals",
+        "level": "colr",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "appellate",
+        "id": "texcommnapp",
+        "location": "Texas",
+        "citation_string": "Tex. Comm'n App.",
+        "notes": "One of three Commissions established over the years to alleviate case load on the Texas Supreme Court."
+    },
+    {
         "regex": [
             "Supreme Court,? of Texas",
             "(State of )?Texas,? Supreme Court",
@@ -15133,13 +15173,12 @@
             "Tx Court Of Civil Appeals Houston 1St Dist",
             "Court Of Civil Appeal Of Texas",
             "Court Of Civil Appeals Second Supreme Judicial District Of Texas",
-            "Texas Court Of Civil Appeals",
+            "Texas Courts? Of Civil Appeals",
             "First Court Of Appeals.* Texas",
             "Supreme Judicial District Court Of Appeals Texas",
             "Court Of Appeals.* Texas",
             "Coourt Of Civil Appeals Of Texas",
             "Commission Of Appeals Texas Section A",
-            "District Court 49Th Judicial Dist Webb County Tex"
         ],
         "dates": [
             {
@@ -15152,6 +15191,7 @@
         "case_types": [],
         "system": "state",
         "examples": [
+            "Texas Courts of Civil Appeals",
             "State Of Texas Fourteenth Court Of Appeals",
             "Tx Court Of Civil Appeals Houston 1St Dist",
             "Court Of Civil Appeals Second Supreme Judicial District Of Texas",
