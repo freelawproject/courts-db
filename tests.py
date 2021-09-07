@@ -54,7 +54,7 @@ class DataTest(CourtsDBTestCase):
 
         court_ids = find_court("Calhoun County Circuit Court")
         self.assertEqual(
-            court_ids,
+            sorted(court_ids),
             ["flacirct14cal", "micirct37cal"],
             msg="Court filtering failed",
         )
