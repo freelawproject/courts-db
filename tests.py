@@ -35,20 +35,19 @@ class DataTest(CourtsDBTestCase):
         expected_matches = ["prapp"]
         self.assertEqual(matches, expected_matches)
 
-    def test_one_example(self):
+    def test_all_example(self):
         """Can we extract the correct court id from string and date?"""
 
-        court_id = "mntax"
-        court = [x for x in self.courts if x["id"] == court_id][0]
-
-        for example in court["examples"]:
-            example = strip_punc(example)
-            print("Testing ... %s" % example),
-            matches2 = find_court(court_str=example)
-            self.assertEqual(
-                list(set(matches2)), [court_id], "Failure %s" % matches2
-            )
-            print("Success.", matches2[0], "<=>", court_id)
+        for court in self.courts:
+            for court_str_example in court["examples"]:
+                print(f"Testing {court_str_example}", end=" ... ")
+                matches = find_court(court_str=court_str_example)
+                self.assertIn(
+                    court["id"],
+                    matches,
+                    f"Failure to find {court['id']} in {court_str_example}",
+                )
+                print("√")
 
 
 class ExamplesTest(CourtsDBTestCase):
