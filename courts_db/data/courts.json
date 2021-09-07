@@ -6638,7 +6638,7 @@
     },
     {
         "regex": [
-            "Mo|unroe County Circuit Court"
+            "(Monroe|Munroe) County Circuit Court"
         ],
         "dates": [
             {
