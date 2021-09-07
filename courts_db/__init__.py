@@ -7,7 +7,7 @@ from __future__ import (
 
 import re
 from datetime import datetime
-from typing import List
+from typing import List, Optional
 
 import six
 
@@ -48,7 +48,9 @@ def __getattr__(name):
     return value
 
 
-def find_court_ids_by_name(court_str: str, bankruptcy: bool) -> List[str]:
+def find_court_ids_by_name(
+    court_str: str, bankruptcy: Optional[bool], location: Optional[str]
+) -> List[str]:
     """Find court IDs with our courts-db regex list
 
     :param court_str: test string
@@ -63,7 +65,10 @@ def find_court_ids_by_name(court_str: str, bankruptcy: bool) -> List[str]:
 
     court_matches = set()
     matches = []
-    for regex, court_id, court_name, court_type in regexes:
+    for regex, court_id, court_name, court_type, court_location in regexes:
+        # If location provided - check if overlapped.
+        if location and court_location != location:
+            continue
         # Filter gathered regexes by bankruptcy flag.
         if bankruptcy is True:
             if court_type != "bankruptcy":
@@ -158,7 +163,11 @@ def find_court_by_id(court_id):
 
 
 def find_court(
-    court_str, bankruptcy=None, date_found=None, strict_dates=False
+    court_str: str,
+    bankruptcy: Optional[bool] = None,
+    date_found: Optional[datetime] = None,
+    strict_dates: Optional[bool] = False,
+    location: Optional[str] = None,
 ):
     """Finds a list of court ID for a given string and parameters
 
@@ -166,11 +175,12 @@ def find_court(
     :param bankruptcy: Tells function to exclude or include bankruptcy cases
     :param date_found: Date object
     :param strict_dates: Boolean that helps tell the sytsem how to handle
+    :param location: Where the court is located.
     null dates in courts-db
     :return: List of court IDs if any
     """
     court_str = strip_punc(court_str)
-    matches = find_court_ids_by_name(court_str, bankruptcy)
+    matches = find_court_ids_by_name(court_str, bankruptcy, location)
     if bankruptcy is not None:
         matches = filter_courts_by_bankruptcy(
             matches=matches, bankruptcy=bankruptcy

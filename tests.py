@@ -49,6 +49,34 @@ class DataTest(CourtsDBTestCase):
                 )
                 print("√")
 
+    def test_location_filter(self):
+        """Can we use location to filter properly"""
+
+        court_ids = find_court("Calhoun County Circuit Court")
+        self.assertEqual(
+            court_ids,
+            ["flacirct14cal", "micirct37cal"],
+            msg="Court filtering failed",
+        )
+
+        florida_court_ids = find_court(
+            "Calhoun County Circuit Court", location="Florida"
+        )
+        self.assertEqual(
+            ["flacirct14cal"],
+            florida_court_ids,
+            msg="Florida county court not found",
+        )
+
+        michigan_court_ids = find_court(
+            "Calhoun County Circuit Court", location="Michigan"
+        )
+        self.assertEqual(
+            ["micirct37cal"],
+            michigan_court_ids,
+            msg="Michican county court not found",
+        )
+
 
 class ExamplesTest(CourtsDBTestCase):
     def test_all_non_bankruptcy_examples(self):

@@ -9795,6 +9795,72 @@
         "citation_string": "Mich."
     },
     {
+        "regex": [],
+        "name_abbreviation": "Michigan Cir. Ct.",
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Michigan Circuit Court",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "M.I.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "micirct",
+        "location": "Michigan",
+        "citation_string": "Michigan Cir. Ct."
+    },
+    {
+        "regex": [],
+        "name_abbreviation": "Mich. 37th Cir.",
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 37th Circuit of Michigan",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "M.I.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "micirct37",
+        "group_id": "micirct",
+        "location": "Michigan",
+        "citation_string": "Mich. 37th Cir."
+    },
+  {
+        "regex": [
+            "Calhoun County Circuit Court"
+        ],
+        "name_abbreviation": "Michigan Cir. Ct., Calhoun Cty.",
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Circuit Court of the 37th Circuit of Michigan, Calhoun County",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "M.I.",
+        "system": "state",
+        "examples": [
+            "Calhoun County Circuit Court"
+        ],
+        "type": "trial",
+        "id": "micirct37cal",
+        "group_id": "micirct37",
+        "location": "Michigan",
+        "citation_string": "Mich. 37th Cir., Calhoun Cty."
+    },
+    {
         "regex": [
             "${wd} ${mi}",
             "${usdc} ${wd} ${mi}",
