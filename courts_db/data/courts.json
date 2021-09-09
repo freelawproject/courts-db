@@ -10035,8 +10035,7 @@
         "regex": [
             "${ed} ${mi}",
             "${usdc} ${ed} ${mi}",
-            "United States District Court For The Eastern Division Michigan Southern Division",
-            "United States District Court For The Eastern Division Of Michigan"
+            "United States District Court For The Eastern Division ?(of)? Michigan ?(Southern Division)?"
         ],
         "dates": [
             {

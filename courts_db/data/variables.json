@@ -49,7 +49,7 @@
     "me": "Maine|ME",
     "maryland": "Maryland|Md",
     "ma": "Ma(ss(achusetts)?)?(\\b|$)",
-    "mi": "Mich(igan)?(\\b|$)|mi(\\b|$)",
+    "mi": "Mich(igan)?(\\b|$)|\\bmi(\\b|$)",
     "mn": "Minn(esota)?(\\b|$)",
     "ms": "Mississippi|Miss|MS(\\b|$)",
     "mo": "(Missouri|Mo)(\\b|$)",
