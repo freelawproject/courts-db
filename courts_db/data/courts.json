@@ -6192,7 +6192,9 @@
         "group_id": "flacirct"
     },
     {
-        "regex": [],
+        "regex": [
+            "Hardee County Circuit Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7080,6 +7082,149 @@
         "location": "Florida",
         "citation_string": "",
         "group_id": "flamunict"
+    },
+    {
+        "regex": [
+            "Dade County Property Appraisal ?(Adjustment)? Board"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Dade County Property Appraisal Adjustment Board",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "",
+        "id": "dadectypropbd",
+        "location": "Florida",
+        "citation_string": "Dade Cty. Prop. Appraisal Adjmt. Bd.",
+        "group_id": null
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Florida Department of Health and Rehabilitative Services",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "",
+        "id": "fladepthrehabil",
+        "location": "Florida",
+        "citation_string": "Fla. Dep't. of H. Rehabil. Serv.",
+        "group_id": null
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Jacksonville Civil Service Board",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "jaxcivservbd",
+        "location": "Florida",
+        "citation_string": "Jax. Civ. Serv. Bd.",
+        "group_id": null
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "State of Florida Department of Environmental Regulation",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "",
+        "id": "fladeptenvreg",
+        "location": "Florida",
+        "citation_string": "Fla. Dep't. Env. Reg.",
+        "group_id": null
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "State of Florida Department of Revenue",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "",
+        "id": "fladeptrev",
+        "location": "Florida",
+        "citation_string": "Fla. Dep't Rev.",
+        "group_id": null
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "State of Florida Division of Administrative Hearings",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "",
+        "id": "fladivadminhrg",
+        "location": "Florida",
+        "citation_string": "Fla. Div. Admin. Hr'g",
+        "group_id": null
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1828-01-01",
+                "end": "1845-12-31"
+            }
+        ],
+        "name": "Superior Court, S. D. Florida",
+        "level": "gjc",
+        "case_types": [],
+        "system": "federal",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "superctsdfla",
+        "location": "Florida",
+        "citation_string": "Super. Ct. S.D. Fla.",
+        "notes": "See: https://www.jstor.org/stable/30150483",
+        "group_id": null
     },
     {
         "regex": [
