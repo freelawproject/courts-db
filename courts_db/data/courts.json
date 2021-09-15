@@ -13857,7 +13857,8 @@
             "Court of Civils? Appeals? of Oklahoma",
             "Oklahoma Court of Civil Appeals?",
             "Court of Appeals?,? (civil )?(of )?(State )?(of )?Oklahoma",
-            "Courts Of Appeal Of Oklahoma Division"
+            "Courts Of Appeal Of Oklahoma Division",
+            "Oklahoma Court of Appeals"
         ],
         "dates": [
             {
@@ -13871,7 +13872,8 @@
         "system": "state",
         "examples": [
             "Courts Of Appeal Of Oklahoma Division",
-            "Courts Of Appeal Of Oklahoma Division No 20"
+            "Courts Of Appeal Of Oklahoma Division No 20",
+            "Oklahoma Court of Appeals"
         ],
         "court_url": "http://www.oscn.net/oscn/schome/civilappeals.htm",
         "type": "appellate",
@@ -13904,7 +13906,8 @@
     },
     {
         "regex": [
-            "Court on the Judiciary of Oklahoma"
+            "Court on the Judiciary of Oklahoma",
+            "Oklahoma Court of the Judiciary"
         ],
         "dates": [
             {
@@ -13913,7 +13916,7 @@
             }
         ],
         "name": "Court on the Judiciary of Oklahoma",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -13921,7 +13924,7 @@
         "type": "appellate",
         "id": "oklacoj",
         "location": "Oklahoma",
-        "citation_string": "Okla. C.O.J."
+        "citation_string": "Okla. Ct. Jud."
     },
     {
         "regex": [
@@ -18008,7 +18011,7 @@
                 "end": null
             }
         ],
-        "name": "District of Columbia Court of Appeals",
+        "name": "Superior Court Of The District Of Columbia",
         "level": "gjc",
         "case_types": [],
         "system": "state",
@@ -18019,9 +18022,9 @@
             "Superior Court Of The District Of Columbia Civil Division"
         ],
         "type": "trial",
-        "id": "dc",
+        "id": "supctdc",
         "location": "Washington D.C.",
-        "citation_string": "D.C."
+        "citation_string": "Sup. Ct. D.C."
     },
     {
         "regex": [
@@ -22549,7 +22552,7 @@
         ],
         "court_url": "",
         "type": "appellate",
-        "id": "cait",
+        "id": "ctappindterr",
         "location": "Washinton D.C.",
         "citation_string": ""
     },
