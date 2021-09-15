@@ -22544,17 +22544,17 @@
             }
         ],
         "name": "Court Of Appeals Of Indian Territory",
-        "level": "gjc",
+        "level": "colr",
         "case_types": [],
-        "system": "special",
+        "system": "federal",
         "examples": [
             "Court Of Appeals Of Indian Territory"
         ],
         "court_url": "",
         "type": "appellate",
         "id": "ctappindterr",
-        "location": "Washinton D.C.",
-        "citation_string": ""
+        "location": "Oklahoma",
+        "citation_string": "Ct. App. Ind. Terr."
     },
     {
         "regex": [
