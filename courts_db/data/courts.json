@@ -20337,7 +20337,7 @@
         "system": "federal",
         "location": "California",
         "type": "appellate",
-        "id": "caca",
+        "id": "circtdca",
         "examples": [],
         "citation_string": "C. Cal."
     },
@@ -20547,7 +20547,7 @@
         "location": "Delaware",
         "type": "appellate",
         "court_url": "http://www.fjc.gov/history/home.nsf/page/courts_circuit_de.html",
-        "id": "circtdde",
+        "id": "circtdel",
         "examples": [],
         "citation_string": "Cir. Ct. Del."
     },
@@ -21459,7 +21459,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtdnc",
+        "id": "circtnc",
         "examples": [],
         "citation_string": "Cir. Ct. N.C."
     },
@@ -21946,7 +21946,7 @@
         "system": "federal",
         "location": "Tennessee",
         "type": "appellate",
-        "id": "circtdtn",
+        "id": "circttenn",
         "examples": [],
         "citation_string": "Cir. Ct. N.C."
     },
