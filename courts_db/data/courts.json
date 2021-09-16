@@ -7803,9 +7803,16 @@
             "${sup} Hawai",
             "State Of Hawaii Supreme Court",
             "Hawaii Supreme Court",
-            "Supreme Court (Of ?){1,2} Hawaii"
+            "Supreme Court (Of ?){1,2} Hawaii",
+            "Supreme Court of the State of Hawaii",
+            "Supreme Court of the Territory of Hawaii",
+            "Supreme Court of the Republic of Hawaii"
         ],
         "dates": [
+            {
+                "start": null,
+                "end": "1958-12-31"
+            },
             {
                 "start": "1959-01-01",
                 "end": null
@@ -14702,10 +14709,8 @@
     },
     {
         "regex": [
-            "Supreme Court,? of Rhode Island",
-            "Supreme Court Rhode Island",
-            "Supreme Court Of Rhode Island Washington",
-            "State Of Rhode Island Supreme Court"
+            "Supreme Court,? ?(of)? Rhode Island ?(Washington)?",
+            "(State Of)? ?Rhode Island Supreme Court"
         ],
         "dates": [
             {
@@ -14968,11 +14973,11 @@
     },
     {
         "regex": [
-            "Supreme Court of South Dakota",
-            "Supreme Court South Dakota",
-            "Supreme Court Of Dakota In The District Court Of Bon Homme",
+            "Supreme Court ?(of)? South Dakota",
+            "Supreme Court of Dakota in the District Court of Bon Homme",
             "Supreme Court Of Dakota In The District Court Of Lawrence",
-            "Supreme Court Of Dakota In The District Court Of Lincoln"
+            "Supreme Court Of Dakota In The District Court Of Lincoln",
+            "South Dakota Supreme Court"
         ],
         "dates": [
             {
