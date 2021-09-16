@@ -2410,30 +2410,6 @@
     },
     {
         "regex": [
-            "Delaware Family Court",
-            "Family Court Delaware New Castle"
-        ],
-        "name_abbreviation": null,
-        "dates": [
-            {
-                "start": "1945-01-01",
-                "end": null
-            }
-        ],
-        "name": "Delaware Family Court",
-        "level": "ljc",
-        "notes": null,
-        "jurisdiction": "D.E.",
-        "system": "state",
-        "examples": [],
-        "active": false,
-        "type": "trial",
-        "id": "delfamct",
-        "location": "Delaware",
-        "citation_string": "Del. Fm. Ct."
-    },
-    {
-        "regex": [
             "Delaware Court of Common Pleas",
             "Court Of Common Pleas of Delaware"
         ],
@@ -7558,6 +7534,25 @@
         "location": "Georgia",
         "citation_string": ""
     },
+  {
+        "regex": [],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "North Carolina District Court",
+        "level": "ljc",
+        "jurisdiction": "N.C.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "ncdistct",
+        "location": "North Carolina",
+        "citation_string": "N.C. Dist. Ct."
+    },
     {
         "regex": [
             "North Carolina Business Court"
@@ -7696,6 +7691,28 @@
         "id": "guamsup",
         "location": "Guam",
         "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Superior Court of Guam",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "Guam",
+        "system": "state",
+        "locations": 1,
+        "examples": [
+            "Superior Court of Guam"
+        ],
+        "type": "trial",
+        "id": "superctguam",
+        "location": "Guam",
+        "citation_string": "Super. Ct. Guam"
     },
     {
         "regex": [
@@ -8724,6 +8741,43 @@
         "citation_string": "Iowa Ct. App."
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Iowa District Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "iadistct",
+        "location": "Iowa",
+        "citation_string": "Iowa Dist. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lee County District Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "group_id": "iadistct",
+        "id": "iowadistct",
+        "location": "Iowa",
+        "citation_string": "Iowa Dist. Ct., Lee Cty"
+    },
+    {
         "regex": [
             "${usdc} ${sd} Iowa",
             "U S District Court Iowa Appanoose County"
@@ -8777,26 +8831,6 @@
     },
     {
         "regex": [
-            "^${d} ?(D)? ?Iowa"
-        ],
-        "dates": [
-            {
-                "start": "1845-03-03",
-                "end": "1882-07-20"
-            }
-        ],
-        "name": "District Court, D. Iowa",
-        "level": "",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "type": "trial",
-        "id": "iad",
-        "location": "Iowa",
-        "citation_string": "D. Iowa"
-    },
-    {
-        "regex": [
             "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?Iowa",
             "${usbcsd} Iowa"
         ],
@@ -8843,7 +8877,8 @@
         "regex": [
             "{coa} Kansas",
             "Court Of Appeals? Of Kansas",
-            "Court Of Appeals Of The State Of Kansas"
+            "Court Of Appeals Of The State Of Kansas",
+            "Kansas Court of Appeals "
         ],
         "dates": [
             {
@@ -9095,30 +9130,6 @@
         "id": "kyed",
         "location": "Kentucky",
         "citation_string": "E.D. Ky."
-    },
-    {
-        "regex": [
-            "${d} ?(D)? ?${ky}"
-        ],
-        "dates": [
-            {
-                "start": "1789-09-24",
-                "end": "1801-02-13"
-            },
-            {
-                "start": "1802-03-08",
-                "end": "1901-02-12"
-            }
-        ],
-        "name": "District Court, D. Kentucky",
-        "level": "gjc",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "type": "trial",
-        "id": "kyd",
-        "location": "Kentucky",
-        "citation_string": "D. Ky."
     },
     {
         "regex": [
@@ -9452,7 +9463,8 @@
             "${sjc} Maine",
             "Maine ${sjc}",
             "Supreme Judicial Court Of Maine Eastern District Washington County",
-            "Supreme Judicial Court Of Maine For The Eastern District Washington County"
+            "Supreme Judicial Court Of Maine For The Eastern District Washington County",
+            "Supreme Court of Maine"
         ],
         "dates": [
             {
@@ -10932,9 +10944,68 @@
         "examples": [],
         "court_url": "",
         "type": "appellate",
-        "id": "nev",
+        "id": "nevapp",
         "location": "Nevada",
         "citation_string": "Nev."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nevada District Courts",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "nevdistct",
+        "location": "Nevada",
+        "citation_string": "Nev. Dist. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nevada District Courts, 7th Judicial District",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "nevdistct7",
+        "group_id": "nevdistct",
+        "location": "Nevada",
+        "citation_string": "Nev. Dist. Ct., 7th Jud. Dist."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nevada District Court, Eureka County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "nevdistct7eur",
+        "group_id": "nevdistct7",
+        "location": "Nevada",
+        "citation_string": "Nev. Dist. Ct., Eureka Cty."
     },
     {
         "regex": [
@@ -14579,7 +14650,8 @@
             "Tribunal Circu(í|i)to De Apelaciones",
             "Tribunal CircuíTo De Apelaciones",
             "Apelaciones De Puerto Rico",
-            "Estado Libre Asocian?do De Puerto Rico"
+            "Estado Libre Asocian?do De Puerto Rico",
+            "Puerto Rico Circuit Court of Appeals"
         ],
         "dates": [
             {
@@ -14595,7 +14667,8 @@
             "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam",
             "Tribunal Circuito Dé Apelaci",
             "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
-            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla"
+            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla",
+            "Puerto Rico Circuit Court of Appeals"
         ],
         "type": "appellate",
         "id": "prapp",
@@ -15591,29 +15664,6 @@
     },
     {
         "regex": [
-            "${usdc} ${wd} ${tx}",
-            "${wd} ${tx}",
-            "District Court Of United States Western District Of Texas"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States District Court, W.D. Texas",
-        "level": "",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "court_url": "http://www.txwd.uscourts.gov/",
-        "type": "bankruptcy",
-        "id": "txwb",
-        "location": "Texas",
-        "citation_string": "Bankr. W.D. Tex."
-    },
-    {
-        "regex": [
             "${ed} Texas",
             "${usbced} Texas"
         ],
@@ -15803,7 +15853,8 @@
     {
         "regex": [
             "Supreme Court of Vermont",
-            "State Of Vermont Supreme Court"
+            "State Of Vermont Supreme Court",
+            "Vermont Supreme Court"
         ],
         "dates": [
             {
@@ -15819,9 +15870,6 @@
         "examples": [],
         "court_url": "http://www.vermontjudiciary.org/gtc/supreme/default.aspx",
         "type": "appellate",
-        "cites": [
-            "Vt"
-        ],
         "location": "Vermont",
         "citation_string": "Vt."
     },
@@ -15839,9 +15887,26 @@
         "level": "gjc",
         "case_types": [],
         "system": "state",
-        "id": "vt",
+        "id": "vtsuperct",
         "examples": [],
-        "court_url": "http://www.vermontjudiciary.org/gtc/supreme/default.aspx",
+        "type": "trial",
+        "location": "Vermont",
+        "citation_string": "Vt. Super. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Vermont District Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "id": "vtdistct",
+        "examples": [],
         "type": "trial",
         "location": "Vermont",
         "citation_string": "Vt."
@@ -16430,6 +16495,25 @@
         "id": "wva",
         "location": "West Virginia",
         "citation_string": "W. Va."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1967-01-01",
+                "end": null
+            }
+        ],
+        "name": "West Virginia Court of Claims",
+        "level": "",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "http://www.courtswv.gov/supreme-court/",
+        "type": "trial",
+        "id": "wvctcl",
+        "location": "West Virginia",
+        "citation_string": "W. Va. Ct. Cl."
     },
     {
         "regex": [
@@ -18049,7 +18133,7 @@
             "Supreme Court Of District Of Columbia"
         ],
         "type": "trial",
-        "id": "dc",
+        "id": "dcsupreme",
         "location": "Washington D.C.",
         "citation_string": "D.C."
     },
@@ -18236,7 +18320,8 @@
     },
     {
         "regex": [
-            "Municipal Court Of The Virgin Islands"
+            "Municipal Court Of The Virgin Islands",
+            "Virgin Islands Municipal Court"
         ],
         "name_abbreviation": "",
         "dates": [
@@ -18257,7 +18342,8 @@
     },
     {
         "regex": [
-            "Police Court Of The Virgin Islands"
+            "Police Court Of The Virgin Islands",
+            "Virgin Islands Police Court"
         ],
         "name_abbreviation": "",
         "dates": [
@@ -20550,28 +20636,6 @@
         "id": "circtdel",
         "examples": [],
         "citation_string": "Cir. Ct. Del."
-    },
-    {
-        "regex": [
-            "Circuit Court N D Florida"
-        ],
-        "name_abbreviation": "N. Fla. Cir. Ct",
-        "dates": [
-            {
-                "start": "1862-01-01",
-                "end": "1911-12-31"
-            }
-        ],
-        "name": "U.S. Circuit Court for the District of Northern Florida",
-        "active": false,
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "location": "Florida",
-        "type": "appellate",
-        "id": "circtndfl",
-        "examples": [],
-        "citation_string": ""
     },
     {
         "regex": [
