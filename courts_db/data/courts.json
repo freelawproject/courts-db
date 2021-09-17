@@ -2410,30 +2410,6 @@
     },
     {
         "regex": [
-            "Delaware Family Court",
-            "Family Court Delaware New Castle"
-        ],
-        "name_abbreviation": null,
-        "dates": [
-            {
-                "start": "1945-01-01",
-                "end": null
-            }
-        ],
-        "name": "Delaware Family Court",
-        "level": "ljc",
-        "notes": null,
-        "jurisdiction": "D.E.",
-        "system": "state",
-        "examples": [],
-        "active": false,
-        "type": "trial",
-        "id": "delfamct",
-        "location": "Delaware",
-        "citation_string": "Del. Fm. Ct."
-    },
-    {
-        "regex": [
             "Delaware Court of Common Pleas",
             "Court Of Common Pleas of Delaware"
         ],
@@ -7206,7 +7182,10 @@
         "group_id": null
     },
     {
-        "regex": [],
+        "regex": [
+          "Florida Superior Court",
+          "Superior Court, S. D. Florida"
+        ],
         "dates": [
             {
                 "start": "1828-01-01",
@@ -7555,6 +7534,25 @@
         "location": "Georgia",
         "citation_string": ""
     },
+  {
+        "regex": [],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "North Carolina District Court",
+        "level": "ljc",
+        "jurisdiction": "N.C.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "ncdistct",
+        "location": "North Carolina",
+        "citation_string": "N.C. Dist. Ct."
+    },
     {
         "regex": [
             "North Carolina Business Court"
@@ -7695,6 +7693,28 @@
         "citation_string": ""
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Superior Court of Guam",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "Guam",
+        "system": "state",
+        "locations": 1,
+        "examples": [
+            "Superior Court of Guam"
+        ],
+        "type": "trial",
+        "id": "superctguam",
+        "location": "Guam",
+        "citation_string": "Super. Ct. Guam"
+    },
+    {
         "regex": [
             "${d} Guam",
             "${usdc} ${d} Guam",
@@ -7783,9 +7803,16 @@
             "${sup} Hawai",
             "State Of Hawaii Supreme Court",
             "Hawaii Supreme Court",
-            "Supreme Court (Of ?){1,2} Hawaii"
+            "Supreme Court (Of ?){1,2} Hawaii",
+            "Supreme Court of the State of Hawaii",
+            "Supreme Court of the Territory of Hawaii",
+            "Supreme Court of the Republic of Hawaii"
         ],
         "dates": [
+            {
+                "start": null,
+                "end": "1958-12-31"
+            },
             {
                 "start": "1959-01-01",
                 "end": null
@@ -8721,6 +8748,43 @@
         "citation_string": "Iowa Ct. App."
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Iowa District Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "iadistct",
+        "location": "Iowa",
+        "citation_string": "Iowa Dist. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lee County District Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "group_id": "iadistct",
+        "id": "iowadistct",
+        "location": "Iowa",
+        "citation_string": "Iowa Dist. Ct., Lee Cty"
+    },
+    {
         "regex": [
             "${usdc} ${sd} Iowa",
             "U S District Court Iowa Appanoose County"
@@ -8774,26 +8838,6 @@
     },
     {
         "regex": [
-            "^${d} ?(D)? ?Iowa"
-        ],
-        "dates": [
-            {
-                "start": "1845-03-03",
-                "end": "1882-07-20"
-            }
-        ],
-        "name": "District Court, D. Iowa",
-        "level": "",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "type": "trial",
-        "id": "iad",
-        "location": "Iowa",
-        "citation_string": "D. Iowa"
-    },
-    {
-        "regex": [
             "(^|\\s)S\\. ?D(\\.|(istrict))? (of )?Iowa",
             "${usbcsd} Iowa"
         ],
@@ -8840,7 +8884,8 @@
         "regex": [
             "{coa} Kansas",
             "Court Of Appeals? Of Kansas",
-            "Court Of Appeals Of The State Of Kansas"
+            "Court Of Appeals Of The State Of Kansas",
+            "Kansas Court of Appeals "
         ],
         "dates": [
             {
@@ -9095,30 +9140,6 @@
     },
     {
         "regex": [
-            "${d} ?(D)? ?${ky}"
-        ],
-        "dates": [
-            {
-                "start": "1789-09-24",
-                "end": "1801-02-13"
-            },
-            {
-                "start": "1802-03-08",
-                "end": "1901-02-12"
-            }
-        ],
-        "name": "District Court, D. Kentucky",
-        "level": "gjc",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "type": "trial",
-        "id": "kyd",
-        "location": "Kentucky",
-        "citation_string": "D. Ky."
-    },
-    {
-        "regex": [
             "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?${ky}",
             "${usbcwd} Kentucky",
             "United States District Court For The Western District Of Kentucky"
@@ -9261,7 +9282,7 @@
     },
     {
         "regex": [
-            "Superior Court Of The State Of Louisiana"
+            "Superior Court of the State of Louisiana"
         ],
         "dates": [
             {
@@ -9269,7 +9290,7 @@
                 "end": null
             }
         ],
-        "name": "Superior Court Of The State Of Louisiana",
+        "name": "Superior Court of The State of Louisiana",
         "level": "gjc",
         "case_types": [],
         "system": "state",
@@ -9279,7 +9300,7 @@
         "type": "trial",
         "id": "lasuperct",
         "location": "Louisiana",
-        "citation_string": ""
+        "citation_string": "Super. Ct. La."
     },
     {
         "regex": [
@@ -9449,7 +9470,8 @@
             "${sjc} Maine",
             "Maine ${sjc}",
             "Supreme Judicial Court Of Maine Eastern District Washington County",
-            "Supreme Judicial Court Of Maine For The Eastern District Washington County"
+            "Supreme Judicial Court Of Maine For The Eastern District Washington County",
+            "Supreme Court of Maine"
         ],
         "dates": [
             {
@@ -9664,9 +9686,9 @@
             "Court For Prince George's County Maryland"
         ],
         "type": "trial",
-        "id": "mdcrctct",
+        "id": "mdcirct",
         "location": "Maryland",
-        "citation_string": ""
+        "citation_string": "Cir. Ct. Md."
     },
     {
         "regex": [
@@ -10929,9 +10951,68 @@
         "examples": [],
         "court_url": "",
         "type": "appellate",
-        "id": "nev",
+        "id": "nevapp",
         "location": "Nevada",
         "citation_string": "Nev."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nevada District Courts",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "nevdistct",
+        "location": "Nevada",
+        "citation_string": "Nev. Dist. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nevada District Courts, 7th Judicial District",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "nevdistct7",
+        "group_id": "nevdistct",
+        "location": "Nevada",
+        "citation_string": "Nev. Dist. Ct., 7th Jud. Dist."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nevada District Court, Eureka County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "type": "trial",
+        "id": "nevdistct7eur",
+        "group_id": "nevdistct7",
+        "location": "Nevada",
+        "citation_string": "Nev. Dist. Ct., Eureka Cty."
     },
     {
         "regex": [
@@ -14576,7 +14657,8 @@
             "Tribunal Circu(í|i)to De Apelaciones",
             "Tribunal CircuíTo De Apelaciones",
             "Apelaciones De Puerto Rico",
-            "Estado Libre Asocian?do De Puerto Rico"
+            "Estado Libre Asocian?do De Puerto Rico",
+            "Puerto Rico Circuit Court of Appeals"
         ],
         "dates": [
             {
@@ -14592,7 +14674,8 @@
             "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam",
             "Tribunal Circuito Dé Apelaci",
             "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
-            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla"
+            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla",
+            "Puerto Rico Circuit Court of Appeals"
         ],
         "type": "appellate",
         "id": "prapp",
@@ -14626,10 +14709,8 @@
     },
     {
         "regex": [
-            "Supreme Court,? of Rhode Island",
-            "Supreme Court Rhode Island",
-            "Supreme Court Of Rhode Island Washington",
-            "State Of Rhode Island Supreme Court"
+            "Supreme Court,? ?(of)? Rhode Island ?(Washington)?",
+            "(State Of)? ?Rhode Island Supreme Court"
         ],
         "dates": [
             {
@@ -14892,11 +14973,11 @@
     },
     {
         "regex": [
-            "Supreme Court of South Dakota",
-            "Supreme Court South Dakota",
-            "Supreme Court Of Dakota In The District Court Of Bon Homme",
+            "Supreme Court ?(of)? South Dakota",
+            "Supreme Court of Dakota in the District Court of Bon Homme",
             "Supreme Court Of Dakota In The District Court Of Lawrence",
-            "Supreme Court Of Dakota In The District Court Of Lincoln"
+            "Supreme Court Of Dakota In The District Court Of Lincoln",
+            "South Dakota Supreme Court"
         ],
         "dates": [
             {
@@ -15588,29 +15669,6 @@
     },
     {
         "regex": [
-            "${usdc} ${wd} ${tx}",
-            "${wd} ${tx}",
-            "District Court Of United States Western District Of Texas"
-        ],
-        "dates": [
-            {
-                "start": "1984-04-01",
-                "end": null
-            }
-        ],
-        "name": "United States District Court, W.D. Texas",
-        "level": "",
-        "case_types": [],
-        "system": "federal",
-        "examples": [],
-        "court_url": "http://www.txwd.uscourts.gov/",
-        "type": "bankruptcy",
-        "id": "txwb",
-        "location": "Texas",
-        "citation_string": "Bankr. W.D. Tex."
-    },
-    {
-        "regex": [
             "${ed} Texas",
             "${usbced} Texas"
         ],
@@ -15800,7 +15858,8 @@
     {
         "regex": [
             "Supreme Court of Vermont",
-            "State Of Vermont Supreme Court"
+            "State Of Vermont Supreme Court",
+            "Vermont Supreme Court"
         ],
         "dates": [
             {
@@ -15816,9 +15875,6 @@
         "examples": [],
         "court_url": "http://www.vermontjudiciary.org/gtc/supreme/default.aspx",
         "type": "appellate",
-        "cites": [
-            "Vt"
-        ],
         "location": "Vermont",
         "citation_string": "Vt."
     },
@@ -15836,9 +15892,26 @@
         "level": "gjc",
         "case_types": [],
         "system": "state",
-        "id": "vt",
+        "id": "vtsuperct",
         "examples": [],
-        "court_url": "http://www.vermontjudiciary.org/gtc/supreme/default.aspx",
+        "type": "trial",
+        "location": "Vermont",
+        "citation_string": "Vt. Super. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Vermont District Court",
+        "level": "ljc",
+        "case_types": [],
+        "system": "state",
+        "id": "vtdistct",
+        "examples": [],
         "type": "trial",
         "location": "Vermont",
         "citation_string": "Vt."
@@ -16163,7 +16236,8 @@
     },
     {
         "regex": [
-            "${usdc} ${d} Washington"
+            "${usdc} ${d} Washington",
+            "Washington District Court"
         ],
         "dates": [
             {
@@ -16179,7 +16253,8 @@
         "appeal_to": "ca9",
         "system": "federal",
         "examples": [
-            "District Court D Washington"
+            "District Court D Washington",
+            "Washington District Court"
         ],
         "type": "trial",
         "id": "washd",
@@ -16425,6 +16500,25 @@
         "id": "wva",
         "location": "West Virginia",
         "citation_string": "W. Va."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1967-01-01",
+                "end": null
+            }
+        ],
+        "name": "West Virginia Court of Claims",
+        "level": "",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "court_url": "http://www.courtswv.gov/supreme-court/",
+        "type": "trial",
+        "id": "wvctcl",
+        "location": "West Virginia",
+        "citation_string": "W. Va. Ct. Cl."
     },
     {
         "regex": [
@@ -18044,7 +18138,7 @@
             "Supreme Court Of District Of Columbia"
         ],
         "type": "trial",
-        "id": "dc",
+        "id": "dcsupreme",
         "location": "Washington D.C.",
         "citation_string": "D.C."
     },
@@ -18231,7 +18325,8 @@
     },
     {
         "regex": [
-            "Municipal Court Of The Virgin Islands"
+            "Municipal Court Of The Virgin Islands",
+            "Virgin Islands Municipal Court"
         ],
         "name_abbreviation": "",
         "dates": [
@@ -18252,7 +18347,8 @@
     },
     {
         "regex": [
-            "Police Court Of The Virgin Islands"
+            "Police Court Of The Virgin Islands",
+            "Virgin Islands Police Court"
         ],
         "name_abbreviation": "",
         "dates": [
@@ -20147,7 +20243,7 @@
         "system": "federal",
         "location": "Alabama",
         "type": "appellate",
-        "id": "circtala",
+        "id": "circtdal",
         "examples": [],
         "citation_string": ""
     },
@@ -20170,7 +20266,7 @@
         "system": "federal",
         "location": "Alabama",
         "type": "appellate",
-        "id": "circtmidala",
+        "id": "circtmdal",
         "examples": [],
         "citation_string": ""
     },
@@ -20194,7 +20290,7 @@
         "system": "federal",
         "location": "Alabama",
         "type": "appellate",
-        "id": "circtnala",
+        "id": "circtndal",
         "examples": [],
         "citation_string": ""
     },
@@ -20216,7 +20312,7 @@
         "system": "federal",
         "location": "Alabama",
         "type": "appellate",
-        "id": "circtsala",
+        "id": "circtsdal",
         "examples": [],
         "citation_string": ""
     },
@@ -20241,7 +20337,7 @@
         "system": "federal",
         "location": "Arkansas",
         "type": "appellate",
-        "id": "circtark",
+        "id": "circtdar",
         "examples": [],
         "citation_string": ""
     },
@@ -20264,7 +20360,7 @@
         "system": "federal",
         "location": "Arkansas",
         "type": "appellate",
-        "id": "circteark",
+        "id": "circtedar",
         "examples": [],
         "citation_string": ""
     },
@@ -20287,7 +20383,7 @@
         "system": "federal",
         "location": "Arkansas",
         "type": "appellate",
-        "id": "circtwark",
+        "id": "circtwdar",
         "examples": [],
         "citation_string": ""
     },
@@ -20309,7 +20405,7 @@
         "system": "federal",
         "location": "Arkansas",
         "type": "appellate",
-        "id": "circtterrofark",
+        "id": "circtdterrar",
         "examples": [],
         "citation_string": ""
     },
@@ -20332,7 +20428,7 @@
         "system": "federal",
         "location": "California",
         "type": "appellate",
-        "id": "caca",
+        "id": "circtdca",
         "examples": [],
         "citation_string": "C. Cal."
     },
@@ -20355,7 +20451,7 @@
         "system": "federal",
         "location": "California",
         "type": "appellate",
-        "id": "circtncal",
+        "id": "circtndca",
         "examples": [],
         "citation_string": ""
     },
@@ -20377,7 +20473,7 @@
         "system": "federal",
         "location": "California",
         "type": "appellate",
-        "id": "circtscal",
+        "id": "circtsdca",
         "examples": [],
         "citation_string": ""
     },
@@ -20400,7 +20496,7 @@
         "system": "federal",
         "location": "South Carolina",
         "type": "appellate",
-        "id": "circtscarolina",
+        "id": "circtdsc",
         "examples": [],
         "citation_string": ""
     },
@@ -20422,7 +20518,7 @@
         "system": "federal",
         "location": "Colorado",
         "type": "appellate",
-        "id": "circtcolorado",
+        "id": "circtdco",
         "examples": [],
         "citation_string": ""
     },
@@ -20445,7 +20541,7 @@
         "system": "federal",
         "location": "Washington D.C.",
         "type": "appellate",
-        "id": "circtdc",
+        "id": "circtddc",
         "examples": [],
         "citation_string": ""
     },
@@ -20468,7 +20564,7 @@
         "system": "federal",
         "location": "Connecticut",
         "type": "appellate",
-        "id": "circtconn",
+        "id": "circtdct",
         "examples": [
             "United States Circuit Court For The District Of Connecticut"
         ],
@@ -20492,7 +20588,7 @@
         "system": "federal",
         "location": "North Dakota",
         "type": "appellate",
-        "id": "circtndakota",
+        "id": "circtdnd",
         "examples": [],
         "citation_string": ""
     },
@@ -20514,7 +20610,7 @@
         "system": "federal",
         "location": "South Dakota",
         "type": "appellate",
-        "id": "circtsdakota",
+        "id": "circtdsd",
         "examples": [],
         "citation_string": ""
     },
@@ -20548,30 +20644,9 @@
     },
     {
         "regex": [
-            "Circuit Court N D Florida"
-        ],
-        "name_abbreviation": "N. Fla. Cir. Ct",
-        "dates": [
-            {
-                "start": "1862-01-01",
-                "end": "1911-12-31"
-            }
-        ],
-        "name": "U.S. Circuit Court for the District of Northern Florida",
-        "active": false,
-        "level": "iac",
-        "case_types": [],
-        "system": "federal",
-        "location": "Florida",
-        "type": "appellate",
-        "id": "circtnfla",
-        "examples": [],
-        "citation_string": ""
-    },
-    {
-        "regex": [
             "Circuit Court S D Fla",
-            "Circuit Court S D Florida"
+            "Circuit Court S D Florida",
+            "United States Circuit Court for the Southern District of Florida"
         ],
         "name_abbreviation": "S. Fla. Cir. Ct",
         "dates": [
@@ -20580,16 +20655,45 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Southern Florida",
+        "name": "United States Circuit Court for the Southern District of Florida",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Florida",
         "type": "appellate",
-        "id": "circtsfla",
+        "id": "circtsdfl",
         "examples": [],
-        "citation_string": ""
+        "citation_string": "C.C.S.D. Fla."
+    },
+    {
+        "regex": [
+            "United States Circuit Court for the District of Florida",
+            "United States Circuit Court for the Western District of Florida",
+            "United States Circuit Court for the Northern District of Florida"
+        ],
+        "name_abbreviation": "U.S. Cir. Ct. N. D. Fla",
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "United States Circuit Court for the Northern District of Florida",
+        "active": false,
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "Florida",
+        "type": "appellate",
+        "id": "circtndfl",
+        "examples": [
+          "United States Circuit Court for the Western District of Florida",
+          "United States Circuit Court for the District of Florida",
+          "United States Circuit Court for the Northern District of Florida"
+        ],
+        "notes": "This has been mistakenly identified as the Western District in Federal Cases Reporter in the 1890s",
+        "citation_string": "C.C.N.D. Fla."
     },
     {
         "regex": [
@@ -20609,7 +20713,7 @@
         "system": "federal",
         "location": "Georgia",
         "type": "appellate",
-        "id": "circtga",
+        "id": "circtdga",
         "examples": [],
         "citation_string": ""
     },
@@ -20624,14 +20728,14 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Northern Georgia",
+        "name": "U.S. Circuit Court for the Northern District of Georgia",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Georgia",
         "type": "appellate",
-        "id": "circtnga",
+        "id": "circtndga",
         "examples": [],
         "citation_string": ""
     },
@@ -20646,14 +20750,14 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Southern Georgia",
+        "name": "U.S. Circuit Court for the Southern District of Georgia",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Georgia",
         "type": "appellate",
-        "id": "circtsga",
+        "id": "circtsdga",
         "examples": [],
         "citation_string": ""
     },
@@ -20675,7 +20779,7 @@
         "system": "federal",
         "location": "New Hampshire",
         "type": "appellate",
-        "id": "circtnh",
+        "id": "circtdnh",
         "examples": [],
         "citation_string": ""
     },
@@ -20698,7 +20802,7 @@
         "system": "federal",
         "location": "Idaho",
         "type": "appellate",
-        "id": "circtidaho",
+        "id": "circtdid",
         "examples": [],
         "citation_string": ""
     },
@@ -20720,14 +20824,13 @@
         "system": "federal",
         "location": "Illinois",
         "type": "appellate",
-        "id": "circtill",
+        "id": "circtdil",
         "examples": [],
         "citation_string": ""
     },
     {
         "regex": [
-            "Circuit Court E D Ill",
-            "Circuit Court E D Illinois"
+            "Circuit Court E D Ill(inois)?"
         ],
         "name_abbreviation": "E. Ill. Cir. Ct",
         "dates": [
@@ -20736,14 +20839,14 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Eastern Illinois",
+        "name": "U.S. Circuit Court for the Eastern District of Illinois",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Illinois",
         "type": "appellate",
-        "id": "circteill",
+        "id": "circtedil",
         "examples": [],
         "citation_string": ""
     },
@@ -20758,14 +20861,14 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Northern Illnois",
+        "name": "U.S. Circuit Court for the Northern District of Illnois",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Illinois",
         "type": "appellate",
-        "id": "circtnill",
+        "id": "circtndil",
         "examples": [],
         "citation_string": ""
     },
@@ -20780,14 +20883,14 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Southern Illnois",
+        "name": "U.S. Circuit Court for the Southern District of Illnois",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Illinois",
         "type": "appellate",
-        "id": "circtsill",
+        "id": "circtsdil",
         "examples": [],
         "citation_string": ""
     },
@@ -20809,7 +20912,7 @@
         "system": "federal",
         "location": "Indiana",
         "type": "appellate",
-        "id": "circtindiana",
+        "id": "circtdin",
         "examples": [],
         "citation_string": ""
     },
@@ -20833,7 +20936,7 @@
         "system": "federal",
         "location": "Iowa",
         "type": "appellate",
-        "id": "circtniowa",
+        "id": "circtnia",
         "examples": [
             "Circuit Court C D Iowa N D"
         ],
@@ -20850,14 +20953,14 @@
                 "end": "1911-12-31"
             }
         ],
-        "name": "U.S. Circuit Court for the District of Southern Iowa",
+        "name": "U.S. Circuit Court for the Southern District of Iowa",
         "active": false,
         "level": "iac",
         "case_types": [],
         "system": "federal",
         "location": "Iowa",
         "type": "appellate",
-        "id": "circtsiowa",
+        "id": "circtsdia",
         "examples": [],
         "citation_string": ""
     },
@@ -20879,7 +20982,7 @@
         "system": "federal",
         "location": "Iowa",
         "type": "appellate",
-        "id": "circtiowa",
+        "id": "circtdia",
         "examples": [],
         "citation_string": ""
     },
@@ -20902,7 +21005,7 @@
         "system": "federal",
         "location": "Rhode Island",
         "type": "appellate",
-        "id": "circtri",
+        "id": "circtdri",
         "examples": [],
         "citation_string": ""
     },
@@ -20925,7 +21028,7 @@
         "system": "federal",
         "location": "New Jersey",
         "type": "appellate",
-        "id": "circtnewjersey",
+        "id": "circtdnj",
         "examples": [],
         "citation_string": ""
     },
@@ -20949,7 +21052,7 @@
         "system": "federal",
         "location": "Kansas",
         "type": "appellate",
-        "id": "circtkansas",
+        "id": "circtdks",
         "examples": [
             "Circuit Court Kansas First Division"
         ],
@@ -20973,7 +21076,7 @@
         "system": "federal",
         "location": "Kentucky",
         "type": "appellate",
-        "id": "circteky",
+        "id": "circtedky",
         "examples": [],
         "citation_string": ""
     },
@@ -20995,7 +21098,7 @@
         "system": "federal",
         "location": "Kentucky",
         "type": "appellate",
-        "id": "circtky",
+        "id": "circtdky",
         "examples": [],
         "citation_string": ""
     },
@@ -21017,7 +21120,7 @@
         "system": "federal",
         "location": "Kentucky",
         "type": "appellate",
-        "id": "circtwky",
+        "id": "circtwdky",
         "examples": [],
         "citation_string": ""
     },
@@ -21039,7 +21142,7 @@
         "system": "federal",
         "location": "Louisiana",
         "type": "appellate",
-        "id": "circtela",
+        "id": "circtedla",
         "examples": [],
         "citation_string": ""
     },
@@ -21062,7 +21165,7 @@
         "system": "federal",
         "location": "Louisiana",
         "type": "appellate",
-        "id": "circtla",
+        "id": "circtdla",
         "examples": [],
         "citation_string": ""
     },
@@ -21084,7 +21187,7 @@
         "system": "federal",
         "location": "Louisiana",
         "type": "appellate",
-        "id": "circtwla",
+        "id": "circtwdla",
         "examples": [],
         "citation_string": ""
     },
@@ -21106,7 +21209,7 @@
         "system": "federal",
         "location": "Maine",
         "type": "appellate",
-        "id": "circtmaine",
+        "id": "circtdme",
         "examples": [],
         "citation_string": ""
     },
@@ -21130,7 +21233,7 @@
         "system": "federal",
         "location": "Maryland",
         "type": "appellate",
-        "id": "circtmaryland",
+        "id": "circtdmd",
         "examples": [],
         "citation_string": ""
     },
@@ -21154,7 +21257,7 @@
         "system": "federal",
         "location": "Massachusetts",
         "type": "appellate",
-        "id": "circtmass",
+        "id": "circtdma",
         "examples": [
             "Circuit Court Of U S Massachusetts District Equity Term"
         ],
@@ -21178,7 +21281,7 @@
         "system": "federal",
         "location": "Michigan",
         "type": "appellate",
-        "id": "circtemich",
+        "id": "circtedmi",
         "examples": [],
         "citation_string": ""
     },
@@ -21201,7 +21304,7 @@
         "system": "federal",
         "location": "Michigan",
         "type": "appellate",
-        "id": "circtwmich",
+        "id": "circtwdmi",
         "examples": [],
         "citation_string": ""
     },
@@ -21223,7 +21326,7 @@
         "system": "federal",
         "location": "Michigan",
         "type": "appellate",
-        "id": "circtmich",
+        "id": "circtdmi",
         "examples": [],
         "citation_string": ""
     },
@@ -21245,7 +21348,7 @@
         "system": "federal",
         "location": "Minnesota",
         "type": "appellate",
-        "id": "circtminnesota",
+        "id": "circtdmn",
         "examples": [],
         "citation_string": ""
     },
@@ -21267,7 +21370,7 @@
         "system": "federal",
         "location": "Mississippi",
         "type": "appellate",
-        "id": "circtnmiss",
+        "id": "circtndms",
         "examples": [],
         "citation_string": ""
     },
@@ -21289,7 +21392,7 @@
         "system": "federal",
         "location": "Mississippi",
         "type": "appellate",
-        "id": "circtsmiss",
+        "id": "circtsdms",
         "examples": [],
         "citation_string": ""
     },
@@ -21313,7 +21416,7 @@
         "system": "federal",
         "location": "Missouri",
         "type": "appellate",
-        "id": "circtemo",
+        "id": "circtedmo",
         "examples": [],
         "citation_string": ""
     },
@@ -21335,7 +21438,7 @@
         "system": "federal",
         "location": "Missouri",
         "type": "appellate",
-        "id": "circtmo",
+        "id": "circtdmo",
         "examples": [],
         "citation_string": ""
     },
@@ -21358,7 +21461,7 @@
         "system": "federal",
         "location": "Missouri",
         "type": "appellate",
-        "id": "circtwmo",
+        "id": "circtwdmo",
         "examples": [],
         "citation_string": ""
     },
@@ -21380,7 +21483,7 @@
         "system": "federal",
         "location": "Montana",
         "type": "appellate",
-        "id": "circtmontana",
+        "id": "circtdmt",
         "examples": [],
         "citation_string": ""
     },
@@ -21402,7 +21505,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtenc",
+        "id": "circtednc",
         "examples": [],
         "citation_string": ""
     },
@@ -21466,7 +21569,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtedentonnc",
+        "id": "circtdedenton",
         "examples": [],
         "citation_string": ""
     },
@@ -21485,7 +21588,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtnewbernnc",
+        "id": "circtdnewbern",
         "examples": [],
         "citation_string": ""
     },
@@ -21504,7 +21607,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtwilmington",
+        "id": "circtdwilmington",
         "examples": [],
         "citation_string": ""
     },
@@ -21523,7 +21626,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtalbermarle",
+        "id": "circtdalb",
         "examples": [],
         "citation_string": ""
     },
@@ -21542,7 +21645,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtpampticonc",
+        "id": "circtdpamptico",
         "examples": [],
         "citation_string": ""
     },
@@ -21564,7 +21667,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtwnc",
+        "id": "circtwdnc",
         "examples": [],
         "citation_string": ""
     },
@@ -21588,7 +21691,7 @@
         "system": "federal",
         "location": "Nebraska",
         "type": "appellate",
-        "id": "circtnebraska",
+        "id": "circtdne",
         "examples": [],
         "citation_string": ""
     },
@@ -21610,7 +21713,7 @@
         "system": "federal",
         "location": "Nevada",
         "type": "appellate",
-        "id": "circtnevada",
+        "id": "circtdnv",
         "examples": [],
         "citation_string": ""
     },
@@ -21632,7 +21735,7 @@
         "system": "federal",
         "location": "Ohio",
         "type": "appellate",
-        "id": "circtnohio",
+        "id": "circtndoh",
         "examples": [],
         "citation_string": ""
     },
@@ -21655,7 +21758,7 @@
         "system": "federal",
         "location": "Ohio",
         "type": "appellate",
-        "id": "circtsohio",
+        "id": "circtsdoh",
         "examples": [],
         "citation_string": ""
     },
@@ -21679,7 +21782,7 @@
         "system": "federal",
         "location": "Ohio",
         "type": "appellate",
-        "id": "circtohio",
+        "id": "circtdoh",
         "examples": [
             "State Of Ohio U S Circuit Court"
         ],
@@ -21703,7 +21806,7 @@
         "system": "federal",
         "location": "Oklahoma",
         "type": "appellate",
-        "id": "circteokla",
+        "id": "circtedok",
         "examples": [],
         "citation_string": ""
     },
@@ -21726,7 +21829,7 @@
         "system": "federal",
         "location": "Oklahoma",
         "type": "appellate",
-        "id": "circtwokla",
+        "id": "circtwdok",
         "examples": [],
         "citation_string": ""
     },
@@ -21749,7 +21852,7 @@
         "system": "federal",
         "location": "Oregon",
         "type": "appellate",
-        "id": "circtoregon",
+        "id": "circtdor",
         "examples": [],
         "citation_string": ""
     },
@@ -21771,7 +21874,7 @@
         "system": "federal",
         "location": "Pennsylvania",
         "type": "appellate",
-        "id": "circtepa",
+        "id": "circtedpa",
         "examples": [],
         "citation_string": ""
     },
@@ -21793,7 +21896,7 @@
         "system": "federal",
         "location": "Pennsylvania",
         "type": "appellate",
-        "id": "circtmidpa",
+        "id": "circtmdpa",
         "examples": [],
         "citation_string": ""
     },
@@ -21818,7 +21921,7 @@
         "system": "federal",
         "location": "Pennsylvania",
         "type": "appellate",
-        "id": "circtpa",
+        "id": "circtdpa",
         "examples": [
             "Circuit Court D Pennsylvania"
         ],
@@ -21842,7 +21945,7 @@
         "system": "federal",
         "location": "Pennsylvania",
         "type": "appellate",
-        "id": "circtwpa",
+        "id": "circtwdpa",
         "examples": [],
         "citation_string": ""
     },
@@ -21866,7 +21969,7 @@
         "system": "federal",
         "location": "Tennessee",
         "type": "appellate",
-        "id": "circtetenn",
+        "id": "circtedtn",
         "examples": [],
         "citation_string": ""
     },
@@ -21889,7 +21992,7 @@
         "system": "federal",
         "location": "Tennessee",
         "type": "appellate",
-        "id": "circtmtenn",
+        "id": "circtmdtn",
         "examples": [],
         "citation_string": ""
     },
@@ -21934,7 +22037,7 @@
         "system": "federal",
         "location": "Tennessee",
         "type": "appellate",
-        "id": "circtwtenn",
+        "id": "circtwdtn",
         "examples": [],
         "citation_string": ""
     },
@@ -21956,7 +22059,7 @@
         "system": "federal",
         "location": "Texas",
         "type": "appellate",
-        "id": "circtetex",
+        "id": "circtdtx",
         "examples": [
             "Circuit Court D Texas"
         ],
@@ -21981,7 +22084,7 @@
         "system": "federal",
         "location": "Texas",
         "type": "appellate",
-        "id": "circtetex",
+        "id": "circtedtx",
         "examples": [],
         "citation_string": ""
     },
@@ -22003,7 +22106,7 @@
         "system": "federal",
         "location": "Texas",
         "type": "appellate",
-        "id": "circtntex",
+        "id": "circtndtx",
         "examples": [],
         "citation_string": ""
     },
@@ -22025,7 +22128,7 @@
         "system": "federal",
         "location": "Texas",
         "type": "appellate",
-        "id": "circtstex",
+        "id": "circtsdtex",
         "examples": [],
         "citation_string": ""
     },
@@ -22047,7 +22150,7 @@
         "system": "federal",
         "location": "Texas",
         "type": "appellate",
-        "id": "circtwtex",
+        "id": "circtwdtex",
         "examples": [],
         "citation_string": ""
     },
@@ -22069,7 +22172,7 @@
         "system": "federal",
         "location": "Utah",
         "type": "appellate",
-        "id": "circtutah",
+        "id": "circtdut",
         "examples": [],
         "citation_string": ""
     },
@@ -22093,7 +22196,7 @@
         "system": "federal",
         "location": "Virginia",
         "type": "appellate",
-        "id": "circtva",
+        "id": "circtdva",
         "examples": [],
         "citation_string": ""
     },
@@ -22115,7 +22218,7 @@
         "system": "federal",
         "location": "Virginia",
         "type": "appellate",
-        "id": "circteva",
+        "id": "circtedva",
         "examples": [],
         "citation_string": ""
     },
@@ -22138,7 +22241,7 @@
         "system": "federal",
         "location": "Virginia",
         "type": "appellate",
-        "id": "circtwva",
+        "id": "circtwdva",
         "examples": [],
         "citation_string": ""
     },
@@ -22160,7 +22263,7 @@
         "system": "federal",
         "location": "West Virginia",
         "type": "appellate",
-        "id": "circtnwestva",
+        "id": "circtndwv",
         "examples": [],
         "citation_string": ""
     },
@@ -22182,7 +22285,7 @@
         "system": "federal",
         "location": "West Virginia",
         "type": "appellate",
-        "id": "circtswestva",
+        "id": "circtsdwv",
         "examples": [],
         "citation_string": ""
     },
@@ -22204,7 +22307,7 @@
         "system": "federal",
         "location": "West Virginia",
         "type": "appellate",
-        "id": "circtwestva",
+        "id": "circtdwv",
         "examples": [],
         "citation_string": ""
     },
@@ -22226,14 +22329,15 @@
         "system": "federal",
         "location": "Vermont",
         "type": "appellate",
-        "id": "circtvermont",
+        "id": "circtdvt",
         "examples": [],
         "citation_string": ""
     },
     {
         "regex": [
             "Circuit Court E D Wash",
-            "Circuit Court E Washington N D"
+            "Circuit Court E Washington N D",
+            "United States District Court for the Eastern District of Washington"
         ],
         "name_abbreviation": "E. Wash. Cir. Ct",
         "dates": [
@@ -22249,13 +22353,14 @@
         "system": "federal",
         "location": "Washington",
         "type": "appellate",
-        "id": "circtewash",
+        "id": "circtedwa",
         "examples": [],
         "citation_string": ""
     },
     {
         "regex": [
-            "Circuit Court D Wash"
+            "Circuit Court D Wash",
+            "United States Circuit Court for the Northern District of Washington"
         ],
         "name_abbreviation": "Wash. Cir. Ct",
         "dates": [
@@ -22271,7 +22376,7 @@
         "system": "federal",
         "location": "Washington",
         "type": "appellate",
-        "id": "circtwash",
+        "id": "circtdwa",
         "examples": [],
         "citation_string": ""
     },
@@ -22293,7 +22398,7 @@
         "system": "federal",
         "location": "Washington",
         "type": "appellate",
-        "id": "circtwwash",
+        "id": "circtwdwa",
         "examples": [],
         "citation_string": ""
     },
@@ -22315,7 +22420,7 @@
         "system": "federal",
         "location": "Wisconsin",
         "type": "appellate",
-        "id": "circtewis",
+        "id": "circtedwi",
         "examples": [],
         "citation_string": ""
     },
@@ -22338,7 +22443,7 @@
         "system": "federal",
         "location": "Wisconsin",
         "type": "appellate",
-        "id": "circtwwis",
+        "id": "circtwdwi",
         "examples": [],
         "citation_string": ""
     },
@@ -22361,7 +22466,7 @@
         "system": "federal",
         "location": "Wisconsin",
         "type": "appellate",
-        "id": "circtwis",
+        "id": "circtdwi",
         "examples": [],
         "citation_string": ""
     },
@@ -22384,7 +22489,7 @@
         "system": "federal",
         "location": "Wyoming",
         "type": "appellate",
-        "id": "circtwyoming",
+        "id": "circtdwy",
         "examples": [],
         "citation_string": ""
     },
@@ -22407,7 +22512,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtalbanyny",
+        "id": "circtdalbanyny",
         "examples": [],
         "citation_string": ""
     },
@@ -22430,7 +22535,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circteasternny",
+        "id": "circtedny",
         "examples": [],
         "citation_string": ""
     },
@@ -22454,7 +22559,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtnorthernny",
+        "id": "circtndny",
         "examples": [],
         "citation_string": ""
     },
@@ -22479,7 +22584,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtsouthernny",
+        "id": "circtsdny",
         "examples": [],
         "citation_string": ""
     },
@@ -22502,7 +22607,7 @@
         "system": "federal",
         "location": "New York",
         "type": "appellate",
-        "id": "circtwesternny",
+        "id": "circtwdny",
         "examples": [],
         "citation_string": ""
     },
