@@ -9282,7 +9282,7 @@
     },
     {
         "regex": [
-            "Superior Court Of The State Of Louisiana"
+            "Superior Court of the State of Louisiana"
         ],
         "dates": [
             {
@@ -9290,7 +9290,7 @@
                 "end": null
             }
         ],
-        "name": "Superior Court Of The State Of Louisiana",
+        "name": "Superior Court of The State of Louisiana",
         "level": "gjc",
         "case_types": [],
         "system": "state",
@@ -9300,7 +9300,7 @@
         "type": "trial",
         "id": "lasuperct",
         "location": "Louisiana",
-        "citation_string": ""
+        "citation_string": "Super. Ct. La."
     },
     {
         "regex": [
@@ -9686,9 +9686,9 @@
             "Court For Prince George's County Maryland"
         ],
         "type": "trial",
-        "id": "mdcrctct",
+        "id": "mdcirct",
         "location": "Maryland",
-        "citation_string": ""
+        "citation_string": "Cir. Ct. Md."
     },
     {
         "regex": [
