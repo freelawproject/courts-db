@@ -85,7 +85,8 @@
     {
         "regex": [
             "${coa} Alabama",
-            "State of Alabama ${coa}"
+            "State of Alabama ${coa}",
+            "Alabama Court of Appeals"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2378,7 +2379,8 @@
             "Superior Court Of Delaware",
             "Superior Of Court Delaware New Castle",
             "Superior Of Delaware Kent",
-            "Superior Court Of The State Of Delaware"
+            "Superior Court Of The State Of Delaware",
+            "Delaware Superior Court"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -2530,7 +2532,7 @@
     {
         "regex": [
             "Court on the Judiciary of Delaware",
-            "Delaware Court on the Judiciary"
+            "Delaware Court o(n|f) the Judiciary"
         ],
         "dates": [
             {
@@ -2551,7 +2553,8 @@
     },
     {
         "regex": [
-            "Orphans Court Of Delaware"
+            "Orphans Court Of Delaware",
+            "Delaware Orphans Court"
         ],
         "dates": [
             {
@@ -2564,7 +2567,8 @@
         "case_types": [],
         "system": "state",
         "examples": [
-            "Orphans Court Of Delaware"
+            "Orphans Court Of Delaware",
+            "Delaware Orphans' Court"
         ],
         "type": null,
         "id": "delorphct",
@@ -7000,7 +7004,9 @@
         "citation_string": ""
     },
     {
-        "regex": [],
+        "regex": [
+          "Miami Beach Municipal Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7040,7 +7046,9 @@
         "group_id": "flamunict"
     },
     {
-        "regex": [],
+        "regex": [
+          "Miami Municipal Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7082,7 +7090,9 @@
         "group_id": null
     },
     {
-        "regex": [],
+        "regex": [
+          "Florida Department of Health and Rehabilitative Services"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7102,7 +7112,9 @@
         "group_id": null
     },
     {
-        "regex": [],
+        "regex": [
+          "Jacksonville Civil Service Board"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7122,7 +7134,9 @@
         "group_id": null
     },
     {
-        "regex": [],
+        "regex": [
+          "State of Florida Department of Environmental Regulation"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7142,7 +7156,9 @@
         "group_id": null
     },
     {
-        "regex": [],
+        "regex": [
+          "State of Florida Department of Revenue"
+        ],
         "dates": [
             {
                 "start": null,
@@ -7162,7 +7178,9 @@
         "group_id": null
     },
     {
-        "regex": [],
+        "regex": [
+          "State of Florida Division of Administrative Hearings"
+        ],
         "dates": [
             {
                 "start": null,
@@ -8885,7 +8903,7 @@
             "{coa} Kansas",
             "Court Of Appeals? Of Kansas",
             "Court Of Appeals Of The State Of Kansas",
-            "Kansas Court of Appeals "
+            "Kansas Court of Appeals"
         ],
         "dates": [
             {
@@ -10315,7 +10333,8 @@
             "State of Mississippi ${sup}",
             "High Court of Errors and Appeals, Mississippi",
             "Superior Court of Mississippi",
-            "Supreme Court Of Mississippi"
+            "Supreme Court Of Mississippi",
+            "Mississippi Supreme Court"
         ],
         "dates": [
             {
@@ -10456,7 +10475,7 @@
             "Missouri Court of Appeals",
             "St Louis Court of Appeals",
             "Kansas City (of)? ?Court of appeals",
-            "Springfield Court of appeals",
+            "Springfiel?d Court of appeals",
             "St Louis Court Of Appeals Missouri",
             "State Of Missouri St Louis Court Of Appeals",
             "Court Of Appeals? Of Missouri",
@@ -11354,8 +11373,7 @@
     },
     {
         "regex": [
-            "Court Of Oyer And Terminer of Pennsylvania",
-            "Court Of Oyer And Terminer At Philadelphia"
+            "Court Of Oyer And Terminer (of|at) (Pennsylvania|Philadelphia)"
         ],
         "dates": [
             {
@@ -14335,7 +14353,9 @@
     {
         "regex": [
             "Court of Judicial Discipline of Pennsylvania",
-            "Commonwealth Of Pennsylvania Court Of Judicial Discipline"
+            "Commonwealth Of Pennsylvania Court Of Judicial Discipline",
+            "Pennsylvania Court of Judicial Discipline",
+            "Special Tribunal of Pennsylvania"
         ],
         "dates": [
             {
@@ -14348,9 +14368,9 @@
         "case_types": [],
         "system": "state",
         "examples": [],
-        "court_url": "http://www.pacourts.us/courts/court-of-judicial-discipline‎",
+        "court_url": "http://www.pacourts.us/courts/court-of-judicial-discipline",
         "type": "appellate",
-        "id": "cjdpa",
+        "id": "ctjuddiscplpa",
         "location": "Pennsylvania",
         "citation_string": "Ct. Jud. Disc. Pa"
     },
@@ -15388,7 +15408,9 @@
         "notes": "This court reviews recommendation for removal or retirement of a judge. Selected from appellate judges by the Chief Justice"
     },
     {
-        "regex": [],
+        "regex": [
+            "Texas Commission of Appeals"
+        ],
         "dates": [
             {
                 "start": "1918-01-01",
