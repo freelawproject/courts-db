@@ -1546,7 +1546,9 @@
             "Court Of Appeal Fo California",
             "Court Of Appeal Of California Third Appellate District Nevada",
             "Court Of Appeal ${bw} Appellate District Division",
-            "Court Of Appeals Of California Third Appellate District"
+            "Court Of Appeals Of California Third Appellate District",
+            "Distri?ct Court of Appeal of the State of California",
+            "Court of Appeal of the State of California"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1599,7 +1601,8 @@
             "Appellate Department Of The Superior Court Of California",
             "State Of California Appellate Department",
             "Court Of Appeal Superior Court California",
-            "Appellate Department Superior Court"
+            "Appellate Department Superior Court",
+            "Appellate Division of the Superior Court of the State of California"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -11993,13 +11996,11 @@
             "County Court Lawrence County",
             "County Court Schenectay County",
             "Nassau County Court",
-            "Supreme Court Of New York County Court Monroe County",
             "County Court Of The City Of New York Genesee County",
             "County Court Of The City Of New York Nassau County",
             "County Court Of The State Of New York County Of Schoharie",
             "Court Of New York Special Term Brooklyn County",
-            "Supereme Court Of New York Special Term",
-            "New York County CourtZ",
+            "New York County Court",
             "Criminal Court Bronx County",
             "County Court Of New York General Sessions",
             "County Court Of New York General Sessions New York County",
@@ -12297,7 +12298,7 @@
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SURROGATES.shtml",
         "active": true,
         "type": "trial",
-        "id": "nysurgct",
+        "id": "nysurct",
         "location": "New York",
         "citation_string": ""
     },
@@ -12341,7 +12342,7 @@
             "Civil Court Of City Of New York Special Term"
         ],
         "type": "trial",
-        "id": "civctnyc",
+        "id": "nycivct",
         "location": "New York",
         "citation_string": ""
     },
