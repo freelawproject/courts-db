@@ -12526,6 +12526,29 @@
     },
     {
         "regex": [
+            "New York Court for the Correction of Errors"
+        ],
+        "dates": [
+            {
+                "start": "1777-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "Court for the Trial of Impeachments and Correction of Errors",
+        "level": "colr",
+        "case_types": [],
+        "system": "state",
+        "court_url": "",
+        "examples": [
+            "New York Court for the Correction of Errors"
+        ],
+        "type": "appellate",
+        "id": "nycterr",
+        "location": "New York",
+        "citation_string": "N.Y. Ct. Corr. Err."
+    },
+    {
+        "regex": [
             "Supreme Court (${bw})? ?(Trial|Special|General|Equity|Civil) Term",
             "Supreme Court of Nisi Prius New York",
             "Supreme Court ${ny_counties} County",
