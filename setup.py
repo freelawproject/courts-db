@@ -2,7 +2,7 @@ import codecs
 import os
 from setuptools import setup, find_packages
 
-VERSION = "0.9.30"
+VERSION = "0.9.31"
 AUTHOR = "Free Law Project"
 EMAIL = "info@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
