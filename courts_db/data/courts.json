@@ -1497,10 +1497,6 @@
     },
     {
         "regex": [
-            "State Of California Superior Court County Of Los Angeles",
-            "State Of California Superior Court In And For The City And County Of San Francisco",
-            "Superior Court Los Angeles County California",
-            "California Superior Court County Of Los Angeles",
             "California Trial Court In The Superior Court Of The State Of California",
             "California Trial Court Superior Court Of California",
             "California Trial Court Superior Court Of The State Of California",
@@ -1519,11 +1515,7 @@
         "case_types": [],
         "jurisdiction": "C.A.",
         "system": "state",
-        "examples": [
-            "State Of California Superior Court County Of Los Angeles",
-            "State Of California Superior Court In And For The City And County Of San Francisco",
-            "California Trial Court In The Superior Court Of The State Of California In And For The County Of Alameda County Northern Division Unlimited Jurisdiction"
-        ],
+        "examples": [],
         "type": "trial",
         "id": "calsuperct",
         "location": "California",
@@ -1531,24 +1523,10 @@
     },
     {
         "regex": [
-            "District ${coa}.* District.* California",
-            "California? ${coa}(.* Appellate District)?",
-            "${coa} ${bw} District California",
-            "State of California District ${coa}",
-            "California ${bw} Appellate District Division",
-            "California District Court Of Appeal",
-            "Court Of Appeal First District Division [1-8] California",
-            "Court Of Appeal ${bw} District Division ${bw} California",
-            "Court Of Appeal Fourth District Division [1-8]",
-            "Court Of Appeal (First|Second|Third|Fourth|Fifth|Sixth) District Division( [1-8] California)?",
-            "Court Of Appeal Of California",
-            "Court Of Appeal California",
-            "Court Of Appeal Fo California",
-            "Court Of Appeal Of California Third Appellate District Nevada",
-            "Court Of Appeal ${bw} Appellate District Division",
-            "Court Of Appeals Of California Third Appellate District",
-            "Distri?ct Court of Appeal of the State of California",
-            "Court of Appeal of the State of California"
+            "California District Court of Appeal",
+            "Court of Appeal of California",
+            "Court of Appeal of the State of California",
+            "California Court of Appeal"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -1564,16 +1542,7 @@
         "system": "state",
         "locations": 6,
         "examples": [
-            "District Court Of Appeal Second District Division 3 California",
-            "Court Of Appeal First District Division 4 California",
-            "Court Of Appeal Fourth District Division 3",
-            "State Of California District Court Of Appeal Second",
-            "Court Of Appeal Second District California Division 8",
-            "Court Of Appeal First District Division 1 California",
-            "Court Of Appeal Of California ${bw} Appellate District Division",
-            "Court Of Appeal Of California",
-            "Court Of Appeal Of California Third Appellate District Nevada",
-            "Court Of Appeals Of California Third Appellate District"
+            "Court Of Appeal Of California"
         ],
         "court_url": "http://www.courts.ca.gov/courtsofappeal.htm",
         "type": "appellate",
@@ -1588,6 +1557,202 @@
         ],
         "location": "California",
         "citation_string": "Cal. Ct. App."
+    },
+    {
+        "regex": [
+          "Court of Appeal, First Appellate District",
+          "Court of Appeal, First District, California",
+          "Court of Appeal, First District, Division [1-5], California"
+        ],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": "1905-01-01",
+                "end": null
+            }
+        ],
+        "name": "California Court of Appeal, First Appellate District",
+        "level": "iac",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "https://www.courts.ca.gov/1dca.htm",
+        "type": "appellate",
+        "id": "calctapp1dist",
+        "location": "California",
+        "parent": "calctapp"
+    },
+    {
+        "regex": [
+          "Court of Appeal, Second District, California",
+          "Court of Appeal, Second District, Division [1-8], California"
+        ],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": "1905-01-01",
+                "end": null
+            }
+        ],
+        "name": "California Court of Appeal, Second Appellate District",
+        "level": "iac",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "https://www.courts.ca.gov/2dca.htm",
+        "type": "appellate",
+        "id": "calctapp2dist",
+        "location": "California",
+        "parent": "calctapp"
+    },
+    {
+        "regex": [
+          "Court of Appeal, Third District, California"
+        ],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": "1905-01-01",
+                "end": null
+            }
+        ],
+        "name": "California Court of Appeal, Third Appellate District",
+        "level": "iac",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "https://www.courts.ca.gov/3dca.htm",
+        "type": "appellate",
+        "id": "calctapp3dist",
+        "location": "California",
+        "parent": "calctapp"
+    },
+    {
+        "regex": [
+          "Court of Appeal, Fourth Appellate District",
+          "Court of Appeal, Fourth District, Division [1-3], California"
+        ],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": "1905-01-01",
+                "end": null
+            }
+        ],
+        "name": "California Court of Appeal, Fourth Appellate District",
+        "level": "iac",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "https://www.courts.ca.gov/4dca.htm",
+        "type": "appellate",
+        "id": "calctapp4dist",
+        "location": "California",
+        "parent": "calctapp"
+    },
+    {
+        "regex": [
+            "Court of Appeal, Fifth Appellate District",
+            "Court of Appeal, Fifth District, California"
+        ],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": "1905-01-01",
+                "end": null
+            }
+        ],
+        "name": "California Court of Appeal, Fifth Appellate District",
+        "level": "iac",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "https://www.courts.ca.gov/5dca.htm",
+        "type": "appellate",
+        "id": "calctapp5dist",
+        "location": "California",
+        "parent": "calctapp"
+    },
+    {
+        "regex": [
+          "Court of Appeal, Sixth District, California"
+        ],
+        "name_abbreviation": null,
+        "dates": [
+            {
+                "start": "1905-01-01",
+                "end": null
+            }
+        ],
+        "name": "California Court of Appeal, Sixth Appellate District",
+        "level": "iac",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "https://www.courts.ca.gov/6dca.htm",
+        "type": "appellate",
+        "id": "calctapp6dist",
+        "location": "California",
+        "parent": "calctapp"
+    },
+    {
+        "regex": [
+            "Superior Court,? in and for the City and County of San (Francisco|Francsico), State of California",
+            "Probate Court of the City and County of San Francisco"
+        ],
+        "name_abbreviation": null,
+        "dates": [],
+        "name": "San Francisco Superior Court",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+            "Superior Court, in and for the City and County of San Francsico, State of California",
+            "Probate Court of the City and County of San Francisco",
+            "Superior Court in and for the City and County of San Francisco, State of California"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "calsuperctsf",
+        "location": "California",
+        "parent": "calsuperct"
+    },
+    {
+        "regex": [
+            "State Of California Superior Court County Of Los Angeles",
+            "Superior Court Los Angeles County California",
+            "California Superior Court County Of Los Angeles"
+        ],
+        "name_abbreviation": null,
+        "dates": [],
+        "name": "Los Angeles Superior Court",
+        "level": "gjc",
+        "case_types": [],
+        "jurisdiction": "CA",
+        "system": "state",
+        "examples": [
+            "State Of California Superior Court County Of Los Angeles",
+            "Superior Court Los Angeles County California",
+            "California Superior Court County Of Los Angeles"
+        ],
+        "court_url": "",
+        "type": "trial",
+        "id": "calsuperctla",
+        "location": "California",
+        "parent": "calsuperct"
     },
     {
         "regex": [
@@ -2571,7 +2736,7 @@
         "system": "state",
         "examples": [
             "Orphans Court Of Delaware",
-            "Delaware Orphans' Court"
+            "Delaware Orphans Court"
         ],
         "type": null,
         "id": "delorphct",
@@ -3395,7 +3560,7 @@
     {
         "regex": [
             "Florida Public Utilities Commission",
-            "Railroad Public Utilities Commission",
+            "Railroad & Public Utilities Commission",
             "Florida Public Service Commission"
         ],
         "dates": [
@@ -7231,7 +7396,7 @@
             "${usdc} ${nd} ${ga}",
             "United States District Court For The Northern Division Of Georgia Atlanta",
             "${usdc} ${nd}.*(?=(georgia|${gand_divisions}))",
-            "U S District Court No Ga Gainesville Div"
+            "U\\.S\\. District,? Court,? No Ga Gainesville Div"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -7252,7 +7417,7 @@
         "examples": [
             "United States District Court N D Georgia Rome Division",
             "United States District Court For The Northern Division Of Georgia Atlanta",
-            "U S District, Court No Ga Gainesville Div"
+            "U.S. District, Court No Ga Gainesville Div"
         ],
         "court_url": "http://www.gand.uscourts.gov/",
         "location": "Georgia",
@@ -14568,8 +14733,8 @@
             "${md} ${pa}",
             "United States District Court For The Middle District Of Pennsylvaniaa",
             "United States District Court For The Middle District District Of Pennsylvania",
-            "Middle Dist of Pennsylvania",
-            "M.D. of Pennsylvania"
+            "Middle Dist\\.? of Pennsylvania",
+            "M\\.D\\. of Pennsylvania"
         ],
         "dates": [
             {
@@ -18932,7 +19097,6 @@
             "${usa} ${ccoa} ${n5} Circuit",
             "United States Court Appeals Fifth Circuit",
             "U S Court Of Appeals For The Fifth Circuit",
-            "Court Of Appeal Fifth District",
             "United States Court Of The Appeals For The Fifth Circuit",
             "United States Court Of Appeals Of For The Fifth Circuit",
             "Circuit Court Of Appeals For Fifth Circuit"
@@ -18952,7 +19116,6 @@
             "United States Court Of Appeals For Fifth Circuit",
             "United States Court On Appeals Fifth Circuit",
             "Court Of Appeals Fifth Circuit",
-            "Court Of Appeal Fifth District",
             "United States Court Of The Appeals For The Fifth Circuit"
         ],
         "court_url": "http://www.ca5.uscourts.gov/",
@@ -21653,7 +21816,7 @@
         "system": "federal",
         "location": "North Carolina",
         "type": "appellate",
-        "id": "circtdwilmington",
+        "id": "circtdwilm",
         "examples": [],
         "citation_string": ""
     },
@@ -22709,7 +22872,8 @@
     },
     {
         "regex": [
-            "State Of California Commission On Judicial Performance"
+            "State Of California Commission On Judicial Performance",
+            "California Commission on Judicial Performance"
         ],
         "dates": [
             {
@@ -22729,5 +22893,216 @@
         "id": "caljp",
         "location": "California",
         "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Monterey District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "montereydistct",
+        "citation_string": "Monterey Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Placer District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "placerdistct",
+        "citation_string": "Placer Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Sacramento District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "sacdistct",
+        "citation_string": "Sacramento Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "San Francisco District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "sfdistct",
+        "citation_string": "S.F. Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Santa Cruz District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "santacruzdistct",
+        "citation_string": "Santa Cruz Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Shasta District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "shastadistct",
+        "citation_string": "Shasta Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Siskiyou District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "siskiyoudistct",
+        "citation_string": "Siskiyou Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Trinity District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "trinitydistct",
+        "citation_string": "Trinity Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Yreka District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "yrekadistct",
+        "citation_string": "Yreka Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "Yuba District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "yubadistct",
+        "citation_string": "Yuba Dist. Ct.",
+        "parent": "caldistct"
+    },
+    {
+        "regex": [
+            "District Court of the State of California",
+            "California District Court"
+        ],
+        "dates": [
+            {
+                "start": "1849-01-01",
+                "end": "1879-12-31"
+            }
+        ],
+        "name": "California District Court",
+        "level": "gjc",
+        "notes": "",
+        "jurisdiction": "Cal.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "caldistct",
+        "citation_string": "Cal. Dist. Ct."
     }
 ]
