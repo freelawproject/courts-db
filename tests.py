@@ -11,15 +11,14 @@ import os
 import re
 import sys
 import unittest
+from collections import Counter
 from io import open
 from json.decoder import JSONDecodeError
 from unittest import TestCase
 
-from courts_db import find_court
+from courts_db import find_court, find_court_by_id
 from courts_db.text_utils import strip_punc
 from courts_db.utils import db_root, load_courts_db
-
-from collections import Counter
 
 
 class CourtsDBTestCase(TestCase):
@@ -36,6 +35,23 @@ class DataTest(CourtsDBTestCase):
         matches = find_court(court_str=sample_text)
         expected_matches = ["prapp"]
         self.assertEqual(matches, expected_matches)
+
+    def test_parent_courts(self):
+        """Can we find the parent court"""
+
+        court_str_example = (
+            "California Court of Appeal, First Appellate District"
+        )
+        matches = find_court(court_str=court_str_example)
+        self.assertEqual(
+            find_court_by_id(matches[0])[0].get("parent", None), "calctapp"
+        )
+
+        court_str_example = "Supreme Court of the United States"
+        matches = find_court(court_str=court_str_example)
+        self.assertEqual(
+            find_court_by_id(matches[0])[0].get("parent", None), None
+        )
 
     def test_all_example(self):
         """Can we extract the correct court id from string and date?"""
@@ -140,6 +156,20 @@ class JsonTest(CourtsDBTestCase):
         self.assertEqual(
             len(court_ids), len(list(set(court_ids))), msg=c.most_common(10)
         )
+
+    def test_id_length(self):
+        """Make sure Id length does not exceed 15 characters"""
+        max_id_length = max([len(row["id"]) for row in load_courts_db()])
+        ids = []
+        if max_id_length > 15:
+            print(
+                "Ids are longer than 15 characters. This is not allowed. "
+                "Please update the id to be 15 characters or less."
+            )
+            ids = [
+                row["id"] for row in load_courts_db() if len(row["id"]) > 15
+            ]
+        self.assertLessEqual(max_id_length, 15, msg=ids)
 
 
 class LazyLoadTest(TestCase):
