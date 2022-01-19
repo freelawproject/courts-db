@@ -5,14 +5,14 @@ from __future__ import (
     unicode_literals,
 )
 
-from string import Template, punctuation
+import json
+import os
+import re
 from glob import iglob
 from io import open
+from string import Template, punctuation
 
-import json
 import six
-import re
-import os
 
 db_root = os.path.dirname(os.path.realpath(__file__))
 
@@ -56,7 +56,6 @@ def load_courts_db():
 
 
 def gather_regexes(courts):
-
     """Create a variable mapping regexes to court IDs
 
     :param courts: The court DB
@@ -70,6 +69,8 @@ def gather_regexes(courts):
     regexes = []
     for court in courts:
         for reg_str in court["regex"]:
+            # Unwind the extra gruff in regexes
+            reg_str = reg_str.replace("\\\\", "\\")
             regex = re.compile(reg_str, (re.I | re.U))
             regexes.append(
                 (
