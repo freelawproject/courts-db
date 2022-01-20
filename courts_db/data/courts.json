@@ -1582,6 +1582,7 @@
         "type": "appellate",
         "id": "calctapp1d",
         "location": "California",
+        "citation_string": "",
         "parent": "calctapp"
     },
     {
@@ -1607,6 +1608,7 @@
         "type": "appellate",
         "id": "calctapp2d",
         "location": "California",
+        "citation_string": "",
         "parent": "calctapp"
     },
     {
@@ -1631,6 +1633,7 @@
         "type": "appellate",
         "id": "calctapp3d",
         "location": "California",
+        "citation_string": "",
         "parent": "calctapp"
     },
     {
@@ -1656,6 +1659,7 @@
         "type": "appellate",
         "id": "calctapp4d",
         "location": "California",
+        "citation_string": "",
         "parent": "calctapp"
     },
     {
@@ -1681,6 +1685,7 @@
         "type": "appellate",
         "id": "calctapp5d",
         "location": "California",
+        "citation_string": "",
         "parent": "calctapp"
     },
     {
@@ -1705,6 +1710,7 @@
         "type": "appellate",
         "id": "calctapp6d",
         "location": "California",
+        "citation_string": "",
         "parent": "calctapp"
     },
     {
@@ -1728,6 +1734,7 @@
         "type": "trial",
         "id": "calsuppctsf",
         "location": "California",
+        "citation_string": "",
         "parent": "calsuperct"
     },
     {
@@ -1752,6 +1759,7 @@
         "type": "trial",
         "id": "calsuppctla",
         "location": "California",
+        "citation_string": "",
         "parent": "calsuperct"
     },
     {
@@ -20405,7 +20413,7 @@
         ],
         "court_url": "https://www.justice.gov/eoir/board-of-immigration-appeals",
         "type": "special",
-        "id": "dojbia",
+        "id": "bia",
         "location": "Washington D.C.",
         "citation_string": ""
     },
