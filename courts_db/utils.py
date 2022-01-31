@@ -60,11 +60,11 @@ def load_courts_db():
             if not {"dates", "type", "location"} <= set(k.keys()):
                 parent = [x for x in data if x["id"] == k["parent"]][0]
                 if "dates" not in k.keys():
-                    k['dates'] = parent['dates']
+                    k["dates"] = parent["dates"]
                 if "type" not in k.keys():
-                    k['type'] = parent['type']
+                    k["type"] = parent["type"]
                 if "location" not in k.keys():
-                    k['location'] = parent['location']
+                    k["location"] = parent["location"]
 
     return data
 

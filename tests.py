@@ -169,7 +169,9 @@ class JsonTest(CourtsDBTestCase):
             ids = [
                 row["id"] for row in load_courts_db() if len(row["id"]) > 15
             ]
-        self.assertLessEqual(max_id_length, 15, msg=f"#{len(ids)}: Ids longer than 15: {ids}")
+        self.assertLessEqual(
+            max_id_length, 15, msg=f"#{len(ids)}: Ids longer than 15: {ids}"
+        )
 
 
 class LazyLoadTest(TestCase):
