@@ -12387,7 +12387,9 @@
         "citation_string": "N.Y. Just. Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Troy City Police Court"
+        ],
         "dates": [
             {
                 "start": null,
