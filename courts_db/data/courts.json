@@ -2456,7 +2456,8 @@
     {
         "regex": [
             "${usdc} ${d} Delaware",
-            "District Court Of The United States District Of Delaware"
+            "District Court Of The United States District Of Delaware",
+            "Delaware District Court"
         ],
         "name_abbreviation": null,
         "dates": [
@@ -3197,7 +3198,7 @@
         "id": "flajudct1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [
@@ -3222,7 +3223,7 @@
         "id": "flajudct2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3242,7 +3243,7 @@
         "id": "flajudct3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3262,7 +3263,7 @@
         "id": "flajudct4",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3282,7 +3283,7 @@
         "id": "flajudct5",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3302,7 +3303,7 @@
         "id": "flajudct6",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3322,7 +3323,7 @@
         "id": "flajudct7",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3342,7 +3343,7 @@
         "id": "flajudct8",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3362,7 +3363,7 @@
         "id": "flajudct9",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3382,7 +3383,7 @@
         "id": "flajudct10",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3402,7 +3403,7 @@
         "id": "flajudct11",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [
@@ -3424,7 +3425,7 @@
         "id": "flajudct12",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3444,7 +3445,7 @@
         "id": "flajudct13",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3464,7 +3465,7 @@
         "id": "flajudct14",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajudct"
+        "parent": "flajudct"
     },
     {
         "regex": [],
@@ -3503,7 +3504,7 @@
         "id": "flasmclct1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flasmclct"
+        "parent": "flasmclct"
     },
     {
         "regex": [],
@@ -3523,7 +3524,7 @@
         "id": "flasmclct2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flasmclct"
+        "parent": "flasmclct"
     },
     {
         "regex": [],
@@ -3543,7 +3544,7 @@
         "id": "flasmclct3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flasmclct"
+        "parent": "flasmclct"
     },
     {
         "regex": [],
@@ -3563,7 +3564,7 @@
         "id": "flasmclct4",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flasmclct"
+        "parent": "flasmclct"
     },
     {
         "regex": [
@@ -3657,7 +3658,7 @@
         "id": "fladistctapp1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "fladistctapp"
+        "parent": "fladistctapp"
     },
     {
         "regex": [],
@@ -3677,7 +3678,7 @@
         "id": "fladistctapp2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "fladistctapp"
+        "parent": "fladistctapp"
     },
     {
         "regex": [],
@@ -3697,7 +3698,7 @@
         "id": "fladistctapp3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "fladistctapp"
+        "parent": "fladistctapp"
     },
     {
         "regex": [],
@@ -3717,7 +3718,7 @@
         "id": "fladistctapp4",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "fladistctapp"
+        "parent": "fladistctapp"
     },
     {
         "regex": [],
@@ -3737,7 +3738,7 @@
         "id": "fladistctapp5",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "fladistctapp"
+        "parent": "fladistctapp"
     },
     {
         "regex": [],
@@ -3776,7 +3777,7 @@
         "id": "flajuv1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flajuv"
+        "parent": "flajuv"
     },
     {
         "regex": [],
@@ -3819,7 +3820,7 @@
         "id": "flactyctrec1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [
@@ -3843,7 +3844,7 @@
         "id": "flactyctrec2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [
@@ -3868,7 +3869,7 @@
         "id": "flactyctrec3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [
@@ -3892,7 +3893,7 @@
         "id": "flactyctrec4",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [
@@ -3916,7 +3917,7 @@
         "id": "flactyctrec5",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [
@@ -3941,7 +3942,7 @@
         "id": "flactyctrec6",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [
@@ -3965,7 +3966,7 @@
         "id": "flactyctrec7",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyctrec"
+        "parent": "flactyctrec"
     },
     {
         "regex": [],
@@ -3985,7 +3986,7 @@
         "id": "flactyct1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4005,7 +4006,7 @@
         "id": "flactyct2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4025,7 +4026,7 @@
         "id": "flactyct3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4045,7 +4046,7 @@
         "id": "flactyct4",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4065,7 +4066,7 @@
         "id": "flactyct5",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4085,7 +4086,7 @@
         "id": "flactyct6",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4105,7 +4106,7 @@
         "id": "flactyct7",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4125,7 +4126,7 @@
         "id": "flactyct8",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4145,7 +4146,7 @@
         "id": "flactyct9",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4165,7 +4166,7 @@
         "id": "flactyct10",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4185,7 +4186,7 @@
         "id": "flactyct11",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4205,7 +4206,7 @@
         "id": "flactyct12",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4225,7 +4226,7 @@
         "id": "flactyct13",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4245,7 +4246,7 @@
         "id": "flactyct14",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4265,7 +4266,7 @@
         "id": "flactyct15",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4285,7 +4286,7 @@
         "id": "flactyct16",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4305,7 +4306,7 @@
         "id": "flactyct17",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4325,7 +4326,7 @@
         "id": "flactyct18",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4345,7 +4346,7 @@
         "id": "flactyct19",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4365,7 +4366,7 @@
         "id": "flactyct20",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4385,7 +4386,7 @@
         "id": "flactyct21",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4405,7 +4406,7 @@
         "id": "flactyct22",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4425,7 +4426,7 @@
         "id": "flactyct23",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4445,7 +4446,7 @@
         "id": "flactyct24",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4465,7 +4466,7 @@
         "id": "flactyct25",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4485,7 +4486,7 @@
         "id": "flactyct26",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4505,7 +4506,7 @@
         "id": "flactyct27",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4525,7 +4526,7 @@
         "id": "flactyct28",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4545,7 +4546,7 @@
         "id": "flactyct29",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4565,7 +4566,7 @@
         "id": "flactyct30",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4585,7 +4586,7 @@
         "id": "flactyct31",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4605,7 +4606,7 @@
         "id": "flactyct32",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4625,7 +4626,7 @@
         "id": "flactyct33",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4645,7 +4646,7 @@
         "id": "flactyct34",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4665,7 +4666,7 @@
         "id": "flactyct35",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4685,7 +4686,7 @@
         "id": "flactyct36",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4705,7 +4706,7 @@
         "id": "flactyct37",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4725,7 +4726,7 @@
         "id": "flactyct38",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4745,7 +4746,7 @@
         "id": "flactyct39",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4765,7 +4766,7 @@
         "id": "flactyct40",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4785,7 +4786,7 @@
         "id": "flactyct41",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4805,7 +4806,7 @@
         "id": "flactyct42",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [
@@ -4830,7 +4831,7 @@
         "id": "flactyct43",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4850,7 +4851,7 @@
         "id": "flactyct44",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4870,7 +4871,7 @@
         "id": "flactyct45",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4890,7 +4891,7 @@
         "id": "flactyct46",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4910,7 +4911,7 @@
         "id": "flactyct47",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4930,7 +4931,7 @@
         "id": "flactyct48",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4950,7 +4951,7 @@
         "id": "flactyct49",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4970,7 +4971,7 @@
         "id": "flactyct50",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -4990,7 +4991,7 @@
         "id": "flactyct51",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5012,7 +5013,7 @@
         "id": "flactyct52",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5032,7 +5033,7 @@
         "id": "flactyct53",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5052,7 +5053,7 @@
         "id": "flactyct54",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5072,7 +5073,7 @@
         "id": "flactyct55",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5092,7 +5093,7 @@
         "id": "flactyct56",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5112,7 +5113,7 @@
         "id": "flactyct57",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5132,7 +5133,7 @@
         "id": "flactyct58",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5152,7 +5153,7 @@
         "id": "flactyct59",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5172,7 +5173,7 @@
         "id": "flactyct60",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5192,7 +5193,7 @@
         "id": "flactyct61",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5212,7 +5213,7 @@
         "id": "flactyct62",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5232,7 +5233,7 @@
         "id": "flactyct63",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5252,7 +5253,7 @@
         "id": "flactyct64",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5272,7 +5273,7 @@
         "id": "flactyct65",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5292,7 +5293,7 @@
         "id": "flactyct66",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5312,7 +5313,7 @@
         "id": "flactyct67",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flactyct"
+        "parent": "flactyct"
     },
     {
         "regex": [],
@@ -5332,7 +5333,7 @@
         "id": "flacirct1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -5354,7 +5355,7 @@
         "id": "flacirct1wal",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct1"
+        "parent": "flacirct1"
     },
     {
         "regex": [
@@ -5376,7 +5377,7 @@
         "id": "flacirct1oka",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct1"
+        "parent": "flacirct1"
     },
     {
         "regex": [
@@ -5398,7 +5399,7 @@
         "id": "flacirct1san",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct1"
+        "parent": "flacirct1"
     },
     {
         "regex": [
@@ -5420,7 +5421,7 @@
         "id": "flacirct1esc",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct1"
+        "parent": "flacirct1"
     },
     {
         "regex": [],
@@ -5440,7 +5441,7 @@
         "id": "flacirct2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [],
@@ -5460,7 +5461,7 @@
         "id": "flacirct2fra",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct2"
+        "parent": "flacirct2"
     },
     {
         "regex": [
@@ -5482,7 +5483,7 @@
         "id": "flacirct2gad",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct2"
+        "parent": "flacirct2"
     },
     {
         "regex": [],
@@ -5502,7 +5503,7 @@
         "id": "flacirct2jef",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct2"
+        "parent": "flacirct2"
     },
     {
         "regex": [
@@ -5524,7 +5525,7 @@
         "id": "flacirct2leo",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct2"
+        "parent": "flacirct2"
     },
     {
         "regex": [],
@@ -5544,7 +5545,7 @@
         "id": "flacirct2lib",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct2"
+        "parent": "flacirct2"
     },
     {
         "regex": [],
@@ -5564,7 +5565,7 @@
         "id": "flacirct2wak",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct2"
+        "parent": "flacirct2"
     },
     {
         "regex": [],
@@ -5584,7 +5585,7 @@
         "id": "flacirct3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -5606,7 +5607,7 @@
         "id": "flacirct3col",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [],
@@ -5626,7 +5627,7 @@
         "id": "flacirct3dix",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [
@@ -5648,7 +5649,7 @@
         "id": "flacirct3ham",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [],
@@ -5668,7 +5669,7 @@
         "id": "flacirct3laf",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [],
@@ -5688,7 +5689,7 @@
         "id": "flacirct3mad",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [
@@ -5711,7 +5712,7 @@
         "id": "flacirct3suw",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [],
@@ -5731,7 +5732,7 @@
         "id": "flacirct3tay",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct3"
+        "parent": "flacirct3"
     },
     {
         "regex": [],
@@ -5751,7 +5752,7 @@
         "id": "flacirct4",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -5773,7 +5774,7 @@
         "id": "flacirct4cla",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct4"
+        "parent": "flacirct4"
     },
     {
         "regex": [
@@ -5795,7 +5796,7 @@
         "id": "flacirct4duv",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct4"
+        "parent": "flacirct4"
     },
     {
         "regex": [
@@ -5817,7 +5818,7 @@
         "id": "flacirct4nas",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct4"
+        "parent": "flacirct4"
     },
     {
         "regex": [],
@@ -5837,7 +5838,7 @@
         "id": "flacirct5",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -5859,7 +5860,7 @@
         "id": "flacirct5cit",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct5"
+        "parent": "flacirct5"
     },
     {
         "regex": [],
@@ -5879,7 +5880,7 @@
         "id": "flacirct5her",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct5"
+        "parent": "flacirct5"
     },
     {
         "regex": [
@@ -5901,7 +5902,7 @@
         "id": "flacirct5lak",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct5"
+        "parent": "flacirct5"
     },
     {
         "regex": [
@@ -5923,7 +5924,7 @@
         "id": "flacirct5mar",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct5"
+        "parent": "flacirct5"
     },
     {
         "regex": [
@@ -5945,7 +5946,7 @@
         "id": "flacirct5sum",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct5"
+        "parent": "flacirct5"
     },
     {
         "regex": [],
@@ -5965,7 +5966,7 @@
         "id": "flacirct6",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -5987,7 +5988,7 @@
         "id": "flacirct6pas",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct6"
+        "parent": "flacirct6"
     },
     {
         "regex": [
@@ -6009,7 +6010,7 @@
         "id": "flacirct6pin",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct6"
+        "parent": "flacirct6"
     },
     {
         "regex": [],
@@ -6029,7 +6030,7 @@
         "id": "flacirct7",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6051,7 +6052,7 @@
         "id": "flacirct7fla",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct7"
+        "parent": "flacirct7"
     },
     {
         "regex": [],
@@ -6071,7 +6072,7 @@
         "id": "flacirct7put",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct7"
+        "parent": "flacirct7"
     },
     {
         "regex": [],
@@ -6091,7 +6092,7 @@
         "id": "flacirct7stj",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct7"
+        "parent": "flacirct7"
     },
     {
         "regex": [
@@ -6113,7 +6114,7 @@
         "id": "flacirct7vol",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct7"
+        "parent": "flacirct7"
     },
     {
         "regex": [],
@@ -6133,7 +6134,7 @@
         "id": "flacirct8",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6155,7 +6156,7 @@
         "id": "flacirct8ala",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct8"
+        "parent": "flacirct8"
     },
     {
         "regex": [],
@@ -6175,7 +6176,7 @@
         "id": "flacirct8bak",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct8"
+        "parent": "flacirct8"
     },
     {
         "regex": [
@@ -6197,7 +6198,7 @@
         "id": "flacirct8bra",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct8"
+        "parent": "flacirct8"
     },
     {
         "regex": [],
@@ -6217,7 +6218,7 @@
         "id": "flacirct8gil",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct8"
+        "parent": "flacirct8"
     },
     {
         "regex": [
@@ -6239,7 +6240,7 @@
         "id": "flacirct8lev",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct8"
+        "parent": "flacirct8"
     },
     {
         "regex": [
@@ -6261,7 +6262,7 @@
         "id": "flacirct8uni",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct8"
+        "parent": "flacirct8"
     },
     {
         "regex": [],
@@ -6281,7 +6282,7 @@
         "id": "flacirct9",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6303,7 +6304,7 @@
         "id": "flacirct9ora",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct9"
+        "parent": "flacirct9"
     },
     {
         "regex": [
@@ -6325,7 +6326,7 @@
         "id": "flacirct9osc",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct9"
+        "parent": "flacirct9"
     },
     {
         "regex": [],
@@ -6345,7 +6346,7 @@
         "id": "flacirct10",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6367,7 +6368,7 @@
         "id": "flacirct10har",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct10"
+        "parent": "flacirct10"
     },
     {
         "regex": [
@@ -6389,7 +6390,7 @@
         "id": "flacirct10hig",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct10"
+        "parent": "flacirct10"
     },
     {
         "regex": [
@@ -6411,7 +6412,7 @@
         "id": "flacirct10pol",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct10"
+        "parent": "flacirct10"
     },
     {
         "regex": [],
@@ -6431,7 +6432,7 @@
         "id": "flacirct11",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6456,7 +6457,7 @@
         "id": "flacirct11mia",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct11"
+        "parent": "flacirct11"
     },
     {
         "regex": [],
@@ -6476,7 +6477,7 @@
         "id": "flacirct12",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6498,7 +6499,7 @@
         "id": "flacirct12des",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct12"
+        "parent": "flacirct12"
     },
     {
         "regex": [
@@ -6520,7 +6521,7 @@
         "id": "flacirct12man",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct12"
+        "parent": "flacirct12"
     },
     {
         "regex": [
@@ -6542,7 +6543,7 @@
         "id": "flacirct12sar",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct12"
+        "parent": "flacirct12"
     },
     {
         "regex": [],
@@ -6562,7 +6563,7 @@
         "id": "flacirct13",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6584,7 +6585,7 @@
         "id": "flacirct13hil",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct13"
+        "parent": "flacirct13"
     },
     {
         "regex": [],
@@ -6604,7 +6605,7 @@
         "id": "flacirct14",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6626,7 +6627,7 @@
         "id": "flacirct14bay",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct14"
+        "parent": "flacirct14"
     },
     {
         "regex": [
@@ -6648,7 +6649,7 @@
         "id": "flacirct14cal",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct14"
+        "parent": "flacirct14"
     },
     {
         "regex": [],
@@ -6668,7 +6669,7 @@
         "id": "flacirct14gul",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct14"
+        "parent": "flacirct14"
     },
     {
         "regex": [],
@@ -6688,7 +6689,7 @@
         "id": "flacirct14hol",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct14"
+        "parent": "flacirct14"
     },
     {
         "regex": [],
@@ -6708,7 +6709,7 @@
         "id": "flacirct14jac",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct14"
+        "parent": "flacirct14"
     },
     {
         "regex": [],
@@ -6728,7 +6729,7 @@
         "id": "flacirct14was",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct14"
+        "parent": "flacirct14"
     },
     {
         "regex": [],
@@ -6748,7 +6749,7 @@
         "id": "flacirct15",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6772,7 +6773,7 @@
         "id": "flacirct15pal",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct15"
+        "parent": "flacirct15"
     },
     {
         "regex": [],
@@ -6792,7 +6793,7 @@
         "id": "flacirct16",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6814,7 +6815,7 @@
         "id": "flacirct16mon",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct16"
+        "parent": "flacirct16"
     },
     {
         "regex": [],
@@ -6834,7 +6835,7 @@
         "id": "flacirct17",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6856,7 +6857,7 @@
         "id": "flacirct17bro",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct17"
+        "parent": "flacirct17"
     },
     {
         "regex": [],
@@ -6876,7 +6877,7 @@
         "id": "flacirct18",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6898,7 +6899,7 @@
         "id": "flacirct18bre",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct18"
+        "parent": "flacirct18"
     },
     {
         "regex": [
@@ -6920,7 +6921,7 @@
         "id": "flacirct18sem",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct18"
+        "parent": "flacirct18"
     },
     {
         "regex": [],
@@ -6940,7 +6941,7 @@
         "id": "flacirct19",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -6962,7 +6963,7 @@
         "id": "flacirct19ind",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct19"
+        "parent": "flacirct19"
     },
     {
         "regex": [
@@ -6984,7 +6985,7 @@
         "id": "flacirct19mar",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct19"
+        "parent": "flacirct19"
     },
     {
         "regex": [
@@ -7006,7 +7007,7 @@
         "id": "flacirct19oke",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct19"
+        "parent": "flacirct19"
     },
     {
         "regex": [
@@ -7028,7 +7029,7 @@
         "id": "flacirct19stl",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct19"
+        "parent": "flacirct19"
     },
     {
         "regex": [],
@@ -7048,7 +7049,7 @@
         "id": "flacirct20",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct"
+        "parent": "flacirct"
     },
     {
         "regex": [
@@ -7070,7 +7071,7 @@
         "id": "flacirct20cha",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct20"
+        "parent": "flacirct20"
     },
     {
         "regex": [
@@ -7092,7 +7093,7 @@
         "id": "flacirct20col",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct20"
+        "parent": "flacirct20"
     },
     {
         "regex": [
@@ -7114,7 +7115,7 @@
         "id": "flacirct20gla",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct20"
+        "parent": "flacirct20"
     },
     {
         "regex": [
@@ -7136,7 +7137,7 @@
         "id": "flacirct20hen",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct20"
+        "parent": "flacirct20"
     },
     {
         "regex": [
@@ -7158,7 +7159,7 @@
         "id": "flacirct20lee",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flacirct20"
+        "parent": "flacirct20"
     },
     {
         "regex": [],
@@ -7199,7 +7200,7 @@
         "id": "flamunict1",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flamunict"
+        "parent": "flamunict"
     },
     {
         "regex": [],
@@ -7219,7 +7220,7 @@
         "id": "flamunict2",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flamunict"
+        "parent": "flamunict"
     },
     {
         "regex": [
@@ -7241,7 +7242,7 @@
         "id": "flamunict3",
         "location": "Florida",
         "citation_string": "",
-        "group_id": "flamunict"
+        "parent": "flamunict"
     },
     {
         "regex": [
@@ -7263,7 +7264,7 @@
         "id": "dadectypropbd",
         "location": "Florida",
         "citation_string": "Dade Cty. Prop. Appraisal Adjmt. Bd.",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7285,7 +7286,7 @@
         "id": "fladepthrehabil",
         "location": "Florida",
         "citation_string": "Fla. Dep't. of H. Rehabil. Serv.",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7307,7 +7308,7 @@
         "id": "jaxcivservbd",
         "location": "Florida",
         "citation_string": "Jax. Civ. Serv. Bd.",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7329,7 +7330,7 @@
         "id": "fladeptenvreg",
         "location": "Florida",
         "citation_string": "Fla. Dep't. Env. Reg.",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7351,7 +7352,7 @@
         "id": "fladeptrev",
         "location": "Florida",
         "citation_string": "Fla. Dep't Rev.",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7373,7 +7374,7 @@
         "id": "fladivadminhrg",
         "location": "Florida",
         "citation_string": "Fla. Div. Admin. Hr'g",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7397,7 +7398,7 @@
         "location": "Florida",
         "citation_string": "Super. Ct. S.D. Fla.",
         "notes": "See: https://www.jstor.org/stable/30150483",
-        "group_id": null
+        "parent": null
     },
     {
         "regex": [
@@ -7541,6 +7542,27 @@
         "id": "ga",
         "location": "Georgia",
         "citation_string": "Ga."
+    },
+    {
+        "regex": [
+            "Georgia Court of Oyer and Terminer"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Georgia Court of Oyer and Terminer",
+        "level": null,
+        "case_types": [],
+        "jurisdiction": "G.A.",
+        "system": "state",
+        "examples": [],
+        "type": null,
+        "id": "gaoyertermct",
+        "location": "Georgia",
+        "citation_string": ""
     },
     {
         "regex": [
@@ -8688,6 +8710,27 @@
     },
     {
         "regex": [
+            "Indiana Circuit Court"
+        ],
+        "dates": [
+            {
+                "start": "1819-01-01",
+                "end": null
+            }
+        ],
+        "name": "Indiana Circuit Court",
+        "notes": "",
+        "level": "iac",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "type": null,
+        "id": "indcirct",
+        "location": "Indiana",
+        "citation_string": ""
+    },
+    {
+        "regex": [
             "Maryland Tax Court"
         ],
         "dates": [
@@ -8720,7 +8763,7 @@
             }
         ],
         "name": "Indiana Court of Appeals",
-        "level": "",
+        "level": "iac",
         "case_types": [],
         "system": "state",
         "examples": [],
@@ -8973,7 +9016,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
-        "group_id": "iadistct",
+        "parent": "iadistct",
         "id": "iowadistct",
         "location": "Iowa",
         "citation_string": "Iowa Dist. Ct., Lee Cty"
@@ -9476,7 +9519,7 @@
     },
     {
         "regex": [
-            "Superior Court of the State of Louisiana"
+            "Superior Court of (the State of)?\\s?Louisiana"
         ],
         "dates": [
             {
@@ -10010,6 +10053,51 @@
     },
     {
         "regex": [
+            "Massachusetts District Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Massachusetts District Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Massachusetts District Court"
+        ],
+        "type": "trial",
+        "id": "massdistct",
+        "location": "Massachusetts",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Boston Municipal Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Boston Municipal Court",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Boston Municipal Court"
+        ],
+        "type": "trial",
+        "id": "massdistctbos",
+        "parent": "massdistct",
+        "location": "Massachusetts",
+        "citation_string": ""
+    },
+    {
+        "regex": [
             "Massachusetts Appellate Division",
             "Massachusetts District Court Appellate Division"
         ],
@@ -10026,7 +10114,7 @@
         "examples": [],
         "court_url": "http://www.mass.gov/courts/court-info/trial-court/dc/",
         "type": "appellate",
-        "id": "massdistct",
+        "id": "massdistctapp",
         "location": "Massachusetts",
         "citation_string": "Mass. Dist. Ct."
     },
@@ -10192,7 +10280,7 @@
         "examples": [],
         "type": "trial",
         "id": "micirct37",
-        "group_id": "micirct",
+        "parent": "micirct",
         "location": "Michigan",
         "citation_string": "Mich. 37th Cir."
     },
@@ -10217,7 +10305,7 @@
         ],
         "type": "trial",
         "id": "micirct37cal",
-        "group_id": "micirct37",
+        "parent": "micirct37",
         "location": "Michigan",
         "citation_string": "Mich. 37th Cir., Calhoun Cty."
     },
@@ -11185,7 +11273,7 @@
         "court_url": "",
         "type": "trial",
         "id": "nevdistct7",
-        "group_id": "nevdistct",
+        "parent": "nevdistct",
         "location": "Nevada",
         "citation_string": "Nev. Dist. Ct., 7th Jud. Dist."
     },
@@ -11205,7 +11293,7 @@
         "court_url": "",
         "type": "trial",
         "id": "nevdistct7eur",
-        "group_id": "nevdistct7",
+        "parent": "nevdistct7",
         "location": "Nevada",
         "citation_string": "Nev. Dist. Ct., Eureka Cty."
     },
@@ -11549,7 +11637,8 @@
     },
     {
         "regex": [
-            "Court Of Oyer And Terminer (of|at) (Pennsylvania|Philadelphia)"
+            "Court Of Oyer And Terminer (of|at) (Pennsylvania|Philadelphia)",
+            "Pennsylvania Court of Oyer and Terminer"
         ],
         "dates": [
             {
@@ -11781,11 +11870,15 @@
     },
     {
         "regex": [
-            "Court Of General Sessions Kings County New York",
             "Court Of General Sessions New York",
             "Court Of General Sessions Of New York",
             "Court Of General Sessions.* New York",
-            "Court Of New York New York County General Sessions"
+            "Court Of New York New York County General Sessions",
+            "Court of General Sessions of the Peace",
+            "New York Court of General Sessions?( of the Peace)?",
+            "New York General Sessions",
+            "Ny General Session",
+            "General Sessions"
         ],
         "dates": [
             {
@@ -11812,9 +11905,49 @@
     },
     {
         "regex": [
-            "Court Of Sessions ${bw} County New York",
+            "New York Court of General Sessions, Lewis County"
+        ],
+        "dates": [
+            {
+                "start": "1683-10-17",
+                "end": "1962-09-01",
+                "name": "Court of Quarter/General Sessions each county"
+            },
+            {
+                "start": "1846-01-01",
+                "end": "1962-09-01",
+                "name": "Court of General Sessions of New York County"
+            }
+        ],
+        "name": "New York Court of General Sessions, Lewis County",
+        "level": "trial",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "parent": "nygensess",
+        "id": "nygensesslewis",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Court Of General Sessions Kings County New York"
+        ],
+        "name": "Court Of General Sessions Kings County New York",
+        "level": "trial",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "parent": "nygensess",
+        "id": "nygensesskings",
+        "citation_string": ""
+    },
+    {
+        "regex": [
             "Court Of Sessions New York",
-            "Court Of Sessions Of New York Rensselaer County"
+            "New York Court of Sessions"
         ],
         "dates": [
             {
@@ -11828,7 +11961,6 @@
         "jurisdiction": "N.Y.",
         "system": "state",
         "examples": [
-            "Court Of Sessions Ulster County New York"
         ],
         "type": "trial",
         "id": "nysessct",
@@ -11837,32 +11969,227 @@
     },
     {
         "regex": [
-            "Police Court.* New York",
-            "Town Court.* New York",
-            "Just Ct Of The Town Of Red Hook Dutchess County",
-            "Justice Court Town of (${ny_towns})",
-            "Town Court City of (${ny_towns})",
-            "Town Court Town of (${ny_towns})",
-            "Police Court City Of (${ny_towns})",
-            "Town Court Niagara County",
-            "Town Court Kinderhook County",
-            "Justice Court (${ny_towns}) Justice Court",
-            "Justice Court Village Of (${ny_towns})",
-            "Town Court Lockport County",
-            "Justice Court Village .*New York",
-            "Justice Court.* (${ny_counties}) County",
-            "Justice Court Of New York",
-            "Just Court Town Of Geneva",
-            "Just Court Vil Of Tuckahoe Westchester County",
-            "Justice Court City Of Woodstock New York",
-            "Justice Ct Of Town Of (${ny_towns})",
-            "State Of New York Police Court Of Village",
-            "Village Court Of New York",
-            "Justices Court Of New York Town",
-            "Police Justice S Court of New York",
-            "Justice S Court Of New York Town",
-            "Justices Court Of New York Village Of Depew",
-            "Justice Of The Peace Court Of New York Town Of Webster"
+            "Court of Sessions, Lewis County"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "Court of Sessions, Lewis County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Court of Sessions, Lewis County"
+        ],
+        "type": "trial",
+        "id": "nysessctlewis",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Court of Sessions, Ulster County",
+            "Court Of Sessions Ulster County New York"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "Court of Sessions, Ulster County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Court Of Sessions Ulster County New York",
+            "Court of Sessions, Ulster County"
+        ],
+        "type": "trial",
+        "id": "nysessctulster",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+
+    {
+        "regex": [
+            "New York Court of Session, Albany County",
+            "Albany Court of Sessions"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "Albany Court of Sessions",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctalbany",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Court of Sessions, Orange County"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "New York Court of Sessions, Orange County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctorange",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Court of Sessions, Queens County"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "New York Court of Sessions, Queens County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctqueens",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Court of Sessions, Rensselaer County"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "New York Court of Sessions, Rensselaer County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctren",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Court of Sessions, Rockland County"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "New York Court of Sessions, Rockland County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctrock",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Genesee Sessions"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "Court of Sessions, Genesee County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctgenesee",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Court of Sessions, Chautauqua County",
+            "Chautauqua County Sessions"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "Court of Sessions, Chautauqua County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nysessctchauta",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+
+
+    {
+        "regex": [
+            "Village City Police Justice Court",
+            "New York Police Court",
+            "New York Court Police Justice Court",
+            "New York Justice Court",
+            "Police Court"
         ],
         "dates": [
             {
@@ -11873,36 +12200,467 @@
         "name": "Town and Village Courts",
         "level": "trial",
         "case_types": [],
-        "notes": "Added city courts in 1846, district courts in 1937, Village Justice Courts from 1790s",
+        "notes": "1300 Town and Village Courts collectively known as the Justice Courts",
         "system": "state",
         "examples": [
-            "Police Court Town Of Huntington Village Of Huntington Bay New York",
-            "Police Court City Of Troy New York",
-            "Police Court Village Of East Aurora New York",
-            "Police Court City Of Albany New York",
-            "Police Court Village Of Spring Valley New York",
-            "Justice Court Town of Hyde Park",
-            "Justice Court Town of Webster",
-            "Justice Court Town of Perinton New York, Monroe County",
-            "Justice Court Town of Rhinebeck New York",
-            "Justice Court Town of Pound Ridge Westchester County",
-            "Justice Ct Of Town Of Parma Monroe County",
-            "Town Court City of Tonawanda, New York, Erie County",
-            "Town Court City of Amherst New York, Erie County",
-            "Town Court City of Gates New York Monroe County",
-            "Town Court Kinderhook County"
+            "Village City Police Justice Court",
+            "New York Police Court",
+            "New York Court Police Justice Court",
+            "New York Justice Court"
         ],
         "court_url": "http://www.nycourts.gov/courts/townandvillage/",
         "type": "trial",
-        "id": "nytownct",
+        "id": "nyjustct",
         "location": "New York",
         "citation_string": ""
     },
     {
         "regex": [
+            "Albany City Police Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Albany City Police Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Albany City Police Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nyalbanyjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Amherst Town Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Amherst Town Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nyamherstjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [
+            "Garden City Police Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Garden City Police Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Garden City Police Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nygardjust",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Great Neck Plaza Village Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Great Neck Plaza Village Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nygtnkpljustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Justice Court of Town of Bedford",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Justice Court of Town of Bedford"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nybedfordjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Justice Court of Town of Greenburgh",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Justice Court of Town of Greenburgh"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nygreenbjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Kensington Village Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Kensington Village Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nykensjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [
+            "Troy City Police Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Troy City Police Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Troy City Police Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nytroyjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Colonie Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Colonie Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nycoloniejustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hempstead Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Hempstead Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nyhempjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hunter Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Hunter Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nyhunterjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hyde Park Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Hyde Park Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nyhydepkjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Kinderhook Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Kinderhook Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nykinderjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "LaGrange Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "LaGrange Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nylagrjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Massapequa Park Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Massapequa Park Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nymassapkjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Taghkanic Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Taghkanic Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nytaghjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Valley Stream Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Valley Stream Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nyvalstrjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [
+            "Webster Justice (of the Peace)?\\s?Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Webster Justice Court",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Webster Justice Court"
+        ],
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "type": "trial",
+        "parent": "nyjustct",
+        "id": "nywebsterjustct",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Just. Court"
+    },
+    {
+        "regex": [
             "Court Of Correction Of Errors Of New York",
             "Court For The Correction Of Errors New York",
-            "Court For The Correction Of Errors Of New York"
+            "Court For The Correction Of Errors Of New York",
+            "Court of Errors of the State of New York",
+            "New York Court of Errors"
         ],
         "dates": [
             {
@@ -11953,6 +12711,27 @@
         "citation_string": ""
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Constitutional Court of New York",
+        "level": null,
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [],
+        "court_url": "",
+        "active": true,
+        "type": null,
+        "id": "nyconct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
         "regex": [
             "^${d} ?(D)? ?New York",
             "${usdc} ${d} New York",
@@ -11989,7 +12768,7 @@
             "Court Appellate Term 2D 11Th And 13Th",
             "Court Appellate Term 9Th And 10Th",
             "Court Appellate Term First Department",
-            "State Of New York Appellate Term",
+            "(State Of )?New York Appellate Term",
             "Supreme Court Appellate Term"
         ],
         "dates": [
@@ -12022,7 +12801,8 @@
             "Vice Chancellor S Court Of New York",
             "Chancellor S Court Of New York",
             "Chancery Court Of New York",
-            "Court Of Chancery New York"
+            "Court Of Chancery New York",
+            "Court of Chancery"
         ],
         "dates": [
             {
@@ -12045,12 +12825,7 @@
     },
     {
         "regex": [
-            "Superior Court City Of Buffalo",
-            "Superior Of New York",
-            "Supertor Court Of New York General Term",
-            "(?=^.*New York)(?=^.*Superior Court).*",
-            "Suprior Court Of New York",
-            "Suprerior Court Of New York"
+            "Supe?rior (Court)?\\s?of New York( General Term)?"
         ],
         "dates": [
             {
@@ -12058,14 +12833,11 @@
                 "end": "1894-12-31"
             }
         ],
-        "name": "The Superior Court of the City of New York and Buffalo",
+        "name": "The Superior Court of New York",
         "level": "gjc",
         "case_types": [],
         "system": "state",
         "examples": [
-            "Superior Court City Of New York New York",
-            "Superior Court City Of New York New York Equity Term",
-            "Superior Court City Of Buffalo New York Special Term"
         ],
         "type": "trial",
         "id": "superctny",
@@ -12110,13 +12882,12 @@
     },
     {
         "regex": [
-            "Supreme Court ${ny_counties} Circuit",
-            "Circuit Court ${ny_counties} County New York"
+            "New York Circuit Court"
         ],
         "dates": [
             {
-                "start": "1786-01-01",
-                "end": "1895-12-31"
+                "start": "1821-01-01",
+                "end": "1846-12-31"
             }
         ],
         "name": "The New York Circuit Courts",
@@ -12125,14 +12896,212 @@
         "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
         "system": "state",
         "examples": [
-            "Circuit Court Cayuga County New York",
-            "Circuit Court Cattaraugus County New York",
-            "Circuit Court Albany County New York"
+            "New York Circuit Court"
         ],
         "type": "trial",
         "id": "nycirct",
         "location": "New York",
         "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Albany County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Albany County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Albany County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nyciralbanycty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Columbia County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Columbia County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Columbia County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nycircolcty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Delaware County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Delaware County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Delaware County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nycirdelcty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Dutchess County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Dutchess County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Dutchess County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nycirdutchcty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Kings County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Kings County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Kings County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nycirkingscty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Monroe County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Monroe County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Monroe County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nycirmonroecty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Oneida County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Oneida County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Oneida County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nycironeidacty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
+    },
+    {
+        "regex": [
+            "New York Circuit Court, Oswego County"
+        ],
+        "dates": [
+            {
+                "start": "1821-01-01",
+                "end": "1846-12-31"
+            }
+        ],
+        "name": "New York Circuit Court, Oswego County",
+        "level": "trial",
+        "case_types": [],
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Circuit Court, Oswego County"
+        ],
+        "type": "trial",
+        "parent": "nycirct",
+        "id": "nyciroswegocty",
+        "location": "New York",
+        "notes": "",
+        "citation_string": "N.Y. Circuit Court"
     },
     {
         "regex": [
@@ -12172,9 +13141,7 @@
             "County Court Of The City Of New York Genesee County",
             "County Court Of The City Of New York Nassau County",
             "County Court Of The State Of New York County Of Schoharie",
-            "Court Of New York Special Term Brooklyn County",
             "New York County Court",
-            "Criminal Court Bronx County",
             "County Court Of New York General Sessions",
             "County Court Of New York General Sessions New York County",
             "County Court Of New York New York County General Sessions"
@@ -12198,12 +13165,1107 @@
         "type": "trial",
         "id": "nycountyct",
         "location": "New York",
-        "citation_string": ""
+        "citation_string": "N.Y. County Court"
+    },
+
+    {
+        "regex": [
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York County Courts",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Albany County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Albany County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyalbanyctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Bronx County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Bronx County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nybronxctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Broome County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Broome County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nybroomectyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Cattaraugus County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Cattaraugus County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nycattctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "New York Cayuga County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Cayuga County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Cayuga County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nycayugactyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Chautauqua County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Chautauqua County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nychautctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Chemung County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Chemung County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nychemungctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Chenango County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Chenango County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nychenangoctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Clinton County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Clinton County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyclintonctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Cortland County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Cortland County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nycortlandctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "County Court of New York, Putnam County"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "County Court of New York, Putnam County",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "County Court of New York, Putnam County"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyputnamctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Delaware County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Delaware County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nydelawarectyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Erie County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Erie County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyeriectyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Essex County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Essex County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyessexctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Fulton County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Fulton County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyfultonctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Greene County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Greene County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nygreenectyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Herkimer County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Herkimer County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyherkimerctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Kings County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Kings County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nykingsctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lewis County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Lewis County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nylewisctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Montgomery County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Montgomery County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nymontctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "New York County Court, King County"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York County Court, King County",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York County Court, King County"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nykingctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "New York County Court, Onieda County"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York County Court, Onieda County",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York County Court, Onieda County"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyoniedactyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "Saratoga County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York Saratoga County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York Saratoga County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nysaratogactyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Niagara County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Niagara County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyniagaractyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Oneida County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Oneida County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyoneidactyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Onondaga County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Onondaga County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyonondagactyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Ontario County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Ontario County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyontarioctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Orleans County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Orleans County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyorleansctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Oswego County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Oswego County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyoswegoctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Otsego County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Otsego County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyotsegoctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Queens County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Queens County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyqueensctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Rensselaer County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Rensselaer County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyrensctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Rockland County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Rockland County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyrocklandctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Schenectady County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Schenectady County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyschenctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Schoharie County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Schoharie County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyschoharctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "St. Lawrence County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "St. Lawrence County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nystlawctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Steuben County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Steuben County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nysteubenctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Suffolk County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Suffolk County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nysuffolkctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Sullivan County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Sullivan County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nysullivanctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Tioga County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Tioga County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nytiogactyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Ulster County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Ulster County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyulsterctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Wayne County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Wayne County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nywaynectyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Westchester County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Westchester County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nywestchcty",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Yates County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Yates County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyyatesctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
     },
     {
         "regex": [
             "Court Of Oyer And Terminer ?(([A-Za-z]+) County)? New York",
-            "New York Court Of Oyer And Terminer"
+            "New York Court Of Oyer And Terminer",
+            "New York Oyer and Terminer",
+            "Oyer and Terminer",
+            "New York Court Oyer & Terminer",
+            "Oyer and Terminer New York County"
         ],
         "dates": [
             {
@@ -12216,10 +14278,8 @@
         "case_types": "",
         "system": "state",
         "examples": [
-            "Court Of Oyer And Terminer Steuben County New York",
             "Court Of Oyer And Terminer New York",
-            "Court Of Oyer And Terminer Tompkins County New York",
-            "Court Of Oyer And Terminer Monroe County New York"
+            "Oyer and Terminer New York County"
         ],
         "active": false,
         "type": "trial",
@@ -12227,6 +14287,163 @@
         "location": "New York",
         "citation_string": ""
     },
+    {
+        "regex": [
+            "Court Of Oyer And Terminer Steuben County New York"
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Court Of Oyer And Terminer Steuben County New York",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "active": false,
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoyctsteuben",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Court Of Oyer And Terminer Tompkins County New York",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "active": false,
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoytermcttomp",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Court Of Oyer And Terminer Monroe County New York"
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Court Of Oyer And Terminer Monroe County New York",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "active": false,
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoytermctmon",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Oyer and Terminer Queens County",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "active": false,
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoyqueens",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Oyer and Terminer Washington County",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "active": false,
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoytermctwash",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Rensselaer Oyer and Terminer",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "active": false,
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoytermctren",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Albany Oyer and Terminer"
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Albany Oyer and Terminer",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "parent": "nyoytermct",
+        "id": "nyoytermctalb",
+        "location": "New York",
+        "citation_string": ""
+    },
+
     {
         "regex": [
             "State Of New York Court On The Judiciary"
@@ -12249,25 +14466,7 @@
     },
     {
         "regex": [
-            "District Court ([A-Za-z]+) County New York",
-            "District Court Suffolk (City|County)",
-            "District Court ?(Second District)? ?Nassau (City|County?)",
-            "District Court Nassau Dist Ct",
-            "District Court New York County New York",
-            "New York District Court District Court",
-            "District Court City Of New York",
-            "District Court New York County New York",
-            "District Court Of Suffolk County Second District",
-            "District Court Bronx County",
-            "Nassau District Court",
-            "Court Of New York Fourth District",
-            "District Court Of Suffolk County Of New York First District",
-            "State Of New York District Court Of Nassau County First District",
-            "Justice Court Town Of Dewitt New York",
-            "District Court Of New York Fourth District Suffolk County",
-            "District Court New York County New York",
-            "District Court New York County New York",
-            "District Court Of New York Fourth District Nassau County"
+            "New York District Court"
         ],
         "dates": [
             {
@@ -12278,12 +14477,37 @@
         "name": "New York District Courts",
         "level": "trial",
         "case_types": [],
-        "notes": "Added city courts in 1846, district courts in 1937, Village Justice Courts from 1790s",
+        "notes": "Added city courts in 1846, district courts in 1937",
         "system": "state",
         "examples": [
-            "District Court Suffolk County New York",
-            "District Court Suffolk County New York Second District",
-            "District Court Suffolk City",
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-DISTRICT.shtml",
+        "type": "trial",
+        "id": "nydistct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "District Court ?(Second District)? ?Nassau (City|County?)",
+            "District Court Nassau Dist Ct",
+            "Nassau District Court",
+            "State Of New York District Court Of Nassau County First District",
+            "District Court Of New York Fourth District Nassau County",
+            "Nassau County District Court"
+        ],
+        "dates": [
+            {
+                "start": "1937-01-01",
+                "end": null
+            }
+        ],
+        "name": "Nassau District Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "Added city courts in 1846, district courts in 1937",
+        "system": "state",
+        "examples": [
             "District Court Second District Nassau County",
             "District Court Nassau Count",
             "District Court Nassau City",
@@ -12291,7 +14515,40 @@
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-DISTRICT.shtml",
         "type": "trial",
-        "id": "nydistct",
+        "parent": "nydistct",
+        "id": "nydistctnassau",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "District Court Of Suffolk County Second District",
+            "District Court Of Suffolk County Of New York First District",
+            "Suffolk County District Court",
+            "District Court Suffolk County New York Second District",
+            "District Court Suffolk City"
+        ],
+        "dates": [
+            {
+                "start": "1937-01-01",
+                "end": null
+            }
+        ],
+        "name": "District Court Suffolk County New York",
+        "level": "trial",
+        "case_types": [],
+        "notes": "Added city courts in 1846, district courts in 1937",
+        "system": "state",
+        "examples": [
+            "District Court Suffolk County New York",
+            "District Court Suffolk County New York Second District",
+            "District Court Suffolk City",
+            "Suffolk County District Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-DISTRICT.shtml",
+        "type": "trial",
+        "parent": "nydistct",
+        "id": "nydistctsuffolk",
         "location": "New York",
         "citation_string": ""
     },
@@ -12367,6 +14624,596 @@
         "citation_string": ""
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Albany City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Albany City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyalbanycityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Binghamton City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Binghamton City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nybingcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Buffalo Municipal Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Buffalo City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Buffalo City Court",
+            "Buffalo Municipal Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nybuffalocityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Canandaigua City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Canandaigua City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nycanandcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Cohoes City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Cohoes City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nycohoescityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Gloversville City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Gloversville City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nygloverscityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hornell City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Hornell City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyhornellcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Ithaca City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Ithaca City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyithacacityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Jamestown City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Jamestown City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyjamescityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Long Beach City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Long Beach City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nylbccityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Middletown City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Middletown City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nymiddletcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Mount Vernon City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Mount Vernon City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nymtverncityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New Rochelle City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New Rochelle City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nynewroccityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "New York City Municipal Court",
+            "New York City Court Special Term",
+            "New York City Court of Special Sessions",
+            "New York City Court, General Term",
+            "New York City Court, Special Term"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "New York City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nynyccityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Niagara Falls City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Niagara Falls City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyniagaracityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Port Jervis City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Port Jervis City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyportjercityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Rochester City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Rochester City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyroccityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Schenectady City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Schenectady City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyschencityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Syracuse Municipal Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Syracuse City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Syracuse City Court",
+            "Syracuse Municipal Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nysyrcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Tonawanda City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Tonawanda City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nytonacityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Troy City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Troy City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nytroycityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Utica City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Utica City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyuticacityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "White Plains City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "White Plains City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nywhplncityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Yonkers City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Yonkers City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyyonkerscityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+
+
+    {
         "regex": [
             "Fam Ct Bronx County",
             "Fam(ily)? C(our)?t (Tompkins|Livingston|Chautauqua|Bronx) County",
@@ -12383,7 +15230,8 @@
             "Family Court Of New York",
             "Family Court.* New York",
             "Children S Court",
-            "Family Court Of The City Of New York"
+            "Family Court Of The City Of New York",
+            "New York Domestic Relations Court"
         ],
         "dates": [
             {
@@ -12431,6 +15279,24 @@
         "id": "nyfamct",
         "location": "New York",
         "citation_string": "N.Y. Fam. Ct."
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York City Family Court",
+        "level": "trial",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "nycfamct",
+        "parent": "nyfamct",
+        "location": "New York",
+        "citation_string": "N.Y.C. Fam. Ct."
     },
     {
         "regex": [
@@ -12521,40 +15387,8 @@
     },
     {
         "regex": [
-            "Criminal Court (Queens|Kings) County",
-            "Criminal Court? ?(of)? ?(City (of)?)?New York( New York County)?",
-            "Criminal Court? ?(of)? ?City of New York (Kings|Bronx) County",
-            "Court Of Special Sessions City Of New York",
-            "Court Of Special Sessions New York",
-            "Court Of Special Sessions.* New York",
-            "Criminal Court City Of New York",
-            "City Magistrates Court Of The City Of New York",
-            "City Magistrate.* New York",
-            "Court Of Special Sessions City Of Yonkers",
-            "Criminal Court County Of New York",
-            "Magistrate S Court Of City Of New York",
-            "State Of New York Criminal Court Of The City",
-            "State Of New York Magistrates Court Of The City Of New York Borough",
-            "Criminal Court Of The City Of New York",
-            "Magistrates Court City Of New York",
-            "Magistrate S Court Of New York",
-            "Magistrates Court Of New York City Of New York",
-            "Criminal Court Of City Of New York New York",
-            "Criminal Court Of City Of New York",
-            "Court Of Special Sessions City Of New York",
-            "Court Of Special Sessions New York",
-            "Court Of Special Sessions.* New York",
-            "City Magistrates Court Of The City Of New York",
-            "City Magistrate.* New York",
-            "Court Of Special Sessions City Of Yonkers",
-            "Magistrates.* New York",
-            "Recorder S Court Of.* New York",
-            "Magistrate S Court City Of New York",
-            "Court Special Sessions Of New York City",
-            "Ny Recorder S Ct",
-            "Recorder S Court City Of Albany New York",
-            "Recorder S Court City Of Newburgh New York",
-            "State And City Of New York Magistrates"
+            "New York Court of Special Sessions?",
+            "New York Court of Special Sessions of the First Division"
         ],
         "dates": [
             {
@@ -12566,7 +15400,124 @@
                 "start": "1744-01-01",
                 "end": "1962-08-31",
                 "name": "Court of Special Sessions"
+            }
+        ],
+        "name": "New York Court of Special Sessions",
+        "level": "trial",
+        "notes": "Handled lesser criminal offenses as compared to general",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nyspecsessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+     {
+        "regex": [
+            "New York City Court of Special Sessions",
+            "New York City Court,? Special Term"
+        ],
+        "dates": [
+            {
+                "start": "1732-01-01",
+                "end": "1962-08-31",
+                "name": "Earlier Court"
             },
+            {
+                "start": "1744-01-01",
+                "end": "1962-08-31",
+                "name": "Court of Special Sessions"
+            }
+        ],
+        "name": "New York City Court of Special Sessions",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "parent": "nyspecsessct",
+        "id": "nynycspecsess",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Albany Special Sessions",
+            "Albany Recorder's Court"
+        ],
+        "name": "Albany Court of Special Sessions",
+        "examples": [],
+        "level": "gjc",
+        "parent": "nyspecsessct",
+        "id": "nyalbspecsess",
+        "type": "trial",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Magistrate Court of New York"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1962-09-01"
+            }
+        ],
+        "name": "New York Magistrate Court",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "id": "nymagct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "City Magistrates Court Of The City Of New York",
+            "City Magistrate.* New York",
+            "Magistrate S Court Of City Of New York",
+            "State Of New York Magistrates Court Of The City Of New York Borough",
+            "Magistrates Court City Of New York",
+            "Magistrate S Court Of New York",
+            "Magistrates Court Of New York City Of New York",
+            "City Magistrates Court Of The City Of New York",
+            "City Magistrate.* New York",
+            "Magistrate S Court City Of New York",
+            "New York City Magistrates' Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": "1962-09-01"
+            }
+        ],
+        "name": "New York City Magistrate Court",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+        ],
+        "type": "trial",
+        "parent": "nymagct",
+        "id": "nynycmagct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York City Criminal Court",
+            "Criminal Court City Of New York",
+            "Criminal Court County Of New York",
+            "State Of New York Criminal Court Of The City",
+            "Criminal Court Of The City Of New York",
+            "Criminal Court Of City Of New York"
+        ],
+        "dates": [
             {
                 "start": "1962-09-01",
                 "end": null
@@ -12577,12 +15528,7 @@
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
         "system": "state",
         "examples": [
-            "Criminal Court Queens County",
-            "Criminal Court New York County",
-            "Criminal Court Kings County",
-            "Criminal Court City New York New York County",
-            "Criminal Court Of City Of New York Bronx County",
-            "Criminal Cour City Of New York Kings County"
+            "New York City Criminal Court"
         ],
         "type": "trial",
         "id": "nyccrimct",
@@ -12591,8 +15537,107 @@
     },
     {
         "regex": [
+            "Criminal Court Queens County"
+        ],
+        "dates": [
+            {
+                "start": "1962-09-01",
+                "end": null
+            }
+        ],
+        "name": "The Criminal Court of the City of New York, Queens",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+            "Criminal Court Queens County"
+        ],
+        "type": "trial",
+        "parent": "nyccrimct",
+        "id": "nyccrimctqueens",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Criminal Court Kings County",
+            "Criminal Cour City Of New York Kings County"
+        ],
+        "dates": [
+            {
+                "start": "1962-09-01",
+                "end": null
+            }
+        ],
+        "name": "The Criminal Court of the City of New York, Kings",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+            "Criminal Court Kings County"
+        ],
+        "type": "trial",
+        "parent": "nyccrimct",
+        "id": "nyccrimctkings",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Criminal Court Bronx County",
+            "Criminal Court Of City Of New York Bronx County"
+        ],
+        "dates": [
+            {
+                "start": "1962-09-01",
+                "end": null
+            }
+        ],
+        "name": "The Criminal Court of the City of New York, Bronx",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+            "Criminal Court Bronx County"
+        ],
+        "type": "trial",
+        "parent": "nyccrimct",
+        "id": "nyccrimctbronx",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Criminal Court New York County",
+            "Criminal Court City New York New York County"
+        ],
+        "dates": [
+            {
+                "start": "1962-09-01",
+                "end": null
+            }
+        ],
+        "name": "The Criminal Court of the City of New York, New York",
+        "level": "trial",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "system": "state",
+        "examples": [
+            "Criminal Court New York County",
+            "Criminal Court City New York New York County"
+        ],
+        "type": "trial",
+        "parent": "nyccrimct",
+        "id": "nyccrimctnyc",
+        "location": "New York",
+        "citation_string": ""
+    },
+
+
+    {
+        "regex": [
             "New York Court Of Claims",
-            "Court Of Claims? Of New York"
+            "Court Of Claims? Of New York",
+            "New York Claims Court"
         ],
         "dates": [
             {
@@ -12622,8 +15667,8 @@
             "Commong Pleas Of New York Special Term",
             "Court Of Pleas Of New York",
             "New York Common Pleas General Term",
-            "New York General Sessions",
-            "Ny General Session"
+            "New York Recorder's Court",
+            "Recorder of New York City"
         ],
         "dates": [
             {
@@ -12633,16 +15678,80 @@
         ],
         "name": "New York Court of Common Pleas",
         "level": "trial",
-        "notes": "Appears to be the civil side of the Court of General Sessions",
+        "notes": "Appears to be the civil side of the Court of General Sessions. Courts were less rule bound in the 16-1800s.  In this case the recorder or the mayor could preside.",
         "system": "state",
         "examples": [
             "Cout Of Common Pleas Of New York City And County General Term",
-            "New York Court of Common Pleas",
-            "New York General Sessions",
-            "Ny General Session"
+            "New York Court of Common Pleas"
         ],
         "type": "trial",
         "id": "nyctcompl",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Newburgh Recorder's Court",
+        "level": "trial",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "nyrecctnewburgh",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Superior Court of Buffalo",
+            "Superior Court of Buffalo, General Term",
+            "Buffalo Superior Court",
+            "Superior Court City Of Buffalo New York Special Term"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Superior Court of Buffalo",
+        "level": "trial",
+        "system": "state",
+        "examples": [
+            "Superior Court City Of Buffalo New York Special Term"
+        ],
+        "type": "trial",
+        "parent": "superctny",
+        "id": "nysuperctbuf",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Superior Court of New York",
+            "Superior Court City Of New York New York( Equity Term)?"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Superior Court of New York",
+        "level": "trial",
+        "system": "state",
+        "examples": [
+            "Superior Court City Of New York New York",
+            "Superior Court City Of New York New York Equity Term"
+        ],
+        "type": "trial",
+        "parent": "superctny",
+        "id": "nysuperctnyc",
         "location": "New York",
         "citation_string": ""
     },
@@ -12674,7 +15783,6 @@
             "Court Of Appeals (Of ?){1,2} New Yor?k",
             "Court Of Appealsof New York",
             "Court Of Appeal S Of New York",
-            "Commission Of Appeals Of New York",
             "Court Op Appeals Of New York",
             "Ny Court Of Appeals"
         ],
@@ -12696,6 +15804,56 @@
         "id": "ny",
         "location": "New York",
         "citation_string": "NY"
+    },
+    {
+        "regex": [
+            "New York Commission of Appeals",
+            "Commission of Appeals( of New York)?"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York Commission of Appeals",
+        "level": null,
+        "case_types": [],
+        "system": "state",
+        "court_url": "",
+        "examples": [
+            "New York Commission of Appeals"
+        ],
+        "type": "appellate",
+        "id": "nycommnapp",
+        "location": "New York",
+        "jurisdiction": "N.Y.",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Saratoga Chancery Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Saratoga Chancery Court",
+        "level": null,
+        "case_types": [],
+        "system": "state",
+        "court_url": "",
+        "examples": [
+            "Saratoga Chancery Court"
+        ],
+        "type": "appellate",
+        "id": "nychanctsara",
+        "parent": "nychanct",
+        "location": "New York",
+        "jurisdiction": "N.Y.",
+        "citation_string": ""
     },
     {
         "regex": [
@@ -12724,26 +15882,11 @@
         "regex": [
             "Supreme Court (${bw})? ?(Trial|Special|General|Equity|Civil) Term",
             "Supreme Court of Nisi Prius New York",
-            "Supreme Court ${ny_counties} County",
             "Supreme (Couet|Coukt|Cour) Of New York",
-            "Yonkers Court Of New York Special Sessions",
-            "Supreme Court N Y County",
             "Supreme Court Trial Special Term",
-            "Supreme Court New County",
-            "(?=^.*New York Supreme Court)(?!^.*Appellate).*",
-            "(?=^.*New York)(?=^.*Supreme Court)(?!^.*Appellate).*",
-            "(?=^.*${ny_counties})(?=^.*Supreme Court)(?!^.*Appellate)(?!^.*(Delaware|Washington|Wyoming|Columbia|District))(?!^.*Ohio).*",
-            "(?=^.*New York)(?=^.*Supreme)(?!^.*Appellate).*",
-            "(?=^.*New York)(?=^.*Supreme Court)(?!^.*Ohio)(?!^.*Appellate).*",
-            "Supremet Court Kings County",
-            "Surpeme Court New York County",
-            "Sup Court Kings County",
-            "New York State Courts",
-            "Supreme Court Of New Yourk General Term",
-            "Supreme Court Of New Yprk",
-            "Suprerior Court Of New York",
-            "Suprome Court Of New York Onondaga",
-            "Upreme Court Of New York General Term"
+            "Supreme Court Of New Your?k General Term",
+            "Nisi Prius",
+            "Supreme Courts Of New York"
         ],
         "dates": [
             {
@@ -12756,59 +15899,7 @@
         "case_types": [],
         "system": "state",
         "examples": [
-            "Supreme Court Bronx County New York Trial Term Part Xvi",
-            "Supreme Court Chautauqua County New York Niagara County Chambers",
-            "Supreme Court Cayuga County New York Equity Term",
-            "Supreme Court Broome County New York Special Term",
-            "Supreme Court Broome County New York Adjourned Special Term",
-            "Supreme Court Bronx County New York Trial Term Part Xx",
-            "Supreme Court Bronx County New York Part 55",
-            "Supreme Court Franklin County New York Special Term Clinton County",
-            "Supreme Court Fulton County New York",
-            "Supreme Court Genesee County New York Trial Term",
-            "Supreme Court Monroe County Ct",
-            "Supreme Court Monroe County New York Civil Term",
-            "Supreme Court N Y County",
-            "Supreme Court Niagara County New York Special Term",
-            "State of New York? Supreme Court$$",
-            "New York Supreme Court Supreme Court.* County",
-            "Supreme Court General Term",
-            "Supreme Court Criminal Term New York",
-            "Supreme Court New County",
-            "Supreme Court Rennselaer County",
-            "New York Supreme Court Court Of First Instance Kings Country",
-            "Supreme Court Trial Ias Nassau County",
-            "Supreme Court State Of New York New York County",
-            "Supreme Court Special Term New York",
-            "Supreme Court Of The State Of New York New York County",
-            "State Of New York Supreme Court Special Term",
-            "New York Supreme Court King S County",
-            "State Of New York Supreme Court At Law",
-            "State Of New York Supreme Court Criminal Term Kings County",
-            "State Of New York Special Term Supreme Court",
-            "Supreme Court New York Chambers",
-            "Supreme Court New York Ias Part 4",
-            "Supreme Court New York Dutchess Trial And Special Term",
-            "Supreme Court Equity Term",
-            "Supreme Court Criminal Division New York",
-            "Supreme Court Civil Term New York",
-            "Supreme Court Oneida And Albany County",
-            "Supreme Court Part Orange County",
-            "Supreme Court Trial Ias Term Nassau County",
-            "Supreme Court Trial Special Term",
-            "Supreme Court Special Term Suffolk",
-            "Supreme Court Ulster And Orange County",
-            "Supreme Court State Of New York County Of New York",
-            "New York Supreme Court Of New York County",
-            "New York Supreme Court Court Of First Instance Special Term King S County",
-            "Supreme Court Of New York",
-            "New York Supreme Court",
-            "Supreme Court Of Judicature Of New York",
-            "Yonkers Court Of New York Special Sessions",
-            "Upreme Court Of New York General Term",
-            "Supreme Court State Of New York",
-            "Supreme Courts Of New York",
-            "Supreme Of New York"
+            "Supreme Courts Of New York"
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "type": "trial",
@@ -13082,7 +16173,8 @@
         "regex": [
             "Court Of Arbitration Of The Chamber Of Commerce Of New York",
             "Arbitration At New York",
-            "Arbitration Court Of New York Chamber Of Commerce"
+            "Arbitration Court Of New York Chamber Of Commerce",
+            "New York Court of Chamber"
         ],
         "dates": [
             {
@@ -13736,7 +16828,8 @@
             "Ohio.* Probate",
             "Court Of Insolvency.* ohio",
             "Probate Court ${oh_counties}",
-            "State Of Ohio Court Of Insolvency"
+            "State Of Ohio Court Of Insolvency",
+            "Police Court"
         ],
         "dates": [
             {
@@ -14524,6 +17617,7 @@
             "Common Pleas.* ${pa}",
             "Common Pleas Court Of Lancaster County",
             "Pa Ct Of Common Pleas",
+            "Pennsylvania Court of Common Pleas",
             "Common Pleas Court Of Philadelphia County Reported In Volume One Of The United States Reports",
             "Common Pleas Of Philadelphia Reported In Volume Two Of The United States Reports"
         ],
@@ -22096,6 +25190,24 @@
         "citation_string": ""
     },
     {
+        "regex": [],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Pennsylvania Court of Quarter Sessions",
+        "level": null,
+        "case_types": [],
+        "system": "state",
+        "location": "Pennsylvania",
+        "type": null,
+        "id": "pennctqtrsess",
+        "examples": [],
+        "citation_string": ""
+    },
+    {
         "regex": [
             "Circuit Court D Mid D Pa"
         ],
@@ -23110,6 +26222,7 @@
         "system": "state",
         "examples": [],
         "type": "trial",
+        "location": "California",
         "id": "caldistct",
         "citation_string": "Cal. Dist. Ct."
     }
