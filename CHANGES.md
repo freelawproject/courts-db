@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.33 (2022-01-20): Edit Board of Immigration Appeal ID.  Add citation_string key for new California courts.
+ - 0.9.34 (2022-02-02): Update NY Courts. Added ability to stub child courts and inherit from parent.
 
 ## Past Versions
+
+ - 0.9.33 (2022-01-20): Edit Board of Immigration Appeal ID.  Add citation_string key for new California courts.
 
  - 0.9.32 (2022-01-19): Update California courts from the past.  Also divide up court of appeals into its component districts.  Add test for court_ids.  Add test for finding parent courts.
 
