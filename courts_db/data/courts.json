@@ -15734,7 +15734,8 @@
     {
         "regex": [
             "Superior Court of New York",
-            "Superior Court City Of New York New York( Equity Term)?"
+            "Superior Court City Of New York New York( Equity Term)?",
+            "The Superior Court of the City of New York"
         ],
         "dates": [
             {
@@ -18181,6 +18182,27 @@
     },
     {
         "regex": [
+            "Superior Court of South Carolina"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Superior Court of South Carolina",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Superior Court of South Carolina"
+        ],
+        "type": "trial",
+        "id": "superctsc",
+        "location": "South Carolina"
+    },
+    {
+        "regex": [
             "${usdc} ${d} ${sc}",
             "${usdc} ${sc}",
             "^${d} ${sc}",
@@ -19440,6 +19462,28 @@
         "id": "va",
         "location": "Virginia",
         "citation_string": "Va."
+    },
+    {
+        "regex": [
+            "General Court",
+            "Virginia Court of General Sessions",
+            "Virginia Court of Quarter Sessions"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Virginia Court of General Sessions",
+        "level": "",
+        "case_types": [],
+        "system": "state",
+        "examples": [],
+        "notes": "https://scholarworks.wm.edu/cgi/viewcontent.cgi?article=3894&context=etd",
+        "type": "appellate",
+        "id": "vagensess",
+        "location": "Virginia"
     },
     {
         "regex": [
@@ -24665,6 +24709,26 @@
     },
     {
         "regex": [
+            "U.S. Circuit Court for the Mississippi Territory"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "U.S. Circuit Court for the Mississippi Territory",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "Mississippi",
+        "type": "appellate",
+        "id": "circtmissterr",
+        "examples": [],
+        "citation_string": ""
+    },
+    {
+        "regex": [
             "Circuit Court N D Miss"
         ],
         "name_abbreviation": "N. Miss. Cir. Ct",
@@ -25821,6 +25885,25 @@
         "id": "circtdwy",
         "examples": [],
         "citation_string": ""
+    },
+    {
+        "regex": [
+            "Circuit Court U. S. NEW-YORK"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "U.S. Circuit Court for New York",
+        "level": "iac",
+        "case_types": [],
+        "system": "federal",
+        "location": "New York",
+        "type": "appellate",
+        "id": "circtny",
+        "examples": []
     },
     {
         "regex": [
