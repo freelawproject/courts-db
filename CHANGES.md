@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.34 (2022-02-02): Update NY Courts. Added ability to stub child courts and inherit from parent.
+ - 0.9.35 (2022-02-03): Add test for citation_string key.
 
 ## Past Versions
+
+ - 0.9.34 (2022-02-02): Update NY Courts. Added ability to stub child courts and inherit from parent.
 
  - 0.9.33 (2022-01-20): Edit Board of Immigration Appeal ID.  Add citation_string key for new California courts.
 
