@@ -14277,8 +14277,7 @@
         "case_types": "",
         "system": "state",
         "examples": [
-            "Court Of Oyer And Terminer New York",
-            "Oyer and Terminer New York County"
+            "Court Of Oyer And Terminer New York"
         ],
         "active": false,
         "type": "trial",
