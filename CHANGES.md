@@ -6,7 +6,7 @@
 
 ## Current Version
 
- - 0.9.37 (2022-02-03): Remove duplicate court for NY Court of Errors
+ - 0.9.38 (2022-02-03): Remove duplicate court for NY Court of Errors
 
 ## Past Versions
 
