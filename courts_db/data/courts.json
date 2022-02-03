@@ -15735,7 +15735,8 @@
         "regex": [
             "Superior Court of New York",
             "Superior Court City Of New York New York( Equity Term)?",
-            "The Superior Court of the City of New York"
+            "The Superior Court of the City of New York",
+            "New York Superior Court"
         ],
         "dates": [
             {
