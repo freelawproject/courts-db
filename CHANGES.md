@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.36 (2022-02-03): Add nysuperct variation
+ - 0.9.37 (2022-02-03): Remove duplicate court for NY Court of Errors
 
 ## Past Versions
+
+ - 0.9.36 (2022-02-03): Add nysuperct variation
 
  - 0.9.35 (2022-02-03): Add test for citation_string key.
 
