@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.35 (2022-02-03): Add test for citation_string key.
+ - 0.9.36 (2022-02-03): Add nysuperct variation
 
 ## Past Versions
+
+ - 0.9.35 (2022-02-03): Add test for citation_string key.
 
  - 0.9.34 (2022-02-02): Update NY Courts. Added ability to stub child courts and inherit from parent.
 
