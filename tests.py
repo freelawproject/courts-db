@@ -157,6 +157,11 @@ class JsonTest(CourtsDBTestCase):
             len(court_ids), len(list(set(court_ids))), msg=c.most_common(10)
         )
 
+    def test_json_keys(self):
+        """Are courts have a citation string unique?"""
+        cites = [row["id"] for row in load_courts_db() if row.get("citation_string", None) == None]
+        self.assertEqual(len(cites), 0, msg=cites)
+
     def test_id_length(self):
         """Make sure Id length does not exceed 15 characters"""
         max_id_length = max([len(row["id"]) for row in load_courts_db()])

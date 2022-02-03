@@ -18199,6 +18199,7 @@
         ],
         "type": "trial",
         "id": "superctsc",
+        "citation_string": "",
         "location": "South Carolina"
     },
     {
@@ -19483,6 +19484,7 @@
         "notes": "https://scholarworks.wm.edu/cgi/viewcontent.cgi?article=3894&context=etd",
         "type": "appellate",
         "id": "vagensess",
+        "citation_string": "",
         "location": "Virginia"
     },
     {
@@ -25903,6 +25905,7 @@
         "location": "New York",
         "type": "appellate",
         "id": "circtny",
+        "citation_string": "",
         "examples": []
     },
     {
