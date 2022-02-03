@@ -159,7 +159,11 @@ class JsonTest(CourtsDBTestCase):
 
     def test_json_keys(self):
         """Are courts have a citation string unique?"""
-        cites = [row["id"] for row in load_courts_db() if row.get("citation_string", None) == None]
+        cites = [
+            row["id"]
+            for row in load_courts_db()
+            if row.get("citation_string", None) == None
+        ]
         self.assertEqual(len(cites), 0, msg=cites)
 
     def test_id_length(self):
