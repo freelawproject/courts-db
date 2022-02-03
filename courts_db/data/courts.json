@@ -12660,7 +12660,8 @@
             "Court For The Correction Of Errors New York",
             "Court For The Correction Of Errors Of New York",
             "Court of Errors of the State of New York",
-            "New York Court of Errors"
+            "New York Court of Errors",
+            "New York Court for the Correction of Errors"
         ],
         "dates": [
             {
@@ -12668,7 +12669,7 @@
                 "end": "1846-12-31"
             }
         ],
-        "name": "Court for the Correction of Errors",
+        "name": "Court for the Trial of Impeachments and Correction of Errors",
         "level": "colr",
         "case_types": [],
         "notes": "Abolished by Constitutional Amendment and transfered to the NY Court of Appeals",
@@ -12679,7 +12680,7 @@
         ],
         "court_url": "",
         "type": "appellate",
-        "id": "nyerrct",
+        "id": "nycterr",
         "location": "New York",
         "citation_string": ""
     },
@@ -14260,12 +14261,10 @@
     },
     {
         "regex": [
-            "Court Of Oyer And Terminer ?(([A-Za-z]+) County)? New York",
             "New York Court Of Oyer And Terminer",
             "New York Oyer and Terminer",
             "Oyer and Terminer",
-            "New York Court Oyer & Terminer",
-            "Oyer and Terminer New York County"
+            "New York Court Oyer & Terminer"
         ],
         "dates": [
             {
@@ -14284,6 +14283,31 @@
         "active": false,
         "type": "trial",
         "id": "nyoytermct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Oyer and Terminer New York County"
+
+        ],
+        "dates": [
+            {
+                "start": "1788-01-01",
+                "end": "1895-12-31"
+            }
+        ],
+        "name": "Court Of Oyer And Terminer New York",
+        "level": "",
+        "case_types": "",
+        "system": "state",
+        "examples": [
+            "Oyer and Terminer New York County"
+        ],
+        "active": false,
+        "type": "trial",
+        "id": "nyoytermctnyc",
+        "parent": "nyoytermct",
         "location": "New York",
         "citation_string": ""
     },
@@ -14357,6 +14381,7 @@
     },
     {
         "regex": [
+            "Oyer and Terminer Queens County"
         ],
         "dates": [
             {
@@ -14379,6 +14404,7 @@
     },
     {
         "regex": [
+            "Oyer and Terminer Washington County"
         ],
         "dates": [
             {
@@ -15856,29 +15882,6 @@
         "location": "New York",
         "jurisdiction": "N.Y.",
         "citation_string": ""
-    },
-    {
-        "regex": [
-            "New York Court for the Correction of Errors"
-        ],
-        "dates": [
-            {
-                "start": "1777-01-01",
-                "end": "1846-12-31"
-            }
-        ],
-        "name": "Court for the Trial of Impeachments and Correction of Errors",
-        "level": "colr",
-        "case_types": [],
-        "system": "state",
-        "court_url": "",
-        "examples": [
-            "New York Court for the Correction of Errors"
-        ],
-        "type": "appellate",
-        "id": "nycterr",
-        "location": "New York",
-        "citation_string": "N.Y. Ct. Corr. Err."
     },
     {
         "regex": [
