@@ -14426,6 +14426,7 @@
     },
     {
         "regex": [
+            "Rensselaer Oyer and Terminer"
         ],
         "dates": [
             {
@@ -14433,7 +14434,7 @@
                 "end": "1895-12-31"
             }
         ],
-        "name": "Rensselaer Oyer and Terminer",
+        "name": "Oyer and Terminer, Rensselaer County",
         "level": "",
         "case_types": "",
         "system": "state",
@@ -15890,7 +15891,8 @@
             "Supreme Court Trial Special Term",
             "Supreme Court Of New Your?k General Term",
             "Nisi Prius",
-            "Supreme Courts Of New York"
+            "Supreme Courts Of New York",
+            "New York Supreme Court of Judicature"
         ],
         "dates": [
             {
