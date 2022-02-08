@@ -12090,6 +12090,30 @@
     },
     {
         "regex": [
+            "Court of Sessions, New York County"
+        ],
+        "dates": [
+            {
+                "start": "1684-01-01",
+                "end": "1688-12-31"
+            }
+        ],
+        "name": "Court of Sessions, New York County",
+        "level": "trial",
+        "notes": "See https://history.nycourts.gov/case/court-sessions",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Court of Sessions, New York County"
+        ],
+        "type": "trial",
+        "id": "nysessctnyc",
+        "parent": "nysessct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
             "New York Court of Sessions, Rensselaer County"
         ],
         "dates": [
@@ -12826,7 +12850,8 @@
     },
     {
         "regex": [
-            "Supe?rior (Court)?\\s?of New York( General Term)?"
+            "Supe?rior (Court)?\\s?of New York( General Term)?",
+            "Superior Court of the State of New York"
         ],
         "dates": [
             {
@@ -13132,20 +13157,9 @@
     },
     {
         "regex": [
-            "County Court (${ny_counties}) County",
-            "County Court Of New York",
-            "County Court Weschester County",
-            "County Court Dings County New York",
-            "County Court Lawrence County",
-            "County Court Schenectay County",
-            "Nassau County Court",
-            "County Court Of The City Of New York Genesee County",
-            "County Court Of The City Of New York Nassau County",
-            "County Court Of The State Of New York County Of Schoharie",
+            "County Court of New York",
             "New York County Court",
-            "County Court Of New York General Sessions",
-            "County Court Of New York General Sessions New York County",
-            "County Court Of New York New York County General Sessions"
+            "County Court Of New York General Sessions"
         ],
         "dates": [
             {
@@ -13160,36 +13174,11 @@
         "jurisdiction": "N.Y.",
         "system": "state",
         "examples": [
-            "Nassau County Court"
+            "New York County Court"
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "type": "trial",
         "id": "nycountyct",
-        "location": "New York",
-        "citation_string": "N.Y. County Court"
-    },
-
-    {
-        "regex": [
-        ],
-        "dates": [
-            {
-                "start": null,
-                "end": null
-            }
-        ],
-        "name": "New York County Courts",
-        "level": "trial",
-        "case_types": [],
-        "notes": "",
-        "jurisdiction": "N.Y.",
-        "system": "state",
-        "examples": [
-        ],
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
-        "type": "trial",
-        "parent": "nycountyct",
-        "id": "",
         "location": "New York",
         "citation_string": "N.Y. County Court"
     },
@@ -13214,6 +13203,32 @@
         "type": "trial",
         "parent": "nycountyct",
         "id": "nyalbanyctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "Allegany County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Allegany County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Allegany County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyalleganyctyct",
         "location": "New York",
         "citation_string": "N.Y. County Court"
     },
@@ -13486,6 +13501,32 @@
         "citation_string": "N.Y. County Court"
     },
     {
+        "regex": [
+            "Dutchess County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Dutchess County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Dutchess County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nydutchessctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
         "regex": [],
         "dates": [
             {
@@ -13650,6 +13691,32 @@
         "type": "trial",
         "parent": "nycountyct",
         "id": "nylewisctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "Livingston County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Livingston County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Livingston County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nylivingstctyct",
         "location": "New York",
         "citation_string": "N.Y. County Court"
     },
@@ -14044,6 +14111,32 @@
         "citation_string": "N.Y. County Court"
     },
     {
+        "regex": [
+            "Schuyler County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Schuyler County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Schuyler County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nyschuylerctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
         "regex": [],
         "dates": [
             {
@@ -14140,6 +14233,32 @@
         "citation_string": "N.Y. County Court"
     },
     {
+        "regex": [
+            "Tompkins County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Tompkins County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Tompkins County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nytompkinsctyct",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
         "regex": [],
         "dates": [
             {
@@ -14232,6 +14351,32 @@
         "type": "trial",
         "parent": "nycountyct",
         "id": "nywestchcty",
+        "location": "New York",
+        "citation_string": "N.Y. County Court"
+    },
+    {
+        "regex": [
+            "Wyoming County Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Wyoming County Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Wyoming County Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycountyct",
+        "id": "nywyoming ctyct",
         "location": "New York",
         "citation_string": "N.Y. County Court"
     },
@@ -14472,7 +14617,8 @@
 
     {
         "regex": [
-            "State Of New York Court On The Judiciary"
+            "State Of New York Court On The Judiciary",
+            "New York Court on the Judiciary"
         ],
         "dates": [
             {
@@ -14492,7 +14638,7 @@
     },
     {
         "regex": [
-            "New York District Court"
+            "New York Distr?ict Court"
         ],
         "dates": [
             {
@@ -14520,7 +14666,9 @@
             "Nassau District Court",
             "State Of New York District Court Of Nassau County First District",
             "District Court Of New York Fourth District Nassau County",
-            "Nassau County District Court"
+            "Nassau County District Court",
+            "New York District? Court of Nassau County",
+            "District Court of Nassau County"
         ],
         "dates": [
             {
@@ -14569,7 +14717,8 @@
             "District Court Suffolk County New York",
             "District Court Suffolk County New York Second District",
             "District Court Suffolk City",
-            "Suffolk County District Court"
+            "Suffolk County District Court",
+            "District Court of Suffolk County"
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-DISTRICT.shtml",
         "type": "trial",
@@ -14628,7 +14777,6 @@
         "notes": "Added city courts in 1846",
         "system": "state",
         "examples": [
-            "City Court Poughkeepsie City",
             "City Court of Oswego New York",
             "City Court of Auburn",
             "City Court of Cohoes Albany County",
@@ -14670,6 +14818,84 @@
         "type": "trial",
         "parent": "nycityct",
         "id": "nyalbanycityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Amsterdam City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Amsterdam City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Amsterdam City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyamsterdcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Auburn City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Auburn City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Auburn City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyauburncityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Batavia City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Batavia City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Batavia City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nybataviacityct",
         "location": "New York",
         "citation_string": "N.Y. City Court"
     },
@@ -14773,7 +14999,165 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Cou?rtland City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Cortland City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Cortland City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nycortlcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Dunkirk City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Dunkirk City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Dunkirk City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nydunkirkcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Elmira City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Elmira City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Elmira City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyelmiracityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Fulton City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Fulton City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Fulton City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyfultoncityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Geneva City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Geneva City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Geneva City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nygenevacityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Glens Falls City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Glens Falls City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Glens Falls City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyglensfcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Gloversville City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -14817,6 +15201,32 @@
         "type": "trial",
         "parent": "nycityct",
         "id": "nyhornellcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Hudson City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Hudson City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Hudson City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyhudsoncityct",
         "location": "New York",
         "citation_string": "N.Y. City Court"
     },
@@ -14869,7 +15279,61 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Kingston City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Kingston City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Kingston City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nykingstcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Lackawanna City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Lackawanna City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Lackawanna City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nylackawcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Long Beach City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -14893,7 +15357,9 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Middletown City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -14937,6 +15403,32 @@
         "type": "trial",
         "parent": "nycityct",
         "id": "nymtverncityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Nassau City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Nassau City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Nassau City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nynassaucityct",
         "location": "New York",
         "citation_string": "N.Y. City Court"
     },
@@ -14995,6 +15487,32 @@
         "citation_string": "N.Y. City Court"
     },
     {
+        "regex": [
+            "Newburgh City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Newburgh City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Newburgh City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nynewburcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
         "regex": [],
         "dates": [
             {
@@ -15015,6 +15533,110 @@
         "type": "trial",
         "parent": "nycityct",
         "id": "nyniagaracityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Oneida City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Oneida City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Oneida City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyoneidacityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Oswego City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Oswego City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Oswego City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyoswegocityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Peekskill City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Peekskill City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Peekskill City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nypeekskcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Plattsburgh City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Plattsburgh City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Plattsburgh City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyplattscityct",
         "location": "New York",
         "citation_string": "N.Y. City Court"
     },
@@ -15043,6 +15665,32 @@
         "citation_string": "N.Y. City Court"
     },
     {
+        "regex": [
+            "Poughkeepsie City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Poughkeepsie City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Poughkeepsie City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nypoughcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
         "regex": [],
         "dates": [
             {
@@ -15063,6 +15711,84 @@
         "type": "trial",
         "parent": "nycityct",
         "id": "nyroccityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Rome City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Rome City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Rome City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyromecityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Rye City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Rye City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Rye City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nyryecityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Saratoga Springs City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Saratoga Springs City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Saratoga Springs City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nysaratocityct",
         "location": "New York",
         "citation_string": "N.Y. City Court"
     },
@@ -15118,7 +15844,9 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Tonawanda City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -15142,7 +15870,9 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Troy City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -15166,7 +15896,9 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Utica City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -15190,7 +15922,62 @@
         "citation_string": "N.Y. City Court"
     },
     {
-        "regex": [],
+        "regex": [
+            "Watertown City Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Watertown City Court",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "Watertown City Court"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nywatertcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "Westchester City Court",
+            "City Court of Westchester"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "City Court of Westchester",
+        "level": "trial",
+        "case_types": [],
+        "notes": "",
+        "jurisdiction": "N.Y.",
+        "system": "state",
+        "examples": [
+            "City Court of Westchester"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "type": "trial",
+        "parent": "nycityct",
+        "id": "nywestchcityct",
+        "location": "New York",
+        "citation_string": "N.Y. City Court"
+    },
+    {
+        "regex": [
+            "White Plains City Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -15257,7 +16044,8 @@
             "Family Court.* New York",
             "Children S Court",
             "Family Court Of The City Of New York",
-            "New York Domestic Relations Court"
+            "New York Domestic Relations Court",
+            "New York Children's Court"
         ],
         "dates": [
             {
@@ -15307,7 +16095,9 @@
         "citation_string": "N.Y. Fam. Ct."
     },
     {
-        "regex": [],
+        "regex": [
+            "New York City Family Court"
+        ],
         "dates": [
             {
                 "start": null,
@@ -15323,6 +16113,71 @@
         "parent": "nyfamct",
         "location": "New York",
         "citation_string": "N.Y.C. Fam. Ct."
+    },
+    {
+        "regex": [
+            "Delaware County Children's Court",
+            "Delaware Children's Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Delaware County Children's Court",
+        "level": "trial",
+        "system": "state",
+        "examples": [
+            "Delaware Children's Court"
+        ],
+        "type": "trial",
+        "id": "nyfamctdel",
+        "parent": "nyfamct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Sullivan County Children's Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Sullivan County Children's Court",
+        "level": "trial",
+        "system": "state",
+        "examples": [
+            "Sullivan County Children's Court"
+        ],
+        "type": "trial",
+        "id": "nyfamctsull",
+        "parent": "nyfamct",
+        "location": "New York",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "Westchester County Children's Court"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "Westchester County Children's Court",
+        "level": "trial",
+        "system": "state",
+        "examples": [],
+        "type": "trial",
+        "id": "nyfamctwestch",
+        "parent": "nyfamct",
+        "location": "New York",
+        "citation_string": ""
     },
     {
         "regex": [
@@ -15414,7 +16269,8 @@
     {
         "regex": [
             "New York Court of Special Sessions?",
-            "New York Court of Special Sessions of the First Division"
+            "New York Court of Special Sessions of the First Division",
+            "Court of Special Sessions of New York"
         ],
         "dates": [
             {
@@ -15433,6 +16289,7 @@
         "notes": "Handled lesser criminal offenses as compared to general",
         "system": "state",
         "examples": [
+            "Court of Special Sessions of New York"
         ],
         "type": "trial",
         "id": "nyspecsessct",
@@ -15483,7 +16340,7 @@
     },
     {
         "regex": [
-            "Magistrate Court of New York"
+            "Magistrate(s')? Court of New York"
         ],
         "dates": [
             {
@@ -15496,6 +16353,8 @@
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
         "system": "state",
         "examples": [
+            "Magistrates' Court of New York",
+            "Magistrate Court of New York"
         ],
         "type": "trial",
         "id": "nymagct",
@@ -15860,6 +16719,54 @@
     },
     {
         "regex": [
+            "New York State Assembly"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York State Assembly",
+        "level": null,
+        "case_types": [],
+        "system": "state",
+        "court_url": "",
+        "examples": [
+            "New York State Assembly"
+        ],
+        "type": "",
+        "id": "nystateassembly",
+        "location": "New York",
+        "jurisdiction": "N.Y.",
+        "citation_string": ""
+    },
+    {
+        "regex": [
+            "New York Executive Chamber"
+        ],
+        "dates": [
+            {
+                "start": null,
+                "end": null
+            }
+        ],
+        "name": "New York Executive Chamber",
+        "level": null,
+        "case_types": [],
+        "system": "state",
+        "court_url": "",
+        "examples": [
+            "New York Executive Chamber"
+        ],
+        "type": "",
+        "id": "nyexecchamber",
+        "location": "New York",
+        "jurisdiction": "N.Y.",
+        "citation_string": ""
+    },
+    {
+        "regex": [
             "Saratoga Chancery Court"
         ],
         "dates": [
@@ -15893,7 +16800,10 @@
             "Nisi Prius",
             "Supreme Courts Of New York",
             "New York Supreme Court of Judicature",
-            "New York Supreme Court, General Term"
+            "New York Supreme Court, General Term",
+            "New York Supreme Court, Special Term",
+            "New York Supreme Court",
+            "New York Supreme Court (other)"
         ],
         "dates": [
             {
@@ -15906,11 +16816,255 @@
         "case_types": [],
         "system": "state",
         "examples": [
-            "Supreme Courts Of New York"
+            "Supreme Courts Of New York",
+            "New York Supreme Court (other)"
         ],
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "type": "trial",
         "id": "nysupct",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Albany General Term"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Albany",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Albany General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctalbany",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Cayuga General Term"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Cayuga",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Cayuga General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctcayuga",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Chenango General Term"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Chenango",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Chenango General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctchenango",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Clinton General Term"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Clinton",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Clinton General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctclinton",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Kings General Term"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Kings",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Kings General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctkings",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Monroe General Term",
+            "Supreme Court, Trial Term, Monroe County"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Monroe",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Monroe General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctmonroe",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Otsego General Term"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Otsego",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "New York Supreme Court, Otsego General Term"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctostego",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "Supreme Court, Trial Term, Niagara County",
+            "Supreme Court, Niagara County"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Niagara",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Supreme Court, Niagara County"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctniagra",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "Supreme Court, Trial Term, Queens County"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "Supreme Court, Queens County",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Supreme Court, Trial Term, Queens County"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctqueens",
+        "location": "New York",
+        "citation_string": "N.Y. Sup. Ct."
+    },
+    {
+        "regex": [
+            "New York Supreme Court, Rensselaer General Term",
+            "Supreme Court, Rensselaer County"
+        ],
+        "dates": [
+            {
+                "start": "1896-01-01",
+                "end": null
+            }
+        ],
+        "name": "New York Supreme Court, Rensselaer",
+        "level": "gjc",
+        "case_types": [],
+        "system": "state",
+        "examples": [
+            "Supreme Court, Rensselaer County"
+        ],
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "type": "trial",
+        "parent": "nysupct",
+        "id": "nysupctren",
         "location": "New York",
         "citation_string": "N.Y. Sup. Ct."
     },
@@ -18215,7 +19369,8 @@
             "^${d} ${sc}",
             "United States District Court Florence Division Of South Carolina",
             "District Court Of United States District Of South Carolina",
-            "District Court Of The United States District Of South Carolina Columbia Division"
+            "District Court Of The United States District Of South Carolina Columbia Division",
+            "South Carolina District Court"
         ],
         "dates": [
             {
