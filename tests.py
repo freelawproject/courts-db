@@ -12,11 +12,10 @@ import re
 import sys
 import unittest
 from collections import Counter
-from difflib import context_diff
 from io import open
 from json.decoder import JSONDecodeError
-from unittest import TestCase
 from pathlib import Path
+from unittest import TestCase
 
 from courts_db import find_court, find_court_by_id
 from courts_db.text_utils import strip_punc
@@ -24,7 +23,6 @@ from courts_db.utils import db_root, load_courts_db
 
 
 class CourtsDBTestCase(TestCase):
-
     def setUp(self):
         self.courts = load_courts_db()
 
@@ -198,6 +196,7 @@ class LazyLoadTest(TestCase):
             self.assertIsNotNone(getattr(courts_db, attr, None))
             self.assertIn(attr, dir(courts_db))
 
+
 class JSONBuildTest(TestCase):
 
     json_name = "courts.json"
@@ -214,8 +213,8 @@ class JSONBuildTest(TestCase):
         cls.json_str = cls.json_path.read_text()
         cls.json = json.loads(cls.json_str)
 
-class StructureTest(JSONBuildTest):
 
+class StructureTest(JSONBuildTest):
     def test_json_format(self):
         """Does format of json file match json.dumps(json.loads(), sort_keys=True)?"""
         reformatted = json.dumps(
