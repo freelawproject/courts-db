@@ -14700,7 +14700,8 @@
             "District Court Of Suffolk County Of New York First District",
             "Suffolk County District Court",
             "District Court Suffolk County New York Second District",
-            "District Court Suffolk City"
+            "District Court (of )?Suffolk City",
+            "District Court (of )?Suffolk County"
         ],
         "dates": [
             {

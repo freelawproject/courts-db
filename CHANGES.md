@@ -6,7 +6,7 @@
 
 ## Current Version
 
- - 0.9.39 (2022-02-03): Update New York Supreme Court
+ - 0.9.40 (2022-02-08): Update New York City/County Courts
 
 ## Past Versions
 
