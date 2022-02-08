@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.40 (2022-02-08): Update New York City/County Courts
+ - 0.9.41 (2022-02-08): Update New York Justice Courts
 
 ## Past Versions
+
+ - 0.9.40 (2022-02-08): Update New York City/County Courts
 
  - 0.9.39 (2022-02-03): Remove duplicate court for NY Court of Errors
 
