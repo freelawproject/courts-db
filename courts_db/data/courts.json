@@ -12216,7 +12216,10 @@
             "New York Police Court",
             "New York Court Police Justice Court",
             "New York Justice Court",
-            "Police Court"
+            "Police Court",
+            "New York Village Court",
+            "New York Police Justice's Court",
+            "New York Village Court, Nassau County"
         ],
         "system": "state",
         "type": "trial"
@@ -12232,7 +12235,8 @@
             }
         ],
         "examples": [
-            "Albany City Police Court"
+            "Albany City Police Court",
+            "Albany Police Court"
         ],
         "id": "nyalbanyjustct",
         "jurisdiction": "N.Y.",
@@ -12242,7 +12246,8 @@
         "notes": "",
         "parent": "nyjustct",
         "regex": [
-            "Albany City Police Court"
+            "Albany City Police Court",
+            "Albany Police Court"
         ],
         "system": "state",
         "type": "trial"
@@ -12267,7 +12272,10 @@
         "name": "Amherst Town Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Amherst Justice Court",
+            "Amherst Town Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12282,7 +12290,8 @@
             }
         ],
         "examples": [
-            "Garden City Police Court"
+            "Garden City Police Court",
+            "Garden City Police Justice's Court"
         ],
         "id": "nygardjust",
         "jurisdiction": "N.Y.",
@@ -12292,7 +12301,8 @@
         "notes": "",
         "parent": "nyjustct",
         "regex": [
-            "Garden City Police Court"
+            "Garden City Police Court",
+            "Garden City Police Justice's Court"
         ],
         "system": "state",
         "type": "trial"
@@ -12308,7 +12318,8 @@
             }
         ],
         "examples": [
-            "Great Neck Plaza Village Court"
+            "Great Neck Plaza Village Court",
+            "Great Neck Justice Court"
         ],
         "id": "nygtnkpljustct",
         "jurisdiction": "N.Y.",
@@ -12317,7 +12328,10 @@
         "name": "Great Neck Plaza Village Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Great Neck Justice Court",
+            "Great Neck Plaza Village Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12365,7 +12379,11 @@
         "name": "Justice Court of Town of Greenburgh",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Greenburgh Justice Court",
+            "Greenburgh Town Court",
+            "Justice Court of Town of Greenburgh"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12380,7 +12398,8 @@
             }
         ],
         "examples": [
-            "Kensington Village Court"
+            "Kensington Village Court",
+            "Justice Court of Village of Kensington"
         ],
         "id": "nykensjustct",
         "jurisdiction": "N.Y.",
@@ -12389,7 +12408,9 @@
         "name": "Kensington Village Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Justice Court of Village of Kensington"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12439,7 +12460,11 @@
         "name": "Colonie Justice Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Justice Court of Colonie",
+            "Colonie Justice Court",
+            "Justice Court of Town of Colonie"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12478,7 +12503,8 @@
             }
         ],
         "examples": [
-            "Hunter Justice Court"
+            "Hunter Justice Court",
+            "Justice Court of Town of Hunter"
         ],
         "id": "nyhunterjustct",
         "jurisdiction": "N.Y.",
@@ -12487,7 +12513,11 @@
         "name": "Hunter Justice Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Hunter Justice Court",
+            "Justice Court of Town of Hunter",
+            "Justice Court of Town of Hunter"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12535,7 +12565,10 @@
         "name": "Kinderhook Justice Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Town of Kinderhook Justice Court",
+            "Kinderhook Justice Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12583,7 +12616,10 @@
         "name": "Massapequa Park Justice Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Justice Court of Village of Massapequa Park",
+            "Massapequa Park Justice Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12631,7 +12667,10 @@
         "name": "Valley Stream Justice Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Justice Court of Village of Valley Stream",
+            "Justice Court of Incorporated Village of Valley Stream"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12656,7 +12695,8 @@
         "notes": "",
         "parent": "nyjustct",
         "regex": [
-            "Webster Justice (of the Peace)?\\s?Court"
+            "Webster Justice (of the Peace)?\\s?Court",
+            "Webster Town Court"
         ],
         "system": "state",
         "type": "trial"
@@ -16309,6 +16349,18 @@
     },
     {
         "citation_string": "",
+        "examples": [],
+        "id": "nyspecsessyonk",
+        "level": "gjc",
+        "name": "Yonkers Court of Special Sessions",
+        "parent": "nyspecsessct",
+        "regex": [
+            "Yonkers Court of Special Sessions"
+        ],
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
         "dates": [
             {
                 "end": "1962-09-01",
@@ -16383,7 +16435,8 @@
             "Criminal Court County Of New York",
             "State Of New York Criminal Court Of The City",
             "Criminal Court Of The City Of New York",
-            "Criminal Court Of City Of New York"
+            "Criminal Court Of City Of New York",
+            "New York Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -27451,6 +27504,3035 @@
         "regex": [
             "District Court of the State of California",
             "California District Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Amsterdam Police Court"
+        ],
+        "id": "nyjustctamsterd",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Amsterdam Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Amsterdam Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Arcadia Justice Court"
+        ],
+        "id": "nyjustctarcadia",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Arcadia Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Arcadia Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Aurora Justice Court"
+        ],
+        "id": "nyjustctaurora",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Aurora Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Aurora Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Brighton Justice Court",
+            "Brighton Town Court",
+            "Justice Court of Town of Brighton"
+        ],
+        "id": "nyjustctbrighto",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Brighton Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Brighton Justice Court",
+            "Brighton Town Court",
+            "Justice Court of Town of Brighton"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Camillus Justice Court"
+        ],
+        "id": "nyjustctcamillu",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Camillus Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Camillus Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Canaan Justice Court"
+        ],
+        "id": "nyjustctcanaan",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Canaan Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Canaan Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Canton Justice Court"
+        ],
+        "id": "nyjustctcanton",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Canton Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Canton Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cayuga Heights Police Court",
+            "Justice Court of Village of Cayuga Heights"
+        ],
+        "id": "nyjustctcayugah",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Cayuga Heights Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Cayuga Heights Police Court",
+            "Justice Court of Village of Cayuga Heights"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cheektowaga Justice Court",
+            "Justice Court of Cheektowaga"
+        ],
+        "id": "nyjustctcheekto",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Cheektowaga Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Cheektowaga Justice Court",
+            "Justice Court of Cheektowaga"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Chenango Justice Court"
+        ],
+        "id": "nyjustctchenang",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Chenango Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Chenango Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Chili Justice Court",
+            "Chili Town Court"
+        ],
+        "id": "nyjustctchili",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Chili Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Chili Justice Court",
+            "Chili Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clarkstown Justice Court"
+        ],
+        "id": "nyjustctclarks",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Clarkstown Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Clarkstown Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clifton Park Justice Court"
+        ],
+        "id": "nyjustctclifton",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Clifton Park Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Clifton Park Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cohoes Police Court"
+        ],
+        "id": "nyjustctcohoes",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Cohoes Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Cohoes Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cornwall Justice Court"
+        ],
+        "id": "nyjustctcornwal",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Cornwall Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Cornwall Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cortlandt Town Court"
+        ],
+        "id": "nyjustctcortlan",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Cortlandt Town Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Cortlandt Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "DeWitt Justice Court",
+            "Dewitt Town Court"
+        ],
+        "id": "nyjustctdewitt",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "DeWitt Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "DeWitt Justice Court",
+            "Dewitt Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Depew Justice Court"
+        ],
+        "id": "nyjustctdepew",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Depew Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Depew Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Dickinson Justice Court"
+        ],
+        "id": "nyjustctdickins",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Dickinson Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Dickinson Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Dix Town Court"
+        ],
+        "id": "nyjustctdix",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Dix Town Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Dix Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Dobbs Ferry Justice Court"
+        ],
+        "id": "nyjustctdobbsfe",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Dobbs Ferry Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Dobbs Ferry Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Eastchester Justice Court"
+        ],
+        "id": "nyjustcteastche",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Eastchester Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Eastchester Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Elma Justice Court"
+        ],
+        "id": "nyjustctelma",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Elma Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Elma Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Frankfort Justice Court"
+        ],
+        "id": "nyjustctfrankfo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Frankfort Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Frankfort Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Gates Town Court"
+        ],
+        "id": "nyjustctgates",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Gates Town Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Gates Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Geneseo Justice Court"
+        ],
+        "id": "nyjustctgeneseo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Geneseo Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Geneseo Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Greece Justice Court",
+            "Greece Justice Court",
+            "Town of Greece Justice Court"
+        ],
+        "id": "nyjustctgreece",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Greece Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Greece Justice Court",
+            "Greece Justice Court",
+            "Town of Greece Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Harrison Town Court"
+        ],
+        "id": "nyjustctharriso",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Harrison Town Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Harrison Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Haverstraw Justice Court"
+        ],
+        "id": "nyjustcthaverst",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Haverstraw Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Haverstraw Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Henrietta Justice Court",
+            "Justice Court of Town of Henrietta"
+        ],
+        "id": "nyjustcthenriet",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Henrietta Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Henrietta Justice Court",
+            "Justice Court of Town of Henrietta"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Herkimer Justice Court",
+            "Herkimer Police Court"
+        ],
+        "id": "nyjustctherkime",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Herkimer Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Herkimer Justice Court",
+            "Herkimer Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Highlands Justice Court"
+        ],
+        "id": "nyjustcthighlan",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Highlands Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Highlands Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Horseheads Justice Court",
+            "Justice Court of Village of Horseheads"
+        ],
+        "id": "nyjustcthorsehe",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Horseheads Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Horseheads Justice Court",
+            "Justice Court of Village of Horseheads"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Huntington Police Justice's Court",
+            "Justice Court of Village of Huntington Bay"
+        ],
+        "id": "nyjustcthunting",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Huntington Police Justice's Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Huntington Police Justice's Court",
+            "Justice Court of Village of Huntington Bay"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Irondequoit Justice Court",
+            "Justice Court of Town of Irondequoit",
+            "Irondequoit Justice Court"
+        ],
+        "id": "nyjustctirondeq",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Irondequoit Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Irondequoit Justice Court",
+            "Justice Court of Town of Irondequoit",
+            "Irondequoit Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Incorporated Village of Roslyn Harbor",
+            "Justice Court of Village of Roslyn Harbor",
+            "Roslyn Harbor Justice Court"
+        ],
+        "id": "nyjustctroslynh",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Incorporated Village of Roslyn Harbor",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Incorporated Village of Roslyn Harbor",
+            "Justice Court of Village of Roslyn Harbor",
+            "Roslyn Harbor Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Scarsdale",
+            "Justice Court of Village of Scarsdale",
+            "Scarsdale Justice Court"
+        ],
+        "id": "nyjustctscarsda",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Scarsdale",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Scarsdale",
+            "Justice Court of Village of Scarsdale",
+            "Scarsdale Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Tonawanda",
+            "Tonawanda Justice Court",
+            "Tonawanda Town Court"
+        ],
+        "id": "nyjustcttonawan",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Tonawanda",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Tonawanda",
+            "Tonawanda Justice Court",
+            "Tonawanda Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Carmel"
+        ],
+        "id": "nyjustctcarmel",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Carmel",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Carmel"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Chatam"
+        ],
+        "id": "nyjustctchatam",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Chatam",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Chatam"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Fishkill",
+            "Justice Court of Village of Fishkill"
+        ],
+        "id": "nyjustctfishkil",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Fishkill",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Fishkill",
+            "Justice Court of Village of Fishkill"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Newburgh",
+            "Newburgh Justice Court",
+            "Newburgh Justice Court"
+        ],
+        "id": "nyjustctnewburg",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Newburgh",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Newburgh",
+            "Newburgh Justice Court",
+            "Newburgh Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Ossining",
+            "Ossining Justice Court",
+            "Ossining Justice Court"
+        ],
+        "id": "nyjustctossinin",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Ossining",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Ossining",
+            "Ossining Justice Court",
+            "Ossining Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Perinton",
+            "Perinton Justice Court",
+            "Perinton Town Court"
+        ],
+        "id": "nyjustctperinto",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Perinton",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Perinton",
+            "Perinton Justice Court",
+            "Perinton Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Ramapo",
+            "Ramapo Justice Court",
+            "Ramapo Justice Court"
+        ],
+        "id": "nyjustctramapo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Ramapo",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Ramapo",
+            "Ramapo Justice Court",
+            "Ramapo Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Rhinebeck",
+            "Rhinebeck Justice Court",
+            "Rhinebeck Village Justice Court"
+        ],
+        "id": "nyjustctrhinebe",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Rhinebeck",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Rhinebeck",
+            "Rhinebeck Justice Court",
+            "Rhinebeck Village Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Ardsley"
+        ],
+        "id": "nyjustctardsley",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Ardsley",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Ardsley"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Blasdell"
+        ],
+        "id": "nyjustctblasdel",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Blasdell",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Blasdell"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Briarcliff Manor"
+        ],
+        "id": "nyjustctbriarcl",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Briarcliff Manor",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Briarcliff Manor"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Bronxville"
+        ],
+        "id": "nyjustctbronxvi",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Bronxville",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Bronxville"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Elmsford"
+        ],
+        "id": "nyjustctelmsfor",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Elmsford",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Elmsford"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Fairport"
+        ],
+        "id": "nyjustctfairpor",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Fairport",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Fairport"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Fleischmanns"
+        ],
+        "id": "nyjustctfleisch",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Fleischmanns",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Fleischmanns"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Hastings-on-Hudson"
+        ],
+        "id": "nyjustcthasting",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Hastings-on-Hudson",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Hastings-on-Hudson"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Kings Point",
+            "Kings Point Justice Court"
+        ],
+        "id": "nyjustctkingspo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Kings Point",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Kings Point",
+            "Kings Point Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Larchmont"
+        ],
+        "id": "nyjustctlarchmo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Larchmont",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Larchmont"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Lindenhurst"
+        ],
+        "id": "nyjustctlindenh",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Lindenhurst",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Lindenhurst"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Monticello",
+            "Monticello Police Justice Court"
+        ],
+        "id": "nyjustctmontice",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Monticello",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Monticello",
+            "Monticello Police Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Muttontown",
+            "Village Court of Muttontown",
+            "Justice Court of Village of Muttontown",
+            "Muttontown Justice Court",
+            "Village of Muttontown Justice Court"
+        ],
+        "id": "nyjustctmutton",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Muttontown",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Muttontown",
+            "Village Court of Muttontown",
+            "Justice Court of Village of Muttontown",
+            "Muttontown Justice Court",
+            "Village of Muttontown Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Newark",
+            "Newark Village Court",
+            "Justice Court of Village of Newark"
+        ],
+        "id": "nyjustctnewark",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Newark",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Newark",
+            "Newark Village Court",
+            "Justice Court of Village of Newark"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of North Hills",
+            "North Hills Justice Court",
+            "North Hills Village Court"
+        ],
+        "id": "nyjustctnorthhi",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of North Hills",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of North Hills",
+            "North Hills Justice Court",
+            "North Hills Village Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Ocean Beach",
+            "Ocean Beach Village Justice Court"
+        ],
+        "id": "nyjustctoceanbe",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Ocean Beach",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Ocean Beach",
+            "Ocean Beach Village Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Orchard Park"
+        ],
+        "id": "nyjustctorchard",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Orchard Park",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Orchard Park"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Port Chester"
+        ],
+        "id": "nyjustctportche",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Port Chester",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Port Chester"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Red Hook",
+            "Justice Court of Village of Red Hook",
+            "Red Hook Justice Court",
+            "Town of Red Hook Justice Court"
+        ],
+        "id": "nyjustctredhook",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Red Hook",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Red Hook",
+            "Justice Court of Village of Red Hook",
+            "Red Hook Justice Court",
+            "Town of Red Hook Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Rockville",
+            "Rockville Centre Police Justice Court",
+            "Rockville Centre Village Court"
+        ],
+        "id": "nyjustctrockvil",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Rockville",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Rockville",
+            "Rockville Centre Police Justice Court",
+            "Rockville Centre Village Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Sleepy Hollow",
+            "Justice Court of Village of Sleepy Hollow"
+        ],
+        "id": "nyjustctsleepyh",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Sleepy Hollow",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Sleepy Hollow",
+            "Justice Court of Village of Sleepy Hollow"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of South Nyack",
+            "South Nyack Justice Court"
+        ],
+        "id": "nyjustctsouthny",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of South Nyack",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of South Nyack",
+            "South Nyack Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Spring Valley",
+            "Spring Valley Justice Court",
+            "Spring Valley Police Court"
+        ],
+        "id": "nyjustctspringv",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Spring Valley",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Spring Valley",
+            "Spring Valley Justice Court",
+            "Spring Valley Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Suffern"
+        ],
+        "id": "nyjustctsuffern",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Suffern",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Suffern"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Tuckahoe",
+            "Tuckahoe Justice Court",
+            "Tuckahoe Village Court",
+            "Justice Court of Village of Tuckahoe"
+        ],
+        "id": "nyjustcttuckaho",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Tuckahoe",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Tuckahoe",
+            "Tuckahoe Justice Court",
+            "Tuckahoe Village Court",
+            "Justice Court of Village of Tuckahoe"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Westbury",
+            "Westbury Justice Court",
+            "Justice Court of Village of Westbury"
+        ],
+        "id": "nyjustctwestbur",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Westbury",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Westbury",
+            "Westbury Justice Court",
+            "Justice Court of Village of Westbury"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Woodstock"
+        ],
+        "id": "nyjustctwoodsto",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Woodstock",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Woodstock"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of the Village of Nyack"
+        ],
+        "id": "nyjustctthenyac",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of the Village of Nyack",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of the Village of Nyack"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Kingsbury Justice Court"
+        ],
+        "id": "nyjustctkingsbu",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Kingsbury Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Kingsbury Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lattingtown Village Court"
+        ],
+        "id": "nyjustctlatting",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Lattingtown Village Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Lattingtown Village Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lloyd Harbor Village Police Court"
+        ],
+        "id": "nyjustctlloydha",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Lloyd Harbor Village Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Lloyd Harbor Village Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lowville Justice Court"
+        ],
+        "id": "nyjustctlowvill",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Lowville Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Lowville Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mamaroneck Justice Court",
+            "Mamaroneck Town Court"
+        ],
+        "id": "nyjustctmamaron",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Mamaroneck Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Mamaroneck Justice Court",
+            "Mamaroneck Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Massena City Police Court"
+        ],
+        "id": "nyjustctmassena",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Massena City Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Massena City Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Maybrook Police Court"
+        ],
+        "id": "nyjustctmaybroo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Maybrook Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Maybrook Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mendon Justice Court",
+            "Mendon Town Court"
+        ],
+        "id": "nyjustctmendon",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Mendon Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Mendon Justice Court",
+            "Mendon Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Millerton Village Court"
+        ],
+        "id": "nyjustctmillert",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Millerton Village Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Millerton Village Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mount Kisco Police Court"
+        ],
+        "id": "nyjustctmountki",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Mount Kisco Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Mount Kisco Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Windsor Justice Court"
+        ],
+        "id": "nyjustctnewwind",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "New Windsor Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "New Windsor Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mills Village Court"
+        ],
+        "id": "nyjustctmills",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Mills Village Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Mills Village Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "North Castle Justice Court"
+        ],
+        "id": "nyjustctnorthca",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "North Castle Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "North Castle Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "North Greenbush Justice Court"
+        ],
+        "id": "nyjustctnorthgr",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "North Greenbush Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "North Greenbush Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Oakfield Justice Court"
+        ],
+        "id": "nyjustctoakfiel",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Oakfield Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Oakfield Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ogden Justice Court"
+        ],
+        "id": "nyjustctogden",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Ogden Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Ogden Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Onondaga Town Court"
+        ],
+        "id": "nyjustctonondag",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Onondaga Town Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Onondaga Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Orangetown Justice Court"
+        ],
+        "id": "nyjustctorange",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Orangetown Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Orangetown Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Penfield Justice Court",
+            "Penfield Town Court",
+            "Justice Court of Town of Penfield",
+            "Town of Penfield Justice Court"
+        ],
+        "id": "nyjustctpenfiel",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Penfield Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Penfield Justice Court",
+            "Penfield Town Court",
+            "Justice Court of Town of Penfield",
+            "Town of Penfield Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pleasant Valley Justice Court",
+            "Pleasantville Village Court"
+        ],
+        "id": "nyjustctpleasan",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Pleasant Valley Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Pleasant Valley Justice Court",
+            "Pleasantville Village Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Poughkeepsie Justice Court",
+            "Poughkeepsie Town Court"
+        ],
+        "id": "nyjustctpoughke",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Poughkeepsie Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Poughkeepsie Justice Court",
+            "Poughkeepsie Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sand Lake Justice Court"
+        ],
+        "id": "nyjustctsandlak",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Sand Lake Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Sand Lake Justice Court",
+            "Sand Lake Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Schuyler Justice Court"
+        ],
+        "id": "nyjustctschuyle",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Schuyler Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Schuyler Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sea Cliff Justice Court"
+        ],
+        "id": "nyjustctseaclif",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Sea Cliff Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Sea Cliff Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Spring City Police Court"
+        ],
+        "id": "nyjustctspringc",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Spring City Police Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Spring City Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Starkey Town Court"
+        ],
+        "id": "nyjustctstarkey",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Starkey Town Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Starkey Town Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ulster Justice Court"
+        ],
+        "id": "nyjustctulster",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Ulster Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Ulster Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Village Justice Court of Village of Lynbrook"
+        ],
+        "id": "nyjustctlynbroo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Village Justice Court of Village of Lynbrook",
+        "parent": "nyjustct",
+        "regex": [
+            "Village Justice Court of Village of Lynbrook"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wappinger Justice Court"
+        ],
+        "id": "nyjustctwapping",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Wappinger Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Wappinger Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Woodbury Justice Court"
+        ],
+        "id": "nyjustctwoodbur",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Woodbury Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Woodbury Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Yonkers Justice Court"
+        ],
+        "id": "nyjustctyonkers",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Yonkers Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Yonkers Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "East Rochester Justice Court"
+        ],
+        "id": "nyjustcteastroc",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "East Rochester Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "East Rochester Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Lockport",
+            "Lockport Justice Court"
+        ],
+        "id": "nyjustctlockpor",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Lockport",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Lockport",
+            "Lockport Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Webster"
+        ],
+        "id": "nyjustctwebster",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Webster",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Webster"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Wesbster"
+        ],
+        "id": "nyjustctwesbste",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Wesbster",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Wesbster"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Town of Yorktown"
+        ],
+        "id": "nyjustctyork",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Town of Yorktown",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Town of Yorktown"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Massapequa"
+        ],
+        "id": "nyjustctmassape",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Massapequa",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Massapequa"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Justice Court of Village of Pound Ridge"
+        ],
+        "id": "nyjustctpoundri",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Justice Court of Village of Pound Ridge",
+        "parent": "nyjustct",
+        "regex": [
+            "Justice Court of Village of Pound Ridge"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Monroe Justice Court"
+        ],
+        "id": "nyjustctmonroe",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Monroe Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Monroe Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Paltz Justice Court"
+        ],
+        "id": "nyjustctnewpalt",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "New Paltz Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "New Paltz Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Owego Justice Court"
+        ],
+        "id": "nyjustctowego",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Owego Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Owego Justice Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Greenport Just. Ct.",
+        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Town of Greenport Justice Court"
+        ],
+        "id": "nyjustctgreenpo",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "Town of Greenport Justice Court",
+        "parent": "nyjustct",
+        "regex": [
+            "Town of Greenport Justice Court"
         ],
         "system": "state",
         "type": "trial"
