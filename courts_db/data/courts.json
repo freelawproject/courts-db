@@ -16424,7 +16424,7 @@
         "examples": [
             "New York City Criminal Court"
         ],
-        "id": "nyccrimct",
+        "id": "nycrimct",
         "level": "trial",
         "location": "New York",
         "name": "The Criminal Court of the City of New York",
@@ -16452,12 +16452,12 @@
         "examples": [
             "Criminal Court Queens County"
         ],
-        "id": "nyccrimctqueens",
+        "id": "nycrimctqueens",
         "level": "trial",
         "location": "New York",
         "name": "The Criminal Court of the City of New York, Queens",
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
-        "parent": "nyccrimct",
+        "parent": "nycrimct",
         "regex": [
             "Criminal Court Queens County"
         ],
@@ -16475,12 +16475,12 @@
         "examples": [
             "Criminal Court Kings County"
         ],
-        "id": "nyccrimctkings",
+        "id": "nycrimctkings",
         "level": "trial",
         "location": "New York",
         "name": "The Criminal Court of the City of New York, Kings",
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
-        "parent": "nyccrimct",
+        "parent": "nycrimct",
         "regex": [
             "Criminal Court Kings County",
             "Criminal Cour City Of New York Kings County"
@@ -16499,12 +16499,12 @@
         "examples": [
             "Criminal Court Bronx County"
         ],
-        "id": "nyccrimctbronx",
+        "id": "nycrimctbronx",
         "level": "trial",
         "location": "New York",
         "name": "The Criminal Court of the City of New York, Bronx",
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
-        "parent": "nyccrimct",
+        "parent": "nycrimct",
         "regex": [
             "Criminal Court Bronx County",
             "Criminal Court Of City Of New York Bronx County"
@@ -16524,12 +16524,12 @@
             "Criminal Court New York County",
             "Criminal Court City New York New York County"
         ],
-        "id": "nyccrimctnyc",
+        "id": "nycrimctnyc",
         "level": "trial",
         "location": "New York",
         "name": "The Criminal Court of the City of New York, New York",
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
-        "parent": "nyccrimct",
+        "parent": "nycrimct",
         "regex": [
             "Criminal Court New York County",
             "Criminal Court City New York New York County"
