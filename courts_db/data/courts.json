@@ -14728,6 +14728,486 @@
     },
     {
         "case_types": [],
+        "citation_string": "Pa. Arbitration Panels for Health Care",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Arbitration Panels for Health Care"
+        ],
+        "id": "paarbpnlhc",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Arbitration Panels for Health Care",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Arbitration Panels for Health Care"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Ct. Reg. Wills",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Court Register of Wills"
+        ],
+        "id": "pactregwills",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Court Register of Wills",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Court Register of Wills"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Env. Hearing Bd.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Environmental Hearing Board"
+        ],
+        "id": "paenvhrbd",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Environmental Hearing Board",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Environmental Hearing Board"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Office the Attorney General",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Office of the Attorney General"
+        ],
+        "id": "paag",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Office of the Attorney General",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Office of the Attorney General"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Bd. Parole",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Board of Parole"
+        ],
+        "id": "paparolebd",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Board of Parole",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Board of Parole"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Adm. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Admiralty Court"
+        ],
+        "id": "paadmct",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Admiralty Court",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Admiralty Court"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Dept. Ed.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Department of Education"
+        ],
+        "id": "padepted",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Department of Education",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Department of Education"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Dept. Just.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Department of Justice"
+        ],
+        "id": "padeptjust",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Department of Justice",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Department of Justice"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Dept. Pub. Wel.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Department of Public Welfare"
+        ],
+        "id": "padeptpubwel",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Department of Public Welfare",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Department of Public Welfare"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Phila. Ct. N.P.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Philadelphia Court of Nisi Prius"
+        ],
+        "id": "philactnp",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Philadelphia Court of Nisi Prius",
+        "notes": "",
+        "regex": [
+            "Philadelphia Court of Nisi Prius"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Phila. Dept. Just.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Philadelphia Department of Justice"
+        ],
+        "id": "philadeptjust",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Philadelphia Department of Justice",
+        "notes": "",
+        "regex": [
+            "Philadelphia Department of Justice"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Phila. Elec. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Philadelphia Election Court"
+        ],
+        "id": "philaelecct",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Philadelphia Election Court",
+        "notes": "",
+        "regex": [
+            "Philadelphia Election Court"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Recorder Philadelphia",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Recorder of Philadelphia"
+        ],
+        "id": "philarec",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Recorder of Philadelphia",
+        "notes": "",
+        "regex": [
+            "Recorder of Philadelphia"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Phila. Mayor Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Philadelphia Mayor's Court"
+        ],
+        "id": "philamayorct",
+        "jurisdiction": "P.A.",
+        "level": null,
+        "location": "Pennsylvania",
+        "name": "Philadelphia Mayor's Court",
+        "notes": "",
+        "regex": [
+            "Philadelphia Mayor's Court"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Muni Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Municipal Court"
+        ],
+        "id": "pamunict",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Municipal Court",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Phila. Cty. Muni. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Philadelphia County Municipal Court",
+            "Philadelphia Municipal Court"
+        ],
+        "id": "pamunictphila",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Philadelphia County Municipal Court",
+        "notes": "",
+        "parent": "pamunict",
+        "regex": [
+            "Philadelphia County Municipal Court",
+            "Philadelphia Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pa. Juv. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pennsylvania Juvenile Court"
+        ],
+        "id": "pajuvct",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Juvenile Court",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cambria Cty. Juv. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cambria County of Juvenile Court"
+        ],
+        "id": "pajuvctcambria",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Cambria County of Juvenile Court",
+        "notes": "",
+        "parent": "pajuvct",
+        "regex": [
+            "Cambria County of Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Delaware Cty. Juv. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Delaware County Juvenile Court"
+        ],
+        "id": "pajuvctdel",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Delaware County Juvenile Court",
+        "notes": "",
+        "parent": "pajuvct",
+        "regex": [
+            "Delaware County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "",
         "court_url": "http://www.judiciary.state.nj.us/taxcourt/‎",
         "dates": [
