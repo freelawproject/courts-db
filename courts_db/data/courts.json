@@ -12643,6 +12643,1750 @@
     },
     {
         "case_types": [],
+        "citation_string": "York Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Pennsylvania Orphans' Court"
+        ],
+        "id": "paorphct",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Pennsylvania Orphans' Court",
+        "notes": "",
+        "regex": [
+            "Pennsylvania Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Adams Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Adams County Orphans' Court"
+        ],
+        "id": "paorphctadams",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Adams County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Adams County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Allegheny Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Allegheny County Orphans' Court"
+        ],
+        "id": "paorphctallegh",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Allegheny County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Allegheny County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Armstrong Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Armstrong County Orphans' Court"
+        ],
+        "id": "paorphctarmstr",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Armstrong County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Armstrong County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Beaver Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Beaver County Orphans' Court"
+        ],
+        "id": "paorphctbeaver",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Beaver County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Beaver County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bedford Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bedford County Orphans' Court"
+        ],
+        "id": "paorphctbedfor",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Bedford County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Bedford County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Berks Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Berks County Orphans' Court"
+        ],
+        "id": "paorphctberks",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Berks County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Berks County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Blair Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Blair County Orphans' Court"
+        ],
+        "id": "paorphctblair",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Blair County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Blair County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bradford Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bradford County Orphans' Court"
+        ],
+        "id": "paorphctbradfo",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Bradford County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Bradford County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bucks Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bucks County Orphans' Court"
+        ],
+        "id": "paorphctbucks",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Bucks County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Bucks County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Butler Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Butler County Orphans' Court"
+        ],
+        "id": "paorphctbutler",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Butler County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Butler County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cambria Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cambria County Orphans' Court"
+        ],
+        "id": "paorphctcambri",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Cambria County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Cambria County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cameron Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cameron County Orphans' Court"
+        ],
+        "id": "paorphctcamero",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Cameron County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Cameron County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carbon Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Carbon County Orphans' Court"
+        ],
+        "id": "paorphctcarbon",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Carbon County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Carbon County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Centre Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Centre County Orphans' Court"
+        ],
+        "id": "paorphctcentre",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Centre County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Centre County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Chester Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Chester County Orphans' Court"
+        ],
+        "id": "paorphctcheste",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Chester County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Chester County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clarion Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clarion County Orphans' Court"
+        ],
+        "id": "paorphctclario",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Clarion County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Clarion County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clearfield Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clearfield County Orphans' Court"
+        ],
+        "id": "paorphctclearf",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Clearfield County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Clearfield County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clinton Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clinton County Orphans' Court"
+        ],
+        "id": "paorphctclinto",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Clinton County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Clinton County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Columbia Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Columbia County Orphans' Court"
+        ],
+        "id": "paorphctcolumb",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Columbia County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Columbia County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Crawford Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Crawford County Orphans' Court"
+        ],
+        "id": "paorphctcrawfo",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Crawford County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Crawford County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cumberl Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cumberland County Orphans' Court"
+        ],
+        "id": "paorphctcumber",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Cumberland County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Cumberland County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Dauphin Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Dauphin County Orphans' Court"
+        ],
+        "id": "paorphctdauphi",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Dauphin County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Dauphin County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Delaware Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Delaware County Orphans' Court"
+        ],
+        "id": "paorphctdelawa",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Delaware County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Delaware County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Elk Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Elk County Orphans' Court"
+        ],
+        "id": "paorphctelk",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Elk County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Elk County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Erie Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Erie County Orphans' Court"
+        ],
+        "id": "paorphcterie",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Erie County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Erie County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fayette Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Fayette County Orphans' Court"
+        ],
+        "id": "paorphctfayett",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Fayette County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Fayette County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Forest Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Forest County Orphans' Court"
+        ],
+        "id": "paorphctforest",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Forest County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Forest County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Franklin Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Franklin County Orphans' Court"
+        ],
+        "id": "paorphctfrankl",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Franklin County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Franklin County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fulton Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Fulton County Orphans' Court"
+        ],
+        "id": "paorphctfulton",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Fulton County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Fulton County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Greene Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Greene County Orphans' Court"
+        ],
+        "id": "paorphctgreene",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Greene County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Greene County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Huntingdon Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Huntingdon County Orphans' Court"
+        ],
+        "id": "paorphcthuntin",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Huntingdon County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Huntingdon County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Indiana Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Indiana County Orphans' Court"
+        ],
+        "id": "paorphctindian",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Indiana County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Indiana County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jefferson Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Jefferson County Orphans' Court"
+        ],
+        "id": "paorphctjeffer",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Jefferson County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Jefferson County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Juniata Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Juniata County Orphans' Court"
+        ],
+        "id": "paorphctjuniat",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Juniata County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Juniata County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lackawanna Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lackawanna County Orphans' Court"
+        ],
+        "id": "paorphctlackaw",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lackawanna County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Lackawanna County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lancaster Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lancaster County Orphans' Court"
+        ],
+        "id": "paorphctlancas",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lancaster County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Lancaster County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lawrence Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lawrence County Orphans' Court"
+        ],
+        "id": "paorphctlawren",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lawrence County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Lawrence County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lebanon Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lebanon County Orphans' Court"
+        ],
+        "id": "paorphctlebano",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lebanon County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Lebanon County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lehigh Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lehigh County Orphans' Court"
+        ],
+        "id": "paorphctlehigh",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lehigh County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Lehigh County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Luzerne Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Luzerne County Orphans' Court"
+        ],
+        "id": "paorphctluzern",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Luzerne County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Luzerne County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lycoming Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lycoming County Orphans' Court"
+        ],
+        "id": "paorphctlycomi",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lycoming County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Lycoming County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mercer Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Mercer County Orphans' Court"
+        ],
+        "id": "paorphctmercer",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Mercer County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Mercer County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mifflin Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Mifflin County Orphans' Court"
+        ],
+        "id": "paorphctmiffli",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Mifflin County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Mifflin County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mongtomery Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Mongtomery County Orphans' Court"
+        ],
+        "id": "paorphctmongto",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Mongtomery County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Mongtomery County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Monroe Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Monroe County Orphans' Court"
+        ],
+        "id": "paorphctmonroe",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Monroe County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Monroe County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montgomery Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Montgomery County Orphans' Court"
+        ],
+        "id": "paorphctmontgo",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Montgomery County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Montgomery County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montour Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Montour County Orphans' Court"
+        ],
+        "id": "paorphctmontou",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Montour County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Montour County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northampton Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Northampton County Orphans' Court"
+        ],
+        "id": "paorphctnortha",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Northampton County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Northampton County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northumberl Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Northumberland County Orphans' Court"
+        ],
+        "id": "paorphctnorthu",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Northumberland County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Northumberland County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Perry Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Perry County Orphans' Court"
+        ],
+        "id": "paorphctperry",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Perry County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Perry County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Philadelphia Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Philadelphia County Orphans' Court"
+        ],
+        "id": "paorphctphilad",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Philadelphia County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Philadelphia County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pike Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Pike County Orphans' Court"
+        ],
+        "id": "paorphctpike",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Pike County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Pike County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Schuylkill Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Schuylkill County Orphans' Court"
+        ],
+        "id": "paorphctschuyl",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Schuylkill County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Schuylkill County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Snyder Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Snyder County Orphans' Court"
+        ],
+        "id": "paorphctsnyder",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Snyder County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Snyder County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Somerset Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Somerset County Orphans' Court"
+        ],
+        "id": "paorphctsomers",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Somerset County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Somerset County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Sullivan Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Sullivan County Orphans' Court"
+        ],
+        "id": "paorphctsulliv",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Sullivan County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Sullivan County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Susquehanna Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Susquehanna County Orphans' Court"
+        ],
+        "id": "paorphctsusque",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Susquehanna County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Susquehanna County Orphans' Court",
+            "Susquehanna County of Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tioga Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Tioga County Orphans' Court"
+        ],
+        "id": "paorphcttioga",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Tioga County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Tioga County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Union Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Union County Orphans' Court"
+        ],
+        "id": "paorphctunion",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Union County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Union County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Venango Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Venango County Orphans' Court"
+        ],
+        "id": "paorphctvenang",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Venango County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Venango County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Warren Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Warren County Orphans' Court"
+        ],
+        "id": "paorphctwarren",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Warren County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Warren County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Washington Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Washington County Orphans' Court"
+        ],
+        "id": "paorphctwashin",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Washington County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Washington County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wayne Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Wayne County Orphans' Court"
+        ],
+        "id": "paorphctwayne",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Wayne County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Wayne County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Westmorel Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Westmoreland County Orphans' Court"
+        ],
+        "id": "paorphctwestmo",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Westmoreland County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Westmoreland County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wyoming Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Wyoming County Orphans' Court"
+        ],
+        "id": "paorphctwyomin",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Wyoming County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "Wyoming County Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "York Cty. Orphans' Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "York County Orphans' Court",
+            "York County of Orphans' Court"
+        ],
+        "id": "paorphctyork",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "York County Orphans' Court",
+        "notes": "",
+        "parent": "paorphct",
+        "regex": [
+            "York County Orphans' Court",
+            "York County of Orphans' Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "",
         "court_url": "http://www.judiciary.state.nj.us/taxcourt/‎",
         "dates": [
