@@ -18876,7 +18876,7 @@
         "location": "Pennsylvania",
         "name": "Pennsylvania Circuit Courts",
         "regex": [
-            "Circuit Court Of Pennsylvania ${pa_places}"
+            "Circuit Court Of Pennsylvania"
         ],
         "system": "state",
         "type": "trial"
@@ -18904,7 +18904,8 @@
             "State of Pennsylvania Supreme Court",
             "Supreme Court Of Errors And Appeals Of Pennsylvania",
             "High Court Of Errors And Appeals Of Pennsylvania",
-            "Supreme Court State Of Pennsylvania"
+            "Supreme Court State Of Pennsylvania",
+            "Pennsylvania High Court of Errors and Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -26468,6 +26469,1726 @@
         "regex": [],
         "system": "state",
         "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Adams Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Adams County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessadams",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Adams County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Adams County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Allegheny Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Allegheny County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessallegh",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Allegheny County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Allegheny County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Armstrong Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Armstrong County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessarmstr",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Armstrong County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Armstrong County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Beaver Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Beaver County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessbeaver",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Beaver County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Beaver County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bedford Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Bedford County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessbedfor",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Bedford County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Bedford County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Berks Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Berks County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessberks",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Berks County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Berks County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Blair Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Blair County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessblair",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Blair County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Blair County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bradford Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Bradford County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessbradfo",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Bradford County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Bradford County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bucks Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Bucks County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessbucks",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Bucks County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Bucks County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Butler Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Butler County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessbutler",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Butler County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Butler County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cambria Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Cambria County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscambri",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Cambria County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Cambria County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cameron Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Cameron County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscamero",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Cameron County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Cameron County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carbon Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Carbon County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscarbon",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Carbon County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Carbon County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Centre Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Centre County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscentre",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Centre County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Centre County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Chester Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Chester County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscheste",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Chester County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Chester County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clarion Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Clarion County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessclario",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Clarion County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Clarion County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clearfield Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Clearfield County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessclearf",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Clearfield County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Clearfield County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clinton Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Clinton County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessclinto",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Clinton County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Clinton County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Columbia Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Columbia County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscolumb",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Columbia County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Columbia County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Crawford Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Crawford County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscrawfo",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Crawford County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Crawford County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cumberland Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Cumberland County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesscumber",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Cumberland County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Cumberland County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Dauphin Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Dauphin County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessdauphi",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Dauphin County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Dauphin County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Delaware Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Delaware County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessdelawa",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Delaware County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Delaware County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Elk Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Elk County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesselk",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Elk County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Elk County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Erie Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Erie County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesserie",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Erie County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Erie County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fayette Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Fayette County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessfayett",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Fayette County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Fayette County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Franklin Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Franklin County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessfrankl",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Franklin County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Franklin County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fulton Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Fulton County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessfulton",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Fulton County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Fulton County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Greene Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Greene County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessgreene",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Greene County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Greene County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Huntingdon Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Huntingdon County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesshuntin",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Huntingdon County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Huntingdon County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Indiana Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Indiana County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessindian",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Indiana County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Indiana County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jefferson Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Jefferson County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessjeffer",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Jefferson County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Jefferson County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Juniata Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Juniata County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessjuniat",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Juniata County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Juniata County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lackawanna Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Lackawanna County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesslackaw",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Lackawanna County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Lackawanna County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lancaster Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Lancaster County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesslancas",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Lancaster County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Lancaster County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lawrence Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Lawrence County Court of Quarter Sessions",
+            "Lawrence County Court Quarter Sessions"
+        ],
+        "id": "paqtrsesslawren",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Lawrence County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Lawrence County Court of Quarter Sessions",
+            "Lawrence County Court Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lebanon Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Lebanon County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesslebano",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Lebanon County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Lebanon County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lehigh Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Lehigh County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesslehigh",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Lehigh County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Lehigh County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Luzerne Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Luzerne County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessluzern",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Luzerne County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Luzerne County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lycoming Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Lycoming County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesslycomi",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Lycoming County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Lycoming County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "McKean Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "McKean County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessmckean",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "McKean County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "McKean County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mercer Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Mercer County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessmercer",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Mercer County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Mercer County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mifflin Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Mifflin County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessmiffli",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Mifflin County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Mifflin County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Monroe Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Monroe County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessmonroe",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Monroe County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Monroe County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montgomery Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Montgomery County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessmontgo",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Montgomery County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Montgomery County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montour Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Montour County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessmontou",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Montour County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Montour County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northampton Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Northampton County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessnortha",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Northampton County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Northampton County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northumberland Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Northumberland County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessnorthu",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Northumberland County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Northumberland County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Perry Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Perry County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessperry",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Perry County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Perry County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Philadelphia Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Philadelphia County Court of Quarter Sessions",
+            "Philadelphia Co. Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessphilad",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Philadelphia County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Philadelphia County Court of Quarter Sessions",
+            "Philadelphia Co. Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pike Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Pike County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesspike",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Pike County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Pike County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Potter Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Potter County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesspotter",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Potter County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Potter County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Schuylkill Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Schuylkill County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessschuyl",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Schuylkill County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Schuylkill County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Snyder Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Snyder County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesssnyder",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Snyder County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Snyder County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Somerset Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Somerset County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesssomers",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Somerset County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Somerset County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Sullivan Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Sullivan County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesssulliv",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Sullivan County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Sullivan County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Susquehanna Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Susquehanna County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesssusque",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Susquehanna County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Susquehanna County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tioga Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Tioga County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesstioga",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Tioga County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Tioga County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Union Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Union County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessunion",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Union County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Union County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Venango Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Venango County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessvenang",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Venango County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Venango County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Warren Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Warren County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesswarren",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Warren County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Warren County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Washington Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Washington County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesswashin",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Washington County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Washington County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wayne Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Wayne County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesswayne",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Wayne County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Wayne County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Westmoreland Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Westmoreland County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesswestmo",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Westmoreland County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Westmoreland County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wyoming Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "Wyoming County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsesswyomin",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "Wyoming County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "Wyoming County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "York Cty. Ct. Qtr. Sess.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1681-01-01"
+            }
+        ],
+        "examples": [
+            "York County Court of Quarter Sessions"
+        ],
+        "id": "paqtrsessyork",
+        "jurisdiction": "P.A.",
+        "level": "trial",
+        "location": "Pennsylvania",
+        "name": "York County Court of Quarter Sessions",
+        "notes": "",
+        "parent": "pennctqtrsess",
+        "regex": [
+            "York County Court of Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "active": false,
