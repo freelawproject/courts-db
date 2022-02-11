@@ -11639,18 +11639,1007 @@
             }
         ],
         "examples": [
-            "Court Of Oyer And Terminer At Philadelphia"
+            "Pennsylvania Court of Oyer and Terminer"
         ],
         "id": "paoytermct",
         "level": "",
         "location": "Pennsylvania",
-        "name": "Court Of Oyer And Terminer of Pennsylvania",
+        "name": "Pennsylvania Court of Oyer and Terminer",
         "regex": [
-            "Court Of Oyer And Terminer (of|at) (Pennsylvania|Philadelphia)",
             "Pennsylvania Court of Oyer and Terminer"
         ],
         "system": "state",
         "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Adams Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Adams County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctadams",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Adams County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Adams County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Allegheny Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Allegheny County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctalleg",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Allegheny County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Allegheny County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Beaver Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Beaver County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctbeave",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Beaver County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Beaver County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bedford Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bedford County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctbedfo",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Bedford County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Bedford County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Berks Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Berks County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctberks",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Berks County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Berks County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bucks Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bucks County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctbucks",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Bucks County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Bucks County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cambria Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cambria County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctcambr",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Cambria County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Cambria County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carbon Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Carbon County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctcarbo",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Carbon County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Carbon County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Chester Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Chester County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctchest",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Chester County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Chester County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clarion Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clarion County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctclari",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Clarion County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Clarion County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Columbia Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Columbia County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctcolum",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Columbia County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Columbia County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cumberl Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cumberland County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctcumbe",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Cumberland County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Cumberland County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Dauphin Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Dauphin County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctdauph",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Dauphin County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Dauphin County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Delaware Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Delaware County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctdelaw",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Delaware County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Delaware County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Erie Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Erie County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermcterie",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Erie County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Erie County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fayette Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Fayette County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctfayet",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Fayette County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Fayette County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Franklin Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Franklin County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctfrank",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Franklin County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Franklin County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fulton Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Fulton County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctfulto",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Fulton County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Fulton County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Greene Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Greene County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctgreen",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Greene County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Greene County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jefferson Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Jefferson County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctjeffe",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Jefferson County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Jefferson County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Juniata Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Juniata County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctjunia",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Juniata County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Juniata County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lackawanna Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lackawanna County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctlacka",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lackawanna County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Lackawanna County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lancaster Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lancaster County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctlanca",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lancaster County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Lancaster County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lawrence Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lawrence County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctlawre",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lawrence County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Lawrence County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lebanon Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lebanon County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctleban",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lebanon County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Lebanon County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lehigh Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lehigh County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctlehig",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Lehigh County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Lehigh County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Luzerne Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Luzerne County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctluzer",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Luzerne County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Luzerne County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mercer Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Mercer County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctmerce",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Mercer County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Mercer County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montgomery Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Montgomery County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctmontg",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Montgomery County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Montgomery County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northampton Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Northampton County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctnorth",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Northampton County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Northampton County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Perry Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Perry County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctperry",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Perry County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Perry County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Philadelphia Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Philadelphia County Court of Oyer and Terminer",
+            "Philadelphia Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctphila",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Philadelphia County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Philadelphia County Court of Oyer and Terminer",
+            "Philadelphia Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Schuylkill Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Schuylkill County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctschuy",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Schuylkill County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Schuylkill County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Somerset Cty. Ct. Oy. & Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Somerset County Ct. Oyer & Terminer"
+        ],
+        "id": "paoytermctsomer",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Somerset County Ct. Oyer & Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Somerset County Ct. Oyer & Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Susquehanna Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Susquehanna County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctsusqu",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Susquehanna County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Susquehanna County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Venango Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Venango County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctvenan",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Venango County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Venango County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Westmorel Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Westmoreland County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctwestm",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "Westmoreland County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "Westmoreland County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "York Cty. Ct. Oy. Term.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1968-12-31",
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "York County Court of Oyer and Terminer"
+        ],
+        "id": "paoytermctyork",
+        "jurisdiction": "P.A.",
+        "level": "ljc",
+        "location": "Pennsylvania",
+        "name": "York County Court of Oyer and Terminer",
+        "notes": "",
+        "parent": "paoytermct",
+        "regex": [
+            "York County Court of Oyer and Terminer"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
