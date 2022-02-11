@@ -18813,7 +18813,7 @@
             }
         ],
         "examples": [
-            "Common Pleas Court Of Chester County Pennsylvania"
+            "Pennsylvania Court of Common Pleas"
         ],
         "id": "pactcompl",
         "jurisdiction": "P.A.",
@@ -18822,20 +18822,1929 @@
         "name": "Common Pleas Court Of Pennsylvania",
         "name_abbreviation": null,
         "regex": [
-            "Common Pleas Court.* Pennsylvania",
-            "Common Pleas Of.* Pennsylvania",
-            "Court Of Common Pleas.* Pennsylvania",
-            "Common Pleas Court of Phila",
-            "Common Pleas Of Philadelphia",
-            "Common Pleas.* ${pa}",
-            "Common Pleas Court Of Lancaster County",
             "Pa Ct Of Common Pleas",
             "Pennsylvania Court of Common Pleas",
             "Common Pleas Court Of Philadelphia County Reported In Volume One Of The United States Reports",
-            "Common Pleas Of Philadelphia Reported In Volume Two Of The United States Reports"
+            "Common Pleas Of Philadelphia Reported In Volume Two Of The United States Reports",
+            "Pennsylvania County Court of Common Pleas",
+            "Pennsylvania County Court",
+            "Pennsylvania Court of Common Pleas",
+            "Court of Common Pleas",
+            "Commonwealth Court of Pennsylvania",
+            "Pennsylvania District and County Reports"
         ],
         "system": "state",
         "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Adams Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Adams County Court of Common Pleas",
+            "Adams County of Common Pleas"
+        ],
+        "id": "pactcompladams",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Adams County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Adams County Court of Common Pleas",
+            "Adams County of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Alleghany Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Alleghany County Court of Common Pleas",
+            "Allegheny County Court",
+            "Allegheny County Court of Common Pleas",
+            "Alleghany County District Court"
+        ],
+        "id": "pactcomplallegh",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Alleghany County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Alleghany County Court of Common Pleas",
+            "Allegheny County Court",
+            "Allegheny County Court of Common Pleas",
+            "Alleghany County District Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Armstrong Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Armstrong County Court of Common Pleas"
+        ],
+        "id": "pactcomplarmstr",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Armstrong County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Armstrong County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Beaver Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Beaver County Court of Common Pleas",
+            "Beaver County of Common Pleas"
+        ],
+        "id": "pactcomplbeaver",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Beaver County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Beaver County Court of Common Pleas",
+            "Beaver County of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bedford Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bedford County Court of Common Pleas"
+        ],
+        "id": "pactcomplbedfor",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Bedford County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Bedford County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Berks Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Berks County Court of Common Pleas",
+            "Berks County Court of Common Pleas"
+        ],
+        "id": "pactcomplberks",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Berks County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Berks County Court of Common Pleas",
+            "Berks County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Blair Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Blair County Court of Common Pleas"
+        ],
+        "id": "pactcomplblair",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Blair County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Blair County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bradford Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bradford County Court of Common Pleas"
+        ],
+        "id": "pactcomplbradfo",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Bradford County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Bradford County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bucks Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Bucks County Court of Common Pleas",
+            "Buck County Court of Common Pleas",
+            "Buck County Court of Common Pleas"
+        ],
+        "id": "pactcomplbucks",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Bucks County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Bucks County Court of Common Pleas",
+            "Buck County Court of Common Pleas",
+            "Buck County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Butler Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Butler County Court of Common Pleas",
+            "Butler County Court of Common Pleas"
+        ],
+        "id": "pactcomplbutler",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Butler County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Butler County Court of Common Pleas",
+            "Butler County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cambria Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cambria County Court of Common Pleas"
+        ],
+        "id": "pactcomplcambri",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Cambria County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Cambria County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cameron Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cameron County Court of Common Pleas"
+        ],
+        "id": "pactcomplcamero",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Cameron County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Cameron County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carbon Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Carbon County Court of Common Pleas"
+        ],
+        "id": "pactcomplcarbon",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Carbon County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Carbon County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Centre Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Centre County Court of Common Pleas"
+        ],
+        "id": "pactcomplcentre",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Centre County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Centre County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Chester Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Chester County Court of Common Pleas"
+        ],
+        "id": "pactcomplcheste",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Chester County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Chester County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clarion Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clarion County Court of Common Pleas"
+        ],
+        "id": "pactcomplclario",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Clarion County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Clarion County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clearfield Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clearfield County Court of Common Pleas"
+        ],
+        "id": "pactcomplclearf",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Clearfield County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Clearfield County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clinton Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Clinton County Court of Common Pleas",
+            "Clinton County of Common Pleas"
+        ],
+        "id": "pactcomplclinto",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Clinton County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Clinton County Court of Common Pleas",
+            "Clinton County of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Columbia Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Columbia County Court of Common Pleas"
+        ],
+        "id": "pactcomplcolumb",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Columbia County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Columbia County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Crawford Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Crawford County Court of Common Pleas"
+        ],
+        "id": "pactcomplcrawfo",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Crawford County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Crawford County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cumberland Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Cumberland County Court of Common Pleas"
+        ],
+        "id": "pactcomplcumber",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Cumberland County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Cumberland County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Dauphin Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Dauphin County Court of Common Pleas"
+        ],
+        "id": "pactcompldauphi",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Dauphin County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Dauphin County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Delaware Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Delaware County Court of Common Pleas"
+        ],
+        "id": "pactcompldelawa",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Delaware County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Delaware County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Elk Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Elk County Court of Common Pleas"
+        ],
+        "id": "pactcomplelk",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Elk County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Elk County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Erie Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Erie County Court Common Pleas",
+            "Erie County Court of Common Pleas"
+        ],
+        "id": "pactcomplerie",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Erie County Court Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Erie County Court Common Pleas",
+            "Erie County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fayette Cty. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Fayette County Court",
+            "Fayette County Court of Common Pleas"
+        ],
+        "id": "pactcomplfayett",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Fayette County Court",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Fayette County Court",
+            "Fayette County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Forest Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Forest County Court of Common Pleas"
+        ],
+        "id": "pactcomplforest",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Forest County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Forest County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Franklin Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Franklin County Court of Common Pleas"
+        ],
+        "id": "pactcomplfrankl",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Franklin County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Franklin County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fulton Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Fulton County Court of Common Pleas",
+            "Fulton County Court of Common Pleas"
+        ],
+        "id": "pactcomplfulton",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Fulton County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Fulton County Court of Common Pleas",
+            "Fulton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Green Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Green County Court of Common Pleas"
+        ],
+        "id": "pactcomplgreen",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Green County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Green County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Greene Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Greene County Court of Common Pleas"
+        ],
+        "id": "pactcomplgreene",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Greene County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Greene County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Harrisburg Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Harrisburg County Court of Common Pleas"
+        ],
+        "id": "pactcomplharris",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Harrisburg County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Harrisburg County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Huntingdon Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Huntingdon County Court of Common Pleas"
+        ],
+        "id": "pactcomplhuntin",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Huntingdon County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Huntingdon County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Indiana Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Indiana County Court of Common Pleas"
+        ],
+        "id": "pactcomplindian",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Indiana County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Indiana County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jefferson Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Jefferson County Court of Common Pleas"
+        ],
+        "id": "pactcompljeffer",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Jefferson County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Jefferson County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Juniata Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Juniata County Court of Common Pleas"
+        ],
+        "id": "pactcompljuniat",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Juniata County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Juniata County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lackawanna Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lackawanna County Court of Common Pleas"
+        ],
+        "id": "pactcompllackaw",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Lackawanna County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Lackawanna County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lancaster Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lancaster County Court of Common Pleas"
+        ],
+        "id": "pactcompllancas",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Lancaster County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Lancaster County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lawrence Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lawrence County Court Common Pleas"
+        ],
+        "id": "pactcompllawren",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Lawrence County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Lawrence County Court (of )?Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lebanon Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lebanon County Court of Common Pleas"
+        ],
+        "id": "pactcompllebano",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Lebanon County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Lebanon County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lehigh Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lehigh County Court of Common Pleas"
+        ],
+        "id": "pactcompllehigh",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Lehigh County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Lehigh County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Luzerne Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Luzerne County Court of Common Pleas"
+        ],
+        "id": "pactcomplluzern",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Luzerne County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Luzerne County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lycoming Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Lycoming County Court of Common Pleas"
+        ],
+        "id": "pactcompllycomi",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Lycoming County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Lycoming County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "McKean Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "McKean County Court of Common Pleas"
+        ],
+        "id": "pactcomplmckean",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "McKean County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "McKean County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mercer Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Mercer County Court of Common Pleas"
+        ],
+        "id": "pactcomplmercer",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Mercer County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Mercer County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mifflin Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Mifflin County Court of Common Pleas"
+        ],
+        "id": "pactcomplmiffli",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Mifflin County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Mifflin County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Monroe Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Monroe County Court of Common Pleas"
+        ],
+        "id": "pactcomplmonroe",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Monroe County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Monroe County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montgomery Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Montgomery County Court of Common Pleas"
+        ],
+        "id": "pactcomplmontgo",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Montgomery County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Montgomery County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montour Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Montour County Court of Common Pleas"
+        ],
+        "id": "pactcomplmontou",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Montour County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Montour County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northampton Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Northampton County Court of Common Pleas"
+        ],
+        "id": "pactcomplnortha",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Northampton County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Northampton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Northumberland Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Northumberland County Court of Common Pleas"
+        ],
+        "id": "pactcomplnorthu",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Northumberland County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Northumberland County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Perry Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Perry County Court of Common Pleas"
+        ],
+        "id": "pactcomplperry",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Perry County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Perry County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Philadelphia Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Philadelphia County Court of Common Pleas",
+            "Philadelphia County Court",
+            "Philadelphia District Court"
+        ],
+        "id": "pactcomplphilad",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Philadelphia County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Philadelphia County Court of Common Pleas",
+            "Philadelphia County Court",
+            "Philadelphia District Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pike Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Pike County Court of Common Pleas"
+        ],
+        "id": "pactcomplpike",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Pike County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Pike County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Potter Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Potter County Court of Common Pleas"
+        ],
+        "id": "pactcomplpotter",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Potter County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Potter County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Schuylkill Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Schuylkill County Court of Common Pleas",
+            "Schuykill County Court of Common Pleas"
+        ],
+        "id": "pactcomplschuyl",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Schuylkill County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Schuylkill County Court of Common Pleas",
+            "Schuykill County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Snyder Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Snyder County Court of Common Pleas"
+        ],
+        "id": "pactcomplsnyder",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Snyder County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Snyder County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Somerset Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Somerset County Court of Common Pleas",
+            "Somerset County Court"
+        ],
+        "id": "pactcomplsomers",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Somerset County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Somerset County Court of Common Pleas",
+            "Somerset County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Sullivan Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Sullivan County Court of Common Pleas"
+        ],
+        "id": "pactcomplsulliv",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Sullivan County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Sullivan County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Sunder Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Sunder County Court of Common Pleas"
+        ],
+        "id": "pactcomplsunder",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Sunder County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Sunder County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Susquehanna Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Susquehanna County Court of Common Pleas"
+        ],
+        "id": "pactcomplsusque",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Susquehanna County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Susquehanna County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Synder Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Synder County Court of Common Pleas"
+        ],
+        "id": "pactcomplsynder",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Synder County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Synder County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tioga Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Tioga County Court of Common Pleas"
+        ],
+        "id": "pactcompltioga",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Tioga County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Tioga County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Union Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Union County Court of Common Pleas"
+        ],
+        "id": "pactcomplunion",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Union County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Union County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Venango Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Venango County Court of Common Pleas"
+        ],
+        "id": "pactcomplvenang",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Venango County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Venango County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Warren Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Warren County Court of Common Pleas"
+        ],
+        "id": "pactcomplwarren",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Warren County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Warren County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Washington Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Washington County Court of Common Pleas",
+            "Washington County Court"
+        ],
+        "id": "pactcomplwashin",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Washington County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Washington County Court of Common Pleas",
+            "Washington County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wayne Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Wayne County Court of Common Pleas"
+        ],
+        "id": "pactcomplwayne",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Wayne County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Wayne County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Westmoreland Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Westmoreland County Court of Common Pleas",
+            "Westmoreland County Court"
+        ],
+        "id": "pactcomplwestmo",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Westmoreland County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Westmoreland County Court of Common Pleas",
+            "Westmoreland County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wycoming Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Wycoming County Court of Common Pleas"
+        ],
+        "id": "pactcomplwycomi",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Wycoming County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Wycoming County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wyoming Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "Wyoming County Court of Common Pleas"
+        ],
+        "id": "pactcomplwyomin",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "Wyoming County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "Wyoming County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "York Cty. Ct. Cmn. Pleas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1683-01-01"
+            }
+        ],
+        "examples": [
+            "York County Court of Common Pleas"
+        ],
+        "id": "pactcomplyork",
+        "jurisdiction": "P.A.",
+        "level": "gjc",
+        "location": "Pennsylvania",
+        "name": "York County Court of Common Pleas",
+        "notes": "",
+        "parent": "pactcompl",
+        "regex": [
+            "York County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -26485,7 +28394,7 @@
         ],
         "id": "paqtrsessadams",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Adams County Court of Quarter Sessions",
         "notes": "",
@@ -26511,7 +28420,7 @@
         ],
         "id": "paqtrsessallegh",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Allegheny County Court of Quarter Sessions",
         "notes": "",
@@ -26537,7 +28446,7 @@
         ],
         "id": "paqtrsessarmstr",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Armstrong County Court of Quarter Sessions",
         "notes": "",
@@ -26563,7 +28472,7 @@
         ],
         "id": "paqtrsessbeaver",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Beaver County Court of Quarter Sessions",
         "notes": "",
@@ -26589,7 +28498,7 @@
         ],
         "id": "paqtrsessbedfor",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Bedford County Court of Quarter Sessions",
         "notes": "",
@@ -26615,7 +28524,7 @@
         ],
         "id": "paqtrsessberks",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Berks County Court of Quarter Sessions",
         "notes": "",
@@ -26641,7 +28550,7 @@
         ],
         "id": "paqtrsessblair",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Blair County Court of Quarter Sessions",
         "notes": "",
@@ -26667,7 +28576,7 @@
         ],
         "id": "paqtrsessbradfo",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Bradford County Court of Quarter Sessions",
         "notes": "",
@@ -26693,7 +28602,7 @@
         ],
         "id": "paqtrsessbucks",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Bucks County Court of Quarter Sessions",
         "notes": "",
@@ -26719,7 +28628,7 @@
         ],
         "id": "paqtrsessbutler",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Butler County Court of Quarter Sessions",
         "notes": "",
@@ -26745,7 +28654,7 @@
         ],
         "id": "paqtrsesscambri",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Cambria County Court of Quarter Sessions",
         "notes": "",
@@ -26771,7 +28680,7 @@
         ],
         "id": "paqtrsesscamero",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Cameron County Court of Quarter Sessions",
         "notes": "",
@@ -26797,7 +28706,7 @@
         ],
         "id": "paqtrsesscarbon",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Carbon County Court of Quarter Sessions",
         "notes": "",
@@ -26823,7 +28732,7 @@
         ],
         "id": "paqtrsesscentre",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Centre County Court of Quarter Sessions",
         "notes": "",
@@ -26849,7 +28758,7 @@
         ],
         "id": "paqtrsesscheste",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Chester County Court of Quarter Sessions",
         "notes": "",
@@ -26875,7 +28784,7 @@
         ],
         "id": "paqtrsessclario",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Clarion County Court of Quarter Sessions",
         "notes": "",
@@ -26901,7 +28810,7 @@
         ],
         "id": "paqtrsessclearf",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Clearfield County Court of Quarter Sessions",
         "notes": "",
@@ -26927,7 +28836,7 @@
         ],
         "id": "paqtrsessclinto",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Clinton County Court of Quarter Sessions",
         "notes": "",
@@ -26953,7 +28862,7 @@
         ],
         "id": "paqtrsesscolumb",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Columbia County Court of Quarter Sessions",
         "notes": "",
@@ -26979,7 +28888,7 @@
         ],
         "id": "paqtrsesscrawfo",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Crawford County Court of Quarter Sessions",
         "notes": "",
@@ -27005,7 +28914,7 @@
         ],
         "id": "paqtrsesscumber",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Cumberland County Court of Quarter Sessions",
         "notes": "",
@@ -27031,7 +28940,7 @@
         ],
         "id": "paqtrsessdauphi",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Dauphin County Court of Quarter Sessions",
         "notes": "",
@@ -27057,7 +28966,7 @@
         ],
         "id": "paqtrsessdelawa",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Delaware County Court of Quarter Sessions",
         "notes": "",
@@ -27083,7 +28992,7 @@
         ],
         "id": "paqtrsesselk",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Elk County Court of Quarter Sessions",
         "notes": "",
@@ -27109,7 +29018,7 @@
         ],
         "id": "paqtrsesserie",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Erie County Court of Quarter Sessions",
         "notes": "",
@@ -27135,7 +29044,7 @@
         ],
         "id": "paqtrsessfayett",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Fayette County Court of Quarter Sessions",
         "notes": "",
@@ -27161,7 +29070,7 @@
         ],
         "id": "paqtrsessfrankl",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Franklin County Court of Quarter Sessions",
         "notes": "",
@@ -27187,7 +29096,7 @@
         ],
         "id": "paqtrsessfulton",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Fulton County Court of Quarter Sessions",
         "notes": "",
@@ -27213,7 +29122,7 @@
         ],
         "id": "paqtrsessgreene",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Greene County Court of Quarter Sessions",
         "notes": "",
@@ -27239,7 +29148,7 @@
         ],
         "id": "paqtrsesshuntin",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Huntingdon County Court of Quarter Sessions",
         "notes": "",
@@ -27265,7 +29174,7 @@
         ],
         "id": "paqtrsessindian",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Indiana County Court of Quarter Sessions",
         "notes": "",
@@ -27291,7 +29200,7 @@
         ],
         "id": "paqtrsessjeffer",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Jefferson County Court of Quarter Sessions",
         "notes": "",
@@ -27317,7 +29226,7 @@
         ],
         "id": "paqtrsessjuniat",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Juniata County Court of Quarter Sessions",
         "notes": "",
@@ -27343,7 +29252,7 @@
         ],
         "id": "paqtrsesslackaw",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Lackawanna County Court of Quarter Sessions",
         "notes": "",
@@ -27369,7 +29278,7 @@
         ],
         "id": "paqtrsesslancas",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Lancaster County Court of Quarter Sessions",
         "notes": "",
@@ -27396,7 +29305,7 @@
         ],
         "id": "paqtrsesslawren",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Lawrence County Court of Quarter Sessions",
         "notes": "",
@@ -27423,7 +29332,7 @@
         ],
         "id": "paqtrsesslebano",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Lebanon County Court of Quarter Sessions",
         "notes": "",
@@ -27449,7 +29358,7 @@
         ],
         "id": "paqtrsesslehigh",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Lehigh County Court of Quarter Sessions",
         "notes": "",
@@ -27475,7 +29384,7 @@
         ],
         "id": "paqtrsessluzern",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Luzerne County Court of Quarter Sessions",
         "notes": "",
@@ -27501,7 +29410,7 @@
         ],
         "id": "paqtrsesslycomi",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Lycoming County Court of Quarter Sessions",
         "notes": "",
@@ -27527,7 +29436,7 @@
         ],
         "id": "paqtrsessmckean",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "McKean County Court of Quarter Sessions",
         "notes": "",
@@ -27553,7 +29462,7 @@
         ],
         "id": "paqtrsessmercer",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Mercer County Court of Quarter Sessions",
         "notes": "",
@@ -27579,7 +29488,7 @@
         ],
         "id": "paqtrsessmiffli",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Mifflin County Court of Quarter Sessions",
         "notes": "",
@@ -27605,7 +29514,7 @@
         ],
         "id": "paqtrsessmonroe",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Monroe County Court of Quarter Sessions",
         "notes": "",
@@ -27631,7 +29540,7 @@
         ],
         "id": "paqtrsessmontgo",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Montgomery County Court of Quarter Sessions",
         "notes": "",
@@ -27657,7 +29566,7 @@
         ],
         "id": "paqtrsessmontou",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Montour County Court of Quarter Sessions",
         "notes": "",
@@ -27683,7 +29592,7 @@
         ],
         "id": "paqtrsessnortha",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Northampton County Court of Quarter Sessions",
         "notes": "",
@@ -27709,7 +29618,7 @@
         ],
         "id": "paqtrsessnorthu",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Northumberland County Court of Quarter Sessions",
         "notes": "",
@@ -27735,7 +29644,7 @@
         ],
         "id": "paqtrsessperry",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Perry County Court of Quarter Sessions",
         "notes": "",
@@ -27762,7 +29671,7 @@
         ],
         "id": "paqtrsessphilad",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Philadelphia County Court of Quarter Sessions",
         "notes": "",
@@ -27789,7 +29698,7 @@
         ],
         "id": "paqtrsesspike",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Pike County Court of Quarter Sessions",
         "notes": "",
@@ -27815,7 +29724,7 @@
         ],
         "id": "paqtrsesspotter",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Potter County Court of Quarter Sessions",
         "notes": "",
@@ -27841,7 +29750,7 @@
         ],
         "id": "paqtrsessschuyl",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Schuylkill County Court of Quarter Sessions",
         "notes": "",
@@ -27867,7 +29776,7 @@
         ],
         "id": "paqtrsesssnyder",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Snyder County Court of Quarter Sessions",
         "notes": "",
@@ -27893,7 +29802,7 @@
         ],
         "id": "paqtrsesssomers",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Somerset County Court of Quarter Sessions",
         "notes": "",
@@ -27919,7 +29828,7 @@
         ],
         "id": "paqtrsesssulliv",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Sullivan County Court of Quarter Sessions",
         "notes": "",
@@ -27945,7 +29854,7 @@
         ],
         "id": "paqtrsesssusque",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Susquehanna County Court of Quarter Sessions",
         "notes": "",
@@ -27971,7 +29880,7 @@
         ],
         "id": "paqtrsesstioga",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Tioga County Court of Quarter Sessions",
         "notes": "",
@@ -27997,7 +29906,7 @@
         ],
         "id": "paqtrsessunion",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Union County Court of Quarter Sessions",
         "notes": "",
@@ -28023,7 +29932,7 @@
         ],
         "id": "paqtrsessvenang",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Venango County Court of Quarter Sessions",
         "notes": "",
@@ -28049,7 +29958,7 @@
         ],
         "id": "paqtrsesswarren",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Warren County Court of Quarter Sessions",
         "notes": "",
@@ -28075,7 +29984,7 @@
         ],
         "id": "paqtrsesswashin",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Washington County Court of Quarter Sessions",
         "notes": "",
@@ -28101,7 +30010,7 @@
         ],
         "id": "paqtrsesswayne",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Wayne County Court of Quarter Sessions",
         "notes": "",
@@ -28127,7 +30036,7 @@
         ],
         "id": "paqtrsesswestmo",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Westmoreland County Court of Quarter Sessions",
         "notes": "",
@@ -28153,7 +30062,7 @@
         ],
         "id": "paqtrsesswyomin",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "Wyoming County Court of Quarter Sessions",
         "notes": "",
@@ -28179,7 +30088,7 @@
         ],
         "id": "paqtrsessyork",
         "jurisdiction": "P.A.",
-        "level": "trial",
+        "level": null,
         "location": "Pennsylvania",
         "name": "York County Court of Quarter Sessions",
         "notes": "",
