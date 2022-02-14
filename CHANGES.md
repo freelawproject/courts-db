@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.41 (2022-02-08): Update New York Justice Courts
+ - 0.9.42 (2022-02-14): Add various Pennsylvania courts
 
 ## Past Versions
+
+ - 0.9.41 (2022-02-08): Update New York Justice Courts
 
  - 0.9.40 (2022-02-08): Update New York City/County Courts
 
