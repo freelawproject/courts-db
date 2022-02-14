@@ -69,7 +69,7 @@
     "ri": "R(hode)? I(sland)?(\\b|$)",
     "sc": "S(\\.|(ou(r)?th))? C(\\.|(arolina))?(\\b|$)",
     "sdak": "S(outh)? D(ak)?(ota)?(\\b|$)",
-    "tn": "Tenn(esseee?)?(\\b|$)|Tn",
+    "tn": "(Tenn(esseee?)?|Tn)(\\b|$)",
     "tx": "Te?x(as)?(\\b|$)",
     "ut": "Utah(\\b|$)|Ut(\\b|$)",
     "vt": "V(ermon)?t?(\\b|$)",
