@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.42 (2022-02-14): Add various Pennsylvania courts
+ - 0.9.43 (2022-02-15): Add Courts for Ohio from Harvard dataset
 
 ## Past Versions
+
+ - 0.9.42 (2022-02-14): Add various Pennsylvania courts
 
  - 0.9.41 (2022-02-08): Update New York Justice Courts
 
