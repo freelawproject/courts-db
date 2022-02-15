@@ -21636,26 +21636,2310 @@
                 "start": null
             }
         ],
-        "examples": [
-            "Lakewood Municipal Court Cuyahoga County",
-            "Clermont County Municipal Court Civil Division"
-        ],
+        "examples": [],
         "id": "ohmunict",
-        "level": "",
+        "level": "ljc",
         "location": "Ohio",
         "name": "Municipal Courts of Ohio",
         "regex": [
-            ".* Municipal Court.* Ohio",
-            "Lakewood Municipal Court Cuyahoga County",
-            "Lakewood Municipal Court",
-            "Medina Municipal Court",
-            "Municipal Court (${oh_counties}) County",
-            "(${oh_counties}) County Municipal Court",
-            "Newton Falls Municipal Court",
-            "State Of Ohio Municipal Court",
-            "Circleville Municipal Court",
-            "State Of Ohio.* Municipal Court",
-            "Municipal Court Civil Division Dayton Ohio"
+            "Ohio Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Akron",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Akron Municipal Court"
+        ],
+        "id": "ohmunictakron",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Akron Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Akron Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Ashland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashland Municipal Court"
+        ],
+        "id": "ohmunictashland",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ashland Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Ashland Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Ashtabula",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashtabula Municipal Court"
+        ],
+        "id": "ohmunictashtabu",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ashtabula Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Ashtabula Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Athens",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Athens County Municipal Court"
+        ],
+        "id": "ohmunictathens",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Athens County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Athens County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Auglaize",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Auglaize County Municipal Court"
+        ],
+        "id": "ohmunictauglaiz",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Auglaize County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Auglaize County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Avon Lake",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Avon Lake Municipal Court"
+        ],
+        "id": "ohmunictavonlak",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Avon Lake Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Avon Lake Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Barberton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Barberton Municipal Court"
+        ],
+        "id": "ohmunictbarbert",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Barberton Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Barberton Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Bedford",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Bedford Municipal Court"
+        ],
+        "id": "ohmunictbedford",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Bedford Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Bedford Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Bellefontaine",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Bellefontaine Municipal Court"
+        ],
+        "id": "ohmunictbellefo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Bellefontaine Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Bellefontaine Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Berea",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Berea Municipal Court"
+        ],
+        "id": "ohmunictberea",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Berea Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Berea Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Bowling Green",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Bowling Green County Municipal Court",
+            "Bowling Green Municipal Court"
+        ],
+        "id": "ohmunictbowling",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Bowling Green County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Bowling Green County Municipal Court",
+            "Bowling Green Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Canton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Canton Municipal Court"
+        ],
+        "id": "ohmunictcanton",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Canton Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Canton Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Celina",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Celina Municipal Court"
+        ],
+        "id": "ohmunictcelina",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Celina Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Celina Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Chardon",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Chardon Municipal Court"
+        ],
+        "id": "ohmunictchardon",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Chardon Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Chardon Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Chillicothe",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Chillicothe Municipal Court"
+        ],
+        "id": "ohmunictchillic",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Chillicothe Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Chillicothe Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Cincinnati",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cincinnati Municipal Court"
+        ],
+        "id": "ohmunictcincinn",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cincinnati Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Cincinnati Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Circleville",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Circleville Municipal Court"
+        ],
+        "id": "ohmunictcirclev",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Circleville Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Circleville Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Cleveland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "City of Cleveland Municipal Court",
+            "Cleveland County Municipal Court",
+            "Cleveland Heights Municipal Court",
+            "Cleveland Municipal Court",
+            "Ohio Municipal Court, Cleveland",
+            "Ohio Municipal Court, Cleveland. Cuyahoga County"
+        ],
+        "id": "ohmunictclevela",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "City of Cleveland Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "City of Cleveland Municipal Court",
+            "Cleveland County Municipal Court",
+            "Cleveland Heights Municipal Court",
+            "Cleveland Municipal Court",
+            "Ohio Municipal Court, Cleveland",
+            "Ohio Municipal Court, Cleveland. Cuyahoga County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Columbus",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "City of Columbus Municipal Court",
+            "Columbus Municipal Court"
+        ],
+        "id": "ohmunictcolumbu",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "City of Columbus Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "City of Columbus Municipal Court",
+            "Columbus Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Dayton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "City of Dayton Municipal Court",
+            "Dayton County Municipal Court",
+            "Dayton Municipal Court",
+            "Ohio Municipal Court of Dayton"
+        ],
+        "id": "ohmunictdayton",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "City of Dayton Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "City of Dayton Municipal Court",
+            "Dayton County Municipal Court",
+            "Dayton Municipal Court",
+            "Ohio Municipal Court of Dayton",
+            "Dayton City Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Clark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clark County Municipal Court"
+        ],
+        "id": "ohmunictclark",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clark County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Clark County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Clermont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clermont County Municipal Court",
+            "Clermont Municipal Court"
+        ],
+        "id": "ohmunictclermon",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clermont County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Clermont County Municipal Court",
+            "Clermont Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Crawford",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Crawford County Municipal Court"
+        ],
+        "id": "ohmunictcrawfor",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Crawford County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Crawford County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Criminal Branch",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Criminal Branch Municipal Court"
+        ],
+        "id": "ohmunictcrimina",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Criminal Branch Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Criminal Branch Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Cuyahoga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga County Municipal Court",
+            "Cuyahoga Municipal Court"
+        ],
+        "id": "ohmunictcuyahog",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cuyahoga County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Cuyahoga County Municipal Court",
+            "Cuyahoga Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Cuyahoga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga Falls Municipal Court"
+        ],
+        "id": "ohmunictcuyfall",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cuyahoga Falls Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Cuyahoga Falls Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Darke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Darke County Municipal Court"
+        ],
+        "id": "ohmunictdarke",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Darke County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Darke County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., East Liverpool",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "East Liverpool Municipal Court"
+        ],
+        "id": "ohmunicteastliv",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "East Liverpool Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "East Liverpool Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Elyria",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Elyria Municipal Court"
+        ],
+        "id": "ohmunictelyria",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Elyria Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Elyria Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Euclid City",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Euclid City Municipal Court"
+        ],
+        "id": "ohmunicteuclidc",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Euclid City Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Euclid City Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Euclid",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Euclid Municipal Court"
+        ],
+        "id": "ohmunicteuclid",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Euclid Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Euclid Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Findlay",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Findlay Municipal Court"
+        ],
+        "id": "ohmunictfindlay",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Findlay Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Findlay Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Fostoria",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fostoria Municipal Court"
+        ],
+        "id": "ohmunictfostori",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fostoria Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Fostoria Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Franklin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Franklin County Municipal Court",
+            "Franklin Municipal Court"
+        ],
+        "id": "ohmunictfrankli",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Franklin County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Franklin County Municipal Court",
+            "Franklin Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Fremont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fremont Municipal Court"
+        ],
+        "id": "ohmunictfremont",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fremont Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Fremont Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Gallipolis",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Gallipolis Municipal Court"
+        ],
+        "id": "ohmunictgallipo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Gallipolis Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Gallipolis Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Girard",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Girard Municipal Court"
+        ],
+        "id": "ohmunictgirard",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Girard Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Girard Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Hamilton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hamilton County Municipal Court",
+            "Hamilton Municipal Court"
+        ],
+        "id": "ohmunicthamilto",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hamilton County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Hamilton County Municipal Court",
+            "Hamilton Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Highland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Highland County Municipal Court"
+        ],
+        "id": "ohmunicthighlan",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Highland County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Highland County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Hocking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hocking County Municipal Court"
+        ],
+        "id": "ohmunicthocking",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hocking County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Hocking County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Kettering",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Kettering Municipal Court"
+        ],
+        "id": "ohmunictketteri",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Kettering Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Kettering Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Lakewood",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lakewood Municipal Court"
+        ],
+        "id": "ohmunictlakewoo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lakewood Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Lakewood Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Lancaster",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lancaster Municipal Court"
+        ],
+        "id": "ohmunictlancast",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lancaster Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Lancaster Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Lawrence",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lawrence County Municipal Court"
+        ],
+        "id": "ohmunictlawrenc",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lawrence County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Lawrence County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Licking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Licking County Municipal Court"
+        ],
+        "id": "ohmunictlicking",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Licking County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Licking County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Lima",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lima Municipal Court"
+        ],
+        "id": "ohmunictlima",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lima Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Lima Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Lorain",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lorain Municipal Court"
+        ],
+        "id": "ohmunictlorain",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lorain Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Lorain Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Lucas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lucas County Municipal Court"
+        ],
+        "id": "ohmunictlucas",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lucas County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Lucas County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Mansfield",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mansfield Municipal Court"
+        ],
+        "id": "ohmunictmansfie",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Mansfield Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Mansfield Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Marion",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Marion County Municipal Court",
+            "Marion Municipal Court"
+        ],
+        "id": "ohmunictmarion",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Marion County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Marion County Municipal Court",
+            "Marion Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Marysville",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Marysville Municipal Court"
+        ],
+        "id": "ohmunictmarysvi",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Marysville Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Marysville Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Massillon",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Massillon Municipal Court"
+        ],
+        "id": "ohmunictmassill",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Massillon Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Massillon Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Maumee",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Maumee Municipal Court"
+        ],
+        "id": "ohmunictmaumee",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Maumee Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Maumee Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Medina",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Medina Municipal Court"
+        ],
+        "id": "ohmunictmedina",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Medina Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Medina Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Miamisburg",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Miamisburg Municipal Court"
+        ],
+        "id": "ohmunictmiamisb",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Miamisburg Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Miamisburg Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Middletown",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Middletown Municipal Court"
+        ],
+        "id": "ohmunictmiddlet",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Middletown Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Middletown Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Morrow",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Morrow County Municipal Court"
+        ],
+        "id": "ohmunictmorrow",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Morrow County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Morrow County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Vandalia",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Municipal Court of Vandalia",
+            "Vandalia Municipal Court"
+        ],
+        "id": "ohmunictvandali",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Municipal Court of Vandalia",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Municipal Court of Vandalia",
+            "Vandalia Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., New Philadelphia",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Philadelphia Municipal Court"
+        ],
+        "id": "ohmunictnewphil",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "New Philadelphia Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "New Philadelphia Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Newton Falls",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Newton Falls Municipal Court"
+        ],
+        "id": "ohmunictnewtonf",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Newton Falls Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Newton Falls Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Oberlin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Oberlin Municipal Court"
+        ],
+        "id": "ohmunictoberlin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Oberlin Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Oberlin Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Parma",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Parma Municipal Court"
+        ],
+        "id": "ohmunictparma",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Parma Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Parma Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Perrysburg",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Perrysburg Municipal Court"
+        ],
+        "id": "ohmunictperrysb",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Perrysburg Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Perrysburg Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Piqua",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Piqua Municipal Court"
+        ],
+        "id": "ohmunictpiqua",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Piqua Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Piqua Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Portage",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Portage County Municipal Court"
+        ],
+        "id": "ohmunictportage",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Portage County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Portage County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Port Clinton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Port Clinton Municipal Court"
+        ],
+        "id": "ohmunictportcli",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Port Clinton Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Port Clinton Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Portsmouth",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Portsmouth Municipal Court"
+        ],
+        "id": "ohmunictportsmo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Portsmouth Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Portsmouth Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Ravenna",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ravenna Municipal Court"
+        ],
+        "id": "ohmunictravenna",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ravenna Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Ravenna Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Rocky River",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Rocky River Municipal Court"
+        ],
+        "id": "ohmunictrockyri",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Rocky River Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Rocky River Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Shaker Heights",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Shaker Heights Municipal Court"
+        ],
+        "id": "ohmunictshakerh",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Shaker Heights Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Shaker Heights Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Sidney",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sidney Municipal Court"
+        ],
+        "id": "ohmunictsidney",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Sidney Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Sidney Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., South Euclid",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "South Euclid Municipal Court"
+        ],
+        "id": "ohmunictsoutheu",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "South Euclid Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "South Euclid Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Springfield",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Springfield Municipal Court"
+        ],
+        "id": "ohmunictspringf",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Springfield Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Springfield Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Struthers",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Struthers Municipal Court"
+        ],
+        "id": "ohmunictstruthe",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Struthers Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Struthers Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Summit",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Summit County Municipal Court"
+        ],
+        "id": "ohmunictsummit",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Summit County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Summit County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Sylvania",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sylvania Municipal Court"
+        ],
+        "id": "ohmunictsylvani",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Sylvania Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Sylvania Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Tiffin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Tiffin Municipal Court"
+        ],
+        "id": "ohmunicttiffin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Tiffin Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Tiffin Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Toledo",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Toledo Municipal Court"
+        ],
+        "id": "ohmunicttoledo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Toledo Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Toledo Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Trumbull",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Trumbull County Municipal Court"
+        ],
+        "id": "ohmunicttrumbul",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Trumbull County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Trumbull County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Upper Sandusky",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Upper Sandusky Municipal Court"
+        ],
+        "id": "ohmunictuppersa",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Upper Sandusky Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Upper Sandusky Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Van Wert",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Van Wert County Municipal Court",
+            "Van Wert Municipal Court"
+        ],
+        "id": "ohmunictvanwert",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Van Wert County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Van Wert County Municipal Court",
+            "Van Wert Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Wadsworth",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wadsworth Municipal Court"
+        ],
+        "id": "ohmunictwadswor",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Wadsworth Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Wadsworth Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Warren",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Warren County Municipal Court"
+        ],
+        "id": "ohmunictwarren",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Warren County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Warren County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Wayne",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wayne County Municipal Court"
+        ],
+        "id": "ohmunictwayne",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Wayne County Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Wayne County Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Willoughby",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Willoughby Municipal Court"
+        ],
+        "id": "ohmunictwilloug",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Willoughby Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Willoughby Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Xenia",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Xenia Municipal Court"
+        ],
+        "id": "ohmunictxenia",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Xenia Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Xenia Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Muni. Ct., Zanesville",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Zanesville Municipal Court"
+        ],
+        "id": "ohmunictzanesvi",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Zanesville Municipal Court",
+        "notes": "",
+        "parent": "ohmunict",
+        "regex": [
+            "Zanesville Municipal Court"
         ],
         "system": "state",
         "type": "trial"
