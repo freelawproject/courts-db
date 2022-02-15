@@ -1223,6 +1223,28 @@
     },
     {
         "case_types": [],
+        "citation_string": "Oh. Ct. N.P.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ohio Court of Nisi Prius"
+        ],
+        "id": "ohioctnp",
+        "level": "",
+        "location": "Ohio",
+        "name": "Ohio Court of Nisi Prius",
+        "regex": [
+            "Ohio Court of Nisi Prius"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
         "citation_string": "Bankr. W.D. Ark.",
         "court_url": "http://www.arb.uscourts.gov/",
         "dates": [
@@ -21392,7 +21414,31 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "OH. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "State of Ohio Superior Court"
+        ],
+        "id": "ohiosuperct",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Ohio Superior Court",
+        "regex": [
+            "Ohio Superior Court",
+            "State of Ohio Superior Court",
+            "Superior Court Of Ohio"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "OH. Super. Ct., Cinci.",
         "dates": [
             {
                 "end": null,
@@ -21402,20 +21448,20 @@
         "examples": [
             "State Of Ohio Superior Court Cincinnati",
             "State Of Ohio Superior Court Cincinnati Hamilton County",
-            "State Of Ohio Superior Court Cleveland County",
-            "State Of Ohio Superior Court Franklin County",
-            "State Of Ohio Superior Court Montgomery County",
-            "State Of Ohio Superior Court Of Cincinnati Hamilton County"
+            "State Of Ohio Superior Court Of Cincinnati Hamilton County",
+            "Cincinnati Superior Court"
         ],
-        "id": "ohiosuperct",
+        "id": "ohsuperctcinci",
         "level": "gjc",
         "location": "Ohio",
         "name": "Ohio Superior Court",
+        "parent": "ohiosuperct",
         "regex": [
-            "Ohio Superior Court",
-            "Superior Court Of Ohio",
             "Superior Court Of Cincinnati Ohio",
-            "State Of Ohio Cincinnati Superior"
+            "State Of Ohio Cincinnati Superior",
+            "State Of Ohio Superior Court Cincinnati",
+            "State Of Ohio Superior Court (of )?Cincinnati Hamilton County",
+            "Cincinnati Superior Court"
         ],
         "system": "state",
         "type": "trial"
@@ -21445,6 +21491,100 @@
         ],
         "system": "state",
         "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Mayor Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ohio Mayors' Court",
+            "Ohio Police Court"
+        ],
+        "id": "ohmayorct",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ohio Mayors' Court",
+        "notes": "Ohio has low level courts to handle small city infractions.",
+        "regex": [
+            "Ohio Mayors' Court",
+            "Ohio Police Court"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Mayor Ct., Cincinnati",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cincinnati Police Court"
+        ],
+        "id": "ohmayorctcinci",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cincinnati Police Court",
+        "parent": "ohmayorct",
+        "regex": [
+            "Cincinnati Police Court"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Mayor Ct., Cleveland",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cleveland Police Court"
+        ],
+        "id": "ohmayorctclev",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cleveland Police Court",
+        "parent": "ohmayorct",
+        "regex": [
+            "Cleveland Police Court"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Mayor Ct., Columbus",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Columbus Police Court"
+        ],
+        "id": "ohmayorctcolum",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Columbus Police Court",
+        "parent": "ohmayorct",
+        "regex": [
+            "Columbus Police Court"
+        ],
+        "system": "state",
+        "type": null
     },
     {
         "case_types": [],
@@ -25330,7 +25470,8 @@
         "court_url": "",
         "examples": [
             "Lucas County Court of Appeals",
-            "Court of Appeals of Ohio, Sixth District, Lucas County"
+            "Court of Appeals of Ohio, Sixth District, Lucas County",
+            "Lucas County District Court"
         ],
         "id": "ohctapp6lucas",
         "jurisdiction": "O.H.",
@@ -25341,7 +25482,8 @@
         "parent": "ohctapp6",
         "regex": [
             "Lucas County Court of Appeals",
-            "Court of Appeals of Ohio, Sixth District, Lucas County"
+            "Court of Appeals of Ohio, Sixth District, Lucas County",
+            "Lucas County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -28474,6 +28616,83 @@
     },
     {
         "case_types": [],
+        "citation_string": "Oh. Ct. Insolv.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ohio Court of Insolvency"
+        ],
+        "id": "ohctinsolv",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ohio Court of Insolvency",
+        "notes": "",
+        "regex": [
+            "Ohio Court of Insolvency"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cuyahoga Cty. Ct. of Insolv.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga County Court of Insolvency"
+        ],
+        "id": "ohctinsolvcuyah",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cuyahoga County Court of Insolvency",
+        "notes": "",
+        "parent": "ohctinsolv",
+        "regex": [
+            "Cuyahoga County Court of Insolvency"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cuyahoga Cty. Ct. of Insolv.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hamilton County Court of Insolvency"
+        ],
+        "id": "ohctinsolvhamil",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hamilton County Court of Insolvency",
+        "notes": "",
+        "parent": "ohctinsolv",
+        "regex": [
+            "Hamilton County Court of Insolvency"
+        ],
+        "system": "state",
+        "type": null
+    },
+    {
+        "case_types": [],
         "citation_string": "Oh. Prob. Ct.",
         "court_url": "",
         "dates": [
@@ -30565,7 +30784,8 @@
         "location": "Ohio",
         "name": "Municipal Courts of Ohio",
         "regex": [
-            "Ohio Municipal Court"
+            "Ohio Municipal Court",
+            "Criminal Branch Municipal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -30869,7 +31089,8 @@
             }
         ],
         "examples": [
-            "Canton Municipal Court"
+            "Canton Municipal Court",
+            "Canton Criminal Court"
         ],
         "id": "ohmunictcanton",
         "jurisdiction": "O.H.",
@@ -30879,7 +31100,8 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Canton Municipal Court"
+            "Canton Municipal Court",
+            "Canton Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -31187,32 +31409,6 @@
         "parent": "ohmunict",
         "regex": [
             "Crawford County Municipal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Oh. Muni. Ct., Criminal Branch",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Criminal Branch Municipal Court"
-        ],
-        "id": "ohmunictcrimina",
-        "jurisdiction": "O.H.",
-        "level": "ljc",
-        "location": "Ohio",
-        "name": "Criminal Branch Municipal Court",
-        "notes": "",
-        "parent": "ohmunict",
-        "regex": [
-            "Criminal Branch Municipal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33068,7 +33264,8 @@
         "name": "Board Of Commissioners On The Unauthorized Practice Of Law State Of Ohio",
         "regex": [
             "Board Of Commissioners On The Unauthorized Practice Of Law State Of Ohio",
-            "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law"
+            "State Of Ohio Board Of Commissioners On The Unauthorized Practice Of Law",
+            "Ohio Board of Commissioners on the Unauthorized Practice of Law"
         ],
         "system": "state",
         "type": "trial"
@@ -33871,7 +34068,7 @@
         "parent": "pactcompl",
         "regex": [
             "Butler County Court of Common Pleas",
-            "Butler County Court of Common Pleas"
+            "Area One County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45636,7 +45833,8 @@
         "name": "Decisions of the Federal Communications Commission",
         "name_abbreviation": null,
         "regex": [
-            "Federal Communications Commission"
+            "Federal Communications Commission",
+            "Ohio Federal Communications Commission"
         ],
         "system": "federal",
         "type": "special"
