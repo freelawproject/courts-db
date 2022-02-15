@@ -21448,7 +21448,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "Oh. Circ. Ct.",
         "dates": [
             {
                 "end": null,
@@ -21456,17 +21456,2491 @@
             }
         ],
         "examples": [
-            "State Of Ohio Circuit Court Belmont County"
+            "State Of Ohio Circuit Court"
         ],
         "id": "ohiocirct",
         "level": "gjc",
         "location": "Ohio",
         "name": "Ohio Circuit Courts",
         "regex": [
-            "State Of Ohio ${bw} Circuit ${oh_counties} County",
             "State Of Ohio Circuit Court",
-            "State Of Ohio Second Circuit Clarke County",
             "State Of Ohio Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Auglaize",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Auglaize County Circuit Court",
+            "Auglaize Circuit Court"
+        ],
+        "id": "ohcirctauglaize",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Auglaize County Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Auglaize County Circuit Court",
+            "Auglaize Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Adams",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Adams Circuit Court",
+            "Adams County Circuit Court"
+        ],
+        "id": "ohcirctadams",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Adams Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Adams Circuit Court",
+            "Adams County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Allen",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Allen Circuit Court",
+            "Allen County Circuit Court"
+        ],
+        "id": "ohcirctallen",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Allen Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Allen Circuit Court",
+            "Allen County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Ashland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashland County Circuit Court",
+            "Ashland Circuit Court"
+        ],
+        "id": "ohcirctashland",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Ashland Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Ashland County Circuit Court",
+            "Ashland Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Ashtabula",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashtabula County Circuit Court",
+            "Ashtabula Circuit Court"
+        ],
+        "id": "ohcirctashtabul",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Ashtabula Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Ashtabula County Circuit Court",
+            "Ashtabula Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Athens",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Athens Circuit Court"
+        ],
+        "id": "ohcirctathens",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Athens Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Athens Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Belmont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Belmont Circuit Court",
+            "Belmont County Circuit Court"
+        ],
+        "id": "ohcirctbelmont",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Belmont Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Belmont Circuit Court",
+            "Belmont County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Brown",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Brown Circuit Court",
+            "Brown County Circuit Court"
+        ],
+        "id": "ohcirctbrown",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Brown Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Brown Circuit Court",
+            "Brown County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Butler",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Butler County Circuit Court",
+            "Butler Circuit Court"
+        ],
+        "id": "ohcirctbutler",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Butler Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Butler County Circuit Court",
+            "Butler Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Carroll",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Carroll Circuit Court",
+            "Carroll County Circuit Court"
+        ],
+        "id": "ohcirctcarroll",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Carroll Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Carroll Circuit Court",
+            "Carroll County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Champaign",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Champaign County Circuit Court",
+            "Champaign Circuit Court"
+        ],
+        "id": "ohcirctchampaig",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Champaign Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Champaign County Circuit Court",
+            "Champaign Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Clark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clark County Circuit Court",
+            "Clark Circuit Court"
+        ],
+        "id": "ohcirctclark",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Clark Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Clark County Circuit Court",
+            "Clark Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Clarke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clarke County Circuit Court",
+            "Clarke Circuit Court"
+        ],
+        "id": "ohcirctclarke",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Clarke Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Clarke County Circuit Court",
+            "Clarke Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Clermont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clermont County Circuit Court",
+            "Clermont Circuit Court"
+        ],
+        "id": "ohcirctclermont",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Clermont Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Clermont County Circuit Court",
+            "Clermont Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Clinton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clinton County Circuit Court",
+            "Clinton Circuit Court"
+        ],
+        "id": "ohcirctclinton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Clinton Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Clinton County Circuit Court",
+            "Clinton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Columbiana",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Columbiana County Circuit Court",
+            "Columbiana Circuit Court"
+        ],
+        "id": "ohcirctcolumbia",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Columbiana Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Columbiana County Circuit Court",
+            "Columbiana Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Coshocton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Coshocton County Circuit Court",
+            "Coshocton Circuit Court"
+        ],
+        "id": "ohcirctcoshocto",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Coshocton Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Coshocton County Circuit Court",
+            "Coshocton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Crawford",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Crawford County Circuit Court",
+            "Crawford Circuit Court"
+        ],
+        "id": "ohcirctcrawford",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Crawford Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Crawford County Circuit Court",
+            "Crawford Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Cuyahoga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga County Circuit Court",
+            "Cuyahoga Circuit Court"
+        ],
+        "id": "ohcirctcuyahoga",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Cuyahoga Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Cuyahoga County Circuit Court",
+            "Cuyahoga Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Darke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Darke County Circuit Court",
+            "Darke Circuit Court"
+        ],
+        "id": "ohcirctdarke",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Darke Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Darke County Circuit Court",
+            "Darke Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Defiance",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Defiance Circuit Court",
+            "Defiance County Circuit Court"
+        ],
+        "id": "ohcirctdefiance",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Defiance Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Defiance Circuit Court",
+            "Defiance County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Delaware",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Delaware County Circuit Court",
+            "Delaware Circuit Court"
+        ],
+        "id": "ohcirctdelaware",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Delaware Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Delaware County Circuit Court",
+            "Delaware Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Erie",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Erie County Circuit Court",
+            "Erie Circuit Court"
+        ],
+        "id": "ohcircterie",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Erie Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Erie County Circuit Court",
+            "Erie Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Fairfield",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fairfield Circuit Court",
+            "Fairfield County Circuit Court"
+        ],
+        "id": "ohcirctfairfiel",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Fairfield Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Fairfield Circuit Court",
+            "Fairfield County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Fayette",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fayette Circuit Court",
+            "Fayette County Circuit Court"
+        ],
+        "id": "ohcirctfayette",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Fayette Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Fayette Circuit Court",
+            "Fayette County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Franklin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Franklin Circuit Court",
+            "Franklin County Circuit Court"
+        ],
+        "id": "ohcirctfranklin",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Franklin Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Franklin Circuit Court",
+            "Franklin County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Fulton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fulton County Circuit Court",
+            "Fulton Circuit Court"
+        ],
+        "id": "ohcirctfulton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Fulton Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Fulton County Circuit Court",
+            "Fulton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Geauga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Geauga County Circuit Court",
+            "Geauga Circuit Court"
+        ],
+        "id": "ohcirctgeauga",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Geauga Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Geauga County Circuit Court",
+            "Geauga Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Greene",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Greene Circuit Court",
+            "Greene County Circuit Court"
+        ],
+        "id": "ohcirctgreene",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Greene Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Greene Circuit Court",
+            "Greene County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Guernsey",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Guernsey County Circuit Court",
+            "Guernsey Circuit Court"
+        ],
+        "id": "ohcirctguernsey",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Guernsey Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Guernsey County Circuit Court",
+            "Guernsey Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Hamilton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hamilton Circuit Court",
+            "Hamilton County Circuit Court"
+        ],
+        "id": "ohcircthamilton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Hamilton Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Hamilton Circuit Court",
+            "Hamilton County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Hancock",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hancock County Circuit Court",
+            "Hancock Circuit Court"
+        ],
+        "id": "ohcircthancock",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Hancock Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Hancock County Circuit Court",
+            "Hancock Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Hancook",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hancook Circuit Court"
+        ],
+        "id": "ohcircthancook",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Hancook Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Hancook Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Hardin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hardin Circuit Court",
+            "Hardin County Circuit Court"
+        ],
+        "id": "ohcircthardin",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Hardin Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Hardin Circuit Court",
+            "Hardin County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Harrison",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Harrison Circuit Court",
+            "Harrison County Circuit Court"
+        ],
+        "id": "ohcirctharrison",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Harrison Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Harrison Circuit Court",
+            "Harrison County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Henry",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Henry Circuit Court",
+            "Henry County Circuit Court"
+        ],
+        "id": "ohcircthenry",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Henry Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Henry Circuit Court",
+            "Henry County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Highland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Highland Circuit Court",
+            "Highland County Circuit Court"
+        ],
+        "id": "ohcircthighland",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Highland Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Highland Circuit Court",
+            "Highland County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Holmes",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Holmes Circuit Court",
+            "Holmes County Circuit Court"
+        ],
+        "id": "ohcirctholmes",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Holmes Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Holmes Circuit Court",
+            "Holmes County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Huron",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Huron Circuit Court",
+            "Huron County Circuit Court"
+        ],
+        "id": "ohcircthuron",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Huron Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Huron Circuit Court",
+            "Huron County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Jackson",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Jackson Circuit Court",
+            "Jackson County Circuit Court"
+        ],
+        "id": "ohcirctjackson",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Jackson Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Jackson Circuit Court",
+            "Jackson County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Jefferson",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Jefferson County Circuit Court",
+            "Jefferson Circuit Court"
+        ],
+        "id": "ohcirctjefferso",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Jefferson Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Jefferson County Circuit Court",
+            "Jefferson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Knox",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Knox County Circuit Court"
+        ],
+        "id": "ohcirctknox",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Knox County Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Knox County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Lake",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lake County Circuit Court"
+        ],
+        "id": "ohcirctlake",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Lake County Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Lake County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Lawrence",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lawrence Circuit Court",
+            "Lawrence County Circuit Court"
+        ],
+        "id": "ohcirctlawrence",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Lawrence Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Lawrence Circuit Court",
+            "Lawrence County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Licking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Licking Circuit Court",
+            "Licking County Circuit Court"
+        ],
+        "id": "ohcirctlicking",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Licking Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Licking Circuit Court",
+            "Licking County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Logan",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Logan County Circuit Court",
+            "Logan Circuit Court"
+        ],
+        "id": "ohcirctlogan",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Logan Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Logan County Circuit Court",
+            "Logan Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Lorain",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lorain Circuit Court",
+            "Lorain County Circuit Court"
+        ],
+        "id": "ohcirctlorain",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Lorain Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Lorain Circuit Court",
+            "Lorain County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Lucas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lucas County Circuit Court",
+            "Lucas Circuit Court"
+        ],
+        "id": "ohcirctlucas",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Lucas Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Lucas County Circuit Court",
+            "Lucas Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Madison",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Madison Circuit Court",
+            "Madison County Circuit Court"
+        ],
+        "id": "ohcirctmadison",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Madison Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Madison Circuit Court",
+            "Madison County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Mahoning",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mahoning County Circuit Court",
+            "Mahoning Circuit Court"
+        ],
+        "id": "ohcirctmahoning",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Mahoning Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Mahoning County Circuit Court",
+            "Mahoning Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Marion",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Marion Circuit Court",
+            "Marion County Circuit Court"
+        ],
+        "id": "ohcirctmarion",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Marion Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Marion Circuit Court",
+            "Marion County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Medina",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Medina County Circuit Court",
+            "Medina Circuit Court"
+        ],
+        "id": "ohcirctmedina",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Medina Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Medina County Circuit Court",
+            "Medina Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Meigs",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Meigs County Circuit Court",
+            "Meigs Circuit Court"
+        ],
+        "id": "ohcirctmeigs",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Meigs Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Meigs County Circuit Court",
+            "Meigs Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Mercer",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mercer Circuit Court",
+            "Mercer County Circuit Court"
+        ],
+        "id": "ohcirctmercer",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Mercer Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Mercer Circuit Court",
+            "Mercer County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Miami",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Miami County Circuit Court",
+            "Miami Circuit Court"
+        ],
+        "id": "ohcirctmiami",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Miami Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Miami County Circuit Court",
+            "Miami Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Monroe",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Monroe County Circuit Court",
+            "Monroe Circuit Court"
+        ],
+        "id": "ohcirctmonroe",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Monroe Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Monroe County Circuit Court",
+            "Monroe Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Montgomery",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Montgomery Circuit Court",
+            "Montgomery County Circuit Court"
+        ],
+        "id": "ohcirctmontgome",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Montgomery Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Montgomery Circuit Court",
+            "Montgomery County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Morgan",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Morgan County Circuit Court",
+            "Morgan Circuit Court"
+        ],
+        "id": "ohcirctmorgan",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Morgan Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Morgan County Circuit Court",
+            "Morgan Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Morrow",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Morrow County Circuit Court",
+            "Morrow Circuit Court"
+        ],
+        "id": "ohcirctmorrow",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Morrow Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Morrow County Circuit Court",
+            "Morrow Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Muskingum",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Muskingum County Circuit Court",
+            "Muskingum Circuit Court"
+        ],
+        "id": "ohcirctmuskingu",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Muskingum Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Muskingum County Circuit Court",
+            "Muskingum Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Noble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Noble Circuit Court",
+            "Noble County Circuit Court"
+        ],
+        "id": "ohcirctnoble",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Noble Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Noble Circuit Court",
+            "Noble County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Ottawa",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ottawa Circuit Court",
+            "Ottawa County Circuit Court"
+        ],
+        "id": "ohcirctottawa",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Ottawa Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Ottawa Circuit Court",
+            "Ottawa County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Paulding",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Paulding County Circuit Court",
+            "Paulding Circuit Court"
+        ],
+        "id": "ohcirctpaulding",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Paulding Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Paulding County Circuit Court",
+            "Paulding Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Perry",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Perry Circuit Court",
+            "Perry County Circuit Court"
+        ],
+        "id": "ohcirctperry",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Perry Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Perry Circuit Court",
+            "Perry County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Pickaway",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pickaway Circuit Court",
+            "Pickaway County Circuit Court"
+        ],
+        "id": "ohcirctpickaway",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Pickaway Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Pickaway Circuit Court",
+            "Pickaway County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Pike",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pike County Circuit Court",
+            "Pike Circuit Court"
+        ],
+        "id": "ohcirctpike",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Pike Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Pike County Circuit Court",
+            "Pike Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Portage",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Portage Circuit Court",
+            "Portage County Circuit Court"
+        ],
+        "id": "ohcirctportage",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Portage Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Portage Circuit Court",
+            "Portage County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Preble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Preble Circuit Court",
+            "Preble County Circuit Court"
+        ],
+        "id": "ohcirctpreble",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Preble Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Preble Circuit Court",
+            "Preble County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Putnam",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Putnam County Circuit Court",
+            "Putnam Circuit Court"
+        ],
+        "id": "ohcirctputnam",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Putnam Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Putnam County Circuit Court",
+            "Putnam Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Richland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Richland Circuit Court",
+            "Richland County Circuit Court"
+        ],
+        "id": "ohcirctrichland",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Richland Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Richland Circuit Court",
+            "Richland County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Ross",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ross Circuit Court",
+            "Ross County Circuit Court"
+        ],
+        "id": "ohcirctross",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Ross Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Ross Circuit Court",
+            "Ross County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Sandusky",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sandusky County Circuit Court",
+            "Sandusky Circuit Court"
+        ],
+        "id": "ohcirctsandusky",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Sandusky Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Sandusky County Circuit Court",
+            "Sandusky Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Scioto",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Scioto Circuit Court",
+            "Scioto County Circuit Court"
+        ],
+        "id": "ohcirctscioto",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Scioto Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Scioto Circuit Court",
+            "Scioto County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Seneca",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Seneca County Circuit Court",
+            "Seneca Circuit Court"
+        ],
+        "id": "ohcirctseneca",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Seneca Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Seneca County Circuit Court",
+            "Seneca Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Shelby",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Shelby Circuit Court",
+            "Shelby County Circuit Court"
+        ],
+        "id": "ohcirctshelby",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Shelby Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Shelby Circuit Court",
+            "Shelby County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Stark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Stark Circuit Court",
+            "Stark County Circuit Court"
+        ],
+        "id": "ohcirctstark",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Stark Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Stark Circuit Court",
+            "Stark County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Summit",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Summit Circuit Court",
+            "Summit County Circuit Court"
+        ],
+        "id": "ohcirctsummit",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Summit Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Summit Circuit Court",
+            "Summit County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Taggart",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Taggart Circuit Court"
+        ],
+        "id": "ohcircttaggart",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Taggart Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Taggart Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Trumbull",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Trumbull Circuit Court",
+            "Trumbull County Circuit Court"
+        ],
+        "id": "ohcircttrumbull",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Trumbull Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Trumbull Circuit Court",
+            "Trumbull County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Tuscarawas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Tuscarawas County Circuit Court",
+            "Tuscarawas Circuit Court"
+        ],
+        "id": "ohcircttuscaraw",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Tuscarawas Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Tuscarawas County Circuit Court",
+            "Tuscarawas Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Union",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Union County Circuit Court"
+        ],
+        "id": "ohcirctunion",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Union County Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Union County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Van Wert",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Van Wert County Circuit Court",
+            "Van Wert Circuit Court"
+        ],
+        "id": "ohcirctvanwert",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Van Wert Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Van Wert County Circuit Court",
+            "Van Wert Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Vinton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Vinton County Circuit Court"
+        ],
+        "id": "ohcirctvinton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Vinton County Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Vinton County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Warren",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Warren County Circuit Court",
+            "Warren Circuit Court"
+        ],
+        "id": "ohcirctwarren",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Warren Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Warren County Circuit Court",
+            "Warren Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Wayne",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wayne County Circuit Court",
+            "Wayne Circuit Court"
+        ],
+        "id": "ohcirctwayne",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Wayne Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Wayne County Circuit Court",
+            "Wayne Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Williams",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Williams Circuit Court",
+            "Williams County Circuit Court"
+        ],
+        "id": "ohcirctwilliams",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Williams Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Williams Circuit Court",
+            "Williams County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Wood",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wood Circuit Court",
+            "Wood County Circuit Court"
+        ],
+        "id": "ohcirctwood",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Wood Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Wood Circuit Court",
+            "Wood County Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Wyandot",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wyandot County Circuit Court",
+            "Wyandot Circuit Court"
+        ],
+        "id": "ohcirctwyandot",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Wyandot Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Wyandot County Circuit Court",
+            "Wyandot Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Circ. Ct., Wyandotte",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wyandotte County Circuit Court"
+        ],
+        "id": "ohcirctwyandott",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Wyandotte County Circuit Court",
+        "notes": "",
+        "parent": "ohiocirct",
+        "regex": [
+            "Wyandotte County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -28063,7 +30537,8 @@
         "name": "Ohio Public Utilities Commission",
         "regex": [
             "Public Utilities Commission Of Ohio",
-            "Ohio Public Utilities Commission"
+            "Ohio Public Utilities Commission",
+            "Public Utilities Commission"
         ],
         "system": "state",
         "type": "trial"
