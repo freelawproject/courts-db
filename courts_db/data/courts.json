@@ -21595,13 +21595,1678 @@
             "Court Of Common Pleas Of Delaware County Probate Division State Of Ohio",
             "Probate Court of.* Ohio",
             "Probate Court Of Hamilton County",
-            "State Of Ohio Probate Court",
             "State Of Ohio Court Of Probate",
             "Ohio.* Probate",
             "Court Of Insolvency.* ohio",
             "Probate Court ${oh_counties}",
             "State Of Ohio Court Of Insolvency",
             "Police Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ohio Probate Court"
+        ],
+        "id": "ohprobct",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ohio Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Ohio Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Ashtabula",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashtabula County Probate Court"
+        ],
+        "id": "ohprobctashtabu",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ashtabula County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Ashtabula County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Franklin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ohio Probate Court of Franklin County",
+            "Franklin County Probate Court"
+        ],
+        "id": "ohprobctfrankli",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ohio Probate Court of Franklin County",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Ohio Probate Court of Franklin County",
+            "Franklin County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Allen",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Allen County Probate Court"
+        ],
+        "id": "ohprobctallen",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Allen County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Allen County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Auglaize",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Auglaize County Probate Court"
+        ],
+        "id": "ohprobctauglaiz",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Auglaize County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Auglaize County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Belmont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Belmont County Probate Court"
+        ],
+        "id": "ohprobctbelmont",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Belmont County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Belmont County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Butler",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Butler County Probate Court"
+        ],
+        "id": "ohprobctbutler",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Butler County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Butler County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Champaign",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Champaign County Probate Court"
+        ],
+        "id": "ohprobctchampai",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Champaign County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Champaign County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Clark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clark County Probate Court"
+        ],
+        "id": "ohprobctclark",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clark County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Clark County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Clarke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clarke County Probate Court"
+        ],
+        "id": "ohprobctclarke",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clarke County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Clarke County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Clermont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clermont County Probate Court"
+        ],
+        "id": "ohprobctclermon",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clermont County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Clermont County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Clinton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clinton County Probate Court"
+        ],
+        "id": "ohprobctclinton",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clinton County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Clinton County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Columbiana",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Columbiana County Probate Court"
+        ],
+        "id": "ohprobctcolumbi",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Columbiana County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Columbiana County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Cuyahoga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga County Probate Court"
+        ],
+        "id": "ohprobctcuyahog",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cuyahoga County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Cuyahoga County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Darke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Darke County Probate Court"
+        ],
+        "id": "ohprobctdarke",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Darke County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Darke County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Erie",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Erie County Probate Court"
+        ],
+        "id": "ohprobcterie",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Erie County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Erie County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Fairfield",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fairfield County Probate Court"
+        ],
+        "id": "ohprobctfairfie",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fairfield County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Fairfield County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Fayette",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fayette County Probate Court"
+        ],
+        "id": "ohprobctfayette",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fayette County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Fayette County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Fulton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fulton County Probate Court"
+        ],
+        "id": "ohprobctfulton",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fulton County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Fulton County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Geauga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Geauga County Probate Court"
+        ],
+        "id": "ohprobctgeauga",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Geauga County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Geauga County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Greene",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Greene County Probate Court"
+        ],
+        "id": "ohprobctgreene",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Greene County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Greene County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Hamilton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hamilton County Probate Court"
+        ],
+        "id": "ohprobcthamilto",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hamilton County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Hamilton County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Hancock",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hancock County Probate Court"
+        ],
+        "id": "ohprobcthancock",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hancock County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Hancock County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Hardin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hardin County Probate Court"
+        ],
+        "id": "ohprobcthardin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hardin County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Hardin County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Harrison",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Harrison County Probate Court"
+        ],
+        "id": "ohprobctharriso",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Harrison County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Harrison County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Henry",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Henry County Probate Court"
+        ],
+        "id": "ohprobcthenry",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Henry County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Henry County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Highland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Highland County Probate Court"
+        ],
+        "id": "ohprobcthighlan",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Highland County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Highland County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Huron",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Huron County Probate Court"
+        ],
+        "id": "ohprobcthuron",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Huron County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Huron County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Jackson",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Jackson County Probate Court"
+        ],
+        "id": "ohprobctjackson",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Jackson County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Jackson County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Jefferson",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Jefferson County Probate Court"
+        ],
+        "id": "ohprobctjeffers",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Jefferson County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Jefferson County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Knox",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Knox County Probate Court"
+        ],
+        "id": "ohprobctknox",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Knox County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Knox County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Lake",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lake County Probate Court"
+        ],
+        "id": "ohprobctlake",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lake County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Lake County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Licking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Licking County Probate Court"
+        ],
+        "id": "ohprobctlicking",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Licking County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Licking County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Lorain",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lorain County Probate Court"
+        ],
+        "id": "ohprobctlorain",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lorain County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Lorain County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Lucas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lucas County Probate Court"
+        ],
+        "id": "ohprobctlucas",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lucas County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Lucas County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Madison",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Madison County Probate Court"
+        ],
+        "id": "ohprobctmadison",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Madison County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Madison County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Mahoning",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mahoning County Probate Court"
+        ],
+        "id": "ohprobctmahonin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Mahoning County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Mahoning County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Marion",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Marion County Probate Court"
+        ],
+        "id": "ohprobctmarion",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Marion County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Marion County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Meigs",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Meigs County Probate Court"
+        ],
+        "id": "ohprobctmeigs",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Meigs County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Meigs County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Mercer",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mercer County Probate Court"
+        ],
+        "id": "ohprobctmercer",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Mercer County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Mercer County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Miami",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Miami County Probate Court"
+        ],
+        "id": "ohprobctmiami",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Miami County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Miami County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Montgomery",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Montgomery County Probate Court"
+        ],
+        "id": "ohprobctmontgom",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Montgomery County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Montgomery County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Morgan",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Morgan County Probate Court"
+        ],
+        "id": "ohprobctmorgan",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Morgan County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Morgan County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Muskingum",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Muskingum County Probate Court"
+        ],
+        "id": "ohprobctmusking",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Muskingum County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Muskingum County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Noble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Noble County Probate Court"
+        ],
+        "id": "ohprobctnoble",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Noble County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Noble County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Perry",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Perry County Probate Court"
+        ],
+        "id": "ohprobctperry",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Perry County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Perry County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Pike",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pike County Probate Court"
+        ],
+        "id": "ohprobctpike",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Pike County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Pike County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Portage",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Portage County Probate Court"
+        ],
+        "id": "ohprobctportage",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Portage County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Portage County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Preble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Preble County Probate Court"
+        ],
+        "id": "ohprobctpreble",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Preble County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Preble County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Putnam",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Putnam County Probate Court"
+        ],
+        "id": "ohprobctputnam",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Putnam County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Putnam County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Ross",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ross County Probate Court"
+        ],
+        "id": "ohprobctross",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ross County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Ross County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Sandusky",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sandusky County Probate Court"
+        ],
+        "id": "ohprobctsandusk",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Sandusky County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Sandusky County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Scioto",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Scioto County Probate Court"
+        ],
+        "id": "ohprobctscioto",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Scioto County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Scioto County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Seneca",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Seneca County Probate Court"
+        ],
+        "id": "ohprobctseneca",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Seneca County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Seneca County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Shelby",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Shelby County Probate Court"
+        ],
+        "id": "ohprobctshelby",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Shelby County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Shelby County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Stark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Stark County Probate Court"
+        ],
+        "id": "ohprobctstark",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Stark County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Stark County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Summit",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Summit County Probate Court"
+        ],
+        "id": "ohprobctsummit",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Summit County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Summit County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Trumbull",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Trumbull County Probate Court"
+        ],
+        "id": "ohprobcttrumbul",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Trumbull County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Trumbull County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Tuscarawas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Tuscarawas County Probate Court"
+        ],
+        "id": "ohprobcttuscara",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Tuscarawas County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Tuscarawas County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Union",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Union County Probate Court"
+        ],
+        "id": "ohprobctunion",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Union County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Union County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Van Wert",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Van Wert County Probate Court"
+        ],
+        "id": "ohprobctvanwer",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Van Wert County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Van Wert County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Warren",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Warren County Probate Court"
+        ],
+        "id": "ohprobctwarren",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Warren County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Warren County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Washington",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Washington County Probate Court"
+        ],
+        "id": "ohprobctwashing",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Washington County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Washington County Probate Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Prob. Ct., Wayne",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wayne County Probate Court"
+        ],
+        "id": "ohprobctwayne",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Wayne County Probate Court",
+        "notes": "",
+        "parent": "ohprobct",
+        "regex": [
+            "Wayne County Probate Court"
         ],
         "system": "state",
         "type": "trial"
