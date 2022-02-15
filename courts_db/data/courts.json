@@ -23986,19 +23986,2033 @@
         "regex": [
             "Court of Appeals of Ohio",
             "Ohio Court of Appeals",
-            "Ohio Appeals?.*Dist",
-            "Ohio Appeals?.*Dstrict",
-            "Ohio Appeals?.*Disctrict",
-            "Ohio Appeas Second District",
-            "Ohio Appeals ${bw} Dist",
-            "Courts? Of Appeals?.* Ohio",
-            "Ohio Appeals.* (Dst|Dis|Dict|Dit).* Co",
             "Oh Court Of Appeals",
-            "Court Appeals.* ohio",
             "Court Appeals of Ohio"
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 8th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eighth District"
+        ],
+        "id": "ohctapp8",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eighth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Eighth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 8th Dist. Cuyahoga",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eighth District, Cuyahoga County",
+            "Cuyahoga County Court of Appeals"
+        ],
+        "id": "ohctapp8cuyahog",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eighth District, Cuyahoga County",
+        "notes": "",
+        "parent": "ohctapp8",
+        "regex": [
+            "Court of Appeals of Ohio, Eighth District, Cuyahoga County",
+            "Cuyahoga County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 11th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eleventh District"
+        ],
+        "id": "ohctapp11",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eleventh District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Eleventh District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 11th Dist. Ashtabula",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eleventh District, Ashtabula County",
+            "Ashtabula County Court of Appeals"
+        ],
+        "id": "ohctapp11ashtab",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eleventh District, Ashtabula County",
+        "notes": "",
+        "parent": "ohctapp11",
+        "regex": [
+            "Court of Appeals of Ohio, Eleventh District, Ashtabula County",
+            "Ashtabula County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 11th Dist. Geauga",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eleventh District, Geauga County"
+        ],
+        "id": "ohctapp11geauga",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eleventh District, Geauga County",
+        "notes": "",
+        "parent": "ohctapp11",
+        "regex": [
+            "Court of Appeals of Ohio, Eleventh District, Geauga County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 11th Dist. Lake",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eleventh District, Lake County"
+        ],
+        "id": "ohctapp11lake",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eleventh District, Lake County",
+        "notes": "",
+        "parent": "ohctapp11",
+        "regex": [
+            "Court of Appeals of Ohio, Eleventh District, Lake County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 11th Dist. Portage",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eleventh District, Portage County"
+        ],
+        "id": "ohctapp11portag",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eleventh District, Portage County",
+        "notes": "",
+        "parent": "ohctapp11",
+        "regex": [
+            "Court of Appeals of Ohio, Eleventh District, Portage County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 11th Dist. Trumbull",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Eleventh District, Trumbull County"
+        ],
+        "id": "ohctapp11trumbu",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Eleventh District, Trumbull County",
+        "notes": "",
+        "parent": "ohctapp11",
+        "regex": [
+            "Court of Appeals of Ohio, Eleventh District, Trumbull County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District"
+        ],
+        "id": "ohctapp5",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Ashland",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Ashland County"
+        ],
+        "id": "ohctapp5ashland",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Ashland County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Ashland County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Coshocton",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Coshocton County"
+        ],
+        "id": "ohctapp5coshoct",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Coshocton County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Coshocton County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Delaware",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Delaware County",
+            "Delaware County Court of Appeals"
+        ],
+        "id": "ohctapp5delawar",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Delaware County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Delaware County",
+            "Delaware County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Fairfield",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Fairfield County"
+        ],
+        "id": "ohctapp5fairfie",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Fairfield County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Fairfield County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Guernsey",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Guernsey County",
+            "Guernsey County Court of Appeals"
+        ],
+        "id": "ohctapp5guernse",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Guernsey County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Guernsey County",
+            "Guernsey County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Holmes",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Holmes County"
+        ],
+        "id": "ohctapp5holmes",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Holmes County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Holmes County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Knox",
+        "court_url": "",
+        "examples": [
+            "Knox County Court of Appeals",
+            "Court of Appeals of Ohio, Fifth District, Knox County"
+        ],
+        "id": "ohctapp5knox",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Knox County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Knox County Court of Appeals",
+            "Court of Appeals of Ohio, Fifth District, Knox County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Licking",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Licking County",
+            "Licking County Court of Appeals"
+        ],
+        "id": "ohctapp5licking",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Licking County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Licking County",
+            "Licking County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Morgan",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Morgan County"
+        ],
+        "id": "ohctapp5morgan",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Morgan County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Morgan County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Morrow",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Morrow County"
+        ],
+        "id": "ohctapp5morrow",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Morrow County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Morrow County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Muskingum",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Muskingum County"
+        ],
+        "id": "ohctapp5musking",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Muskingum County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Muskingum County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Richland",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Richland County"
+        ],
+        "id": "ohctapp5richlan",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Richland County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Richland County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Stark",
+        "court_url": "",
+        "examples": [
+            "Stark County Court of Appeals",
+            "Court of Appeals of Ohio, Fifth District, Stark County"
+        ],
+        "id": "ohctapp5stark",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Stark County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Stark County Court of Appeals",
+            "Court of Appeals of Ohio, Fifth District, Stark County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 5th Dist. Tuscarawas",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fifth District, Tuscarawas County"
+        ],
+        "id": "ohctapp5tuscara",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fifth District, Tuscarawas County",
+        "notes": "",
+        "parent": "ohctapp5",
+        "regex": [
+            "Court of Appeals of Ohio, Fifth District, Tuscarawas County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 1st Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, First District"
+        ],
+        "id": "ohctapp1",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, First District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, First District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 1st Dist. Hamilton",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, First District, Hamilton County",
+            "Hamilton County Court of Appeals"
+        ],
+        "id": "ohctapp1hamilto",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, First District, Hamilton County",
+        "notes": "",
+        "parent": "ohctapp1",
+        "regex": [
+            "Court of Appeals of Ohio, First District, Hamilton County",
+            "Hamilton County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District"
+        ],
+        "id": "ohctapp4",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Adams",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Adams County"
+        ],
+        "id": "ohctapp4adams",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Adams County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Adams County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Athens",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Athens County"
+        ],
+        "id": "ohctapp4athens",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Athens County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Athens County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Gallia",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Gallia County"
+        ],
+        "id": "ohctapp4gallia",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Gallia County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Gallia County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Highland",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Highland County"
+        ],
+        "id": "ohctapp4highlan",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Highland County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Highland County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Hocking",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Hocking County"
+        ],
+        "id": "ohctapp4hocking",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Hocking County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Hocking County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Jackson",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Jackson County"
+        ],
+        "id": "ohctapp4jackson",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Jackson County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Jackson County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Lawrence",
+        "court_url": "",
+        "examples": [
+            "Lawrence County Court of Appeals",
+            "Court of Appeals of Ohio, Fourth District, Lawrence County"
+        ],
+        "id": "ohctapp4lawrenc",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Lawrence County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Lawrence County Court of Appeals",
+            "Court of Appeals of Ohio, Fourth District, Lawrence County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Meigs",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Meigs County"
+        ],
+        "id": "ohctapp4meigs",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Meigs County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Meigs County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Pickaway",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Pickaway County"
+        ],
+        "id": "ohctapp4pickawa",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Pickaway County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Pickaway County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Pike",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Pike County"
+        ],
+        "id": "ohctapp4pike",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Pike County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Pike County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Ross",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Ross County"
+        ],
+        "id": "ohctapp4ross",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Ross County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Ross County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Scioto",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Scioto County"
+        ],
+        "id": "ohctapp4scioto",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Scioto County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Scioto County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Vinton",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Vinton County"
+        ],
+        "id": "ohctapp4vinton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Vinton County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Vinton County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 4th Dist. Washington",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Fourth District, Washington County"
+        ],
+        "id": "ohctapp4washing",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fourth District, Washington County",
+        "notes": "",
+        "parent": "ohctapp4",
+        "regex": [
+            "Court of Appeals of Ohio, Fourth District, Washington County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 9th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Ninth District"
+        ],
+        "id": "ohctapp9",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ninth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Ninth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 9th Dist. Lorain",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Ninth District, Lorain County"
+        ],
+        "id": "ohctapp9lorain",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ninth District, Lorain County",
+        "notes": "",
+        "parent": "ohctapp9",
+        "regex": [
+            "Court of Appeals of Ohio, Ninth District, Lorain County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 9th Dist. Medina",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Ninth District, Medina County"
+        ],
+        "id": "ohctapp9medina",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ninth District, Medina County",
+        "notes": "",
+        "parent": "ohctapp9",
+        "regex": [
+            "Court of Appeals of Ohio, Ninth District, Medina County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 9th Dist. Summit",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Ninth District, Summit County",
+            "Summit County Court of Appeals"
+        ],
+        "id": "ohctapp9summit",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ninth District, Summit County",
+        "notes": "",
+        "parent": "ohctapp9",
+        "regex": [
+            "Court of Appeals of Ohio, Ninth District, Summit County",
+            "Summit County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 9th Dist. Wayne",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Ninth District, Wayne County",
+            "Wayne County Court of Appeals"
+        ],
+        "id": "ohctapp9wayne",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ninth District, Wayne County",
+        "notes": "",
+        "parent": "ohctapp9",
+        "regex": [
+            "Court of Appeals of Ohio, Ninth District, Wayne County",
+            "Wayne County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District"
+        ],
+        "id": "ohctapp2",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Second District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist. Champaign",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District, Champaign County"
+        ],
+        "id": "ohctapp2champai",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District, Champaign County",
+        "notes": "",
+        "parent": "ohctapp2",
+        "regex": [
+            "Court of Appeals of Ohio, Second District, Champaign County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist. Clark",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District, Clark County"
+        ],
+        "id": "ohctapp2clark",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District, Clark County",
+        "notes": "",
+        "parent": "ohctapp2",
+        "regex": [
+            "Court of Appeals of Ohio, Second District, Clark County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist. Darke",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District, Darke County"
+        ],
+        "id": "ohctapp2darke",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District, Darke County",
+        "notes": "",
+        "parent": "ohctapp2",
+        "regex": [
+            "Court of Appeals of Ohio, Second District, Darke County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist. Greene",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District, Greene County",
+            "Greene County Court of Appeals"
+        ],
+        "id": "ohctapp2greene",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District, Greene County",
+        "notes": "",
+        "parent": "ohctapp2",
+        "regex": [
+            "Court of Appeals of Ohio, Second District, Greene County",
+            "Greene County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist. Miami",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District, Miami County"
+        ],
+        "id": "ohctapp2miami",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District, Miami County",
+        "notes": "",
+        "parent": "ohctapp2",
+        "regex": [
+            "Court of Appeals of Ohio, Second District, Miami County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 2nd Dist. Montgomery",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Second District, Montgomery County"
+        ],
+        "id": "ohctapp2montgom",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Second District, Montgomery County",
+        "notes": "",
+        "parent": "ohctapp2",
+        "regex": [
+            "Court of Appeals of Ohio, Second District, Montgomery County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District"
+        ],
+        "id": "ohctapp7",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Belmont",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Belmont County"
+        ],
+        "id": "ohctapp7belmont",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Belmont County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Belmont County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Carroll",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Carroll County"
+        ],
+        "id": "ohctapp7carroll",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Carroll County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Carroll County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Columbiana",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Columbiana County"
+        ],
+        "id": "ohctapp7columbi",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Columbiana County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Columbiana County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Harrison",
+        "court_url": "",
+        "examples": [
+            "Harrison County Court of Appeals",
+            "Court of Appeals of Ohio, Seventh District, Harrison County"
+        ],
+        "id": "ohctapp7harriso",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Harrison County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Harrison County Court of Appeals",
+            "Court of Appeals of Ohio, Seventh District, Harrison County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Jefferson",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Jefferson County",
+            "Jefferson County Court of Appeals"
+        ],
+        "id": "ohctapp7jeffers",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Jefferson County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Jefferson County",
+            "Jefferson County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Mahoning",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Mahoning County",
+            "Mahoning County Court of Appeals"
+        ],
+        "id": "ohctapp7mahonin",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Mahoning County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Mahoning County",
+            "Mahoning County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Monroe",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Monroe County"
+        ],
+        "id": "ohctapp7monroe",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Monroe County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Monroe County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 7th Dist. Noble",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Seventh District, Noble County"
+        ],
+        "id": "ohctapp7noble",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seventh District, Noble County",
+        "notes": "",
+        "parent": "ohctapp7",
+        "regex": [
+            "Court of Appeals of Ohio, Seventh District, Noble County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Sixth District"
+        ],
+        "id": "ohctapp6",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Sixth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Erie",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Sixth District, Erie County"
+        ],
+        "id": "ohctapp6erie",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Erie County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Court of Appeals of Ohio, Sixth District, Erie County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Fulton",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Sixth District, Fulton County"
+        ],
+        "id": "ohctapp6fulton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Fulton County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Court of Appeals of Ohio, Sixth District, Fulton County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Huron",
+        "court_url": "",
+        "examples": [
+            "Huron County Court of Appeals",
+            "Court of Appeals of Ohio, Sixth District, Huron County"
+        ],
+        "id": "ohctapp6huron",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Huron County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Huron County Court of Appeals",
+            "Court of Appeals of Ohio, Sixth District, Huron County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Lucas",
+        "court_url": "",
+        "examples": [
+            "Lucas County Court of Appeals",
+            "Court of Appeals of Ohio, Sixth District, Lucas County"
+        ],
+        "id": "ohctapp6lucas",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Lucas County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Lucas County Court of Appeals",
+            "Court of Appeals of Ohio, Sixth District, Lucas County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Ottawa",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Sixth District, Ottawa County"
+        ],
+        "id": "ohctapp6ottawa",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Ottawa County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Court of Appeals of Ohio, Sixth District, Ottawa County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Sandusky",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Sixth District, Sandusky County"
+        ],
+        "id": "ohctapp6sandusk",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Sandusky County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Court of Appeals of Ohio, Sixth District, Sandusky County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Williams",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Sixth District, Williams County"
+        ],
+        "id": "ohctapp6william",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Williams County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Court of Appeals of Ohio, Sixth District, Williams County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 6th Dist. Wood",
+        "court_url": "",
+        "examples": [
+            "Wood County Court of Appeals",
+            "Court of Appeals of Ohio, Sixth District, Wood County"
+        ],
+        "id": "ohctapp6wood",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sixth District, Wood County",
+        "notes": "",
+        "parent": "ohctapp6",
+        "regex": [
+            "Wood County Court of Appeals",
+            "Court of Appeals of Ohio, Sixth District, Wood County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 10th Dist",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Tenth District"
+        ],
+        "id": "ohctapp10",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Tenth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Tenth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 10th Dist. Franklin",
+        "court_url": "",
+        "examples": [
+            "Franklin County Court of Appeals",
+            "Court of Appeals of Ohio, Tenth District, Franklin County"
+        ],
+        "id": "ohctapp10frankl",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Tenth District, Franklin County",
+        "notes": "",
+        "parent": "ohctapp10",
+        "regex": [
+            "Franklin County Court of Appeals",
+            "Court of Appeals of Ohio, Tenth District, Franklin County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District"
+        ],
+        "id": "ohctapp3",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Third District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Allen",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Allen County"
+        ],
+        "id": "ohctapp3allen",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Allen County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Allen County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Auglaize",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Auglaize County"
+        ],
+        "id": "ohctapp3auglaiz",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Auglaize County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Auglaize County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Crawford",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Crawford County"
+        ],
+        "id": "ohctapp3crawfor",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Crawford County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Crawford County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Defiance",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Defiance County"
+        ],
+        "id": "ohctapp3defianc",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Defiance County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Defiance County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Hancock",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Hancock County"
+        ],
+        "id": "ohctapp3hancock",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Hancock County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Hancock County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Hardin",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Hardin County"
+        ],
+        "id": "ohctapp3hardin",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Hardin County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Hardin County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Henry",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Henry County"
+        ],
+        "id": "ohctapp3henry",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Henry County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Henry County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Logan",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Logan County"
+        ],
+        "id": "ohctapp3logan",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Logan County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Logan County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Marion",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Marion County"
+        ],
+        "id": "ohctapp3marion",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Marion County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Marion County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Mercer",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Mercer County"
+        ],
+        "id": "ohctapp3mercer",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Mercer County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Mercer County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Paulding",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Paulding County"
+        ],
+        "id": "ohctapp3pauldin",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Paulding County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Paulding County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Putnam",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Putnam County"
+        ],
+        "id": "ohctapp3putnam",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Putnam County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Putnam County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Seneca",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Seneca County"
+        ],
+        "id": "ohctapp3seneca",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Seneca County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Seneca County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Shelby",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Shelby County"
+        ],
+        "id": "ohctapp3shelby",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Shelby County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Shelby County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Union",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Union County"
+        ],
+        "id": "ohctapp3union",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Union County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Union County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Van Wert",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Van Wert County"
+        ],
+        "id": "ohctapp3vanwert",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Van Wert County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Van Wert County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 3rd Dist. Wyandot",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Third District, Wyandot County"
+        ],
+        "id": "ohctapp3wyandot",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Third District, Wyandot County",
+        "notes": "",
+        "parent": "ohctapp3",
+        "regex": [
+            "Court of Appeals of Ohio, Third District, Wyandot County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist.",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District"
+        ],
+        "id": "ohctapp12",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District",
+        "notes": "",
+        "parent": "ohioctapp",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Brown",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Brown County"
+        ],
+        "id": "ohctapp12brown",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Brown County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Brown County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Butler",
+        "court_url": "",
+        "examples": [
+            "Butler County Court of Appeals",
+            "Court of Appeals of Ohio, Twelfth District, Butler County"
+        ],
+        "id": "ohctapp12butler",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Butler County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Butler County Court of Appeals",
+            "Court of Appeals of Ohio, Twelfth District, Butler County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Clermont",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Clermont County"
+        ],
+        "id": "ohctapp12clermo",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Clermont County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Clermont County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Clinton",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Clinton County",
+            "Clinton County Court of Appeals"
+        ],
+        "id": "ohctapp12clinto",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Clinton County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Clinton County",
+            "Clinton County Court of Appeals"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Fayette",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Fayette County"
+        ],
+        "id": "ohctapp12fayett",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Fayette County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Fayette County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Madison",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Madison County"
+        ],
+        "id": "ohctapp12madiso",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Madison County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Madison County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Preble",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Preble County"
+        ],
+        "id": "ohctapp12preble",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Preble County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Preble County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. App. 12th Dist. Warren",
+        "court_url": "",
+        "examples": [
+            "Court of Appeals of Ohio, Twelfth District, Warren County"
+        ],
+        "id": "ohctapp12warren",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Twelfth District, Warren County",
+        "notes": "",
+        "parent": "ohctapp12",
+        "regex": [
+            "Court of Appeals of Ohio, Twelfth District, Warren County"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
