@@ -21560,14 +21560,8 @@
             }
         ],
         "examples": [
-            "Court Of Common Pleas Of Ohio Mahoning County Domestic Relations Division",
-            "Court Of Common Pleas Of Ohio Juvenile Division Lake County",
-            "Court Of Common Pleas Of Ohio Greene County",
-            "Court Of Common Pleas Summit County",
-            "Court Of Common Pleas Franklin County Ohio Civil Division",
             "Ohio Common Pleas",
-            "State Of Ohio Common Pleas Court",
-            "Ohio Police Court"
+            "State Of Ohio Common Pleas Court"
         ],
         "id": "ohioctcompl",
         "level": "",
@@ -21575,32 +21569,2417 @@
         "name": "Court Of Common Pleas Of Ohio",
         "regex": [
             "Court Of Common Pleas (of)? ?Ohio",
-            "Court Of Common Pleas (of)? ?(${bw} County)? ?Ohio",
-            "Court Of Common Pleas Summit County",
-            "Court Of Common Pleas Portage County",
-            "Court Of Common Pleas Wood County",
             "Ohio Court Of Common Pleas",
-            "Court Of Common Pleas Of.* Ohio",
             "Common Pleas Court Of Ohio",
             "Ohio Common Pleas",
             "State Of Ohio Common Pleas Court",
             "State Of Ohio Court Of Common Pleas",
             "Ohio Court Of Common Pleas",
-            "Common Pleas Court.* Ohio",
-            "Court Of Comman Pleas Of Lucas County Ohio",
-            "Court.* Common.* Pleas.* Ohio",
-            "Police Court Of.* Ohio",
-            "Ohio Police Court",
-            "Court Of Common Pleas Of Delaware County Ohio",
-            "Court Of Common Pleas Of Delaware County Probate Division State Of Ohio",
-            "Probate Court of.* Ohio",
-            "Probate Court Of Hamilton County",
-            "State Of Ohio Court Of Probate",
-            "Ohio.* Probate",
-            "Court Of Insolvency.* ohio",
-            "Probate Court ${oh_counties}",
-            "State Of Ohio Court Of Insolvency",
-            "Police Court"
+            "Court.* Common.* Pleas.* Ohio"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Athens",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Athens County Court of Common Pleas"
+        ],
+        "id": "ohctcomplathens",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Athens County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Athens County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Adams",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Adams County Court of Common Pleas"
+        ],
+        "id": "ohctcompladams",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Adams County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Adams County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Allen",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Allen County Court of Common Pleas"
+        ],
+        "id": "ohctcomplallen",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Allen County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Allen County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Ashland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashland County Court of Common Pleas"
+        ],
+        "id": "ohctcomplashlan",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ashland County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Ashland County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Ashtabula",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ashtabula County Court of Common Pleas"
+        ],
+        "id": "ohctcomplashtab",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ashtabula County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Ashtabula County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Auglaize",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Auglaize County Court of Common Pleas"
+        ],
+        "id": "ohctcomplauglai",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Auglaize County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Auglaize County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Belmont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Belmont County Court of Common Pleas"
+        ],
+        "id": "ohctcomplbelmon",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Belmont County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Belmont County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Boss",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Boss County Court of Common Pleas"
+        ],
+        "id": "ohctcomplboss",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Boss County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Boss County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Brown",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Brown County Court of Common Pleas"
+        ],
+        "id": "ohctcomplbrown",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Brown County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Brown County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Butler",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Butler County Court of Common Pleas"
+        ],
+        "id": "ohctcomplbutler",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Butler County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Butler County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Carroll",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Carroll County Court of Common Pleas"
+        ],
+        "id": "ohctcomplcarrol",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Carroll County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Carroll County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Champaign",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Champaign County Court of Common Pleas"
+        ],
+        "id": "ohctcomplchampa",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Champaign County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Champaign County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Clark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clark County Court of Common Pleas"
+        ],
+        "id": "ohctcomplclark",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clark County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Clark County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Clarke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clarke County Court of Common Pleas",
+            "Clarke Court of Common Pleas"
+        ],
+        "id": "ohctcomplclarke",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clarke County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Clarke County Court of Common Pleas",
+            "Clarke Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Clermont",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Court of Common Pleas of Ohio, Clermont County, Ohio",
+            "Clermont County Court of Common Pleas"
+        ],
+        "id": "ohctcomplclermo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clermont County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Court of Common Pleas of Ohio, Clermont County, Ohio",
+            "Clermont County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Clinton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Clinton County Court of Common Pleas"
+        ],
+        "id": "ohctcomplclinto",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Clinton County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Clinton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Columbiana",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Columbiana County Court of Common Pleas"
+        ],
+        "id": "ohctcomplcolumb",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Columbiana County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Columbiana County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Coshocton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Coshocton County Court of Common Pleas"
+        ],
+        "id": "ohctcomplcoshoc",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Coshocton County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Coshocton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Franklin  Civil Division",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Franklin County Court of Common Pleas",
+            "Court of Common Pleas of Ohio, Franklin County, Civil Division"
+        ],
+        "id": "ohctcomplfrankl",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Court of Common Pleas of Ohio, Franklin County, Civil Division",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Franklin County Court of Common Pleas",
+            "Court of Common Pleas of Ohio, Franklin County, Civil Division"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Hamilton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Court of Common Pleas of Ohio, Hamilton County",
+            "Hamilton County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhamilt",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Court of Common Pleas of Ohio, Hamilton County",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Court of Common Pleas of Ohio, Hamilton County",
+            "Hamilton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Crawford",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Crawford County Court of Common Pleas"
+        ],
+        "id": "ohctcomplcrawfo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Crawford County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Crawford County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Cuyahoga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga County Common Pleas Court",
+            "Cuyahoga County Court of Common Pleas"
+        ],
+        "id": "ohctcomplcuyaho",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Cuyahoga County Common Pleas Court",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Cuyahoga County Common Pleas Court",
+            "Cuyahoga County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Darke",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Darke County Court of Common Pleas"
+        ],
+        "id": "ohctcompldarke",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Darke County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Darke County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Defiance",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Defiance County Court of Common Pleas"
+        ],
+        "id": "ohctcompldefian",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Defiance County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Defiance County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Delaware",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Delaware County Court of Common Pleas"
+        ],
+        "id": "ohctcompldelawa",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Delaware County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Delaware County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Erie",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Erie County Court of Common Pleas"
+        ],
+        "id": "ohctcomplerie",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Erie County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Erie County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Fairfield",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fairfield County Court of Common Pleas"
+        ],
+        "id": "ohctcomplfairfi",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fairfield County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Fairfield County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Fayette",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fayette County Court of Common Pleas"
+        ],
+        "id": "ohctcomplfayett",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fayette County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Fayette County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Fulton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Fulton County Court of Common Pleas"
+        ],
+        "id": "ohctcomplfulton",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Fulton County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Fulton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Galia",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Galia County Court of Common Pleas"
+        ],
+        "id": "ohctcomplgalia",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Galia County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Galia County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Gallia",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Gallia County Court of Common Pleas"
+        ],
+        "id": "ohctcomplgallia",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Gallia County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Gallia County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Geauga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Geauga County Court of Common Pleas"
+        ],
+        "id": "ohctcomplgeauga",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Geauga County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Geauga County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Green",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Green County Court of Common Pleas"
+        ],
+        "id": "ohctcomplgreen",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Green County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Green County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Greene",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Greene County Court of Common Pleas"
+        ],
+        "id": "ohctcomplgreene",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Greene County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Greene County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Guernsey",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Guernsey County Court of Common Pleas"
+        ],
+        "id": "ohctcomplguerns",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Guernsey County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Guernsey County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Hancock",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hancock County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhancoc",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hancock County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Hancock County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Hardin",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hardin County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhardin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hardin County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Hardin County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Harrison",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Harrison County Court of Common Pleas"
+        ],
+        "id": "ohctcomplharris",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Harrison County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Harrison County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Henry",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Henry County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhenry",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Henry County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Henry County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Highland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Highland County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhighla",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Highland County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Highland County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Hocking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hocking County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhockin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Hocking County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Hocking County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Holmes",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Holmes County Court of Common Pleas"
+        ],
+        "id": "ohctcomplholmes",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Holmes County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Holmes County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Huron",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Huron County Court of Common Pleas"
+        ],
+        "id": "ohctcomplhuron",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Huron County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Huron County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Jackson",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Jackson County Court of Common Pleas"
+        ],
+        "id": "ohctcompljackso",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Jackson County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Jackson County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Jefferson",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Jefferson County Court of Common Pleas"
+        ],
+        "id": "ohctcompljeffer",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Jefferson County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Jefferson County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Knox",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Knox County Court of Common Pleas"
+        ],
+        "id": "ohctcomplknox",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Knox County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Knox County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Lake",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lake County Court of Common Pleas"
+        ],
+        "id": "ohctcompllake",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lake County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Lake County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Lawrence",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lawrence County Court of Common Pleas",
+            "Lawrence County Common Pleas Court"
+        ],
+        "id": "ohctcompllawren",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lawrence County Common Pleas Court",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Lawrence County Court of Common Pleas",
+            "Lawrence County Common Pleas Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Licking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Licking County Court of Common Pleas"
+        ],
+        "id": "ohctcompllickin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Licking County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Licking County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Logan",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Logan County Court of Common Pleas"
+        ],
+        "id": "ohctcompllogan",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Logan County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Logan County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Lorain",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lorain County Court of Common Pleas"
+        ],
+        "id": "ohctcompllorain",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lorain County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Lorain County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Lucas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lucas County Court of Common Pleas"
+        ],
+        "id": "ohctcompllucas",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Lucas County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Lucas County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Madison",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Madison County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmadiso",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Madison County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Madison County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Mahoning",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mahoning County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmahoni",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Mahoning County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Mahoning County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Marion",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Marion County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmarion",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Marion County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Marion County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Medina",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Medina County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmedina",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Medina County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Medina County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Meigs",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Meigs County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmeigs",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Meigs County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Meigs County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Mercer",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Mercer County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmercer",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Mercer County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Mercer County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Miami",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Miami County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmiami",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Miami County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Miami County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Monroe",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Monroe County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmonroe",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Monroe County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Monroe County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Montgomery",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Montgomery County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmontgo",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Montgomery County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Montgomery County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Morgan",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Morgan County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmorgan",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Morgan County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Morgan County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Morrow",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Morrow County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmorrow",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Morrow County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Morrow County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Muskingum",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Muskingum County Court of Common Pleas"
+        ],
+        "id": "ohctcomplmuskin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Muskingum County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Muskingum County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Noble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Noble County Court of Common Pleas"
+        ],
+        "id": "ohctcomplnoble",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Noble County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Noble County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Ottawa",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ottawa County Court of Common Pleas"
+        ],
+        "id": "ohctcomplottawa",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ottawa County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Ottawa County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Paulding",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Paulding County Court of Common Pleas"
+        ],
+        "id": "ohctcomplpauldi",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Paulding County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Paulding County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Pickaway",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pickaway County Court of Common Pleas"
+        ],
+        "id": "ohctcomplpickaw",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Pickaway County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Pickaway County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Pike",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Pike County Court of Common Pleas"
+        ],
+        "id": "ohctcomplpike",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Pike County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Pike County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Portage",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Portage County Court of Common Pleas"
+        ],
+        "id": "ohctcomplportag",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Portage County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Portage County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Preble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Preble County Court of Common Pleas"
+        ],
+        "id": "ohctcomplpreble",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Preble County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Preble County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Putnam",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Putnam County Court of Common Pleas"
+        ],
+        "id": "ohctcomplputnam",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Putnam County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Putnam County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Richland",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Richland County Court of Common Pleas"
+        ],
+        "id": "ohctcomplrichla",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Richland County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Richland County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Ross",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Ross County Court of Common Pleas"
+        ],
+        "id": "ohctcomplross",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Ross County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Ross County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Sandusky",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Sandusky County Court of Common Pleas"
+        ],
+        "id": "ohctcomplsandus",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Sandusky County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Sandusky County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Scioto",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Scioto County Court of Common Pleas"
+        ],
+        "id": "ohctcomplscioto",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Scioto County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Scioto County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Seneca",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Seneca County Court of Common Pleas"
+        ],
+        "id": "ohctcomplseneca",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Seneca County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Seneca County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Shelby",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Shelby County Court of Common Pleas"
+        ],
+        "id": "ohctcomplshelby",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Shelby County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Shelby County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Stark",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Stark County Court of Common Pleas"
+        ],
+        "id": "ohctcomplstark",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Stark County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Stark County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Summit",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Summit County Court of Common Pleas"
+        ],
+        "id": "ohctcomplsummit",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Summit County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Summit County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Tascarawas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Tascarawas County Court of Common Pleas"
+        ],
+        "id": "ohctcompltascar",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Tascarawas County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Tascarawas County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Trumbull",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Trumbull County Court of Common Pleas"
+        ],
+        "id": "ohctcompltrumbu",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Trumbull County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Trumbull County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Tuscarawas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Tuscarawas County Court of Common Pleas"
+        ],
+        "id": "ohctcompltuscar",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Tuscarawas County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Tuscarawas County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Union",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Union County Court of Common Pleas"
+        ],
+        "id": "ohctcomplunion",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Union County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Union County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Van Wert",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Van Wert County Court of Common Pleas"
+        ],
+        "id": "ohctcomplvanwe",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Van Wert County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Van Wert County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Vinton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Vinton County Court of Common Pleas"
+        ],
+        "id": "ohctcomplvinton",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Vinton County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Vinton County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Warren",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Warren County Court of Common Pleas"
+        ],
+        "id": "ohctcomplwarren",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Warren County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Warren County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Washington",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Washington County Court of Common Pleas"
+        ],
+        "id": "ohctcomplwashin",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Washington County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Washington County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Wayne",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wayne County Court of Common Pleas"
+        ],
+        "id": "ohctcomplwayne",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Wayne County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Wayne County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Williams",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Williams County Court of Common Pleas"
+        ],
+        "id": "ohctcomplwillia",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Williams County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Williams County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Wood",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wood County Court of Common Pleas"
+        ],
+        "id": "ohctcomplwood",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Wood County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Wood County Court of Common Pleas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Ct. Com. Pl., Wyandot",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wyandot County Court of Common Pleas"
+        ],
+        "id": "ohctcomplwyando",
+        "jurisdiction": "O.H.",
+        "level": "ljc",
+        "location": "Ohio",
+        "name": "Wyandot County Court of Common Pleas",
+        "notes": "",
+        "parent": "ohioctcompl",
+        "regex": [
+            "Wyandot County Court of Common Pleas"
         ],
         "system": "state",
         "type": "trial"
