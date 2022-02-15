@@ -28134,13 +28134,404 @@
             }
         ],
         "examples": [],
-        "id": "ohjvct",
+        "id": "ohjuvct",
         "level": "ljc",
         "location": "Ohio",
         "name": "Juvenile Court of Ohio",
         "regex": [
-            "Juvenile Court of ${bw} County.*(Ohio)",
             "Ohio Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Allen",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Allen County Juvenile Court"
+        ],
+        "id": "ohjuvctallen",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Allen County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Allen County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Columbiana",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Columbiana County Juvenile Court",
+            "Juvenile Court, Columbiana County"
+        ],
+        "id": "ohjuvctcolumbia",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Columbiana County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Columbiana County Juvenile Court",
+            "Juvenile Court, Columbiana County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Cuyahoga",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Cuyahoga County Juvenile Court"
+        ],
+        "id": "ohjuvctcuyahoga",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Cuyahoga County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Cuyahoga County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Greene",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Greene County Juvenile Court"
+        ],
+        "id": "ohjuvctgreene",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Greene County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Greene County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Hamilton",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hamilton County Juvenile Court"
+        ],
+        "id": "ohjuvcthamilton",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Hamilton County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Hamilton County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Huron",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Huron County Juvenile Court"
+        ],
+        "id": "ohjuvcthuron",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Huron County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Huron County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Licking",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Licking County Juvenile Court"
+        ],
+        "id": "ohjuvctlicking",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Licking County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Licking County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Lucas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Lucas County Juvenile Court"
+        ],
+        "id": "ohjuvctlucas",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Lucas County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Lucas County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Marion",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Marion County Juvenile Court"
+        ],
+        "id": "ohjuvctmarion",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Marion County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Marion County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Muskingum",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Muskingum County Juvenile Court"
+        ],
+        "id": "ohjuvctmuskingu",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Muskingum County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Muskingum County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Noble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Noble County Juvenile Court"
+        ],
+        "id": "ohjuvctnoble",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Noble County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Noble County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Preble",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Preble County Juvenile Court"
+        ],
+        "id": "ohjuvctpreble",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Preble County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Preble County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Tuscarawas",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Tuscarawas County Juvenile Court"
+        ],
+        "id": "ohjuvcttuscaraw",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Tuscarawas County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Tuscarawas County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Warren",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Warren County Juvenile Court"
+        ],
+        "id": "ohjuvctwarren",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Warren County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Warren County Juvenile Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oh. Juv. Ct., Wayne",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Wayne County Juvenile Court"
+        ],
+        "id": "ohjuvctwayne",
+        "jurisdiction": "O.H.",
+        "level": null,
+        "location": "Ohio",
+        "name": "Wayne County Juvenile Court",
+        "notes": "",
+        "parent": "ohjuvct",
+        "regex": [
+            "Wayne County Juvenile Court"
         ],
         "system": "state",
         "type": "trial"
