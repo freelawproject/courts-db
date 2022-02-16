@@ -304,6 +304,7 @@
         "locations": 7,
         "name": "United States District Court for the Northern District of Alabama",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${al}",
             "${d} ${nd} Alabama",
@@ -342,6 +343,7 @@
         "locations": 2,
         "name": "United States District Court for the Southern District of Alabama",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usa} ${sd} ${al}",
             "${usdc} ${sd} ${al}"
@@ -376,6 +378,7 @@
         "locations": 3,
         "name": "United States District Court for the Middle District of Alabama",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${md} ${al}",
             "United States For The Middle District Of Alabama",
@@ -916,6 +919,7 @@
         "locations": 5,
         "name": "United States District Court for the Eastern District of Arkansas",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usa} ${ed} ${ar}",
             "${d} ${ed} ${ar}",
@@ -954,6 +958,7 @@
         "locations": 6,
         "name": "United States District Court for the Western District of Arkansas",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${ar}",
             "^${d} ${wd} ${ar}",
@@ -1348,6 +1353,7 @@
         "name": "United States District Court for the Southern District of California",
         "name_abbreviation": null,
         "notes": "Subdivided/Extinct",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${ca}",
             "^${d} ${sd} ${ca}",
@@ -1396,6 +1402,7 @@
         "name": "United States District Court for the Northern District of California",
         "name_abbreviation": null,
         "notes": "Subdivided",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${ca}",
             "${usdc} San Jose Division",
@@ -1436,6 +1443,7 @@
         "location": "California",
         "name": "United States District Court for the Eastern District of California",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${ed} ${ca}"
         ],
@@ -2493,6 +2501,7 @@
         "locations": 1,
         "name": "United States District Court for the District of Delaware",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${d} Delaware",
             "District Court Of The United States District Of Delaware",
@@ -2842,6 +2851,7 @@
         "locations": 4,
         "name": "United States District Court for the Northern District of Florida",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${fl}",
             "${usdc} District Of Florida Pensacola Division",
@@ -2873,6 +2883,7 @@
         "location": "Florida",
         "name": "United States District Court for the Southern District of Florida",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${fl}",
             "United States District Court For The Southern District Of Floridas",
@@ -2914,6 +2925,7 @@
         "locations": 5,
         "name": "United States District Court for the Middle District of Florida",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${md} ${fl}",
             "United States District Court Tampa Division M D ${fl}",
@@ -7442,6 +7454,7 @@
         "location": "Georgia",
         "name": "United States District Court for the Northern District of Georgia",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${ga}",
             "United States District Court For The Northern Division Of Georgia Atlanta",
@@ -7475,6 +7488,7 @@
         "location": "Georgia",
         "name": "United States District Court for the Southern District of Georgia",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${ga}",
             "${usdc} ${sd}.*(?=(georgia|savannah))",
@@ -7501,6 +7515,7 @@
         "location": "Georgia",
         "name": "United States District Court for the Middle District of Georgia",
         "name_abbreviation": null,
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${md} ${ga}"
         ],
@@ -8517,6 +8532,7 @@
         "level": "",
         "location": "Illinois",
         "name": "District Court, S.D. Illinois",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${il}",
             "District Court Of The United States For The ${sd} Ill(i?nois)"
@@ -8609,6 +8625,7 @@
         "level": "gjc",
         "location": "Illinois",
         "name": "District Court, N.D. Illinois",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} Ill(inois)?",
             "${usdc} Notthern District Of Illinois Eastern Division",
@@ -8804,6 +8821,7 @@
         "level": "",
         "location": "Indiana",
         "name": "Indiana Supreme Court",
+        "parent": "usdistct",
         "regex": [
             "Supreme Court of Indiana",
             "State Of Indiana Supreme Court",
@@ -8854,6 +8872,7 @@
         "level": "",
         "location": "Indiana",
         "name": "District Court, N.D. Indiana",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${in}",
             "${nd} ${in}",
@@ -8878,6 +8897,7 @@
         "level": "",
         "location": "Indiana",
         "name": "District Court, S.D. Indiana",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${in}",
             "${sd} ${in}"
@@ -9054,6 +9074,7 @@
         "level": "",
         "location": "Iowa",
         "name": "District Court, S.D. Iowa",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} Iowa",
             "U S District Court Iowa Appanoose County"
@@ -9080,6 +9101,7 @@
         "level": "",
         "location": "Iowa",
         "name": "District Court, N.D. Iowa",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} Iowa",
             "${nd} Iowa",
@@ -9200,6 +9222,7 @@
         "level": "",
         "location": "Kansas",
         "name": "District Court, D. Kansas",
+        "parent": "usdistct",
         "regex": [
             "${usdc} Wichita",
             "${usdc} Topeka",
@@ -9355,6 +9378,7 @@
         "level": "",
         "location": "Kentucky",
         "name": "District Court, W.D. Kentucky",
+        "parent": "usdistct",
         "regex": [
             "${wd} ${ky}",
             "${usdc} ${wd} ${ky}",
@@ -9382,6 +9406,7 @@
         "level": "",
         "location": "Kentucky",
         "name": "District Court, E.D. Kentucky",
+        "parent": "usdistct",
         "regex": [
             "${ed} ${ky}",
             "${usdc} ${ed} Lexington Ky",
@@ -9570,6 +9595,7 @@
         "level": "",
         "location": "Louisiana",
         "name": "District Court, M.D. Louisiana",
+        "parent": "usdistct",
         "regex": [
             "${md} Louisiana",
             "${usdc} ${md} ${la}"
@@ -9594,6 +9620,7 @@
         "level": "",
         "location": "Louisiana",
         "name": "United States District Court Eastern District Of Lousiana",
+        "parent": "usdistct",
         "regex": [
             "${usa} ${ed} ${la}",
             "${ed} ${la}",
@@ -9622,6 +9649,7 @@
         "level": "gjc",
         "location": "Louisiana",
         "name": "District Court, W.D. Louisiana",
+        "parent": "usdistct",
         "regex": [
             "${wd} Louisiana",
             "${usdc} Western Division Of Louisiana",
@@ -9781,6 +9809,7 @@
         "level": "",
         "location": "Maine",
         "name": "District Court, D. Maine",
+        "parent": "usdistct",
         "regex": [
             "^${d} ?(D)? ?Maine",
             "${usdc} ${d} Maine",
@@ -10342,6 +10371,7 @@
         "level": "",
         "location": "Michigan",
         "name": "District Court, W.D. Michigan",
+        "parent": "usdistct",
         "regex": [
             "${wd} ${mi}",
             "${usdc} ${wd} ${mi}",
@@ -10366,6 +10396,7 @@
         "level": "",
         "location": "Michigan",
         "name": "District Court, E.D. Michigan",
+        "parent": "usdistct",
         "regex": [
             "${ed} ${mi}",
             "${usdc} ${ed} ${mi}",
@@ -10550,6 +10581,7 @@
         "level": "",
         "location": "Minnesota",
         "name": "District Court, D. Minnesota",
+        "parent": "usdistct",
         "regex": [
             "${d} ?(D)? ?Minn(esota)?",
             "${usdc} ${d} Minnesota",
@@ -10653,6 +10685,7 @@
         "level": "",
         "location": "Mississippi",
         "name": "District Court, N.D. Mississippi",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} Mississippi",
             "District Court E D Mississippi N D"
@@ -10698,6 +10731,7 @@
         "level": "",
         "location": "Mississippi",
         "name": "District Court, S.D. Mississippi",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} Mississippi",
             "District Court E D Mississippi S D"
@@ -10825,6 +10859,7 @@
         "level": "",
         "location": "Missouri",
         "name": "District Court, E.D. Missouri",
+        "parent": "usdistct",
         "regex": [
             "${ed} ${mo}",
             "${usdc} ${d} ${mo} Eastern Division",
@@ -10873,6 +10908,7 @@
         "level": "",
         "location": "Missouri",
         "name": "District Court, W.D. Missouri",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${mo}",
             "${wd} ${mo}",
@@ -11157,6 +11193,7 @@
         "level": "gjc",
         "location": "Nebraska",
         "name": "United States District Court, Nebraska",
+        "parent": "usdistct",
         "regex": [
             "^${d} ?(D)? ?${ne}",
             "${usdc} ${d} ${ne}",
@@ -15373,6 +15410,7 @@
         "level": "",
         "location": "New Mexico",
         "name": "District Court, D. New Mexico",
+        "parent": "usdistct",
         "regex": [
             "^${d} ?(D)? ?New Mexico",
             "${usdc} D New Mexico",
@@ -18358,7 +18396,6 @@
             "City Court Borough Of Brooklyn",
             "City Court City Of Bronx New York",
             "City Court City Of Westchester",
-            "City Court (${ny_counties}) County",
             "City Court Of The City Of New York County Of New York",
             "Municipal Court Of City Of New York Borough",
             "New York City Municipal Court First District Manhattan",
@@ -18378,8 +18415,6 @@
             "City Court Court Of Mount Vernon",
             "Civil Court City Of New Rochelle",
             "Civil Cour City Of New York New York County",
-            "State Of New York New York City Court Special Term Part I At Law",
-            "Schoharie Court Of New York",
             "City Court Of New York Special Term Brooklyn County"
         ],
         "system": "state",
@@ -19067,7 +19102,6 @@
         "regex": [
             "New York City Municipal Court",
             "New York City Court Special Term",
-            "New York City Court of Special Sessions",
             "New York City Court, General Term",
             "New York City Court, Special Term"
         ],
@@ -19904,8 +19938,7 @@
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
         "parent": "nyspecsessct",
         "regex": [
-            "New York City Court of Special Sessions",
-            "New York City Court,? Special Term"
+            "New York City Court of Special Sessions"
         ],
         "system": "state",
         "type": "trial"
@@ -20707,6 +20740,7 @@
         "level": "",
         "location": "New York",
         "name": "District Court, E.D. New York",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${ed} ${ny}",
             "${usdc} Eastern of ${ny}",
@@ -20749,6 +20783,7 @@
         "level": "",
         "location": "New York",
         "name": "District Court, N.D. New York",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${ny}",
             "United States District Court For The Northern Division Of New York",
@@ -20773,6 +20808,7 @@
         "level": "",
         "location": "New York",
         "name": "District Court, W.D. New York",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${ny}",
             "United States District Court For The Western Division Of New York"
@@ -20806,9 +20842,10 @@
             "Southern District of New York"
         ],
         "id": "nysd",
-        "level": "",
+        "level": "trial",
         "location": "New York",
         "name": "District Court, S.D. New York",
+        "parent": "usdistct",
         "regex": [
             "${sd} ${ny}",
             "${usdc} ${sd} ${ny}",
@@ -21113,6 +21150,7 @@
         "level": "",
         "location": "North Carolina",
         "name": "District Court, W.D. North Carolina",
+        "parent": "usdistct",
         "regex": [
             "${wd} N(\\.|(orth)) Car?olina",
             "Charlotte Division",
@@ -21136,6 +21174,7 @@
         "level": "",
         "location": "North Carolina",
         "name": "District Court, M.D. North Carolina",
+        "parent": "usdistct",
         "regex": [
             "${md} N(\\.|(orth)) Car?olina",
             "Greensboro Division",
@@ -21162,6 +21201,7 @@
         "level": "gjc",
         "location": "North Carolina",
         "name": "District Court, E.D. North Carolina",
+        "parent": "usdistct",
         "regex": [
             "${ed} N(\\.|(orth)) Car?olina",
             "${usdc} ${ed} North Caroi?lina"
@@ -33083,6 +33123,7 @@
         "level": "",
         "location": "Ohio",
         "name": "District Court, N.D. Ohio",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} Ohio",
             "U S District N D Ohio E D",
@@ -33208,6 +33249,7 @@
         "level": "",
         "location": "Ohio",
         "name": "District Court, S.D. Ohio",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} Ohio",
             "Us District Court S D O Cincinnati",
@@ -33487,6 +33529,7 @@
         "level": "",
         "location": "Oklahoma",
         "name": "United States District Court, Oklahoma Western",
+        "parent": "usdistct",
         "regex": [
             "${wd} ${ok}",
             "${usdc} ${wd} ${ok}",
@@ -33511,6 +33554,7 @@
         "level": "",
         "location": "Oklahoma",
         "name": "United States District Court, Oklahoma Northern",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${ok}"
         ],
@@ -33532,6 +33576,7 @@
         "level": "",
         "location": "Oklahoma",
         "name": "United States District Court, Oklahoma Eastern",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${ed} ${ok}"
         ],
@@ -35851,6 +35896,7 @@
         "level": "",
         "location": "Pennsylvania",
         "name": "District Court, E.D. Pennsylvania",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${ed} ${pa}",
             "${usdc} Eastern Disthict Of ${pa}",
@@ -35914,6 +35960,7 @@
         "level": "",
         "location": "Pennsylvania",
         "name": "District Court, M.D. Pennsylvania",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${md} ${pa}",
             "${md} ${pa}",
@@ -35943,6 +35990,7 @@
         "level": "",
         "location": "Pennsylvania",
         "name": "District Court, W.D. Pennsylvania",
+        "parent": "usdistct",
         "regex": [
             "${wd} ${pa}",
             "United States District Court For The Westernd District Of Pennsylvania",
@@ -36574,6 +36622,7 @@
         "level": "",
         "location": "Tennessee",
         "name": "District Court, W.D. Tennessee",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${tn}",
             "U S District Court West Div West Dist Tenn",
@@ -36619,6 +36668,7 @@
         "level": "",
         "location": "Tennessee",
         "name": "District Court, M.D. Tennessee",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${md} ${tn}",
             "District Court Of The United States Middle District Of Tennessee Nashville Division",
@@ -36644,6 +36694,7 @@
         "level": "",
         "location": "Tennessee",
         "name": "District Court, E.D. Tennessee",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${ed} At Knoxville Tennessee",
             "${usdc} ${ed} ${tn}",
@@ -36963,6 +37014,7 @@
         "level": "",
         "location": "Texas",
         "name": "District Court, W.D. Texas",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${tx}",
             "U S District Court West Dist Tex",
@@ -36989,6 +37041,7 @@
         "level": "",
         "location": "Texas",
         "name": "District Court, E.D. Texas",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${ed} ${tx}"
         ],
@@ -37012,6 +37065,7 @@
         "level": "",
         "location": "Texas",
         "name": "District Court, S.D. Texas",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${tx}",
             "United States Distict Court Southern District Of Texas",
@@ -37037,6 +37091,7 @@
         "level": "",
         "location": "Texas",
         "name": "District Court, N.D. Texas",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} ${tx}",
             "District Court Of The United States ${nd} Texas",
@@ -37572,6 +37627,7 @@
         "level": "",
         "location": "Virginia",
         "name": "District Court, E.D. Virginia",
+        "parent": "usdistct",
         "regex": [
             "${ed} ${va}",
             "${usdc} ${ed} ${va}",
@@ -37603,6 +37659,7 @@
         "level": "",
         "location": "Virginia",
         "name": "District Court, W.D. Virginia",
+        "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${va}",
             "United States District Court For The Western Division Of Virginia",
@@ -37766,6 +37823,7 @@
         "level": "",
         "location": "Washington",
         "name": "District Court, W.D. Washington",
+        "parent": "usdistct",
         "regex": [
             "${wd} Wash(ington)?",
             "${usdc} Western Distict Of Washington At Seattle",
@@ -37792,6 +37850,7 @@
         "level": "gjc",
         "location": "Washington",
         "name": "District Court, E.D. Washington",
+        "parent": "usdistct",
         "regex": [
             "{usdc} ${ed} Wash(ington)?",
             "District Court E D Washington",
@@ -37961,6 +38020,7 @@
         "level": "",
         "location": "West Virginia",
         "name": "District Court, S.D. West Virginia",
+        "parent": "usdistct",
         "regex": [
             "${sd} ${wv}",
             "${usdc} ${sd} ${wv}",
@@ -38011,6 +38071,7 @@
         "level": "",
         "location": "West Virginia",
         "name": "District Court, N.D. West Virginia",
+        "parent": "usdistct",
         "regex": [
             "${nd} ${wv}",
             "${usdc} ${nd} ${wv}"
@@ -38172,6 +38233,7 @@
         "level": "",
         "location": "Wisconsin",
         "name": "District Court, E.D. Wisconsin",
+        "parent": "usdistct",
         "regex": [
             "${ed} Wisconsin",
             "${usdc} ${ed} ${wi}",
@@ -38195,6 +38257,7 @@
         "level": "",
         "location": "Wisconsin",
         "name": "District Court, D. Wisconsin",
+        "parent": "usdistct",
         "regex": [
             "^${d} ?(D)? ?Wisconsin",
             "${usdc} ${d} ${wi}"
@@ -38217,6 +38280,7 @@
         "level": "",
         "location": "Wisconsin",
         "name": "District Court, W.D. Wisconsin",
+        "parent": "usdistct",
         "regex": [
             "${wd} Wisconsin",
             "${usdc} ${wd} ${wi}"
@@ -41663,6 +41727,7 @@
         "location": "Alabama",
         "name": "U.S. Circuit Court for the District of Alabama",
         "name_abbreviation": "Ala. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Alabama"
         ],
@@ -41754,6 +41819,7 @@
         "location": "Arkansas",
         "name": "U.S. Circuit Court for the District of Arkansas",
         "name_abbreviation": "Ark. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Ark",
             "Circuit Court ${d} ${ar}",
@@ -41825,6 +41891,7 @@
         "location": "Arkansas",
         "name": "U.S. Circuit Court for the District of Territory of Arkansas",
         "name_abbreviation": "Terr. of Ark. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Terr D of Ark"
         ],
@@ -41847,6 +41914,7 @@
         "location": "California",
         "name": "U.S. Circuit Court for the District of California",
         "name_abbreviation": "Cal. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Cal",
             "Circuit Court ${d} ${ca}"
@@ -41915,6 +41983,7 @@
         "location": "South Carolina",
         "name": "U.S. Circuit Court for the District of South Carolina",
         "name_abbreviation": "South Carolina. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D South Carolina",
             "Circuit Court S D South Carolina"
@@ -41938,6 +42007,7 @@
         "location": "Colorado",
         "name": "U.S. Circuit Court for the District of Colorado",
         "name_abbreviation": "Colorado. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Colorado"
         ],
@@ -41960,6 +42030,7 @@
         "location": "Washington D.C.",
         "name": "U.S. Circuit Court for the District of District of Columbia",
         "name_abbreviation": "Dist. of Columbia Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Dist D of Columbi",
             "Circuit Court District Of Columbia"
@@ -41985,6 +42056,7 @@
         "location": "Connecticut",
         "name": "U.S. Circuit Court for the District of Connecticut",
         "name_abbreviation": "Connecticut. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Connecticut",
             "United States Circuit Court For The District Of Connecticut"
@@ -42008,6 +42080,7 @@
         "location": "North Dakota",
         "name": "U.S. Circuit Court for the District of North Dakota",
         "name_abbreviation": "North Dakota. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D North Dakota"
         ],
@@ -42029,6 +42102,7 @@
         "location": "South Dakota",
         "name": "U.S. Circuit Court for the District of South Dakota",
         "name_abbreviation": "South Dakota. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D South Dakota",
             "Circuit Court W D South Dakota"
@@ -42053,6 +42127,7 @@
         "location": "Delaware",
         "name": "U.S. Circuit Court for the District of Delaware",
         "name_abbreviation": "Delaware. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Delaware",
             "Circuit Court of ((the )?United States of )?Delaware",
@@ -42133,6 +42208,7 @@
         "location": "Georgia",
         "name": "U.S. Circuit Court for the District of Georgia",
         "name_abbreviation": "Ga. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D ${ga}"
         ],
@@ -42199,6 +42275,7 @@
         "location": "New Hampshire",
         "name": "U.S. Circuit Court for the District of New Hampshire",
         "name_abbreviation": "New Hampshire. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D New Hampshire"
         ],
@@ -42221,6 +42298,7 @@
         "location": "Idaho",
         "name": "U.S. Circuit Court for the District of Idaho",
         "name_abbreviation": "Idaho. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Idaho",
             "Circuit Court N D Idaho"
@@ -42244,6 +42322,7 @@
         "location": "Illinois",
         "name": "U.S. Circuit Court for the District of Illinois",
         "name_abbreviation": "Ill. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Ill"
         ],
@@ -42332,6 +42411,7 @@
         "location": "Indiana",
         "name": "U.S. Circuit Court for the District of Indiana",
         "name_abbreviation": "Indiana. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Indiana"
         ],
@@ -42402,6 +42482,7 @@
         "location": "Iowa",
         "name": "U.S. Circuit Court for the District of Iowa",
         "name_abbreviation": "Iowa. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Iowa"
         ],
@@ -42424,6 +42505,7 @@
         "location": "Rhode Island",
         "name": "U.S. Circuit Court for the District of Rhode Island",
         "name_abbreviation": "Rhode Island. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Rhodes? Island",
             "Circuit Court Rhode Island"
@@ -42447,6 +42529,7 @@
         "location": "New Jersey",
         "name": "U.S. Circuit Court for the District of New Jersey",
         "name_abbreviation": "New Jersey. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D New Jersey",
             "Circuit Court District Of New Jersey"
@@ -42472,6 +42555,7 @@
         "location": "Kansas",
         "name": "U.S. Circuit Court for the District of Kansas",
         "name_abbreviation": "Kansas. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Kansas",
             "Circuit Court E D Kansas",
@@ -42518,6 +42602,7 @@
         "location": "Kentucky",
         "name": "U.S. Circuit Court for the District of Kentucky",
         "name_abbreviation": "Ky. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Ky"
         ],
@@ -42584,6 +42669,7 @@
         "location": "Louisiana",
         "name": "U.S. Circuit Court for the District of Louisiana",
         "name_abbreviation": "La. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D La",
             "Circuit Court D Louisiana"
@@ -42629,6 +42715,7 @@
         "location": "Maine",
         "name": "U.S. Circuit Court for the District of Maine",
         "name_abbreviation": "Maine. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Maine"
         ],
@@ -42651,6 +42738,7 @@
         "location": "Maryland",
         "name": "U.S. Circuit Court for the District of Maryland",
         "name_abbreviation": "Maryland. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Maryland",
             "Circuit Court Of The United States For The Maryland District",
@@ -42677,6 +42765,7 @@
         "location": "Massachusetts",
         "name": "U.S. Circuit Court for the District of Massachusetts",
         "name_abbreviation": "Massachusetts. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Massachusetts",
             "Circuit Court District Of Massachusetts",
@@ -42746,6 +42835,7 @@
         "location": "Michigan",
         "name": "U.S. Circuit Court for the District of Michigan",
         "name_abbreviation": "Mich. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Michigan"
         ],
@@ -42768,6 +42858,7 @@
         "location": "Minnesota",
         "name": "U.S. Circuit Court for the District of Minnesota",
         "name_abbreviation": "Minnesota. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Minnesota"
         ],
@@ -42878,6 +42969,7 @@
         "location": "Missouri",
         "name": "U.S. Circuit Court for the District of Missouri",
         "name_abbreviation": "Mo. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Mo"
         ],
@@ -42923,6 +43015,7 @@
         "location": "Montana",
         "name": "U.S. Circuit Court for the District of Montana",
         "name_abbreviation": "Montana. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Montana"
         ],
@@ -43011,6 +43104,7 @@
         "location": "North Carolina",
         "name": "U.S. Circuit Court District of Edenton (North Carolina)",
         "name_abbreviation": "",
+        "parent": "uscirct",
         "regex": [],
         "system": "federal",
         "type": "appellate"
@@ -43030,6 +43124,7 @@
         "location": "North Carolina",
         "name": "U.S. Circuit Court District of New Bern (North Carolina)",
         "name_abbreviation": "",
+        "parent": "uscirct",
         "regex": [],
         "system": "federal",
         "type": "appellate"
@@ -43049,6 +43144,7 @@
         "location": "North Carolina",
         "name": "U.S. Circuit Court District of Wilmington (North Carolina)",
         "name_abbreviation": "",
+        "parent": "uscirct",
         "regex": [],
         "system": "federal",
         "type": "appellate"
@@ -43068,6 +43164,7 @@
         "location": "North Carolina",
         "name": "U.S. Circuit Court District of Albemarle (North Carolina)",
         "name_abbreviation": "",
+        "parent": "uscirct",
         "regex": [],
         "system": "federal",
         "type": "appellate"
@@ -43087,6 +43184,7 @@
         "location": "North Carolina",
         "name": "U.S. Circuit Court District of Pamptico (North Carolina)",
         "name_abbreviation": "",
+        "parent": "uscirct",
         "regex": [],
         "system": "federal",
         "type": "appellate"
@@ -43129,6 +43227,7 @@
         "location": "Nebraska",
         "name": "U.S. Circuit Court for the District of Nebraska",
         "name_abbreviation": "Nebraska. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Nebraska",
             "Circuit Court E D Nebraska",
@@ -43153,6 +43252,7 @@
         "location": "Nevada",
         "name": "U.S. Circuit Court for the District of Nevada",
         "name_abbreviation": "Nevada. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Nevada"
         ],
@@ -43222,6 +43322,7 @@
         "location": "Ohio",
         "name": "U.S. Circuit Court for the District of Ohio",
         "name_abbreviation": "Ohio. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Ohio",
             "State Of Ohio U S Circuit Court",
@@ -43291,6 +43392,7 @@
         "location": "Oregon",
         "name": "U.S. Circuit Court for the District of Oregon",
         "name_abbreviation": "Oregon. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Oregon",
             "Circuit Court District Of Oregon"
@@ -45098,6 +45200,7 @@
         "location": "Pennsylvania",
         "name": "U.S. Circuit Court for the District of Pennsylvania",
         "name_abbreviation": "Pa. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Pa",
             "Circuit Court D Pennsylvania",
@@ -45239,6 +45342,7 @@
         "location": "Texas",
         "name": "U.S. Circuit Court for the District of Texas",
         "name_abbreviation": "Tex. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Texas"
         ],
@@ -45350,6 +45454,7 @@
         "location": "Utah",
         "name": "U.S. Circuit Court for the District of Utah",
         "name_abbreviation": "Utah. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Utah"
         ],
@@ -45372,6 +45477,7 @@
         "location": "Virginia",
         "name": "U.S. Circuit Court for the District of Virginia",
         "name_abbreviation": "Va. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Va",
             "Circuit Court D Virginia",
@@ -45485,6 +45591,7 @@
         "location": "West Virginia",
         "name": "U.S. Circuit Court for the District of West Virginia",
         "name_abbreviation": "West Va. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D West Va"
         ],
@@ -45507,6 +45614,7 @@
         "location": "Vermont",
         "name": "U.S. Circuit Court for the District of Vermont",
         "name_abbreviation": "Vermont. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Vermont"
         ],
@@ -45553,6 +45661,7 @@
         "location": "Washington",
         "name": "U.S. Circuit Court for the District of Washington",
         "name_abbreviation": "Wash. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Wash",
             "United States Circuit Court for the Northern District of Washington"
@@ -45643,6 +45752,7 @@
         "location": "Wisconsin",
         "name": "U.S. Circuit Court for the District of Wisconsin",
         "name_abbreviation": "Wis. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D ${wi}",
             "Circuit Court ${wi}"
@@ -45666,6 +45776,7 @@
         "location": "Wyoming",
         "name": "U.S. Circuit Court for the District of Wyoming",
         "name_abbreviation": "Wyoming. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Wyoming",
             "Circuit Court ${wy}"
@@ -45688,7 +45799,9 @@
         "location": "New York",
         "name": "U.S. Circuit Court for New York",
         "regex": [
-            "Circuit Court U. S. NEW-YORK"
+            "Circuit Court U. S. NEW YORK",
+            "Circuit Court U. ?S. New York",
+            "U.S. Circuit Court for New York"
         ],
         "system": "federal",
         "type": "appellate"
@@ -45709,6 +45822,7 @@
         "location": "New York",
         "name": "U.S. Circuit Court for the District of Albany New York",
         "name_abbreviation": "Albany New York. Cir. Ct",
+        "parent": "uscirct",
         "regex": [
             "Circuit Court D Albany New York",
             "Circuit Court ${d} New York"
@@ -48922,32 +49036,7 @@
         "name": "Justice Court of Town of Webster",
         "parent": "nyjustct",
         "regex": [
-            "Justice Court of Town of Webster"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Justice Court of Town of Wesbster"
-        ],
-        "id": "nyjustctwesbste",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Justice Court of Town of Wesbster",
-        "parent": "nyjustct",
-        "regex": [
-            "Justice Court of Town of Wesbster"
+            "Justice Court of (the )?Town of Wes?bster"
         ],
         "system": "state",
         "type": "trial"
@@ -49126,5 +49215,59 @@
         ],
         "system": "state",
         "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "U.S. Cir. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1911-12-31",
+                "start": "1789-01-01"
+            }
+        ],
+        "examples": [
+            "U.S. Circuit Court"
+        ],
+        "id": "uscirct",
+        "jurisdiction": "U.S.",
+        "level": "iac",
+        "location": "United States",
+        "name": "United States Circuit Courts",
+        "notes": "Pre-1912 the Circuit courts were constantly evolving, as both appellate, trial and circuits.",
+        "regex": [
+            "United States Circuit Court",
+            "U.S. Circuit Court",
+            "United States Circuit Court of Appeals"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "U.S. Dist. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1789-01-01"
+            }
+        ],
+        "examples": [
+            "United States District Court"
+        ],
+        "id": "usdistct",
+        "jurisdiction": "U.S.",
+        "level": "iac",
+        "location": "United States",
+        "name": "United States District Court",
+        "notes": "",
+        "regex": [
+            "United States District Court",
+            "District Court",
+            "District Court United States"
+        ],
+        "system": "federal",
+        "type": "appellate"
     }
 ]
