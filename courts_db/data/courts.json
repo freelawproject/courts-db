@@ -16309,7 +16309,7 @@
         "notes": "",
         "parent": "nyjustct",
         "regex": [
-            "Webster Justice (of the Peace)?\\s?Court",
+            "Webster Justice (of the Peace )?Court",
             "Webster Town Court"
         ],
         "system": "state",
