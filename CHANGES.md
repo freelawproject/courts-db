@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.44 (2022-02-16): Update NY courts. Update Federal courts to include parent key.
+ - 0.9.45 (2022-02-16): Update Webster Ny Justice court regex pattern
 
 ## Past Versions
+
+ - 0.9.44 (2022-02-16): Update NY courts. Update Federal courts to include parent key.
 
  - 0.9.43 (2022-02-15): Add Courts for Ohio from Harvard dataset
 
