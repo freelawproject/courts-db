@@ -45945,7 +45945,9 @@
                 "start": "1814-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States Circuit Court for the Southern District of New York"
+        ],
         "id": "circtsdny",
         "level": "iac",
         "location": "New York",
@@ -45957,7 +45959,7 @@
             "Circuit Court S D New York",
             "Circuit Court Of New York Southern District",
             "U S Circuit Court Southern District Of New York",
-            "United States Circuit Court for the Southern District of New "
+            "United States Circuit Court for the Southern District of New York"
         ],
         "system": "federal",
         "type": "appellate"
