@@ -16310,7 +16310,8 @@
         "parent": "nyjustct",
         "regex": [
             "Webster Justice (of the Peace )?Court",
-            "Webster Town Court"
+            "Webster Town Court",
+            "Justice Court of (the )?Town of Wes?bster"
         ],
         "system": "state",
         "type": "trial"
@@ -49070,31 +49071,6 @@
         "regex": [
             "Justice Court of Town of Lockport",
             "Lockport Justice Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Justice Court of Town of Webster"
-        ],
-        "id": "nyjustctwebster",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Justice Court of Town of Webster",
-        "parent": "nyjustct",
-        "regex": [
-            "Justice Court of (the )?Town of Wes?bster"
         ],
         "system": "state",
         "type": "trial"
