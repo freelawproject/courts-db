@@ -45929,7 +45929,8 @@
         "regex": [
             "Circuit Court D Northern New York",
             "Circuit Court ${nd} New York",
-            "Circuit Court Of New York Northern District"
+            "Circuit Court Of New York Northern District",
+            "United States Circuit Court for the Northern District of New York"
         ],
         "system": "federal",
         "type": "appellate"
@@ -45955,7 +45956,8 @@
             "Circuit Court D Southern New York",
             "Circuit Court S D New York",
             "Circuit Court Of New York Southern District",
-            "U S Circuit Court Southern District Of New York"
+            "U S Circuit Court Southern District Of New York",
+            "United States Circuit Court for the Southern District of New "
         ],
         "system": "federal",
         "type": "appellate"
