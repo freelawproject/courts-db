@@ -6,9 +6,11 @@
 
 ## Current Version
 
- - 0.9.45 (2022-02-16): Update Webster Ny Justice court regex pattern
+ - 0.9.46 (2022-02-17): Minor changes to various NY Courts
 
 ## Past Versions
+
+ - 0.9.45 (2022-02-16): Update Webster Ny Justice court regex pattern
 
  - 0.9.44 (2022-02-16): Update NY courts. Update Federal courts to include parent key.
 
