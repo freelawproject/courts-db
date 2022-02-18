@@ -96,6 +96,35 @@ class DataTest(CourtsDBTestCase):
             msg="Michican county court not found",
         )
 
+        fayette_county = find_court("Fayette County Court of Common Pleas")
+        self.assertEqual(
+            sorted(['pactcomplfayett', 'ohctcomplfayett']),
+            sorted(fayette_county),
+            msg="Courts not found",
+        )
+
+        fayette_county = find_court("Fayette County Court of Common Pleas", location="jibberish")
+        self.assertEqual(
+            [],
+            fayette_county,
+            msg="Courts not found",
+        )
+
+        fayette_county = find_court("Fayette County Court of Common Pleas", location="Ohio")
+        self.assertEqual(
+            ['ohctcomplfayett'],
+            fayette_county,
+            msg="Courts not found",
+        )
+
+        fayette_county = find_court("Fayette County Court of Common Pleas", location="Pennsylvania")
+        self.assertEqual(
+            ['pactcomplfayett'],
+            fayette_county,
+            msg="Courts not found",
+        )
+
+
 
 class ExamplesTest(CourtsDBTestCase):
     def test_all_non_bankruptcy_examples(self):

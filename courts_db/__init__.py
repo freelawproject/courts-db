@@ -82,6 +82,9 @@ def find_court_ids_by_name(
     # If no matches found - check against - Court Name - not regex patterns.
     if not matches:
         for court in courts:
+            # Add validation for location if provided.
+            if location and court_location != location:
+                continue
             if strip_punc(court_str) == strip_punc(court["name"]):
                 matches.append((court_str, court["id"]))
 
