@@ -98,32 +98,37 @@ class DataTest(CourtsDBTestCase):
 
         fayette_county = find_court("Fayette County Court of Common Pleas")
         self.assertEqual(
-            sorted(['pactcomplfayett', 'ohctcomplfayett']),
+            sorted(["pactcomplfayett", "ohctcomplfayett"]),
             sorted(fayette_county),
             msg="Courts not found",
         )
 
-        fayette_county = find_court("Fayette County Court of Common Pleas", location="jibberish")
+        fayette_county = find_court(
+            "Fayette County Court of Common Pleas", location="jibberish"
+        )
         self.assertEqual(
             [],
             fayette_county,
             msg="Courts not found",
         )
 
-        fayette_county = find_court("Fayette County Court of Common Pleas", location="Ohio")
+        fayette_county = find_court(
+            "Fayette County Court of Common Pleas", location="Ohio"
+        )
         self.assertEqual(
-            ['ohctcomplfayett'],
+            ["ohctcomplfayett"],
             fayette_county,
             msg="Courts not found",
         )
 
-        fayette_county = find_court("Fayette County Court of Common Pleas", location="Pennsylvania")
+        fayette_county = find_court(
+            "Fayette County Court of Common Pleas", location="Pennsylvania"
+        )
         self.assertEqual(
-            ['pactcomplfayett'],
+            ["pactcomplfayett"],
             fayette_county,
             msg="Courts not found",
         )
-
 
 
 class ExamplesTest(CourtsDBTestCase):
