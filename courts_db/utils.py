@@ -1,16 +1,8 @@
-from __future__ import (
-    absolute_import,
-    division,
-    print_function,
-    unicode_literals,
-)
-
-from string import Template, punctuation
+from string import Template
 from glob import iglob
 from io import open
 
 import json
-import six
 import re
 import os
 

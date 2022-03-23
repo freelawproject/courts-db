@@ -1,15 +1,7 @@
-from __future__ import (
-    absolute_import,
-    division,
-    print_function,
-    unicode_literals,
-)
-
 import re
 from datetime import datetime
 from typing import List, Optional
 
-import six
 
 from courts_db.text_utils import strip_punc
 
@@ -60,7 +52,7 @@ def find_court_ids_by_name(
     from . import regexes
 
     assert (
-        type(court_str) == six.text_type
+        isinstance(court_str, str)
     ), "court_str is not a text type, it's of type %s" % type(court_str)
 
     court_matches = set()
