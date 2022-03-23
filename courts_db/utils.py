@@ -3,7 +3,7 @@ import os
 import re
 from glob import iglob
 from io import open
-from string import Template
+from string import Template, punctuation
 
 db_root = os.path.dirname(os.path.realpath(__file__))
 
@@ -42,12 +42,25 @@ def load_courts_db():
     with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
         s = Template(f.read()).substitute(**variables)
     s = s.replace("\\", "\\\\")
+    data = json.loads(s)
 
-    return json.loads(s)
+    for k in data:
+        # If a child of a parent court - add parent data to child if not present
+        # this should allow for streamed down data.  Inheritance
+        if "parent" in k.keys():
+            if not {"dates", "type", "location"} <= set(k.keys()):
+                parent = [x for x in data if x["id"] == k["parent"]][0]
+                if "dates" not in k.keys():
+                    k["dates"] = parent["dates"]
+                if "type" not in k.keys():
+                    k["type"] = parent["type"]
+                if "location" not in k.keys():
+                    k["location"] = parent["location"]
+
+    return data
 
 
 def gather_regexes(courts):
-
     """Create a variable mapping regexes to court IDs
 
     :param courts: The court DB
@@ -61,6 +74,8 @@ def gather_regexes(courts):
     regexes = []
     for court in courts:
         for reg_str in court["regex"]:
+            # Unwind the extra gruff in regexes
+            reg_str = reg_str.replace("\\\\", "\\")
             regex = re.compile(reg_str, (re.I | re.U))
             regexes.append(
                 (

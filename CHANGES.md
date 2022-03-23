@@ -27,7 +27,7 @@
 - 0.9.39 (2022-02-03): Remove duplicate court for NY Court of Errors
 
 - 0.9.36 (2022-02-03): Add nysuperct variation
-re
+
 - 0.9.35 (2022-02-03): Add test for citation_string key.
 
 - 0.9.34 (2022-02-02): Update NY Courts. Added ability to stub child courts and inherit from parent.
@@ -41,4 +41,3 @@ re
 - 0.9.30 (2022-01-07): Update New York and California Courts.  Add CHANGES.md to track updates to the project.
 
 - 0.9.29 (2022-01-01):
-

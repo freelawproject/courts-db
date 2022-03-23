@@ -73,6 +73,9 @@ def find_court_ids_by_name(
     # If no matches found - check against - Court Name - not regex patterns.
     if not matches:
         for court in courts:
+            # Add validation for location if provided.
+            if location and court_location != location:
+                continue
             if strip_punc(court_str) == strip_punc(court["name"]):
                 matches.append((court_str, court["id"]))
 
@@ -152,6 +155,24 @@ def find_court_by_id(court_id):
     return [court for court in courts if court["id"] == court_id]
 
 
+def _filter_parents_from_list(matches: List[str]) -> List[str]:
+    """Remove parents from the list of matches.
+
+    Check if a match has a parent in the list.  If so remove it.
+
+    :param matches: List of court ids
+    :return: List of court ids without parents
+    """
+    parents = []
+    for match in matches:
+        parent = find_court_by_id(match)[0].get("parent", None)
+        if parent in matches:
+            parents.append(parent)
+    if parents:
+        matches = list(set(matches) ^ set(parents))
+    return matches
+
+
 def find_court(
     court_str: str,
     bankruptcy: Optional[bool] = None,
@@ -171,13 +192,24 @@ def find_court(
     """
     court_str = strip_punc(court_str)
     matches = find_court_ids_by_name(court_str, bankruptcy, location)
+
+    # Check bankruptcy cases if appropriate
     if bankruptcy is not None:
         matches = filter_courts_by_bankruptcy(
             matches=matches, bankruptcy=bankruptcy
         )
+
+    # Match against dates
     if date_found:
         matches = filter_courts_by_date(
             matches=matches, date_found=date_found, strict_dates=strict_dates
         )
+
+    # Check if the matches are parent/children of each other
+    # for example California Court of Appeal, First Appellate District
+    # is a child of California Court of Appeals
+    # Reduce that list to just child element.
+    if len(matches) > 1:
+        matches = _filter_parents_from_list(matches)
 
     return matches

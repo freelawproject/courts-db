@@ -6,9 +6,10 @@ import unittest
 from collections import Counter
 from io import open
 from json.decoder import JSONDecodeError
+from pathlib import Path
 from unittest import TestCase
 
-from courts_db import find_court
+from courts_db import find_court, find_court_by_id
 from courts_db.text_utils import strip_punc
 from courts_db.utils import db_root, load_courts_db
 
@@ -27,6 +28,23 @@ class DataTest(CourtsDBTestCase):
         matches = find_court(court_str=sample_text)
         expected_matches = ["prapp"]
         self.assertEqual(matches, expected_matches)
+
+    def test_parent_courts(self):
+        """Can we find the parent court"""
+
+        court_str_example = (
+            "California Court of Appeal, First Appellate District"
+        )
+        matches = find_court(court_str=court_str_example)
+        self.assertEqual(
+            find_court_by_id(matches[0])[0].get("parent", None), "calctapp"
+        )
+
+        court_str_example = "Supreme Court of the United States"
+        matches = find_court(court_str=court_str_example)
+        self.assertEqual(
+            find_court_by_id(matches[0])[0].get("parent", None), None
+        )
 
     def test_all_example(self):
         """Can we extract the correct court id from string and date?"""
@@ -68,6 +86,40 @@ class DataTest(CourtsDBTestCase):
             ["micirct37cal"],
             michigan_court_ids,
             msg="Michican county court not found",
+        )
+
+        fayette_county = find_court("Fayette County Court of Common Pleas")
+        self.assertEqual(
+            sorted(["pactcomplfayett", "ohctcomplfayett"]),
+            sorted(fayette_county),
+            msg="Courts not found",
+        )
+
+        fayette_county = find_court(
+            "Fayette County Court of Common Pleas", location="jibberish"
+        )
+        self.assertEqual(
+            [],
+            fayette_county,
+            msg="Courts not found",
+        )
+
+        fayette_county = find_court(
+            "Fayette County Court of Common Pleas", location="Ohio"
+        )
+        self.assertEqual(
+            ["ohctcomplfayett"],
+            fayette_county,
+            msg="Courts not found",
+        )
+
+        fayette_county = find_court(
+            "Fayette County Court of Common Pleas", location="Pennsylvania"
+        )
+        self.assertEqual(
+            ["pactcomplfayett"],
+            fayette_county,
+            msg="Courts not found",
         )
 
 
@@ -132,6 +184,31 @@ class JsonTest(CourtsDBTestCase):
             len(court_ids), len(list(set(court_ids))), msg=c.most_common(10)
         )
 
+    def test_json_keys(self):
+        """Are courts have a citation string unique?"""
+        cites = [
+            row["id"]
+            for row in load_courts_db()
+            if row.get("citation_string", None) == None
+        ]
+        self.assertEqual(len(cites), 0, msg=cites)
+
+    def test_id_length(self):
+        """Make sure Id length does not exceed 15 characters"""
+        max_id_length = max([len(row["id"]) for row in load_courts_db()])
+        ids = []
+        if max_id_length > 15:
+            print(
+                "Ids are longer than 15 characters. This is not allowed. "
+                "Please update the id to be 15 characters or less."
+            )
+            ids = [
+                row["id"] for row in load_courts_db() if len(row["id"]) > 15
+            ]
+        self.assertLessEqual(
+            max_id_length, 15, msg=f"#{len(ids)}: Ids longer than 15: {ids}"
+        )
+
 
 class LazyLoadTest(TestCase):
     def test_lazy_load(self):
@@ -144,6 +221,38 @@ class LazyLoadTest(TestCase):
             self.assertNotIn(attr, dir(courts_db))
             self.assertIsNotNone(getattr(courts_db, attr, None))
             self.assertIn(attr, dir(courts_db))
+
+
+class JSONBuildTest(TestCase):
+
+    json_name = "courts.json"
+
+    def setUp(self):
+        self.courts = load_courts_db()
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        """Preload json file and schema for validation."""
+        cls.json_path = (
+            Path(__file__).parent / "courts_db" / "data" / cls.json_name
+        )
+        cls.json_str = cls.json_path.read_text()
+        cls.json = json.loads(cls.json_str)
+
+
+class StructureTest(JSONBuildTest):
+    def test_json_format(self):
+        """Does format of json file match json.dumps(json.loads(), sort_keys=True)?"""
+        reformatted = json.dumps(
+            self.json,
+            indent=4,
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+        reformatted += "\n"
+        if self.json_str != reformatted:
+            self.json_path.write_text(reformatted)
+            self.fail("JSON file is not formatted correctly, Fixing...")
 
 
 if __name__ == "__main__":
