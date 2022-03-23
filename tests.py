@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import (
-    absolute_import,
-    division,
-    print_function,
-    unicode_literals,
-)
-
 import json
 import os
 import re
@@ -182,7 +174,7 @@ class JsonTest(CourtsDBTestCase):
                 pass
             id = re.search(self.id_regex, court).group("id")
             name = re.search(self.name_regex, court).group("name")
-            print("Issues with (%s) -- %s" % (id, name))
+            print(f"Issues with ({id}) -- {name}")
 
     def test_unique_ids(self):
         """Are all court ids unique?"""

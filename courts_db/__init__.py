@@ -1,15 +1,6 @@
-from __future__ import (
-    absolute_import,
-    division,
-    print_function,
-    unicode_literals,
-)
-
 import re
 from datetime import datetime
 from typing import List, Optional
-
-import six
 
 from courts_db.text_utils import strip_punc
 
@@ -58,9 +49,9 @@ def find_court_ids_by_name(
     """
     from . import regexes
 
-    assert (
-        type(court_str) == six.text_type
-    ), "court_str is not a text type, it's of type %s" % type(court_str)
+    assert isinstance(
+        court_str, str
+    ), f"court_str is not a text type, it's of type {type(court_str)}"
 
     court_matches = set()
     matches = []
@@ -114,7 +105,7 @@ def filter_courts_by_date(matches, date_found, strict_dates=False):
 
     assert (
         type(date_found) is datetime
-    ), "date_found is not a date object, it's of type %s" % type(date_found)
+    ), f"date_found is not a date object, it's of type {type(date_found)}"
 
     results = [court for court in courts if court["id"] in matches]
     filtered_results = []
