@@ -1,10 +1,9 @@
-from string import Template
+import json
+import os
+import re
 from glob import iglob
 from io import open
-
-import json
-import re
-import os
+from string import Template
 
 db_root = os.path.dirname(os.path.realpath(__file__))
 
@@ -37,7 +36,7 @@ def load_courts_db():
 
     for path in iglob(os.path.join(db_root, "data", "places", "*.txt")):
         with open(path, "r") as p:
-            places = "(%s)" % "|".join(p.read().splitlines())
+            places = f"({'|'.join(p.read().splitlines())})"
             variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
     with open(os.path.join(db_root, "data", "courts.json"), "r") as f:

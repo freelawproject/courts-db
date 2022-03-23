@@ -1,16 +1,9 @@
-# -*- coding: utf-8 -*-
-from __future__ import (
-    absolute_import,
-    division,
-    print_function,
-    unicode_literals,
-)
-
 import json
 import os
 import re
 import sys
 import unittest
+from collections import Counter
 from io import open
 from json.decoder import JSONDecodeError
 from unittest import TestCase
@@ -18,8 +11,6 @@ from unittest import TestCase
 from courts_db import find_court
 from courts_db.text_utils import strip_punc
 from courts_db.utils import db_root, load_courts_db
-
-from collections import Counter
 
 
 class CourtsDBTestCase(TestCase):
@@ -131,7 +122,7 @@ class JsonTest(CourtsDBTestCase):
                 pass
             id = re.search(self.id_regex, court).group("id")
             name = re.search(self.name_regex, court).group("name")
-            print("Issues with (%s) -- %s" % (id, name))
+            print(f"Issues with ({id}) -- {name}")
 
     def test_unique_ids(self):
         """Are all court ids unique?"""
