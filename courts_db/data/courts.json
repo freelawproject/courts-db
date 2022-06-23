@@ -2570,7 +2570,8 @@
             "Court Of Chancery Of Delaware",
             "Court Of Chancery Of (The) ?State Of Delaware",
             "Court Of Chancery Of State Of Delaware",
-            "Court Of Chancery Delaware"
+            "Court Of Chancery Delaware",
+            "Delaware Court of Chancery"
         ],
         "system": "state",
         "type": "non-trial"
@@ -9766,7 +9767,8 @@
             "Maine ${sjc}",
             "Supreme Judicial Court Of Maine Eastern District Washington County",
             "Supreme Judicial Court Of Maine For The Eastern District Washington County",
-            "Supreme Court of Maine"
+            "Supreme Court of Maine",
+            "Maine Supreme Judicial Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -21366,13 +21368,16 @@
                 "start": "1889-11-02"
             }
         ],
-        "examples": [],
+        "examples": [
+            "U.S. District Court, North Dakota"
+        ],
         "id": "ndd",
         "level": "",
         "location": "North Dakota",
         "name": "District Court, D. North Dakota",
         "regex": [
-            "${usdc} ${d} North Dakota"
+            "${usdc} ${d} North Dakota",
+            "${usdc} ${nd}"
         ],
         "system": "federal",
         "type": "appellate"
@@ -33835,7 +33840,6 @@
             "Pennsylvania County Court",
             "Pennsylvania Court of Common Pleas",
             "Court of Common Pleas",
-            "Commonwealth Court of Pennsylvania",
             "Pennsylvania District and County Reports"
         ],
         "system": "state",
@@ -36149,7 +36153,8 @@
         "name": "Supreme Court of Rhode Island",
         "regex": [
             "Supreme Court,? ?(of)? Rhode Island ?(Washington)?",
-            "(State Of)? ?Rhode Island Supreme Court"
+            "(State Of)? ?Rhode Island Supreme Court",
+            "Supreme Court of Rhode Island"
         ],
         "system": "state",
         "type": "appellate"
@@ -40090,7 +40095,8 @@
             }
         ],
         "examples": [
-            "United States District Court District Of Wyoming"
+            "United States District Court District Of Wyoming",
+            "U.S. District Court, Wyoming"
         ],
         "id": "wyd",
         "level": "gjc",
