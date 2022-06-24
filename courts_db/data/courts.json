@@ -10195,6 +10195,26 @@
         "type": "appellate"
     },
     {
+        "citation_string": "Super. Ct. Jud.",
+        "dates": [
+            {
+                "end": "1776-12-31",
+                "start": "1761-01-01"
+            }
+        ],
+        "examples": [
+            "Superior Court of Judicature of the Province of Massachusetts Bay"
+        ],
+        "id": "superctjudmass",
+        "level": "colr",
+        "location": "Massachusetts",
+        "name": "Superior Court of Judicature of the Province of Massachusetts Bay",
+        "name_abbreviation": "Super. Ct. Jud. Mass. Bay",
+        "regex": [],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
         "case_types": [],
         "citation_string": "D. Mass.",
         "court_url": "http://www.mad.uscourts.gov/",
