@@ -2764,7 +2764,8 @@
         ],
         "examples": [
             "Orphans Court Of Delaware",
-            "Delaware Orphans Court"
+            "Delaware Orphans Court",
+            "Delaware Orphans' Court"
         ],
         "id": "delorphct",
         "level": "",
@@ -2772,7 +2773,8 @@
         "name": "Orphans Court Of Delaware",
         "regex": [
             "Orphans Court Of Delaware",
-            "Delaware Orphans Court"
+            "Delaware Orphans Court",
+            "Delaware Orphans' Court"
         ],
         "system": "state",
         "type": null
