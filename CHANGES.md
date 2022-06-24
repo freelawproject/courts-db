@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.0 (2022-03-23): Drop dependency on six and remove py2 shims
+- 0.10.3 (2022-03-23): Update code
 
 ## Past Versions
+
+- 0.10.0 (2022-03-23): Drop dependency on six and remove py2 shims
 
 - 0.9.46 (2022-02-17): Minor changes to various NY Courts
 
