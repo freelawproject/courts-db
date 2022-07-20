@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.3 (2022-03-23): Update code
+- 0.10.4 (2022-07-20): Minor tweak
 
 ## Past Versions
+
+- 0.10.3 (2022-03-23): Update code
 
 - 0.10.0 (2022-03-23): Drop dependency on six and remove py2 shims
 
