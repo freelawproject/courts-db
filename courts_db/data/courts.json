@@ -10078,7 +10078,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "Mass. Land. Ct.",
         "dates": [
             {
                 "end": null,
@@ -10088,7 +10088,7 @@
         "examples": [
             "Massachusetts Land Court"
         ],
-        "id": "massland",
+        "id": "masslandct",
         "level": "ljc",
         "location": "Massachusetts",
         "name": "Massachusetts Land Court",
