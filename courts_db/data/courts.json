@@ -2538,7 +2538,8 @@
             "Supreme Court Of The State Of Delaware",
             "Court Of Errors And Appeals Delaware",
             "Court Of Errors And Appeals Of Delaware",
-            "High Court Of Errors And Appeals Of Delaware"
+            "High Court Of Errors And Appeals Of Delaware",
+            "Delaware Court of Errors and Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -11435,7 +11436,8 @@
         "location": "New Hampshire",
         "name": "Supreme Court of New Hampshire",
         "regex": [
-            "Supreme Court of New Hampshire"
+            "Supreme Court of New Hampshire",
+            "New Hampshire Supreme Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -36309,7 +36311,8 @@
         "name": "Supreme Court of South Carolina",
         "regex": [
             "Supreme Court of South Carolina",
-            "State of South Carolina Supreme Court"
+            "State of South Carolina Supreme Court",
+            "South Carolina Supreme Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -39718,7 +39721,8 @@
         "location": "Washington D.C.",
         "name": "United States Board of Tax Appeals",
         "regex": [
-            "United States Board of Tax Appeals"
+            "United States Board of Tax Appeals",
+            "Board of Tax Appeals"
         ],
         "system": "federal",
         "type": "appellate"
