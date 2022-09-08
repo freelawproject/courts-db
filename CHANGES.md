@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.4 (2022-07-20): Minor tweak
+- 0.10.5 (2022-09-08): Add variation conn app
 
 ## Past Versions
+
+- 0.10.4 (2022-07-20): Minor tweak
 
 - 0.10.3 (2022-03-23): Update code
 

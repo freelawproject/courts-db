@@ -2384,7 +2384,8 @@
             }
         ],
         "examples": [
-            "Appellate Court Of Connecticut"
+            "Appellate Court Of Connecticut",
+            "Connecticut Appellate Court"
         ],
         "id": "connappct",
         "jurisdiction": "C.T.",
@@ -2397,7 +2398,8 @@
             "Connecticut ${coa}",
             "${coa} Connecticut",
             "Appellate Court Of Connecticut",
-            "State Of Connecticut Circuit Court Appellate Division"
+            "State Of Connecticut Circuit Court Appellate Division",
+            "Connecticut Appellate Court"
         ],
         "system": "state",
         "type": "appellate"
