@@ -2401,7 +2401,8 @@
             "${coa} Connecticut",
             "Appellate Court Of Connecticut",
             "State Of Connecticut Circuit Court Appellate Division",
-            "Connecticut Appellate Court"
+            "Connecticut Appellate Court",
+            "Connecticut Circuit Court"
         ],
         "system": "state",
         "type": "appellate"
