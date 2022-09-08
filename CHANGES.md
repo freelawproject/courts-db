@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.7 (2022-09-08): Add variation connapp
+- 0.10.8 (2022-09-08): Add variation indiana tax court to match cl
 
 ## Past Versions
+
+- 0.10.7 (2022-09-08): Add variation connapp
 
 - 0.10.6 (2022-09-08): Add variation akd, others.
 
