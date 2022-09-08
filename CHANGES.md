@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.5 (2022-09-08): Add variation conn app
+- 0.10.6 (2022-09-08): Add variation akd, others.
 
 ## Past Versions
+
+- 0.10.5 (2022-09-08): Add variation conn app
 
 - 0.10.4 (2022-07-20): Minor tweak
 

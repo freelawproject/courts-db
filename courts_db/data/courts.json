@@ -497,7 +497,7 @@
         "dates": [
             {
                 "end": null,
-                "start": null
+                "start": "1959-01-01"
             }
         ],
         "examples": [],
@@ -608,13 +608,14 @@
         "dates": [
             {
                 "end": null,
-                "start": "1958-07-07"
+                "start": "1888-01-01"
             }
         ],
         "examples": [
             "United States District Court District Of Alaska First Division",
             "District Court Territory Of Alaska",
-            "United States District Court Territory Of Alaska"
+            "United States District Court Territory Of Alaska",
+            "Alaska District Court"
         ],
         "federal_circuit": 9,
         "id": "akd",
@@ -631,7 +632,8 @@
             "${d} ?(D)? ?Territory Of Alaska",
             "${usdc} Territory Of Alaska",
             "United States District Court For The Northern District Of Alaska",
-            "United States District Court At Anchorage District Of Alaska"
+            "United States District Court At Anchorage District Of Alaska",
+            "Alaska District Court"
         ],
         "system": "federal",
         "type": "trial"
