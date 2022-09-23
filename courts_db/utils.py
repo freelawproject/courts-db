@@ -7,12 +7,13 @@ from string import Template, punctuation
 
 db_root = os.path.dirname(os.path.realpath(__file__))
 
+ordinals = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'nineth', 'tenth', 'eleventh', 'twelveth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth', 'seventeenth', 'eighteenth', 'nineteenth', 'twentieth', 'twenty(-| )first', 'twenty(-| )secondth', 'twenty(-| )third', 'twenty(-| )fourth', 'twenty(-| )fifth', 'twenty(-| )sixth', 'twenty(-| )seventh', 'twenty(-| )eighth', 'twenty(-| )nineth', 'thirtieth', 'thirty(-| )first', 'thirty(-| )secondth', 'thirty(-| )third', 'thirty(-| )fourth', 'thirty(-| )fifth', 'thirty(-| )sixth', 'thirty(-| )seventh', 'thirty(-| )eighth', 'thirty(-| )nineth', 'fortieth', 'fourty(-| )first', 'fourty(-| )secondth', 'fourty(-| )third', 'fourty(-| )fourth', 'fourty(-| )fifth', 'fourty(-| )sixth', 'fourty(-| )seventh', 'fourty(-| )eighth', 'fourty(-| )nineth', 'fiftieth', 'fifty(-| )first', 'fifty(-| )secondth', 'fifty(-| )third', 'fifty(-| )fourth', 'fifty(-| )fifth', 'fifty(-| )sixth', 'fifty(-| )seventh', 'fifty(-| )eighth', 'fifty(-| )nineth', 'sixtieth', 'sixty(-| )first', 'sixty(-| )secondth', 'sixty(-| )third', 'sixty(-| )fourth', 'sixty(-| )fifth', 'sixty(-| )sixth', 'sixty(-| )seventh', 'sixty(-| )eighth', 'sixty(-| )nineth', 'seventieth', 'seventy(-| )first', 'seventy(-| )secondth', 'seventy(-| )third', 'seventy(-| )fourth', 'seventy(-| )fifth', 'seventy(-| )sixth', 'seventy(-| )seventh', 'seventy(-| )eighth', 'seventy(-| )nineth', 'eightieth', 'eighty(-| )first', 'eighty(-| )secondth', 'eighty(-| )third', 'eighty(-| )fourth', 'eighty(-| )fifth', 'eighty(-| )sixth', 'eighty(-| )seventh', 'eighty(-| )eighth', 'eighty(-| )nineth', 'ninetieth', 'ninety(-| )first', 'ninety(-| )secondth', 'ninety(-| )third', 'ninety(-| )fourth', 'ninety(-| )fifth', 'ninety(-| )sixth', 'ninety(-| )seventh', 'ninety(-| )eighth', 'ninety(-| )nineth', 'one[- ]hundredth']
 
-def get_court_data_from_ids(id_list):
-    cd = {}
-    for id in id_list:
-        cd[id] = court
-    return cd
+# def get_court_data_from_ids(id_list):
+#     cd = {}
+#     for id in id_list:
+#         cd[id] = court
+#     return cd
 
 
 def make_court_dictionary(courts):
@@ -39,8 +40,17 @@ def load_courts_db():
             places = f"({'|'.join(p.read().splitlines())})"
             variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
+    # Add in code to allow ordinal creation for many many judicial district numbers
+    # for example 1 to 56 judicial districts
     with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
-        s = Template(f.read()).substitute(**variables)
+        temp = f.read()
+        ord_arrays = re.findall(r"\${(\d+)-(\d+)}", temp)
+        for ord in ord_arrays:
+            re_ord = f"(({')|('.join(ordinals[int(ord[0])-1: int(ord[1])])}))"
+            temp = temp.replace(f"${{{ord[0]}-{ord[1]}}}", re_ord)
+
+    with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
+        s = Template(temp).substitute(**variables)
     s = s.replace("\\", "\\\\")
     data = json.loads(s)
 
