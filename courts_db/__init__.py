@@ -39,7 +39,10 @@ def __getattr__(name):
 
 
 def find_court_ids_by_name(
-    court_str: str, bankruptcy: Optional[bool], location: Optional[str]
+    court_str: str,
+    bankruptcy: Optional[bool],
+    location: Optional[str],
+    allow_partial_matches: bool,
 ) -> List[str]:
     """Find court IDs with our courts-db regex list
 
@@ -68,6 +71,9 @@ def find_court_ids_by_name(
                 continue
         match = re.search(regex, court_str)
         if match:
+            if not allow_partial_matches:
+                if len(court_str) != match.span()[1] - match.span()[0]:
+                    continue
             m = (match.group(0), court_id)
             matches.append(m)
     # If no matches found - check against - Court Name - not regex patterns.
@@ -179,19 +185,23 @@ def find_court(
     date_found: Optional[datetime] = None,
     strict_dates: Optional[bool] = False,
     location: Optional[str] = None,
-):
+    allow_partial_matches: Optional[bool] = False,
+) -> List[str]:
     """Finds a list of court ID for a given string and parameters
 
     :param court_str: The unicode string we are testing
     :param bankruptcy: Tells function to exclude or include bankruptcy cases
     :param date_found: Date object
-    :param strict_dates: Boolean that helps tell the sytsem how to handle
+    :param strict_dates: Boolean that helps tell the system how to handle
     :param location: Where the court is located.
-    null dates in courts-db
+    :allow_partial_matches: Allow partial string matches useful if given a sent.
     :return: List of court IDs if any
     """
     court_str = strip_punc(court_str)
-    matches = find_court_ids_by_name(court_str, bankruptcy, location)
+    matches = find_court_ids_by_name(
+        court_str, bankruptcy, location, allow_partial_matches
+    )
+    # print(matches)
 
     # Check bankruptcy cases if appropriate
     if bankruptcy is not None:
