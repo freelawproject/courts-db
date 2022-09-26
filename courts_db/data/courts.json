@@ -54999,7 +54999,8 @@
         "notes": "",
         "regex": [
             "State Commission in Lunacy",
-            "New York State Hospital Commission"
+            "New York State Hospital Commission",
+            "New York State Commission in Lunacy"
         ],
         "system": "state",
         "type": "appellate"
