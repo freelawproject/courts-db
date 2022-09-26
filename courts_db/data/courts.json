@@ -1026,7 +1026,9 @@
             "Supreme Court Territory of Arkansas",
             "Superior Court Territory (of)? ?Arkansas",
             "Superior Court of Arkansas",
-            "Superior Court D Arkansas"
+            "Superior Court D Arkansas",
+            "Superior Court of the Territory of Arkansas",
+            "Arkansas Superior Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -7677,6 +7679,52 @@
         "name_abbreviation": null,
         "regex": [
             "Georgia Superior Courts"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pike Superior Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctpike",
+        "parent": "gasuperct",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Pike Superior Court, Ga.",
+        "name_abbreviation": null,
+        "regex": [
+            "Pike Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Houston Superior Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercthouston",
+        "parent": "gasuperct",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Houston Superior Court, Ga.",
+        "name_abbreviation": null,
+        "regex": [
+            "Houston Superior Court"
         ],
         "system": "state",
         "type": "trial"
@@ -14885,7 +14933,8 @@
         "name": "Pennsylvania Orphans' Court",
         "notes": "",
         "regex": [
-            "Pennsylvania Orphans' Court"
+            "Pennsylvania Orphans' Court",
+            "Orphans' Court"
         ],
         "system": "state",
         "type": "trial"
@@ -22651,7 +22700,8 @@
             "New York Supreme Court, General Term",
             "New York Supreme Court, Special Term",
             "New York Supreme Court",
-            "New York Supreme Court (other)"
+            "New York Supreme Court (other)",
+            "Supreme Court, Trial Term, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -36869,7 +36919,8 @@
             "Alleghany County Court of Common Pleas",
             "Allegheny County Court",
             "Allegheny County Court of Common Pleas",
-            "Alleghany County District Court"
+            "Alleghany County District Court",
+            "Allegheny County Commonwealth Court"
         ],
         "system": "state",
         "type": "trial"
@@ -40559,6 +40610,7 @@
         "dates": [
             {
                 "end": null,
+                "notes": "Clifton Forge 1906–2001",
                 "start": null
             }
         ],
@@ -40569,7 +40621,8 @@
         "name": "Alleghany County Circuit Court",
         "parent": "vacc",
         "regex": [
-            "Alleghany (County)? ?Circuit Court"
+            "Alleghany (County)? ?Circuit Court",
+            "Clifton Forge Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -42827,8 +42880,14 @@
         "citation_string": "Virginia Beach Cir. Ct.",
         "dates": [
             {
+                "end": "1962-12-31",
+                "notes": "Merged with Princess Anne County in 1963",
+                "start": "1691-01-01"
+            },
+            {
                 "end": null,
-                "start": null
+                "notes": "Merged with Princess Anne County in 1963",
+                "start": "1963-01-01"
             }
         ],
         "examples": [],
@@ -42838,7 +42897,8 @@
         "name": "Virginia Beach County Circuit Court",
         "parent": "vacc",
         "regex": [
-            "Virginia Beach (County)? ?Circuit Court"
+            "Virginia Beach (County)? ?Circuit Court",
+            "Princess Anne County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -42944,7 +43004,8 @@
         "parent": "vacc",
         "regex": [
             "Williamsburg and James (County)? ?Circuit Court",
-            "Williamsburg and James City County Circuit Court"
+            "Williamsburg and James City County Circuit Court",
+            "Williamsburg Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -43028,7 +43089,8 @@
         "name": "York County Poquoson County Circuit Court",
         "parent": "vacc",
         "regex": [
-            "York County Poquoson ?Circuit Court"
+            "York County Poquoson ?Circuit Court",
+            "Poquoson and York County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45217,7 +45279,29 @@
         "regex": [
             "Court of Quarter Sessions of New Jersey",
             "Court of Special Sessions of New Jersey",
-            "Quarter Sessions New Jersey",
+            "Quarter Sessions New Jersey"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1947-12-31",
+                "start": "1675-01-01"
+            }
+        ],
+        "examples": [
+            "Essex County Court of Quarter Sessions"
+        ],
+        "id": "njqrtsessessex",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "Essex County Court of Quarter Sessions of New Jersey",
+        "regex": [
+            "Essex County Court of Quarter Sessions",
             "Court of Quarter Sessions Essex County New Jersey"
         ],
         "system": "state",
@@ -47566,6 +47650,28 @@
             "Circuit Court D South Carolina",
             "Circuit Court S D South Carolina",
             "United States Circuit Court for the District of South Carolina"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+  {
+        "active": false,
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1911-12-31",
+                "start": "1789-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "circtedsc",
+        "level": "iac",
+        "location": "South Carolina",
+        "name": "United States Circuit Court for the Eastern District of South Carolina",
+        "name_abbreviation": "South Carolina. Cir. Ct",
+        "parent": "uscirct",
+        "regex": [
         ],
         "system": "federal",
         "type": "appellate"
@@ -51167,7 +51273,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court W D Va",
-            "Circuit Court W D Virginia"
+            "Circuit Court W D Virginia",
+            "United States Circuit Court for the Western District of Virginia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -54906,6 +55013,84 @@
             "District Court United States"
         ],
         "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. St. Hosp. Comm'n",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1912-12-31",
+                "notes": "State Commission in Lunacy",
+                "start": "1895-01-01"
+            },
+            {
+                "end": "1912-12-31",
+                "start": "1895-01-01"
+            }
+        ],
+        "examples": [
+            "State Commission in Lunacy",
+            "New York State Hospital Commission"
+        ],
+        "id": "nyhospcommn",
+        "jurisdiction": "N.Y.",
+        "level": "",
+        "location": "New York",
+        "name": "New York State Hospital Commission",
+        "notes": "",
+        "regex": [
+            "State Commission in Lunacy",
+            "New York State Hospital Commission"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Committee of the Privy Council",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+        ],
+        "id": "privycoun",
+        "jurisdiction": "U.S.",
+        "level": "",
+        "location": "United States",
+        "name": "Committee of the Privy Council",
+        "notes": "See: https://www.jstor.org/stable/2141347?seq=3#metadata_info_tab_contents",
+        "regex": [],
+        "system": "colonial",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "New Hampshire Committee of the Privy Council",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1982-12-31",
+                "notes": "Appeals allowed if dispute greater than £100",
+                "start": "1686-01-01"
+            }
+        ],
+        "examples": [
+        ],
+        "id": "nhprivycounnh",
+        "parent": "privycoun",
+        "jurisdiction": "N.H.",
+        "level": "",
+        "location": "United States",
+        "name": "New Hampshire Committee of the Privy Council",
+        "notes": "See: https://www.jstor.org/stable/2141347?seq=3#metadata_info_tab_contents",
+        "regex": [],
+        "system": "colonial",
         "type": "appellate"
     }
 ]
