@@ -7694,12 +7694,12 @@
         ],
         "examples": [],
         "id": "gasuperctpike",
-        "parent": "gasuperct",
         "jurisdiction": "G.A.",
         "level": "gjc",
         "location": "Georgia",
         "name": "Pike Superior Court, Ga.",
         "name_abbreviation": null,
+        "parent": "gasuperct",
         "regex": [
             "Pike Superior Court"
         ],
@@ -7716,13 +7716,13 @@
             }
         ],
         "examples": [],
-        "id": "gasupercthouston",
-        "parent": "gasuperct",
+        "id": "gasupercthous",
         "jurisdiction": "G.A.",
         "level": "gjc",
         "location": "Georgia",
         "name": "Houston Superior Court, Ga.",
         "name_abbreviation": null,
+        "parent": "gasuperct",
         "regex": [
             "Houston Superior Court"
         ],
@@ -8000,7 +8000,7 @@
         "system": "state",
         "type": "appellate"
     },
-   {
+    {
         "case_types": [],
         "citation_string": "",
         "dates": [
@@ -8018,7 +8018,7 @@
         "system": "state",
         "type": "trial"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "",
         "dates": [
@@ -8882,7 +8882,7 @@
         "location": "Massachusetts",
         "name": "Massachusetts Appellate Tax Board",
         "regex": [
-          "Massachusetts Appellate Tax Board"
+            "Massachusetts Appellate Tax Board"
         ],
         "system": "state",
         "type": "appellate"
@@ -9681,7 +9681,9 @@
         "type": "appellate"
     },
     {
-        "case_types": ["criminal appeals"],
+        "case_types": [
+            "criminal appeals"
+        ],
         "citation_string": "",
         "dates": [
             {
@@ -10208,32 +10210,11 @@
             }
         ],
         "examples": [],
-        "id": "masssuperct",
-        "level": "",
-        "location": "Massachusetts",
-        "name": "Massachusetts Housing Court",
-        "regex": [
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Mass. Hous. Ct.",
-        "court_url": "https://www.mass.gov/orgs/housing-court",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [],
         "id": "mahousct",
         "level": "ljc",
         "location": "Massachusetts",
         "name": "Massachusetts Housing Court",
-        "regex": [
-        ],
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -10252,8 +10233,7 @@
         "level": "ljc",
         "location": "Massachusetts",
         "name": "Massachusetts Probate and Family Court",
-        "regex": [
-        ],
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -11890,15 +11870,13 @@
                 "start": "1947-01-01"
             }
         ],
-        "examples": [
-        ],
+        "examples": [],
         "id": "njsuperctappdiv",
         "level": "",
         "location": "New Jersey",
         "name": "New Jersey Superior Court Appellate Division",
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
-        "regex": [
-        ],
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -13364,7 +13342,7 @@
         "system": "state",
         "type": "trial"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "Atlantic Cty. Surr. Ct.",
         "dates": [
@@ -19424,10 +19402,12 @@
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Essex County Court",
+        "name": "Essex County Court, N.Y.",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "Essex County Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -40529,8 +40509,7 @@
                 "start": null
             }
         ],
-        "examples": [
-        ],
+        "examples": [],
         "id": "vacc",
         "level": "gjc",
         "location": "Virginia",
@@ -41721,27 +41700,6 @@
     },
     {
         "case_types": [],
-        "citation_string": " Cir. Ct.",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [],
-        "id": "vacc",
-        "level": "gjc",
-        "location": "Virginia",
-        "name": " County Circuit Court",
-        "parent": "vacc",
-        "regex": [
-            " (County)? ?Circuit Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
         "citation_string": "King and Queen Cir. Ct.",
         "dates": [
             {
@@ -42485,7 +42443,7 @@
             }
         ],
         "examples": [],
-        "id": "vaccrichmondcity",
+        "id": "vaccrichcity",
         "level": "gjc",
         "location": "Virginia",
         "name": "Richmond City Circuit Court",
@@ -43135,8 +43093,7 @@
         "location": "Virginia",
         "name": "Virginia Chancery Court",
         "notes": "https://en.wikipedia.org/wiki/Virginia_Court_of_Chancery",
-        "regex": [
-        ],
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -43164,7 +43121,7 @@
         "system": "state",
         "type": "trial"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "",
         "dates": [
@@ -47654,7 +47611,7 @@
         "system": "federal",
         "type": "appellate"
     },
-  {
+    {
         "active": false,
         "case_types": [],
         "citation_string": "",
@@ -47671,8 +47628,7 @@
         "name": "United States Circuit Court for the Eastern District of South Carolina",
         "name_abbreviation": "South Carolina. Cir. Ct",
         "parent": "uscirct",
-        "regex": [
-        ],
+        "regex": [],
         "system": "federal",
         "type": "appellate"
     },
@@ -55057,8 +55013,7 @@
                 "start": null
             }
         ],
-        "examples": [
-        ],
+        "examples": [],
         "id": "privycoun",
         "jurisdiction": "U.S.",
         "level": "",
@@ -55080,15 +55035,14 @@
                 "start": "1686-01-01"
             }
         ],
-        "examples": [
-        ],
+        "examples": [],
         "id": "nhprivycounnh",
-        "parent": "privycoun",
         "jurisdiction": "N.H.",
         "level": "",
         "location": "United States",
         "name": "New Hampshire Committee of the Privy Council",
         "notes": "See: https://www.jstor.org/stable/2141347?seq=3#metadata_info_tab_contents",
+        "parent": "privycoun",
         "regex": [],
         "system": "colonial",
         "type": "appellate"
