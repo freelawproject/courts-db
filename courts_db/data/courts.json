@@ -1622,7 +1622,8 @@
         "regex": [
             "Court of Appeal, First Appellate District",
             "Court of Appeal, First District, California",
-            "Court of Appeal, First District, Division [1-5], California"
+            "Court of Appeal, First District, Division [1-5], California",
+            "California Court of Appeal, First Appellate District"
         ],
         "system": "state",
         "type": "appellate"
@@ -2389,6 +2390,7 @@
             "State of Connecticut Superior Court",
             "Superior Court Housing Session of Connecticut",
             "Superior Court Connecticut",
+            "Connecticut City Court",
             "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford"
         ],
         "system": "state",
@@ -2591,14 +2593,15 @@
         "name_abbreviation": null,
         "notes": null,
         "regex": [
-            "Court of Chancery of Delware Kent County",
+            "Court of Chancery of Delware ?(Kent County)?",
             "Court of Chancery of Delaware",
-            "Court of Chancery of (The) ?State of Delaware",
+            "Court of Chancery of (The)? ?State of Delaware",
             "Court of Chancery of State of Delaware",
-            "Court of Chancery Delaware"
+            "Court of Chancery Delaware",
+            "Delaware Court of Chambers"
         ],
         "system": "state",
-        "type": "non-trial"
+        "type": "appellate"
     },
     {
         "active": false,
@@ -3930,7 +3933,8 @@
         "name": "Pinellas County Civil and Criminal Court of Record",
         "parent": "flactyctrec",
         "regex": [
-            "Pinellas County Civil Court of Record"
+            "Pinellas County Civil Court of Record",
+            "Pinellas County Civil and Criminal Court of Record"
         ],
         "system": "state",
         "type": "trial"
@@ -4892,7 +4896,8 @@
         "name": "Miami-Dade County Court",
         "parent": "flactyct",
         "regex": [
-            "Dade County Court"
+            "Dade County Court",
+            "Miami-Dade County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -5075,7 +5080,9 @@
         "location": "Florida",
         "name": "Pinellas County Court",
         "parent": "flactyct",
-        "regex": [],
+        "regex": [
+            "Pinellas County Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -8078,7 +8085,9 @@
         "location": "Guam",
         "locations": 1,
         "name": "Superior Court of Guam",
-        "regex": [],
+        "regex": [
+            "Superior Court of Guam"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -8637,6 +8646,25 @@
             "Court of Claims of Illinois",
             "Illinois Court of Claims"
         ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "illcirct",
+        "level": "",
+        "location": "Illinois",
+        "name": "Illinois Circuit Court",
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -9510,6 +9538,3985 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Courts",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "regex": [
+            "Kentucky Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 1",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct1",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 1",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ballard Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctballard",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Ballard Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct1",
+        "regex": [
+            "Ballard Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carlisle Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcarlisle",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Carlisle Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct1",
+        "regex": [
+            "Carlisle Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fulton Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctfulton",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Fulton Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct1",
+        "regex": [
+            "Fulton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hickman Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthickman",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Hickman Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct1",
+        "regex": [
+            "Hickman Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 2",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct2",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 2",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "McCracken Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmccracke",
+        "level": "",
+        "location": "Kentucky",
+        "name": "McCracken Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct2",
+        "regex": [
+            "McCracken Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 3",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct3",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 3",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Christian Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctchristia",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Christian Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct3",
+        "regex": [
+            "Christian Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 4",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct4",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 4",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hopkins Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthopkins",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Hopkins Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct4",
+        "regex": [
+            "Hopkins Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 5",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct5",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 5",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Crittenden Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcrittend",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Crittenden Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct5",
+        "regex": [
+            "Crittenden Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Webster Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwebster",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Webster Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct5",
+        "regex": [
+            "Webster Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Union Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctunion",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Union Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct5",
+        "regex": [
+            "Union Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 6",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct6",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 6",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Daviess Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctdaviess",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Daviess Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct6",
+        "regex": [
+            "Daviess Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 7",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct7",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 7",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Logan Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlogan",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Logan Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct7",
+        "regex": [
+            "Logan Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Todd Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircttodd",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Todd Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct7",
+        "regex": [
+            "Todd Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 8",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct8",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 8",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Warren Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwarren",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Warren Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct8",
+        "regex": [
+            "Warren Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 9",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct9",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 9",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hardin Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthardin",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Hardin Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct9",
+        "regex": [
+            "Hardin Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 10",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct10",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 10",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hart Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthart",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Hart Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct10",
+        "regex": [
+            "Hart Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "LaRue Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlarue",
+        "level": "",
+        "location": "Kentucky",
+        "name": "LaRue Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct10",
+        "regex": [
+            "LaRue Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Nelson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctnelson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Nelson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct10",
+        "regex": [
+            "Nelson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 11",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct11",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 11",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Green Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgreen",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Green Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct11",
+        "regex": [
+            "Green Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Marion Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmarion",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Marion Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct11",
+        "regex": [
+            "Marion Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Taylor Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircttaylor",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Taylor Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct11",
+        "regex": [
+            "Taylor Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Washington Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwashingt",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Washington Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct11",
+        "regex": [
+            "Washington Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 12",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct12",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 12",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oldham Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctoldham",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Oldham Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct12",
+        "regex": [
+            "Oldham Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Henry Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthenry",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Henry Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct12",
+        "regex": [
+            "Henry Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Trimble Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircttrimble",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Trimble Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct12",
+        "regex": [
+            "Trimble Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 13",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct13",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 13",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Garrard Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgarrard",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Garrard Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct13",
+        "regex": [
+            "Garrard Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jessamine Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctjessamin",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Jessamine Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct13",
+        "regex": [
+            "Jessamine Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 14",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct14",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 14",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bourbon Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbourbon",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Bourbon Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct14",
+        "regex": [
+            "Bourbon Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Scott Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctscott",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Scott Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct14",
+        "regex": [
+            "Scott Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Woodford Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwoodford",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Woodford Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct14",
+        "regex": [
+            "Woodford Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 15",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct15",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 15",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carroll Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcarroll",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Carroll Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct15",
+        "regex": [
+            "Carroll Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Grant Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgrant",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Grant Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct15",
+        "regex": [
+            "Grant Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Owen Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctowen",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Owen Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct15",
+        "regex": [
+            "Owen Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 16",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct16",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 16",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Kenton Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctkenton",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kenton Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct16",
+        "regex": [
+            "Kenton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 17",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct17",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 17",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Campbell Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcampbell",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Campbell Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct17",
+        "regex": [
+            "Campbell Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 18",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct18",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 18",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Harrison Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctharrison",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Harrison Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct18",
+        "regex": [
+            "Harrison Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Nicholas Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctnicholas",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Nicholas Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct18",
+        "regex": [
+            "Nicholas Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pendleton Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctpendleto",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Pendleton Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct18",
+        "regex": [
+            "Pendleton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Robertson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctrobertso",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Robertson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct18",
+        "regex": [
+            "Robertson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 19",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct19",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 19",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bracken Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbracken",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Bracken Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct19",
+        "regex": [
+            "Bracken Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fleming Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctfleming",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Fleming Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct19",
+        "regex": [
+            "Fleming Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mason Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmason",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Mason Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct19",
+        "regex": [
+            "Mason Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 20",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct20",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 20",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Greenup Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgreenup",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Greenup Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct20",
+        "regex": [
+            "Greenup Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lewis Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlewis",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Lewis Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct20",
+        "regex": [
+            "Lewis Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 21",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct21",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 21",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bath Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbath",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Bath Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct21",
+        "regex": [
+            "Bath Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Menifee Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmenifee",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Menifee Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct21",
+        "regex": [
+            "Menifee Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Montgomery Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmontgome",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Montgomery Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct21",
+        "regex": [
+            "Montgomery Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Rowan Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctrowan",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Rowan Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct21",
+        "regex": [
+            "Rowan Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 22",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct22",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 22",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Fayette Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctfayette",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Fayette Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct22",
+        "regex": [
+            "Fayette Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 23",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct23",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 23",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Estill Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctestill",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Estill Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct23",
+        "regex": [
+            "Estill Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lee Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlee",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Lee Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct23",
+        "regex": [
+            "Lee Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Owsley Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctowsley",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Owsley Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct23",
+        "regex": [
+            "Owsley Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 24",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct24",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 24",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Johnson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctjohnson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Johnson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct24",
+        "regex": [
+            "Johnson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lawrence Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlawrence",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Lawrence Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct24",
+        "regex": [
+            "Lawrence Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Martin Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmartin",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Martin Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct24",
+        "regex": [
+            "Martin Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 25",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct25",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 25",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clark Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctclark",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Clark Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct25",
+        "regex": [
+            "Clark Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Madison Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmadison",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Madison Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct25",
+        "regex": [
+            "Madison Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 26",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct26",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 26",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Harlan Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctharlan",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Harlan Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct26",
+        "regex": [
+            "Harlan Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 27",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct27",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 27",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Knox Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctknox",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Knox Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct27",
+        "regex": [
+            "Knox Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Laurel Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlaurel",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Laurel Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct27",
+        "regex": [
+            "Laurel Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 28",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct28",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 28",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Rockcastle Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctrockcast",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Rockcastle Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct28",
+        "regex": [
+            "Rockcastle Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pulaski Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctpulaski",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Pulaski Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct28",
+        "regex": [
+            "Pulaski Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lincoln Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlincoln",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Lincoln Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct28",
+        "regex": [
+            "Lincoln Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 29",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct29",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 29",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Adair Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctadair",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Adair Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct29",
+        "regex": [
+            "Adair Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Casey Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcasey",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Casey Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct29",
+        "regex": [
+            "Casey Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 30",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct30",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 30",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jefferson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctjefferso",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Jefferson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct30",
+        "regex": [
+            "Jefferson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 31",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct31",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 31",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Floyd Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctfloyd",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Floyd Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct31",
+        "regex": [
+            "Floyd Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 32",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct32",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 32",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Boyd Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctboyd",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Boyd Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct32",
+        "regex": [
+            "Boyd Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 33",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct33",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 33",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Perry Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctperry",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Perry Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct33",
+        "regex": [
+            "Perry Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 34",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct34",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 34",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "McCreary Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmccreary",
+        "level": "",
+        "location": "Kentucky",
+        "name": "McCreary Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct34",
+        "regex": [
+            "McCreary Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Whitley Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwhitley",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Whitley Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct34",
+        "regex": [
+            "Whitley Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 35",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct35",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 35",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Pike Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctpike",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Pike Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct35",
+        "regex": [
+            "Pike Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 36",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct36",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 36",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Knott Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctknott",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Knott Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct36",
+        "regex": [
+            "Knott Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Magoffin Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmagoffin",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Magoffin Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct36",
+        "regex": [
+            "Magoffin Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 37",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct37",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 37",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Carter Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcarter",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Carter Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct37",
+        "regex": [
+            "Carter Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Elliott Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctelliott",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Elliott Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct37",
+        "regex": [
+            "Elliott Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Morgan Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmorgan",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Morgan Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct37",
+        "regex": [
+            "Morgan Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 38",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct38",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 38",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Butler Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbutler",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Butler Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct38",
+        "regex": [
+            "Butler Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Edmonson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctedmonson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Edmonson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct38",
+        "regex": [
+            "Edmonson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hancock Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthancock",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Hancock Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct38",
+        "regex": [
+            "Hancock Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctohio",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Ohio Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct38",
+        "regex": [
+            "Ohio Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 39",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct39",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 39",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Breathitt Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbreathit",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Breathitt Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct39",
+        "regex": [
+            "Breathitt Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Powell Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctpowell",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Powell Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct39",
+        "regex": [
+            "Powell Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wolfe Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwolfe",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Wolfe Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct39",
+        "regex": [
+            "Wolfe Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 40",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct40",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 40",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Monroe Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmonroe",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Monroe Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct40",
+        "regex": [
+            "Monroe Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cumberland Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcumberla",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Cumberland Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct40",
+        "regex": [
+            "Cumberland Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clinton Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctclinton",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Clinton Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct40",
+        "regex": [
+            "Clinton Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 41",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct41",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 41",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clay Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctclay",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Clay Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct41",
+        "regex": [
+            "Clay Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Jackson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctjackson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Jackson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct41",
+        "regex": [
+            "Jackson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Leslie Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctleslie",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Leslie Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct41",
+        "regex": [
+            "Leslie Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 42",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct42",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 42",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Calloway Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcalloway",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Calloway Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct42",
+        "regex": [
+            "Calloway Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Marshall Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmarshall",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Marshall Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct42",
+        "regex": [
+            "Marshall Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 43",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct43",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 43",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Barren Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbarren",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Barren Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct43",
+        "regex": [
+            "Barren Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Metcalfe Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmetcalfe",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Metcalfe Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct43",
+        "regex": [
+            "Metcalfe Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 44",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct44",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 44",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bell Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbell",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Bell Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct44",
+        "regex": [
+            "Bell Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 45",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct45",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 45",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mclean Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmclean",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Mclean Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct45",
+        "regex": [
+            "Mclean Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Muhlenberg Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmuhlenbe",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Muhlenberg Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct45",
+        "regex": [
+            "Muhlenberg Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 46",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct46",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 46",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Breckinridge Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbreckinr",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Breckinridge Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct46",
+        "regex": [
+            "Breckinridge Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Grayson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgrayson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Grayson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct46",
+        "regex": [
+            "Grayson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Meade Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmeade",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Meade Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct46",
+        "regex": [
+            "Meade Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 47",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct47",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 47",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Letcher Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctletcher",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Letcher Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct47",
+        "regex": [
+            "Letcher Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 48",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct48",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 48",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Franklin Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctfranklin",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Franklin Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct48",
+        "regex": [
+            "Franklin Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 49",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct49",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 49",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Allen Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctallen",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Allen Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct49",
+        "regex": [
+            "Allen Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Simpson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctsimpson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Simpson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct49",
+        "regex": [
+            "Simpson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 50",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct50",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 50",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Boyle Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctboyle",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Boyle Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct50",
+        "regex": [
+            "Boyle Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mercer Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctmercer",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Mercer Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct50",
+        "regex": [
+            "Mercer Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 51",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct51",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 51",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Henderson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircthenderso",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Henderson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct51",
+        "regex": [
+            "Henderson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 52",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct52",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 52",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Graves Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgraves",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Graves Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct52",
+        "regex": [
+            "Graves Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 53",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct53",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 53",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Anderson Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctanderson",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Anderson Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct53",
+        "regex": [
+            "Anderson Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Shelby Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctshelby",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Shelby Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct53",
+        "regex": [
+            "Shelby Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Spencer Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctspencer",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Spencer Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct53",
+        "regex": [
+            "Spencer Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 54",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct54",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 54",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Boone Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctboone",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Boone Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct54",
+        "regex": [
+            "Boone Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Gallatin Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctgallatin",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Gallatin Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct54",
+        "regex": [
+            "Gallatin Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 55",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct55",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 55",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Bullitt Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctbullitt",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Bullitt Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct55",
+        "regex": [
+            "Bullitt Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 56",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct56",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 56",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Caldwell Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctcaldwell",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Caldwell Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct56",
+        "regex": [
+            "Caldwell Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Livingston Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlivingst",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Livingston Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct56",
+        "regex": [
+            "Livingston Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lyon Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctlyon",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Lyon Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct56",
+        "regex": [
+            "Lyon Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Trigg Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycircttrigg",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Trigg Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct56",
+        "regex": [
+            "Trigg Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ky. Circ. Ct., 57",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirct57",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Kentucky Circuit Court 57",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Russell Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctrussell",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Russell Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct57",
+        "regex": [
+            "Russell Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wayne Circ. Ct., Ky.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "kycirctwayne",
+        "level": "",
+        "location": "Kentucky",
+        "name": "Wayne Circuit Court, Kentucky",
+        "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
+        "parent": "kycirct57",
+        "regex": [
+            "Wayne Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -10407,6 +14414,30 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Brookline District Court"
+        ],
+        "id": "massdistctbrook",
+        "level": "gjc",
+        "location": "Massachusetts",
+        "name": "Brookline District Court",
+        "parent": "massdistct",
+        "regex": [
+            "Brookline Municipal Court",
+            "Brookline District Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Mass. Dist. Ct.",
         "court_url": "http://www.mass.gov/courts/court-info/trial-court/dc/",
         "dates": [
@@ -10474,7 +14505,9 @@
         "location": "Massachusetts",
         "name": "Massachusetts House of Representatives",
         "name_abbreviation": "Mass. House of Rep.",
-        "regex": [],
+        "regex": [
+            "Massachusetts House of Representatives"
+        ],
         "system": "state",
         "type": "special"
     },
@@ -10494,7 +14527,9 @@
         "location": "Massachusetts",
         "name": "Superior Court of Judicature of the Province of Massachusetts Bay",
         "name_abbreviation": "Super. Ct. Jud. Mass. Bay",
-        "regex": [],
+        "regex": [
+            "Superior Court of Judicature of the Province of Massachusetts Bay"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -11115,7 +15150,7 @@
             "Springfiel?d Court of appeals",
             "St Louis Court of Appeals Missouri",
             "Saint Louis Court of Appeals",
-            "St. Louis Court of Appeals",
+            "(St\\. )?Louis Court of Appeals",
             "State of Missouri St Louis Court of Appeals",
             "Court of Appeals? of Missouri",
             "Court of Appeals Kansas City Missouri",
@@ -11916,6 +15951,180 @@
     {
         "case_types": [],
         "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Jersey Special Statutory Court"
+        ],
+        "id": "njspecstatct",
+        "level": "",
+        "location": "New Jersey",
+        "name": "New Jersey Special Statutory Court",
+        "notes": "Need more information about this court.",
+        "regex": [
+            "New Jersey Special Statutory Court",
+            "New Jersey Special Statutory Tribunal"
+        ],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Jersey Court of Pardons"
+        ],
+        "id": "njctpardons",
+        "level": "",
+        "location": "New Jersey",
+        "name": "New Jersey Court of Pardons",
+        "regex": [
+            "New Jersey Court of Pardons"
+        ],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njmunictnewark",
+        "level": "",
+        "location": "New Jersey",
+        "name": "Newark Municipal Court",
+        "parent": "njmunict",
+        "regex": [
+            "Newark Criminal Court",
+            "Newark Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njmunictdumont",
+        "level": "",
+        "location": "New Jersey",
+        "name": "Borough of Dumont Municipal Court",
+        "parent": "njmunict",
+        "regex": [
+            "Borough of Dumont Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njmunictprince",
+        "level": "",
+        "location": "New Jersey",
+        "name": "Borough of Princeton Municipal Court",
+        "parent": "njmunict",
+        "regex": [
+            "Borough of Princeton Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njmunicthacken",
+        "level": "",
+        "location": "New Jersey",
+        "name": "Hackensack City Municipal Court",
+        "parent": "njmunict",
+        "regex": [
+            "Hackensack City Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njmunictsussex",
+        "level": "",
+        "location": "New Jersey",
+        "name": "Sussex County Municipal Court",
+        "parent": "njmunict",
+        "regex": [
+            "Sussex County, Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njmunictbyram",
+        "level": "",
+        "location": "New Jersey",
+        "name": "Byram Township Municipal Court",
+        "parent": "njmunict",
+        "regex": [
+            "Byram Township Municipal Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
         "dates": [
             {
                 "end": null,
@@ -11970,7 +16179,9 @@
         "parent": "njctyct",
         "regex": [
             "Bergen (County)? ?Superior Court",
-            "Bergen County Court"
+            "Bergen County Court",
+            "Bergen County Court, Law Division",
+            "Bergen County Court of Special Sessions"
         ],
         "system": "state",
         "type": "trial"
@@ -11992,7 +16203,8 @@
         "parent": "njctyct",
         "regex": [
             "Burlington (County)? ?Superior Court",
-            "Burlington County Court"
+            "Burlington County Court",
+            "Burlington County Judicial District"
         ],
         "system": "state",
         "type": "trial"
@@ -12014,7 +16226,8 @@
         "parent": "njctyct",
         "regex": [
             "Camden (County)? ?Superior Court",
-            "Camden County Court"
+            "Camden County Court",
+            "Camden County Court, Law Division"
         ],
         "system": "state",
         "type": "trial"
@@ -12080,7 +16293,9 @@
         "parent": "njctyct",
         "regex": [
             "Essex (County)? ?Superior Court",
-            "Essex County Court"
+            "Essex County Court",
+            "Essex County Court of Special Sessions",
+            "Essex County Court, Law Division"
         ],
         "system": "state",
         "type": "trial"
@@ -12099,10 +16314,12 @@
         "level": "gjc",
         "location": "New Jersey",
         "name": "Gloucester County Superior Court",
+        "notes": "Small claims are part of the special sessions of the superior court",
         "parent": "njctyct",
         "regex": [
             "Gloucester (County)? ?Superior Court",
-            "Gloucester County Court"
+            "Gloucester County Court",
+            "Gloucester County Small Cause Court"
         ],
         "system": "state",
         "type": "trial"
@@ -12124,7 +16341,9 @@
         "parent": "njctyct",
         "regex": [
             "Hudson (County)? ?Superior Court",
-            "Hudson County Court"
+            "Hudson County Court",
+            "Hudson County Court, Law Division",
+            "Hudson County Court Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -12212,7 +16431,8 @@
         "parent": "njctyct",
         "regex": [
             "Monmouth (County)? ?Superior Court",
-            "Monmouth County Court"
+            "Monmouth County Court",
+            "Monmouth County Judicial District"
         ],
         "system": "state",
         "type": "trial"
@@ -12743,7 +16963,8 @@
         "name": "Passaic County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
         "regex": [
-            "Passaic County Circuit Court"
+            "Passaic County Circuit Court",
+            "Passaic Circuit Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -12973,7 +17194,8 @@
         "name": "Cape May County Family Court",
         "parent": "njfamct",
         "regex": [
-            "Cape May (County)? ?Family Court"
+            "Cape May (County)? ?Family Court",
+            "Cape May County Juvenile and Domestic Relations Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13017,7 +17239,8 @@
         "parent": "njfamct",
         "regex": [
             "Essex (County)? ?Family Court",
-            "Essex County Juvenile and Domestic Relations Court"
+            "Essex County Juvenile and Domestic Relations Court",
+            "Essex County Juvenile Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13145,7 +17368,8 @@
         "name": "Monmouth County Family Court",
         "parent": "njfamct",
         "regex": [
-            "Monmouth (County)? ?Family Court"
+            "Monmouth (County)? ?Family Court",
+            "Monmouth County Juvenile and Domestic Relations Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13210,7 +17434,8 @@
         "parent": "njfamct",
         "regex": [
             "Passaic (County)? ?Family Court",
-            "Passaic County Juvenile and Domestic Relations Court"
+            "Passaic County Juvenile and Domestic Relations Court",
+            "Passaic County Juvenile and Domestic Realtions Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13231,7 +17456,8 @@
         "name": "Salem County Family Court",
         "parent": "njfamct",
         "regex": [
-            "Salem (County)? ?Family Court"
+            "Salem (County)? ?Family Court",
+            "Salem County Juvenile and Domestic Relations Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13252,7 +17478,8 @@
         "name": "Somerset County Family Court",
         "parent": "njfamct",
         "regex": [
-            "Somerset (County)? ?Family Court"
+            "Somerset (County)? ?Family Court",
+            "Somerset County Juvenile and Domestic Relations Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13273,7 +17500,8 @@
         "name": "Sussex County Family Court",
         "parent": "njfamct",
         "regex": [
-            "Sussex (County)? ?Family Court"
+            "Sussex (County)? ?Family Court",
+            "Sussex County Juvenile and Domestic Relations Court"
         ],
         "system": "state",
         "type": "trial"
@@ -13824,9 +18052,7 @@
         "name": "Municipal Courts of New Jersey",
         "regex": [
             "Municipal Court.* New Jersey",
-            "Recorder S.* New Jersey",
-            "Recorder S Court of The Town of Montclair New Jersey",
-            "Small Cause Court of Gloucester County New Jersey"
+            "New Jersey Municipal Court"
         ],
         "system": "state",
         "type": null
@@ -17479,10 +21705,10 @@
         "regex": [
             "Tax Court of New Jersey",
             "Department of The Treasury Division of Tax Appeals New Jersey",
-            "Board of Taxation Hudson County New Jersey",
             "New Jersey State Board of Tax Appeals",
             "New Jersey Department of Taxation",
-            "Hudson County Board of Taxation New Jersey",
+            "Hudson County Board of Taxation ?(New Jersey)?",
+            "Board of Taxation Hudson County New Jersey",
             "Department of Taxation And Finance New Jersey",
             "State Board of Tax Appeals New Jersey",
             "Division of Tax Appeals New Jersey",
@@ -17490,7 +21716,8 @@
             "State Board of Taxes And Assessment New Jersey",
             "State Board Tax Appeals New Jersey",
             "State of New Jersey State Board of Taxes And Assessment",
-            "New Jersey Division of Tax Appeals"
+            "New Jersey Division of Tax Appeals",
+            "New Jersey State Board of Taxes and Assessment"
         ],
         "system": "state",
         "type": "appellate"
@@ -17836,7 +22063,7 @@
         "regex": [
             "New York Court of Session, Albany County",
             "Albany Court of Sessions",
-            "Court of Sessions, Albany "
+            "Court of Sessions, Albany"
         ],
         "system": "state",
         "type": "trial"
@@ -18163,7 +22390,9 @@
         "name": "Justice Court of Town of Bedford",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Justice Court of Town of Bedford"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -18217,7 +22446,8 @@
         "notes": "",
         "parent": "nyjustct",
         "regex": [
-            "Justice Court of Village of Kensington"
+            "Justice Court of Village of Kensington",
+            "Kensington Village Court"
         ],
         "system": "state",
         "type": "trial"
@@ -18296,7 +22526,9 @@
         "name": "Hempstead Justice Court",
         "notes": "",
         "parent": "nyjustct",
-        "regex": [],
+        "regex": [
+            "Hempstead Justice Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -19531,7 +23763,9 @@
         "name": "Lewis County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "New York Lewis County Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -20617,6 +24851,7 @@
             "Municipal Court.*New York",
             "City Court of ?(the)? City of New York",
             "Brooklyn City Court",
+            "City Court of Brooklyn",
             "City Court.* New York",
             "Court City of New York Kings County",
             "City of New York Special Term New York County Part I",
@@ -23212,7 +27447,8 @@
             "Court of Arbitration of The Chamber of Commerce of New York",
             "Arbitration At New York",
             "Arbitration Court of New York Chamber of Commerce",
-            "New York Court of Chamber"
+            "New York Court of Chamber",
+            "New York Arbitration Court"
         ],
         "system": "state",
         "type": "special"
@@ -23646,21 +27882,627 @@
                 "start": "1841-01-01"
             }
         ],
-        "examples": [
-            "Harrison County Court of Ohio",
-            "Highland County Court of Ohio",
-            "Huron County Court of Ohio"
-        ],
+        "examples": [],
         "id": "ohiocountyct",
         "level": "gjc",
         "location": "Ohio",
         "name": "Ohio County Courts",
         "regex": [
-            "(${oh_counties}) County Court of Ohio",
             "State of Ohio.* County Court",
             "County Court of.* county.* Ohio",
-            "County Court.* Ohio",
-            "${oh_counties} County Court.* Ohio"
+            "County Court.* Ohio"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctadams ",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Adams County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Adams County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctashtab",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Ashtabula County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Ashtabula County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctbelmon",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Belmont County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Belmont County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctbrown",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Brown County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Brown County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctbutler",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Butler County Courts, Ohio",
+        "notes": "Butler County Courthouse is located in Oxford, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Butler County Court",
+            "Oxford County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctclark",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Clark County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Clark County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctcosh",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Coshocton County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Coshocton County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctcolum",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Columbiana County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Columbiana County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctfrank",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Franklin County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Franklin County Court",
+            "Franklin County Domestic Relations Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctfulton",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Fulton County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Fulton County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctharris",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Harrison County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Harrison County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctycthighla",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Highland County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Highland County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctjeffer",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Jefferson County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Jefferson County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctmahoni",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Mahoning County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Mahoning County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctmeigs ",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Meigs County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Meigs County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctmonroe",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Monroe County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Monroe County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctmorgan",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Morgan County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Morgan County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctmuskin",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Muskingum County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Muskingum County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctnoble ",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Noble County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Noble County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctpauldi",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Paulding County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Paulding County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctperry ",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Perry County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Perry County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctpike ",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Pike County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Pike County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctputnam",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Putnam County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Putnam County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctsandus",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Sandusky County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Sandusky County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctstark",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Stark County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Stark County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctycttrumbu",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Trumbull County Courts, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Trumbull County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctycttuscar",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Tuscarawas County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Tuscarawas County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctvinton",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Vinton County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Vinton County Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1841-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "ohioctyctwarren",
+        "level": "gjc",
+        "location": "Ohio",
+        "name": "Warren County Court, Ohio",
+        "parent": "ohiocountyct",
+        "regex": [
+            "Warren County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -23729,18 +28571,18 @@
             }
         ],
         "examples": [
-            "Magistrate S Court of Cincinnati Ohio",
-            "Magistrate S Court of Cincinnati Township Ohio",
-            "Magistrate S Court of Franklin County Ohio",
-            "Magistrate S Court of Hamilton County Ohio",
-            "Magistrate S Court of Lucas County Ohio"
+            "Magistrate's Court of Cincinnati Ohio",
+            "Magistrate's Court of Cincinnati Township Ohio",
+            "Magistrate's Court of Franklin County Ohio",
+            "Magistrate's Court of Hamilton County Ohio",
+            "Magistrate's Court of Lucas County Ohio"
         ],
         "id": "ohiomagct",
         "level": "gjc",
         "location": "Ohio",
         "name": "Ohio Magistrate Court",
         "regex": [
-            "Magistrate S Court.* ohio"
+            "Magistrate'?s Court.* ohio"
         ],
         "system": "state",
         "type": "trial"
@@ -23856,7 +28698,8 @@
         "location": "Ohio",
         "name": "Ohio Circuit Courts",
         "regex": [
-            "(State of)? ?Ohio Circuit Court"
+            "(State of)? ?Ohio Circuit Court",
+            "Ohio County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -23883,7 +28726,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Auglaize County Circuit Court",
+            "Auglaize County (Circuit)? ?Court",
             "Auglaize Circuit Court"
         ],
         "system": "state",
@@ -23912,7 +28755,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Adams Circuit Court",
-            "Adams County Circuit Court"
+            "Adams County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -23940,7 +28783,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Allen Circuit Court",
-            "Allen County Circuit Court"
+            "Allen County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -23967,7 +28810,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Ashland County Circuit Court",
+            "Ashland County (Circuit)? ?Court",
             "Ashland Circuit Court"
         ],
         "system": "state",
@@ -23995,7 +28838,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Ashtabula County Circuit Court",
+            "Ashtabula County (Circuit)? ?Court",
             "Ashtabula Circuit Court"
         ],
         "system": "state",
@@ -24050,7 +28893,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Belmont Circuit Court",
-            "Belmont County Circuit Court"
+            "Belmont County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24375,7 +29218,8 @@
         ],
         "examples": [
             "Cuyahoga County Circuit Court",
-            "Cuyahoga Circuit Court"
+            "Cuyahoga Circuit Court",
+            "Cuyahoga County Court"
         ],
         "id": "ohcirctcuyahoga",
         "jurisdiction": "O.H.",
@@ -24386,7 +29230,8 @@
         "parent": "ohiocirct",
         "regex": [
             "Cuyahoga County Circuit Court",
-            "Cuyahoga Circuit Court"
+            "Cuyahoga Circuit Court",
+            "Cuyahoga County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24526,7 +29371,8 @@
         "parent": "ohiocirct",
         "regex": [
             "Fairfield Circuit Court",
-            "Fairfield County Circuit Court"
+            "Fairfield County Circuit Court",
+            "Fairfield County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24860,7 +29706,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Henry Circuit Court",
-            "Henry County Circuit Court"
+            "Henry County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24888,7 +29734,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Highland Circuit Court",
-            "Highland County Circuit Court"
+            "Highland County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24916,7 +29762,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Holmes Circuit Court",
-            "Holmes County Circuit Court"
+            "Holmes County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24944,7 +29790,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Huron Circuit Court",
-            "Huron County Circuit Court"
+            "Huron County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24972,7 +29818,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Jackson Circuit Court",
-            "Jackson County Circuit Court"
+            "Jackson County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24999,7 +29845,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Jefferson County Circuit Court",
+            "Jefferson County (Circuit)? ?Court",
             "Jefferson Circuit Court"
         ],
         "system": "state",
@@ -25026,7 +29872,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Knox County Circuit Court"
+            "Knox County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25052,7 +29898,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Lake County Circuit Court"
+            "Lake County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25080,7 +29926,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Lawrence Circuit Court",
-            "Lawrence County Circuit Court"
+            "Lawrence County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25108,7 +29954,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Licking Circuit Court",
-            "Licking County Circuit Court"
+            "Licking County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25135,7 +29981,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Logan County Circuit Court",
+            "Logan County (Circuit)? ?Court",
             "Logan Circuit Court"
         ],
         "system": "state",
@@ -25164,7 +30010,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Lorain Circuit Court",
-            "Lorain County Circuit Court"
+            "Lorain County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25191,7 +30037,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Lucas County Circuit Court",
+            "Lucas County (Circuit)? ?Court",
             "Lucas Circuit Court"
         ],
         "system": "state",
@@ -25527,7 +30373,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Muskingum County Circuit Court",
+            "Muskingum County (Circuit)? ?Court",
             "Muskingum Circuit Court"
         ],
         "system": "state",
@@ -25556,7 +30402,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Noble Circuit Court",
-            "Noble County Circuit Court"
+            "Noble County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25584,7 +30430,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Ottawa Circuit Court",
-            "Ottawa County Circuit Court"
+            "Ottawa County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25612,7 +30458,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Paulding County Circuit Court",
-            "Paulding Circuit Court"
+            "Paulding (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25640,7 +30486,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Perry Circuit Court",
-            "Perry County Circuit Court"
+            "Perry County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25668,7 +30514,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Pickaway Circuit Court",
-            "Pickaway County Circuit Court"
+            "Pickaway County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25695,7 +30541,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Pike County Circuit Court",
+            "Pike County (Circuit)? ?Court",
             "Pike Circuit Court"
         ],
         "system": "state",
@@ -25724,7 +30570,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Portage Circuit Court",
-            "Portage County Circuit Court"
+            "Portage County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25740,8 +30586,7 @@
             }
         ],
         "examples": [
-            "Preble Circuit Court",
-            "Preble County Circuit Court"
+            "Preble Circuit Court"
         ],
         "id": "ohcirctpreble",
         "jurisdiction": "O.H.",
@@ -25779,7 +30624,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Putnam County Circuit Court",
+            "Putnam County (Circuit)? ?Court",
             "Putnam Circuit Court"
         ],
         "system": "state",
@@ -25808,7 +30653,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Richland Circuit Court",
-            "Richland County Circuit Court"
+            "Richland County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25836,7 +30681,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Ross Circuit Court",
-            "Ross County Circuit Court"
+            "Ross County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25863,7 +30708,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Sandusky County Circuit Court",
+            "Sandusky County (Circuit)? ?Court",
             "Sandusky Circuit Court"
         ],
         "system": "state",
@@ -26267,7 +31112,8 @@
         ],
         "examples": [
             "Wood Circuit Court",
-            "Wood County Circuit Court"
+            "Wood County Circuit Court",
+            "Wood County Court"
         ],
         "id": "ohcirctwood",
         "jurisdiction": "O.H.",
@@ -26278,7 +31124,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Wood Circuit Court",
-            "Wood County Circuit Court"
+            "Wood County (Circuit)? ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -26295,7 +31141,8 @@
         ],
         "examples": [
             "Wyandot County Circuit Court",
-            "Wyandot Circuit Court"
+            "Wyandot Circuit Court",
+            "Wyandot County Court"
         ],
         "id": "ohcirctwyandot",
         "jurisdiction": "O.H.",
@@ -26305,7 +31152,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Wyandot County Circuit Court",
+            "Wyandot County (Circuit)? ?Court",
             "Wyandot Circuit Court"
         ],
         "system": "state",
@@ -29065,7 +33912,7 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Darke County Court of Common Pleas"
+            "Darke County Court ?(of Common Pleas)?"
         ],
         "system": "state",
         "type": "trial"
@@ -30601,7 +35448,8 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Trumbull County Court of Common Pleas"
+            "Trumbull County Court of Common Pleas",
+            "Trumbull County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33633,7 +38481,7 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Clermont County Municipal Court",
+            "Clermont County (Municipal)? ?Court",
             "Clermont Municipal Court"
         ],
         "system": "state",
@@ -34944,7 +39792,8 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Springfield Municipal Court"
+            "Springfield Municipal Court",
+            "Springfield City Court of Appeals"
         ],
         "system": "state",
         "type": "trial"
@@ -35415,7 +40264,8 @@
         "location": "New Jersey",
         "name": "New Jersey Public Utilities Commission",
         "regex": [
-            "Board of Public Utility Commissioners New Jersey"
+            "Board of Public Utility Commissioners New Jersey",
+            "Board of Public Utility Commissioners"
         ],
         "system": "state",
         "type": "trial"
@@ -35444,6 +40294,120 @@
         ],
         "system": "state",
         "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Commissioner of Education"
+        ],
+        "id": "nycommned",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "Commissioner of Education, N.J.",
+        "regex": [
+            "Commissioner of Education"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njrecct",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "Recorder's Court, N.J.",
+        "notes": "Land Courts, have not found a lot of information on these",
+        "regex": [],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Hoboken City Recorder's Court"
+        ],
+        "id": "njreccthoboken",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "Hoboken City Recorder's Court.",
+        "notes": "Land Courts, have not found a lot of information on these",
+        "parent": "njrecct",
+        "regex": [
+            "Hoboken City Recorder\\'s Court"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "njrecctmontcl",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "Montclair Town Recorder's Court",
+        "notes": "Land Courts, have not found a lot of information on these",
+        "parent": "njrecct",
+        "regex": [
+            "Montclair Town Recorder\\'s Court"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Jersey Lawyers and Bankers Conference Committee"
+        ],
+        "id": "njlawbkconf",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "New Jersey Lawyers and Bankers Conference Committee",
+        "regex": [
+            "New Jersey Lawyers and Bankers Conference Committee"
+        ],
+        "system": "state",
+        "type": "special"
     },
     {
         "case_types": [],
@@ -37088,9 +42052,7 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Bucks County Court of Common Pleas",
-            "Buck County Court of Common Pleas",
-            "Buck County Court of Common Pleas"
+            "Bucks? County Court ?(of Common Pleas)?"
         ],
         "system": "state",
         "type": "trial"
@@ -38528,7 +43490,7 @@
             }
         ],
         "examples": [
-            "Union County Court of Common Pleas"
+            "Union County Common Pleas Court"
         ],
         "id": "pactcomplunion",
         "jurisdiction": "P.A.",
@@ -38538,7 +43500,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Union County Court of Common Pleas"
+            "Union County Court of Common Pleas",
+            "Union County Common Pleas Court"
         ],
         "system": "state",
         "type": "trial"
@@ -40510,6 +45473,26 @@
             }
         ],
         "examples": [],
+        "id": "vamedmalrevpan",
+        "level": "gjc",
+        "location": "Virginia",
+        "name": "Medical Malpractice Review Panel",
+        "regex": [
+            "Medical Malpractice Review Panel"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
         "id": "vacc",
         "level": "gjc",
         "location": "Virginia",
@@ -41735,7 +46718,8 @@
         "name": "King George County Circuit Court",
         "parent": "vacc",
         "regex": [
-            "King George (County)? ?Circuit Court"
+            "King George (County)? ?Circuit Court",
+            "George County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -41756,7 +46740,8 @@
         "name": "King William County Circuit Court",
         "parent": "vacc",
         "regex": [
-            "King William (County)? ?Circuit Court"
+            "King William (County)? ?Circuit Court",
+            "William County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -43058,22 +48043,131 @@
         "citation_string": "",
         "dates": [
             {
-                "end": null,
-                "start": null
+                "end": "1973-07-01",
+                "notes": "Not a lot of information about this but they ran in parallel to the county courts in the colonial times. See: https://scholarworks.wm.edu/cgi/viewcontent.cgi?article=3894&context=etd",
+                "start": "1792-01-01"
             }
         ],
-        "examples": [
-            "Corporation Court of The City of Bristol Virginia",
-            "Corporation Court of The City of South Norfolk Virginia",
-            "Corporation Court of The City of Lynchburg Virginia"
-        ],
+        "examples": [],
         "id": "vacorpct",
         "level": "gjc",
         "location": "Virginia",
         "name": "Virginia Corporation Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1973-07-01",
+                "start": "1792-01-01"
+            }
+        ],
+        "examples": [
+            "Winchester Corporation Court"
+        ],
+        "id": "vacorpctwinche",
+        "level": "gjc",
+        "location": "Virginia",
+        "name": "Winchester Corporation Court, Va.",
+        "parent": "vacorpct",
         "regex": [
-            "Corporation Court of The City of ${va_cities} Virginia",
-            "Corporation Court of The City of South Norfolk Virginia"
+            "Winchester Corporation Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1973-07-01",
+                "start": "1792-01-01"
+            }
+        ],
+        "examples": [
+            "Radford Corporation Court"
+        ],
+        "id": "vacorpctradford",
+        "level": "gjc",
+        "location": "Virginia",
+        "name": "Radford Corporation Court, Va.",
+        "parent": "vacorpct",
+        "regex": [
+            "Radford Corporation Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1973-07-01",
+                "start": "1792-01-01"
+            }
+        ],
+        "examples": [
+            "South Norfolk Corporation Court"
+        ],
+        "id": "vacorpctsnorf",
+        "level": "gjc",
+        "location": "Virginia",
+        "name": "South Norfolk Corporation Court, Va.",
+        "parent": "vacorpct",
+        "regex": [
+            "South Norfolk Corporation Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1973-07-01",
+                "start": "1792-01-01"
+            }
+        ],
+        "examples": [
+            "Bristol Corporation Court"
+        ],
+        "id": "vacorpctsbris",
+        "level": "gjc",
+        "location": "Virginia",
+        "name": "Bristol Corporation Court, Va.",
+        "parent": "vacorpct",
+        "regex": [
+            "Bristol Corporation Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1973-07-01",
+                "start": "1792-01-01"
+            }
+        ],
+        "examples": [
+            "Lynchburg Corporation Court"
+        ],
+        "id": "vacorpctslynch",
+        "level": "gjc",
+        "location": "Virginia",
+        "name": "Lynchburg Corporation Court, Va.",
+        "parent": "vacorpct",
+        "regex": [
+            "Lynchburg Corporation Court"
         ],
         "system": "state",
         "type": "trial"
@@ -43116,7 +48210,8 @@
         "parent": "vachanct",
         "regex": [
             "Chancery Court of The City of Richmond Virginia",
-            "Law And Equity Court of The City of Richmond Virginia"
+            "Law And Equity Court of The City of Richmond Virginia",
+            "Richmond Chancery Court"
         ],
         "system": "state",
         "type": "trial"
@@ -43140,7 +48235,8 @@
         "parent": "vachanct",
         "regex": [
             "Law And Chancery Court of The City of Norfolk Virginia",
-            "Norfolk Law and Chancery Court"
+            "Norfolk Law and Chancery Court",
+            "Norfolk Law and Equity Court"
         ],
         "system": "state",
         "type": "trial"
@@ -43163,7 +48259,8 @@
         "regex": [
             "${sup} Virginia",
             "Virginia,? ${sup}",
-            "${sup} Appeals? of Virginia"
+            "${sup} Appeals? of Virginia",
+            "Virginia Court of Special Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -45259,7 +50356,30 @@
         "name": "Essex County Court of Quarter Sessions of New Jersey",
         "regex": [
             "Essex County Court of Quarter Sessions",
-            "Court of Quarter Sessions Essex County New Jersey"
+            "Court of Quarter Sessions Essex County New Jersey",
+            "Essex County Court of General Quarter Sessions"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1947-12-31",
+                "start": "1675-01-01"
+            }
+        ],
+        "examples": [
+            "Morris County Court of Quarter Sessions"
+        ],
+        "id": "njqrtsessmorris",
+        "level": "ljc",
+        "location": "New Jersey",
+        "name": "Morris County Court of Quarter Sessions",
+        "regex": [
+            "Morris County Court of Quarter Sessions"
         ],
         "system": "state",
         "type": "trial"
@@ -46842,7 +51962,8 @@
         "name_abbreviation": "C.G. Ct. Crim. App.",
         "notes": "https://en.wikipedia.org/wiki/Coast_Guard_Court_of_Criminal_Appeals",
         "regex": [
-            "${usa} Coast Guard Court of Criminal Appeals"
+            "${usa} Coast Guard Court of Criminal Appeals",
+            "United States Coast Guard Court of Criminal Review"
         ],
         "system": "federal",
         "type": "special"
@@ -47317,7 +52438,8 @@
         "regex": [
             "Special Court Regional Rail Reorganization Act of 1973",
             "Special Court Regional Rail Reorganization Act",
-            "Special Court Regional Railroad Reorganization"
+            "Special Court Regional Railroad Reorganization",
+            "Special Court, Regional Rail Reorganization Act"
         ],
         "system": "federal",
         "type": "special"
