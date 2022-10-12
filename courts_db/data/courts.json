@@ -1812,7 +1812,7 @@
         ],
         "id": "calappdeptsuper",
         "jurisdiction": "C.A.",
-        "level": "gjc",
+        "level": "iac",
         "location": "California",
         "locations": 58,
         "name": "California Superior Court, Appellate Division",
@@ -1832,7 +1832,7 @@
             "Appellate Department Superior Court",
             "Appellate Division of the Superior Court of the State of California"
         ],
-        "system": "iac",
+        "system": "state",
         "type": "appellate"
     },
     {
