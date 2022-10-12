@@ -1812,7 +1812,7 @@
         ],
         "id": "calappdeptsuper",
         "jurisdiction": "C.A.",
-        "level": "gjc",
+        "level": "iac",
         "location": "California",
         "locations": 58,
         "name": "California Superior Court, Appellate Division",
@@ -1832,7 +1832,7 @@
             "Appellate Department Superior Court",
             "Appellate Division of the Superior Court of the State of California"
         ],
-        "system": "iac",
+        "system": "state",
         "type": "appellate"
     },
     {
@@ -2734,7 +2734,7 @@
         "regex": [
             "Delaware Alderman\\'s Courts"
         ],
-        "system": "local",
+        "system": "state",
         "type": "trial"
     },
     {
@@ -19984,6 +19984,7 @@
             "Albany Special Sessions",
             "Albany Recorder's Court"
         ],
+        "system": "state",
         "type": "trial"
     },
     {
@@ -19996,6 +19997,7 @@
         "regex": [
             "Yonkers Court of Special Sessions"
         ],
+        "system": "state",
         "type": "trial"
     },
     {
