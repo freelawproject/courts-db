@@ -21891,7 +21891,8 @@
             "Supreme Ourt Appellate Division Fourth Department",
             "Supreme Court First Department",
             "Court Appellate Term 2Nd 11Th And 13Th Judicial Districts",
-            "2Nd 11Th And 13Th Judicial Districts"
+            "2Nd 11Th And 13Th Judicial Districts",
+            "Supreme Court, Appellate Division"
         ],
         "system": "state",
         "type": "appellate"
@@ -47458,7 +47459,9 @@
         "name": "Richmond County Circuit Court",
         "parent": "vacc",
         "regex": [
-            "Richmond (County)? ?Circuit Court"
+            "Richmond (County)? ?Circuit Court",
+            "Richmond Hustings Court",
+            "Judge Lyon's Court"
         ],
         "system": "state",
         "type": "trial"
