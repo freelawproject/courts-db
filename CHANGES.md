@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.8 (2022-09-08): Add variation indiana tax court to match cl
+- 0.10.9 (2022-10-14): Updates to courts-db
 
 ## Past Versions
+
+- 0.10.8 (2022-09-08): Add variation indiana tax court to match cl
 
 - 0.10.7 (2022-09-08): Add variation connapp
 
