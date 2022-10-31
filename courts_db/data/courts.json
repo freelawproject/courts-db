@@ -16117,10 +16117,10 @@
             }
         ],
         "examples": [],
-        "id": "njctyct",
+        "id": "njsuperct",
         "level": "",
         "location": "New Jersey",
-        "name": "New Jersey County Court",
+        "name": "New Jersey Superior Court",
         "regex": [],
         "system": "state",
         "type": "trial"
@@ -16135,11 +16135,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctatlantic",
+        "id": "njsuperatlantic",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Atlantic County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Atlantic (County)? ?Superior Court",
             "Atlantic County Court"
@@ -16157,11 +16157,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctbergen",
+        "id": "njsuperbergen",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Bergen County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Bergen (County)? ?Superior Court",
             "Bergen County Court",
@@ -16181,11 +16181,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctburlingt",
+        "id": "njsuperburlingt",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Burlington County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Burlington (County)? ?Superior Court",
             "Burlington County Court",
@@ -16204,11 +16204,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctcamden",
+        "id": "njsupercamden",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Camden County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Camden (County)? ?Superior Court",
             "Camden County Court",
@@ -16227,11 +16227,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctcapemay",
+        "id": "njsupercapemay",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Cape May County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Cape May (County)? ?Superior Court",
             "Cape May County Court"
@@ -16249,11 +16249,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctcumberla",
+        "id": "njsupercumberla",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Cumberland County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Cumberland (County)? ?Superior Court",
             "Cumberland County Court"
@@ -16271,11 +16271,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctessex",
+        "id": "njsuperessex",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Essex County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Essex (County)? ?Superior Court",
             "Essex County Court",
@@ -16295,12 +16295,12 @@
             }
         ],
         "examples": [],
-        "id": "njctyctgloucest",
+        "id": "njsupergloucest",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Gloucester County Superior Court",
         "notes": "Small claims are part of the special sessions of the superior court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Gloucester (County)? ?Superior Court",
             "Gloucester County Court",
@@ -16319,11 +16319,11 @@
             }
         ],
         "examples": [],
-        "id": "njctycthudson",
+        "id": "njsuperhudson",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Hudson County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Hudson (County)? ?Superior Court",
             "Hudson County Court",
@@ -16343,11 +16343,11 @@
             }
         ],
         "examples": [],
-        "id": "njctycthunterdo",
+        "id": "njsuperhunterdo",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Hunterdon County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Hunterdon (County)? ?Superior Court",
             "Hunterdon County Court"
@@ -16365,11 +16365,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmercer",
+        "id": "njsupermercer",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Mercer County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Mercer (County)? ?Superior Court",
             "Mercer County Court"
@@ -16387,11 +16387,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmiddlese",
+        "id": "njsupermiddlese",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Middlesex County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Middlesex (County)? ?Superior Court",
             "Middlesex County Court"
@@ -16409,11 +16409,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmonmouth",
+        "id": "njsupermonmouth",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Monmouth County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Monmouth (County)? ?Superior Court",
             "Monmouth County Court",
@@ -16432,11 +16432,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmorris",
+        "id": "njsupermorris",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Morris County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Morris (County)? ?Superior Court",
             "Morris County Court"
@@ -16454,11 +16454,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctocean",
+        "id": "njsuperocean",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Ocean County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Ocean (County)? ?Superior Court",
             "Ocean County Court"
@@ -16476,11 +16476,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctpassaic",
+        "id": "njsuperpassaic",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Passaic County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Passaic (County)? ?Superior Court",
             "Passaic County Court"
@@ -16498,11 +16498,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctsalem",
+        "id": "njsupersalem",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Salem County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Salem (County)? ?Superior Court",
             "Salem County Court"
@@ -16520,11 +16520,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctsomerset",
+        "id": "njsupersomerset",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Somerset County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Somerset (County)? ?Superior Court",
             "Somerset County Court"
@@ -16542,11 +16542,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctsussex",
+        "id": "njsupersussex",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Sussex County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Sussex (County)? ?Superior Court",
             "Sussex County Court"
@@ -16564,11 +16564,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctunion",
+        "id": "njsuperunion",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Union County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Union (County)? ?Superior Court",
             "Union County Court"
@@ -16586,11 +16586,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctwarren",
+        "id": "njsuperwarren",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Warren County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Warren (County)? ?Superior Court",
             "Warren County Court"
