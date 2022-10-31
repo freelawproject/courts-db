@@ -52102,9 +52102,9 @@
             }
         ],
         "examples": [
-            "Judicial Council of The First Circuit"
+            "Circuit Judicial Councils"
         ],
-        "id": "jc1",
+        "id": "judcoun",
         "level": "trial",
         "location": "Massachusetts",
         "name": "Judicial Council of The First Circuit",
@@ -52123,12 +52123,35 @@
             }
         ],
         "examples": [
+            "Judicial Council of The First Circuit"
+        ],
+        "id": "judcoun1",
+        "level": "trial",
+        "location": "Massachusetts",
+        "name": "Judicial Council of The First Circuit",
+        "parent": "judcoun",
+        "regex": [
+            "Judicial Council of The First Circuit"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
             "Judicial Council of The Second Circuit"
         ],
-        "id": "jc2",
+        "id": "judcoun2",
         "level": "trial",
         "location": "New York",
         "name": "Judicial Council of The Second Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Second Circuit"
         ],
@@ -52146,10 +52169,11 @@
         "examples": [
             "Judicial Council of The Third Circuit"
         ],
-        "id": "jc3",
+        "id": "judcoun3",
         "level": "trial",
         "location": "Pennsylvania",
         "name": "Judicial Council of The Third Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Third Circuit"
         ],
@@ -52167,10 +52191,11 @@
         "examples": [
             "Judicial Council of The Fourth Circuit"
         ],
-        "id": "jc4",
+        "id": "judcoun4",
         "level": "trial",
         "location": "Virginia",
         "name": "Judicial Council of The Fourth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Fourth Circuit"
         ],
@@ -52188,10 +52213,11 @@
         "examples": [
             "Judicial Council of The Fifth Circuit"
         ],
-        "id": "jc5",
+        "id": "judcoun5",
         "level": "trial",
         "location": "Louisiana",
         "name": "Judicial Council of The Fifth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Fifth Circuit"
         ],
@@ -52209,10 +52235,11 @@
         "examples": [
             "Judicial Council of The Sixth Circuit"
         ],
-        "id": "jc6",
+        "id": "judcoun6",
         "level": "trial",
         "location": "Ohio",
         "name": "Judicial Council of The Sixth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Sixth Circuit"
         ],
@@ -52230,10 +52257,11 @@
         "examples": [
             "Judicial Council of The Seventh Circuit"
         ],
-        "id": "jc7",
+        "id": "judcoun7",
         "level": "trial",
         "location": "Illinois",
         "name": "Judicial Council of The Seventh Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Seventh Circuit",
             "Judicial Council for The Seventh Circuit"
@@ -52252,10 +52280,11 @@
         "examples": [
             "Judicial Council of The Eighth Circuit"
         ],
-        "id": "jc8",
+        "id": "judcoun8",
         "level": "trial",
         "location": "Missouri",
         "name": "Judicial Council of The Eighth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Eighth Circuit"
         ],
@@ -52273,10 +52302,11 @@
         "examples": [
             "Judicial Council of The Ninth Circuit"
         ],
-        "id": "jc9",
+        "id": "judcoun9",
         "level": "trial",
         "location": "California",
         "name": "Judicial Council of The Ninth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Ninth Circuit",
             "Judicial Council For The Ninth Circuit"
@@ -52295,10 +52325,11 @@
         "examples": [
             "Judicial Council of The Tenth Circuit"
         ],
-        "id": "jc10",
+        "id": "judcoun10",
         "level": "trial",
         "location": "Colorado",
         "name": "Judicial Council of The Tenth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Tenth Circuit"
         ],
@@ -52316,10 +52347,11 @@
         "examples": [
             "Judicial Council of The Eleventh Circuit"
         ],
-        "id": "jc11",
+        "id": "judcoun11",
         "level": "trial",
         "location": "Georgia",
         "name": "Judicial Council of The Eleventh Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Eleventh Circuit"
         ],
