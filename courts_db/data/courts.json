@@ -14467,6 +14467,12 @@
         "dates": [
             {
                 "end": null,
+                "notes": "Renamed",
+                "start": "1780-01-01"
+            },
+            {
+                "end": "1779-12-31",
+                "notes": "Established as Superior Court of Judicature of the Province of Massachusetts Bay",
                 "start": "1692-01-01"
             }
         ],
@@ -14484,7 +14490,8 @@
             "${sjc} ${ma}?",
             "${ma} ${sjc}",
             "Supreme Court of ${ma}",
-            "State of ${ma} Supreme Court"
+            "State of ${ma} Supreme Court",
+            "Superior Court of Judicature of the Province of Massachusetts Bay"
         ],
         "system": "state",
         "type": "appellate"
@@ -14510,28 +14517,6 @@
         ],
         "system": "state",
         "type": "special"
-    },
-    {
-        "citation_string": "Super. Ct. Jud.",
-        "dates": [
-            {
-                "end": "1776-12-31",
-                "start": "1761-01-01"
-            }
-        ],
-        "examples": [
-            "Superior Court of Judicature of the Province of Massachusetts Bay"
-        ],
-        "id": "superctjudmass",
-        "level": "colr",
-        "location": "Massachusetts",
-        "name": "Superior Court of Judicature of the Province of Massachusetts Bay",
-        "name_abbreviation": "Super. Ct. Jud. Mass. Bay",
-        "regex": [
-            "Superior Court of Judicature of the Province of Massachusetts Bay"
-        ],
-        "system": "state",
-        "type": "appellate"
     },
     {
         "case_types": [],
@@ -16647,6 +16632,7 @@
         "location": "New Jersey",
         "name": "Atlantic County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Atlantic County Circuit Court"
         ],
@@ -16668,6 +16654,7 @@
         "location": "New Jersey",
         "name": "Bergen County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Bergen County Circuit Court"
         ],
@@ -16689,6 +16676,7 @@
         "location": "New Jersey",
         "name": "Burlington County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Burlington County Circuit Court"
         ],
@@ -16710,6 +16698,7 @@
         "location": "New Jersey",
         "name": "Camden County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Camden County Circuit Court"
         ],
@@ -16731,6 +16720,7 @@
         "location": "New Jersey",
         "name": "Cape May County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Cape May County Circuit Court"
         ],
@@ -16752,6 +16742,7 @@
         "location": "New Jersey",
         "name": "Cumberland County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Cumberland County Circuit Court"
         ],
@@ -16773,6 +16764,7 @@
         "location": "New Jersey",
         "name": "Essex County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Essex County Circuit Court"
         ],
@@ -16794,6 +16786,7 @@
         "location": "New Jersey",
         "name": "Gloucester County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Gloucester County Circuit Court"
         ],
@@ -16815,6 +16808,7 @@
         "location": "New Jersey",
         "name": "Hudson County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Hudson County Circuit Court"
         ],
@@ -16836,6 +16830,7 @@
         "location": "New Jersey",
         "name": "Hunterdon County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Hunterdon County Circuit Court"
         ],
@@ -16857,6 +16852,7 @@
         "location": "New Jersey",
         "name": "Mercer County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Mercer County Circuit Court"
         ],
@@ -16878,6 +16874,7 @@
         "location": "New Jersey",
         "name": "Middlesex County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Middlesex County Circuit Court"
         ],
@@ -16899,6 +16896,7 @@
         "location": "New Jersey",
         "name": "Monmouth County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Monmouth County Circuit Court"
         ],
@@ -16920,6 +16918,7 @@
         "location": "New Jersey",
         "name": "Morris County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Morris County Circuit Court"
         ],
@@ -16941,6 +16940,7 @@
         "location": "New Jersey",
         "name": "Ocean County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Ocean County Circuit Court"
         ],
@@ -16962,6 +16962,7 @@
         "location": "New Jersey",
         "name": "Passaic County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Passaic County Circuit Court",
             "Passaic Circuit Court"
@@ -16984,6 +16985,7 @@
         "location": "New Jersey",
         "name": "Salem County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Salem County Circuit Court"
         ],
@@ -17005,6 +17007,7 @@
         "location": "New Jersey",
         "name": "Somerset County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Somerset County Circuit Court"
         ],
@@ -17026,6 +17029,7 @@
         "location": "New Jersey",
         "name": "Sussex County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Sussex County Circuit Court"
         ],
@@ -17047,6 +17051,7 @@
         "location": "New Jersey",
         "name": "Union County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Union County Circuit Court"
         ],
@@ -17068,6 +17073,7 @@
         "location": "New Jersey",
         "name": "Warren County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Warren County Circuit Court"
         ],
@@ -50204,8 +50210,8 @@
         "court_url": "http://courts.delaware.gov/Superior/",
         "dates": [
             {
-                "end": null,
-                "start": "1719-01-01"
+                "end": "1951-12-31",
+                "start": "1831-01-01"
             }
         ],
         "examples": [],
@@ -50213,7 +50219,7 @@
         "jurisdiction": "D.E.",
         "level": "gjc",
         "location": "Delaware",
-        "name": "Court of Oyer and Terminer",
+        "name": "Delaware Court of Oyer and Terminer",
         "name_abbreviation": null,
         "notes": null,
         "regex": [
