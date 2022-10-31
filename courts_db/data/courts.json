@@ -35813,7 +35813,6 @@
         "location": "Ohio",
         "name": "Ohio Probate Court",
         "notes": "",
-        "parent": "ohprobct",
         "regex": [
             "Ohio Probate Court"
         ],
