@@ -52106,10 +52106,9 @@
         ],
         "id": "judcoun",
         "level": "trial",
-        "location": "Massachusetts",
-        "name": "Judicial Council of The First Circuit",
+        "name": "Circuit Judicial Councils",
         "regex": [
-            "Judicial Council of The First Circuit"
+            "Circuit Judicial Councils"
         ],
         "system": "federal",
         "type": "special"
