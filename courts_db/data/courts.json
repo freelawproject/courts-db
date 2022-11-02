@@ -50549,7 +50549,8 @@
             "United States Court of Appears Ninth Circuit",
             "United States Court Appeals Ninth Circuit",
             "U. S. Court of Appeals for the Ninth Circuit",
-            "U. S. Circuit Court for the Ninth Circuit"
+            "U. S. Circuit Court for the Ninth Circuit",
+            "United States Court of Appeals for the Ninth"
         ],
         "id": "ca9",
         "level": "",
@@ -50566,7 +50567,8 @@
             "${usa} ${ccoa} ${n9} Circuit",
             "Circuirt Court of Appeals Ninth Circuit",
             "United States Court of Appeals For The The Ninth Circuit",
-            "Circuit Court Ninth Circuit"
+            "Circuit Court Ninth Circuit",
+            "United States Court of Appeals for the Ninth ?(Circuit)?"
         ],
         "system": "federal",
         "type": "appellate"
