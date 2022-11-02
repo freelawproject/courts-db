@@ -51175,7 +51175,9 @@
                 "start": "1968-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States Foreign Intelligence Surveillance Court of Review"
+        ],
         "id": "fisa",
         "level": "ljc",
         "location": "Washington D.C.",
@@ -51183,7 +51185,7 @@
         "name_abbreviation": "U.S. Foreign Intel. Surveil. Ct.",
         "notes": "See: https://en.wikipedia.org/wiki/United_States_Foreign_Intelligence_Surveillance_Court",
         "regex": [
-            "United States Foreign Intelligence Surveillance Court",
+            "United States Foreign Intelligence Surveillance Court ?(of Review)?",
             "United States District Court For The Foreign Intelligence Surveillance"
         ],
         "system": "federal",
@@ -51771,6 +51773,26 @@
             }
         ],
         "examples": [
+            "United States Judicial Conference Committee on Judicial Conduct and Disability"
+        ],
+        "id": "usjudconfcomdis",
+        "level": "trial",
+        "name": "United States Judicial Conference Committee on Judicial Conduct and Disability",
+        "regex": [
+            "United States Judicial Conference Committee on Judicial Conduct and Disability"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
             "Circuit Judicial Councils"
         ],
         "id": "judcoun",
@@ -52022,6 +52044,28 @@
         "parent": "judcoun",
         "regex": [
             "Judicial Council of The Eleventh Circuit"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Judicial Council of the District of Columbia Circuit"
+        ],
+        "id": "judcoundc",
+        "level": "trial",
+        "location": "DC",
+        "name": "Judicial Council of the District of Columbia Circuit",
+        "parent": "judcoun",
+        "regex": [
+            "Judicial Council of the District of Columbia Circuit"
         ],
         "system": "federal",
         "type": "special"
