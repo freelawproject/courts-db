@@ -47941,8 +47941,8 @@
         "citation_string": "",
         "dates": [
             {
-                "end": null,
-                "start": null
+                "end": "1852-12-31",
+                "start": "1619-01-01"
             }
         ],
         "examples": [],
@@ -47954,7 +47954,8 @@
         "regex": [
             "General Court",
             "Virginia Court of General Sessions",
-            "Virginia Court of Quarter Sessions"
+            "Virginia Court of Quarter Sessions",
+            "General Court of Virginia"
         ],
         "system": "state",
         "type": "appellate"
