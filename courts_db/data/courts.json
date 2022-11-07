@@ -8055,7 +8055,7 @@
         "examples": [
             "Supreme Court of Guam"
         ],
-        "id": "guamsup",
+        "id": "guam",
         "jurisdiction": "Guam",
         "level": "colr",
         "location": "Guam",
@@ -21363,7 +21363,7 @@
             "Board of Taxation Hudson County New Jersey",
             "State of New Jersey State Board of Taxes And Assessment"
         ],
-        "id": "njtc",
+        "id": "njtaxct",
         "level": "",
         "location": "New Jersey",
         "name": "New Jersey Tax Court",
@@ -39975,7 +39975,7 @@
         "examples": [
             "Commissioner of Education"
         ],
-        "id": "nycommned",
+        "id": "njcommned",
         "level": "ljc",
         "location": "New Jersey",
         "name": "Commissioner of Education, N.J.",
