@@ -2498,7 +2498,9 @@
         "name": "United States Bankruptcy Court, D. Connecticut",
         "regex": [
             "${d} Connecticut",
-            "${usbcd} Connecticut"
+            "${usbcd} Connecticut",
+            "United States Bankruptcy Court, D. Connecticut, Hartford Division",
+            "United States Bankruptcy Court, D. Connecticut, New Haven Division"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -14201,7 +14203,11 @@
         "regex": [
             "District Court of The United States District of Maryland In Bankruptcy",
             "${usbcd} Maryland",
-            "United States District Court For The District of Maryland"
+            "United States District Court For The District of Maryland",
+            "United States Bankruptcy Court, D. Maryland, at Greenbelt",
+            "United States Bankruptcy Court, D. Maryland, at Baltimore",
+            "United States Bankruptcy Court, D. Maryland, Greenbelt Division",
+            "United States Bankruptcy Court, D. Maryland, (Baltimore Division)"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -14563,7 +14569,12 @@
         "regex": [
             "D(\\.|(istrict))? ?(of)? ?Massachusetts",
             "${usbcd} Massachusetts",
-            "${d} ${ma}"
+            "${d} ${ma}",
+            "United States Bankruptcy Court for the Eastern District of Massachusetts",
+            "United States Bankruptcy Court, D. Massachusetts, EASTERN DIVISION",
+            "United States Bankruptcy Court, D. Massachusetts, Eastern Division",
+            "United States Bankruptcy Court, D. Massachusetts, Western Division",
+            "United States Bankruptcy Court, D. Massachusetts, Central Division"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -15307,7 +15318,8 @@
         "name": "United States Bankruptcy Court, W.D. Missouri",
         "regex": [
             "(^|\\s)W\\.? ?D(\\.|(istrict))? ?(of )?${mo}",
-            "${usbcwd} Missouri"
+            "${usbcwd} Missouri",
+            "United States Bankruptcy Court, W.D. Missouri, Kansas City"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -27343,7 +27355,9 @@
         "name": "United States Bankruptcy Court, W.D. North Carolina",
         "regex": [
             "(^|\\s)W\\.? ?D(\\.|(istrict))? (of )?North Carolina",
-            "${usbcwd} North Carolina"
+            "${usbcwd} North Carolina",
+            "United States Bankruptcy Court, W.D. North Carolina, Statesville Division",
+            "United States Bankruptcy Court, W.D. North Carolina, Charlotte Division"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -27365,7 +27379,10 @@
         "name": "United States Bankruptcy Court, M.D. North Carolina",
         "regex": [
             "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?North Carolina",
-            "${usbcmd} North Carolina"
+            "${usbcmd} North Carolina",
+            "United States Bankruptcy Court, M.D. North Carolina, DURHAM DIVISION",
+            "United States Bankruptcy Court, M.D. North Carolina, Greensboro Division",
+            "United States Bankruptcy Court, M.D. North Carolina, Winston-Salem Division"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -27384,7 +27401,11 @@
             "United States Bankruptcy Court Greenville Division",
             "United States Bankruptcy Court Raleigh Division",
             "United States District Court For The Eastern District of North Carolina",
-            "United States Bankruptcy Court Raleigh Division"
+            "United States Bankruptcy Court Raleigh Division",
+            "United States Bankruptcy Court, E.D. North Carolina, Wilmington Division",
+            "United States Bankruptcy Court, E.D. North Carolina, Raleigh Division",
+            "United States Bankruptcy Court, E.D. North Carolina, New Bern Division",
+            "United States Bankruptcy Court, E.D. North Carolina, Greenville Division"
         ],
         "id": "nceb",
         "level": "",
@@ -48473,7 +48494,8 @@
         "name": "United States District Court, N.D. West Virginia",
         "regex": [
             "(^|\\s)N\\.? ?D(\\.|(istrict))? (of )?W(\\.|(est)) Virginia",
-            "${usbcnd} ${wv}"
+            "${usbcnd} ${wv}",
+            "United States Bankruptcy Court, N.D. West Virginia"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -51232,7 +51254,31 @@
         "location": "Massachusetts",
         "name": "United States Bankruptcy Appellate Panel of The First Circuit",
         "regex": [
-            "${usbap} ${n1} Circuit"
+            "${usbap} ${n1} Circuit",
+            "Bankruptcy Appellate Panel for the First Circuit"
+        ],
+        "system": "federal",
+        "type": "bankruptcy"
+    },
+  {
+        "active": true,
+        "case_types": [],
+        "citation_string": "2nd Cir. BAP",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "2000-07-01",
+                "start": "1984-04-01"
+            }
+        ],
+        "examples": [],
+        "id": "bap2",
+        "level": "iac",
+        "location": "New York",
+        "name": "United States Bankruptcy Appellate Panel of The Second Circuit",
+        "regex": [
+            "${usbap} ${n2} Circuit",
+            "United States Bankruptcy Appellate Panel for the Second Circuit"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -51279,7 +51325,8 @@
         "location": "Missouri",
         "name": "United States Bankruptcy Appellate Panel of The Eighth Circuit",
         "regex": [
-            "${usbap} ${n8} Circuit"
+            "${usbap} ${n8} Circuit",
+            "Bankruptcy Appellate Panel for the Eighth Circuit"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -51304,7 +51351,8 @@
             "${usbap} ${n9} Circuit",
             "United States Bankruptcy Appellate Panels Ninth Circuit",
             "Bankruptcy Appellate Panel of The Ninth Circuit",
-            "United States Bankruptcy For The Appellate Panels of The Ninth Circuit"
+            "United States Bankruptcy For The Appellate Panels of The Ninth Circuit",
+            "Bankruptcy Appellate Panel for the Ninth Circuit"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -51328,7 +51376,8 @@
         "location": "Colorado",
         "name": "United States Bankruptcy Appellate Panel of The Tenth Circuit",
         "regex": [
-            "${usbap} ${n10} ?Circuit"
+            "${usbap} ${n10} ?Circuit",
+            "Bankruptcy Appellate Panel for the Tenth Circuit"
         ],
         "system": "federal",
         "type": "bankruptcy"
