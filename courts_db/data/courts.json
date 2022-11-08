@@ -27401,11 +27401,7 @@
             "United States Bankruptcy Court Greenville Division",
             "United States Bankruptcy Court Raleigh Division",
             "United States District Court For The Eastern District of North Carolina",
-            "United States Bankruptcy Court Raleigh Division",
-            "United States Bankruptcy Court, E.D. North Carolina, Wilmington Division",
-            "United States Bankruptcy Court, E.D. North Carolina, Raleigh Division",
-            "United States Bankruptcy Court, E.D. North Carolina, New Bern Division",
-            "United States Bankruptcy Court, E.D. North Carolina, Greenville Division"
+            "United States Bankruptcy Court Raleigh Division"
         ],
         "id": "nceb",
         "level": "",
@@ -27419,7 +27415,11 @@
             "United States Bankruptcy Court (Greenville|Raleigh) Division",
             "${usbced} North Carolina",
             "${usbc} Raleigh Division",
-            "${usdc} ${ed} North Carolina"
+            "${usdc} ${ed} North Carolina",
+            "United States Bankruptcy Court, E.D. North Carolina, Wilmington Division",
+            "United States Bankruptcy Court, E.D. North Carolina, Raleigh Division",
+            "United States Bankruptcy Court, E.D. North Carolina, New Bern Division",
+            "United States Bankruptcy Court, E.D. North Carolina, Greenville Division"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -51260,7 +51260,7 @@
         "system": "federal",
         "type": "bankruptcy"
     },
-  {
+    {
         "active": true,
         "case_types": [],
         "citation_string": "2nd Cir. BAP",
