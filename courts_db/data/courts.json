@@ -8055,7 +8055,7 @@
         "examples": [
             "Supreme Court of Guam"
         ],
-        "id": "guamsup",
+        "id": "guam",
         "jurisdiction": "Guam",
         "level": "colr",
         "location": "Guam",
@@ -14467,6 +14467,12 @@
         "dates": [
             {
                 "end": null,
+                "notes": "Renamed",
+                "start": "1780-01-01"
+            },
+            {
+                "end": "1779-12-31",
+                "notes": "Established as Superior Court of Judicature of the Province of Massachusetts Bay",
                 "start": "1692-01-01"
             }
         ],
@@ -14484,7 +14490,8 @@
             "${sjc} ${ma}?",
             "${ma} ${sjc}",
             "Supreme Court of ${ma}",
-            "State of ${ma} Supreme Court"
+            "State of ${ma} Supreme Court",
+            "Superior Court of Judicature of the Province of Massachusetts Bay"
         ],
         "system": "state",
         "type": "appellate"
@@ -14510,28 +14517,6 @@
         ],
         "system": "state",
         "type": "special"
-    },
-    {
-        "citation_string": "Super. Ct. Jud.",
-        "dates": [
-            {
-                "end": "1776-12-31",
-                "start": "1761-01-01"
-            }
-        ],
-        "examples": [
-            "Superior Court of Judicature of the Province of Massachusetts Bay"
-        ],
-        "id": "superctjudmass",
-        "level": "colr",
-        "location": "Massachusetts",
-        "name": "Superior Court of Judicature of the Province of Massachusetts Bay",
-        "name_abbreviation": "Super. Ct. Jud. Mass. Bay",
-        "regex": [
-            "Superior Court of Judicature of the Province of Massachusetts Bay"
-        ],
-        "system": "state",
-        "type": "appellate"
     },
     {
         "case_types": [],
@@ -16132,10 +16117,10 @@
             }
         ],
         "examples": [],
-        "id": "njctyct",
+        "id": "njsuperct",
         "level": "",
         "location": "New Jersey",
-        "name": "New Jersey County Court",
+        "name": "New Jersey Superior Court",
         "regex": [],
         "system": "state",
         "type": "trial"
@@ -16150,11 +16135,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctatlantic",
+        "id": "njsuperatlantic",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Atlantic County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Atlantic (County)? ?Superior Court",
             "Atlantic County Court"
@@ -16172,11 +16157,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctbergen",
+        "id": "njsuperbergen",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Bergen County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Bergen (County)? ?Superior Court",
             "Bergen County Court",
@@ -16196,11 +16181,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctburlingt",
+        "id": "njsuperburlingt",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Burlington County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Burlington (County)? ?Superior Court",
             "Burlington County Court",
@@ -16219,11 +16204,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctcamden",
+        "id": "njsupercamden",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Camden County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Camden (County)? ?Superior Court",
             "Camden County Court",
@@ -16242,11 +16227,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctcapemay",
+        "id": "njsupercapemay",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Cape May County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Cape May (County)? ?Superior Court",
             "Cape May County Court"
@@ -16264,11 +16249,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctcumberla",
+        "id": "njsupercumberla",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Cumberland County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Cumberland (County)? ?Superior Court",
             "Cumberland County Court"
@@ -16286,11 +16271,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctessex",
+        "id": "njsuperessex",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Essex County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Essex (County)? ?Superior Court",
             "Essex County Court",
@@ -16310,12 +16295,12 @@
             }
         ],
         "examples": [],
-        "id": "njctyctgloucest",
+        "id": "njsupergloucest",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Gloucester County Superior Court",
         "notes": "Small claims are part of the special sessions of the superior court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Gloucester (County)? ?Superior Court",
             "Gloucester County Court",
@@ -16334,11 +16319,11 @@
             }
         ],
         "examples": [],
-        "id": "njctycthudson",
+        "id": "njsuperhudson",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Hudson County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Hudson (County)? ?Superior Court",
             "Hudson County Court",
@@ -16358,11 +16343,11 @@
             }
         ],
         "examples": [],
-        "id": "njctycthunterdo",
+        "id": "njsuperhunterdo",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Hunterdon County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Hunterdon (County)? ?Superior Court",
             "Hunterdon County Court"
@@ -16380,11 +16365,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmercer",
+        "id": "njsupermercer",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Mercer County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Mercer (County)? ?Superior Court",
             "Mercer County Court"
@@ -16402,11 +16387,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmiddlese",
+        "id": "njsupermiddlese",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Middlesex County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Middlesex (County)? ?Superior Court",
             "Middlesex County Court"
@@ -16424,11 +16409,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmonmouth",
+        "id": "njsupermonmouth",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Monmouth County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Monmouth (County)? ?Superior Court",
             "Monmouth County Court",
@@ -16447,11 +16432,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctmorris",
+        "id": "njsupermorris",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Morris County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Morris (County)? ?Superior Court",
             "Morris County Court"
@@ -16469,11 +16454,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctocean",
+        "id": "njsuperocean",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Ocean County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Ocean (County)? ?Superior Court",
             "Ocean County Court"
@@ -16491,11 +16476,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctpassaic",
+        "id": "njsuperpassaic",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Passaic County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Passaic (County)? ?Superior Court",
             "Passaic County Court"
@@ -16513,11 +16498,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctsalem",
+        "id": "njsupersalem",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Salem County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Salem (County)? ?Superior Court",
             "Salem County Court"
@@ -16535,11 +16520,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctsomerset",
+        "id": "njsupersomerset",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Somerset County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Somerset (County)? ?Superior Court",
             "Somerset County Court"
@@ -16557,11 +16542,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctsussex",
+        "id": "njsupersussex",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Sussex County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Sussex (County)? ?Superior Court",
             "Sussex County Court"
@@ -16579,11 +16564,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctunion",
+        "id": "njsuperunion",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Union County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Union (County)? ?Superior Court",
             "Union County Court"
@@ -16601,11 +16586,11 @@
             }
         ],
         "examples": [],
-        "id": "njctyctwarren",
+        "id": "njsuperwarren",
         "level": "gjc",
         "location": "New Jersey",
         "name": "Warren County Superior Court",
-        "parent": "njctyct",
+        "parent": "njsuper",
         "regex": [
             "Warren (County)? ?Superior Court",
             "Warren County Court"
@@ -16647,6 +16632,7 @@
         "location": "New Jersey",
         "name": "Atlantic County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Atlantic County Circuit Court"
         ],
@@ -16668,6 +16654,7 @@
         "location": "New Jersey",
         "name": "Bergen County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Bergen County Circuit Court"
         ],
@@ -16689,6 +16676,7 @@
         "location": "New Jersey",
         "name": "Burlington County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Burlington County Circuit Court"
         ],
@@ -16710,6 +16698,7 @@
         "location": "New Jersey",
         "name": "Camden County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Camden County Circuit Court"
         ],
@@ -16731,6 +16720,7 @@
         "location": "New Jersey",
         "name": "Cape May County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Cape May County Circuit Court"
         ],
@@ -16752,6 +16742,7 @@
         "location": "New Jersey",
         "name": "Cumberland County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Cumberland County Circuit Court"
         ],
@@ -16773,6 +16764,7 @@
         "location": "New Jersey",
         "name": "Essex County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Essex County Circuit Court"
         ],
@@ -16794,6 +16786,7 @@
         "location": "New Jersey",
         "name": "Gloucester County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Gloucester County Circuit Court"
         ],
@@ -16815,6 +16808,7 @@
         "location": "New Jersey",
         "name": "Hudson County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Hudson County Circuit Court"
         ],
@@ -16836,6 +16830,7 @@
         "location": "New Jersey",
         "name": "Hunterdon County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Hunterdon County Circuit Court"
         ],
@@ -16857,6 +16852,7 @@
         "location": "New Jersey",
         "name": "Mercer County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Mercer County Circuit Court"
         ],
@@ -16878,6 +16874,7 @@
         "location": "New Jersey",
         "name": "Middlesex County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Middlesex County Circuit Court"
         ],
@@ -16899,6 +16896,7 @@
         "location": "New Jersey",
         "name": "Monmouth County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Monmouth County Circuit Court"
         ],
@@ -16920,6 +16918,7 @@
         "location": "New Jersey",
         "name": "Morris County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Morris County Circuit Court"
         ],
@@ -16941,6 +16940,7 @@
         "location": "New Jersey",
         "name": "Ocean County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Ocean County Circuit Court"
         ],
@@ -16962,6 +16962,7 @@
         "location": "New Jersey",
         "name": "Passaic County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Passaic County Circuit Court",
             "Passaic Circuit Court"
@@ -16984,6 +16985,7 @@
         "location": "New Jersey",
         "name": "Salem County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Salem County Circuit Court"
         ],
@@ -17005,6 +17007,7 @@
         "location": "New Jersey",
         "name": "Somerset County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Somerset County Circuit Court"
         ],
@@ -17026,6 +17029,7 @@
         "location": "New Jersey",
         "name": "Sussex County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Sussex County Circuit Court"
         ],
@@ -17047,6 +17051,7 @@
         "location": "New Jersey",
         "name": "Union County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Union County Circuit Court"
         ],
@@ -17068,6 +17073,7 @@
         "location": "New Jersey",
         "name": "Warren County Circuit Court, N.J.",
         "notes": "Concurrent authority with Supreme Court pre 1948. Similar to circuits on the old federal level",
+        "parent": "njcirct",
         "regex": [
             "Warren County Circuit Court"
         ],
@@ -20864,347 +20870,6 @@
     },
     {
         "case_types": [],
-        "citation_string": "Pennsylvania Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Pennsylvania County Criminal Courts"
-        ],
-        "id": "pacrimct",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Pennsylvania County Criminal Courts",
-        "notes": "",
-        "regex": [
-            "Pennsylvania County Criminal Courts"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Allegheny Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Allegheny County Criminal Court"
-        ],
-        "id": "pacrimctallegh",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Allegheny County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Allegheny County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Bucks Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Bucks County Criminal Court"
-        ],
-        "id": "pacrimctbucks",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Bucks County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Bucks County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Centre Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Centre County Criminal Court",
-            "Centre County Court of Criminal Court"
-        ],
-        "id": "pacrimctcentre",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Centre County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Centre County Criminal Court",
-            "Centre County Court of Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Fayette Cty. Ct. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Fayette County Court of Criminal Court"
-        ],
-        "id": "pacrimctfayett",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Fayette County Court of Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Fayette County Court of Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Lebanon Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Lebanon County Criminal Court"
-        ],
-        "id": "pacrimctlebano",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Lebanon County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Lebanon County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Lehigh Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Lehigh County Criminal Court"
-        ],
-        "id": "pacrimctlehigh",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Lehigh County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Lehigh County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Luzerne Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Luzerne County Criminal Court"
-        ],
-        "id": "pacrimctluzern",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Luzerne County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Luzerne County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Lycoming Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Lycoming County Criminal Court"
-        ],
-        "id": "pacrimctlycomi",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Lycoming County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Lycoming County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Mercer Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Mercer County Criminal Court"
-        ],
-        "id": "pacrimctmercer",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Mercer County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Mercer County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Mifflin Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Mifflin County Criminal Court"
-        ],
-        "id": "pacrimctmiffli",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Mifflin County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Mifflin County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Philadelphia Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Philadelphia County Criminal Court"
-        ],
-        "id": "pacrimctphilad",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Philadelphia County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Philadelphia County Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Schuylkill Cty. Crim. Ct.",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Schuylkill County Criminal Court",
-            "Schuylkill Criminal Court"
-        ],
-        "id": "pacrimctschuyl",
-        "jurisdiction": "P.A.",
-        "level": "ljc",
-        "location": "Pennsylvania",
-        "name": "Schuylkill County Criminal Court",
-        "notes": "",
-        "parent": "pacrimct",
-        "regex": [
-            "Schuylkill County Criminal Court",
-            "Schuylkill Criminal Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
         "citation_string": "Pa. Arbitration Panels for Health Care",
         "court_url": "",
         "dates": [
@@ -21698,7 +21363,7 @@
             "Board of Taxation Hudson County New Jersey",
             "State of New Jersey State Board of Taxes And Assessment"
         ],
-        "id": "njtc",
+        "id": "njtaxct",
         "level": "",
         "location": "New Jersey",
         "name": "New Jersey Tax Court",
@@ -28552,7 +28217,7 @@
         "id": "ohsuperctcinci",
         "level": "gjc",
         "location": "Ohio",
-        "name": "Ohio Superior Court",
+        "name": "Ohio Superior Court, Cincinnati",
         "parent": "ohiosuperct",
         "regex": [
             "Superior Court of Cincinnati Ohio",
@@ -35813,7 +35478,6 @@
         "location": "Ohio",
         "name": "Ohio Probate Court",
         "notes": "",
-        "parent": "ohprobct",
         "regex": [
             "Ohio Probate Court"
         ],
@@ -40311,7 +39975,7 @@
         "examples": [
             "Commissioner of Education"
         ],
-        "id": "nycommned",
+        "id": "njcommned",
         "level": "ljc",
         "location": "New Jersey",
         "name": "Commissioner of Education, N.J.",
@@ -42819,7 +42483,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Lancaster County Court of Common Pleas"
+            "Lancaster County Court of Common Pleas",
+            "Lancaster County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -42871,7 +42536,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Lebanon County Court of Common Pleas"
+            "Lebanon County Court of Common Pleas",
+            "Lebanon County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -48275,8 +47941,8 @@
         "citation_string": "",
         "dates": [
             {
-                "end": null,
-                "start": null
+                "end": "1852-12-31",
+                "start": "1619-01-01"
             }
         ],
         "examples": [],
@@ -48288,7 +47954,8 @@
         "regex": [
             "General Court",
             "Virginia Court of General Sessions",
-            "Virginia Court of Quarter Sessions"
+            "Virginia Court of Quarter Sessions",
+            "General Court of Virginia"
         ],
         "system": "state",
         "type": "appellate"
@@ -50205,8 +49872,8 @@
         "court_url": "http://courts.delaware.gov/Superior/",
         "dates": [
             {
-                "end": null,
-                "start": "1719-01-01"
+                "end": "1951-12-31",
+                "start": "1831-01-01"
             }
         ],
         "examples": [],
@@ -50214,7 +49881,7 @@
         "jurisdiction": "D.E.",
         "level": "gjc",
         "location": "Delaware",
-        "name": "Court of Oyer and Terminer",
+        "name": "Delaware Court of Oyer and Terminer",
         "name_abbreviation": null,
         "notes": null,
         "regex": [
@@ -50883,7 +50550,8 @@
             "United States Court of Appears Ninth Circuit",
             "United States Court Appeals Ninth Circuit",
             "U. S. Court of Appeals for the Ninth Circuit",
-            "U. S. Circuit Court for the Ninth Circuit"
+            "U. S. Circuit Court for the Ninth Circuit",
+            "United States Court of Appeals for the Ninth"
         ],
         "id": "ca9",
         "level": "",
@@ -50900,7 +50568,8 @@
             "${usa} ${ccoa} ${n9} Circuit",
             "Circuirt Court of Appeals Ninth Circuit",
             "United States Court of Appeals For The The Ninth Circuit",
-            "Circuit Court Ninth Circuit"
+            "Circuit Court Ninth Circuit",
+            "United States Court of Appeals for the Ninth ?(Circuit)?"
         ],
         "system": "federal",
         "type": "appellate"
@@ -51507,7 +51176,9 @@
                 "start": "1968-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States Foreign Intelligence Surveillance Court of Review"
+        ],
         "id": "fisa",
         "level": "ljc",
         "location": "Washington D.C.",
@@ -51515,7 +51186,7 @@
         "name_abbreviation": "U.S. Foreign Intel. Surveil. Ct.",
         "notes": "See: https://en.wikipedia.org/wiki/United_States_Foreign_Intelligence_Surveillance_Court",
         "regex": [
-            "United States Foreign Intelligence Surveillance Court",
+            "United States Foreign Intelligence Surveillance Court ?(of Review)?",
             "United States District Court For The Foreign Intelligence Surveillance"
         ],
         "system": "federal",
@@ -52103,12 +51774,53 @@
             }
         ],
         "examples": [
+            "United States Judicial Conference Committee on Judicial Conduct and Disability"
+        ],
+        "id": "usjudconfcomdis",
+        "level": "trial",
+        "name": "United States Judicial Conference Committee on Judicial Conduct and Disability",
+        "regex": [
+            "United States Judicial Conference Committee on Judicial Conduct and Disability"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Circuit Judicial Councils"
+        ],
+        "id": "judcoun",
+        "level": "trial",
+        "name": "Circuit Judicial Councils",
+        "regex": [
+            "Circuit Judicial Councils"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
             "Judicial Council of The First Circuit"
         ],
-        "id": "jc1",
+        "id": "judcoun1",
         "level": "trial",
         "location": "Massachusetts",
         "name": "Judicial Council of The First Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The First Circuit"
         ],
@@ -52126,10 +51838,11 @@
         "examples": [
             "Judicial Council of The Second Circuit"
         ],
-        "id": "jc2",
+        "id": "judcoun2",
         "level": "trial",
         "location": "New York",
         "name": "Judicial Council of The Second Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Second Circuit"
         ],
@@ -52147,10 +51860,11 @@
         "examples": [
             "Judicial Council of The Third Circuit"
         ],
-        "id": "jc3",
+        "id": "judcoun3",
         "level": "trial",
         "location": "Pennsylvania",
         "name": "Judicial Council of The Third Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Third Circuit"
         ],
@@ -52168,10 +51882,11 @@
         "examples": [
             "Judicial Council of The Fourth Circuit"
         ],
-        "id": "jc4",
+        "id": "judcoun4",
         "level": "trial",
         "location": "Virginia",
         "name": "Judicial Council of The Fourth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Fourth Circuit"
         ],
@@ -52189,10 +51904,11 @@
         "examples": [
             "Judicial Council of The Fifth Circuit"
         ],
-        "id": "jc5",
+        "id": "judcoun5",
         "level": "trial",
         "location": "Louisiana",
         "name": "Judicial Council of The Fifth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Fifth Circuit"
         ],
@@ -52210,10 +51926,11 @@
         "examples": [
             "Judicial Council of The Sixth Circuit"
         ],
-        "id": "jc6",
+        "id": "judcoun6",
         "level": "trial",
         "location": "Ohio",
         "name": "Judicial Council of The Sixth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Sixth Circuit"
         ],
@@ -52231,10 +51948,11 @@
         "examples": [
             "Judicial Council of The Seventh Circuit"
         ],
-        "id": "jc7",
+        "id": "judcoun7",
         "level": "trial",
         "location": "Illinois",
         "name": "Judicial Council of The Seventh Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Seventh Circuit",
             "Judicial Council for The Seventh Circuit"
@@ -52253,10 +51971,11 @@
         "examples": [
             "Judicial Council of The Eighth Circuit"
         ],
-        "id": "jc8",
+        "id": "judcoun8",
         "level": "trial",
         "location": "Missouri",
         "name": "Judicial Council of The Eighth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Eighth Circuit"
         ],
@@ -52274,10 +51993,11 @@
         "examples": [
             "Judicial Council of The Ninth Circuit"
         ],
-        "id": "jc9",
+        "id": "judcoun9",
         "level": "trial",
         "location": "California",
         "name": "Judicial Council of The Ninth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Ninth Circuit",
             "Judicial Council For The Ninth Circuit"
@@ -52296,10 +52016,11 @@
         "examples": [
             "Judicial Council of The Tenth Circuit"
         ],
-        "id": "jc10",
+        "id": "judcoun10",
         "level": "trial",
         "location": "Colorado",
         "name": "Judicial Council of The Tenth Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Tenth Circuit"
         ],
@@ -52317,12 +52038,35 @@
         "examples": [
             "Judicial Council of The Eleventh Circuit"
         ],
-        "id": "jc11",
+        "id": "judcoun11",
         "level": "trial",
         "location": "Georgia",
         "name": "Judicial Council of The Eleventh Circuit",
+        "parent": "judcoun",
         "regex": [
             "Judicial Council of The Eleventh Circuit"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Judicial Council of the District of Columbia Circuit"
+        ],
+        "id": "judcoundc",
+        "level": "trial",
+        "location": "DC",
+        "name": "Judicial Council of the District of Columbia Circuit",
+        "parent": "judcoun",
+        "regex": [
+            "Judicial Council of the District of Columbia Circuit"
         ],
         "system": "federal",
         "type": "special"
