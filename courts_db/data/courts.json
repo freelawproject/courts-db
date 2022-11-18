@@ -26846,7 +26846,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "E.D.N.Y",
+        "citation_string": "E.D.N.Y.",
         "court_url": "http://www.nyed.uscourts.gov/",
         "dates": [
             {
@@ -26860,6 +26860,7 @@
             }
         ],
         "examples": [
+            "E.D.N.Y.",
             "United States District Court E D New York",
             "United States District Court Eastern of New York",
             "District Court E D New York",
@@ -48189,6 +48190,7 @@
             }
         ],
         "examples": [
+            "W.D. Wash.",
             "United States District Court Western Distict of Washington At Seattle",
             "United States District Court For The Western Division of Washington",
             "United States District Court Westhern District"

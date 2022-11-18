@@ -197,5 +197,23 @@ def gather_regexes(courts):
                     court.get("location"),
                 )
             )
+        # Add a regex for the court's citation string, e.g. "W.D. Wash."
+        # See #61: https://github.com/freelawproject/courts-db/issues/61
+        regexes.append((
+            citation_to_regex(court["citation_string"]),
+            court["id"],
+            court["name"],
+            court["type"],
+            court.get("location"),
+        ))
 
     return regexes
+
+def citation_to_regex(citation_str: str):
+    reg_elements = citation_str.split(".")
+    reg_str = ""
+    for element in reg_elements:
+        if element != "":
+            reg_str += element.strip() + "\.\s?"
+    regex = re.compile(reg_str, (re.I | re.U))
+    return regex
