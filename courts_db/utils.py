@@ -217,6 +217,6 @@ def citation_to_regex(citation_str: str):
     reg_str = ""
     for element in reg_elements:
         if element != "":
-            reg_str += element.strip() + "\.\s?"
+            reg_str += f"{element.strip()}\\.\\s?"
     regex = re.compile(reg_str, (re.I | re.U))
     return regex
