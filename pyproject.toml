@@ -16,3 +16,29 @@ disable = "C0330, C0326"
 
 [tool.pylint.format]
 max-line-length = "79"
+
+[tool.poetry]
+name = "courts-db"
+version = "0.10.11"
+description = "Database of Courts"
+license = "BSD-2-Clause"
+authors = ["Free Law Project"]
+readme = "README.rst"
+repository = "https://github.com/freelawproject/courts-db"
+keywords = ["legal", "courts"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
