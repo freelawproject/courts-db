@@ -43958,7 +43958,7 @@
         "system": "state",
         "type": "appellate"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "",
         "dates": [
@@ -49626,9 +49626,57 @@
         "lower_courts": [],
         "name": "Navajo Court of Appeals",
         "name_abbreviation": "Navajo Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Navajo Nation Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "navajofamct",
+        "jurisdiction": "A.Z.",
+        "level": "ljc",
+        "location": "Arizona",
+        "lower_courts": [],
+        "name": "Navajo Nation Family Court",
+        "name_abbreviation": "",
+        "regex": [
+            "Navajo Nation Family Court"
+        ],
+        "system": "tribal",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "navajochildct",
+        "jurisdiction": "A.Z.",
+        "level": "ljc",
+        "location": "Arizona",
+        "lower_courts": [],
+        "name": "Navajo Nation Children's Court",
+        "name_abbreviation": "",
+        "regex": [
+            "Navajo Nation Children's Court"
+        ],
+        "system": "tribal",
+        "type": "trial"
     },
     {
         "appeal_to": null,
@@ -49643,7 +49691,7 @@
         "examples": [],
         "id": "navajo",
         "jurisdiction": "A.Z.",
-        "level": "ljc",
+        "level": "colr",
         "location": "Arizona",
         "locations": 1,
         "lower_courts": [],
