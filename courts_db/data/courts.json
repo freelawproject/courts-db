@@ -43957,6 +43957,27 @@
         "system": "state",
         "type": "appellate"
     },
+  {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1721-01-01"
+            }
+        ],
+        "examples": [
+            "Court of Chancery of South Carolina"
+        ],
+        "id": "ctchansc",
+        "level": "",
+        "location": "South Carolina",
+        "name": "Court of Chancery of South Carolina",
+        "notes": "See: https://www.carolana.com/SC/Courts/SC_Court_of_Equity.html",
+        "regex": [],
+        "system": "state",
+        "type": "appellate"
+    },
     {
         "case_types": [],
         "citation_string": "",
@@ -52453,7 +52474,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Cal",
-            "Circuit Court ${d} ${ca}"
+            "Circuit Court ${d} ${ca}",
+            "United States Circuit Court for the District of California"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53035,7 +53057,8 @@
         "name_abbreviation": "S. Iowa Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court S D Iowa"
+            "Circuit Court S D Iowa",
+            "United States Circuit Court for the Southern District of Iowa"
         ],
         "system": "federal",
         "type": "appellate"
