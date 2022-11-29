@@ -8004,7 +8004,8 @@
         "locations": 1,
         "name": "Supreme Court of The Commonwealth of The Northern Mariana Islands",
         "regex": [
-            "Supreme Court of The Commonwealth of The Northern Mariana Islands"
+            "Supreme Court of The Commonwealth of The Northern Mariana Islands",
+            "Commonwealth of the Northern Mariana Islands Supreme Court"
         ],
         "system": "state",
         "type": "appellate"
