@@ -7692,7 +7692,7 @@
         "system": "state",
         "type": "trial"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "Carroll Cty. Super. Ct.",
         "dates": [
@@ -7702,7 +7702,7 @@
             }
         ],
         "examples": [],
-        "id": "gasuperctcarroll",
+        "id": "gasuperctcarrol",
         "jurisdiction": "G.A.",
         "level": "gjc",
         "location": "Georgia",
@@ -7711,6 +7711,190 @@
         "parent": "gasuperct",
         "regex": [
             "Carroll? Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "DeKalb Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctdekalb",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "DeKalb County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "De ?Kalb Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Sumter Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctsumter",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Sumter County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Sumter Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Troup Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercttroup",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Troup County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Troup Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Decatur Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctdecatu",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Decatur County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Decatur Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Macon Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctmacon",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Macon County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Macon Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Gwinnett Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctgwin",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Gwinnett County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Gwinnett Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Meriwether Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctmeriw",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Meriwether County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Meriwether Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Heard Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctheard",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Heard County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Heard Superior Court"
         ],
         "system": "state",
         "type": "trial"
@@ -14524,7 +14708,7 @@
             "Worcester Superior Court"
         ],
         "system": "state",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -14549,7 +14733,82 @@
             "Suffolk Superior Court"
         ],
         "system": "state",
-        "type": "appellate"
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Berkshire Mass. Super. Ct.",
+        "court_url": "http://www.mass.gov/courts/court-info/trial-court/sc/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1693-01-03"
+            }
+        ],
+        "examples": [
+            "Berkshire Superior Court"
+        ],
+        "id": "masssuperctberk",
+        "level": "",
+        "location": "Massachusetts",
+        "name": "Massachusetts Superior Court, Berkshire County",
+        "parent": "masssuperct",
+        "regex": [
+            "Superior Court of Massachusetts (at)? ?Berkshire",
+            "Berkshire Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Barnstable Mass. Super. Ct.",
+        "court_url": "http://www.mass.gov/courts/court-info/trial-court/sc/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1693-01-03"
+            }
+        ],
+        "examples": [
+            "Barnstable Superior Court"
+        ],
+        "id": "masssuperctbarn",
+        "level": "",
+        "location": "Massachusetts",
+        "name": "Massachusetts Superior Court, Barnstable County",
+        "parent": "masssuperct",
+        "regex": [
+            "Superior Court of Massachusetts (at)? ?Barnstable",
+            "Barnstable Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Middlesex Mass. Super. Ct.",
+        "court_url": "http://www.mass.gov/courts/court-info/trial-court/sc/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1693-01-03"
+            }
+        ],
+        "examples": [
+            "Middlesex Superior Court"
+        ],
+        "id": "masssuperctmid",
+        "level": "",
+        "location": "Massachusetts",
+        "name": "Massachusetts Superior Court, Middlesex County",
+        "parent": "masssuperct",
+        "regex": [
+            "Superior Court of Massachusetts (at)? ?Middlesex",
+            "Middlesex Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -21671,7 +21930,8 @@
             "State Board Tax Appeals New Jersey",
             "State of New Jersey State Board of Taxes And Assessment",
             "New Jersey Division of Tax Appeals",
-            "New Jersey State Board of Taxes and Assessment"
+            "New Jersey State Board of Taxes and Assessment",
+            "New Jersey Department of Taxation and Finance"
         ],
         "system": "state",
         "type": "appellate"
@@ -23568,7 +23828,10 @@
         "name": "Erie County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "New York County Court, Erie County",
+            "Erie County Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -23872,7 +24135,9 @@
         "name": "Niagara County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Niagara County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -23893,10 +24158,13 @@
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Oneida County Court",
+        "name": "Oneida County Court, NY",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Oneida County",
+            "Oneida County Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -24435,7 +24703,10 @@
         "name": "Yates County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "Yates County Court",
+            "County Court of New York, Yates County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -27093,6 +27364,56 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Trial Term, Queens County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Tioga Cty.",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": "1896-01-01"
+            }
+        ],
+        "examples": [
+            "New York Supreme Court Tioga Special Term"
+        ],
+        "id": "nysupcttioga",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Tioga County",
+        "parent": "nysupct",
+        "regex": [
+            "New York Supreme Court Tioga Special Term",
+            "New York Supreme Court, Tioga County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Onondaga Cty.",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": "1896-01-01"
+            }
+        ],
+        "examples": [
+            "New York Supreme Court Onondaga Special Term"
+        ],
+        "id": "nysupctonond",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court Onondaga Special Term",
+        "parent": "nysupct",
+        "regex": [
+            "New York Supreme Court Onondaga Special Term",
+            "New York Supreme Court, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
@@ -45249,7 +45570,8 @@
             "${sup} (the)? ?(state of)? ?Utah",
             "Supreme Court of Utah",
             "State of Utah Supreme Court",
-            "Supreme Court of The Territory of Utah"
+            "Supreme Court of The Territory of Utah",
+            "Superior Court of the Territory of Utah"
         ],
         "system": "state",
         "type": "appellate"
@@ -49492,6 +49814,31 @@
         "regex": [
             "Fort Peck Court of Appeals",
             "Fort Peck Appellate Court"
+        ],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "appeal_to": null,
+        "citation_string": "",
+        "court_url": "https://fptc.org",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "ftpecktrialct",
+        "jurisdiction": "M.T.",
+        "level": "gjc",
+        "location": "Montana",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Fort Peck Tribal Court",
+        "name_abbreviation": "Fort Peck Trial Ct.",
+        "regex": [
+            "Fort Peck Tribal Court"
         ],
         "system": "tribal",
         "type": "special"
