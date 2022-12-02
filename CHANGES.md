@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.10 (2022-11-08): Various improvements to courts-db
+- 0.10.11 (2022-12-02): Various improvements to courts-db
 
 ## Past Versions
+
+- 0.10.10 (2022-11-08): Various improvements to courts-db
 
 - 0.10.9 (2022-10-14): Updates to courts-db
 
