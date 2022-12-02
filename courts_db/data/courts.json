@@ -7717,6 +7717,77 @@
     },
     {
         "case_types": [],
+        "citation_string": "Fayette Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctfay",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Fayette Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Fayette Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Chatham Superior Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctchatha",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Chatham Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Chatham Superior Court",
+            "Chatham County Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Richmond Superior Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctrichm",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Richmond Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Richmond Superior Court",
+            "Richmond County Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Houston Superior Court",
         "dates": [
             {
@@ -7959,7 +8030,8 @@
             "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?Georgia",
             "${usbc} M D Georgia",
             "${usbcmd} Georgia",
-            "United States Bankruptcy Court M D Georgia Macon Division"
+            "United States Bankruptcy Court M D Georgia Macon Division",
+            "United States Bankruptcy Court for the Middle District of Georgia"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -8998,7 +9070,6 @@
         "level": "",
         "location": "Indiana",
         "name": "Indiana Supreme Court",
-        "parent": "usdistct",
         "regex": [
             "Supreme Court of Indiana",
             "State of Indiana Supreme Court",
@@ -9006,6 +9077,25 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ind. Super Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "indsuperct",
+        "level": "",
+        "location": "Indiana",
+        "name": "Indiana Superior Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -14112,6 +14202,119 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1789-09-24"
+            }
+        ],
+        "examples": [],
+        "id": "mdcirctct",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Maryland Circuit Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1789-09-24"
+            }
+        ],
+        "examples": [],
+        "id": "mdcirctctbalt",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Baltimore City Circuit Court",
+        "parent": "mdcirctct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1982-12-31",
+                "start": "1851-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "mdsuperctbalt",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Baltimore City Superior Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "mdcityctbalt",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Baltimore City Court",
+        "regex": [
+            "Baltimore City Criminal Court",
+            "Baltimore City Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "mdorphanct",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Maryland Orphans' Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "mdorphanctbalt",
+        "level": "ljc",
+        "location": "Maryland",
+        "name": "Baltimore City Orphans' Court",
+        "parent": "mdorphanct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "D. Maryland",
         "court_url": "https://www.mdd.uscourts.gov/",
         "dates": [
@@ -14296,6 +14499,31 @@
         "regex": [
             "Superior Court of Massachusetts (at)? ?Worcester",
             "Worcester Superior Court"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Suffolk Mass. Super. Ct.",
+        "court_url": "http://www.mass.gov/courts/court-info/trial-court/sc/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1693-01-03"
+            }
+        ],
+        "examples": [
+            "Suffolk Superior Court"
+        ],
+        "id": "masssuperctsuff",
+        "level": "",
+        "location": "Massachusetts",
+        "name": "Massachusetts Superior Court, Suffolk County",
+        "parent": "masssuperct",
+        "regex": [
+            "Superior Court of Massachusetts (at)? ?Suffolk",
+            "Suffolk Superior Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -15002,6 +15230,27 @@
             "Superior Court of Mississippi",
             "Supreme Court of Mississippi",
             "Mississippi Supreme Court"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Miss. Chanc. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "misschanceryct",
+        "level": "",
+        "location": "Mississippi",
+        "name": "Mississippi Chancery Courts",
+        "regex": [
+            "Mississippi Chancery Courts"
         ],
         "system": "state",
         "type": "appellate"
@@ -15909,7 +16158,9 @@
         "location": "New Jersey",
         "name": "New Jersey Superior Court Appellate Division",
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
-        "regex": [],
+        "regex": [
+            "New Jersey Superior Court,? Appellate Division"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -18975,7 +19226,8 @@
         "parent": "paoytermct",
         "regex": [
             "Philadelphia County Court of Oyer and Terminer",
-            "Philadelphia Court of Oyer and Terminer"
+            "Philadelphia Court of Oyer and Terminer",
+            "Philadelphia County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -26398,7 +26650,8 @@
             "Superior Court of New York",
             "Superior Court City of New York New York( Equity Term)?",
             "The Superior Court of the City of New York",
-            "New York Superior Court"
+            "New York Superior Court",
+            "New York Superior Court General Term"
         ],
         "system": "state",
         "type": "trial"
@@ -43819,6 +44072,27 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1786-12-31",
+                "start": "1723-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "riviceadmct",
+        "level": "",
+        "location": "Rhode Island",
+        "name": "Rhode Island Vice Admiralty Court",
+        "regex": [
+            "Rhode Island Vice Admiralty Court"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
         "citation_string": "Sup. Ct. R.I.",
         "court_url": "https://www.courts.ri.gov/Courts/SuperiorCourt/Pages/default.aspx",
         "dates": [
@@ -48864,7 +49138,8 @@
         "name": "Hopi Appellate Court",
         "name_abbreviation": null,
         "regex": [
-            "Hopi Appellate Court"
+            "Hopi Appellate Court",
+            "Appellate Court of the Hopi Tribe"
         ],
         "system": "tribal",
         "type": "special"
@@ -48958,7 +49233,9 @@
         "lower_courts": [],
         "name": "Colville Confederated Court of Appeals",
         "name_abbreviation": "Colville Confederated Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Colville Tribal Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49188,7 +49465,10 @@
         "lower_courts": [],
         "name": "Fort Peck Appellate Court",
         "name_abbreviation": "Fort Peck App. Ct.",
-        "regex": [],
+        "regex": [
+            "Fort Peck Court of Appeals",
+            "Fort Peck Appellate Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49234,7 +49514,9 @@
         "lower_courts": [],
         "name": "Grand Ronde Tribal Court",
         "name_abbreviation": "Grand Ronde Tribal Ct.",
-        "regex": [],
+        "regex": [
+            "Tribal Court of the Confederated Tribes of the Grand Ronde Community"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49372,7 +49654,9 @@
         "lower_courts": [],
         "name": "Little Traverse Bay Bands of Odawa Indians Tribal Appellate Court",
         "name_abbreviation": "Little Traverse Bay Bands of Odawa Indians Tribal App. Ct.",
-        "regex": [],
+        "regex": [
+            "Tribal Appellate Court of the Little Traverse Bands of Odawa Indians"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49534,7 +49818,9 @@
         "lower_courts": [],
         "name": "Mohegan Trial Court",
         "name_abbreviation": "Mohegan Trial Ct.",
-        "regex": [],
+        "regex": [
+            "Mohegan Tribal Trial Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49744,7 +50030,9 @@
         "lower_courts": [],
         "name": "Oneida Appellate Court",
         "name_abbreviation": "Oneida App. Comm'n, App. Ct.",
-        "regex": [],
+        "regex": [
+            "Oneida Tribal Judicial System, Appellate Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49885,7 +50173,9 @@
         "lower_courts": [],
         "name": "Confederated Salish & Kootenai Court of Appeals",
         "name_abbreviation": "Confederated Salish & Kootenai Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Court of Appeals of the Confederated Salish and Kootenai Tribes"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49908,7 +50198,9 @@
         "lower_courts": [],
         "name": "Tulalip Court of Appeals",
         "name_abbreviation": "Tulalip Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Tulalip Tribal Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -50227,7 +50519,8 @@
             "District Court of The United States For District of Columbia",
             "${usdc} For The Central District of Columbia",
             "United States District Court For The District Central of District of Columbia",
-            "${usdc} Court For The District Central of District of Columbia"
+            "${usdc} Court For The District Central of District of Columbia",
+            "United States District Court for the District of D.C."
         ],
         "system": "federal",
         "type": "appellate"
@@ -50270,7 +50563,8 @@
         "name": "U.S. Commerce Court",
         "name_abbreviation": "U.S. Commerce Ct.",
         "regex": [
-            "Commerce Court"
+            "Commerce Court",
+            "United States Commerce Court"
         ],
         "system": "federal",
         "type": "appellate"
@@ -51205,7 +51499,8 @@
         "name": "Temporary Emergency Court of Appeals",
         "notes": "Transfered to United States Court of Appeals for the Federal Circuit See: https://en.wikipedia.org/wiki/Temporary_Emergency_Court_of_Appeals",
         "regex": [
-            "Temporary Emergency ${coa}"
+            "Temporary Emergency ${coa}",
+            "United States Temporary Emergency Court of Appeals"
         ],
         "system": "federal",
         "type": "special"
@@ -52308,7 +52603,8 @@
             "Special Court Regional Rail Reorganization Act of 1973",
             "Special Court Regional Rail Reorganization Act",
             "Special Court Regional Railroad Reorganization",
-            "Special Court, Regional Rail Reorganization Act"
+            "Special Court, Regional Rail Reorganization Act",
+            "United States Special Court, Regional Rail Reorganization Act"
         ],
         "system": "federal",
         "type": "special"
@@ -53612,7 +53908,7 @@
         "system": "federal",
         "type": "appellate"
     },
-  {
+    {
         "active": false,
         "case_types": [],
         "citation_string": "",
