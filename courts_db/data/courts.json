@@ -15453,10 +15453,11 @@
             "${ed} ${mo}",
             "${usdc} D ${mo} ?(Eastern Division)?",
             "${usdc} ${ed} Eastern Division of ${mo}",
-            "${usdc} For The ${d} of Eastern ${mo} Eastern Division"
+            "${usdc} For The ${d} of Eastern ${mo} Eastern Division",
+            "United States District Court for the Eastern District of Missouri"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
