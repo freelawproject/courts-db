@@ -53654,7 +53654,6 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court S D Miss",
-            "United States Circuit Court for the District of Mississippi",
             "United States Circuit Court for the Southern District of Mississippi"
         ],
         "system": "federal",
