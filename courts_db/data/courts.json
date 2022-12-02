@@ -7692,6 +7692,29 @@
         "system": "state",
         "type": "trial"
     },
+  {
+        "case_types": [],
+        "citation_string": "Carroll Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctcarroll",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Carroll County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Carroll? Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
     {
         "case_types": [],
         "citation_string": "Pike Superior Court",
