@@ -7717,6 +7717,77 @@
     },
     {
         "case_types": [],
+        "citation_string": "Fayette Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctfay",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Fayette Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Fayette Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Chatham Superior Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctchatha",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Chatham Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Chatham Superior Court",
+            "Chatham County Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Richmond Superior Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctrichm",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Richmond Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Richmond Superior Court",
+            "Richmond County Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Houston Superior Court",
         "dates": [
             {
@@ -7959,7 +8030,8 @@
             "(^|\\s)M\\.? ?D(\\.|(istrict))? (of )?Georgia",
             "${usbc} M D Georgia",
             "${usbcmd} Georgia",
-            "United States Bankruptcy Court M D Georgia Macon Division"
+            "United States Bankruptcy Court M D Georgia Macon Division",
+            "United States Bankruptcy Court for the Middle District of Georgia"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -8004,7 +8076,8 @@
         "locations": 1,
         "name": "Supreme Court of The Commonwealth of The Northern Mariana Islands",
         "regex": [
-            "Supreme Court of The Commonwealth of The Northern Mariana Islands"
+            "Supreme Court of The Commonwealth of The Northern Mariana Islands",
+            "Commonwealth of the Northern Mariana Islands Supreme Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -8997,7 +9070,6 @@
         "level": "",
         "location": "Indiana",
         "name": "Indiana Supreme Court",
-        "parent": "usdistct",
         "regex": [
             "Supreme Court of Indiana",
             "State of Indiana Supreme Court",
@@ -9005,6 +9077,25 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ind. Super Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "indsuperct",
+        "level": "",
+        "location": "Indiana",
+        "name": "Indiana Superior Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -14111,6 +14202,119 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1789-09-24"
+            }
+        ],
+        "examples": [],
+        "id": "mdcirctct",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Maryland Circuit Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1789-09-24"
+            }
+        ],
+        "examples": [],
+        "id": "mdcirctctbalt",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Baltimore City Circuit Court",
+        "parent": "mdcirctct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1982-12-31",
+                "start": "1851-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "mdsuperctbalt",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Baltimore City Superior Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "mdcityctbalt",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Baltimore City Court",
+        "regex": [
+            "Baltimore City Criminal Court",
+            "Baltimore City Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "mdorphanct",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Maryland Orphans' Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "mdorphanctbalt",
+        "level": "ljc",
+        "location": "Maryland",
+        "name": "Baltimore City Orphans' Court",
+        "parent": "mdorphanct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "D. Maryland",
         "court_url": "https://www.mdd.uscourts.gov/",
         "dates": [
@@ -14295,6 +14499,31 @@
         "regex": [
             "Superior Court of Massachusetts (at)? ?Worcester",
             "Worcester Superior Court"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Suffolk Mass. Super. Ct.",
+        "court_url": "http://www.mass.gov/courts/court-info/trial-court/sc/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1693-01-03"
+            }
+        ],
+        "examples": [
+            "Suffolk Superior Court"
+        ],
+        "id": "masssuperctsuff",
+        "level": "",
+        "location": "Massachusetts",
+        "name": "Massachusetts Superior Court, Suffolk County",
+        "parent": "masssuperct",
+        "regex": [
+            "Superior Court of Massachusetts (at)? ?Suffolk",
+            "Suffolk Superior Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -15001,6 +15230,27 @@
             "Superior Court of Mississippi",
             "Supreme Court of Mississippi",
             "Mississippi Supreme Court"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Miss. Chanc. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "misschanceryct",
+        "level": "",
+        "location": "Mississippi",
+        "name": "Mississippi Chancery Courts",
+        "regex": [
+            "Mississippi Chancery Courts"
         ],
         "system": "state",
         "type": "appellate"
@@ -15908,7 +16158,9 @@
         "location": "New Jersey",
         "name": "New Jersey Superior Court Appellate Division",
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
-        "regex": [],
+        "regex": [
+            "New Jersey Superior Court,? Appellate Division"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -18974,7 +19226,8 @@
         "parent": "paoytermct",
         "regex": [
             "Philadelphia County Court of Oyer and Terminer",
-            "Philadelphia Court of Oyer and Terminer"
+            "Philadelphia Court of Oyer and Terminer",
+            "Philadelphia County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -26397,7 +26650,8 @@
             "Superior Court of New York",
             "Superior Court City of New York New York( Equity Term)?",
             "The Superior Court of the City of New York",
-            "New York Superior Court"
+            "New York Superior Court",
+            "New York Superior Court General Term"
         ],
         "system": "state",
         "type": "trial"
@@ -43818,6 +44072,27 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1786-12-31",
+                "start": "1723-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "riviceadmct",
+        "level": "",
+        "location": "Rhode Island",
+        "name": "Rhode Island Vice Admiralty Court",
+        "regex": [
+            "Rhode Island Vice Admiralty Court"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
         "citation_string": "Sup. Ct. R.I.",
         "court_url": "https://www.courts.ri.gov/Courts/SuperiorCourt/Pages/default.aspx",
         "dates": [
@@ -43954,6 +44229,27 @@
             "Constitutional Court of South Carolina",
             "South Carolina Court of Errors"
         ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1721-01-01"
+            }
+        ],
+        "examples": [
+            "Court of Chancery of South Carolina"
+        ],
+        "id": "ctchansc",
+        "level": "",
+        "location": "South Carolina",
+        "name": "Court of Chancery of South Carolina",
+        "notes": "See: https://www.carolana.com/SC/Courts/SC_Court_of_Equity.html",
+        "regex": [],
         "system": "state",
         "type": "appellate"
     },
@@ -44248,7 +44544,8 @@
             "${coa} ${tn}",
             "Court of Chancery Appeals of Tennessee",
             "Court of Appeals State of Tennessee Middle Section At Nashville",
-            "Court of Appeals At Tennessee ?(Western Section At Nashville)?"
+            "Court of Appeals At Tennessee ?(Western Section At Nashville)?",
+            "Tennessee Chancery Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -48841,7 +49138,8 @@
         "name": "Hopi Appellate Court",
         "name_abbreviation": null,
         "regex": [
-            "Hopi Appellate Court"
+            "Hopi Appellate Court",
+            "Appellate Court of the Hopi Tribe"
         ],
         "system": "tribal",
         "type": "special"
@@ -48935,7 +49233,9 @@
         "lower_courts": [],
         "name": "Colville Confederated Court of Appeals",
         "name_abbreviation": "Colville Confederated Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Colville Tribal Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49165,7 +49465,10 @@
         "lower_courts": [],
         "name": "Fort Peck Appellate Court",
         "name_abbreviation": "Fort Peck App. Ct.",
-        "regex": [],
+        "regex": [
+            "Fort Peck Court of Appeals",
+            "Fort Peck Appellate Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49211,7 +49514,9 @@
         "lower_courts": [],
         "name": "Grand Ronde Tribal Court",
         "name_abbreviation": "Grand Ronde Tribal Ct.",
-        "regex": [],
+        "regex": [
+            "Tribal Court of the Confederated Tribes of the Grand Ronde Community"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49349,7 +49654,9 @@
         "lower_courts": [],
         "name": "Little Traverse Bay Bands of Odawa Indians Tribal Appellate Court",
         "name_abbreviation": "Little Traverse Bay Bands of Odawa Indians Tribal App. Ct.",
-        "regex": [],
+        "regex": [
+            "Tribal Appellate Court of the Little Traverse Bands of Odawa Indians"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49511,7 +49818,9 @@
         "lower_courts": [],
         "name": "Mohegan Trial Court",
         "name_abbreviation": "Mohegan Trial Ct.",
-        "regex": [],
+        "regex": [
+            "Mohegan Tribal Trial Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49604,9 +49913,57 @@
         "lower_courts": [],
         "name": "Navajo Court of Appeals",
         "name_abbreviation": "Navajo Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Navajo Nation Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "navajofamct",
+        "jurisdiction": "A.Z.",
+        "level": "ljc",
+        "location": "Arizona",
+        "lower_courts": [],
+        "name": "Navajo Nation Family Court",
+        "name_abbreviation": "",
+        "regex": [
+            "Navajo Nation Family Court"
+        ],
+        "system": "tribal",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "navajochildct",
+        "jurisdiction": "A.Z.",
+        "level": "ljc",
+        "location": "Arizona",
+        "lower_courts": [],
+        "name": "Navajo Nation Children's Court",
+        "name_abbreviation": "",
+        "regex": [
+            "Navajo Nation Children's Court"
+        ],
+        "system": "tribal",
+        "type": "trial"
     },
     {
         "appeal_to": null,
@@ -49621,7 +49978,7 @@
         "examples": [],
         "id": "navajo",
         "jurisdiction": "A.Z.",
-        "level": "ljc",
+        "level": "colr",
         "location": "Arizona",
         "locations": 1,
         "lower_courts": [],
@@ -49673,7 +50030,9 @@
         "lower_courts": [],
         "name": "Oneida Appellate Court",
         "name_abbreviation": "Oneida App. Comm'n, App. Ct.",
-        "regex": [],
+        "regex": [
+            "Oneida Tribal Judicial System, Appellate Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49814,7 +50173,9 @@
         "lower_courts": [],
         "name": "Confederated Salish & Kootenai Court of Appeals",
         "name_abbreviation": "Confederated Salish & Kootenai Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Court of Appeals of the Confederated Salish and Kootenai Tribes"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49837,7 +50198,9 @@
         "lower_courts": [],
         "name": "Tulalip Court of Appeals",
         "name_abbreviation": "Tulalip Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Tulalip Tribal Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -50156,7 +50519,8 @@
             "District Court of The United States For District of Columbia",
             "${usdc} For The Central District of Columbia",
             "United States District Court For The District Central of District of Columbia",
-            "${usdc} Court For The District Central of District of Columbia"
+            "${usdc} Court For The District Central of District of Columbia",
+            "United States District Court for the District of D.C."
         ],
         "system": "federal",
         "type": "appellate"
@@ -50199,7 +50563,8 @@
         "name": "U.S. Commerce Court",
         "name_abbreviation": "U.S. Commerce Ct.",
         "regex": [
-            "Commerce Court"
+            "Commerce Court",
+            "United States Commerce Court"
         ],
         "system": "federal",
         "type": "appellate"
@@ -51134,7 +51499,8 @@
         "name": "Temporary Emergency Court of Appeals",
         "notes": "Transfered to United States Court of Appeals for the Federal Circuit See: https://en.wikipedia.org/wiki/Temporary_Emergency_Court_of_Appeals",
         "regex": [
-            "Temporary Emergency ${coa}"
+            "Temporary Emergency ${coa}",
+            "United States Temporary Emergency Court of Appeals"
         ],
         "system": "federal",
         "type": "special"
@@ -52237,7 +52603,8 @@
             "Special Court Regional Rail Reorganization Act of 1973",
             "Special Court Regional Rail Reorganization Act",
             "Special Court Regional Railroad Reorganization",
-            "Special Court, Regional Rail Reorganization Act"
+            "Special Court, Regional Rail Reorganization Act",
+            "United States Special Court, Regional Rail Reorganization Act"
         ],
         "system": "federal",
         "type": "special"
@@ -52260,7 +52627,9 @@
         "name_abbreviation": "Ala. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Alabama"
+            "Circuit Court D Alabama",
+            "United States Circuit Court for the Western District of Alabama",
+            "United States Circuit Court for the District of Alabama"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52284,7 +52653,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Mid D Ala",
-            "Circuit Court ${md} ${al}"
+            "Circuit Court ${md} ${al}",
+            "United States Circuit Court for the Middle District of Alabama"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52309,7 +52679,8 @@
         "regex": [
             "Circuit Court N D Ala",
             "Circuit Court ${nd} ${al}",
-            "Circuit Court E D Alabama N D"
+            "Circuit Court E D Alabama N D",
+            "United States Circuit Court for the Northern District of Alabama"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52332,7 +52703,8 @@
         "name_abbreviation": "S. Ala. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court S D Ala"
+            "Circuit Court S D Ala",
+            "United States Circuit Court for the Southern District of Alabama"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52358,7 +52730,8 @@
             "Circuit Court D Ark",
             "Circuit Court ${d} ${ar}",
             "Circuit Court ${ar}",
-            "Circuit Court Territory of Arkansas"
+            "Circuit Court Territory of Arkansas",
+            "United States Circuit Court for the District of Arkansas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52382,7 +52755,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court E D Ark",
-            "Circuit Court ${ed} ${ar}"
+            "Circuit Court ${ed} ${ar}",
+            "United States Circuit Court for the Eastern District of Arkansas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52406,7 +52780,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court W D Ark",
-            "Circuit Court ${wd} ${ar}"
+            "Circuit Court ${wd} ${ar}",
+            "United States Circuit Court for the Western District of Arkansas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52453,7 +52828,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Cal",
-            "Circuit Court ${d} ${ca}"
+            "Circuit Court ${d} ${ca}",
+            "United States Circuit Court for the District of California"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52501,7 +52877,8 @@
         "name_abbreviation": "S. Cal. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court S D Cal"
+            "Circuit Court S D Cal",
+            "United States Circuit Court for the Southern District of California"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52526,7 +52903,9 @@
         "regex": [
             "Circuit Court D South Carolina",
             "Circuit Court S D South Carolina",
-            "United States Circuit Court for the District of South Carolina"
+            "United States Circuit Court for the District of South Carolina",
+            "United States Circuit Court for the Southern District of South Carolina",
+            "United States Circuit Court for the Western District of South Carolina"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52596,7 +52975,8 @@
         "regex": [
             "Circuit Court D Dist D of Columbi",
             "Circuit Court District of Columbia",
-            "United States Circuit Court of the District of Columbia"
+            "United States Circuit Court of the District of Columbia",
+            "United States Circuit Court for the District of Columbia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52645,7 +53025,8 @@
         "name_abbreviation": "North Dakota. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D North Dakota"
+            "Circuit Court D North Dakota",
+            "United States Circuit Court for the District of North Dakota"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52668,7 +53049,9 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D South Dakota",
-            "Circuit Court W D South Dakota"
+            "Circuit Court W D South Dakota",
+            "United States Circuit Court for the Western District of South Dakota",
+            "United States Circuit Court for the District of South Dakota"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52697,7 +53080,8 @@
             "Circuit Court, Delaware",
             "Circuit Court.*Dover",
             "Circuit Court of The United States Delaware District",
-            "Circuit Court of The United States New Castle Delaware"
+            "Circuit Court of The United States New Castle Delaware",
+            "United States Circuit Court for the District of Delaware"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52774,7 +53158,10 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D ${ga}",
-            "United States Circuit Court for the District of Georgia"
+            "United States Circuit Court for the District of Georgia",
+            "United States Circuit Court for the NorthEastern District of Georgia",
+            "United States Circuit Court for the Western District of Georgia",
+            "United States Circuit Court for the Eastern District of Georgia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52797,7 +53184,8 @@
         "name_abbreviation": "N. Ga. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court N D Ga"
+            "Circuit Court N D Ga",
+            "United States Circuit Court for the Northern District of Georgia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52844,7 +53232,8 @@
         "name_abbreviation": "New Hampshire. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D New Hampshire"
+            "Circuit Court D New Hampshire",
+            "United States Circuit Court for the District of New Hampshire"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52868,7 +53257,9 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Idaho",
-            "Circuit Court N D Idaho"
+            "Circuit Court N D Idaho",
+            "United States Circuit Court for the Northern District of Idaho",
+            "United States Circuit Court for the District of Idaho"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52892,7 +53283,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Ill",
-            "United States Circuit Court for the District of Illinois"
+            "United States Circuit Court for the District of Illinois",
+            "United States Circuit Court for the Western District of Illinois"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52915,7 +53307,8 @@
         "name_abbreviation": "E. Ill. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court E D Ill(inois)?"
+            "Circuit Court E D Ill(inois)?",
+            "United States Circuit Court for the Eastern District of Illinois"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52938,7 +53331,8 @@
         "name_abbreviation": "N. Ill. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court N D Ill"
+            "Circuit Court N D Ill",
+            "United States Circuit Court for the Northern District of Illinois"
         ],
         "system": "federal",
         "type": "appellate"
@@ -52961,7 +53355,8 @@
         "name_abbreviation": "S. Ill. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court S D Illinois"
+            "Circuit Court S D Illinois",
+            "United States Circuit Court for the Southern District of Illinois"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53012,7 +53407,8 @@
         "regex": [
             "Circuit Court N D Iowa",
             "Circuit Court C D Iowa N D",
-            "Circuit Court W D Iowa N D"
+            "Circuit Court W D Iowa N D",
+            "United States Circuit Court for the Northern District of Iowa"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53035,7 +53431,8 @@
         "name_abbreviation": "S. Iowa Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court S D Iowa"
+            "Circuit Court S D Iowa",
+            "United States Circuit Court for the Southern District of Iowa"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53058,7 +53455,11 @@
         "name_abbreviation": "Iowa. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Iowa"
+            "Circuit Court D Iowa",
+            "United States Circuit Court for the Western District of Iowa",
+            "United States Circuit Court for the Central District of Iowa",
+            "United States Circuit Court for the Eastern District of Iowa",
+            "United States Circuit Court for the District of Iowa"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53107,7 +53508,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D New Jersey",
-            "Circuit Court District of New Jersey"
+            "Circuit Court District of New Jersey",
+            "United States Circuit Court for the District of New Jersey"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53133,7 +53535,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Kansas",
-            "Circuit Court Kansas ?(First Division)?"
+            "Circuit Court Kansas ?(First Division)?",
+            "United States Circuit Court for the District of Kansas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53180,7 +53583,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Ky",
-            "United States Circuit Court for the District of Kentucky"
+            "United States Circuit Court for the District of Kentucky",
+            "United States Circuit Court for the Eastern District of Kentucky"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53203,7 +53607,8 @@
         "name_abbreviation": "W. Ky. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court W D Ky"
+            "Circuit Court W D Ky",
+            "United States Circuit Court for the Western District of Kentucky"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53251,7 +53656,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D ${la}",
-            "United States Circuit Court for the District of Louisiana"
+            "United States Circuit Court for the District of Louisiana",
+            "United States Circuit Court for the Western District of Louisiana"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53297,7 +53703,8 @@
         "name_abbreviation": "Maine. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Maine"
+            "Circuit Court D Maine",
+            "United States Circuit Court for the District of Maine"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53353,7 +53760,8 @@
             "Circuit Court District of Massachusetts",
             "Circuit Court of U S Massachusetts District",
             "United States Circuit Court for the District of Massachusetts",
-            "Circuit Court of U S Massachusetts District Equity Term"
+            "Circuit Court of U S Massachusetts District Equity Term",
+            "United States Circuit Court for the Eastern District of Massachusetts"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53401,7 +53809,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court W D Michigan",
-            "Circuit Court S D Michigan W D"
+            "Circuit Court S D Michigan W D",
+            "United States Circuit Court for the Western District of Michigan"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53493,7 +53902,31 @@
         "name_abbreviation": "N. Miss. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court N D Miss"
+            "Circuit Court N D Miss",
+            "United States Circuit Court for the Northern District of Mississippi"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "active": false,
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": "1838-06-17",
+                "start": "1818-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "circtdms",
+        "level": "iac",
+        "location": "Mississippi",
+        "name": "U.S. Circuit Court for the District of Mississippi",
+        "name_abbreviation": "S. Miss. Cir. Ct",
+        "parent": "uscirct",
+        "regex": [
+            "United States Circuit Court for the District of Mississippi"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53516,7 +53949,8 @@
         "name_abbreviation": "S. Miss. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court S D Miss"
+            "Circuit Court S D Miss",
+            "United States Circuit Court for the Southern District of Mississippi"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53566,7 +54000,9 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Mo",
-            "United States Circuit Court for the District of Missouri"
+            "United States Circuit Court for the District of Missouri",
+            "United States Circuit Court for the Northern District of Missouri",
+            "United States Circuit Court for the Central District of Missouri"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53591,6 +54027,7 @@
         "regex": [
             "Circuit Court W D Mo",
             "Circuit Court S D Missouri W D",
+            "United States Circuit Court for the Southern District of Missouri",
             "United States Circuit Court for the Western District of Missouri"
         ],
         "system": "federal",
@@ -53614,7 +54051,8 @@
         "name_abbreviation": "Montana. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Montana"
+            "Circuit Court D Montana",
+            "United States Circuit Court for the District of Montana"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53637,7 +54075,8 @@
         "name_abbreviation": "E. N.C. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court E D N.C"
+            "Circuit Court E D N.C",
+            "United States Circuit Court for the Eastern District of North Carolina"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53809,7 +54248,8 @@
         "name_abbreviation": "W. N.C. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court W D N.C"
+            "Circuit Court W D N.C",
+            "United States Circuit Court for the Western District of North Carolina"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53834,7 +54274,9 @@
         "regex": [
             "Circuit Court D Nebraska",
             "Circuit Court E D Nebraska",
-            "Circuit Court N D Nebraska"
+            "Circuit Court N D Nebraska",
+            "United States Circuit Court for the Eastern District of Nebraska",
+            "United States Circuit Court for the District of Nebraska"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53857,7 +54299,8 @@
         "name_abbreviation": "Nevada. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Nevada"
+            "Circuit Court D Nevada",
+            "United States Circuit Court for the District of Nevada"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53880,7 +54323,8 @@
         "name_abbreviation": "N. Ohio Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court N D Ohi"
+            "Circuit Court N D Ohio",
+            "United States Circuit Court for the Northern District of Ohio"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53904,7 +54348,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court S D Ohio",
-            "Circuit Court W D Ohio S D"
+            "Circuit Court W D Ohio S D",
+            "United States Circuit Court for the Southern District of Ohio"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53931,7 +54376,10 @@
         "regex": [
             "Circuit Court D Ohio",
             "State of Ohio U S Circuit Court",
-            "Circuit Court Ohio"
+            "Circuit Court Ohio",
+            "United States Circuit Court for the Eastern District of Ohio",
+            "United States Circuit Court for the Western District of Ohio",
+            "United States Circuit Court for the District of Ohio"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53954,7 +54402,8 @@
         "name_abbreviation": "E. Okla. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court E D Okla"
+            "Circuit Court E D Okla",
+            "United States Circuit Court for the Eastern District of Oklahoma"
         ],
         "system": "federal",
         "type": "appellate"
@@ -53978,7 +54427,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court W D Okla",
-            "Circuit Court W D Oklahoma"
+            "Circuit Court W D Oklahoma",
+            "United States Circuit Court for the Western District of Oklahoma"
         ],
         "system": "federal",
         "type": "appellate"
@@ -54002,7 +54452,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Oregon",
-            "Circuit Court District of Oregon"
+            "Circuit Court District of Oregon",
+            "United States Circuit Court for the District of Oregon"
         ],
         "system": "federal",
         "type": "appellate"
@@ -54025,7 +54476,8 @@
         "name_abbreviation": "E. Pa. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court ${ed} ${pa}"
+            "Circuit Court ${ed} ${pa}",
+            "United States Circuit Court for the Eastern District of Pennsylvania"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55816,7 +56268,9 @@
             "Circuit Court D Pa",
             "Circuit Court D Pennsylvania",
             "Circuit Court Pennsylvania District",
-            "Circuit Court Pennsylvania"
+            "Circuit Court Pennsylvania",
+            "United States Circuit Court for the Southeastern District of Pennsylvania",
+            "United States Circuit Court for the District of Pennsylvania"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55865,7 +56319,8 @@
         "regex": [
             "Circuit Court E D Tenn",
             "Circuit Court N D Tennessee E D",
-            "Circuit Court S D Tennessee E D"
+            "Circuit Court S D Tennessee E D",
+            "United States Circuit Court for the Eastern District of Tennessee"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55889,7 +56344,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Mid D Tenn",
-            "Circuit Court M D Tennessee"
+            "Circuit Court M D Tennessee",
+            "United States Circuit Court for the Middle District of Tennessee"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55913,7 +56369,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Tenn",
-            "Circuit Court Tennessee"
+            "Circuit Court Tennessee",
+            "United States Circuit Court for the District of Tennessee"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55936,7 +56393,8 @@
         "name_abbreviation": "W. Tenn. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court W D Tenn"
+            "Circuit Court W D Tenn",
+            "United States Circuit Court for the Western District of Tennessee"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55961,7 +56419,10 @@
         "name_abbreviation": "Tex. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Texas"
+            "Circuit Court D Texas",
+            "United States Circuit Court for the District of Texas",
+            "United States Circuit Court for the Southern District of Texas",
+            "United States Circuit Court for the Northern District of Texas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -55984,8 +56445,8 @@
         "name_abbreviation": "E. Tex. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court E D Tex",
-            "Circuit Court E D Texas"
+            "Circuit Court E D Tex(as)?",
+            "United States Circuit Court for the Eastern District of Texas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56054,7 +56515,8 @@
         "name_abbreviation": "W. Tex. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court W D Tex"
+            "Circuit Court W D Tex",
+            "United States Circuit Court for the Western District of Texas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56077,7 +56539,8 @@
         "name_abbreviation": "Utah. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Utah"
+            "Circuit Court D Utah",
+            "United States Circuit Court for the District of Utah"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56101,7 +56564,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court ${d} ?${va}",
-            "United States Circuit Court for the District of Virginia"
+            "United States Circuit Court for the District of Virginia",
+            "United States Circuit Court for the Northern District of Virginia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56173,7 +56637,8 @@
         "name_abbreviation": "N. West Va. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court N D West Va"
+            "Circuit Court N D West Va",
+            "United States Circuit Court for the Northern District of West Virginia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56220,7 +56685,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D West Va",
-            "United States Circuit Court for the District of West Virginia"
+            "United States Circuit Court for the District of West Virginia",
+            "United States Circuit Court for the Southern District of West Virginia"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56243,7 +56709,8 @@
         "name_abbreviation": "Vermont. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court D Vermont"
+            "Circuit Court D Vermont",
+            "United States Circuit Court for the District of Vermont"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56267,7 +56734,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court E D Wash",
-            "Circuit Court E Washington N D"
+            "Circuit Court E Washington N D",
+            "United States Circuit Court for the Eastern District of Washington"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56291,7 +56759,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Wash",
-            "United States Circuit Court for the Northern District of Washington"
+            "United States Circuit Court for the Northern District of Washington",
+            "United States Circuit Court for the District of Washington"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56314,7 +56783,8 @@
         "name_abbreviation": "W. Wash. Cir. Ct",
         "parent": "uscirct",
         "regex": [
-            "Circuit Court ${wd} Wash(ington)?"
+            "Circuit Court ${wd} Wash(ington)?",
+            "United States Circuit Court for the Western District of Washington"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56388,7 +56858,8 @@
         "regex": [
             "Circuit Court D ${wi}",
             "Circuit Court ${wi}",
-            "United States Circuit Court for the District of Wisconsin"
+            "United States Circuit Court for the District of Wisconsin",
+            "United States Circuit Court for the Northern District of Wisconsin"
         ],
         "system": "federal",
         "type": "appellate"
@@ -56412,7 +56883,8 @@
         "parent": "uscirct",
         "regex": [
             "Circuit Court D Wyoming",
-            "Circuit Court ${wy}"
+            "Circuit Court ${wy}",
+            "United States Circuit Court for the District of Wyoming"
         ],
         "system": "federal",
         "type": "appellate"
