@@ -2455,7 +2455,8 @@
         "regex": [
             "Connecticut ${sup}",
             "${sup} Connecticut",
-            "Supreme Court of Errors of (the State of)? ?Connecticut"
+            "Supreme Court of Errors of (the State of)? ?Connecticut",
+            "Connecticut Court of Error's and Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -7717,6 +7718,443 @@
     },
     {
         "case_types": [],
+        "citation_string": "Wilkes Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctwilkes",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Wilkes County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Wilkes (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Columbia Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctcolumb",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Columbia County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Columbia (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Oglethorpe Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctogleth",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Oglethorpe County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Oglethorpe (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Burke Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctburke",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Burke County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Burke (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Seriven Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctserive",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Seriven County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Seriven (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Elbert Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctelbert",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Elbert County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Elbert (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Talliaferro Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercttallia",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Talliaferro County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Talliaferro (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Habersham Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercthabers",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Habersham County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Habersham (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Washington Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctwashin",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Washington County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Washington (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hancock Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercthancoc",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Hancock County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Hancock (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Coweta Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctcoweta",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Coweta County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Coweta (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Clark Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctclark",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Clark County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Clark (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Walton Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctwalton",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Walton County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Walton (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Muscogee Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctmuscog",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Muscogee County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Muscogee (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Hall Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercthall",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Hall County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Hall (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Lincoln Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctlincol",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Lincoln County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Lincoln (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Franklin Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctfrankl",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Franklin County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Franklin (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cobb Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctclarke",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Clarke County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Clarke (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cobb Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctcobb",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Cobb County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Cobb (County)? ?Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "DeKalb Cty. Super. Ct.",
         "dates": [
             {
@@ -8675,7 +9113,8 @@
             "${usdc} ${d} Idaho",
             "${usdc} Idaho",
             "District Court N D Idaho E D",
-            "United States District Court For The Southern District of Idaho"
+            "United States District Court For The Southern District of Idaho",
+            "United States District Court for the Northern District of Idaho"
         ],
         "system": "federal",
         "type": "trial"
@@ -15036,6 +15475,28 @@
         "type": "special"
     },
     {
+        "citation_string": "HL",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "House of Lords"
+        ],
+        "id": "houseoflordsuk",
+        "level": "",
+        "location": "England",
+        "name": "House of Lords (UK)",
+        "name_abbreviation": "House of Lords",
+        "regex": [
+            "House of Lords"
+        ],
+        "system": "international",
+        "type": "international"
+    },
+    {
         "case_types": [],
         "citation_string": "D. Mass.",
         "court_url": "http://www.mad.uscourts.gov/",
@@ -15124,7 +15585,7 @@
         ],
         "examples": [],
         "id": "mich",
-        "level": "",
+        "level": "colr",
         "location": "Michigan",
         "name": "Michigan Supreme Court",
         "regex": [
@@ -15133,6 +15594,88 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. Super. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "michsuperct",
+        "level": "",
+        "location": "Michigan",
+        "name": "Michigan Superior Courts",
+        "regex": [],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "Detroit Recorder's Court",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "michrecdetroit",
+        "level": "",
+        "location": "Michigan",
+        "name": "Detroit Recorder's Court",
+        "regex": [],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. Super. Ct., Detroit",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "michsuperctdetr",
+        "level": "",
+        "location": "Michigan",
+        "name": "DetMichigan Superior Court, Detroit",
+        "parent": "michsuperct",
+        "regex": [
+            "Detroit Superior Court"
+        ],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. Super. Ct., Grand Rapids",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "michsuperctgrap",
+        "level": "",
+        "location": "Michigan",
+        "name": "Michigan Superior Court, Grand Rapids",
+        "parent": "michsuperct",
+        "regex": [
+            "Grand Rapids Superior Court"
+        ],
+        "system": "state",
+        "type": ""
     },
     {
         "case_types": [],
@@ -15177,6 +15720,1321 @@
     },
     {
         "case_types": [],
+        "citation_string": "Mich. 1st Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct1",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 1st Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 1st Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Hillsdale (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 2nd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct2",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 2nd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 2nd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Berrien (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 3rd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct3",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 3rd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 3rd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Wayne (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 4th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct4",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 4th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 4th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Jackson (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 5th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct5",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 5th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 5th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Barry (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 6th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct6",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 6th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 6th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Oakland (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 7th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct7",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 7th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 7th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Genesee (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 8th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct8",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 8th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 8th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Montcalm (County)? ?Circuit Court",
+            "Ionia (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 9th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct9",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 9th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 9th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Kalamazoo (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 10th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct10",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 10th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 10th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Saginaw (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 11th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct11",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 11th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 11th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Luce (County)? ?Circuit Court",
+            "Mackinac (County)? ?Circuit Court",
+            "Schoolcraft (County)? ?Circuit Court",
+            "Alger (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 12th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct12",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 12th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 12th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Houghton (County)? ?Circuit Court",
+            "Baraga (County)? ?Circuit Court",
+            "Keweenaw (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 13th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct13",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 13th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 13th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Leelanau (County)? ?Circuit Court",
+            "Leelanaw (County)? ?Circuit Court",
+            "Antrim (County)? ?Circuit Court",
+            "Grand Traverse (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 14th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct14",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 14th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 14th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Muskegon (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 15th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct15",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 15th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 15th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Branch (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 16th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct16",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 16th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 16th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Macomb (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 17th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct17",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 17th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 17th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Kent (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 18th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct18",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 18th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 18th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Bay (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 19th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct19",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 19th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 19th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Benzie (County)? ?Circuit Court",
+            "Manistee (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 20th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct20",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 20th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 20th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Ottawa (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 21st Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct21",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 21st Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 21st Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Isabella (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 22nd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct22",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 22nd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 22nd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Washtenaw (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 23rd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct23",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 23rd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 23rd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Iosco (County)? ?Circuit Court",
+            "Arenac (County)? ?Circuit Court",
+            "Alcona (County)? ?Circuit Court",
+            "Oscoda (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 24th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct24",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 24th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 24th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Sanilac (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 25th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct25",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 25th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 25th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Marquette (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 26th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct26",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 26th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 26th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Alpena (County)? ?Circuit Court",
+            "Montmorency (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 27th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct27",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 27th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 27th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Oceana (County)? ?Circuit Court",
+            "Newaygo (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 28th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct28",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 28th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 28th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Wexford (County)? ?Circuit Court",
+            "Missaukee (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 29th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct29",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 29th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 29th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Gratiot (County)? ?Circuit Court",
+            "Clinton (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 30th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct30",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 30th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 30th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Ingham (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 31st Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct31",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 31st Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 31st Cir.",
+        "parent": "micirct",
+        "regex": [
+            "St. Clair (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 32nd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct32",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 32nd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 32nd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Ontonagon (County)? ?Circuit Court",
+            "Gogebic (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 33rd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct33",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 33rd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 33rd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Charlevoix (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 34th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct34",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 34th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 34th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Ogemaw (County)? ?Circuit Court",
+            "Roscommon (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 35th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct35",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 35th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 35th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Shiawassee? (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 36th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct36",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 36th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 36th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Van Buren (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 38th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct38",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 38th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 38th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Monroe (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 39th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct39",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 39th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 39th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Lenawee (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 40th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct40",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 40th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 40th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Lapeer (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 41st Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct41",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 41st Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 41st Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Iron (County)? ?Circuit Court",
+            "Dickinson (County)? ?Circuit Court",
+            "Menominee (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 42nd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct42",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 42nd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 42nd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Midland (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 43rd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct43",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 43rd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 43rd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Cass (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 44th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct44",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 44th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 44th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Livingston (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 45th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct45",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 45th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 45th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "St. Joseph (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 46th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct46",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 46th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 46th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Otsego (County)? ?Circuit Court",
+            "Crawford (County)? ?Circuit Court",
+            "Kalkaska (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 47th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct47",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 47th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 47th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Delta (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 48th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct48",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 48th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 48th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Allegan (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 49th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct49",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 49th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 49th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Osceola (County)? ?Circuit Court",
+            "Mecosta (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 50th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct50",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 50th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 50th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Chippewa (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 51st Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct51",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 51st Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 51st Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Mason (County)? ?Circuit Court",
+            "Lake (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 52nd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct52",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 52nd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 52nd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Huron (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 53rd Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct53",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 53rd Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 53rd Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Cheboygan (County)? ?Circuit Court",
+            "Presque Isle (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 54th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct54",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 54th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 54th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Tuscola (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 55th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct55",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 55th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 55th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Clare (County)? ?Circuit Court",
+            "Gladwin (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 56th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct56",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 56th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 56th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Eaton (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Mich. 57th Cir.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "micirct57",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Circuit Court of the 57th Circuit of Michigan",
+        "name_abbreviation": "Mich. Cir. Ct., 57th Cir.",
+        "parent": "micirct",
+        "regex": [
+            "Emmet (County)? ?Circuit Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Mich. 37th Cir., Calhoun Cty.",
         "dates": [
             {
@@ -15195,7 +17053,7 @@
         "name_abbreviation": "Michigan Cir. Ct., Calhoun Cty.",
         "parent": "micirct37",
         "regex": [
-            "Calhoun County Circuit Court"
+            "Calhoun (County)? ?Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -15581,7 +17439,8 @@
             "${dc} D Mississippi",
             "${dc} Mississippi",
             "^${d} ?(D)? ?Mississippi",
-            "District Court Territory of Mississippi"
+            "District Court Territory of Mississippi",
+            "United States District Court for the District of Mississippi"
         ],
         "system": "federal",
         "type": "appellate"
@@ -16668,7 +18527,9 @@
         "level": "",
         "location": "New Jersey",
         "name": "New Jersey Superior Court",
-        "regex": [],
+        "regex": [
+            "New Jersey Superior Court, Law Division"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -18653,7 +20514,8 @@
         "name": "Court of Oyer And Terminer of New Jersey",
         "regex": [
             "Court of Oyer And Terminer of New Jersey",
-            "Essex Oyer And Terminer New Jersey"
+            "Essex Oyer And Terminer New Jersey",
+            "New Jersey Court of Oyer and Terminer"
         ],
         "system": "state",
         "type": null
@@ -26515,7 +28377,8 @@
             "Surrrogate S Court of New York New York County",
             "Surrrogate.* New York",
             "Snrrogate S Court of New York New York County",
-            "Surrogate's Court"
+            "Surrogate's Court",
+            "New York Surrogate's Court, Ulster County"
         ],
         "system": "state",
         "type": "trial"
@@ -27370,6 +29233,31 @@
     },
     {
         "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Saratoga Cty.",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": "1896-01-01"
+            }
+        ],
+        "examples": [
+            "New York Supreme Court, Saratoga, Special Term"
+        ],
+        "id": "nysupctsarat",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Saratoga County",
+        "parent": "nysupct",
+        "regex": [
+            "New York Supreme Court,? Saratoga,? Special Term",
+            "New York Supreme Court, Saratoga County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "N.Y. Sup. Ct., Tioga Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
@@ -28087,7 +29975,8 @@
         "name": "Supreme Court of Dakota",
         "regex": [
             "Supreme Court of Dakota",
-            "Supreme Court of The Territory of Dakota"
+            "Supreme Court of The Territory of Dakota",
+            "Dakota Territorial Court"
         ],
         "system": "state",
         "type": "appellate"
@@ -35580,7 +37469,8 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Scioto County Court of Common Pleas"
+            "Scioto County Court of Common Pleas",
+            "Scioto County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -42789,7 +44679,8 @@
         "parent": "pactcompl",
         "regex": [
             "Fayette County Court",
-            "Fayette County Court of Common Pleas"
+            "Fayette County Court of Common Pleas",
+            "Fayette County Court of Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -43579,7 +45470,8 @@
         "parent": "pactcompl",
         "regex": [
             "Schuylkill County Court of Common Pleas",
-            "Schuykill County Court of Common Pleas"
+            "Schuykill County Court of Common Pleas",
+            "Schuylkill (County)? ?Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45014,7 +46906,8 @@
             "${usdc} ${ed} At Knoxville Tennessee",
             "${usdc} ${ed} ${tn}",
             "District Court At Chattannooga Tennessee",
-            "United States District Court For The Eastern of Tennessee"
+            "United States District Court For The Eastern of Tennessee",
+            "United States District Court for the Northern District of Tennessee"
         ],
         "system": "federal",
         "type": "trial"
@@ -49719,7 +51612,9 @@
         "lower_courts": [],
         "name": "Eastern Band of Cherokee Indians Tribal Court",
         "name_abbreviation": "E. Band of Cherokee Tribal Ct.",
-        "regex": [],
+        "regex": [
+            "Eastern Band of Cherokee Indians Cherokee Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49862,7 +51757,9 @@
         "lower_courts": [],
         "name": "Grand Ronde Court of Appeals",
         "name_abbreviation": "Grand Ronde Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Court of Appeals of the Confederated Tribes of the Grand Ronde Community"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -49910,6 +51807,31 @@
         "lower_courts": [],
         "name": "Grand Traverse Band of Ottawa & Chippewa Indians Tribal Appellate Court",
         "name_abbreviation": "Grand Traverse Band of Ottawa & Chippewa Indians Tribal App. Ct.",
+        "regex": [
+            "Grand Traverse Band of Ottawa and Chippewa Indians Tribal Appellate Court"
+        ],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "active": true,
+        "appeal_to": null,
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "grtravbandct",
+        "jurisdiction": "M.I.",
+        "level": "iac",
+        "location": "Michigan",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Grand Traverse Band of Ottawa and Chippewa Indians Tribal Court",
+        "name_abbreviation": "Grand Traverse Band of Ottawa and Chippewa Indians Tribal Ct.",
         "regex": [],
         "system": "tribal",
         "type": "special"
@@ -50002,6 +51924,27 @@
         "lower_courts": [],
         "name": "Little River Band of Ottawa Indians Tribal Court",
         "name_abbreviation": "Little River Band of Ottawa Indians Tribal Ct.",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "appeal_to": null,
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "lrbottawactapp",
+        "jurisdiction": "M.I.",
+        "level": "",
+        "location": "Michigan",
+        "lower_courts": [],
+        "name": "Little River Band of Ottawa Indians Tribal Court of Appeals",
+        "name_abbreviation": "Little River Band of Ottawa Indians Tribal Ct. of App.",
         "regex": [],
         "system": "tribal",
         "type": "special"
@@ -51181,7 +53124,9 @@
             "${d} ?(D)? ?Puerto Rico",
             "${usdc} ${d} of Puerto Rico",
             "${usdc} Puerto Rico",
-            "United States District Court For The Division of Puerto Rico"
+            "United States District Court For The Division of Puerto Rico",
+            "United States District Court, D. Puerto Rico",
+            "United States District Court for the Western District of Puerto Rico"
         ],
         "system": "federal",
         "type": "trial"
@@ -51233,7 +53178,8 @@
             "${usa} Customs Court",
             "United States Custom Court",
             "United States Court of Customs First Division",
-            "United Staes Customs Court First Division"
+            "United Staes Customs Court First Division",
+            "United States Court of Customs"
         ],
         "system": "federal",
         "type": "appellate"
@@ -51893,7 +53839,8 @@
         "name": " Emergency Court of Appeals",
         "notes": "See: https://www.fjc.gov/history/courts/emergency-court-appeals-1942-1962",
         "regex": [
-            "Emergency Court of Appeals"
+            "Emergency Court of Appeals",
+            "United States Emergency Court of Appeals"
         ],
         "system": "federal",
         "type": "special"
