@@ -1028,7 +1028,8 @@
             "Superior Court of Arkansas",
             "Superior Court D Arkansas",
             "Superior Court of the Territory of Arkansas",
-            "Arkansas Superior Court"
+            "Arkansas Superior Court",
+            "Superior Court, D. Arkansas"
         ],
         "system": "state",
         "type": "appellate"
@@ -7718,6 +7719,144 @@
     },
     {
         "case_types": [],
+        "citation_string": "Lee Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctlee",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Lee County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Lee Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Randolph Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctrand",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Randolph County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Randolph Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Early Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctearl",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Early County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Early Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Harris Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctharris",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Harris County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Harris Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Talbot Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasupercttalb",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Talbot County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Talbot Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Marion Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctmari",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Marion County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Marion Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Wilkes Cty. Super. Ct.",
         "dates": [
             {
@@ -9476,7 +9615,8 @@
         "name": "District Court, D. Illinois",
         "regex": [
             "^${d} ?(D)? ?Illinois",
-            "United States District Court D Illinois"
+            "United States District Court D Illinois",
+            "United States District Court for the District of Illinois"
         ],
         "system": "federal",
         "type": "appellate"
@@ -10152,7 +10292,8 @@
             "District Court E D Kansas E D",
             "District Court First District Kansas",
             "U S District Court Montgomery County Kan",
-            "United States District Court For The Eastern District Kansas"
+            "United States District Court For The Eastern District Kansas",
+            "United States District Court for the Eastern District of Kansas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -14449,6 +14590,25 @@
         "type": "appellate"
     },
     {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "usprovctla",
+        "level": "",
+        "location": "Louisiana",
+        "name": "United States Provisional Court for the State of Louisiana ",
+        "regex": [
+            "Louisiana Provisional Court"
+        ],
+        "system": "",
+        "type": ""
+    },
+    {
         "case_types": [],
         "citation_string": "La. Ct. App.",
         "court_url": "http://louisiana.gov/Government/Judicial_Branch/#courtsofappeal",
@@ -16253,6 +16413,7 @@
         "parent": "micirct",
         "regex": [
             "Iosco (County)? ?Circuit Court",
+            "Jusco County Circuit Court",
             "Arenac (County)? ?Circuit Court",
             "Alcona (County)? ?Circuit Court",
             "Oscoda (County)? ?Circuit Court"
@@ -23414,16 +23575,16 @@
             }
         ],
         "examples": [
-            "Pennsylvania Admiralty Court"
+            "Pennsylvania Admirality Court"
         ],
         "id": "paadmct",
         "jurisdiction": "P.A.",
         "level": null,
         "location": "Pennsylvania",
-        "name": "Pennsylvania Admiralty Court",
+        "name": "Pennsylvania Admirality Court",
         "notes": "",
         "regex": [
-            "Pennsylvania Admiralty Court"
+            "Pennsylvania Admirality Court"
         ],
         "system": "state",
         "type": null
@@ -24003,7 +24164,8 @@
             "New York Court of General Sessions?( of the Peace)?",
             "New York General Sessions",
             "Ny General Session",
-            "General Sessions"
+            "General Sessions",
+            "New York Court of General Session, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -24090,7 +24252,7 @@
         "notes": "See https://history.nycourts.gov/case/court-sessions",
         "parent": "nysessct",
         "regex": [
-            "Court of Sessions, Lewis County"
+            "Court of Sessions?, Lewis County"
         ],
         "system": "state",
         "type": "trial"
@@ -25360,6 +25522,30 @@
                 "start": null
             }
         ],
+        "examples": [],
+        "id": "nyctyctnassau",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "County Court of New York, Nassau",
+        "notes": "",
+        "parent": "nycountyct",
+        "regex": [
+            "County Court of New York, Nassau Trial Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. County Court",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
         "examples": [
             "Allegany County Court"
         ],
@@ -25444,7 +25630,9 @@
         "name": "Cattaraugus County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Cattaraugus County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -25542,7 +25730,9 @@
         "name": "Chenango County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Chenango County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -25718,7 +25908,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "Essex County Court"
+            "Essex County Court",
+            "County Court of New York, Essex County"
         ],
         "system": "state",
         "type": "trial"
@@ -25744,7 +25935,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "(New York)? ?Fulton County Court"
+            "(New York)? ?Fulton County Court",
+            "County Court of New York, Fulton County"
         ],
         "system": "state",
         "type": "trial"
@@ -25794,7 +25986,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "(New York)? ?Herkimer County Court"
+            "(New York)? ?Herkimer County Court",
+            "County Court of New York, Herkimer County"
         ],
         "system": "state",
         "type": "trial"
@@ -25844,7 +26037,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "New York Lewis County Court"
+            "New York Lewis County Court",
+            "County Court of New York, Lewis County"
         ],
         "system": "state",
         "type": "trial"
@@ -25870,7 +26064,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "Livingston County Court"
+            "Livingston County Court",
+            "County Court of New York, Livingston County"
         ],
         "system": "state",
         "type": "trial"
@@ -25988,6 +26183,32 @@
             }
         ],
         "examples": [
+            "County Court of New York, Seneca County"
+        ],
+        "id": "nysenecactyct",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "County Court of New York, Seneca County",
+        "notes": "",
+        "parent": "nycountyct",
+        "regex": [
+            "County Court of New York, Seneca County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. County Court",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
             "Niagara County Court"
         ],
         "id": "nyniagaractyct",
@@ -25998,7 +26219,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Niagara County"
+            "County Court of New York, Niagara County",
+            "County Court of New York, Naigara County"
         ],
         "system": "state",
         "type": "trial"
@@ -26125,7 +26347,9 @@
         "name": "Oswego County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Oswego County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -26221,7 +26445,9 @@
         "name": "Rockland County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Rockland County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -26269,7 +26495,9 @@
         "name": "Schoharie County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Schoharie County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -26393,7 +26621,9 @@
         "name": "Sullivan County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court of New York, Sullivan County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -26952,7 +27182,8 @@
             "City Court of New York Special Term Brooklyn County",
             "City Court of Cohoes Albany County",
             "City Court of Poughkeepsie Dutchess County",
-            "Municipal Court of the City of New York, Borough of ${bw} ${1-5} District Part"
+            "Municipal Court of the City of New York, Borough of ${bw} ${1-5} District Part",
+            "New York City Cout"
         ],
         "system": "state",
         "type": "trial"
@@ -28377,8 +28608,9 @@
             "Surrrogate S Court of New York New York County",
             "Surrrogate.* New York",
             "Snrrogate S Court of New York New York County",
-            "Surrogate's Court",
-            "New York Surrogate's Court, Ulster County"
+            "New York Surrogate's Court, Ulster County",
+            "Surrogate's Court, New York County",
+            "New York Surrogate's Court, \b.*\b County"
         ],
         "system": "state",
         "type": "trial"
@@ -29008,7 +29240,8 @@
             "New York Supreme Court, Special Term",
             "New York Supreme Court",
             "New York Supreme Court (other)",
-            "Supreme Court, Trial Term, New York County"
+            "Supreme Court, Trial Term, New York County",
+            "Supreme Court, Chambers, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -29032,7 +29265,56 @@
         "name": "New York Supreme Court, Albany",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Albany General Term"
+            "New York Supreme Court, Albany General Term",
+            "New York Supreme Court Albany Special Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct.",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": "1896-01-01"
+            }
+        ],
+        "examples": [
+            "New York Supreme Court Ulster Special Term"
+        ],
+        "id": "nysupctulster",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court Ulster Special Term",
+        "parent": "nysupct",
+        "regex": [
+            "New York Supreme Court Ulster Special Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., St. Lawrence",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": "1896-01-01"
+            }
+        ],
+        "examples": [
+            "New York Supreme Court St. Lawrence Special Term"
+        ],
+        "id": "nysupctstlaw",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court St. Lawrence",
+        "parent": "nysupct",
+        "regex": [
+            "New York Supreme Court St. Lawrence Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -29128,7 +29410,8 @@
         "name": "New York Supreme Court, Kings",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Kings General Term"
+            "New York Supreme Court, Kings General Term",
+            "New York Supreme Court Kings Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -29153,7 +29436,8 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Monroe General Term",
-            "Supreme Court, Trial Term, Monroe County"
+            "Supreme Court, Trial Term, Monroe County",
+            "New York Supreme Court Monroe Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -36427,7 +36711,8 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Hancock County Court of Common Pleas"
+            "Hancock County Court of Common Pleas",
+            "Hancock County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -36557,7 +36842,7 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Hocking County Court of Common Pleas"
+            "Hocking County Court ?(of Common Pleas)?"
         ],
         "system": "state",
         "type": "trial"
@@ -37001,7 +37286,8 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Mercer County Court of Common Pleas"
+            "Mercer County Court of Common Pleas",
+            "Mercer County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -37574,7 +37860,7 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Summit County Court of Common Pleas"
+            "Summit County Court ?(of Common Pleas)?"
         ],
         "system": "state",
         "type": "trial"
@@ -40088,7 +40374,7 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Akron Municipal Court"
+            "Akron Municipal Court.?"
         ],
         "system": "state",
         "type": "trial"
@@ -44361,7 +44647,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Centre County Court of Common Pleas"
+            "Centre County Court of Common Pleas",
+            "Centre County Court of Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45074,7 +45361,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Lehigh County Court of Common Pleas"
+            "Lehigh County Court of Common Pleas",
+            "Lehigh County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45100,7 +45388,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Luzerne County Court of Common Pleas"
+            "Luzerne County Court of Common Pleas",
+            "Luzerne County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45126,7 +45415,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Lycoming County Court of Common Pleas"
+            "Lycoming County Court of Common Pleas",
+            "Lycoming County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -45204,7 +45494,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Mifflin County Court of Common Pleas"
+            "Mifflin County Court of Common Pleas",
+            "Mifflin County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -46677,7 +46968,8 @@
             "United States District Court For The Northern District of South Dakota",
             "United States District Court For The Central District of South Dakota",
             "United States District Court For The Southern District of South Dakota",
-            "United States District Court For The Southern District of South Dakota Northern Division"
+            "United States District Court For The Southern District of South Dakota Northern Division",
+            "United States District Court for the Western District of South Dakota"
         ],
         "system": "federal",
         "type": "trial"
@@ -51683,7 +51975,9 @@
         "lower_courts": [],
         "name": "Fort McDowell Yavapai Nation Tribal Court of Appeals",
         "name_abbreviation": "Fort McDowell Tribal Ct. of App.",
-        "regex": [],
+        "regex": [
+            "Fort McDowell Tribal Court of Appeals"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -52680,8 +52974,49 @@
         "location": "Washington D.C.",
         "name": "Supreme Court of the District of Columbia",
         "regex": [
-            "Supreme Court of District of Columbia"
+            "Supreme Court of District of Columbia",
+            "United States Supreme Court of the District of Columbia"
         ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "D.C.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "District of Columbia Orphans' Court"
+        ],
+        "id": "dcorphanct",
+        "level": "ljc",
+        "location": "Washington D.C.",
+        "name": "District of Columbia Orphans' Court",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "D.C.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "District of Columbia Criminal Court"
+        ],
+        "id": "dccrimct",
+        "level": "ljc",
+        "location": "Washington D.C.",
+        "name": "District of Columbia Criminal Court",
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
