@@ -1987,6 +1987,270 @@
         "type": "trial"
     },
     {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctboulder",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Boulder County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctdouglas",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Douglas County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctarapaho",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Arapahoe County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctpueblo",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Pueblo County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctteller",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Teller County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctmeyer",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Meyer County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctbent",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Bent County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctotero",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Otero County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctpitkin",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Pitkin County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctfremont",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Fremont County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctlarimer",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Larimer County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "division_type": "county",
+        "examples": [],
+        "id": "colctyctgarfiel",
+        "jurisdiction": "C.O.",
+        "level": "gjc",
+        "location": "Colorado",
+        "locations": 64,
+        "name": "Garfield County District Court",
+        "name_abbreviation": null,
+        "parent": "colctyct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
         "case_types": [],
         "citation_string": "",
         "dates": [
@@ -4274,9 +4538,11 @@
         "id": "flactyct12",
         "level": "gjc",
         "location": "Florida",
-        "name": "Columbia County Court",
+        "name": "Columbia County Court, FL",
         "parent": "flactyct",
-        "regex": [],
+        "regex": [
+            "Columbia County Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -7541,7 +7807,8 @@
             "${usdc} ${sd} ${ga}",
             "${usdc} ${sd}.*(?=(georgia|savannah))",
             "United States District Court S D Georgia Statesboro Division",
-            "United States District Court For The Southern Division of Georgia Savannah Division"
+            "United States District Court For The Southern Division of Georgia Savannah Division",
+            "District Court, E. D. Georgia, S. D."
         ],
         "system": "federal",
         "type": "trial"
@@ -7713,6 +7980,29 @@
         "parent": "gasuperct",
         "regex": [
             "Carroll? Superior Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Liberty Cty. Super. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "gasuperctliber",
+        "jurisdiction": "G.A.",
+        "level": "gjc",
+        "location": "Georgia",
+        "name": "Liberty County Superior Court, Ga.",
+        "name_abbreviation": null,
+        "parent": "gasuperct",
+        "regex": [
+            "Liberty Superior Court"
         ],
         "system": "state",
         "type": "trial"
@@ -10293,7 +10583,8 @@
             "District Court First District Kansas",
             "U S District Court Montgomery County Kan",
             "United States District Court For The Eastern District Kansas",
-            "United States District Court for the Eastern District of Kansas"
+            "United States District Court for (the)? ?Eastern District of Kansas",
+            "United States District Court for Eastern the District of Kansas"
         ],
         "system": "federal",
         "type": "appellate"
@@ -15011,6 +15302,25 @@
         "citation_string": "",
         "dates": [
             {
+                "end": "1983-12-31",
+                "start": "1867-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "supbenbaltcty",
+        "level": "gjc",
+        "location": "Maryland",
+        "name": "Supreme Bench of Baltimore City",
+        "notes": "https://msa.maryland.gov/msa/speccol/sc2600/sc2685/html/supbench.html",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
                 "end": null,
                 "start": "1789-09-24"
             }
@@ -15039,7 +15349,9 @@
         "location": "Maryland",
         "name": "Baltimore City Circuit Court",
         "parent": "mdcirctct",
-        "regex": [],
+        "regex": [
+            "More City Circuit Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -17453,7 +17765,8 @@
             "${d} ?(D)? ?Minn(esota)?",
             "${usdc} ${d} Minnesota( Second Division)?",
             "${usdc} ${d} ${mn}",
-            "${usdc} ${mn}"
+            "${usdc} ${mn}",
+            "United States District Court for the Northern District of Minnesota"
         ],
         "system": "federal",
         "type": "appellate"
@@ -17756,7 +18069,8 @@
             "${usdc} D ${mo} ?(Eastern Division)?",
             "${usdc} ${ed} Eastern Division of ${mo}",
             "${usdc} For The ${d} of Eastern ${mo} Eastern Division",
-            "United States District Court for the Eastern District of Missouri"
+            "United States District Court for the Eastern District of Missouri",
+            "United States District Court of the Eastern District of Missouri"
         ],
         "system": "federal",
         "type": "trial"
@@ -23978,7 +24292,8 @@
             "${usdc} ${d} New Jersey",
             "${usdc} New Jersey",
             "United States District Court Newark New Jersey",
-            "United States District Court Third Dist(rict)? ?(of)? ?New Jersey"
+            "United States District Court Third Dist(rict)? ?(of)? ?New Jersey",
+            "United States District Court, D. New Jersey, Camden Vicinage"
         ],
         "system": "federal",
         "type": "appellate"
@@ -24164,7 +24479,7 @@
             "New York Court of General Sessions?( of the Peace)?",
             "New York General Sessions",
             "Ny General Session",
-            "General Sessions",
+            "New York Court of General Sessions; New York County",
             "New York Court of General Session, New York County"
         ],
         "system": "state",
@@ -25530,11 +25845,12 @@
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Monroe County Court",
+        "name": "Monroe County Court, NY",
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Monroe County"
+            "County Court of New York, Monroe County",
+            "Monroe County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25831,32 +26147,6 @@
             }
         ],
         "examples": [
-            "Onondaga County Court"
-        ],
-        "id": "nyonondagactyct",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Onondaga County Court",
-        "notes": "",
-        "parent": "nycountyct",
-        "regex": [
-            "County Court of New York, Onondaga County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "N.Y. County Court",
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
             "Nassau County Court"
         ],
         "id": "nynassauctyct",
@@ -25945,7 +26235,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Columbia County"
+            "County Court of New York, Columbia County",
+            "Columbia County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -26478,7 +26769,7 @@
         "regex": [
             "New York Onondaga County Court",
             "Onondaga County Court",
-            "County Court of New York, Onondaga County "
+            "County Court of New York, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
@@ -26582,32 +26873,9 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Otsego County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "N.Y. County Court",
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
+            "County Court of New York, Otsego County",
             "Otsego County Court"
         ],
-        "id": "nyotsegoctyct",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Otsego County Court",
-        "notes": "",
-        "parent": "nycountyct",
-        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -29740,7 +30008,9 @@
         "name": "New York Supreme Court, Oswego",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court Oswego Special Term"
+            "New York Supreme Court Oswego Special Term",
+            "New York Supreme Court, Oswego General Term",
+            "New York Supreme Court, Oswego"
         ],
         "system": "state",
         "type": "trial"
@@ -42986,7 +43256,8 @@
             "District Court For The Northern Division Ohio Western Division",
             "United States District Court For The Northern Disterict of Ohio",
             "District Court At Chambers N D Ohio E D",
-            "District Court of The United States For The Northern District of Ohio Eastern Division"
+            "District Court of The United States For The Northern District of Ohio Eastern Division",
+            "United States District Court, N.D. Ohio, Western Division"
         ],
         "system": "federal",
         "type": "trial"
@@ -43807,7 +44078,8 @@
         "notes": "Merged district courts into Circuit Courts in 1998",
         "parent": "orcc",
         "regex": [
-            "Columbia County (Circuit)? ?Court"
+            "Columbia County (Circuit)? ?Court",
+            "Columbia County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -44655,7 +44927,8 @@
             "Allegheny County Court",
             "Allegheny County Court of Common Pleas",
             "Alleghany County District Court",
-            "Allegheny County Commonwealth Court"
+            "Allegheny County Commonwealth Court",
+            "Allegheny County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -44843,7 +45116,8 @@
         "notes": "",
         "parent": "pactcompl",
         "regex": [
-            "Bucks? County Court ?(of Common Pleas)?"
+            "Bucks? County Court ?(of Common Pleas)?",
+            "Bucks County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -44976,7 +45250,8 @@
         "parent": "pactcompl",
         "regex": [
             "Centre County Court of Common Pleas",
-            "Centre County Court of Criminal Court"
+            "Centre County Court of Criminal Court",
+            "Centre County Criminal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -47060,6 +47335,24 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "admiraltyctsc",
+        "level": "",
+        "location": "South Carolina",
+        "name": "South Carolina Admiralty Court",
+        "regex": [],
+        "system": "state",
+        "type": "special"
     },
     {
         "case_types": [],
@@ -52046,9 +52339,101 @@
         "lower_courts": [],
         "name": "Cherokee Nation Supreme Court",
         "name_abbreviation": "Cherokee Nation Sup. Ct.",
+        "regex": [
+            "Cherokee Indian Supreme Court"
+        ],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "appeal_to": null,
+        "citation_string": "",
+        "court_url": "https://www.cherokeecourts.org/History/Judicial-Appeals-Tribunal-History",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "cherokeeapp",
+        "jurisdiction": "O.K.",
+        "level": "iac",
+        "location": "Oklahoma",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Cherokee Nation Judicial Appeals Tribunal",
+        "name_abbreviation": "Cherokee Nation Jud. App. Trib.",
+        "regex": [],
+        "system": "tribal",
+        "type": "trial"
+    },
+    {
+        "appeal_to": null,
+        "citation_string": "",
+        "court_url": "https://www.cherokeecourts.org/History/Judicial-Appeals-Tribunal-History",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "cherokeetribct",
+        "jurisdiction": "O.K.",
+        "level": "gjc",
+        "location": "Oklahoma",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Cherokee Indian Tribal Court",
+        "name_abbreviation": "Cherokee Indian Trib. Ct.",
         "regex": [],
         "system": "tribal",
         "type": "special"
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "sacfoxsupct",
+        "jurisdiction": "O.K.",
+        "level": "colr",
+        "location": "Oklahoma",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Sac and Fox Nation Supreme Court",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "sacfoxdistct",
+        "jurisdiction": "O.K.",
+        "level": "colr",
+        "location": "Oklahoma",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Sac and Fox Nation District Court",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "trial"
     },
     {
         "active": true,
@@ -52257,7 +52642,9 @@
         "lower_courts": [],
         "name": "Fort McDowell Supreme Court",
         "name_abbreviation": "Fort McDowell Sup. Ct.",
-        "regex": [],
+        "regex": [
+            "Fort McDowell Yavapai Nation Supreme Court"
+        ],
         "system": "tribal",
         "type": "special"
     },
@@ -52713,6 +53100,148 @@
         "type": "special"
     },
     {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "moheganelders",
+        "jurisdiction": "C.T.",
+        "level": "",
+        "location": "Connecticut",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Council of Elders of the Mohegan Tribe",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "webchippewatr",
+        "jurisdiction": "M.N.",
+        "level": "",
+        "location": "Minnesota",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "White Earth Band of Chippewa Tribal Court",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "swinomishtr",
+        "jurisdiction": "W.A.",
+        "level": "",
+        "location": "Washington",
+        "lower_courts": [],
+        "name": "Swinomish Tribal Court",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "swinomishappct",
+        "jurisdiction": "W.A.",
+        "level": "",
+        "location": "Washington",
+        "lower_courts": [],
+        "name": "Swinomish Tribal Court of Appeals",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "shoaraphotr",
+        "jurisdiction": "W.Y.",
+        "level": "",
+        "location": "Wyoming",
+        "lower_courts": [],
+        "name": "Shoshone and Arapaho Tribal Court",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "leechojibtr",
+        "jurisdiction": "M.N.",
+        "level": "",
+        "location": "Minnesota",
+        "lower_courts": [],
+        "name": "Leech Lake Band of Ojibwe Tribal Court",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "cheyrsiouxctapp",
+        "jurisdiction": "S.D.",
+        "level": "",
+        "location": "South Dakota",
+        "lower_courts": [],
+        "name": "Cheyenne River Sioux Tribal Court of Appeals",
+        "name_abbreviation": "",
+        "regex": [],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
         "active": true,
         "appeal_to": null,
         "citation_string": "",
@@ -52968,6 +53497,29 @@
         "name_abbreviation": "Oneida App. Comm'n, App. Ct.",
         "regex": [
             "Oneida Tribal Judicial System, Appellate Court"
+        ],
+        "system": "tribal",
+        "type": "special"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "oneidatrialct",
+        "jurisdiction": "N.Y.",
+        "level": "gjc",
+        "location": "New York",
+        "locations": 1,
+        "lower_courts": [],
+        "name": "Oneida Tribal Judicial System, Trial Court",
+        "name_abbreviation": "",
+        "regex": [
+            "Oneida Tribal Judicial System, Trial Court"
         ],
         "system": "tribal",
         "type": "special"
@@ -63421,5 +63973,68 @@
         "regex": [],
         "system": "colonial",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "US Land Office",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "uslandoffice",
+        "jurisdiction": "",
+        "level": "",
+        "location": "United States",
+        "name": "United States Land Office",
+        "notes": "Decision by the Commissioner of the United States Land Office",
+        "regex": [],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "ussurveyor",
+        "jurisdiction": "",
+        "level": "",
+        "location": "United States",
+        "name": "United States Surveyor",
+        "notes": "Potentially merged into Bureau of Land Management",
+        "regex": [],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "deptinterior",
+        "jurisdiction": "",
+        "level": "",
+        "location": "United States",
+        "name": "Department of Interior",
+        "notes": "",
+        "regex": [],
+        "system": "federal",
+        "type": "special"
     }
 ]
