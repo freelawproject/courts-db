@@ -5,7 +5,7 @@ Courts-DB is an open source repository to organize a db of all courts current an
 It was built for use in Courtlistener.com.
 
 Its main goal is to interface with CL to identify historical and current courts
-by string.  It incldues mechanisms to filter results based on dates and/or whether it is a bankruptcy court.
+by string.  It includes mechanisms to filter results based on dates and/or whether it is a bankruptcy court.
 
 Further development is intended and all contributors, corrections and additions are welcome.
 
@@ -15,6 +15,8 @@ Background
 Free Law Project built this database using the metadata (case names, dates etc.)
 of over 16 millions data points.  This data represents hundreds of hours of
 research and testing.  We believe to be the most extensive open dataset of its kind.
+
+The SALI Alliance has `incorporated <https://www.sali.org/page-18076>`_ the `id` fields used in Courts-DB into its Legal Matter Specification Standard.
 
 Quickstart
 ===========
@@ -111,7 +113,7 @@ Fields
 1. :code:`id` ==> string; Courtlistener Court Identifier
 2. :code:`court_url` ==> string; url for court website
 3. :code:`regex` ==>  array; regexes patterns to find courts
-4. :code:`examples` ==>  array; regexes patterns to find courts
+4. :code:`examples` ==>  array; examples on which at least one regex should match
 5. :code:`name` ==> string; full name of the court
 6. :code:`name_abbreviation` ==> string; court name abbreviations
 7. :code:`dates` ==> Array; Contains start date, end date and notes on date range
