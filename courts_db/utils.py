@@ -213,10 +213,61 @@ def gather_regexes(courts):
 
 
 def citation_to_regex(citation_str: str):
-    reg_elements = citation_str.split(".")
-    reg_str = ""
-    for element in reg_elements:
-        if element != "":
-            reg_str += f"{element.strip()}\\.\\s?"
-    regex = re.compile(reg_str, (re.I | re.U))
-    return regex
+    """
+    Tricky ones:
+        D. Alaska       No trailing period
+    """
+    # Skip most of this if there are no periods.
+    if citation_str.count(".") > 0:
+        reg_str = ""
+        reg_elements = citation_str.split(".")
+        for element in reg_elements:
+            if element != "":
+                reg_str += f"{element.strip()}\\.\\s?"
+        # Trim last \s? from regex pattern
+        if reg_str.endswith("\\s?"):
+            reg_str = reg_str[:-3]
+        # Make last period optional to avoid some weirdness like ""
+        regex = re.compile(reg_str, (re.I | re.U))
+        print(f"regex pattern: {regex.pattern}")
+        return regex.pattern
+    # Just return the original string if nothing is abbreviated with periods.
+    else:
+        return citation_str
+
+
+def write_citation_regexes():
+    data = None
+    output_data = []
+
+    # Read current courts.json file
+    with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
+        data = json.load(f)
+
+    # Loop over it
+    for court in data:
+        print(court["id"])
+
+        # Don't bother unless there is a citation string listed for the court.
+        if "citation_string" in court and court["citation_string"] != "":
+
+            citation_str = court["citation_string"]
+
+            # Add the citation string to the examples if it's not there already.
+            if citation_str not in court["examples"]:
+                print(f"Adding citation string \"{citation_str}\" to \"examples\" for court {court['id']}")
+                court["examples"].append(citation_str)
+            
+            # Compute a regex
+            regex = citation_to_regex(citation_str)
+            if regex not in court["regex"]:
+                print(f"Adding regex {regex} to \"regex\" for court {court['id']}")
+                court["regex"].append(regex)
+        
+        output_data.append(court)
+    
+    # Write file
+    with open(os.path.join(db_root, "data", "courts2.json"), "w") as output_f:
+        json.dump(output_data, output_f, indent=4)
+
+    print("Done!")
