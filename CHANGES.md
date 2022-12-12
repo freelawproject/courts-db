@@ -6,11 +6,9 @@
 
 ## Current Version
 
-- 0.10.13 (): Handle citation strings (#61)
+- 0.10.12 (2022-12-02): MOED variation
 
 ## Past Versions
-
-- 0.10.12 (2022-12-02): MOED variation
 
 - 0.10.11 (2022-12-02): Various improvements to courts-db
 
