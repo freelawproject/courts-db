@@ -255,17 +255,21 @@ def write_citation_regexes():
 
             # Add the citation string to the examples if it's not there already.
             if citation_str not in court["examples"]:
-                print(f"Adding citation string \"{citation_str}\" to \"examples\" for court {court['id']}")
+                print(
+                    f"Adding citation string \"{citation_str}\" to \"examples\" for court {court['id']}"
+                )
                 court["examples"].append(citation_str)
-            
+
             # Compute a regex
             regex = citation_to_regex(citation_str)
             if regex not in court["regex"]:
-                print(f"Adding regex {regex} to \"regex\" for court {court['id']}")
+                print(
+                    f"Adding regex {regex} to \"regex\" for court {court['id']}"
+                )
                 court["regex"].append(regex)
-        
+
         output_data.append(court)
-    
+
     # Write file
     with open(os.path.join(db_root, "data", "courts2.json"), "w") as output_f:
         json.dump(output_data, output_f, indent=4)
