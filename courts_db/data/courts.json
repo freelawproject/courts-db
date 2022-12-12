@@ -822,7 +822,7 @@
     {
         "case_types": [],
         "citation_string": "Ariz. Ct. App.",
-        "court_url": "http://www.azcourts.gov/AZCourts/CourtofAppeals.aspx\u200e",
+        "court_url": "http://www.azcourts.gov/AZCourts/CourtofAppeals.aspx",
         "dates": [
             {
                 "end": null,
@@ -1890,7 +1890,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Cal. App. Dep\u2019t Super. Ct.",
+        "citation_string": "Cal. App. Dep’t Super. Ct.",
         "dates": [
             {
                 "end": null,
@@ -1909,7 +1909,7 @@
             "State of California Appellate Department of The Superior Court",
             "State of California Appellate Department Superior Court",
             "Court of Appeal Superior Court California",
-            "Cal. App. Dep\u2019t Super. Ct."
+            "Cal. App. Dep’t Super. Ct."
         ],
         "id": "calappdeptsuper",
         "jurisdiction": "C.A.",
@@ -1936,7 +1936,7 @@
             "Appellate Division Superior Court of California Napa County",
             "State of California Appellate Department of The Superior Court",
             "State of California Appellate Department Superior Court",
-            "Cal\\.\\s?App\\.\\s?Dep\u2019t Super\\.\\s?Ct\\."
+            "Cal\\.\\s?App\\.\\s?Dep’t Super\\.\\s?Ct\\."
         ],
         "system": "state",
         "type": "appellate"
@@ -2492,7 +2492,7 @@
     },
     {
         "citation_string": "Conn. Super. Ct.",
-        "court_url": "http://www.jud.ct.gov/external/super/\u200e",
+        "court_url": "http://www.jud.ct.gov/external/super/",
         "dates": [
             {
                 "end": null,
@@ -2966,7 +2966,7 @@
     {
         "case_types": [],
         "citation_string": "Del. Fm. Ct.",
-        "court_url": "http://courts.delaware.gov/family/\u200e",
+        "court_url": "http://courts.delaware.gov/family/",
         "dates": [
             {
                 "end": null,
@@ -3671,10 +3671,10 @@
         "id": "flajudct12",
         "level": "ljc",
         "location": "Florida",
-        "name": "Palm Beach County Judge\u2019s Court",
+        "name": "Palm Beach County Judge’s Court",
         "parent": "flajudct",
         "regex": [
-            "Palm Beach County Judge\u2019s Court"
+            "Palm Beach County Judge’s Court"
         ],
         "system": "state",
         "type": "trial"
@@ -9969,7 +9969,7 @@
     {
         "case_types": [],
         "citation_string": "Ky.",
-        "court_url": "http://courts.ky.gov/courts/supreme/\u200e",
+        "court_url": "http://courts.ky.gov/courts/supreme/",
         "dates": [
             {
                 "end": null,
@@ -23320,7 +23320,7 @@
     {
         "case_types": [],
         "citation_string": "",
-        "court_url": "http://www.judiciary.state.nj.us/taxcourt/\u200e",
+        "court_url": "http://www.judiciary.state.nj.us/taxcourt/",
         "dates": [
             {
                 "end": null,
@@ -28244,7 +28244,7 @@
             "Surrogates? Court of New York",
             "3Urrogate S",
             "Surrogate's Court of New York Kings County",
-            "Surrogate\u2019S Court of New York",
+            "Surrogate’S Court of New York",
             "Surrogate.S Court of New York",
             "Surrogates Court New York County",
             "Surrogote S Court of New York Westchester",
@@ -43778,7 +43778,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Okla. Att\u2019y Gen.",
+        "citation_string": "Okla. Att’y Gen.",
         "court_url": "http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKAG&level=1",
         "dates": [
             {
@@ -43787,7 +43787,7 @@
             }
         ],
         "examples": [
-            "Okla. Att\u2019y Gen."
+            "Okla. Att’y Gen."
         ],
         "id": "oklaag",
         "level": "",
@@ -43795,7 +43795,7 @@
         "name": "Oklahoma Attorney General Reports",
         "regex": [
             "Attorney General of Oklahoma",
-            "Okla\\.\\s?Att\u2019y Gen\\."
+            "Okla\\.\\s?Att’y Gen\\."
         ],
         "system": "state",
         "type": "ag"
@@ -47369,10 +47369,10 @@
             }
         ],
         "examples": [
-            "Tribunal Circu\u00edto De Apelaciones De Puerto Rico Circu\u00edTo Regional Ii Bayam",
-            "Tribunal Circuito D\u00e9 Apelaci",
+            "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam",
+            "Tribunal Circuito Dé Apelaci",
             "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
-            "Estado Libre Asociado De Puerto Rico Regi\u00f3N Judicial De Aguadilla",
+            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla",
             "Puerto Rico Circuit Court of Appeals"
         ],
         "id": "prapp",
@@ -47381,24 +47381,24 @@
         "name": "Tribunal De Apelaciones De Puerto Rico/Court of Appeals of Puerto Rico",
         "regex": [
             "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
-            "Estado Libre Asociado De Puerto Rico Regi\u00f3N Judicial De Aguadilla",
+            "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla",
             "Puerto Rico Circuit Court of Appeals",
-            "Tribunal D(e|\u00e9) Apelaciones D(e|\u00e9) Puerto Rico",
-            "Tribunal Circuito D(e|\u00e9) Apelaci(\u00f3|o)nes",
-            "Tribunal Del Circuito De Apelaci(\u00f3|o)nes",
-            "Tribunal Circuito D(e|\u00e9) Apelaci(\u00f3|o)nes",
-            "Tribunal Circuito D(e|\u00e9) Apelacines",
+            "Tribunal D(e|é) Apelaciones D(e|é) Puerto Rico",
+            "Tribunal Circuito D(e|é) Apelaci(ó|o)nes",
+            "Tribunal Del Circuito De Apelaci(ó|o)nes",
+            "Tribunal Circuito D(e|é) Apelaci(ó|o)nes",
+            "Tribunal Circuito D(e|é) Apelacines",
             "Tribunal Circuito",
             "Tribunal Circuito D\\xc3\\xa9 Apelaciones",
             "Tribunal Circuito De Apelaci\\xc3\\xb3Nes",
-            "Tribunal D(e|\u00e9)",
-            "Tribunal Circuito D\u00e9 Apelaci",
-            "Tribunal Circu(\u00ed|i)to De Apelaciones",
-            "Tribunal Circu\u00edTo De Apelaciones",
+            "Tribunal D(e|é)",
+            "Tribunal Circuito Dé Apelaci",
+            "Tribunal Circu(í|i)to De Apelaciones",
+            "Tribunal CircuíTo De Apelaciones",
             "Apelaciones De Puerto Rico",
             "Estado Libre Asocian?do De Puerto Rico",
             "Puerto Rico Circuit Court of Appeals",
-            "Tribunal Circu\u00edto De Apelaciones De Puerto Rico Circu\u00edTo Regional Ii Bayam"
+            "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam"
         ],
         "system": "federal",
         "type": "appellate"
@@ -49092,7 +49092,7 @@
         "dates": [
             {
                 "end": null,
-                "notes": "Clifton Forge 1906\u20132001",
+                "notes": "Clifton Forge 1906–2001",
                 "start": null
             }
         ],
@@ -64729,7 +64729,7 @@
         "dates": [
             {
                 "end": "1982-12-31",
-                "notes": "Appeals allowed if dispute greater than \u00a3100",
+                "notes": "Appeals allowed if dispute greater than £100",
                 "start": "1686-01-01"
             }
         ],
