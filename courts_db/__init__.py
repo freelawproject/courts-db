@@ -50,7 +50,7 @@ def find_court_ids_by_name(
     :param bankruptcy: Are we searhing for a bankruptcy court
     :return: List of Court IDs matched
     """
-    from . import regexes
+    from . import courts, regexes
 
     assert isinstance(
         court_str, str
