@@ -48466,6 +48466,25 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "utah",
+        "level": "",
+        "location": "Utah",
+        "name": "Salt Lake City Register and Receiver",
+        "notes": "Pre-Statehood Court: No information yet found",
+        "regex": [],
+        "system": "",
+        "type": ""
+    },
+    {
+        "case_types": [],
         "citation_string": "Vt.",
         "court_url": "http://www.vermontjudiciary.org/gtc/supreme/default.aspx",
         "dates": [
