@@ -2447,8 +2447,7 @@
         "level": "colr",
         "location": "Colorado",
         "name": "Denver Superior Court",
-        "regex": [
-        ],
+        "regex": [],
         "system": "state",
         "type": ""
     },
@@ -48474,7 +48473,7 @@
             }
         ],
         "examples": [],
-        "id": "utah",
+        "id": "slcregrec",
         "level": "",
         "location": "Utah",
         "name": "Salt Lake City Register and Receiver",
