@@ -2432,6 +2432,27 @@
         "type": "appellate"
     },
     {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "cosuperctdenver",
+        "jurisdiction": "C.O.",
+        "level": "colr",
+        "location": "Colorado",
+        "name": "Denver Superior Court",
+        "regex": [
+        ],
+        "system": "state",
+        "type": ""
+    },
+    {
         "appeal_to": "ca10",
         "citation_string": "D. Colo.",
         "court_url": "http://www.cod.uscourts.gov/",
@@ -7808,7 +7829,10 @@
             "${usdc} ${sd}.*(?=(georgia|savannah))",
             "United States District Court S D Georgia Statesboro Division",
             "United States District Court For The Southern Division of Georgia Savannah Division",
-            "District Court, E. D. Georgia, S. D."
+            "District Court, E. D. Georgia, S. D.",
+            "District Court, W. D. Georgia, S. D.",
+            "District Court, E. D. Georgia. S. D.",
+            "United States District Court for the Southern District of Georgia"
         ],
         "system": "federal",
         "type": "trial"
@@ -8002,7 +8026,8 @@
         "name_abbreviation": null,
         "parent": "gasuperct",
         "regex": [
-            "Liberty Superior Court"
+            "Liberty Superior Court",
+            "Liberty County Superior Court"
         ],
         "system": "state",
         "type": "trial"
@@ -15529,7 +15554,7 @@
             "United States Bankruptcy Court, D. Maryland, at Greenbelt",
             "United States Bankruptcy Court, D. Maryland, at Baltimore",
             "United States Bankruptcy Court, D. Maryland, Greenbelt Division",
-            "United States Bankruptcy Court, D. Maryland, (Baltimore Division)"
+            "United States Bankruptcy Court, D. Maryland, \\(Baltimore Division\\)"
         ],
         "system": "federal",
         "type": "bankruptcy"
@@ -17890,7 +17915,8 @@
         "parent": "usdistct",
         "regex": [
             "${usdc} ${nd} Mississippi( Greenville Division)?",
-            "District Court E D Mississippi N D"
+            "District Court E D Mississippi N D",
+            "District Court, E. D. Mississippi, N. D."
         ],
         "system": "federal",
         "type": "appellate"
@@ -17937,7 +17963,8 @@
         "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} Mississippi",
-            "District Court E D Mississippi S D"
+            "District Court E D Mississippi S D",
+            "District Court, E. D. Mississippi, S. D."
         ],
         "system": "federal",
         "type": "trial"
@@ -18070,7 +18097,8 @@
             "${usdc} ${ed} Eastern Division of ${mo}",
             "${usdc} For The ${d} of Eastern ${mo} Eastern Division",
             "United States District Court for the Eastern District of Missouri",
-            "United States District Court of the Eastern District of Missouri"
+            "United States District Court of the Eastern District of Missouri",
+            "District Court, N. D. Missouri, E. D."
         ],
         "system": "federal",
         "type": "trial"
@@ -43257,7 +43285,8 @@
             "United States District Court For The Northern Disterict of Ohio",
             "District Court At Chambers N D Ohio E D",
             "District Court of The United States For The Northern District of Ohio Eastern Division",
-            "United States District Court, N.D. Ohio, Western Division"
+            "United States District Court, N.D. Ohio, Western Division",
+            "United States District Court, N.D. Ohio, E.D."
         ],
         "system": "federal",
         "type": "trial"
@@ -51562,7 +51591,8 @@
         "name": "United States District Court for the District of Washington",
         "regex": [
             "${usdc} ${d} Washington",
-            "Washington District Court"
+            "Washington District Court",
+            "United States District Court for the District of Washington"
         ],
         "system": "federal",
         "type": "trial"
@@ -54860,6 +54890,25 @@
         "regex": [
             "Court of Kings Bench"
         ],
+        "system": "international",
+        "type": "international"
+    },
+    {
+        "case_types": [],
+        "citation_string": "High Ct. J. Ch.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1873-12-31",
+                "start": "1200-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "highctjchuk",
+        "level": "",
+        "location": "England",
+        "name": "High Court of Justice, Chancery Division",
+        "regex": [],
         "system": "international",
         "type": "international"
     },
