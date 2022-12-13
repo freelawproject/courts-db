@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.13 (2022-12-12): Court updates
+- 0.10.14 (2022-12-13): Court updates
 
 ## Past Versions
+
+- 0.10.13 (2022-12-12): Court updates
 
 - 0.10.12 (2022-12-02): MOED variation
 
