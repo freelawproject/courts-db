@@ -53852,7 +53852,9 @@
             "${dc} ${coa}",
             "${dc} Municipal ${coa}",
             "Municipal ${coa} (for the)? ${dc}",
-            "${sup} of the ${dc}"
+            "${sup} of the ${dc}",
+            "Supreme Court of District of Columbia",
+            "United States Supreme Court of the District of Columbia"
         ],
         "system": "state",
         "type": "appellate"
@@ -53881,29 +53883,6 @@
             "Superior Court of The District of Columbia",
             "Superior Court of The District of Columbia Family Court",
             "Superior Court of The District of Columbia (Criminal|Civil) Division"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "D.C.",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Supreme Court of District of Columbia"
-        ],
-        "id": "dcsupreme",
-        "level": "colr",
-        "location": "Washington D.C.",
-        "name": "Supreme Court of the District of Columbia",
-        "regex": [
-            "Supreme Court of District of Columbia",
-            "United States Supreme Court of the District of Columbia"
         ],
         "system": "state",
         "type": "trial"
