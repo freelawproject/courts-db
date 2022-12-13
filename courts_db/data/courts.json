@@ -9972,7 +9972,7 @@
             "United States District Court For The Northern Cistrict of Illinois",
             "United States District Court For The Northern Disctrict of Illinois",
             "District Court For The Northern Division Illinois E Div",
-            "United States Distric Court For The Northern District of Illinois ",
+            "United States Distric Court For The Northern District of Illinois",
             "United States District Court For The Eastern Division Northern District of Illinois",
             "${usdc} ${nd} Illinois",
             "United States (Distrlct|Disttict|District) Court For The Northern District of (Illnois|Illinois)",
@@ -10331,7 +10331,7 @@
             }
         ],
         "examples": [
-            "District Court D Iowa "
+            "District Court D Iowa"
         ],
         "federal_circuit": 8,
         "id": "iad",
@@ -14820,7 +14820,7 @@
         "dates": [
             {
                 "end": "1812-04-07",
-                "notes": "Territory to District ",
+                "notes": "Territory to District",
                 "start": "1804-03-26"
             },
             {
@@ -14916,7 +14916,7 @@
         "id": "usprovctla",
         "level": "",
         "location": "Louisiana",
-        "name": "United States Provisional Court for the State of Louisiana ",
+        "name": "United States Provisional Court for the State of Louisiana",
         "regex": [
             "Louisiana Provisional Court"
         ],
@@ -20993,7 +20993,10 @@
             "Court of Common Pleas ${bw} County New Jersey",
             "Common Pleas Court New Jersey",
             "Common Pleas.* New Jersey",
-            "Court of Common Pleas of New Jersey ${bw} County"
+            "Court of Common Pleas of New Jersey ${bw} County",
+            "Union County Court of Common Pleas",
+            "Warren County Court of Common Pleas",
+            "Mercer County Court of Common Pleas"
         ],
         "system": "state",
         "type": null
@@ -30991,7 +30994,7 @@
             }
         ],
         "examples": [],
-        "id": "ohioctyctadams ",
+        "id": "ohioctyctadams",
         "level": "gjc",
         "location": "Ohio",
         "name": "Adams County Court, Ohio",
@@ -31288,7 +31291,7 @@
             }
         ],
         "examples": [],
-        "id": "ohioctyctmeigs ",
+        "id": "ohioctyctmeigs",
         "level": "gjc",
         "location": "Ohio",
         "name": "Meigs County Court, Ohio",
@@ -31372,7 +31375,7 @@
             }
         ],
         "examples": [],
-        "id": "ohioctyctnoble ",
+        "id": "ohioctyctnoble",
         "level": "gjc",
         "location": "Ohio",
         "name": "Noble County Court, Ohio",
@@ -31414,7 +31417,7 @@
             }
         ],
         "examples": [],
-        "id": "ohioctyctperry ",
+        "id": "ohioctyctperry",
         "level": "gjc",
         "location": "Ohio",
         "name": "Perry County Court, Ohio",
@@ -31435,7 +31438,7 @@
             }
         ],
         "examples": [],
-        "id": "ohioctyctpike ",
+        "id": "ohioctyctpike",
         "level": "gjc",
         "location": "Ohio",
         "name": "Pike County Court, Ohio",
@@ -31772,8 +31775,8 @@
         "citation_string": "Oh. Circ. Ct.",
         "dates": [
             {
-                "end": null,
-                "start": null
+                "end": "1912-12-31",
+                "start": "1883-01-01"
             }
         ],
         "examples": [
@@ -31812,7 +31815,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Auglaize County (Circuit)? ?Court",
+            "Auglaize County Circuit Court",
             "Auglaize Circuit Court"
         ],
         "system": "state",
@@ -31841,7 +31844,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Adams Circuit Court",
-            "Adams County (Circuit)? ?Court"
+            "Adams County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -31869,7 +31872,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Allen Circuit Court",
-            "Allen County (Circuit)? ?Court"
+            "Allen County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -31896,7 +31899,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Ashland County (Circuit)? ?Court",
+            "Ashland County Circuit Court",
             "Ashland Circuit Court"
         ],
         "system": "state",
@@ -31924,7 +31927,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Ashtabula County (Circuit)? ?Court",
+            "Ashtabula County Circuit Court",
             "Ashtabula Circuit Court"
         ],
         "system": "state",
@@ -31979,7 +31982,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Belmont Circuit Court",
-            "Belmont County (Circuit)? ?Court"
+            "Belmont County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32304,8 +32307,7 @@
         ],
         "examples": [
             "Cuyahoga County Circuit Court",
-            "Cuyahoga Circuit Court",
-            "Cuyahoga County Court"
+            "Cuyahoga Circuit Court"
         ],
         "id": "ohcirctcuyahoga",
         "jurisdiction": "O.H.",
@@ -32316,8 +32318,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Cuyahoga County Circuit Court",
-            "Cuyahoga Circuit Court",
-            "Cuyahoga County Court"
+            "Cuyahoga Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32457,8 +32458,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Fairfield Circuit Court",
-            "Fairfield County Circuit Court",
-            "Fairfield County Court"
+            "Fairfield County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32792,7 +32792,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Henry Circuit Court",
-            "Henry County (Circuit)? ?Court"
+            "Henry County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32820,7 +32820,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Highland Circuit Court",
-            "Highland County (Circuit)? ?Court"
+            "Highland County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32848,7 +32848,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Holmes Circuit Court",
-            "Holmes County (Circuit)? ?Court"
+            "Holmes County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32876,7 +32876,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Huron Circuit Court",
-            "Huron County (Circuit)? ?Court"
+            "Huron County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32904,7 +32904,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Jackson Circuit Court",
-            "Jackson County (Circuit)? ?Court"
+            "Jackson County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32931,7 +32931,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Jefferson County (Circuit)? ?Court",
+            "Jefferson County Circuit Court",
             "Jefferson Circuit Court"
         ],
         "system": "state",
@@ -32958,7 +32958,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Knox County (Circuit)? ?Court"
+            "Knox County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -32984,7 +32984,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Lake County (Circuit)? ?Court"
+            "Lake County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33012,7 +33012,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Lawrence Circuit Court",
-            "Lawrence County (Circuit)? ?Court"
+            "Lawrence County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33040,7 +33040,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Licking Circuit Court",
-            "Licking County (Circuit)? ?Court"
+            "Licking County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33067,7 +33067,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Logan County (Circuit)? ?Court",
+            "Logan County Circuit Court",
             "Logan Circuit Court"
         ],
         "system": "state",
@@ -33096,7 +33096,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Lorain Circuit Court",
-            "Lorain County (Circuit)? ?Court"
+            "Lorain County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33123,7 +33123,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Lucas County (Circuit)? ?Court",
+            "Lucas County Circuit Court",
             "Lucas Circuit Court"
         ],
         "system": "state",
@@ -33179,7 +33179,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Mahoning County (Circuit)? ?Court",
+            "Mahoning County Circuit Court",
             "Mahoning Circuit Court"
         ],
         "system": "state",
@@ -33459,7 +33459,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Muskingum County (Circuit)? ?Court",
+            "Muskingum County Circuit Court",
             "Muskingum Circuit Court"
         ],
         "system": "state",
@@ -33488,7 +33488,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Noble Circuit Court",
-            "Noble County (Circuit)? ?Court"
+            "Noble County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33516,7 +33516,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Ottawa Circuit Court",
-            "Ottawa County (Circuit)? ?Court"
+            "Ottawa County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33544,7 +33544,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Paulding County Circuit Court",
-            "Paulding (Circuit)? ?Court"
+            "Paulding Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33572,7 +33572,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Perry Circuit Court",
-            "Perry County (Circuit)? ?Court"
+            "Perry County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33600,7 +33600,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Pickaway Circuit Court",
-            "Pickaway County (Circuit)? ?Court"
+            "Pickaway County Circuit ?Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33627,7 +33627,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Pike County (Circuit)? ?Court",
+            "Pike County Circuit Court",
             "Pike Circuit Court"
         ],
         "system": "state",
@@ -33656,7 +33656,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Portage Circuit Court",
-            "Portage County (Circuit)? ?Court"
+            "Portage County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33710,7 +33710,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Putnam County (Circuit)? ?Court",
+            "Putnam County Circuit Court",
             "Putnam Circuit Court"
         ],
         "system": "state",
@@ -33739,7 +33739,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Richland Circuit Court",
-            "Richland County (Circuit)? ?Court"
+            "Richland County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33767,7 +33767,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Ross Circuit Court",
-            "Ross County (Circuit)? ?Court"
+            "Ross County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -33794,7 +33794,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Sandusky County (Circuit)? ?Court",
+            "Sandusky County Circuit Court",
             "Sandusky Circuit Court"
         ],
         "system": "state",
@@ -34198,8 +34198,7 @@
         ],
         "examples": [
             "Wood Circuit Court",
-            "Wood County Circuit Court",
-            "Wood County Court"
+            "Wood County Circuit Court"
         ],
         "id": "ohcirctwood",
         "jurisdiction": "O.H.",
@@ -34210,7 +34209,7 @@
         "parent": "ohiocirct",
         "regex": [
             "Wood Circuit Court",
-            "Wood County (Circuit)? ?Court"
+            "Wood County Circuit Court"
         ],
         "system": "state",
         "type": "trial"
@@ -34227,8 +34226,7 @@
         ],
         "examples": [
             "Wyandot County Circuit Court",
-            "Wyandot Circuit Court",
-            "Wyandot County Court"
+            "Wyandot Circuit Court"
         ],
         "id": "ohcirctwyandot",
         "jurisdiction": "O.H.",
@@ -34238,7 +34236,7 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Wyandot County (Circuit)? ?Court",
+            "Wyandot County Circuit Court",
             "Wyandot Circuit Court"
         ],
         "system": "state",
@@ -38537,8 +38535,7 @@
         "notes": "",
         "parent": "ohioctcompl",
         "regex": [
-            "Trumbull County Court of Common Pleas",
-            "Trumbull County Court"
+            "Trumbull County Court of Common Pleas"
         ],
         "system": "state",
         "type": "trial"
@@ -51730,7 +51727,7 @@
             "United States District Court For The Eastern District of Washington",
             "District Court of The United States E D Washington S D",
             "United States District Court For The Eastern Division of Washington",
-            "District Court of The United States For The Eastern District of Washington Northern "
+            "District Court of The United States For The Eastern District of Washington Northern"
         ],
         "system": "federal",
         "type": "trial"
