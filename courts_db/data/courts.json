@@ -30083,13 +30083,15 @@
         "examples": [
             "New York Supreme Court New York Special Term"
         ],
-        "id": "nysupctny",
+        "id": "nysupctnewyork",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court New York",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court New York Special Term"
+            "New York Supreme Court New York Special Term",
+            "New York Supreme Court New York",
+            "New York Supreme Court New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -30181,7 +30183,7 @@
         "examples": [
             "New York Supreme Court Onondaga Special Term"
         ],
-        "id": "nysupctonond",
+        "id": "nysupctnndg",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court Onondaga Special Term",
@@ -30206,7 +30208,7 @@
         "examples": [
             "New York Supreme Court Oneida Special Term"
         ],
-        "id": "nysupctonei",
+        "id": "nysupctoneida",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court Oneida Special Term",
