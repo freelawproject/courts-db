@@ -2442,11 +2442,32 @@
             }
         ],
         "examples": [],
+        "id": "cosuperct",
+        "jurisdiction": "C.O.",
+        "level": "colr",
+        "location": "Colorado",
+        "name": "Coloardo Superior Court",
+        "regex": [],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
         "id": "cosuperctdenver",
         "jurisdiction": "C.O.",
         "level": "colr",
         "location": "Colorado",
         "name": "Denver Superior Court",
+        "parent": "cosuperct",
         "regex": [],
         "system": "state",
         "type": ""
@@ -32123,36 +32144,8 @@
         "notes": "",
         "parent": "ohiocirct",
         "regex": [
-            "Clark County Circuit Court",
-            "Clark Circuit Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "Oh. Circ. Ct., Clarke",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Clarke County Circuit Court",
-            "Clarke Circuit Court"
-        ],
-        "id": "ohcirctclarke",
-        "jurisdiction": "O.H.",
-        "level": null,
-        "location": "Ohio",
-        "name": "Clarke Circuit Court",
-        "notes": "",
-        "parent": "ohiocirct",
-        "regex": [
-            "Clarke County Circuit Court",
-            "Clarke Circuit Court"
+            "Clarke? County Circuit Court",
+            "Clarke? Circuit Court"
         ],
         "system": "state",
         "type": "trial"
