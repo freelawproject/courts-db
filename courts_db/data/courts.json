@@ -4032,7 +4032,9 @@
         "location": "Florida",
         "name": "Florida First District Court of Appeal",
         "parent": "fladistctapp",
-        "regex": [],
+        "regex": [
+            "District Court of Appeal of Florida, First District"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -4052,7 +4054,9 @@
         "location": "Florida",
         "name": "Florida Second District Court of Appeal",
         "parent": "fladistctapp",
-        "regex": [],
+        "regex": [
+            "District Court of Appeal of Florida, Second District"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -4072,7 +4076,9 @@
         "location": "Florida",
         "name": "Florida Third District Court of Appeal",
         "parent": "fladistctapp",
-        "regex": [],
+        "regex": [
+            "District Court of Appeal of Florida, Third District"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -4092,7 +4098,9 @@
         "location": "Florida",
         "name": "Florida Fourth District Court of Appeal",
         "parent": "fladistctapp",
-        "regex": [],
+        "regex": [
+            "District Court of Appeal of Florida, Fourth District"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -4112,7 +4120,9 @@
         "location": "Florida",
         "name": "Florida Fifth District Court of Appeal",
         "parent": "fladistctapp",
-        "regex": [],
+        "regex": [
+            "District Court of Appeal of Florida, Fifth District"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -30659,7 +30669,7 @@
         "name": "Court of Appeals of North Carolina",
         "regex": [
             "Court of Appeals? (of )?North Carolina",
-            "North Carolina Court of Appeals"
+            "North Carolina Court of Appeals,?"
         ],
         "system": "state",
         "type": "appellate"
@@ -48636,7 +48646,14 @@
         "regex": [
             "Court of Appeals? of Virginia",
             "Commonwealth of Virginia Court of Appeals",
-            "Special Court of Appeals For The State of Virginia At Law"
+            "Special Court of Appeals For The State of Virginia At Law",
+            "Court of Appeals of Virginia, Lexington",
+            "Court of Appeals of Virginia, Richmond",
+            "Court of Appeals of Virginia, Alexandria",
+            "Court of Appeals of Virginia, Fredericksburg",
+            "Court of Appeals of Virginia, Norfolk",
+            "Court of Appeals of Virginia, Arlington",
+            "Court of Appeals of Virginia, Salem"
         ],
         "system": "state",
         "type": "appellate"
