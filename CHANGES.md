@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.15 (2022-12-13): Court updates
+- 0.10.16 (2022-12-15): Court updates
 
 ## Past Versions
+
+- 0.10.15 (2022-12-13): Court updates
 
 - 0.10.14 (2022-12-13): Court updates
 
