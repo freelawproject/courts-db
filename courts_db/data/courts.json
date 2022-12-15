@@ -48100,7 +48100,9 @@
             "Supreme Judicial District Court of Appeals Texas",
             "Court of Appeals.* Texas",
             "Coourt of Civil Appeals of Texas",
-            "Commission of Appeals Texas Section A"
+            "Commission of Appeals Texas Section A",
+            "Court of Appeals of Texas, Fort Worth",
+            "Court of Appeals of Texas, San Antonio"
         ],
         "system": "state",
         "type": "appellate"
