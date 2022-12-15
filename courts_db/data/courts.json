@@ -25896,7 +25896,7 @@
             }
         ],
         "examples": [],
-        "id": "nyctyctnassau",
+        "id": "nynassctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -26231,7 +26231,7 @@
         "examples": [
             "Madison County Court"
         ],
-        "id": "nymadisonctyct",
+        "id": "nymadctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -26257,7 +26257,7 @@
         "examples": [
             "Columbia County Court"
         ],
-        "id": "nycolumbiactyct",
+        "id": "nycolumctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -26444,7 +26444,7 @@
         "examples": [
             "Franklin County Court"
         ],
-        "id": "nyctyctfranklin",
+        "id": "nyfrankctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -29860,7 +29860,7 @@
         "examples": [
             "New York Supreme Court St. Lawrence Special Term"
         ],
-        "id": "nysupctstlaw",
+        "id": "nysupctsntlw",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court St. Lawrence",
@@ -30032,7 +30032,7 @@
         "examples": [
             "New York Supreme Court, Oswego General Term"
         ],
-        "id": "nysupctosswego",
+        "id": "nysupctswg",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Oswego",
@@ -30133,7 +30133,7 @@
         "examples": [
             "New York Supreme Court, Saratoga, Special Term"
         ],
-        "id": "nysupctsarat",
+        "id": "nysupctsrtg",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Saratoga County",
