@@ -16143,7 +16143,7 @@
         "id": "michsuperctdetr",
         "level": "",
         "location": "Michigan",
-        "name": "DetMichigan Superior Court, Detroit",
+        "name": "Michigan Superior Court, Detroit",
         "parent": "michsuperct",
         "regex": [
             "Detroit Superior Court"
