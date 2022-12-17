@@ -9432,7 +9432,8 @@
         "name": "Hawaii Intermediate Court of Appeals",
         "regex": [
             "(Intermediate )?${coa} Hawai",
-            "Hawaii (Intermediate )?${coa}"
+            "Hawaii (Intermediate )?${coa}",
+            "Intermediate Court of Appeals of Hawaii"
         ],
         "system": "state",
         "type": "appellate"
@@ -51647,7 +51648,8 @@
             "Wash Ct Ap",
             "State of Washington Intermediate Court of Appeals",
             "Court of Appeals Washington",
-            "Courts of Appeals of Washington"
+            "Courts of Appeals of Washington",
+            "Court of Appeals of Washington, Division \d"
         ],
         "system": "state",
         "type": "appellate"
@@ -51854,7 +51856,7 @@
         ],
         "examples": [],
         "id": "wva",
-        "level": "",
+        "level": "colr",
         "location": "West Virginia",
         "name": "West Virginia Supreme Court",
         "regex": [
@@ -51862,6 +51864,25 @@
             "West Virginia, Supreme Court of Appeals",
             "Supreme Court of Appeals West Virginia"
         ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "I.C.A. of W. Va.",
+        "court_url": "http://www.courtswv.gov/intermediate-court/index.html",
+        "dates": [
+            {
+                "end": null,
+                "start": "2022-07-01"
+            }
+        ],
+        "examples": [],
+        "id": "wva",
+        "level": "iac",
+        "location": "West Virginia",
+        "name": "Intermediate Court of Appeals of West Virginia",
+        "regex": [],
         "system": "state",
         "type": "appellate"
     },
