@@ -51649,7 +51649,7 @@
             "State of Washington Intermediate Court of Appeals",
             "Court of Appeals Washington",
             "Courts of Appeals of Washington",
-            "Court of Appeals of Washington, Division \d"
+            "Court of Appeals of Washington, Division \\d"
         ],
         "system": "state",
         "type": "appellate"
@@ -51878,7 +51878,7 @@
             }
         ],
         "examples": [],
-        "id": "wva",
+        "id": "wvactapp",
         "level": "iac",
         "location": "West Virginia",
         "name": "Intermediate Court of Appeals of West Virginia",
