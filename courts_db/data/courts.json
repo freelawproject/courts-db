@@ -25919,30 +25919,6 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Cty. Ct., Nassau Cty.",
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [],
-        "id": "nynassctyct",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "County Court of New York, Nassau",
-        "notes": "",
-        "parent": "nycountyct",
-        "regex": [
-            "County Court of New York, Nassau Trial Term"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
         "citation_string": "N.Y. Cty. Ct., Allegany Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
