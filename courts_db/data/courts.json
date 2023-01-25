@@ -8593,7 +8593,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Cobb Cty. Super. Ct.",
+        "citation_string": "Clarke Cty. Super. Ct.",
         "dates": [
             {
                 "end": null,
@@ -18600,7 +18600,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Nev.",
+        "citation_string": "Ct. App. Nev.",
         "court_url": "",
         "dates": [
             {
@@ -22072,7 +22072,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "York Cty. Ct. Oy. Term.",
+        "citation_string": "Penn. Orphan Ct.",
         "court_url": "",
         "dates": [
             {
@@ -24843,7 +24843,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "N.Y. Just. Court",
         "court_url": "http://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -24877,7 +24877,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Albany",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -24894,7 +24894,7 @@
         "level": "trial",
         "location": "New York",
         "name": "Albany City Police Court",
-        "notes": "",
+        "notes": "Also known as a justice court",
         "parent": "nyjustct",
         "regex": [
             "Albany City Police Court",
@@ -24905,7 +24905,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Amherst",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -24932,7 +24932,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Gardent City",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -24960,7 +24960,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Great Neck",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -24988,7 +24988,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Bedford",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25014,7 +25014,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Greenburgh",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25042,7 +25042,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Kensington",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25070,7 +25070,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Troy",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25096,7 +25096,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Colonie",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25124,7 +25124,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Hempstead",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25150,7 +25150,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Hunter",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25179,7 +25179,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Hyde Park",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25203,7 +25203,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Kinderhook",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25230,7 +25230,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, LaGrange",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25254,7 +25254,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Massapequa Pk.",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25281,7 +25281,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Taghkanic",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25305,7 +25305,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Valley Stream",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25332,7 +25332,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Just. Court",
+        "citation_string": "N.Y. Just. Court, Webster",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -25614,7 +25614,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Circ. Ct., Albany Cty",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25639,7 +25639,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Columbia Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25664,7 +25664,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Delaware Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25689,7 +25689,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Dutchess Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25714,7 +25714,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Kings Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25739,7 +25739,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Monroe Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25764,7 +25764,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Oneida Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25789,7 +25789,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Circuit Court",
+        "citation_string": "N.Y. Cir. Ct., Oswego Cty.",
         "dates": [
             {
                 "end": "1846-12-31",
@@ -25841,7 +25841,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty Ct.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -25868,7 +25868,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Albany Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -25892,7 +25892,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Monroe Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -25919,7 +25919,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Nassau Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -25943,7 +25943,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Allegany Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -25969,7 +25969,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Bronx Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -25995,7 +25995,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Broome Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26019,7 +26019,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Cattaraugus Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26045,7 +26045,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Cayuga Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26072,7 +26072,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Chautauqua Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26098,7 +26098,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Chemung Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26124,7 +26124,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Chenango Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26150,7 +26150,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Clinton Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26174,7 +26174,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Cortland Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26200,7 +26200,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Nassau Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26226,7 +26226,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Orange Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26252,7 +26252,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Madison Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26278,7 +26278,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Columbia Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26305,7 +26305,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Putnam Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26331,7 +26331,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Delaware Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26357,7 +26357,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Dutchess Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26383,7 +26383,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Erie Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26411,7 +26411,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Essex Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26438,7 +26438,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Fulton Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26465,7 +26465,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Franklin Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26492,7 +26492,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Greene Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26518,7 +26518,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Herkimer Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26545,7 +26545,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Kings Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26571,7 +26571,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Lewis Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26598,7 +26598,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Livingston Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26625,7 +26625,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Montgomery Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26651,7 +26651,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., King Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26677,7 +26677,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Onieda Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26703,7 +26703,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Saratoga Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26730,7 +26730,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Seneca Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26756,7 +26756,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Niagara Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26783,7 +26783,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Oneida Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26810,7 +26810,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Onondaga Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26838,7 +26838,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Ontario Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26864,7 +26864,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Orleans Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26890,7 +26890,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Oswego Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26916,7 +26916,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court, Otsego Cty.",
+        "citation_string": "N.Y. Cty. Ct., Otsego Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26943,7 +26943,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Queens Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26969,7 +26969,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Rensselaer Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -26995,7 +26995,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Rockland Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27021,7 +27021,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Schenectady Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27045,7 +27045,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Schoharie Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27071,7 +27071,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Schuyler Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27099,7 +27099,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., St. Lawrence Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27125,7 +27125,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Steuben Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27152,7 +27152,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Suffolk Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27176,7 +27176,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Sullivan Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27202,7 +27202,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Tompkins Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27229,7 +27229,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Tioga Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27255,7 +27255,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Ulster Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27281,7 +27281,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Wayne Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27307,7 +27307,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Westchester Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27333,7 +27333,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Wyoming Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27360,7 +27360,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. County Court",
+        "citation_string": "N.Y. Cty. Ct., Yates Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27701,7 +27701,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "N.Y. City Ct.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-CITY.shtml",
         "dates": [
             {
@@ -27773,7 +27773,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Albany",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27797,7 +27797,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Amsterdam",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27823,7 +27823,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Auburn",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27849,7 +27849,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Batavia",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27875,7 +27875,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Binghamton",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27899,7 +27899,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Buffalo",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27926,7 +27926,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Canandaigua",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27950,7 +27950,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Cohoes",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -27974,7 +27974,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Cortland",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28000,7 +28000,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Dunkirk",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28026,7 +28026,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Elmira",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28052,7 +28052,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Fulton",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28078,7 +28078,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Geneva",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28104,7 +28104,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Glens Falls",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28130,7 +28130,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Gloversville",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28156,7 +28156,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Hornell",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28180,7 +28180,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Hudson",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28206,7 +28206,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Ithaca",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28230,7 +28230,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Jamestown",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28254,7 +28254,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Kington",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28280,7 +28280,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Lackawanna",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28306,7 +28306,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Long Beach",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28332,7 +28332,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Middletown",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28358,7 +28358,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Mt. Vernon",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28382,7 +28382,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Nassau",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28408,7 +28408,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., New Rochelle",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28432,7 +28432,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., NYC",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28461,7 +28461,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Newburgh",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28487,7 +28487,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Niagara Falls",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28511,7 +28511,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Oneida",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28537,7 +28537,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Oswego",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28563,7 +28563,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Peekskill",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28589,7 +28589,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Plattsburgh",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28615,7 +28615,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Pt. Jervis",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28639,7 +28639,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Poughkeepsie",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28665,7 +28665,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Rochester",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28689,7 +28689,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Rome",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28715,7 +28715,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Rye",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28741,7 +28741,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Saratoga Springs",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28767,7 +28767,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Schenectady",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28791,7 +28791,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Syracuse",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28818,7 +28818,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Tonawanda",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28844,7 +28844,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Troy",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28870,7 +28870,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Utica",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28896,7 +28896,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Watertown",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28922,7 +28922,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Westchester",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28949,7 +28949,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., White Plains",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -28975,7 +28975,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. City Court",
+        "citation_string": "N.Y. City Ct., Yonkers",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
             {
@@ -29832,7 +29832,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Albany Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -29857,7 +29857,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Ulster Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -29881,7 +29881,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct., St. Lawrence",
+        "citation_string": "N.Y. Sup. Ct., St. Lawrence Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -29905,7 +29905,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Cayuga Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -29930,7 +29930,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Chenango Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -29954,7 +29954,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Clinton Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -29978,7 +29978,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Kings Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30003,7 +30003,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Monroe Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30029,7 +30029,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Otsego Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30053,7 +30053,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct., Oswego",
+        "citation_string": "N.Y. Sup. Ct., Oswego Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30079,7 +30079,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Niagara Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30104,7 +30104,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct., NYC",
+        "citation_string": "N.Y. Sup. Ct., NYC Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30130,7 +30130,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Queens Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -30254,7 +30254,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct.",
+        "citation_string": "N.Y. Sup. Ct., Rensselaer Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
             {
@@ -38859,7 +38859,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Cuyahoga Cty. Ct. of Insolv.",
+        "citation_string": "Hamilton Cty. Ct. of Insolv.",
         "court_url": "",
         "dates": [
             {
@@ -41634,7 +41634,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Oh. Muni. Ct., Cuyahoga",
+        "citation_string": "Oh. Muni. Ct., Cuyahoga Falls",
         "court_url": "",
         "dates": [
             {
@@ -48532,7 +48532,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "Vt.",
+        "citation_string": "Vt. Dist. Ct.",
         "dates": [
             {
                 "end": null,
@@ -51387,7 +51387,10 @@
         "location": "Virginia",
         "name": "Virginia Chancery Court",
         "notes": "https://en.wikipedia.org/wiki/Virginia_Court_of_Chancery",
-        "regex": [],
+        "regex": [
+            "Superior Court of Chancery of Virginia",
+            "Virginia Chancery Court"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -53867,7 +53870,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "D.C.",
+        "citation_string": "D.C. Ct. App.",
         "court_url": "http://www.dccourts.gov/internet/appellate/main.jsf",
         "dates": [
             {
@@ -53921,7 +53924,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "D.C.",
+        "citation_string": "D.C. Orphans Ct.",
         "dates": [
             {
                 "end": null,
@@ -59964,7 +59967,7 @@
     {
         "active": false,
         "case_types": [],
-        "citation_string": "Cir. Ct. N.C.",
+        "citation_string": "Cir. Ct. Tenn.",
         "dates": [
             {
                 "end": "1808-12-31",
