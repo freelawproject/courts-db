@@ -224,7 +224,6 @@ class LazyLoadTest(TestCase):
 
 
 class JSONBuildTest(TestCase):
-
     json_name = "courts.json"
 
     def setUp(self):
