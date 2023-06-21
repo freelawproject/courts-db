@@ -2697,7 +2697,10 @@
             "Superior Court Housing Session of Connecticut",
             "Superior Court Connecticut",
             "Connecticut City Court",
-            "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford"
+            "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford",
+            "Appellate Session of the Superior Court",
+            "Superior Court, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
+            "Court of Common Pleas, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?"
         ],
         "system": "state",
         "type": "trial"
@@ -2783,7 +2786,8 @@
         "location": "Connecticut",
         "name": "Connecticut Compensation Review Board",
         "regex": [
-            "Connecticut Compensation Review Board"
+            "Connecticut Compensation Review Board",
+            "Workers' Compensation Commission"
         ],
         "system": "state",
         "type": "appellate"
@@ -18835,7 +18839,8 @@
         "name": "New Jersey Superior Court Appellate Division",
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
         "regex": [
-            "New Jersey Superior Court,? Appellate Division"
+            "New Jersey Superior Court,? Appellate Division",
+            "Superior Court of New Jersey, Appellate Division."
         ],
         "system": "state",
         "type": "trial"
@@ -18868,7 +18873,8 @@
             "Court of Errors? And Appeals?.* New Jersey",
             "Court of Errors of Appeals of New Jersey",
             "Court of Errors And Appels of New Jersey",
-            "Courts of Errors And Appeals of New Jersey"
+            "Courts of Errors And Appeals of New Jersey",
+            "Court of Errors and Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -19062,7 +19068,9 @@
         "location": "New Jersey",
         "name": "New Jersey Superior Court",
         "regex": [
-            "New Jersey Superior Court, Law Division"
+            "New Jersey Superior Court, Law Division",
+            "Superior Court of New Jersey, Law Division",
+            "Superior Court of New Jersey, Chancery Division"
         ],
         "system": "state",
         "type": "trial"
@@ -24506,7 +24514,10 @@
             "Supreme Court First Department",
             "Court Appellate Term 2Nd 11Th And 13Th Judicial Districts",
             "2Nd 11Th And 13Th Judicial Districts",
-            "Supreme Court, Appellate Division"
+            "Supreme Court, Appellate Division",
+            "Supreme Court, Appellate Term",
+            "Supreme Court, Appellate Term, First Department",
+            "Supreme Court, Appellate Term, Second Department"
         ],
         "system": "state",
         "type": "appellate"
@@ -29498,7 +29509,8 @@
         "regex": [
             "New York Court of Claims",
             "Court of Claims? of New York",
-            "New York Claims Court"
+            "New York Claims Court",
+            "Court of Claims"
         ],
         "system": "state",
         "type": "trial"
@@ -29801,7 +29813,11 @@
             "New York Supreme Court (other)",
             "Supreme Court, Trial Term, New York County",
             "Supreme Court, Chambers, New York County",
-            "New York Supreme Court Special Term"
+            "New York Supreme Court Special Term",
+            "Supreme Court of the State of New York",
+            "Supreme Court of the State of New York, Nassau County",
+            "Supreme Court, (Erie|Westchester) County",
+            "Supreme Court, Special Term, (Nassau|Schenectady|Westchester)(\\sCounty)?"
         ],
         "system": "state",
         "type": "trial"
@@ -29826,7 +29842,9 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Albany General Term",
-            "New York Supreme Court Albany Special Term"
+            "New York Supreme Court Albany Special Term",
+            "Supreme Court, Special Term, Albany County",
+            "Supreme Court, Albany County"
         ],
         "system": "state",
         "type": "trial"
@@ -29972,7 +29990,11 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Kings General Term",
-            "New York Supreme Court Kings Special Term"
+            "New York Supreme Court Kings Special Term",
+            "Supreme Court, Kings County",
+            "Supreme Court, Special Term, Kings County",
+            "Supreme Court of the State of New York,Kings County",
+            "Supreme Court of the State of New York.Kings County"
         ],
         "system": "state",
         "type": "trial"
@@ -29998,7 +30020,8 @@
         "regex": [
             "New York Supreme Court, Monroe General Term",
             "Supreme Court, Trial Term, Monroe County",
-            "New York Supreme Court Monroe Special Term"
+            "New York Supreme Court Monroe Special Term",
+            "Supreme Court, Monroe County"
         ],
         "system": "state",
         "type": "trial"
@@ -30099,7 +30122,12 @@
         "regex": [
             "New York Supreme Court New York Special Term",
             "New York Supreme Court New York",
-            "New York Supreme Court New York County"
+            "New York Supreme Court New York County",
+            "Supreme Court, New York Special Term",
+            "Supreme Court, Special Term, New York County",
+            "Supreme Court, New York County",
+            "Supreme Court of the State of New York.New York County",
+            "Supreme Court of the State of New York, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -30123,7 +30151,9 @@
         "name": "Supreme Court, Queens County",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court, Trial Term, Queens County"
+            "Supreme Court, Trial Term, Queens County",
+            "Supreme Court, Special Term, Queens County",
+            "Supreme Court of the State of New York,Queens County"
         ],
         "system": "state",
         "type": "trial"
@@ -30223,7 +30253,9 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Oneida Special Term",
-            "New York Supreme Court, Oneida County"
+            "New York Supreme Court, Oneida County",
+            "Supreme Court, Special Term, Oneida County",
+            "Supreme Court, Oneida County"
         ],
         "system": "state",
         "type": "trial"
@@ -51662,7 +51694,8 @@
             "Supreme Court of State of Washington",
             "Supreme Court Washington",
             "Supreme Cour?t ?of Washington",
-            "Supreme Court State of Washington At Law"
+            "Supreme Court State of Washington At Law",
+            "The Supreme Court of Washington"
         ],
         "system": "state",
         "type": "appellate"
