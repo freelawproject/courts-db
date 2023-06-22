@@ -2699,8 +2699,34 @@
             "Connecticut City Court",
             "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford",
             "Appellate Session of the Superior Court",
-            "Superior Court, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
-            "Court of Common Pleas, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?"
+            "Superior Court,? (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
+            "Court of Common Pleas, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
+            "Superior CourtNew Haven County",
+            "Appellate Division Of The Circuit Court",
+            "Connecticut Superior Court,? Judicial District of Tolland at Rockville",
+            "Connecticut Superior Court,? Judicial District of Fairfield at Bridgeport",
+            "Connecticut Superior Court,? Judicial District of New Haven at New Haven",
+            "Connecticut Superior Court,? Judicial District of Hartford-New Britain at Hartford",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk at Stamford",
+            "Connecticut Superior Court,? Judicial District of Hartford at Hartford",
+            "Connecticut Superior Court,? Judicial District of Waterbury",
+            "Connecticut Superior Court,? Judicial District of New London at New London",
+            "Connecticut Superior Court,? Judicial District of Ansonia-Milford at Milford",
+            "Connecticut Superior Court,? Judicial District of Danbury",
+            "Connecticut Superior Court,? Judicial District of New Haven",
+            "Connecticut Superior Court,? Judicial District of New Britain at New Britain",
+            "Connecticut Superior Court,? Judicial District of Waterbury at Waterbury",
+            "Connecticut Superior Court,? Judicial District of Litchfield",
+            "Connecticut Superior Court,? Judicial District of Middlesex at Middletown",
+            "Connecticut Superior Court,? Judicial District of Hartford-New Britain at New Britain",
+            "Connecticut Superior Court,? Judicial District of Litchfield at Litchfield",
+            "Connecticut Superior Court,? Judicial District of New Haven at Meriden",
+            "Connecticut Superior Court,? Judicial District of New London at Norwich",
+            "Connecticut Superior Court,? Judicial District of Hartford",
+            "Connecticut Superior Court,? Judicial District of Windham at Putnam",
+            "Connecticut Superior Court,? Judicial District of Ansonia-Milford at Derby",
+            "Connecticut Superior Court,? Judicial District of Middlesex, Child Protection Session at Middletown",
+            "Connecticut Superior Court,? Judicial District of Hartford, Complex Litigation Docket at Hartford"
         ],
         "system": "state",
         "type": "trial"
@@ -18840,7 +18866,7 @@
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
         "regex": [
             "New Jersey Superior Court,? Appellate Division",
-            "Superior Court of New Jersey, Appellate Division."
+            "Superior Court of New Jersey, Appellate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -25718,7 +25744,8 @@
         "notes": "",
         "parent": "nycirct",
         "regex": [
-            "New York Circuit Court, Dutchess County"
+            "New York Circuit Court, Dutchess County",
+            "Supreme Court, Dutchess County"
         ],
         "system": "state",
         "type": "trial"
@@ -26206,7 +26233,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Nassau County"
+            "County Court of New York, Nassau County",
+            "County Court, Nassau County"
         ],
         "system": "state",
         "type": "trial"
@@ -27001,7 +27029,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Rockland County"
+            "County Court of New York, Rockland County",
+            "Supreme Court, Rockland County"
         ],
         "system": "state",
         "type": "trial"
@@ -27157,7 +27186,9 @@
         "name": "Suffolk County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+          "County Court, Suffolk County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -27313,7 +27344,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Westchester County"
+            "County Court of New York, Westchester County",
+            "County Court, Westchester County"
         ],
         "system": "state",
         "type": "trial"
@@ -29179,7 +29211,7 @@
             "Surrrogate.* New York",
             "Snrrogate S Court of New York New York County",
             "New York Surrogate's Court, Ulster County",
-            "Surrogate's Court, New York County",
+            "Surrogate's Court, (Nassau|New York|Suffolk|Westchester) County",
             "New York Surrogate's Court, \b.*\b County"
         ],
         "system": "state",
@@ -29542,6 +29574,7 @@
             "Commong Pleas of New York Special Term",
             "Court of Pleas of New York",
             "New York Common Pleas General Term",
+            "New York Common Pleas",
             "New York Recorder's Court",
             "Recorder of New York City"
         ],
@@ -29813,11 +29846,14 @@
             "New York Supreme Court (other)",
             "Supreme Court, Trial Term, New York County",
             "Supreme Court, Chambers, New York County",
+            "Supreme Court, Special and Trial Term, New York County",
             "New York Supreme Court Special Term",
+            "Supreme Court, New York Special Term",
+            "Supreme Court, New York Trial Term",
             "Supreme Court of the State of New York",
             "Supreme Court of the State of New York, Nassau County",
-            "Supreme Court, (Erie|Westchester) County",
-            "Supreme Court, Special Term, (Nassau|Schenectady|Westchester)(\\sCounty)?"
+            "Supreme Court, (Bronx|Erie|Nassau|Westchester) County",
+            "Supreme Court, Special Term, (Bronx|Nassau|Schenectady|Suffolk|Westchester)(\\sCounty)?"
         ],
         "system": "state",
         "type": "trial"
@@ -29844,7 +29880,8 @@
             "New York Supreme Court, Albany General Term",
             "New York Supreme Court Albany Special Term",
             "Supreme Court, Special Term, Albany County",
-            "Supreme Court, Albany County"
+            "Supreme Court, Albany County",
+            "Supreme Court, Albany Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -29993,8 +30030,9 @@
             "New York Supreme Court Kings Special Term",
             "Supreme Court, Kings County",
             "Supreme Court, Special Term, Kings County",
-            "Supreme Court of the State of New York,Kings County",
-            "Supreme Court of the State of New York.Kings County"
+            "Supreme Court of the State of New York Kings County",
+            "Supreme Court of the State of New York. Kings County",
+            "Supreme Court, Kings Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30123,7 +30161,6 @@
             "New York Supreme Court New York Special Term",
             "New York Supreme Court New York",
             "New York Supreme Court New York County",
-            "Supreme Court, New York Special Term",
             "Supreme Court, Special Term, New York County",
             "Supreme Court, New York County",
             "Supreme Court of the State of New York.New York County",
@@ -30228,7 +30265,9 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Onondaga Special Term",
-            "New York Supreme Court, Onondaga County"
+            "New York Supreme Court, Onondaga County",
+            "Supreme Court, Onondaga County",
+            "Supreme Court, Special Term, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
