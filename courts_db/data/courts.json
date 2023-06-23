@@ -3381,7 +3381,8 @@
         "name_abbreviation": null,
         "regex": [
             "Florida ${sup}",
-            "${sup} Florida"
+            "${sup} Florida",
+            "Court of Florida, Division B"
         ],
         "system": "state",
         "type": "appellate"
@@ -18895,7 +18896,9 @@
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
         "regex": [
             "New Jersey Superior Court,? Appellate Division",
-            "Superior Court of New Jersey, Appellate Division"
+            "Superior Court of New Jersey, Appellate Division",
+            "Prerogative Court",
+            "Superior Court of New Jersey"
         ],
         "system": "state",
         "type": "trial"
@@ -27218,7 +27221,7 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-          "County Court, Suffolk County"
+            "County Court, Suffolk County"
         ],
         "system": "state",
         "type": "trial"
@@ -47758,7 +47761,10 @@
             "${sup} Errors and Appeals, Nashville",
             "(State of)? ?Tennessee ${sup}",
             "Supreme Court of Errors and Appeals of Tennessee",
-            "Tennessee Superior Court of Law and Equity"
+            "Tennessee Superior Court of Law and Equity",
+            "Superior Court for Law and Equity, (Carthage|Hamilton|Jonesborough|Knoxville|Mero|Nashville|Robertson|Washington|Winchester) District",
+            "Superior Court for Law and Equity, District of (Carthage|Hamilton|Knoxville|Mero|Nashville|Robertson|Washington|Winchester)",
+            "Circuit Court of the United States, Nashville"
         ],
         "system": "state",
         "type": "appellate"
