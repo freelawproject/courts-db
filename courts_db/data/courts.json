@@ -2703,8 +2703,8 @@
             "Court of Common Pleas, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
             "Superior CourtNew Haven County",
             "Appellate Division Of The Circuit Court",
-            "Connecticut Superior Court,? Judicial District of Tolland at Rockville",
-            "Connecticut Superior Court,? Judicial District of Fairfield at Bridgeport",
+            "Connecticut Superior Court,? Judicial District of Tolland,? at Rockville",
+            "Connecticut Superior Court,? Judicial District of Fairfield,? at Bridgeport",
             "Connecticut Superior Court,? Judicial District of New Haven at New Haven",
             "Connecticut Superior Court,? Judicial District of Hartford-New Britain at Hartford",
             "Connecticut Superior Court,? Judicial District of Stamford-Norwalk at Stamford",
@@ -2725,8 +2725,36 @@
             "Connecticut Superior Court,? Judicial District of Hartford",
             "Connecticut Superior Court,? Judicial District of Windham at Putnam",
             "Connecticut Superior Court,? Judicial District of Ansonia-Milford at Derby",
-            "Connecticut Superior Court,? Judicial District of Middlesex, Child Protection Session at Middletown",
-            "Connecticut Superior Court,? Judicial District of Hartford, Complex Litigation Docket at Hartford"
+            "Connecticut Superior Court,? Judicial District of Middlesex,? Child Protection Session at Middletown",
+            "Connecticut Superior Court,? Judicial District of Hartford,? Complex Litigation Docket at Hartford",
+            "Connecticut Superior Court,? Judicial District of New Britain",
+            "Connecticut Superior Court,? Judicial District of Middlesex",
+            "Connecticut Superior Court,? Stamford-Norwalk Judicial District at Stamford",
+            "Connecticut Superior Court,? Judicial District of Fairfield",
+            "Connecticut Superior Court,? Judicial District of New London",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk, Complex Litigation Docket at Stamford",
+            "Connecticut Superior Court,? Complex Litigation Docket at Waterbury",
+            "Connecticut Superior Court,? Judicial District of Windham, Juvenile Matters at Willimantic",
+            "Connecticut Superior Court for Juvenile Matters Child Protection Session Judicial District of Middletown",
+            "Connecticut Superior Court,? Judicial District of Stamford",
+            "Connecticut Superior Court,? Judicial District of Bridgeport",
+            "Connecticut Superior Court,? Judicial District of Tolland,? at Somers",
+            "Connecticut Superior Court,? Judicial District of Windham at Willimantic",
+            "Connecticut Superior Court,? Judicial District of Windham",
+            "Connecticut Superior Court,? Judicial District of New London, Juvenile Matters at Waterford",
+            "Connecticut Superior Court",
+            "Connecticut Superior Court,? Judicial District of Ansonia-Milford",
+            "Connecticut Superior Court,? Judicial District of Middlesex Complex Litigation Docket at Middletown",
+            "Connecticut Superior Court,? Complex Litigation Docket at New Britain",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk",
+            "Connecticut Superior Court for Juvenile Matters Child Protection Session at Middletown",
+            "Connecticut Superior Court,? Judicial District Stamford-Norwalk at Stamford",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk at Norwalk",
+            "Connecticut Superior Court,? Judicial District of Milford",
+            "Connecticut Superior Court,? Judicial District of Middlesex, Juvenile Matters at Middletown",
+            "Connecticut Superior Court,? Judicial District of Tolland",
+            "Connecticut Superior Court,? Judicial District at Waterbury",
+            "Connecticut Superior Court,? Judicial District at Norwich"
         ],
         "system": "state",
         "type": "trial"
@@ -15676,7 +15704,8 @@
         "regex": [
             "Massachusetts {super}",
             "State of Massachusetts Superior Court",
-            "Superior Court of Massachusetts"
+            "Superior Court of Massachusetts",
+            "Commonwealth of Massachusetts Superior Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25950,7 +25979,8 @@
         "parent": "nycountyct",
         "regex": [
             "County Court of New York, Monroe County",
-            "Monroe County Court"
+            "Monroe County Court",
+            "County Court, Monroe County"
         ],
         "system": "state",
         "type": "trial"
@@ -26419,7 +26449,8 @@
         "regex": [
             "New York County Court, Erie County",
             "Erie County Court",
-            "County Court of New York, Erie County"
+            "County Court of New York, Erie County",
+            "County Court, Erie County"
         ],
         "system": "state",
         "type": "trial"
@@ -29211,7 +29242,7 @@
             "Surrrogate.* New York",
             "Snrrogate S Court of New York New York County",
             "New York Surrogate's Court, Ulster County",
-            "Surrogate's Court, (Nassau|New York|Suffolk|Westchester) County",
+            "Surrogate's Court, (Albany|Allegany|Broome|Bronx|Cattaraugus|Cayuga|Chautauqua|Chemung|Chenango|Clinton|Columbia|Cortland|Delaware|Dutchess|Erie|Essex|Franklin|Fulton|Genesee|Greene|Hamilton|Herkimer|Jefferson|King|Kings|Lewis|Livingston|Madison|Montgomery|Monroe|Nassau|Niagara|New York|Orleans|Oneida|Onondaga|Ontario|Orange|Otsego|Oswego|Putnam|Queens|Rennsselaer|Rensselaer|Richmond|Rockland|Saratoga|Schenectady|Schoharie|Schuyler|Seneca|St. Lawrence|Steuben|Suffolk|Sullivan|Tioga|Tompkins|Ulster|Warren|Washington|Wayne|Westchester|Wyoming|Yates) County",
             "New York Surrogate's Court, \b.*\b County"
         ],
         "system": "state",
