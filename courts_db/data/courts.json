@@ -29912,7 +29912,8 @@
             "New York Supreme Court Albany Special Term",
             "Supreme Court, Special Term, Albany County",
             "Supreme Court, Albany County",
-            "Supreme Court, Albany Special Term"
+            "Supreme Court, Albany Special Term",
+            "Supreme Court, Trial Term, Albany County"
         ],
         "system": "state",
         "type": "trial"
@@ -29985,7 +29986,8 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Cayuga General Term",
-            "New York Supreme Court Cayuga Equity Term"
+            "New York Supreme Court Cayuga Equity Term",
+            "Supreme Court, Trial Term,? Cayuga County"
         ],
         "system": "state",
         "type": "trial"
@@ -30009,7 +30011,8 @@
         "name": "New York Supreme Court, Chenango",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Chenango General Term"
+            "New York Supreme Court, Chenango General Term",
+            "Supreme Court, Trial Term,? Chenango County"
         ],
         "system": "state",
         "type": "trial"
@@ -30033,7 +30036,8 @@
         "name": "New York Supreme Court, Clinton",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Clinton General Term"
+            "New York Supreme Court, Clinton General Term",
+            "Supreme Court, Trial Term,? Clinton County"
         ],
         "system": "state",
         "type": "trial"
@@ -30063,7 +30067,9 @@
             "Supreme Court, Special Term, Kings County",
             "Supreme Court of the State of New York Kings County",
             "Supreme Court of the State of New York. Kings County",
-            "Supreme Court, Kings Special Term"
+            "Supreme Court, Kings Special Term",
+            "Supreme Court, Trial Term,? Kings County",
+            "Supreme Court, Trial Term,? King County"
         ],
         "system": "state",
         "type": "trial"
@@ -30114,7 +30120,8 @@
         "name": "New York Supreme Court, Otsego",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Otsego General Term"
+            "New York Supreme Court, Otsego General Term",
+            "Supreme Court, Trial Term,? Otsego County"
         ],
         "system": "state",
         "type": "trial"
@@ -30140,7 +30147,8 @@
         "regex": [
             "New York Supreme Court Oswego Special Term",
             "New York Supreme Court, Oswego General Term",
-            "New York Supreme Court, Oswego"
+            "New York Supreme Court, Oswego",
+            "Supreme Court, Trial Term,? Oswego County"
         ],
         "system": "state",
         "type": "trial"
@@ -30350,7 +30358,8 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Rensselaer General Term",
-            "Supreme Court, Rensselaer County"
+            "Supreme Court, Rensselaer County",
+            "Supreme Court, Trial Term,? Rensselaer County"
         ],
         "system": "state",
         "type": "trial"
