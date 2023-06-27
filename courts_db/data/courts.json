@@ -29924,6 +29924,90 @@
     },
     {
         "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Allegany Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctalgny",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Allegany County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Bronx Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctbrnx",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Bronx County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Broome Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctbrm",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Broome County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Cattaraugus Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctctrgs",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Cattaraugus County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "N.Y. Sup. Ct., Ulster Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
@@ -29998,6 +30082,48 @@
     },
     {
         "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Chautauqua Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctchtq",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Chautauqua County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Chemung Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctchmng",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Chemung County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "N.Y. Sup. Ct., Chenango Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
@@ -30043,6 +30169,636 @@
             "New York Supreme Court, Clinton General Term",
             "Supreme Court, Trial Term,? Clinton County"
         ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Columbia Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctclmb",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Columbia County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Cortland Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctcrtlnd",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Cortland County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Delaware Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctdlwr",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Delaware County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Dutchess Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctdtchss",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Dutchess County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Erie Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupcterie",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Erie County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Essex Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctessex",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Essex County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Franklin Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctfrnkln",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Franklin County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Fulton Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctfltn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Fulton County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Genesee Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctgnss",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Genesee County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Greene Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctgrn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Greene County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Herkimer Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupcthrkmr",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Herkimer County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Jefferson Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctjffrsn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Jefferson County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Lewis Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctlewis",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Lewis County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Livingston Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctlvngstn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Livingston County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Madison Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctmdsn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Madison County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Montgomery Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctmntgmry",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Montgomery County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Nassau Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctnss",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Nassau County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Ontario Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctntr",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Ontario County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Orange Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctorange",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Orange County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Orleans Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctrlns",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Orleans County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Putnam Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctptnm",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Putnam County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Richmond Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctrichmond",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Richmond County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Rockland Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctrcklnd",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Rockland County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Schenectady Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctschnec",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Schenectady County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Schoharie Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctscho",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Schoharie County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Schuyler Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctschuy",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Schuyler County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Seneca Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctsnc",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Seneca County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Steuben Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctstbn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Steuben County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Suffolk Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysuprctfflk",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Suffolk County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Sullivan Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctsllvn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Sullivan County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
@@ -30285,6 +31041,153 @@
             "New York Supreme Court Tioga Special Term",
             "New York Supreme Court, Tioga County"
         ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Tompkins Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupcttmpkns",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Tompkins County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Warren Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwarren",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Warren County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Washington Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwash",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Washington County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Wayne Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwayne",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Wayne County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Westchester Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwster",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Westchester County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Wyoming Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwyom",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Wyoming County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Yates Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctyates",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Yates County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [],
         "system": "state",
         "type": "trial"
     },
