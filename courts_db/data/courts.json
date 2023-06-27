@@ -29885,10 +29885,7 @@
             "New York Supreme Court Special Term",
             "Supreme Court, New York Special Term",
             "Supreme Court, New York Trial Term",
-            "Supreme Court of the State of New York",
-            "Supreme Court of the State of New York, Nassau County",
-            "Supreme Court, (Bronx|Erie|Nassau|Westchester) County",
-            "Supreme Court, Special Term, (Bronx|Nassau|Schenectady|Suffolk|Westchester)(\\sCounty)?"
+            "Supreme Court of the State of New York"
         ],
         "system": "state",
         "type": "trial"
@@ -29960,7 +29957,10 @@
         "name": "New York Supreme Court, Bronx County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Bronx County",
+            "Supreme Court, Special Term, Bronx(\\sCounty)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30273,7 +30273,10 @@
         "name": "New York Supreme Court, Erie County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Erie County",
+            "Supreme Court, Special Term, Erie(\\sCounty)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30525,7 +30528,11 @@
         "name": "New York Supreme Court, Nassau County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court of the State of New York, Nassau County",
+            "Supreme Court, Nassau County",
+            "Supreme Court, Special Term, Nassau(\\sCounty)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30672,7 +30679,10 @@
         "name": "New York Supreme Court, Schenectady County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Schenectady County",
+            "Supreme Court, Special Term, Schenectady(\\sCounty)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30777,7 +30787,10 @@
         "name": "New York Supreme Court, Suffolk County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Suffolk County",
+            "Supreme Court, Special Term, Suffolk(\\sCounty)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31145,7 +31158,10 @@
         "name": "New York Supreme Court, Westchester County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Westchester County",
+            "Supreme Court, Special Term, Westchester(\\sCounty)?"
+        ],
         "system": "state",
         "type": "trial"
     },
