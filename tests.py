@@ -28,6 +28,11 @@ class DataTest(CourtsDBTestCase):
         matches = find_court(court_str=sample_text)
         expected_matches = ["prapp"]
         self.assertEqual(matches, expected_matches)
+        # Test court name with em dash
+        sample_text = "Supreme Court — Ulster Special Term"
+        matches = find_court(court_str=sample_text)
+        expected_matches = ["nysupctulster"]
+        self.assertEqual(matches, expected_matches)
 
     def test_parent_courts(self):
         """Can we find the parent court"""

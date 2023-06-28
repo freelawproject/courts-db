@@ -29916,7 +29916,7 @@
             "Supreme Court, Albany County",
             "Supreme Court, Albany Special Term",
             "Supreme Court, Trial Term, Albany County",
-            "Supreme Court \\N{EM DASH} Albany Special Term",
+            "Supreme Court — Albany Special Term",
             "Supreme Court, Albany Trial Term",
             "Supreme Court, Equity Term, Albany County"
         ],
@@ -30049,7 +30049,7 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Ulster Special Term",
-            "Supreme Court \\N{EM DASH} Ulster Special Term"
+            "Supreme Court — Ulster Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30074,7 +30074,7 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court St. Lawrence Special Term",
-            "Supreme Court \\N{EM DASH} St. Lawrence Special Term",
+            "Supreme Court — St. Lawrence Special Term",
             "Supreme Court, St. Lawrence County"
         ],
         "system": "state",
@@ -30103,7 +30103,7 @@
             "New York Supreme Court, Cayuga General Term",
             "New York Supreme Court Cayuga Equity Term",
             "Supreme Court, Trial Term,? Cayuga County",
-            "Supreme Court \\N{EM DASH} Cayuga Special Term",
+            "Supreme Court — Cayuga Special Term",
             "Supreme Court, Cayuga Equity Term",
             "Supreme Court, Cayuga Special Term",
             "Supreme Court, Cayuga Trial Term",
@@ -30214,7 +30214,7 @@
         "regex": [
             "New York Supreme Court, Clinton General Term",
             "Supreme Court, Trial Term,? Clinton County",
-            "Supreme Court \\N{EM DASH} Clinton Special Term",
+            "Supreme Court — Clinton Special Term",
             "Supreme Court, Clinton County",
             "Supreme Court, Clinton Special Term",
             "Supreme Court, Clinton Trial Term"
@@ -30342,7 +30342,7 @@
         "regex": [
             "Supreme Court, Erie County",
             "Supreme Court, Special Term, Erie(\\sCounty)?",
-            "Supreme Court \\N{EM DASH} Erie Special Term",
+            "Supreme Court — Erie Special Term",
             "Supreme Court, Criminal Term, Erie County",
             "Supreme Court, Equity Term, Erie County",
             "Supreme Court, Erie Criminal Term",
@@ -30764,7 +30764,7 @@
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court \\N{EM DASH} Putnam Special Term",
+            "Supreme Court — Putnam Special Term",
             "Supreme Court, Putnam County",
             "Supreme Court, Putnam Special Term",
             "Supreme Court, Putnam Trial Term"
@@ -30817,7 +30817,7 @@
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court \\N{EM DASH} Rockland Special Term",
+            "Supreme Court — Rockland Special Term",
             "Supreme Court, Rockland Special Term",
             "Supreme Court, Rockland Trial Term"
         ],
@@ -30870,7 +30870,7 @@
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court \\N{EM DASH} Schoharie Special Term",
+            "Supreme Court — Schoharie Special Term",
             "Supreme Court, Schoharie County",
             "Supreme Court, Schoharie Special Term",
             "Supreme Court, Schoharie Trial Term"
@@ -30896,7 +30896,7 @@
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court \\N{EM DASH} Schuyler Special Term",
+            "Supreme Court — Schuyler Special Term",
             "Supreme Court, Schuyler County",
             "Supreme Court, Schuyler Special Term",
             "Supreme Court, Schuyler Trial and Special Term"
@@ -30948,7 +30948,7 @@
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court \\N{EM DASH} Steuben Special Term"
+            "Supreme Court — Steuben Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -31028,7 +31028,7 @@
             "Supreme Court, Trial Term,? Kings County",
             "Supreme Court, Trial Term,? King County",
             "Supreme Court of State of New York, Kings County",
-            "Supreme Court \\N{EM DASH} Kings Special Term",
+            "Supreme Court — Kings Special Term",
             "Supreme Court, Criminal Term, Kings County",
             "Supreme Court, Kings Equity Term",
             "Supreme Court, Kings Special and Equity Term",
@@ -31061,8 +31061,8 @@
             "New York Supreme Court Monroe Special Term",
             "Supreme Court, Monroe County",
             "Supreme Court of State of New York, Monroe County",
-            "Supreme Court \\N{EM DASH} Monroe Special Term",
-            "Supreme Court \\N{EM DASH} Monroe Equity Term",
+            "Supreme Court — Monroe Special Term",
+            "Supreme Court — Monroe Equity Term",
             "Supreme Court, County Monroe",
             "Supreme Court, Equity Term, Monroe County",
             "Supreme Court, Monroe Special Term",
@@ -31124,7 +31124,7 @@
             "New York Supreme Court, Oswego General Term",
             "New York Supreme Court, Oswego",
             "Supreme Court, Trial Term,? Oswego County",
-            "Supreme Court \\N{EM DASH} Oswego Special Term",
+            "Supreme Court — Oswego Special Term",
             "Supreme Court, Equity Term, Oswego County",
             "Supreme Court, Oswego County",
             "Supreme Court, Oswego Equity Term",
@@ -31155,8 +31155,8 @@
         "regex": [
             "Supreme Court, Trial Term, Niagara County",
             "Supreme Court, Niagara County",
-            "Supreme Court \\N{EM DASH} Niagara Special Term",
-            "Supreme Court \\N{EM DASH} Niagara Equity Term",
+            "Supreme Court — Niagara Special Term",
+            "Supreme Court — Niagara Equity Term",
             "Supreme Court, Equity Term, Niagara County",
             "Supreme Court, Niagara Equity Term",
             "Supreme Court, Niagara Special Term",
@@ -31192,8 +31192,8 @@
             "Supreme Court of the State of New York. New York County",
             "Supreme Court of the State of New York, New York County",
             "Supreme Court, County New York",
-            "Supreme Court \\N{EM DASH} Special Term, New York County",
-            "Supreme Court \\N{EM DASH} New York Special Term",
+            "Supreme Court — Special Term, New York County",
+            "Supreme Court — New York Special Term",
             "Supreme Court of State of New York, New York County",
             "Supreme Court of New York, New York County",
             "Supreme Court, Criminal Term, New York County"
@@ -31223,7 +31223,7 @@
             "Supreme Court, Trial Term, Queens County",
             "Supreme Court, Special Term, Queens County",
             "Supreme Court of the State of New York,Queens County",
-            "Supreme Court \\N{EM DASH} Queens Special Term",
+            "Supreme Court — Queens Special Term",
             "Supreme Court, Criminal Term, Queens County",
             "Supreme Court, Queens Criminal Term",
             "Supreme Court, Queens Equity Term",
@@ -31255,7 +31255,7 @@
             "New York Supreme Court,? Saratoga,? Special Term",
             "New York Supreme Court, Saratoga County",
             "Supreme Court of State of New York, Saratoga County",
-            "Supreme Court \\N{EM DASH} Saratoga Special Term",
+            "Supreme Court — Saratoga Special Term",
             "Supreme Court, Equity Term, Saratoga County",
             "Supreme Court, Saratoga County",
             "Supreme Court, Saratoga Special Term",
@@ -31471,7 +31471,7 @@
             "New York Supreme Court, Onondaga County",
             "Supreme Court, Onondaga County",
             "Supreme Court, Special Term, Onondaga County",
-            "Supreme Court \\N{EM DASH} Onondaga Special Term",
+            "Supreme Court — Onondaga Special Term",
             "Supreme Court, Equity Term, Onondaga County",
             "Supreme Court, Equity Trial Term, Onondaga County",
             "Supreme Court, Onondaga Equity Term",
@@ -31505,7 +31505,7 @@
             "Supreme Court, Special Term, Oneida County",
             "Supreme Court, Oneida County",
             "Supreme Court of New York, Oneida County",
-            "Supreme Court \\N{EM DASH} Oneida Special Term",
+            "Supreme Court — Oneida Special Term",
             "Supreme Court, Equity Term, Oneida County",
             "Supreme Court, Oneida Equity Term",
             "Supreme Court, Oneida Special Term",
