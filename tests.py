@@ -155,7 +155,11 @@ class JsonTest(CourtsDBTestCase):
         """Does our json load properly, and if not where are the issues"""
         try:
             # Load entire json to shortcircuit testing
-            with open(os.path.join(db_root, "data", "courts.json"), "r") as f:
+            with open(
+                os.path.join(db_root, "data", "courts.json"),
+                "r",
+                encoding="utf-8",
+            ) as f:
                 data = f.read()
                 json.loads(data)
                 return
