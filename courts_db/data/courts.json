@@ -29885,7 +29885,8 @@
             "New York Supreme Court Special Term",
             "Supreme Court, New York Special Term",
             "Supreme Court, New York Trial Term",
-            "Supreme Court of the State of New York"
+            "Supreme Court of the State of New York",
+            "Supreme Court, New York"
         ],
         "system": "state",
         "type": "trial"
@@ -29914,7 +29915,10 @@
             "Supreme Court, Special Term, Albany County",
             "Supreme Court, Albany County",
             "Supreme Court, Albany Special Term",
-            "Supreme Court, Trial Term, Albany County"
+            "Supreme Court, Trial Term, Albany County",
+            "Supreme Court \\N{EM DASH} Albany Special Term",
+            "Supreme Court, Albany Trial Term",
+            "Supreme Court, Equity Term, Albany County"
         ],
         "system": "state",
         "type": "trial"
@@ -29936,7 +29940,11 @@
         "name": "New York Supreme Court, Allegany County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Allegany County",
+            "Supreme Court, Allegany Equity Term",
+            "Supreme Court, Allegany Special Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -29959,7 +29967,10 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Bronx County",
-            "Supreme Court, Special Term, Bronx(\\sCounty)?"
+            "Supreme Court, Special Term, Bronx(\\sCounty)?",
+            "Supreme Court, Bronx Special Term",
+            "Supreme Court, Bronx Trial Term",
+            "Supreme Court, Criminal Term, Bronx County"
         ],
         "system": "state",
         "type": "trial"
@@ -29981,7 +29992,14 @@
         "name": "New York Supreme Court, Broome County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Broome County",
+            "Supreme Court, Broome Special Term",
+            "Supreme Court, Broome Trial Term",
+            "Supreme Court, Broome Trial and Special Term",
+            "Supreme Court, Equity Term, Broome County",
+            "Supreme Court, Special Term, Broome County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30002,7 +30020,12 @@
         "name": "New York Supreme Court, Cattaraugus County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Cattaraugus County",
+            "Supreme Court, Cattaraugus Equity Term",
+            "Supreme Court, Cattaraugus Special Term",
+            "Supreme Court, Cattaraugus Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30025,7 +30048,8 @@
         "name": "New York Supreme Court Ulster Special Term",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court Ulster Special Term"
+            "New York Supreme Court Ulster Special Term",
+            "Supreme Court \\N{EM DASH} Ulster Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30049,7 +30073,9 @@
         "name": "New York Supreme Court St. Lawrence",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court St. Lawrence Special Term"
+            "New York Supreme Court St. Lawrence Special Term",
+            "Supreme Court \\N{EM DASH} St. Lawrence Special Term",
+            "Supreme Court, St. Lawrence County"
         ],
         "system": "state",
         "type": "trial"
@@ -30073,9 +30099,15 @@
         "name": "New York Supreme Court, Cayuga",
         "parent": "nysupct",
         "regex": [
+            "Supreme Court, Cayuga County",
             "New York Supreme Court, Cayuga General Term",
             "New York Supreme Court Cayuga Equity Term",
-            "Supreme Court, Trial Term,? Cayuga County"
+            "Supreme Court, Trial Term,? Cayuga County",
+            "Supreme Court \\N{EM DASH} Cayuga Special Term",
+            "Supreme Court, Cayuga Equity Term",
+            "Supreme Court, Cayuga Special Term",
+            "Supreme Court, Cayuga Trial Term",
+            "Supreme Court, Equity Term, Cayuga County"
         ],
         "system": "state",
         "type": "trial"
@@ -30097,7 +30129,12 @@
         "name": "New York Supreme Court, Chautauqua County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Chautauqua County",
+            "Supreme Court, Chautauqua Equity Term",
+            "Supreme Court, Chautauqua Special Term",
+            "Supreme Court, Chautauqua Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30118,7 +30155,13 @@
         "name": "New York Supreme Court, Chemung County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Chemung County",
+            "Supreme Court, Chemung Special Term",
+            "Supreme Court, Chemung Trial Term",
+            "Supreme Court, Chemung Trial and Special Term",
+            "Supreme Court, Criminal Term, Chemung County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30142,7 +30185,10 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Chenango General Term",
-            "Supreme Court, Trial Term,? Chenango County"
+            "Supreme Court, Trial Term,? Chenango County",
+            "Supreme Court, Chenango County",
+            "Supreme Court, Chenango Special Term",
+            "Supreme Court, Chenango Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30167,7 +30213,11 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Clinton General Term",
-            "Supreme Court, Trial Term,? Clinton County"
+            "Supreme Court, Trial Term,? Clinton County",
+            "Supreme Court \\N{EM DASH} Clinton Special Term",
+            "Supreme Court, Clinton County",
+            "Supreme Court, Clinton Special Term",
+            "Supreme Court, Clinton Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30189,7 +30239,12 @@
         "name": "New York Supreme Court, Columbia County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Columbia County",
+            "Supreme Court, Columbia Equity Term",
+            "Supreme Court, Columbia Special Term",
+            "Supreme Court, Columbia Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30210,7 +30265,12 @@
         "name": "New York Supreme Court, Cortland County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Cortland County",
+            "Supreme Court, Cortland Special Term",
+            "Supreme Court, Cortland Trial Term",
+            "Supreme Court, Cortland Trial and Special Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30231,7 +30291,9 @@
         "name": "New York Supreme Court, Delaware County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Delaware County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30252,7 +30314,11 @@
         "name": "New York Supreme Court, Dutchess County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Dutchess Special Term",
+            "Supreme Court, Dutchess Special Term for Trials",
+            "Supreme Court, Dutchess Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30275,7 +30341,14 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Erie County",
-            "Supreme Court, Special Term, Erie(\\sCounty)?"
+            "Supreme Court, Special Term, Erie(\\sCounty)?",
+            "Supreme Court \\N{EM DASH} Erie Special Term",
+            "Supreme Court, Criminal Term, Erie County",
+            "Supreme Court, Equity Term, Erie County",
+            "Supreme Court, Erie Criminal Term",
+            "Supreme Court, Erie Equity Term",
+            "Supreme Court, Erie Special Term",
+            "Supreme Court, Erie Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30297,7 +30370,9 @@
         "name": "New York Supreme Court, Essex County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Essex County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30318,7 +30393,12 @@
         "name": "New York Supreme Court, Franklin County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Franklin County",
+            "Supreme Court, Franklin Special Term",
+            "Supreme Court, Franklin Special and Trial Term",
+            "Supreme Court, Franklin Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30339,7 +30419,12 @@
         "name": "New York Supreme Court, Fulton County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Fulton County",
+            "Supreme Court, Fulton County Trial Term",
+            "Supreme Court, Fulton Special Term",
+            "Supreme Court, Fulton Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30360,7 +30445,12 @@
         "name": "New York Supreme Court, Genesee County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Genesee County",
+            "Supreme Court, Genesee Equity Term",
+            "Supreme Court, Genesee Special Term",
+            "Supreme Court, Genesee Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30381,7 +30471,11 @@
         "name": "New York Supreme Court, Greene County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Greene County",
+            "Supreme Court, Greene Special Term",
+            "Supreme Court, Greene Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30402,7 +30496,14 @@
         "name": "New York Supreme Court, Herkimer County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Herkimer County",
+            "Supreme Court, Equity Trial Term, Herkimer County",
+            "Supreme Court, Herkimer County",
+            "Supreme Court, Herkimer Equity Term",
+            "Supreme Court, Herkimer Special Term",
+            "Supreme Court, Herkimer Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30423,7 +30524,12 @@
         "name": "New York Supreme Court, Jefferson County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Jefferson County",
+            "Supreme Court, Jefferson Equity Term",
+            "Supreme Court, Jefferson Special Term",
+            "Supreme Court, Jefferson Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30444,7 +30550,14 @@
         "name": "New York Supreme Court, Lewis County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court of State of New York, Lewis County",
+            "Supreme Court, Lewis County",
+            "Supreme Court, Lewis Equity Term",
+            "Supreme Court, Lewis Special Term",
+            "Supreme Court, Lewis Trial Term",
+            "Supreme Court, Lewis Trial and Special Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30465,7 +30578,12 @@
         "name": "New York Supreme Court, Livingston County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Livingston County",
+            "Supreme Court, Livingston Equity Term",
+            "Supreme Court, Livingston Special Term",
+            "Supreme Court, Livingston Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30486,7 +30604,12 @@
         "name": "New York Supreme Court, Madison County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Madison County",
+            "Supreme Court, Madison Special Term",
+            "Supreme Court, Madison Trial Term",
+            "Supreme Court, Madison Equity Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30507,7 +30630,12 @@
         "name": "New York Supreme Court, Montgomery County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Montgomery County",
+            "Supreme Court, Montgomery County",
+            "Supreme Court, Montgomery Special Term",
+            "Supreme Court, Montgomery Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30531,7 +30659,11 @@
         "regex": [
             "Supreme Court of the State of New York, Nassau County",
             "Supreme Court, Nassau County",
-            "Supreme Court, Special Term, Nassau(\\sCounty)?"
+            "Supreme Court, Special Term, Nassau(\\sCounty)?",
+            "Supreme Court of State of New York, Nassau County",
+            "Supreme Court, Criminal Term, Nassau County",
+            "Supreme Court, Nassau Special Term",
+            "Supreme Court, Nassau Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30553,7 +30685,13 @@
         "name": "New York Supreme Court, Ontario County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Ontario County",
+            "Supreme Court, Ontario County",
+            "Supreme Court, Ontario Equity Term",
+            "Supreme Court, Ontario Special Term",
+            "Supreme Court, Ontario Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30574,7 +30712,12 @@
         "name": "New York Supreme Court, Orange County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court of State of New York, Orange County",
+            "Supreme Court, Orange County",
+            "Supreme Court, Orange Special Term",
+            "Supreme Court, Orange Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30595,7 +30738,11 @@
         "name": "New York Supreme Court, Orleans County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Orleans County",
+            "Supreme Court, Orleans Special Term",
+            "Supreme Court, Orleans Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30616,7 +30763,12 @@
         "name": "New York Supreme Court, Putnam County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court \\N{EM DASH} Putnam Special Term",
+            "Supreme Court, Putnam County",
+            "Supreme Court, Putnam Special Term",
+            "Supreme Court, Putnam Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30637,7 +30789,13 @@
         "name": "New York Supreme Court, Richmond County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court of State of New York, Richmond County",
+            "Supreme Court, Criminal Term, Richmond County",
+            "Supreme Court, Richmond County",
+            "Supreme Court, Richmond Special Term",
+            "Supreme Court, Richmond Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30658,7 +30816,11 @@
         "name": "New York Supreme Court, Rockland County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court \\N{EM DASH} Rockland Special Term",
+            "Supreme Court, Rockland Special Term",
+            "Supreme Court, Rockland Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30681,7 +30843,11 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Schenectady County",
-            "Supreme Court, Special Term, Schenectady(\\sCounty)?"
+            "Supreme Court, Special Term, Schenectady(\\sCounty)?",
+            "Supreme Court, Equity Term, Schenectady County",
+            "Supreme Court, Schenectady Special Term",
+            "Supreme Court, Schenectady Trial Term",
+            "Supreme Court, Schenectady Trial and Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30703,7 +30869,12 @@
         "name": "New York Supreme Court, Schoharie County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court \\N{EM DASH} Schoharie Special Term",
+            "Supreme Court, Schoharie County",
+            "Supreme Court, Schoharie Special Term",
+            "Supreme Court, Schoharie Trial Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30724,7 +30895,12 @@
         "name": "New York Supreme Court, Schuyler County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court \\N{EM DASH} Schuyler Special Term",
+            "Supreme Court, Schuyler County",
+            "Supreme Court, Schuyler Special Term",
+            "Supreme Court, Schuyler Trial and Special Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30745,7 +30921,12 @@
         "name": "New York Supreme Court, Seneca County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Seneca County",
+            "Supreme Court, Seneca Special Term",
+            "Supreme Court, Seneca Trial Term",
+            "Supreme Court, Seneca Trial and Equity Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30766,7 +30947,9 @@
         "name": "New York Supreme Court, Steuben County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court \\N{EM DASH} Steuben Special Term"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30789,7 +30972,8 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Suffolk County",
-            "Supreme Court, Special Term, Suffolk(\\sCounty)?"
+            "Supreme Court, Special Term, Suffolk(\\sCounty)?",
+            "Supreme Court, Criminal Term, Suffolk County"
         ],
         "system": "state",
         "type": "trial"
@@ -30842,7 +31026,13 @@
             "Supreme Court of the State of New York. Kings County",
             "Supreme Court, Kings Special Term",
             "Supreme Court, Trial Term,? Kings County",
-            "Supreme Court, Trial Term,? King County"
+            "Supreme Court, Trial Term,? King County",
+            "Supreme Court of State of New York, Kings County",
+            "Supreme Court \\N{EM DASH} Kings Special Term",
+            "Supreme Court, Criminal Term, Kings County",
+            "Supreme Court, Kings Equity Term",
+            "Supreme Court, Kings Special and Equity Term",
+            "Supreme Court, Kings Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30869,7 +31059,15 @@
             "New York Supreme Court, Monroe General Term",
             "Supreme Court, Trial Term, Monroe County",
             "New York Supreme Court Monroe Special Term",
-            "Supreme Court, Monroe County"
+            "Supreme Court, Monroe County",
+            "Supreme Court of State of New York, Monroe County",
+            "Supreme Court \\N{EM DASH} Monroe Special Term",
+            "Supreme Court \\N{EM DASH} Monroe Equity Term",
+            "Supreme Court, County Monroe",
+            "Supreme Court, Equity Term, Monroe County",
+            "Supreme Court, Monroe Special Term",
+            "Supreme Court, Monroe Trial Term",
+            "Supreme Court, Special Term, Monroe County"
         ],
         "system": "state",
         "type": "trial"
@@ -30894,7 +31092,11 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Otsego General Term",
-            "Supreme Court, Trial Term,? Otsego County"
+            "Supreme Court, Trial Term,? Otsego County",
+            "Supreme Court, Otsego County",
+            "Supreme Court, Otsego Special Term",
+            "Supreme Court, Otsego Trial Term",
+            "Supreme Court, Otsego Trial and Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30921,7 +31123,13 @@
             "New York Supreme Court Oswego Special Term",
             "New York Supreme Court, Oswego General Term",
             "New York Supreme Court, Oswego",
-            "Supreme Court, Trial Term,? Oswego County"
+            "Supreme Court, Trial Term,? Oswego County",
+            "Supreme Court \\N{EM DASH} Oswego Special Term",
+            "Supreme Court, Equity Term, Oswego County",
+            "Supreme Court, Oswego County",
+            "Supreme Court, Oswego Equity Term",
+            "Supreme Court, Oswego Special Term",
+            "Supreme Court, Oswego Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30946,7 +31154,13 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Trial Term, Niagara County",
-            "Supreme Court, Niagara County"
+            "Supreme Court, Niagara County",
+            "Supreme Court \\N{EM DASH} Niagara Special Term",
+            "Supreme Court \\N{EM DASH} Niagara Equity Term",
+            "Supreme Court, Equity Term, Niagara County",
+            "Supreme Court, Niagara Equity Term",
+            "Supreme Court, Niagara Special Term",
+            "Supreme Court, Niagara Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30974,9 +31188,15 @@
             "New York Supreme Court New York",
             "New York Supreme Court New York County",
             "Supreme Court, Special Term, New York County",
-            "Supreme Court, New York County",
-            "Supreme Court of the State of New York.New York County",
-            "Supreme Court of the State of New York, New York County"
+            "Supreme Court,? New York County",
+            "Supreme Court of the State of New York. New York County",
+            "Supreme Court of the State of New York, New York County",
+            "Supreme Court, County New York",
+            "Supreme Court \\N{EM DASH} Special Term, New York County",
+            "Supreme Court \\N{EM DASH} New York Special Term",
+            "Supreme Court of State of New York, New York County",
+            "Supreme Court of New York, New York County",
+            "Supreme Court, Criminal Term, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -31002,7 +31222,13 @@
         "regex": [
             "Supreme Court, Trial Term, Queens County",
             "Supreme Court, Special Term, Queens County",
-            "Supreme Court of the State of New York,Queens County"
+            "Supreme Court of the State of New York,Queens County",
+            "Supreme Court \\N{EM DASH} Queens Special Term",
+            "Supreme Court, Criminal Term, Queens County",
+            "Supreme Court, Queens Criminal Term",
+            "Supreme Court, Queens Equity Term",
+            "Supreme Court, Queens Special Term",
+            "Supreme Court, Queens Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -31027,7 +31253,13 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court,? Saratoga,? Special Term",
-            "New York Supreme Court, Saratoga County"
+            "New York Supreme Court, Saratoga County",
+            "Supreme Court of State of New York, Saratoga County",
+            "Supreme Court \\N{EM DASH} Saratoga Special Term",
+            "Supreme Court, Equity Term, Saratoga County",
+            "Supreme Court, Saratoga County",
+            "Supreme Court, Saratoga Special Term",
+            "Supreme Court, Saratoga Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -31095,7 +31327,9 @@
         "name": "New York Supreme Court, Warren County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Warren County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31116,7 +31350,9 @@
         "name": "New York Supreme Court, Washington County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Washington County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31137,7 +31373,9 @@
         "name": "New York Supreme Court, Wayne County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Wayne County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31160,7 +31398,8 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Westchester County",
-            "Supreme Court, Special Term, Westchester(\\sCounty)?"
+            "Supreme Court, Special Term, Westchester(\\sCounty)?",
+            "Supreme Court, Criminal Term, Westchester County"
         ],
         "system": "state",
         "type": "trial"
@@ -31203,7 +31442,9 @@
         "name": "New York Supreme Court, Yates County",
         "notes": "This content was taken directly from courtlistener.com",
         "parent": "nysupct",
-        "regex": [],
+        "regex": [
+            "Supreme Court, Equity Term, Yates County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31229,7 +31470,13 @@
             "New York Supreme Court Onondaga Special Term",
             "New York Supreme Court, Onondaga County",
             "Supreme Court, Onondaga County",
-            "Supreme Court, Special Term, Onondaga County"
+            "Supreme Court, Special Term, Onondaga County",
+            "Supreme Court \\N{EM DASH} Onondaga Special Term",
+            "Supreme Court, Equity Term, Onondaga County",
+            "Supreme Court, Equity Trial Term, Onondaga County",
+            "Supreme Court, Onondaga Equity Term",
+            "Supreme Court, Onondaga Special Term",
+            "Supreme Court, Onondaga Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -31256,7 +31503,13 @@
             "New York Supreme Court Oneida Special Term",
             "New York Supreme Court, Oneida County",
             "Supreme Court, Special Term, Oneida County",
-            "Supreme Court, Oneida County"
+            "Supreme Court, Oneida County",
+            "Supreme Court of New York, Oneida County",
+            "Supreme Court \\N{EM DASH} Oneida Special Term",
+            "Supreme Court, Equity Term, Oneida County",
+            "Supreme Court, Oneida Equity Term",
+            "Supreme Court, Oneida Special Term",
+            "Supreme Court, Oneida Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -31282,7 +31535,9 @@
         "regex": [
             "New York Supreme Court, Rensselaer General Term",
             "Supreme Court, Rensselaer County",
-            "Supreme Court, Trial Term,? Rensselaer County"
+            "Supreme Court, Trial Term,? Rensselaer County",
+            "Supreme Court, Rensselaer Special Term",
+            "Supreme Court, Rensselaer Trial Term"
         ],
         "system": "state",
         "type": "trial"
