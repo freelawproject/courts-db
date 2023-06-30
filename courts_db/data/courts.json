@@ -20861,7 +20861,8 @@
         "parent": "njsurrct",
         "regex": [
             "Middlesex (County)? ?Surrogate Court",
-            "Middlesex (County)? ?Orphans'? Court"
+            "Middlesex (County)? ?Orphans'? Court",
+            "Superior Court of New Jersey, Middlesex County Surrogate's Court, Probate"
         ],
         "system": "state",
         "type": "trial"
@@ -21084,7 +21085,8 @@
         "name": "Municipal Courts of New Jersey",
         "regex": [
             "Municipal Court.* New Jersey",
-            "New Jersey Municipal Court"
+            "New Jersey Municipal Court",
+            "Superior Court of New Jersey, Municipal Court"
         ],
         "system": "state",
         "type": null
