@@ -105,7 +105,8 @@
         "regex": [
             "${coa} Alabama",
             "State of Alabama ${coa}",
-            "Alabama Court of Appeals"
+            "Alabama Court of Appeals",
+            "Court of Appeals of Alabama"
         ],
         "system": "state",
         "type": "appellate"
@@ -9904,7 +9905,22 @@
             "Illinois ${app}",
             "Illinois Court of Appeals",
             "Court of Appeals of Illinois",
-            "Appellate Court of Illinois Fifth District Industrial Commission ?(Division)?"
+            "Appellate Court of Illinois Fifth District Industrial Commission ?(Division)?",
+            "Appellate Court of Illinois, Fifth District(\\.|,)? Industrial Commission Division",
+            "Appellate Court of Illinois, Fifth District(\\.|,)? Industrial Commission",
+            "Appellate Court of Illinois, Fourth District(\\.|,)? Industrial Commission",
+            "Appellate Court of Illinois, Fourth District(\\.|,)? Industrial Commission Division",
+            "Appellate Court of Illinois, Third District(\\.|,)? Industrial Commission Division",
+            "Appellate Court of Illinois, Third District(\\.|,)? Industrial Commission",
+            "Appellate Court of Illinois, First District(\\.|,)? Industrial Commission Division",
+            "Appellate Court of Illinois, First District(\\.|,)? Industrial Commission",
+            "Appellate Court of Illinois, Second District(\\.|,)? Industrial Commission Division",
+            "Appellate Court of Illinois, Second District(\\.|,)? Industrial Commission",
+            "Appellate Court of Illinois, First District. Workers' Compensation Commission Division",
+            "Appellate Court of Illinois, Second District, Workers' Compensation Commission Division",
+            "Appellate Court of Illinois, Third District, Workers' Compensation Commission Division",
+            "Appellate Court of Illinois, Fourth District. Workers' Compensation Commission Division",
+            "Appellate Court of Illinois, Fifth District. Workers' Compensation Commission Division"
         ],
         "system": "state",
         "type": "appellate"
@@ -15724,7 +15740,8 @@
             "State of Massachusetts Superior Court",
             "Superior Court of Massachusetts",
             "Commonwealth of Massachusetts Superior Court",
-            "Commonwealth of Massachusetts Superior Court MIDDLESEX"
+            "Commonwealth of Massachusetts Superior Court,? MIDDLESEX",
+            "Commonwealth of Massachusetts Superior Court,? Middlesex"
         ],
         "system": "state",
         "type": "trial"
@@ -18820,7 +18837,11 @@
         "name": "Supreme Court of New Hampshire",
         "regex": [
             "Supreme Court of New Hampshire",
-            "New Hampshire Supreme Court"
+            "New Hampshire Supreme Court",
+            "Supreme Court of New Hampshire FROM CARROLL CIRCUIT COURT",
+            "Supreme Court of New Hampshire(\\.|,)? (Auburn|Berlin|Claremont|Colebrook|Concord|Derry|Dover|Durham|Exeter|Franklin|Goffstown|Gorham|Greenville|Hampton|Hanover|Haverhill|Henniker|Hillsborough|Hooksett|Jaffrey|Keene|Laconia|Lancaster|Lebanon|Manchester|Merrimack|Milford|Nashua|Newport|New London|Ossipee|Peterborough|Pittsfield|Plaistow|Plymouth|Portsmouth|Rochester|Salem|U.S.|Wilton|) District Court",
+            "Supreme Court of New Hampshire(\\.|,)? (Amherst|Concord|Conway|Dover|Durham|Epping|Exeter|Farmington|Greenville|Hampton|Jaffrey|Keene|Laconia|Lebanon|Manchester|Milford|Nashua|Pelham|Peterborough|Pittsfield|Portsmouth|Rye|Wilton|Wolfeboro) Municipal Court",
+            "Supreme Court of New Hampshire(\\.|,)? Municipal Court of (Amherst|Berlin|Charlestown|Concord|Conway|Dover|Exeter|Farmington|Greenville|Hampton|Jaffrey|Keene|Laconia|Lebanon|Manchester|Milford|Nashua|Portsmouth|Rye|Wilton|Wolfeboro)"
         ],
         "system": "state",
         "type": "appellate"
@@ -18950,7 +18971,9 @@
             "Court of Errors of Appeals of New Jersey",
             "Court of Errors And Appels of New Jersey",
             "Courts of Errors And Appeals of New Jersey",
-            "Court of Errors and Appeals"
+            "Court of Errors and Appeals",
+            "Court of Errors and Appeals. Court of Chancery and Prerogative Court",
+            "Court of Chancery and Prerogative Court. Court of Errors and Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -18998,6 +19021,29 @@
         "name": "New Jersey Court of Pardons",
         "regex": [
             "New Jersey Court of Pardons"
+        ],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "citation_string": "http://www.nj.gov/state/archives/catsjchance.html",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Jersey Court of Chancery"
+        ],
+        "id": "njch",
+        "level": "",
+        "location": "New Jersey",
+        "name": "New Jersey Court of Chancery",
+        "regex": [
+            "New Jersey Court of Chancery",
+            "Court of Chancery and Prerogative Court"
         ],
         "system": "state",
         "type": ""
@@ -19168,7 +19214,10 @@
         "parent": "njsuper",
         "regex": [
             "Atlantic (County)? ?Superior Court",
-            "Atlantic County Court"
+            "Atlantic County Court",
+            "Superior Court of New Jersey, Atlantic County Court, Law Division",
+            "Superior Court of New Jersey, Atlantic County Court",
+            "Superior Court of New Jersey, District Court, Atlantic County"
         ],
         "system": "state",
         "type": "trial"
@@ -19192,7 +19241,12 @@
             "Bergen (County)? ?Superior Court",
             "Bergen County Court",
             "Bergen County Court, Law Division",
-            "Bergen County Court of Special Sessions"
+            "Bergen County Court of Special Sessions",
+            "Superior Court of New Jersey, Bergen County Court, Law Division",
+            "Superior Court of New Jersey, Bergen County Court, Probate Division",
+            "Superior Court of New Jersey, Bergen County Court",
+            "Superior Court of New Jersey, Bergen County District Court",
+            "Superior Court of New Jersey, District Court, Bergen County"
         ],
         "system": "state",
         "type": "trial"
@@ -19215,7 +19269,10 @@
         "regex": [
             "Burlington (County)? ?Superior Court",
             "Burlington County Court",
-            "Burlington County Judicial District"
+            "Burlington County Judicial District",
+            "Superior Court of New Jersey, Burlington County Court",
+            "Superior Court of New Jersey, Burlington County District Court",
+            "Superior Court of New Jersey, District Court, Burlington County"
         ],
         "system": "state",
         "type": "trial"
@@ -19238,7 +19295,12 @@
         "regex": [
             "Camden (County)? ?Superior Court",
             "Camden County Court",
-            "Camden County Court, Law Division"
+            "Camden County Court, Law Division",
+            "Superior Court of New Jersey, Camden County Court",
+            "Superior Court of New Jersey, Camden County District Court",
+            "Superior Court of New Jersey, District Court, Camden County",
+            "Superior Court of New Jersey, Camden County Court, Law Division",
+            "Superior Court of New Jersey, Camden County Court, Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19260,7 +19322,10 @@
         "parent": "njsuper",
         "regex": [
             "Cape May (County)? ?Superior Court",
-            "Cape May County Court"
+            "Cape May County Court",
+            "Superior Court of New Jersey, Cape May County Court",
+            "Superior Court of New Jersey, Cape May County Court, Law Division",
+            "Superior Court of New Jersey, Cape May County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19282,7 +19347,11 @@
         "parent": "njsuper",
         "regex": [
             "Cumberland (County)? ?Superior Court",
-            "Cumberland County Court"
+            "Cumberland County Court",
+            "Superior Court of New Jersey, Cumberland County Court, Law Division",
+            "Superior Court of New Jersey, Cumberland County Court",
+            "Superior Court of New Jersey, Cumberland County Court, Criminal Division",
+            "Superior Court of New Jersey, District Court, Cumberland County"
         ],
         "system": "state",
         "type": "trial"
@@ -19306,7 +19375,15 @@
             "Essex (County)? ?Superior Court",
             "Essex County Court",
             "Essex County Court of Special Sessions",
-            "Essex County Court, Law Division"
+            "Essex County Court, Law Division",
+            "Superior Court of New Jersey, Essex County Court, Probate Division",
+            "Superior Court of New Jersey, Essex County Court, Criminal Division",
+            "Superior Court of New Jersey, Essex County Court",
+            "Superior Court of New Jersey, District Court, Essex County",
+            "Superior Court of New Jersey, Essex County Court, Law Division (Criminal)",
+            "Superior Court of New Jersey, Essex County Court, Law Division — Criminal",
+            "Superior Court of New Jersey, Essex County Court, Law Division",
+            "Superior Court of New Jersey, Essex County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19330,7 +19407,10 @@
         "regex": [
             "Gloucester (County)? ?Superior Court",
             "Gloucester County Court",
-            "Gloucester County Small Cause Court"
+            "Gloucester County Small Cause Court",
+            "Superior Court of New Jersey, Gloucester County Court, Criminal Division",
+            "Superior Court of New Jersey, Gloucester County Court, Law Division",
+            "Superior Court of New Jersey, Gloucester County Court, Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19354,7 +19434,11 @@
             "Hudson (County)? ?Superior Court",
             "Hudson County Court",
             "Hudson County Court, Law Division",
-            "Hudson County Court Probate Division"
+            "Hudson County Court Probate Division",
+            "Superior Court of New Jersey, District Court, Hudson County",
+            "Superior Court of New Jersey, Hudson County Court, Law Division",
+            "Superior Court of New Jersey, Hudson County Court, Probate Division",
+            "Superior Court of New Jersey, Hudson County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19376,7 +19460,9 @@
         "parent": "njsuper",
         "regex": [
             "Hunterdon (County)? ?Superior Court",
-            "Hunterdon County Court"
+            "Hunterdon County Court",
+            "Superior Court of New Jersey, Hunterdon County Court, Law Division",
+            "Superior Court of New Jersey, Hunterdon County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19398,7 +19484,12 @@
         "parent": "njsuper",
         "regex": [
             "Mercer (County)? ?Superior Court",
-            "Mercer County Court"
+            "Mercer County Court",
+            "Superior Court of New Jersey, District Court, Mercer County",
+            "Superior Court of New Jersey, Mercer County Court, Law Division",
+            "Superior Court of New Jersey, Mercer County Court, Probate Division",
+            "Superior Court of New Jersey, Mercer County Court, New Jersey Law Division",
+            "Superior Court of New Jersey, Mercer County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19420,7 +19511,11 @@
         "parent": "njsuper",
         "regex": [
             "Middlesex (County)? ?Superior Court",
-            "Middlesex County Court"
+            "Middlesex County Court",
+            "Superior Court of New Jersey, District Court, Middlesex County",
+            "Superior Court of New Jersey, Middlesex County Court, Criminal Division",
+            "Superior Court of New Jersey, Middlesex County Court, Law Division",
+            "Superior Court of New Jersey, Middlesex County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19443,7 +19538,12 @@
         "regex": [
             "Monmouth (County)? ?Superior Court",
             "Monmouth County Court",
-            "Monmouth County Judicial District"
+            "Monmouth County Judicial District",
+            "Superior Court of New Jersey, District Court, Monmouth County",
+            "Superior Court of New Jersey, Monmouth County Court, Criminal Division",
+            "Superior Court of New Jersey, Monmouth County Court, Law Division",
+            "Superior Court of New Jersey, Monmouth County Court, Probate Division",
+            "Superior Court of New Jersey, Monmouth County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19465,7 +19565,11 @@
         "parent": "njsuper",
         "regex": [
             "Morris (County)? ?Superior Court",
-            "Morris County Court"
+            "Morris County Court",
+            "Superior Court of New Jersey, District Court, Morris County",
+            "Superior Court of New Jersey, Morris County Court, Law Division",
+            "Superior Court of New Jersey, Morris County Court, Probate Division",
+            "Superior Court of New Jersey, Morris County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19487,7 +19591,10 @@
         "parent": "njsuper",
         "regex": [
             "Ocean (County)? ?Superior Court",
-            "Ocean County Court"
+            "Ocean County Court",
+            "Superior Court of New Jersey, District Court, Ocean County",
+            "Superior Court of New Jersey, Ocean County Court, Law Division",
+            "Superior Court of New Jersey, Ocean County Court, Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19509,7 +19616,12 @@
         "parent": "njsuper",
         "regex": [
             "Passaic (County)? ?Superior Court",
-            "Passaic County Court"
+            "Passaic County Court",
+            "Superior Court of New Jersey, District Court, Passaic County",
+            "Superior Court of New Jersey, Passaic County Court, Law Division (Criminal)",
+            "Superior Court of New Jersey, Passaic County Court, Law Division.",
+            "Superior Court of New Jersey, Passaic County Court",
+            "Superior Court of New Jersey, Passaic County — District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19531,7 +19643,9 @@
         "parent": "njsuper",
         "regex": [
             "Salem (County)? ?Superior Court",
-            "Salem County Court"
+            "Salem County Court",
+            "Superior Court of New Jersey, Salem County Court, Law Division",
+            "Superior Court of New Jersey, Salem County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19553,7 +19667,11 @@
         "parent": "njsuper",
         "regex": [
             "Somerset (County)? ?Superior Court",
-            "Somerset County Court"
+            "Somerset County Court",
+            "Superior Court of New Jersey, Somerset County Court",
+            "Superior Court of New Jersey, Somerset County Court, Law Division",
+            "Superior Court of New Jersey, Somerset County Court, Probate Division",
+            "Superior Court of New Jersey, District Court, Somerset County"
         ],
         "system": "state",
         "type": "trial"
@@ -19575,7 +19693,9 @@
         "parent": "njsuper",
         "regex": [
             "Sussex (County)? ?Superior Court",
-            "Sussex County Court"
+            "Sussex County Court",
+            "Superior Court of New Jersey, Sussex County Court, Law Division",
+            "Superior Court of New Jersey, Sussex County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19597,7 +19717,17 @@
         "parent": "njsuper",
         "regex": [
             "Union (County)? ?Superior Court",
-            "Union County Court"
+            "Union County Court",
+            "Superior Court of New Jersey, Union County Court",
+            "Superior Court of New Jersey, Union County Court, Law Division — Criminal",
+            "Superior Court of New Jersey, Union County Court, Law Division",
+            "Superior Court of New Jersey, Union County Court, Probate Division",
+            "Superior Court of New Jersey, Union County Court, Law Division, Criminal",
+            "Superior Court of New Jersey, Union County Court, Law Division — Civil",
+            "Superior Court of New Jersey, Union County Court, New Jersey",
+            "Superior Court of New Jersey, Union County Court, Criminal Division",
+            "Superior Court of New Jersey, District Court, Union County",
+            "Superior Court of New Jersey, Union County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19619,7 +19749,8 @@
         "parent": "njsuper",
         "regex": [
             "Warren (County)? ?Superior Court",
-            "Warren County Court"
+            "Warren County Court",
+            "Superior Court of New Jersey, Warren County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -24416,7 +24547,8 @@
             "State of New Jersey State Board of Taxes And Assessment",
             "New Jersey Division of Tax Appeals",
             "New Jersey State Board of Taxes and Assessment",
-            "New Jersey Department of Taxation and Finance"
+            "New Jersey Department of Taxation and Finance",
+            "Superior Court of New Jersey, Tax Court of New Jersey"
         ],
         "system": "state",
         "type": "appellate"
@@ -24963,7 +25095,8 @@
             "New York Police Justice's Court",
             "New York Village Court, Nassau County",
             "Justice Court",
-            "Village Court, Nassau County"
+            "Village Court, Nassau County",
+            "Justice Court of the City of New York"
         ],
         "system": "state",
         "type": "trial"
@@ -29338,7 +29471,9 @@
             "New York Surrogate's Court, \b.*\b County",
             "Surrogate's Court",
             "Surrogates' Court, New York County",
-            "Surrogate'? Court, (Allegany|Cattaraugus|Kings|Saratoga|Westchester) County"
+            "Surrogate'? Court, (Allegany|Cattaraugus|Kings|Saratoga|Westchester) County",
+            "Surrogate's Court of the City of New York(\\.|,)? (Albany|Bronx|Chautauqua|Dutchess|Erie|Kings|Nassau|Monroe|New York|Queens|Richmond|Rockland|Schenectady|Schoharie|Schuyler|Seneca|St. Lawrence|Steuben|Suffolk|Westchester|Wyoming) County",
+            "Surrogate's Court of the State of New York, Nassau County"
         ],
         "system": "state",
         "type": "trial"
