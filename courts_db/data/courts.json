@@ -2774,7 +2774,8 @@
             "Superior Court Judicial District of Ansonia-Milford at Milford",
             "Superior Court Judicial District of Ansonia-Milford",
             "Superior Court Judicial District of Ansonia at Milford",
-            "Superior Court Judicial District Of Windham"
+            "Superior Court Judicial District Of Windham",
+            "Court of Common Pleas Hartford County"
         ],
         "system": "state",
         "type": "trial"
@@ -3017,7 +3018,8 @@
             "Superior of Court Delaware New Castle",
             "Superior of Delaware Kent",
             "Superior Court of The State of Delaware",
-            "Delaware Superior Court"
+            "Delaware Superior Court",
+            "Superior Court of (the State of )?Delaware"
         ],
         "sub_names": [
             "Kent",
@@ -3118,7 +3120,8 @@
             "Court of Quarter Sessions.* Delaware",
             "Court of General Sessions New Castle Delaware",
             "Court of General Sessions of The Peace And Jail Delivery of Delaware Kent County",
-            "Court of General Sessions of Delaware Kent County"
+            "Court of General Sessions of Delaware Kent County",
+            "Courts of General Sessions and Oyer and Terminer of Delaware"
         ],
         "system": "state",
         "type": "trial"
@@ -3450,7 +3453,8 @@
             "Florida District Courts of Appeal (First|Second|Third|Fourth) District",
             "Florida District Court of Appeal (First|Second|Third|Fourth) Circuit",
             "Florida Court of Appeal (First|Second|Third|Fourth) District",
-            "Florida Court of Appeal of Florida (First|Second|Third|Fourth) District"
+            "Florida Court of Appeal of Florida (First|Second|Third|Fourth) District",
+            "District Courts? of Appeal"
         ],
         "sub_names": [
             "First",
@@ -18975,7 +18979,8 @@
             "Courts of Errors And Appeals of New Jersey",
             "Court of Errors and Appeals",
             "Court of Errors and Appeals. Court of Chancery and Prerogative Court",
-            "Court of Chancery and Prerogative Court. Court of Errors and Appeals"
+            "Court of Chancery and Prerogative Court. Court of Errors and Appeals",
+            "Court of Chancery"
         ],
         "system": "state",
         "type": "appellate"
@@ -19045,7 +19050,8 @@
         "name": "New Jersey Court of Chancery",
         "regex": [
             "New Jersey Court of Chancery",
-            "Court of Chancery and Prerogative Court"
+            "Court of Chancery and Prerogative Court",
+            "Court of Chancery"
         ],
         "system": "state",
         "type": ""
@@ -25754,7 +25760,6 @@
             "Chancellor S Court of New York",
             "Chancery Court of New York",
             "Court of Chancery New York",
-            "Court of Chancery",
             "Vice Chancellor S Court of New York ${1-8} Circuit"
         ],
         "system": "state",
@@ -49538,7 +49543,8 @@
             "Superior Court for Law and Equity, (Carthage|Hamilton|Jonesborough|Knoxville|Mero|Nashville|Robertson|Washington|Winchester) District",
             "Superior Court for Law and Equity, District of (Carthage|Hamilton|Knoxville|Mero|Nashville|Robertson|Washington|Winchester)",
             "Circuit Court of the United States, Nashville",
-            "Supreme Court of (Clarksville|Knoxville|Nashville|Sparta)"
+            "Supreme Court of (Clarksville|Knoxville|Nashville|Sparta)",
+            "Superior Court for Law and Equity"
         ],
         "system": "state",
         "type": "appellate"
@@ -61853,7 +61859,8 @@
         "regex": [
             "Circuit Court D Tenn",
             "Circuit Court Tennessee",
-            "United States Circuit Court for the District of Tennessee"
+            "United States Circuit Court for the District of Tennessee",
+            "Federal Court, Nashville"
         ],
         "system": "federal",
         "type": "appellate"
