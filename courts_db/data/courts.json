@@ -1849,7 +1849,8 @@
             "Appellate Division Superior Court of California Napa County",
             "State of California Appellate Department of The Superior Court",
             "State of California Appellate Department Superior Court",
-            "California Superior Court Appellate Division"
+            "California Superior Court Appellate Division",
+            "California Superior Court Appellate Department"
         ],
         "system": "state",
         "type": "appellate"
