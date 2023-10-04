@@ -120,7 +120,7 @@ Fields
 10. :code:`location` — string; refers to the physical location of the main court
 11. :code:`type` — string; Identifies kind of cases handled (Trial, Appellate, Bankruptcy, AG)
 12. :code:`citation_string` — string; Identifies the string used in a citation to refer to the court
-12. :code:`notes` — string; A place to put notes about a court
+13. :code:`notes` — string; A place to put notes about a court
 
 Installation
 ============
