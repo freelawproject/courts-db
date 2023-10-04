@@ -108,18 +108,19 @@ Somethings to keep in mind as you are reviewing the data.
 Fields
 ======
 
-1. :code:`id` ==> string; Courtlistener Court Identifier
-2. :code:`court_url` ==> string; url for court website
-3. :code:`regex` ==>  array; regexes patterns to find courts
-4. :code:`examples` ==>  array; regexes patterns to find courts
-5. :code:`name` ==> string; full name of the court
-6. :code:`name_abbreviation` ==> string; court name abbreviations
-7. :code:`dates` ==> Array; Contains start date, end date and notes on date range
-8. :code:`system` ==> string; Defines main jurisdiction, ex. State, Federal, Tribal
-9. :code:`level` ==> string; code defining where court is in system structure, ex. COLR (Court of Last Resort), IAC (Intermediate Appellate Court), GJC (General Jurisdiction Court), LJC (Limited Jurisdiction Court)
-10. :code:`location` ==> string; refers to the physical location of the main court
-11. :code:`type` ==> string; Identifies kind of cases handled (Trial, Appellate, Bankruptcy, AG)
-12. :code:`citation_string` ==> string; Identifies the string used in a citation to refer to the court
+1. :code:`id` — string; Courtlistener Court Identifier
+2. :code:`court_url` — string; url for court website
+3. :code:`regex` —  array; regexes patterns to find courts
+4. :code:`examples` —  array; regexes patterns to find courts
+5. :code:`name` — string; full name of the court
+6. :code:`name_abbreviation` — string; court name abbreviations
+7. :code:`dates` — Array; Contains start date, end date and notes on date range
+8. :code:`system` — string; Defines main jurisdiction, ex. State, Federal, Tribal
+9. :code:`level` — string; code defining where court is in system structure, ex. COLR (Court of Last Resort), IAC (Intermediate Appellate Court), GJC (General Jurisdiction Court), LJC (Limited Jurisdiction Court)
+10. :code:`location` — string; refers to the physical location of the main court
+11. :code:`type` — string; Identifies kind of cases handled (Trial, Appellate, Bankruptcy, AG)
+12. :code:`citation_string` — string; Identifies the string used in a citation to refer to the court
+12. :code:`notes` — string; A place to put notes about a court
 
 Installation
 ============
