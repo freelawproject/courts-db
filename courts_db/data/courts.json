@@ -1234,7 +1234,7 @@
             "Ohio Civil Rights Commission"
         ],
         "system": "state",
-        "type": ""
+        "type": "commission"
     },
     {
         "case_types": [],
@@ -2441,27 +2441,10 @@
                 "start": null
             }
         ],
-        "examples": [],
-        "id": "cosuperct",
-        "jurisdiction": "C.O.",
-        "level": "colr",
-        "location": "Colorado",
-        "name": "Coloardo Superior Court",
-        "regex": [],
-        "system": "state",
-        "type": ""
-    },
-    {
-        "case_types": [],
-        "citation_string": "",
-        "court_url": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
+        "examples": [
+            "Denver Superior Court",
+            "Denver Juvenile Court"
         ],
-        "examples": [],
         "id": "cosuperctdenver",
         "jurisdiction": "C.O.",
         "level": "colr",
@@ -2469,8 +2452,9 @@
         "name": "Denver Superior Court",
         "parent": "cosuperct",
         "regex": [],
+        "notes": "This is a juvenile court. It was called the 'Superior' court in its early period. The general jurisdiction trial court for Denver is the Denver District Court, and not 'Denver Superior Court'. Denver is unique in Colorado in that it is a consolidated city and county, and its court system is slightly different from other counties in the state.",
         "system": "state",
-        "type": ""
+        "type": "trial"
     },
     {
         "appeal_to": "ca10",
@@ -3972,7 +3956,7 @@
             "Florida Public Service Commission"
         ],
         "system": "state",
-        "type": ""
+        "type": "commission"
     },
     {
         "case_types": [],
@@ -3995,7 +3979,7 @@
             "(Florida)? ?Industrial Commission"
         ],
         "system": "state",
-        "type": ""
+        "type": "commission"
     },
     {
         "case_types": [],
@@ -4014,7 +3998,7 @@
         "name": "Florida Real Estate Commission",
         "regex": [],
         "system": "state",
-        "type": ""
+        "type": "commission"
     },
     {
         "case_types": [],
@@ -7656,12 +7640,13 @@
             "Dade County Property Appraisal ?(Adjustment)? Board"
         ],
         "system": "state",
-        "type": ""
+        "type": "commission"
     },
     {
         "case_types": [],
         "citation_string": "Fla. Dep't. of H. Rehabil. Serv.",
         "court_url": "",
+        "active": false,
         "dates": [
             {
                 "end": null,
@@ -7673,12 +7658,13 @@
         "level": "ljc",
         "location": "Florida",
         "name": "Florida Department of Health and Rehabilitative Services",
+        "notes": "established in 1969, it was shut down in 1996 and spun out into several different agencies in 1997",
         "parent": null,
         "regex": [
             "Florida Department of Health and Rehabilitative Services"
         ],
         "system": "state",
-        "type": ""
+        "type": "agency"
     },
     {
         "case_types": [],
@@ -7706,6 +7692,7 @@
         "case_types": [],
         "citation_string": "Fla. Dep't. Env. Reg.",
         "court_url": "",
+        "active": false,
         "dates": [
             {
                 "end": null,
@@ -7722,7 +7709,7 @@
             "State of Florida Department of Environmental Regulation"
         ],
         "system": "state",
-        "type": ""
+        "type": "agency"
     },
     {
         "case_types": [],
@@ -7744,7 +7731,7 @@
             "State of Florida Department of Revenue"
         ],
         "system": "state",
-        "type": ""
+        "type": "agency"
     },
     {
         "case_types": [],
@@ -7766,7 +7753,7 @@
             "State of Florida Division of Administrative Hearings"
         ],
         "system": "state",
-        "type": ""
+        "type": "commission"
     },
     {
         "case_types": [],
@@ -14938,6 +14925,7 @@
     },
     {
         "citation_string": "",
+        "active": false,
         "dates": [
             {
                 "end": null,
@@ -14953,7 +14941,7 @@
             "Louisiana Provisional Court"
         ],
         "system": "federal",
-        "type": ""
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -16135,17 +16123,19 @@
         ],
         "examples": [],
         "id": "michsuperct",
+        "active": false,
         "level": "",
         "location": "Michigan",
         "name": "Michigan Superior Courts",
         "regex": [],
         "system": "state",
-        "type": ""
+        "type": "trial"
     },
     {
         "case_types": [],
         "citation_string": "Detroit Recorder's Court",
         "court_url": "",
+        "active": false,
         "dates": [
             {
                 "end": null,
@@ -16159,12 +16149,13 @@
         "name": "Detroit Recorder's Court",
         "regex": [],
         "system": "state",
-        "type": ""
+        "type": "trial"
     },
     {
         "case_types": [],
         "citation_string": "Mich. Super. Ct., Detroit",
         "court_url": "",
+        "active": false,
         "dates": [
             {
                 "end": null,
@@ -16181,12 +16172,13 @@
             "Detroit Superior Court"
         ],
         "system": "state",
-        "type": ""
+        "type": "trial"
     },
     {
         "case_types": [],
         "citation_string": "Mich. Super. Ct., Grand Rapids",
         "court_url": "",
+        "active": false,
         "dates": [
             {
                 "end": null,
@@ -16203,7 +16195,7 @@
             "Grand Rapids Superior Court"
         ],
         "system": "state",
-        "type": ""
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18890,13 +18882,13 @@
         "level": "",
         "location": "New Jersey",
         "name": "New Jersey Special Statutory Court",
-        "notes": "Need more information about this court.",
+        "notes": "Need more information about this court. GPT4/Google do not recognize it.",
         "regex": [
             "New Jersey Special Statutory Court",
             "New Jersey Special Statutory Tribunal"
         ],
         "system": "state",
-        "type": ""
+        "type": null
     },
     {
         "citation_string": "",
@@ -18911,14 +18903,16 @@
             "New Jersey Court of Pardons"
         ],
         "id": "njctpardons",
+        "active": false,
         "level": "",
         "location": "New Jersey",
         "name": "New Jersey Court of Pardons",
+        "notes": "The Court of Pardons consisted of the Governor of New Jersey and the members of the New Jersey Senate. The authority of the New Jersey Court of Pardons changed with the adoption of the New Jersey Constitution of 1947.",
         "regex": [
             "New Jersey Court of Pardons"
         ],
         "system": "state",
-        "type": ""
+        "type": "special"
     },
     {
         "case_types": [],
@@ -29718,8 +29712,9 @@
         "regex": [
             "New York State Assembly"
         ],
+        "notes": "Technically, not a court. However, legislative bodies, including those in New York, have occasionally taken on quasi-judicial roles in specific circumstances.",
         "system": "state",
-        "type": ""
+        "type": "special"
     },
     {
         "case_types": [],
@@ -29742,8 +29737,9 @@
         "regex": [
             "New York Executive Chamber"
         ],
+        "notes": "This is not a court. It could be here due to its occasional involvement in legal or quasi-judicial matters",
         "system": "state",
-        "type": ""
+        "type": "special"
     },
     {
         "case_types": [],
@@ -48458,10 +48454,10 @@
         "level": "",
         "location": "Utah",
         "name": "Salt Lake City Register and Receiver",
-        "notes": "Pre-Statehood Court: No information yet found",
+        "notes": "Register/Receiver terms are historically associated with the management of public lands in the United States, particularly in the context of the General Land Office (GLO) during western expansion. May have served quasi-judicial role in certain circumstances, but its not a court.",
         "regex": [],
-        "system": "",
-        "type": ""
+        "system": "federal",
+        "type": "agency"
     },
     {
         "case_types": [],
