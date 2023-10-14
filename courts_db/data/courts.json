@@ -105,7 +105,8 @@
         "regex": [
             "${coa} Alabama",
             "State of Alabama ${coa}",
-            "Alabama Court of Appeals"
+            "Alabama Court of Appeals",
+            "Court of Appeals of Alabama"
         ],
         "system": "state",
         "type": "appellate"
@@ -1847,7 +1848,9 @@
             "State of California Appellate Department of The Superior Court In And For The City And County of San Francisco At Law",
             "Appellate Division Superior Court of California Napa County",
             "State of California Appellate Department of The Superior Court",
-            "State of California Appellate Department Superior Court"
+            "State of California Appellate Department Superior Court",
+            "California Superior Court Appellate Division",
+            "California Superior Court Appellate Department"
         ],
         "system": "state",
         "type": "appellate"
@@ -2697,7 +2700,61 @@
             "Superior Court Housing Session of Connecticut",
             "Superior Court Connecticut",
             "Connecticut City Court",
-            "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford"
+            "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford",
+            "Appellate Session of the Superior Court",
+            "Superior Court,? (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
+            "Court of Common Pleas, (Hartford|Fairfield|Litchfield|Middlesex|New Haven|New London|Tolland|Windham)(\\sCounty)?",
+            "Superior Court New Haven County",
+            "Appellate Division Of The Circuit Court",
+            "Connecticut Superior Court,? Judicial District of (Waterbury|Danbury|New Haven|Litchfield|Hartford|New Britain|Middlesex|Fairfield|New London|Stamford|Bridgeport|Windham|Ansonia-Milford|Stamford-Norwalk)",
+            "Connecticut Superior Court,? Judicial District of Tolland,? at Rockville",
+            "Connecticut Superior Court,? Judicial District of Fairfield,? at Bridgeport",
+            "Connecticut Superior Court,? Judicial District of New Haven at New Haven",
+            "Connecticut Superior Court,? Judicial District of Hartford-New Britain at Hartford",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk at Stamford",
+            "Connecticut Superior Court,? Judicial District of Hartford at Hartford",
+            "Connecticut Superior Court,? Judicial District of New London at New London",
+            "Connecticut Superior Court,? Judicial District of Ansonia-Milford at Milford",
+            "Connecticut Superior Court,? Judicial District of New Britain at New Britain",
+            "Connecticut Superior Court,? Judicial District of Waterbury at Waterbury",
+            "Connecticut Superior Court,? Judicial District of Middlesex at Middletown",
+            "Connecticut Superior Court,? Judicial District of Hartford-New Britain at New Britain",
+            "Connecticut Superior Court,? Judicial District of Litchfield at Litchfield",
+            "Connecticut Superior Court,? Judicial District of New Haven at Meriden",
+            "Connecticut Superior Court,? Judicial District of New London at Norwich",
+            "Connecticut Superior Court,? Judicial District of Windham at Putnam",
+            "Connecticut Superior Court,? Judicial District of Ansonia-Milford at Derby",
+            "Connecticut Superior Court,? Judicial District of Middlesex,? Child Protection Session at Middletown",
+            "Connecticut Superior Court,? Judicial District of Hartford,? Complex Litigation Docket at Hartford",
+            "Connecticut Superior Court,? Stamford-Norwalk Judicial District at Stamford",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk, Complex Litigation Docket at Stamford",
+            "Connecticut Superior Court,? Complex Litigation Docket at Waterbury",
+            "Connecticut Superior Court,? Judicial District of Windham, Juvenile Matters at Willimantic",
+            "Connecticut Superior Court for Juvenile Matters Child Protection Session Judicial District of Middletown",
+            "Connecticut Superior Court,? Judicial District of Tolland,? at Somers",
+            "Connecticut Superior Court,? Judicial District of Windham at Willimantic",
+            "Connecticut Superior Court,? Judicial District of New London, Juvenile Matters at Waterford",
+            "Connecticut Superior Court",
+            "Connecticut Superior Court,? Judicial District of Middlesex Complex Litigation Docket at Middletown",
+            "Connecticut Superior Court,? Complex Litigation Docket at New Britain",
+            "Connecticut Superior Court for Juvenile Matters Child Protection Session at Middletown",
+            "Connecticut Superior Court,? Judicial District Stamford-Norwalk at Stamford",
+            "Connecticut Superior Court,? Judicial District of Stamford-Norwalk at Norwalk",
+            "Connecticut Superior Court,? Judicial District of (Milford|Tolland|Waterbury|Norwich)",
+            "Connecticut Superior Court,? Judicial District of Middlesex, Juvenile Matters at Middletown",
+            "Superior Court,? Judicial District (o|O)f Hartford-new Britain At Hartford Housing Session",
+            "Superior Court,? Judicial District (o|O)f Hartford-New Britain At Hartford",
+            "Superior Court,? Judicial District (o|O)f (Waterbury|New Haven|Hartford|Danbury|Fairfield|Litchfield|New London|Tolland)",
+            "Superior Court,? Judicial District (o|O)f Fairfield at Bridgeport",
+            "Superior Court,? Judicial District Of Stamford-Norwalk At Stamford",
+            "Superior Court, Judicial District Of Stamford-norwalk At Norwalk Housing Session",
+            "Superior Court,? Judicial District (o|O)f (Stamford/Norwalk|Windham|Ansonia-Milford|Middlesex|Stamford-Norwalk|New Britain|Middlesex|Ansonia-Milford|Windham)",
+            "Superior Court Juvenile Matters",
+            "Superior Court Judicial District of Stamford-Norwalk at Norwalk",
+            "Superior Court Judicial District of Middlesex at Middletown",
+            "Superior Court Judicial District of Ansonia-Milford at Milford",
+            "Superior Court Judicial District of Ansonia at Milford",
+            "Court of Common Pleas Hartford County"
         ],
         "system": "state",
         "type": "trial"
@@ -2783,7 +2840,8 @@
         "location": "Connecticut",
         "name": "Connecticut Compensation Review Board",
         "regex": [
-            "Connecticut Compensation Review Board"
+            "Connecticut Compensation Review Board",
+            "Workers' Compensation Commission"
         ],
         "system": "state",
         "type": "appellate"
@@ -2939,7 +2997,8 @@
             "Superior of Court Delaware New Castle",
             "Superior of Delaware Kent",
             "Superior Court of The State of Delaware",
-            "Delaware Superior Court"
+            "Delaware Superior Court",
+            "Superior Court of (the State of )?Delaware"
         ],
         "sub_names": [
             "Kent",
@@ -3040,7 +3099,8 @@
             "Court of Quarter Sessions.* Delaware",
             "Court of General Sessions New Castle Delaware",
             "Court of General Sessions of The Peace And Jail Delivery of Delaware Kent County",
-            "Court of General Sessions of Delaware Kent County"
+            "Court of General Sessions of Delaware Kent County",
+            "Courts of General Sessions and Oyer and Terminer of Delaware"
         ],
         "system": "state",
         "type": "trial"
@@ -3323,7 +3383,8 @@
         "name_abbreviation": null,
         "regex": [
             "Florida ${sup}",
-            "${sup} Florida"
+            "${sup} Florida",
+            "Court of Florida, Division B"
         ],
         "system": "state",
         "type": "appellate"
@@ -3371,7 +3432,8 @@
             "Florida District Courts of Appeal (First|Second|Third|Fourth) District",
             "Florida District Court of Appeal (First|Second|Third|Fourth) Circuit",
             "Florida Court of Appeal (First|Second|Third|Fourth) District",
-            "Florida Court of Appeal of Florida (First|Second|Third|Fourth) District"
+            "Florida Court of Appeal of Florida (First|Second|Third|Fourth) District",
+            "District Courts? of Appeal"
         ],
         "sub_names": [
             "First",
@@ -9828,7 +9890,9 @@
             "Illinois ${app}",
             "Illinois Court of Appeals",
             "Court of Appeals of Illinois",
-            "Appellate Court of Illinois Fifth District Industrial Commission ?(Division)?"
+            "Appellate Court of Illinois,? (First|Second|Third|Fourth|Fifth) District(\\.|,)? Industrial Commission Division",
+            "Appellate Court of Illinois,? (First|Second|Third|Fourth|Fifth) District(\\.|,)? Industrial Commission",
+            "Appellate Court of Illinois,? (First|Second|Third|Fourth|Fifth) District(\\.|,)? Workers' Compensation Commission Division"
         ],
         "system": "state",
         "type": "appellate"
@@ -15646,7 +15710,9 @@
         "regex": [
             "Massachusetts {super}",
             "State of Massachusetts Superior Court",
-            "Superior Court of Massachusetts"
+            "Superior Court of Massachusetts",
+            "Commonwealth of Massachusetts Superior Court",
+            "Commonwealth of Massachusetts Superior Court,? (MIDDLESEX|Middlesex)"
         ],
         "system": "state",
         "type": "trial"
@@ -18742,7 +18808,11 @@
         "name": "Supreme Court of New Hampshire",
         "regex": [
             "Supreme Court of New Hampshire",
-            "New Hampshire Supreme Court"
+            "New Hampshire Supreme Court",
+            "Supreme Court of New Hampshire FROM CARROLL CIRCUIT COURT",
+            "Supreme Court of New Hampshire(\\.|,)? (Auburn|Berlin|Claremont|Colebrook|Concord|Derry|Dover|Durham|Exeter|Franklin|Goffstown|Gorham|Greenville|Hampton|Hanover|Haverhill|Henniker|Hillsborough|Hooksett|Jaffrey|Keene|Laconia|Lancaster|Lebanon|Manchester|Merrimack|Milford|Nashua|Newport|New London|Ossipee|Peterborough|Pittsfield|Plaistow|Plymouth|Portsmouth|Rochester|Salem|U.S.|Wilton|) District Court",
+            "Supreme Court of New Hampshire(\\.|,)? (Amherst|Concord|Conway|Dover|Durham|Epping|Exeter|Farmington|Greenville|Hampton|Jaffrey|Keene|Laconia|Lebanon|Manchester|Milford|Nashua|Pelham|Peterborough|Pittsfield|Portsmouth|Rye|Wilton|Wolfeboro) Municipal Court",
+            "Supreme Court of New Hampshire(\\.|,)? Municipal Court of (Amherst|Berlin|Charlestown|Concord|Conway|Dover|Exeter|Farmington|Greenville|Hampton|Jaffrey|Keene|Laconia|Lebanon|Manchester|Milford|Nashua|Portsmouth|Rye|Wilton|Wolfeboro)"
         ],
         "system": "state",
         "type": "appellate"
@@ -18835,7 +18905,10 @@
         "name": "New Jersey Superior Court Appellate Division",
         "notes": "The appellate courts are part of the superior courts but as a different level is given a different entry",
         "regex": [
-            "New Jersey Superior Court,? Appellate Division"
+            "New Jersey Superior Court,? Appellate Division",
+            "Superior Court of New Jersey, Appellate Division",
+            "Prerogative Court",
+            "Superior Court of New Jersey"
         ],
         "system": "state",
         "type": "trial"
@@ -18868,7 +18941,10 @@
             "Court of Errors? And Appeals?.* New Jersey",
             "Court of Errors of Appeals of New Jersey",
             "Court of Errors And Appels of New Jersey",
-            "Courts of Errors And Appeals of New Jersey"
+            "Courts of Errors And Appeals of New Jersey",
+            "Court of Errors and Appeals",
+            "Court of Errors and Appeals. Court of Chancery and Prerogative Court",
+            "Court of Chancery and Prerogative Court. Court of Errors and Appeals"
         ],
         "system": "state",
         "type": "appellate"
@@ -18916,6 +18992,30 @@
         "name": "New Jersey Court of Pardons",
         "regex": [
             "New Jersey Court of Pardons"
+        ],
+        "system": "state",
+        "type": ""
+    },
+    {
+        "citation_string": "http://www.nj.gov/state/archives/catsjchance.html",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "New Jersey Court of Chancery"
+        ],
+        "id": "njch",
+        "level": "",
+        "location": "New Jersey",
+        "name": "New Jersey Court of Chancery",
+        "regex": [
+            "New Jersey Court of Chancery",
+            "Court of Chancery and Prerogative Court",
+            "Court of Chancery"
         ],
         "system": "state",
         "type": ""
@@ -19062,7 +19162,9 @@
         "location": "New Jersey",
         "name": "New Jersey Superior Court",
         "regex": [
-            "New Jersey Superior Court, Law Division"
+            "New Jersey Superior Court, Law Division",
+            "Superior Court of New Jersey, Law Division",
+            "Superior Court of New Jersey, Chancery Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19084,7 +19186,10 @@
         "parent": "njsuper",
         "regex": [
             "Atlantic (County)? ?Superior Court",
-            "Atlantic County Court"
+            "Atlantic County Court",
+            "Superior Court of New Jersey, Atlantic County Court, Law Division",
+            "Superior Court of New Jersey, Atlantic County Court",
+            "Superior Court of New Jersey, District Court, Atlantic County"
         ],
         "system": "state",
         "type": "trial"
@@ -19108,7 +19213,12 @@
             "Bergen (County)? ?Superior Court",
             "Bergen County Court",
             "Bergen County Court, Law Division",
-            "Bergen County Court of Special Sessions"
+            "Bergen County Court of Special Sessions",
+            "Superior Court of New Jersey, Bergen County Court, Law Division",
+            "Superior Court of New Jersey, Bergen County Court, Probate Division",
+            "Superior Court of New Jersey, Bergen County Court",
+            "Superior Court of New Jersey, Bergen County District Court",
+            "Superior Court of New Jersey, District Court, Bergen County"
         ],
         "system": "state",
         "type": "trial"
@@ -19131,7 +19241,10 @@
         "regex": [
             "Burlington (County)? ?Superior Court",
             "Burlington County Court",
-            "Burlington County Judicial District"
+            "Burlington County Judicial District",
+            "Superior Court of New Jersey, Burlington County Court",
+            "Superior Court of New Jersey, Burlington County District Court",
+            "Superior Court of New Jersey, District Court, Burlington County"
         ],
         "system": "state",
         "type": "trial"
@@ -19154,7 +19267,12 @@
         "regex": [
             "Camden (County)? ?Superior Court",
             "Camden County Court",
-            "Camden County Court, Law Division"
+            "Camden County Court, Law Division",
+            "Superior Court of New Jersey, Camden County Court",
+            "Superior Court of New Jersey, Camden County District Court",
+            "Superior Court of New Jersey, District Court, Camden County",
+            "Superior Court of New Jersey, Camden County Court, Law Division",
+            "Superior Court of New Jersey, Camden County Court, Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19176,7 +19294,10 @@
         "parent": "njsuper",
         "regex": [
             "Cape May (County)? ?Superior Court",
-            "Cape May County Court"
+            "Cape May County Court",
+            "Superior Court of New Jersey, Cape May County Court",
+            "Superior Court of New Jersey, Cape May County Court, Law Division",
+            "Superior Court of New Jersey, Cape May County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19198,7 +19319,11 @@
         "parent": "njsuper",
         "regex": [
             "Cumberland (County)? ?Superior Court",
-            "Cumberland County Court"
+            "Cumberland County Court",
+            "Superior Court of New Jersey, Cumberland County Court, Law Division",
+            "Superior Court of New Jersey, Cumberland County Court",
+            "Superior Court of New Jersey, Cumberland County Court, Criminal Division",
+            "Superior Court of New Jersey, District Court, Cumberland County"
         ],
         "system": "state",
         "type": "trial"
@@ -19222,7 +19347,15 @@
             "Essex (County)? ?Superior Court",
             "Essex County Court",
             "Essex County Court of Special Sessions",
-            "Essex County Court, Law Division"
+            "Essex County Court, Law Division",
+            "Superior Court of New Jersey, Essex County Court, Probate Division",
+            "Superior Court of New Jersey, Essex County Court, Criminal Division",
+            "Superior Court of New Jersey, Essex County Court",
+            "Superior Court of New Jersey, District Court, Essex County",
+            "Superior Court of New Jersey, Essex County Court, Law Division (Criminal)",
+            "Superior Court of New Jersey, Essex County Court, Law Division — Criminal",
+            "Superior Court of New Jersey, Essex County Court, Law Division",
+            "Superior Court of New Jersey, Essex County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19246,7 +19379,10 @@
         "regex": [
             "Gloucester (County)? ?Superior Court",
             "Gloucester County Court",
-            "Gloucester County Small Cause Court"
+            "Gloucester County Small Cause Court",
+            "Superior Court of New Jersey, Gloucester County Court, Criminal Division",
+            "Superior Court of New Jersey, Gloucester County Court, Law Division",
+            "Superior Court of New Jersey, Gloucester County Court, Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19270,7 +19406,11 @@
             "Hudson (County)? ?Superior Court",
             "Hudson County Court",
             "Hudson County Court, Law Division",
-            "Hudson County Court Probate Division"
+            "Hudson County Court Probate Division",
+            "Superior Court of New Jersey, District Court, Hudson County",
+            "Superior Court of New Jersey, Hudson County Court, Law Division",
+            "Superior Court of New Jersey, Hudson County Court, Probate Division",
+            "Superior Court of New Jersey, Hudson County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19292,7 +19432,9 @@
         "parent": "njsuper",
         "regex": [
             "Hunterdon (County)? ?Superior Court",
-            "Hunterdon County Court"
+            "Hunterdon County Court",
+            "Superior Court of New Jersey, Hunterdon County Court, Law Division",
+            "Superior Court of New Jersey, Hunterdon County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19314,7 +19456,12 @@
         "parent": "njsuper",
         "regex": [
             "Mercer (County)? ?Superior Court",
-            "Mercer County Court"
+            "Mercer County Court",
+            "Superior Court of New Jersey, District Court, Mercer County",
+            "Superior Court of New Jersey, Mercer County Court, Law Division",
+            "Superior Court of New Jersey, Mercer County Court, Probate Division",
+            "Superior Court of New Jersey, Mercer County Court, New Jersey Law Division",
+            "Superior Court of New Jersey, Mercer County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19336,7 +19483,11 @@
         "parent": "njsuper",
         "regex": [
             "Middlesex (County)? ?Superior Court",
-            "Middlesex County Court"
+            "Middlesex County Court",
+            "Superior Court of New Jersey, District Court, Middlesex County",
+            "Superior Court of New Jersey, Middlesex County Court, Criminal Division",
+            "Superior Court of New Jersey, Middlesex County Court, Law Division",
+            "Superior Court of New Jersey, Middlesex County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19359,7 +19510,12 @@
         "regex": [
             "Monmouth (County)? ?Superior Court",
             "Monmouth County Court",
-            "Monmouth County Judicial District"
+            "Monmouth County Judicial District",
+            "Superior Court of New Jersey, District Court, Monmouth County",
+            "Superior Court of New Jersey, Monmouth County Court, Criminal Division",
+            "Superior Court of New Jersey, Monmouth County Court, Law Division",
+            "Superior Court of New Jersey, Monmouth County Court, Probate Division",
+            "Superior Court of New Jersey, Monmouth County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19381,7 +19537,11 @@
         "parent": "njsuper",
         "regex": [
             "Morris (County)? ?Superior Court",
-            "Morris County Court"
+            "Morris County Court",
+            "Superior Court of New Jersey, District Court, Morris County",
+            "Superior Court of New Jersey, Morris County Court, Law Division",
+            "Superior Court of New Jersey, Morris County Court, Probate Division",
+            "Superior Court of New Jersey, Morris County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19403,7 +19563,10 @@
         "parent": "njsuper",
         "regex": [
             "Ocean (County)? ?Superior Court",
-            "Ocean County Court"
+            "Ocean County Court",
+            "Superior Court of New Jersey, District Court, Ocean County",
+            "Superior Court of New Jersey, Ocean County Court, Law Division",
+            "Superior Court of New Jersey, Ocean County Court, Probate Division"
         ],
         "system": "state",
         "type": "trial"
@@ -19425,7 +19588,12 @@
         "parent": "njsuper",
         "regex": [
             "Passaic (County)? ?Superior Court",
-            "Passaic County Court"
+            "Passaic County Court",
+            "Superior Court of New Jersey, District Court, Passaic County",
+            "Superior Court of New Jersey, Passaic County Court, Law Division (Criminal)",
+            "Superior Court of New Jersey, Passaic County Court, Law Division.",
+            "Superior Court of New Jersey, Passaic County Court",
+            "Superior Court of New Jersey, Passaic County — District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19447,7 +19615,9 @@
         "parent": "njsuper",
         "regex": [
             "Salem (County)? ?Superior Court",
-            "Salem County Court"
+            "Salem County Court",
+            "Superior Court of New Jersey, Salem County Court, Law Division",
+            "Superior Court of New Jersey, Salem County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19469,7 +19639,11 @@
         "parent": "njsuper",
         "regex": [
             "Somerset (County)? ?Superior Court",
-            "Somerset County Court"
+            "Somerset County Court",
+            "Superior Court of New Jersey, Somerset County Court",
+            "Superior Court of New Jersey, Somerset County Court, Law Division",
+            "Superior Court of New Jersey, Somerset County Court, Probate Division",
+            "Superior Court of New Jersey, District Court, Somerset County"
         ],
         "system": "state",
         "type": "trial"
@@ -19491,7 +19665,9 @@
         "parent": "njsuper",
         "regex": [
             "Sussex (County)? ?Superior Court",
-            "Sussex County Court"
+            "Sussex County Court",
+            "Superior Court of New Jersey, Sussex County Court, Law Division",
+            "Superior Court of New Jersey, Sussex County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19513,7 +19689,17 @@
         "parent": "njsuper",
         "regex": [
             "Union (County)? ?Superior Court",
-            "Union County Court"
+            "Union County Court",
+            "Superior Court of New Jersey, Union County Court",
+            "Superior Court of New Jersey, Union County Court, Law Division — Criminal",
+            "Superior Court of New Jersey, Union County Court, Law Division",
+            "Superior Court of New Jersey, Union County Court, Probate Division",
+            "Superior Court of New Jersey, Union County Court, Law Division, Criminal",
+            "Superior Court of New Jersey, Union County Court, Law Division — Civil",
+            "Superior Court of New Jersey, Union County Court, New Jersey",
+            "Superior Court of New Jersey, Union County Court, Criminal Division",
+            "Superior Court of New Jersey, District Court, Union County",
+            "Superior Court of New Jersey, Union County District Court"
         ],
         "system": "state",
         "type": "trial"
@@ -19535,7 +19721,8 @@
         "parent": "njsuper",
         "regex": [
             "Warren (County)? ?Superior Court",
-            "Warren County Court"
+            "Warren County Court",
+            "Superior Court of New Jersey, Warren County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -20777,7 +20964,8 @@
         "parent": "njsurrct",
         "regex": [
             "Middlesex (County)? ?Surrogate Court",
-            "Middlesex (County)? ?Orphans'? Court"
+            "Middlesex (County)? ?Orphans'? Court",
+            "Superior Court of New Jersey, Middlesex County Surrogate's Court, Probate"
         ],
         "system": "state",
         "type": "trial"
@@ -21000,7 +21188,8 @@
         "name": "Municipal Courts of New Jersey",
         "regex": [
             "Municipal Court.* New Jersey",
-            "New Jersey Municipal Court"
+            "New Jersey Municipal Court",
+            "Superior Court of New Jersey, Municipal Court"
         ],
         "system": "state",
         "type": null
@@ -24330,7 +24519,8 @@
             "State of New Jersey State Board of Taxes And Assessment",
             "New Jersey Division of Tax Appeals",
             "New Jersey State Board of Taxes and Assessment",
-            "New Jersey Department of Taxation and Finance"
+            "New Jersey Department of Taxation and Finance",
+            "Superior Court of New Jersey, Tax Court of New Jersey"
         ],
         "system": "state",
         "type": "appellate"
@@ -24506,7 +24696,12 @@
             "Supreme Court First Department",
             "Court Appellate Term 2Nd 11Th And 13Th Judicial Districts",
             "2Nd 11Th And 13Th Judicial Districts",
-            "Supreme Court, Appellate Division"
+            "Supreme Court, Appellate Division",
+            "Supreme Court, Appellate Term",
+            "Supreme Court, Appellate Term, First Department",
+            "Supreme Court, Appellate Term, Second Department",
+            "Appellate Term of the Supreme Court, First Department",
+            "Appellate Term, Supreme Court, First Department"
         ],
         "system": "state",
         "type": "appellate"
@@ -24870,7 +25065,10 @@
             "Police Court",
             "New York Village Court",
             "New York Police Justice's Court",
-            "New York Village Court, Nassau County"
+            "New York Village Court, Nassau County",
+            "Justice Court",
+            "Village Court, Nassau County",
+            "Justice Court of the City of New York"
         ],
         "system": "state",
         "type": "trial"
@@ -25498,7 +25696,8 @@
             "Supreme Court Appellate Term",
             "State of New York Appellate Term First Department",
             "Court Appellate Term 2d 11th And 13th Judicial Districts",
-            "Court Appellate Term 9th And 10th Judicial Districts"
+            "Court Appellate Term 9th And 10th Judicial Districts",
+            "Supreme Court — Appellate Term"
         ],
         "system": "state",
         "type": "appellate"
@@ -25525,7 +25724,6 @@
             "Chancellor S Court of New York",
             "Chancery Court of New York",
             "Court of Chancery New York",
-            "Court of Chancery",
             "Vice Chancellor S Court of New York ${1-8} Circuit"
         ],
         "system": "state",
@@ -25632,7 +25830,8 @@
         "notes": "",
         "parent": "nycirct",
         "regex": [
-            "New York Circuit Court, Albany County"
+            "New York Circuit Court, Albany County",
+            "County Court(\\.|,)? Albany County"
         ],
         "system": "state",
         "type": "trial"
@@ -25707,7 +25906,8 @@
         "notes": "",
         "parent": "nycirct",
         "regex": [
-            "New York Circuit Court, Dutchess County"
+            "New York Circuit Court, Dutchess County",
+            "County Court, Dutchess County"
         ],
         "system": "state",
         "type": "trial"
@@ -25861,7 +26061,8 @@
         "regex": [
             "County Court of New York",
             "New York County Court",
-            "County Court of New York General Sessions"
+            "County Court of New York General Sessions",
+            "County Court"
         ],
         "system": "state",
         "type": "trial"
@@ -25912,7 +26113,8 @@
         "parent": "nycountyct",
         "regex": [
             "County Court of New York, Monroe County",
-            "Monroe County Court"
+            "Monroe County Court",
+            "County Court, Monroe County"
         ],
         "system": "state",
         "type": "trial"
@@ -25964,7 +26166,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Bronx County"
+            "County Court of New York, Bronx County",
+            "County Court, Bronx County"
         ],
         "system": "state",
         "type": "trial"
@@ -25989,7 +26192,9 @@
         "name": "Broome County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court(\\.|,)? Broome County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -26195,7 +26400,11 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Nassau County"
+            "County Court of New York, Nassau County",
+            "County Court, Nassau County",
+            "County Court, Special Term, Nassau County",
+            "State of New York County of Nassau County",
+            "State of New York, Nassau County"
         ],
         "system": "state",
         "type": "trial"
@@ -26221,7 +26430,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Orange County"
+            "County Court of New York, Orange County",
+            "State of New York: Orange County"
         ],
         "system": "state",
         "type": "trial"
@@ -26274,7 +26484,8 @@
         "parent": "nycountyct",
         "regex": [
             "County Court of New York, Columbia County",
-            "Columbia County Court"
+            "Columbia County Court",
+            "County Court(\\.|,)? Columbia County."
         ],
         "system": "state",
         "type": "trial"
@@ -26352,7 +26563,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "Dutchess County Court"
+            "Dutchess County Court",
+            "State of New York: Dutchess County"
         ],
         "system": "state",
         "type": "trial"
@@ -26380,7 +26592,8 @@
         "regex": [
             "New York County Court, Erie County",
             "Erie County Court",
-            "County Court of New York, Erie County"
+            "County Court of New York, Erie County",
+            "County Court, Erie County"
         ],
         "system": "state",
         "type": "trial"
@@ -26494,6 +26707,30 @@
     },
     {
         "case_types": [],
+        "citation_string": "N.Y. Cty. Ct., Hamilton Cty.",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nyhamilctyct",
+        "jurisdiction": "N.Y.",
+        "level": "trial",
+        "location": "New York",
+        "name": "County Court of New York, Hamilton County",
+        "notes": "",
+        "parent": "nycountyct",
+        "regex": [
+            "New York County Court, Hamilton County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "N.Y. Cty. Ct., Herkimer Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-COUNTY.shtml",
         "dates": [
@@ -26540,7 +26777,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Kings County"
+            "County Court of New York, Kings County",
+            "County Court, Kings County"
         ],
         "system": "state",
         "type": "trial"
@@ -26699,7 +26937,8 @@
         "parent": "nycountyct",
         "regex": [
             "Saratoga County Court",
-            "County Court of New York, Saratoga County"
+            "County Court of New York, Saratoga County",
+            "County Court(\\.|,)? Saratoga County"
         ],
         "system": "state",
         "type": "trial"
@@ -26752,7 +26991,7 @@
         "parent": "nycountyct",
         "regex": [
             "County Court of New York, Niagara County",
-            "County Court of New York, Naigara County"
+            "County Court(\\.|,)? Niagara County"
         ],
         "system": "state",
         "type": "trial"
@@ -26779,7 +27018,8 @@
         "parent": "nycountyct",
         "regex": [
             "County Court of New York, Oneida County",
-            "Oneida County Court"
+            "Oneida County Court",
+            "County Court, Oneida County"
         ],
         "system": "state",
         "type": "trial"
@@ -26807,7 +27047,8 @@
         "regex": [
             "New York Onondaga County Court",
             "Onondaga County Court",
-            "County Court of New York, Onondaga County"
+            "County Court of New York, Onondaga County",
+            "County Court, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
@@ -26938,7 +27179,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Queens County"
+            "County Court of New York, Queens County",
+            "County Court(\\.|,)? Queens County"
         ],
         "system": "state",
         "type": "trial"
@@ -26964,7 +27206,10 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Rensselaer County"
+            "County Court of New York, Rensselaer County",
+            "County Court(\\.|,) Rensselaer County",
+            "County Court, Special Term, Rensselaer County",
+            "County Court Rensselaer County"
         ],
         "system": "state",
         "type": "trial"
@@ -26990,7 +27235,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Rockland County"
+            "County Court of New York, Rockland County",
+            "Supreme Court, Rockland County"
         ],
         "system": "state",
         "type": "trial"
@@ -27015,7 +27261,10 @@
         "name": "Schenectady County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court(\\.|,)? Schenectady County",
+            "County Court, County of Schenectady"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -27040,7 +27289,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Schoharie County"
+            "County Court of New York, Schoharie County",
+            "County Court, Schoharie County"
         ],
         "system": "state",
         "type": "trial"
@@ -27146,7 +27396,10 @@
         "name": "Suffolk County Court",
         "notes": "",
         "parent": "nycountyct",
-        "regex": [],
+        "regex": [
+            "County Court(\\.|,)? Suffolk County",
+            "County Court, Suffolk"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -27171,7 +27424,11 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Sullivan County"
+            "County Court of New York, Sullivan County",
+            "County Court(\\.|,)? Sullivan County",
+            "County Court, Sullivan",
+            "County Court. Sullivan County Ct",
+            "County Court Sullivan County"
         ],
         "system": "state",
         "type": "trial"
@@ -27250,7 +27507,9 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Ulster County"
+            "County Court of New York, Ulster County",
+            "County Court, Ulster County",
+            "County Court, Ulster county"
         ],
         "system": "state",
         "type": "trial"
@@ -27302,7 +27561,8 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-            "County Court of New York, Westchester County"
+            "County Court of New York, Westchester County",
+            "County Court(\\.|,)? Westchester County"
         ],
         "system": "state",
         "type": "trial"
@@ -27356,7 +27616,8 @@
         "parent": "nycountyct",
         "regex": [
             "Yates County Court",
-            "County Court of New York, Yates County"
+            "County Court of New York, Yates County",
+            "County Court, Yates County"
         ],
         "system": "state",
         "type": "trial"
@@ -28430,7 +28691,8 @@
             "New York City Municipal Court",
             "New York City Court Special Term",
             "New York City Court, General Term",
-            "New York City Court, Special Term"
+            "New York City Court, Special Term",
+            "City Court"
         ],
         "system": "state",
         "type": "trial"
@@ -29023,7 +29285,7 @@
             "Domestic Relations Court of The City of New York Family Court Division( Queens County)?",
             "Domestic Relations Court of The City of New York Children S Court Division( ${bw} County)?",
             "Fam Ct Bronx County",
-            "Fam(ily)? C(our)?t (Tompkins|Livingston|Chautauqua|Bronx) County",
+            "Fam(ily)? C(our)?t(\\.|,)? (Albany|Allegany|Bronx|Broome|Cayuga|Chautauqua|Chemung|Clinton|Dutchess|Erie|Essex|Fulton|Genesee|Jefferson|Kings|Lewis|Livingston|Madison|Monroe|Montgomery|Nassau|Niagara|Oneida|Onondaga|Ontario|Orange|Oswego|Putnam|Queens|Rensselaer|Richmond|Rockland|Saratoga|Schenectady|Schoharie|Schuyler|Seneca|St. Lawrence|Steuben|Suffolk|Tompkins|Ulster|Warren|Washington|Wayne|Yates) County",
             "Domestic Relations Court of The City of New York",
             "Children S Court ${bw} ?County New York",
             "Children S Court.* New York",
@@ -29039,7 +29301,9 @@
             "Children S Court",
             "Family Court of The City of New York",
             "New York Domestic Relations Court",
-            "New York Children's Court"
+            "New York Children's Court",
+            "Family Court",
+            "Children's Court, (Broome|Chemung|Chenango|Cortland|Dutchess|Erie|Jefferson|Niagara|Oneida|Onondaga|Otsego|Rensselaer|Saratoga|Schenectady|Schuyler|Steuben|Warren|Wayne) County"
         ],
         "system": "state",
         "type": "trial"
@@ -29082,7 +29346,9 @@
         "parent": "nyfamct",
         "regex": [
             "Delaware County Children's Court",
-            "Delaware Children's Court"
+            "Delaware Children's Court",
+            "Family Court, Delaware County",
+            "Children's Court, Delaware County"
         ],
         "system": "state",
         "type": "trial"
@@ -29104,7 +29370,9 @@
         "name": "Sullivan County Children's Court",
         "parent": "nyfamct",
         "regex": [
-            "Sullivan County Children's Court"
+            "Sullivan County Children's Court",
+            "Children's Court, Sullivan County",
+            "Family Court, Sullivan County"
         ],
         "system": "state",
         "type": "trial"
@@ -29124,7 +29392,9 @@
         "name": "Westchester County Children's Court",
         "parent": "nyfamct",
         "regex": [
-            "Westchester County Children's Court"
+            "Westchester County Children's Court",
+            "Family Court(\\.|,)? Westchester County",
+            "Children's Court, Westchester County"
         ],
         "system": "state",
         "type": "trial"
@@ -29168,8 +29438,13 @@
             "Surrrogate.* New York",
             "Snrrogate S Court of New York New York County",
             "New York Surrogate's Court, Ulster County",
-            "Surrogate's Court, New York County",
-            "New York Surrogate's Court, \b.*\b County"
+            "Surrogate'?s? Court(\\.|,)? (Albany|Allegany|Broome|Bronx|Cattaraugus|Cayuga|Chautauqua|Chemung|Chenango|Clinton|Columbia|Cortland|Delaware|Dutchess|Erie|Essex|Franklin|Fulton|Genesee|Greene|Hamilton|Herkimer|Jefferson|King|Kings|Lewis|Livingston|Madison|Montgomery|Monroe|Nassau|Niagara|New York|Orleans|Oneida|Onondaga|Ontario|Orange|Otsego|Oswego|Putnam|Queens|Rennsselaer|Rensselaer|Richmond|Rockland|Saratoga|Schenectady|Schoharie|Schuyler|Seneca|St. Lawrence|Steuben|Suffolk|Sullivan|Tioga|Tompkins|Ulster|Warren|Washington|Wayne|Westchester|Wyoming|Yates) County",
+            "New York Surrogate's Court, \b.*\b County",
+            "Surrogate's Court",
+            "Surrogates' Court, New York County",
+            "Surrogate'? Court, (Allegany|Cattaraugus|Kings|Saratoga|Westchester) County",
+            "Surrogate's Court of the City of New York(\\.|,)? (Albany|Bronx|Chautauqua|Dutchess|Erie|Kings|Nassau|Monroe|New York|Queens|Richmond|Rockland|Schenectady|Schoharie|Schuyler|Seneca|St. Lawrence|Steuben|Suffolk|Westchester|Wyoming) County",
+            "Surrogate's Court of the State of New York, Nassau County"
         ],
         "system": "state",
         "type": "trial"
@@ -29201,7 +29476,7 @@
         "regex": [
             "State of New York New York County Civil Court Part II",
             "Civil Court City of New York",
-            "Civil Court (Queens|Kings|Richmond) County",
+            "Civil Court,? (Bronx|Queens|Kings|Nassau|Richmond) County",
             "State of New York Civil Court of City of New York New York County",
             "Civil Court of New York",
             "State of New York New York County Civil Court",
@@ -29214,7 +29489,9 @@
             "New York City Civil Court",
             "Civil Court Or The City of New York Richmond County",
             "Civil Court The City of New York New York County",
-            "Civil Court City of New York Kings County"
+            "Civil Court City of New York Kings County",
+            "Civil Court, Special Term, New York County",
+            "Civil Court, Trial Term, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -29244,7 +29521,10 @@
         "regex": [
             "New York Court of Special Sessions?",
             "New York Court of Special Sessions of the First Division",
-            "Court of Special Sessions of New York"
+            "Court of Special Sessions of New York",
+            "Court of Special Sessions of the City of New York",
+            "Court of Special Sessions of City of New York",
+            "Court of Special Sessions, City of New York"
         ],
         "system": "state",
         "type": "trial"
@@ -29498,7 +29778,8 @@
         "regex": [
             "New York Court of Claims",
             "Court of Claims? of New York",
-            "New York Claims Court"
+            "New York Claims Court",
+            "Court of Claims"
         ],
         "system": "state",
         "type": "trial"
@@ -29530,6 +29811,7 @@
             "Commong Pleas of New York Special Term",
             "Court of Pleas of New York",
             "New York Common Pleas General Term",
+            "New York Common Pleas",
             "New York Recorder's Court",
             "Recorder of New York City"
         ],
@@ -29801,7 +30083,12 @@
             "New York Supreme Court (other)",
             "Supreme Court, Trial Term, New York County",
             "Supreme Court, Chambers, New York County",
-            "New York Supreme Court Special Term"
+            "Supreme Court, Special and Trial Term, New York County",
+            "New York Supreme Court Special Term",
+            "Supreme Court, New York Special Term",
+            "Supreme Court, New York Trial Term",
+            "Supreme Court of the State of New York",
+            "Supreme Court, New York"
         ],
         "system": "state",
         "type": "trial"
@@ -29826,7 +30113,155 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Albany General Term",
-            "New York Supreme Court Albany Special Term"
+            "New York Supreme Court Albany Special Term",
+            "Supreme Court, Special Term, Albany County",
+            "Supreme Court,? Albany County",
+            "Supreme Court, Albany Special Term",
+            "Supreme Court, Trial Term, Albany County",
+            "Supreme Court — Albany Special Term",
+            "Supreme Court, Albany Trial Term",
+            "Supreme Court, Equity Term, Albany County",
+            "Supreme Court, Extraordinary Special and Trial Term, Albany County",
+            "Supreme County, Special Term, Albany County",
+            "Supreme Court Chambers — Albany County",
+            "Supreme Court County of Albany",
+            "Supreme Court of State of New York, Albany County",
+            "Supreme Court — Albany Chambers",
+            "Supreme Court — Albany Circuit",
+            "Supreme Court, Additional Trial Term, Albany County",
+            "Supreme Court, Albany Adjourned Special Term",
+            "Supreme Court, Albany Chambers",
+            "State of New York, Albany County, Supreme Court",
+            "State of New York, County of Albany, Supreme Court, Motion Term",
+            "State of New York, Supreme Court Albany County",
+            "State of New York, Supreme Court,? County of Albany",
+            "Supreme Court, Albany Chambers",
+            "Supreme Court, Chambers, Albany County",
+            "Supreme Court, Special Term.? Albany County",
+            "Supreme Court, Trial and Special Term, Albany County",
+            "State of New York, Supreme Court: County of Albany",
+            "Supreme Court, Extraordinary Trial and Special Term, Albany County",
+            "Supreme Court, Naturalization Term, Albany County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Allegany Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctalgny",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Allegany County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Allegany County",
+            "Supreme Court, Allegany Equity Term",
+            "Supreme Court, Allegany Special Term",
+            "Supreme Court, Special Term, Allegany County",
+            "Supreme Court, Allegany Trial Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Bronx Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctbrnx",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Bronx County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court,? Bronx County",
+            "Supreme Court, Special Term, Bronx(\\sCounty)?",
+            "Supreme Court, Bronx Special Term",
+            "Supreme Court, Bronx Trial Term",
+            "Supreme Court, Criminal Term, Bronx County",
+            "Supreme Court, Trial Term, Bronx County",
+            "Supreme Court, Special and Trial Term, Bronx County",
+            "Supreme Court, Extraordinary Special and Trial Term, Bronx County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Broome Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctbrm",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Broome County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Broome County",
+            "Supreme Court, Broome Special Term",
+            "Supreme Court, Broome Trial Term",
+            "Supreme Court, Broome Trial and Special Term",
+            "Supreme Court, Equity Term, Broome County",
+            "Supreme Court, Special Term, Broome County",
+            "Supreme Court, Trial Term, Broome County",
+            "Supreme Court, Trial and Special Term, Broome County",
+            "Supreme Court, Motion Term, Broome County",
+            "Supreme Court — Broome Special Term",
+            "Supreme Court, Special Term — Broome County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Cattaraugus Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctctrgs",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Cattaraugus County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Cattaraugus County",
+            "Supreme Court, Cattaraugus Equity Term",
+            "Supreme Court, Cattaraugus Special Term",
+            "Supreme Court, Cattaraugus Trial Term",
+            "Supreme Court, Special Term, Cattaraugus County",
+            "Supreme Court of New York. Cattaraugus County",
+            "Supreme Court, Trial Term, Cattaraugus County",
+            "State of New York, Supreme Court, County of Cattaraugus"
         ],
         "system": "state",
         "type": "trial"
@@ -29850,7 +30285,15 @@
         "name": "New York Supreme Court Ulster Special Term",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court Ulster Special Term"
+            "New York Supreme Court Ulster Special Term",
+            "Supreme Court — Ulster Special Term",
+            "Supreme Court, Special Term, Ulster County",
+            "Supreme Court, Ulster Special Term",
+            "Supreme Court, Ulster County",
+            "Supreme Court, Trial Term, Ulster County",
+            "Supreme Court, Ulster Trial Term",
+            "Supreme Court Ulster County",
+            "Supreme Court, Extraordinary Special and Trial Term, Ulster County"
         ],
         "system": "state",
         "type": "trial"
@@ -29874,7 +30317,18 @@
         "name": "New York Supreme Court St. Lawrence",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court St. Lawrence Special Term"
+            "New York Supreme Court St. Lawrence Special Term",
+            "Supreme Court — St. Lawrence Special Term",
+            "Supreme Court, St. Lawrence County",
+            "Supreme Court, St. Lawrence Special Term",
+            "Supreme Court, Special Term, St. Lawrence County",
+            "Supreme Court, St. Lawrence Trial Term",
+            "Supreme Court, St. Lawrence Special Term",
+            "Supreme Court, Trial Term, St. Lawrence County",
+            "Supreme Court of State of New York, St. Lawrence County",
+            "Supreme Court — St. Lawrence Chambers",
+            "Supreme Court, St. Lawrence Trial Term",
+            "Supreme Court, Trial and Special Term, St. Lawrence County"
         ],
         "system": "state",
         "type": "trial"
@@ -29898,8 +30352,88 @@
         "name": "New York Supreme Court, Cayuga",
         "parent": "nysupct",
         "regex": [
+            "Supreme Court, Cayuga County",
             "New York Supreme Court, Cayuga General Term",
-            "New York Supreme Court Cayuga Equity Term"
+            "New York Supreme Court Cayuga Equity Term",
+            "Supreme Court, Trial Term,? Cayuga County",
+            "Supreme Court — Cayuga Special Term",
+            "Supreme Court, Cayuga Equity Term",
+            "Supreme Court, Cayuga Special Term",
+            "Supreme Court, Cayuga Trial Term",
+            "Supreme Court, Equity Term, Cayuga County",
+            "Supreme Court, Special Term, Cayuga County",
+            "Supreme Court — Cayuga Circuit",
+            "Supreme Court, Trial and Equity Term, Cayuga County",
+            "Supreme Court — Cayuga Equity Term",
+            "Supreme Court, Equity and Special Term, Cayuga County",
+            "Supreme Court, Special Term, County of Cayuga",
+            "Supreme Court, Special and Trial Term, Cayuga County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Chautauqua Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctchtq",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Chautauqua County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Chautauqua County",
+            "Supreme Court, Chautauqua Equity Term",
+            "Supreme Court, Chautauqua Special Term",
+            "Supreme Court, Chautauqua Trial Term",
+            "Supreme Court, Special Term, Chautauqua County",
+            "Supreme Court, Trial Term, Chautauqua County",
+            "Chautauqua County Supreme Court",
+            "Supreme Court — Chautauqua Circuit",
+            "State of New York, Supreme Court: Chautauqua County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Chemung Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctchmng",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Chemung County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Chemung County",
+            "Supreme Court, Chemung Special Term",
+            "Supreme Court, Chemung Trial Term",
+            "Supreme Court, Chemung Trial and Special Term",
+            "Supreme Court, Criminal Term, Chemung County",
+            "Supreme Court, Special Term, Chemung County",
+            "Supreme Court of State of New York, Chemung County",
+            "Supreme Court — Chemung Special Term",
+            "State of New York, Chemung County",
+            "Supreme Court, Trial Term, Chemung County",
+            "Supreme Court, Trial and Special Term, Chemung County",
+            "State of New York, Chemung County",
+            "Supreme Court of State of New York, Chemung County"
         ],
         "system": "state",
         "type": "trial"
@@ -29923,7 +30457,14 @@
         "name": "New York Supreme Court, Chenango",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Chenango General Term"
+            "New York Supreme Court, Chenango General Term",
+            "Supreme Court, Trial Term,? Chenango County",
+            "Supreme Court, Chenango County",
+            "Supreme Court, Chenango Special Term",
+            "Supreme Court, Chenango Trial Term",
+            "Supreme Court, Special Term, Chenango County",
+            "Supreme Court, Trial and Special Term, Chenango County",
+            "Supreme Court — Chenango Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -29947,7 +30488,927 @@
         "name": "New York Supreme Court, Clinton",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Clinton General Term"
+            "New York Supreme Court, Clinton General Term",
+            "Supreme Court, Trial Term,? Clinton County",
+            "Supreme Court — Clinton Special Term",
+            "Supreme Court, Clinton County",
+            "Supreme Court, Clinton Special Term",
+            "Supreme Court, Clinton Trial Term",
+            "Supreme Court, Special Term, Clinton County",
+            "Supreme Court, Special and Trial Term, Clinton County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Columbia Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctclmb",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Columbia County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Columbia County",
+            "Supreme Court, Columbia Equity Term",
+            "Supreme Court, Columbia Special Term",
+            "Supreme Court, Columbia Trial Term",
+            "Supreme Court, Special Term, Columbia County",
+            "Supreme Court, Trial Term, Columbia County",
+            "Supreme Court of State of New York, Columbia County",
+            "Supreme Court — Columbia Special Term",
+            "Supreme Court, Trial and Special Term, Columbia County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Cortland Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctcrtlnd",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Cortland County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Cortland County",
+            "Supreme Court, Cortland Special Term",
+            "Supreme Court, Cortland Trial Term",
+            "Supreme Court, Cortland Trial and Special Term",
+            "Supreme Court, Special Term, Cortland County",
+            "Supreme Court, Trial Term, Cortland County",
+            "Supreme Court, Trial and Special Term, Cortland County",
+            "Supreme Court: Cortland County",
+            "Supreme Court — Cortland Special Term",
+            "State of New York, Supreme Court: County of Cortland",
+            "Supreme Court, Motion Term, Cortland County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Delaware Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctdlwr",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Delaware County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Delaware County",
+            "Supreme Court, Delaware Special Term",
+            "Supreme Court, Delaware Trial Term",
+            "Supreme Court, Special Term, Delaware County",
+            "Supreme Court, Trial and Special Term, Delaware County",
+            "Supreme Court — Delaware Special Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Dutchess Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctdtchss",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Dutchess County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Dutchess Special Term",
+            "Supreme Court, Dutchess Special Term for Trials",
+            "Supreme Court, Dutchess Trial Term",
+            "Supreme Court, Dutchess County",
+            "Supreme Court, Special Term, Dutchess County",
+            "Supreme Court, Trial and Special Term, Dutchess County",
+            "Supreme Court, Trial Term, Dutchess County",
+            "Supreme Court — Dutchess Special Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Erie Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupcterie",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Erie County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Erie County",
+            "Supreme Court, Special Term, Erie(\\sCounty)?",
+            "Supreme Court — Erie Special Term",
+            "Supreme Court, Criminal Term, Erie County",
+            "Supreme Court, Equity Term, Erie County",
+            "Supreme Court, Erie Criminal Term",
+            "Supreme Court, Erie Equity Term",
+            "Supreme Court, Erie Special Term",
+            "Supreme Court, Erie Trial Term",
+            "Supreme Court, Trial Term, Erie County",
+            "Supreme Court, Special and Trial Term, Erie County",
+            "Supreme Court, Additional Special and Trial Term, Erie County",
+            "Supreme Court — Erie Equity Term",
+            "Supreme County, Erie Special Term",
+            "Supreme Court, Extraordinary Special and Trial Term, Erie County",
+            "Supreme Court Erie County",
+            "Supreme Court of State of New York, Erie County",
+            "State of New York, Supreme Court: County of Erie"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Essex Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctessex",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Essex County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Essex County",
+            "Supreme Court, Special Term, Essex County",
+            "Supreme Court, Essex Special Term",
+            "Supreme Court, Essex Trial Term",
+            "Supreme Court, Trial Term, Essex County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Franklin Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctfrnkln",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Franklin County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Franklin County",
+            "Supreme Court, Franklin Special Term",
+            "Supreme Court, Franklin Special and Trial Term",
+            "Supreme Court, Franklin Trial Term",
+            "Supreme Court, Special Term, Franklin County",
+            "Supreme Court, Trial Term, Franklin County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Fulton Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctfltn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Fulton County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Fulton County",
+            "Supreme Court, Fulton County Trial Term",
+            "Supreme Court, Fulton Special Term",
+            "Supreme Court, Fulton Trial Term",
+            "Supreme Court, Special Term, Fulton County",
+            "State of New York, Fulton County",
+            "Supreme Court, Fulton Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Genesee Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctgnss",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Genesee County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Genesee County",
+            "Supreme Court, Genesee Equity Term",
+            "Supreme Court, Genesee Special Term",
+            "Supreme Court, Genesee Trial Term",
+            "Supreme Court, Special Term, Genesee County",
+            "Supreme Court, Trial Term, Genesee County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Greene Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctgrn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Greene County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Greene County",
+            "Supreme Court, Greene Special Term",
+            "Supreme Court, Greene Trial Term",
+            "Supreme Court, Special Term, Greene County",
+            "Supreme Court, Trial Term, Greene County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Herkimer Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupcthrkmr",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Herkimer County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Herkimer County",
+            "Supreme Court, Equity Trial Term, Herkimer County",
+            "Supreme Court, Herkimer County",
+            "Supreme Court, Herkimer Equity Term",
+            "Supreme Court, Herkimer Special Term",
+            "Supreme Court, Herkimer Trial Term",
+            "Supreme Court, Special Term, Herkimer County",
+            "Supreme Court — Herkimer Special Term",
+            "Supreme Court, Trial Term, Herkimer County",
+            "Supreme Court, Herkimer, Special Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Jefferson Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctjffrsn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Jefferson County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Jefferson County",
+            "Supreme Court, Jefferson Equity Term",
+            "Supreme Court, Jefferson Special Term",
+            "Supreme Court, Jefferson Trial Term",
+            "Supreme Court, Trial Term, Jefferson County",
+            "County Court, Jefferson County",
+            "Supreme Court, Special Term, Jefferson County",
+            "Supreme Court, Trial and Special Term, Jefferson County",
+            "Supreme Court, Trial and Equity Term, Jefferson County",
+            "Supreme Court, Jefferson Chambers",
+            "Supreme Court, Equity Trial Term, Jefferson County",
+            "State of New York, Supreme Court County of Jefferson"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Lewis Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctlewis",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Lewis County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court of State of New York, Lewis County",
+            "Supreme Court, Lewis County",
+            "Supreme Court, Lewis Equity Term",
+            "Supreme Court, Lewis Special Term",
+            "Supreme Court, Lewis Trial Term",
+            "Supreme Court, Lewis Trial and Special Term",
+            "Supreme Court, Special Term, Lewis County",
+            "Supreme Court, Trial Term, Lewis County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Livingston Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctlvngstn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Livingston County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Livingston County",
+            "Supreme Court, Livingston Equity Term",
+            "Supreme Court, Livingston Special Term",
+            "Supreme Court, Livingston Trial Term",
+            "Supreme Court, Special Term, Livingston County",
+            "Supreme Court, Trial Term, Livingston County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Madison Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctmdsn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Madison County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Madison County",
+            "Supreme Court, Madison Special Term",
+            "Supreme Court, Madison Trial Term",
+            "Supreme Court, Madison Equity Term",
+            "Supreme Court, Special Term, Madison County",
+            "Supreme Court, Trial and Special Term, Madison County",
+            "Supreme Court, Trial Term, Madison County",
+            "Supreme Court, Special and Trial Term, Madison County",
+            "Madison County, Supreme Court",
+            "State of New York, Supreme Court, County of Madison"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Montgomery Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctmntgmry",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Montgomery County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Montgomery County",
+            "Supreme Court, Montgomery County",
+            "Supreme Court, Montgomery Special Term",
+            "Supreme Court, Montgomery Trial Term",
+            "Supreme Court, Special Term, Montgomery County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Nassau Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctnss",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Nassau County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court of the State of New York, Nassau County",
+            "Supreme Court,? Nassau County",
+            "Supreme Court, Special Term, Nassau(\\sCounty)?",
+            "Supreme Court of State of New York, Nassau County",
+            "Supreme Court, Criminal Term, Nassau County",
+            "Supreme Court, Nassau Special Term",
+            "Supreme Court, Nassau Trial Term",
+            "Supreme Court, Trial Term, Nassau County",
+            "Supreme Court, Special and Trial Term, Nassau County",
+            "Supreme Court, State of New York, Nassau County",
+            "Supreme Court, Trial and Special Term, Nassau County",
+            "Supreme Court, County of Nassau",
+            "Supreme Court, State of New York Nassau County",
+            "Supreme Court, State of New York, County of Nassau",
+            "Supreme Court, Special Term for Trials, Nassau County",
+            "Supreme Court of New York. Nassau County",
+            "Supreme Court, Special Term Nassau County",
+            "Supreme Court State of New York, Nassau County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Ontario Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctntr",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Ontario County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Ontario County",
+            "Supreme Court, Ontario County",
+            "Supreme Court, Ontario Equity Term",
+            "Supreme Court, Ontario Special Term",
+            "Supreme Court, Ontario Trial Term",
+            "Supreme Court, Special Term, Ontario County",
+            "Supreme Court, Trial and Special Term, Ontario County",
+            "Supreme Court, Trial Term, Ontario County",
+            "Supreme Court, Extraordinary Special and Trial Term, Ontario County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Orange Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctorange",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Orange County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court of State of New York, Orange County",
+            "Supreme Court, Orange County",
+            "Supreme Court, Orange Special Term",
+            "Supreme Court, Orange Trial Term",
+            "Supreme Court, Special Term, Orange County",
+            "Supreme Court, Extraordinary Term,? Orange County",
+            "Supreme Court, Extraordinary Trial and Special Term, Orange County",
+            "Supreme Court, Trial Term, Orange County",
+            "Supreme Court, Trial and Special Term, Orange County",
+            "Supreme Court of New York. Orange County",
+            "Supreme Court — Orange Circuit",
+            "Supreme Court — Orange Special Term",
+            "Supreme Court — Special Term, Orange County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Orleans Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctrlns",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Orleans County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Orleans County",
+            "Supreme Court, Orleans Special Term",
+            "Supreme Court, Orleans Trial Term",
+            "Supreme Court, Special Term, Orleans County",
+            "Supreme Court, Trial Term, Orleans County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Putnam Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctptnm",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Putnam County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court — Putnam Special Term",
+            "Supreme Court, Putnam County",
+            "Supreme Court, Putnam Special Term",
+            "Supreme Court, Putnam Trial Term",
+            "Supreme Court, Special Term, Putnam County",
+            "Supreme Court, Trial Term, Putnam County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Richmond Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctrichmond",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Richmond County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court of State of New York, Richmond County",
+            "Supreme Court, Criminal Term, Richmond County",
+            "Supreme Court,? Richmond County",
+            "Supreme Court, Richmond Special Term",
+            "Supreme Court, Richmond Trial Term",
+            "Supreme Court, Special Term, Richmond County",
+            "Supreme Court, Trial Term, Richmond County",
+            "Supreme Court — Richmond Special Term",
+            "Supreme Court, Extraordinary Special and Trial Term, Richmond County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Rockland Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctrcklnd",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Rockland County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court — Rockland Special Term",
+            "Supreme Court, Rockland Special Term",
+            "Supreme Court, Rockland Trial Term",
+            "Supreme Court, Special Term, Rockland County",
+            "Supreme Court, Trial and Special Term, Rockland County",
+            "Supreme Court — Rockland Circuit",
+            "Supreme Court, Trial Term, Rockland County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Schenectady Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctschnec",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Schenectady County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Schenectady County",
+            "Supreme Court, Special Term, Schenectady(\\sCounty)?",
+            "Supreme Court, Equity Term, Schenectady County",
+            "Supreme Court, Schenectady Special Term",
+            "Supreme Court, Schenectady Trial Term",
+            "Supreme Court, Schenectady Trial and Special Term",
+            "Supreme Court, Trial Term, Schenectady County",
+            "Supreme Court, Trial and Special Term, Schenectady County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Schoharie Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctscho",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Schoharie County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court — Schoharie Special Term",
+            "Supreme Court, Schoharie County",
+            "Supreme Court, Schoharie Special Term",
+            "Supreme Court, Schoharie Trial Term",
+            "Supreme Court, Special Term, Schoharie County",
+            "Supreme Court, Trial Term, Schoharie County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Schuyler Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctschuy",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Schuyler County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court — Schuyler Special Term",
+            "Supreme Court, Schuyler County",
+            "Supreme Court, Schuyler Special Term",
+            "Supreme Court, Schuyler Trial and Special Term",
+            "Supreme Court, Special Term, Schuyler County",
+            "Supreme Court, Trial Term, Schuyler County",
+            "Supreme Court, Trial and Special Term, Schuyler County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Seneca Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctsnc",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Seneca County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Seneca County",
+            "Supreme Court, Seneca Special Term",
+            "Supreme Court, Seneca Trial Term",
+            "Supreme Court, Seneca Trial and Equity Term",
+            "Supreme Court, Special Term, Seneca County",
+            "Supreme Court, Trial Term, Seneca County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Steuben Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctstbn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Steuben County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court — Steuben Special Term",
+            "Supreme Court(\\.|,)? Steuben County",
+            "Supreme Court, Steuben Special Term",
+            "Supreme Court, Special Term, Steuben County",
+            "Supreme Court, Steuben Equity Term",
+            "Supreme Court, Trial Term, Steuben County",
+            "Supreme Court, Steuben Trial Term",
+            "Supreme Court, Steuben Special Term.",
+            "Supreme Court, Special Term for Trials, Steuben County."
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Suffolk Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysuprctfflk",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Suffolk County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Suffolk County",
+            "Supreme Court, Special Term, Suffolk(\\sCounty)?",
+            "Supreme Court, Criminal Term, Suffolk County",
+            "Supreme Court, Trial Term, Suffolk County",
+            "Supreme Court, Suffolk Special Term",
+            "County Court, Trial Term, Suffolk County",
+            "Supreme Court, Trial and Special Term, Suffolk County",
+            "Supreme Court Suffolk County",
+            "Supreme Court, Special Term for Trials, Suffolk County",
+            "Supreme Court, Extraordinary Special and Trial Term, Suffolk County",
+            "Supreme Court, Suffolk Trial Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Sullivan Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctsllvn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Sullivan County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Special Term, Sullivan County",
+            "Supreme Court, Sullivan County",
+            "Supreme Court, Trial Term, Sullivan County",
+            "Supreme Court, Sullivan Trial Term",
+            "Supreme Court, Sullivan Special Term",
+            "Supreme Court, Trial and Special Term, Sullivan County",
+            "Supreme Court, Sullivan County Trial and Special Term"
         ],
         "system": "state",
         "type": "trial"
@@ -29972,7 +31433,32 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Kings General Term",
-            "New York Supreme Court Kings Special Term"
+            "New York Supreme Court Kings Special Term",
+            "Supreme Court,? Kings County",
+            "Supreme Court, Special Term, Kings County",
+            "Supreme Court of the State of New York Kings County",
+            "Supreme Court of the State of New York. Kings County",
+            "Supreme Court, Kings Special Term",
+            "Supreme Court, Trial Term,? Kings County",
+            "Supreme Court, Trial Term,? King County",
+            "Supreme Court of State of New York, Kings County",
+            "Supreme Court — Kings Special Term",
+            "Supreme Court, Criminal Term, Kings County",
+            "Supreme Court, Kings Equity Term",
+            "Supreme Court, Kings Special and Equity Term",
+            "Supreme Court, Kings Trial Term",
+            "Supreme Court, Extraordinary Special and Trial Term, Kings County",
+            "Supreme County,? Kings County",
+            "Supreme Court — Kings Circuit",
+            "Supreme Court — Kings County, Special Term",
+            "Supreme Court, Additional Special Term, Kings County",
+            "Supreme Court, Pretrial Term, Kings County",
+            "Supreme Court, Special Term for Motions, Kings County",
+            "Supreme Court, Special Term for Motions — Kings County",
+            "Supreme Court, Special Term, Kings, County",
+            "Supreme Court, Special and Extraordinary Term, Kings County",
+            "Supreme Court, State of New York, County of Kings",
+            "Supreme Court, Trial and Special Term, Kings County"
         ],
         "system": "state",
         "type": "trial"
@@ -29998,7 +31484,31 @@
         "regex": [
             "New York Supreme Court, Monroe General Term",
             "Supreme Court, Trial Term, Monroe County",
-            "New York Supreme Court Monroe Special Term"
+            "New York Supreme Court Monroe Special Term",
+            "Supreme Court,? Monroe County",
+            "Supreme Court of State of New York, Monroe County",
+            "Supreme Court — Monroe Special Term",
+            "Supreme Court — Monroe Equity Term",
+            "Supreme Court, County Monroe",
+            "Supreme Court, Equity Term, Monroe County",
+            "Supreme Court, Monroe Special Term",
+            "Supreme Court, Monroe Trial Term",
+            "Supreme Court, Special Term, Monroe County",
+            "Supreme Court, Monroe Equity Term",
+            "Supreme Court, State of New York, Monroe County",
+            "State of New York, Supreme Court, County of Monroe",
+            "Supreme Court, Trial and Special Term, Monroe County",
+            "Supreme Court — Monroe Circuit",
+            "Town Court of Town of Webster, Monroe County",
+            "State of New York, Monroe County",
+            "Supreme Court, County of Monroe",
+            "Supreme Court, Special Term, County of Monroe",
+            "Supreme Court State of New York, Monroe County",
+            "Supreme Court, State of New York Monroe County",
+            "Supreme Court, Monroe Chambers",
+            "State of New York, County of Monroe Supreme Court",
+            "Supreme County, Monroe County",
+            "Supreme Court, State of New York, County of Monroe"
         ],
         "system": "state",
         "type": "trial"
@@ -30022,7 +31532,14 @@
         "name": "New York Supreme Court, Otsego",
         "parent": "nysupct",
         "regex": [
-            "New York Supreme Court, Otsego General Term"
+            "New York Supreme Court, Otsego General Term",
+            "Supreme Court, Trial Term,? Otsego County",
+            "Supreme Court, Otsego County",
+            "Supreme Court, Otsego Special Term",
+            "Supreme Court, Otsego Trial Term",
+            "Supreme Court, Otsego Trial and Special Term",
+            "Supreme Court, Special Term, Otsego County",
+            "Supreme Court, Trial and Special Term, Otsego County"
         ],
         "system": "state",
         "type": "trial"
@@ -30048,7 +31565,16 @@
         "regex": [
             "New York Supreme Court Oswego Special Term",
             "New York Supreme Court, Oswego General Term",
-            "New York Supreme Court, Oswego"
+            "New York Supreme Court, Oswego",
+            "Supreme Court, Trial Term,? Oswego County",
+            "Supreme Court — Oswego Special Term",
+            "Supreme Court, Equity Term, Oswego County",
+            "Supreme Court, Oswego County",
+            "Supreme Court, Oswego Equity Term",
+            "Supreme Court, Oswego Special Term",
+            "Supreme Court, Oswego Trial Term",
+            "Supreme Court, Special Term, Oswego County",
+            "Supreme Court, Trial and Special Term, Oswego County"
         ],
         "system": "state",
         "type": "trial"
@@ -30073,7 +31599,14 @@
         "parent": "nysupct",
         "regex": [
             "Supreme Court, Trial Term, Niagara County",
-            "Supreme Court, Niagara County"
+            "Supreme Court, Niagara County",
+            "Supreme Court — Niagara Special Term",
+            "Supreme Court — Niagara Equity Term",
+            "Supreme Court, Equity Term, Niagara County",
+            "Supreme Court, Niagara Equity Term",
+            "Supreme Court, Niagara Special Term",
+            "Supreme Court, Niagara Trial Term",
+            "Supreme Court, Special Term, Niagara County"
         ],
         "system": "state",
         "type": "trial"
@@ -30099,7 +31632,25 @@
         "regex": [
             "New York Supreme Court New York Special Term",
             "New York Supreme Court New York",
-            "New York Supreme Court New York County"
+            "New York Supreme Court New York County",
+            "Supreme Court, Special Term, New York County",
+            "Supreme Court,? New York County",
+            "Supreme Court of the State of New York. New York County",
+            "Supreme Court of the State of New York, New York County",
+            "Supreme Court, County New York",
+            "Supreme Court — Special Term, New York County",
+            "Supreme Court — New York Special Term",
+            "Supreme Court of State of New York, New York County",
+            "Supreme Court of New York, New York County",
+            "Supreme Court, Criminal Term, New York County",
+            "Supreme Court, Additional Special Term, New York County",
+            "Supreme Court — New York County, Special Term",
+            "Supreme Court, Extraordinary Special and Trial Term, New York County",
+            "Supreme Court, Special Term, New York",
+            "Supreme Court, Special Term, Part I, New York County",
+            "Supreme Court, Special and Trial Terms(\\.|,)? New York County",
+            "Supreme Court, State (o|O)f New York",
+            "Supreme Court, Trial and Special Term, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -30123,7 +31674,22 @@
         "name": "Supreme Court, Queens County",
         "parent": "nysupct",
         "regex": [
-            "Supreme Court, Trial Term, Queens County"
+            "Supreme Court, Trial Term, Queens County",
+            "Supreme Court, Special Term, Queens County",
+            "Supreme Court of the State of New York,Queens County",
+            "Supreme Court — Queens Special Term",
+            "Supreme Court, Criminal Term, Queens County",
+            "Supreme Court, Queens Criminal Term",
+            "Supreme Court, Queens Equity Term",
+            "Supreme Court, Queens Special Term",
+            "Supreme Court, Queens Trial Term",
+            "Supreme Court, Extraordinary Special and Trial Term, Queens County",
+            "Supreme Court,? Queens County",
+            "Supreme Court, Queens County,? Special Term",
+            "Supreme Court, Queens County,? Criminal Term",
+            "Supreme Court, Special Term.? Queens County",
+            "Supreme Court, Trial and Special Term, Queens County",
+            "Supreme Court. Special Term, Queens County"
         ],
         "system": "state",
         "type": "trial"
@@ -30148,7 +31714,16 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court,? Saratoga,? Special Term",
-            "New York Supreme Court, Saratoga County"
+            "New York Supreme Court, Saratoga County",
+            "Supreme Court of State of New York, Saratoga County",
+            "Supreme Court — Saratoga Special Term",
+            "Supreme Court, Equity Term, Saratoga County",
+            "Supreme Court, Saratoga County",
+            "Supreme Court, Saratoga Special Term",
+            "Supreme Court, Saratoga Trial Term",
+            "Supreme Court, Special Term, Saratoga County",
+            "Supreme Court, Trial Term, Saratoga County",
+            "Supreme Court, Trial and Special Term, Saratoga County"
         ],
         "system": "state",
         "type": "trial"
@@ -30173,7 +31748,216 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Tioga Special Term",
-            "New York Supreme Court, Tioga County"
+            "New York Supreme Court, Tioga County",
+            "Supreme Court, Tioga County",
+            "Supreme Court, Special Term, Tioga County",
+            "Supreme Court, Tioga Special Term",
+            "Supreme Court, Tioga Trial Term",
+            "Supreme Court, Trial and Special Term, Tioga County",
+            "Supreme Court — Special Term, Tioga County",
+            "Supreme Court — Tioga Special Term",
+            "Supreme Court, Trial Term, Tioga County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Tompkins Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupcttmpkns",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Tompkins County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court(\\.|,)? Tompkins County",
+            "Supreme Court, Special Term, Tompkins County",
+            "Supreme Court, Tompkins Special Term",
+            "Supreme Court, Tompkins Trial Term",
+            "Supreme Court, Trial Term, Tompkins County",
+            "Supreme Court, Trial and Special Term, Tompkins County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Warren Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwarren",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Warren County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Warren County",
+            "Supreme Court,? Warren County",
+            "Supreme Court, Special Term, Warren County",
+            "Supreme Court, Warren Trial Term",
+            "Supreme Court, Trial Term, Warren County",
+            "Supreme Court, Warren County Special Term",
+            "Supreme Court, Warren Special Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Washington Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwash",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Washington County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Washington County",
+            "Supreme Court, Washington County",
+            "Supreme Court, Washington Special Term",
+            "Supreme Court, Special Term, Washington County",
+            "Supreme Court, Washington Trial Term",
+            "Supreme Court, Washington Special Term",
+            "Supreme Court, Special Term Washington County",
+            "Supreme Court, Special and Trial Term, Washington County",
+            "Supreme Court — Special Term, Washington County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Wayne Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwayne",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Wayne County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Wayne County",
+            "Supreme Court,? Wayne County",
+            "Supreme Court,? Wayne Special Term",
+            "Supreme Court, Special Term, Wayne County",
+            "Supreme Court, Trial and Special Term, Wayne County",
+            "Supreme Court, Wayne Equity Term",
+            "Supreme Court, Wayne Trial Term",
+            "Supreme Court — Wayne Equity Term"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Westchester Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwster",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Westchester County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court,? Westchester County",
+            "Supreme Court, Special Term, Westchester(\\sCounty)?",
+            "Supreme Court, Criminal Term, Westchester County",
+            "Supreme Court, Westchester Special Term",
+            "Supreme Court, Westchester Trial Term",
+            "Supreme Court, Trial Term, Westchester County",
+            "Supreme Court, Trial/Special Term, Westchester County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Wyoming Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctwyom",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Wyoming County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Wyoming County",
+            "Supreme Court, Wyoming Special Term",
+            "Supreme Court, Wyoming Trial Term",
+            "Supreme Court, Special Term, Wyoming County",
+            "Supreme Court, Trial Term, Wyoming County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Yates Cty.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "nysupctyates",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Yates County",
+        "notes": "This content was taken directly from courtlistener.com",
+        "parent": "nysupct",
+        "regex": [
+            "Supreme Court, Equity Term, Yates County",
+            "Supreme Court, Yates County",
+            "Supreme Court, Special Term, Yates County",
+            "Supreme Court, Yates Special Term",
+            "Supreme Court, Yates Trial Term"
         ],
         "system": "state",
         "type": "trial"
@@ -30198,7 +31982,31 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Onondaga Special Term",
-            "New York Supreme Court, Onondaga County"
+            "New York Supreme Court, Onondaga County",
+            "Supreme Court,? Onondaga County",
+            "Supreme Court, Special Term, Onondaga County",
+            "Supreme Court — Onondaga Special Term",
+            "Supreme Court, Equity Term, Onondaga County",
+            "Supreme Court, Equity Trial Term, Onondaga County",
+            "Supreme Court, Onondaga Equity Term",
+            "Supreme Court, Onondaga Special Term",
+            "Supreme Court, Onondaga Trial Term",
+            "Supreme Court, Trial Term, Onondaga County",
+            "Supreme Court, Motion Term, Onondaga County",
+            "Supreme Court, Trial and Special Term, Onondaga County",
+            "Supreme Court, Extraordinary Special and Trial Term, Onondaga County",
+            "Supreme Court, Special Motion Term, Onondaga County",
+            "Supreme Court, Special Term for Motions, Onondaga County",
+            "Supreme Court, Adjourned Motion Term, Onondaga County",
+            "Supreme Court, Extraordinary and Special Term, Onondaga County",
+            "Supreme Court, Extraordinary Special Trial Term, Onondaga County",
+            "Supreme Court — Onondaga Circuit",
+            "Supreme Court, Special and Trial Term, Onondaga County",
+            "Supreme Court, Special Trial Term, Onondaga County",
+            "Supreme Court, Onondaga Chambers",
+            "Supreme Court, Onondaga Adjourned Trial Term",
+            "Supreme Court, County of Onondaga",
+            "Supreme Court, Chambers of Onondaga County Judge"
         ],
         "system": "state",
         "type": "trial"
@@ -30223,7 +32031,24 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Oneida Special Term",
-            "New York Supreme Court, Oneida County"
+            "New York Supreme Court, Oneida County",
+            "Supreme Court, Special Term, Oneida County",
+            "Supreme Court, Oneida County",
+            "Supreme Court of New York, Oneida County",
+            "Supreme Court — Oneida Special Term",
+            "Supreme Court, Equity Term, Oneida County",
+            "Supreme Court, Oneida Equity Term",
+            "Supreme Court, Oneida Special Term",
+            "Supreme Court, Oneida Trial Term",
+            "Supreme Court, Trial Term, Oneida County",
+            "Supreme Court — Special Term, Oneida County",
+            "State of New York, Supreme Court,? County of Oneida",
+            "State of New York, Supreme Court Oneida County",
+            "Supreme Court, County Oneida",
+            "Supreme Court, Motion Term, Oneida County",
+            "Supreme Court, Special Motion Term, Oneida County",
+            "Supreme Court, Special and Trial Term, Oneida County",
+            "Supreme Court, Trial and Special Term, Oneida County"
         ],
         "system": "state",
         "type": "trial"
@@ -30248,7 +32073,15 @@
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Rensselaer General Term",
-            "Supreme Court, Rensselaer County"
+            "Supreme Court, Rensselaer County",
+            "Supreme Court, Trial Term,? Rensselaer County",
+            "Supreme Court, Rensselaer Special Term",
+            "Supreme Court, Rensselaer Trial Term",
+            "Supreme Court, Special Term, Rensselaer County",
+            "Supreme Court — Rensselaer Special Term",
+            "Supreme Court Rensselaer County",
+            "Supreme Court of State of New York, Rensselaer County",
+            "State of New York, Supreme Court County of Rensselaer"
         ],
         "system": "state",
         "type": "trial"
@@ -32636,7 +34469,8 @@
         "parent": "ohiocirct",
         "regex": [
             "Hamilton Circuit Court",
-            "Hamilton County Circuit Court"
+            "Hamilton County Circuit Court",
+            "County Court, Hamilton County"
         ],
         "system": "state",
         "type": "trial"
@@ -38933,7 +40767,8 @@
         "parent": "ohprobct",
         "regex": [
             "Ohio Probate Court of Franklin County",
-            "Franklin County Probate Court"
+            "Franklin County Probate Court",
+            "Probate Court, Franklin County"
         ],
         "system": "state",
         "type": "trial"
@@ -39193,7 +41028,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Columbiana County Probate Court"
+            "Columbiana County Probate Court",
+            "Probate Court, Columbiana County"
         ],
         "system": "state",
         "type": "trial"
@@ -39219,7 +41055,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Cuyahoga County Probate Court"
+            "Cuyahoga County Probate Court",
+            "Probate Court, Cuyahoga County"
         ],
         "system": "state",
         "type": "trial"
@@ -39427,7 +41264,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Hamilton County Probate Court"
+            "Hamilton County Probate Court",
+            "Probate Court, Hamilton County"
         ],
         "system": "state",
         "type": "trial"
@@ -39453,7 +41291,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Hancock County Probate Court"
+            "Hancock County Probate Court",
+            "Probate Court, Hancock County"
         ],
         "system": "state",
         "type": "trial"
@@ -39557,7 +41396,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Highland County Probate Court"
+            "Highland County Probate Court",
+            "Probate Court, Highland County"
         ],
         "system": "state",
         "type": "trial"
@@ -39687,7 +41527,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Lake County Probate Court"
+            "Lake County Probate Court",
+            "Probate Court, Lake County"
         ],
         "system": "state",
         "type": "trial"
@@ -39817,7 +41658,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Mahoning County Probate Court"
+            "Mahoning County Probate Court",
+            "Probate Court, Mahoning County"
         ],
         "system": "state",
         "type": "trial"
@@ -39947,7 +41789,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Montgomery County Probate Court"
+            "Montgomery County Probate Court",
+            "Probate Court, Montgomery County"
         ],
         "system": "state",
         "type": "trial"
@@ -39999,7 +41842,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Muskingum County Probate Court"
+            "Muskingum County Probate Court",
+            "Probate Court, Muskingum County"
         ],
         "system": "state",
         "type": "trial"
@@ -40103,7 +41947,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Portage County Probate Court"
+            "Portage County Probate Court",
+            "Probate Court, Portage County"
         ],
         "system": "state",
         "type": "trial"
@@ -40129,7 +41974,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Preble County Probate Court"
+            "Preble County Probate Court",
+            "Probate Court, Preble County"
         ],
         "system": "state",
         "type": "trial"
@@ -40259,7 +42105,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Seneca County Probate Court"
+            "Seneca County Probate Court",
+            "Probate Court, Seneca County"
         ],
         "system": "state",
         "type": "trial"
@@ -40311,7 +42158,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Stark County Probate Court"
+            "Stark County Probate Court",
+            "Probate Court, Stark County"
         ],
         "system": "state",
         "type": "trial"
@@ -40337,7 +42185,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Summit County Probate Court"
+            "Summit County Probate Court",
+            "Probate Court, Summit County"
         ],
         "system": "state",
         "type": "trial"
@@ -40415,7 +42264,8 @@
         "notes": "",
         "parent": "ohprobct",
         "regex": [
-            "Union County Probate Court"
+            "Union County Probate Court",
+            "Probate Court, Union County"
         ],
         "system": "state",
         "type": "trial"
@@ -40952,7 +42802,8 @@
         "name": "Municipal Courts of Ohio",
         "regex": [
             "Ohio Municipal Court",
-            "Criminal Branch Municipal Court"
+            "Criminal Branch Municipal Court",
+            "Municipal Court"
         ],
         "system": "state",
         "type": "trial"
@@ -40978,7 +42829,8 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Akron Municipal Court.?"
+            "Akron Municipal Court.?",
+            "Municipal Court, Akron"
         ],
         "system": "state",
         "type": "trial"
@@ -41945,7 +43797,8 @@
         "parent": "ohmunict",
         "regex": [
             "Hamilton County Municipal Court",
-            "Hamilton Municipal Court"
+            "Hamilton Municipal Court",
+            "Municipal Court, Hamilton County"
         ],
         "system": "state",
         "type": "trial"
@@ -43016,7 +44869,8 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Trumbull County Municipal Court"
+            "Trumbull County Municipal Court",
+            "Municipal Court, Warren, Trumbull County."
         ],
         "system": "state",
         "type": "trial"
@@ -43122,7 +44976,8 @@
         "notes": "",
         "parent": "ohmunict",
         "regex": [
-            "Warren County Municipal Court"
+            "Warren County Municipal Court",
+            "Municipal Court, Warren"
         ],
         "system": "state",
         "type": "trial"
@@ -43554,7 +45409,8 @@
         "regex": [
             "Board of Commissioners On The Unauthorized Practice of Law State of Ohio",
             "State of Ohio Board of Commissioners On The Unauthorized Practice of Law",
-            "Ohio Board of Commissioners on the Unauthorized Practice of Law"
+            "Ohio Board of Commissioners on the Unauthorized Practice of Law",
+            "Board of Commissioners on the Unauthorized Practice of Law"
         ],
         "system": "state",
         "type": "trial"
@@ -47647,7 +49503,12 @@
             "${sup} Errors and Appeals, Nashville",
             "(State of)? ?Tennessee ${sup}",
             "Supreme Court of Errors and Appeals of Tennessee",
-            "Tennessee Superior Court of Law and Equity"
+            "Tennessee Superior Court of Law and Equity",
+            "Superior Court for Law and Equity, (Carthage|Hamilton|Jonesborough|Knoxville|Mero|Nashville|Robertson|Washington|Winchester) District",
+            "Superior Court for Law and Equity, District of (Carthage|Hamilton|Knoxville|Mero|Nashville|Robertson|Washington|Winchester)",
+            "Circuit Court of the United States, Nashville",
+            "Supreme Court of (Clarksville|Knoxville|Nashville|Sparta)",
+            "Superior Court for Law and Equity"
         ],
         "system": "state",
         "type": "appellate"
@@ -51662,7 +53523,8 @@
             "Supreme Court of State of Washington",
             "Supreme Court Washington",
             "Supreme Cour?t ?of Washington",
-            "Supreme Court State of Washington At Law"
+            "Supreme Court State of Washington At Law",
+            "The Supreme Court of Washington"
         ],
         "system": "state",
         "type": "appellate"
@@ -54896,7 +56758,8 @@
         "location": "England",
         "name": "Court of King's Bench",
         "regex": [
-            "Court of Kings Bench"
+            "Court of Kings Bench",
+            "Court of King's Bench Latch's Reports"
         ],
         "system": "international",
         "type": "international"
@@ -59960,7 +61823,8 @@
         "regex": [
             "Circuit Court D Tenn",
             "Circuit Court Tennessee",
-            "United States Circuit Court for the District of Tennessee"
+            "United States Circuit Court for the District of Tennessee",
+            "Federal Court, Nashville"
         ],
         "system": "federal",
         "type": "appellate"
