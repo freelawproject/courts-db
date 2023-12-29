@@ -11,7 +11,7 @@
 ## Past Versions
 
 - 0.10.17 (2023-01-25): Court updates (citation strings)
-- 
+
 - 0.10.16 (2022-12-15): Court updates
 
 - 0.10.15 (2022-12-13): Court updates
