@@ -82,7 +82,9 @@ def find_court_ids_by_name(
             # Add validation for location if provided.
             if location and court_location != location:
                 continue
-            if strip_punc(court_str.lower()) == strip_punc(court["name"].lower()):
+            if strip_punc(court_str.lower()) == strip_punc(
+                court["name"].lower()
+            ):
                 matches.append((court_str, court["id"]))
 
     matched_strings = [m[0] for m in matches]
