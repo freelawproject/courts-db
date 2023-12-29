@@ -25375,7 +25375,8 @@
         "regex": [
             "Webster Justice (of the Peace )?Court",
             "Webster Town Court",
-            "Justice Court of (the )?Town of Wes?bster"
+            "Justice Court of (the )?Town of Wes?bster",
+            "Justice Court of the Town of Webster, Monroe County"
         ],
         "system": "state",
         "type": "trial"
@@ -27670,7 +27671,11 @@
             "District Court of New York Fourth District Nassau County",
             "Nassau County District Court",
             "New York District? Court of Nassau County",
-            "District Court of Nassau County"
+            "District Court of Nassau County",
+            "District Court Of Nassau County, First District",
+            "District Court Of Nassau County, Third District",
+            "District Court Of Suffolk County, Third District",
+            "District Court of Nassau County, First District"
         ],
         "system": "state",
         "type": "trial"
@@ -27801,7 +27806,9 @@
         "name": "Albany City Court",
         "notes": "",
         "parent": "nycityct",
-        "regex": [],
+        "regex": [
+            "City Court Of Albany, Albany County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -28133,7 +28140,9 @@
         "notes": "",
         "parent": "nycityct",
         "regex": [
-            "Glens Falls City Court"
+            "Glens Falls City Court",
+            "City Court of Glens Falls",
+            "City Court Of Glens Falls, Warren County"
         ],
         "system": "state",
         "type": "trial"
@@ -28209,7 +28218,8 @@
         "notes": "",
         "parent": "nycityct",
         "regex": [
-            "Hudson City Court"
+            "Hudson City Court",
+            "City Court Of Hudson, Columbia County"
         ],
         "system": "state",
         "type": "trial"
@@ -28234,7 +28244,10 @@
         "name": "Ithaca City Court",
         "notes": "",
         "parent": "nycityct",
-        "regex": [],
+        "regex": [
+            "Ithaca City Court",
+            "City Court Of Ithaca, Tompkins County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -28386,7 +28399,9 @@
         "name": "Mount Vernon City Court",
         "notes": "",
         "parent": "nycityct",
-        "regex": [],
+        "regex": [
+            "City Court Of Mount Vernon, Westchester County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -28592,7 +28607,8 @@
         "notes": "",
         "parent": "nycityct",
         "regex": [
-            "Peekskill City Court"
+            "Peekskill City Court",
+            "City Court of Peekskill, Westchester County"
         ],
         "system": "state",
         "type": "trial"
@@ -28693,7 +28709,9 @@
         "name": "Rochester City Court",
         "notes": "",
         "parent": "nycityct",
-        "regex": [],
+        "regex": [
+            "City Court of Rochester"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -29106,7 +29124,8 @@
         "name": "New York City Family Court",
         "parent": "nyfamct",
         "regex": [
-            "New York City Family Court"
+            "New York City Family Court",
+            "Family Court, New York County"
         ],
         "system": "state",
         "type": "trial"
@@ -29272,6 +29291,111 @@
             "Civil Court Or The City of New York Richmond County",
             "Civil Court The City of New York New York County",
             "Civil Court City of New York Kings County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Civ. Ct. NYC, Bronx Cty.",
+        "dates": [
+            {
+                "end": null,
+                "start": "1962-09-01"
+            }
+        ],
+        "examples": [],
+        "id": "nycivctbronx",
+        "level": "trial",
+        "location": "New York",
+        "name": "Civil Court Of The City Of New York, Bronx County",
+        "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
+        "regex": [
+            "Civil Court Of The City Of New York, Bronx County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Civ. Ct. NYC, Bronx Cty.",
+        "dates": [
+            {
+                "end": null,
+                "start": "1962-09-01"
+            }
+        ],
+        "examples": [],
+        "id": "nycivctkings",
+        "level": "trial",
+        "location": "New York",
+        "name": "Civil Court Of The City Of New York, Kings County",
+        "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
+        "regex": [
+            "Civil Court Of The City Of New York, Kings County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Civ. Ct. NYC, NY Cty.",
+        "dates": [
+            {
+                "end": null,
+                "start": "1962-09-01"
+            }
+        ],
+        "examples": [],
+        "id": "nycivctny",
+        "level": "trial",
+        "location": "New York",
+        "name": "Civil Court Of The City Of New York, New York County",
+        "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
+        "regex": [
+            "Civil Court Of The City Of New York, New York County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Civ. Ct. NYC, Queens Cty.",
+        "dates": [
+            {
+                "end": null,
+                "start": "1962-09-01"
+            }
+        ],
+        "examples": [],
+        "id": "nycivctqueens",
+        "level": "trial",
+        "location": "New York",
+        "name": "Civil Court Of The City Of New York, Queens County",
+        "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
+        "regex": [
+            "Civil Court Of The City Of New York, Queens County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Civ. Ct. NYC, Richmond Cty.",
+        "dates": [
+            {
+                "end": null,
+                "start": "1962-09-01"
+            }
+        ],
+        "examples": [],
+        "id": "nycivctrichm",
+        "level": "trial",
+        "location": "New York",
+        "name": "Civil Court Of The City Of New York, Richmond County",
+        "notes": "https://www.dos.ny.gov/lg//handbook/html/the_judicial_system.html",
+        "regex": [
+            "Civil Court Of The City Of New York, Richmond County"
         ],
         "system": "state",
         "type": "trial"
@@ -29453,6 +29577,29 @@
             }
         ],
         "examples": [
+            "Criminal Court of the City of New York, Richmond County"
+        ],
+        "id": "nycrimctrichm",
+        "level": "trial",
+        "location": "New York",
+        "name": "The Criminal Court of the City of New York, Richmond",
+        "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
+        "parent": "nycrimct",
+        "regex": [
+            "Criminal Court of the City of New York, Richmond County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1962-09-01"
+            }
+        ],
+        "examples": [
             "Criminal Court Queens County"
         ],
         "id": "nycrimctqueens",
@@ -29462,7 +29609,8 @@
         "notes": "This was partially created by the Court of Special Sessions but special sessions for the rest of the state was abolished and this one was kept effectively making a new court",
         "parent": "nycrimct",
         "regex": [
-            "Criminal Court Queens County"
+            "Criminal Court Queens County",
+            "Criminal Court of the City of New York, Queens County"
         ],
         "system": "state",
         "type": "trial"
@@ -29486,7 +29634,8 @@
         "parent": "nycrimct",
         "regex": [
             "Criminal Court Kings County",
-            "Criminal Cour City of New York Kings County"
+            "Criminal Cour City of New York Kings County",
+            "Criminal Court Of The City of New York, Kings County"
         ],
         "system": "state",
         "type": "trial"
@@ -29510,7 +29659,8 @@
         "parent": "nycrimct",
         "regex": [
             "Criminal Court Bronx County",
-            "Criminal Court of City of New York Bronx County"
+            "Criminal Court of City of New York Bronx County",
+            "Criminal Court Of The City Of New York, Bronx County"
         ],
         "system": "state",
         "type": "trial"
@@ -29535,7 +29685,8 @@
         "parent": "nycrimct",
         "regex": [
             "Criminal Court New York County",
-            "Criminal Court City New York New York County"
+            "Criminal Court City New York New York County",
+            "Criminal Court Of The City Of New York, New York County"
         ],
         "system": "state",
         "type": "trial"
