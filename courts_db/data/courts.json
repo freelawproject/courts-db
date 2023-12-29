@@ -25909,7 +25909,7 @@
         "notes": "",
         "parent": "nycountyct",
         "regex": [
-          "County Court, Albany County"
+            "County Court, Albany County"
         ],
         "system": "state",
         "type": "trial"
@@ -29352,8 +29352,8 @@
         "citation_string": "",
         "examples": [],
         "id": "nyspecsessyonk",
-        "location": "New York",
         "level": "gjc",
+        "location": "New York",
         "name": "Yonkers Court of Special Sessions",
         "parent": "nyspecsessct",
         "regex": [
@@ -30039,7 +30039,11 @@
         "regex": [
             "New York Supreme Court, Kings General Term",
             "New York Supreme Court Kings Special Term",
-            "Supreme Court, Kings County"
+            "Supreme Court, Kings County",
+            "New York Supreme Court,? Kings,? Special Term",
+            "New York Supreme Court, Kings County",
+            "Supreme Court, Kings County",
+            "Supreme Court, Kings Coutny"
         ],
         "system": "state",
         "type": "trial"
@@ -30224,32 +30228,31 @@
         "type": "trial"
     },
     {
-      "case_types": [],
-      "citation_string": "N.Y. Sup. Ct., Wayne Cty.",
-      "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
-      "dates": [
-          {
-              "end": null,
-              "start": "1896-01-01"
-          }
-      ],
-      "examples": [
-          "New York Supreme Court, Wayne, Special Term"
-      ],
-      "id": "nysupctwyn",
-      "level": "gjc",
-      "location": "New York",
-      "name": "New York Supreme Court, Wayne County",
-      "parent": "nysupct",
-      "regex": [
-          "New York Supreme Court,? Wayne,? Special Term",
-          "New York Supreme Court, Wayne County",
-          "Supreme Court, Wayne County"
-      ],
-      "system": "state",
-      "type": "trial"
+        "case_types": [],
+        "citation_string": "N.Y. Sup. Ct., Wayne Cty.",
+        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
+        "dates": [
+            {
+                "end": null,
+                "start": "1896-01-01"
+            }
+        ],
+        "examples": [
+            "New York Supreme Court, Wayne, Special Term"
+        ],
+        "id": "nysupctwyn",
+        "level": "gjc",
+        "location": "New York",
+        "name": "New York Supreme Court, Wayne County",
+        "parent": "nysupct",
+        "regex": [
+            "New York Supreme Court,? Wayne,? Special Term",
+            "New York Supreme Court, Wayne County",
+            "Supreme Court, Wayne County"
+        ],
+        "system": "state",
+        "type": "trial"
     },
-
     {
         "case_types": [],
         "citation_string": "N.Y. Sup. Ct., Tioga Cty.",
@@ -30658,33 +30661,6 @@
             "New York Supreme Court,? Greene,? Special Term",
             "New York Supreme Court, Greene County",
             "Supreme Court, Greene County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "N.Y. Sup. Ct., Kings Cty.",
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
-        "dates": [
-            {
-                "end": null,
-                "start": "1896-01-01"
-            }
-        ],
-        "examples": [
-            "New York Supreme Court, Kings, Special Term"
-        ],
-        "id": "nysupctkings",
-        "level": "gjc",
-        "location": "New York",
-        "name": "New York Supreme Court, Kings County",
-        "parent": "nysupct",
-        "regex": [
-            "New York Supreme Court,? Kings,? Special Term",
-            "New York Supreme Court, Kings County",
-            "Supreme Court, Kings County",
-            "Supreme Court, Kings Coutny"
         ],
         "system": "state",
         "type": "trial"
@@ -64703,7 +64679,7 @@
         "system": "state",
         "type": "trial"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
@@ -64729,7 +64705,7 @@
         "system": "state",
         "type": "trial"
     },
-  {
+    {
         "case_types": [],
         "citation_string": "",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
