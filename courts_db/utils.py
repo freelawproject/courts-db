@@ -201,7 +201,7 @@ def gather_regexes(courts):
                     court["name"],
                     court["type"],
                     court.get("location"),
+                    court.get("parent"),
                 )
             )
-
     return regexes

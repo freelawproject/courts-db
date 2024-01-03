@@ -58,7 +58,7 @@ def find_court_ids_by_name(
 
     court_matches = set()
     matches = []
-    for regex, court_id, court_name, court_type, court_location in regexes:
+    for regex, court_id, court_name, court_type, court_location, parent_court in regexes:
         # If location provided - check if overlapped.
         if location and court_location != location:
             continue
@@ -74,8 +74,9 @@ def find_court_ids_by_name(
             if not allow_partial_matches:
                 if len(court_str) != match.span()[1] - match.span()[0]:
                     continue
-            m = (match.group(0), court_id)
+            m = (match.group(0), court_id, parent_court)
             matches.append(m)
+
     # If no matches found - check against - Court Name - not regex patterns.
     if not matches:
         for court in courts:
@@ -85,7 +86,12 @@ def find_court_ids_by_name(
             if strip_punc(court_str.lower()) == strip_punc(
                 court["name"].lower()
             ):
-                matches.append((court_str, court["id"]))
+                matches.append((court_str, court["id"], court.get("parent")))
+
+    matches = list(set(matches))
+    if len(matches) > 1:
+        matches = reduce_court_list(matches)
+
 
     matched_strings = [m[0] for m in matches]
     filtered_list = filter(
@@ -97,6 +103,21 @@ def find_court_ids_by_name(
             if item == mat[0]:
                 court_matches.add(mat[1])
     return list(court_matches)
+
+def reduce_court_list(court_list):
+    """Reduce to lowest possible match
+
+    :param court_list: List of matches
+    :return: Return lowest possible match
+    """
+    parent_ids = {parent_id for _, _, parent_id in court_list}
+    reduced_list = []
+    for court in court_list:
+        court_id = court[1]
+        if court_id not in parent_ids:
+            reduced_list.append(court)
+    return reduced_list
+
 
 
 def filter_courts_by_date(matches, date_found, strict_dates=False):
@@ -203,7 +224,6 @@ def find_court(
     matches = find_court_ids_by_name(
         court_str, bankruptcy, location, allow_partial_matches
     )
-    # print(matches)
 
     # Check bankruptcy cases if appropriate
     if bankruptcy is not None:
