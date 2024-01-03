@@ -58,7 +58,14 @@ def find_court_ids_by_name(
 
     court_matches = set()
     matches = []
-    for regex, court_id, court_name, court_type, court_location, parent_court in regexes:
+    for (
+        regex,
+        court_id,
+        court_name,
+        court_type,
+        court_location,
+        parent_court,
+    ) in regexes:
         # If location provided - check if overlapped.
         if location and court_location != location:
             continue
@@ -92,7 +99,6 @@ def find_court_ids_by_name(
     if len(matches) > 1:
         matches = reduce_court_list(matches)
 
-
     matched_strings = [m[0] for m in matches]
     filtered_list = filter(
         lambda x: [x for i in matched_strings if x in i and x != i] == [],
@@ -103,6 +109,7 @@ def find_court_ids_by_name(
             if item == mat[0]:
                 court_matches.add(mat[1])
     return list(court_matches)
+
 
 def reduce_court_list(court_list):
     """Reduce to lowest possible match
@@ -117,7 +124,6 @@ def reduce_court_list(court_list):
         if court_id not in parent_ids:
             reduced_list.append(court)
     return reduced_list
-
 
 
 def filter_courts_by_date(matches, date_found, strict_dates=False):
