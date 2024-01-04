@@ -24833,7 +24833,6 @@
             "City Court of Cohoes Albany County",
             "City Court of Poughkeepsie Dutchess County",
             "Municipal Court of the City of New York, Borough of ${bw} ${1-5} District Part",
-            "New York City Cour?t",
             "City Ct, Warren County"
         ],
         "system": "state",
@@ -29962,7 +29961,7 @@
         "examples": [
             "Family Court, Richmond County"
         ],
-        "id": "nyfamctny",
+        "id": "nyfamctrich",
         "level": "trial",
         "location": "New York",
         "name": "New York Family Court, Richmond County",
@@ -30545,7 +30544,7 @@
             "New York Supreme Court, Oneida County",
             "Supreme Court, Oneida County",
             "Sup Ct, Oneida County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30570,7 +30569,8 @@
         "regex": [
             "New York Supreme Court Onondaga Special Term",
             "New York Supreme Court, Onondaga County",
-            "Sup Ct, Onondaga County"],
+            "Sup Ct, Onondaga County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30595,7 +30595,8 @@
         "regex": [
             "New York Supreme Court St. Lawrence Special Term",
             "Supreme Court, St. Lawrence County",
-            "Sup Ct, St. Lawrence County"],
+            "Sup Ct, St. Lawrence County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30672,7 +30673,8 @@
         "regex": [
             "New York Supreme Court Ulster Special Term",
             "Supreme Court, Ulster County",
-            "Sup Ct, Ulster County"],
+            "Sup Ct, Ulster County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30698,7 +30700,8 @@
             "New York Supreme Court, Albany General Term",
             "New York Supreme Court Albany Special Term",
             "Supreme Court, Albany County",
-            "Sup Ct, Albany County"],
+            "Sup Ct, Albany County"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30753,7 +30756,7 @@
             "Sup Ct,? Bronx County?",
             "Sup Ct, Bronx Ct",
             "Sup Ct, County Bronx"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30795,7 +30798,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Cattaraugus General Term"
+            "New York Supreme Court, Cattaraugus"
         ],
         "id": "nysupctcatta",
         "level": "gjc",
@@ -30804,7 +30807,7 @@
         "parent": "nysupct",
         "regex": [
             "Sup Ct, Cattaraugus County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30831,7 +30834,7 @@
             "New York Supreme Court Cayuga Equity Term",
             "Supreme Court, Cayuga County",
             "Sup Ct, Cayuga County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30858,7 +30861,7 @@
             "New York Supreme Court, Chautauqua County",
             "Supreme Court, Chautauqua County",
             "Sup Ct, Chautauqua County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30934,7 +30937,7 @@
             "New York Supreme Court, Clinton General Term",
             "Supreme Court, Clinton County",
             "Sup Ct, Clinton County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30961,7 +30964,7 @@
             "New York Supreme Court, Columbia County",
             "Supreme Court, Columbia County",
             "Sup Ct, Columbia County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -30988,7 +30991,7 @@
             "New York Supreme Court, Cortland County",
             "Supreme Court, Cortland County",
             "Sup Ct, Cortland County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31016,7 +31019,7 @@
             "Supreme Court, Delaware County",
             "Sup Ct, Delaware County",
             "Surpreme Ct, Delaware County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31044,7 +31047,7 @@
             "Supreme Court, Dutchess County",
             "Sup Ct, Dutchess County",
             "Surpreme Ct, Dutchess County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31071,7 +31074,7 @@
             "New York Supreme Court, Erie County",
             "Supreme Court, Erie County",
             "Sup Ct, Erie County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31098,7 +31101,7 @@
             "New York Supreme Court, Essex County",
             "Supreme Court, Essex County",
             "Sup Ct, Essex County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31125,7 +31128,7 @@
             "New York Supreme Court, Franklin County",
             "Supreme Court, Franklin County",
             "Sup Ct, Franklin County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31152,7 +31155,7 @@
             "New York Supreme Court, Fulton County",
             "Supreme Court, Fulton County",
             "Sup Ct, Fulton County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31179,7 +31182,7 @@
             "New York Supreme Court, Genesee County",
             "Supreme Court, Genesee County",
             "Sup Ct, Genesee County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31206,7 +31209,7 @@
             "New York Supreme Court, Greene County",
             "Supreme Court, Greene County",
             "Sup Ct, Greene County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31233,7 +31236,7 @@
             "New York Supreme Court, Hamilton County",
             "Supreme Court, Hamilton County",
             "Sup Ct, Hamilton County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31260,7 +31263,7 @@
             "New York Supreme Court, Herkimer County",
             "Supreme Court, Herkimer County",
             "Sup Ct, Herkimer County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31287,7 +31290,7 @@
             "New York Supreme Court, Jefferson County",
             "Supreme Court, Jefferson County",
             "Sup Ct, Jefferson County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31338,7 +31341,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Lewis, Special Term"
+            "New York Supreme Court, Lewis County"
         ],
         "id": "nysupctlewis",
         "level": "gjc",
@@ -31349,7 +31352,7 @@
             "New York Supreme Court, Lewis County",
             "Supreme Court, Lewis County",
             "Sup Ct, Lewis County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31376,7 +31379,7 @@
             "New York Supreme Court, Livingston County",
             "Supreme Court, Livingston County",
             "Sup Ct, Livingston County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31391,7 +31394,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Madison"
+            "New York Supreme Court, Madison County"
         ],
         "id": "nysupctmadison",
         "level": "gjc",
@@ -31402,7 +31405,7 @@
             "New York Supreme Court, Madison County",
             "Supreme Court, Madison County",
             "Sup Ct, Madison County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31417,12 +31420,12 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Monroe General Term"
+            "New York Supreme Court, Monroe County"
         ],
         "id": "nysupctmonroe",
         "level": "gjc",
         "location": "New York",
-        "name": "New York Supreme Court, Monroe",
+        "name": "New York Supreme Court, Monroe County",
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Monroe General Term",
@@ -31445,7 +31448,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Montgomery"
+            "New York Supreme Court, Montgomery County"
         ],
         "id": "nysupctmontgo",
         "level": "gjc",
@@ -31456,7 +31459,7 @@
             "New York Supreme Court, Montgomery County",
             "Supreme Court, Montgomery County",
             "Sup Ct, Montgomery County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31513,7 +31516,7 @@
             "Supreme Court, Niagra County",
             "Sup Ct, Niaga?ra County",
             "Sup Ct, Niagara"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31567,7 +31570,7 @@
             "New York Supreme Court, Ontario County",
             "Supreme Court, Ontario County",
             "Sup Ct, Ontario County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31594,7 +31597,7 @@
             "New York Supreme Court, Orange County",
             "Supreme Court, Orange County",
             "Sup Ct, Orange County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31609,7 +31612,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Orleans"
+            "New York Supreme Court, Orleans County"
         ],
         "id": "nysupctorlean",
         "level": "gjc",
@@ -31620,7 +31623,7 @@
             "New York Supreme Court, Orleans County",
             "Supreme Court, Orleans County",
             "Sup Ct, Orleans County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31635,12 +31638,12 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Oswego General Term"
+            "New York Supreme Court, Oswego County"
         ],
         "id": "nysupctoswg",
         "level": "gjc",
         "location": "New York",
-        "name": "New York Supreme Court, Oswego",
+        "name": "New York Supreme Court, Oswego County",
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court Oswego Special Term",
@@ -31648,7 +31651,7 @@
             "New York Supreme Court, Oswego",
             "Supreme Court, Oswego County",
             "Sup Ct, Oswego County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31663,18 +31666,18 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Otsego General Term"
+            "New York Supreme Court, Otsego County"
         ],
         "id": "nysupctostego",
         "level": "gjc",
         "location": "New York",
-        "name": "New York Supreme Court, Otsego",
+        "name": "New York Supreme Court, Otsego County",
         "parent": "nysupct",
         "regex": [
             "New York Supreme Court, Otsego General Term",
             "Supreme Court, Otsego County",
             "Sup Ct, Otsego County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31689,7 +31692,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Putnam, Special Term"
+            "New York Supreme Court, Putnam County"
         ],
         "id": "nysupctputnam",
         "level": "gjc",
@@ -31729,7 +31732,7 @@
             "Supreme Court, Rensselaer County",
             "Sup Ct, Rensselaer County",
             "Sup Ct, Rensselaer"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31783,7 +31786,7 @@
             "New York Supreme Court, Rockland County",
             "Supreme Court, Rockland County",
             "Sup Ct, Rockland County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31810,7 +31813,7 @@
             "New York Supreme Court, Saratoga County",
             "Supreme Court, Saratoga County",
             "Sup Ct, Saratoga County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31837,7 +31840,7 @@
             "New York Supreme Court, Schenectady County",
             "Supreme Court, Schenectady County",
             "Sup Ct, Sche?nectady County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31864,7 +31867,7 @@
             "New York Supreme Court, Seneca County",
             "Supreme Court, Seneca County",
             "Sup Ct, Seneca County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31890,7 +31893,7 @@
             "New York Supreme Court, Schoharie County",
             "Supreme Court, Schoharie County",
             "Sup Ct,? Schoharie County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31919,7 +31922,7 @@
             "Sup Ct, Suffolk County",
             "Sup Ct, County Suffolk",
             "Sup Ct, Suffok County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31946,7 +31949,7 @@
             "New York Supreme Court, Sullivan County",
             "Supreme Court, Sullivan County",
             "Sup Ct, Sullivan County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -31973,7 +31976,7 @@
             "New York Supreme Court, Tioga County",
             "Supreme Court, Tioga County",
             "Sup Ct, Tioga County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -32000,7 +32003,7 @@
             "New York Supreme Court, Tompkins County",
             "Supreme Court, Tompkins County",
             "Sup Ct, Tompkins County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -32076,7 +32079,7 @@
             "New York Supreme Court, Wayne County",
             "Supreme Court, Wayne County",
             "Sup Ct, Wayne County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -32091,7 +32094,7 @@
             }
         ],
         "examples": [
-            "New York Supreme Court, Wyoming, Special Term"
+            "New York Supreme Court, Wyoming County"
         ],
         "id": "nysupctwyom",
         "level": "gjc",
@@ -32100,7 +32103,7 @@
         "parent": "nysupct",
         "regex": [
             "Sup Ct, Wyoming County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -32179,7 +32182,7 @@
             "New York Supreme Court, Yates County",
             "Supreme Court, Yates County",
             "Sup Ct,? Yates County"
-          ],
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -32531,7 +32534,8 @@
         "name": "Surrogate's Court, Kings County",
         "parent": "nysurct",
         "regex": [
-            "Sur Ct, Kings County"
+            "Sur Ct, Kings County",
+            "Surrogate's Court, Kings County"
         ],
         "system": "state",
         "type": "special"
@@ -32606,7 +32610,8 @@
         "parent": "nysurct",
         "regex": [
             "Sur Ct, Nassau County",
-            "Surr Ct, Nassau County"
+            "Surr Ct, Nassau County",
+            "Surrogate's Court, Nassau County"
         ],
         "system": "state",
         "type": "special"
@@ -32731,7 +32736,8 @@
         "name": "Surrogate's Court, Queens County",
         "parent": "nysurct",
         "regex": [
-            "Sur Ct, Queens County"
+            "Sur Ct, Queens County",
+            "Surrogate's Court, Queens County"
         ],
         "system": "state",
         "type": "special"
@@ -36115,7 +36121,9 @@
         "regex": [
             "Justice Court of Town of Monroe",
             "Just Ct, Monroe County",
-            "Town Ct Monroe"
+            "Town Ct Monroe",
+            "Justice Court of Village of Monroe",
+            "Monroe Justice Court"
         ],
         "system": "state",
         "type": "trial"
@@ -37265,31 +37273,6 @@
         "parent": "nyjustct",
         "regex": [
             "Mills Village Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Monroe Justice Court"
-        ],
-        "id": "nyjustctmonroe",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Monroe Justice Court",
-        "parent": "nyjustct",
-        "regex": [
-            "Monroe Justice Court"
         ],
         "system": "state",
         "type": "trial"
