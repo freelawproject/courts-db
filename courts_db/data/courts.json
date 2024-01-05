@@ -29513,7 +29513,8 @@
         "parent": "nyfamct",
         "regex": [
             "New York City Family Court",
-            "Family Court, New York County"
+            "Family Court, New York County",
+            "Fam Ct, NY County"
         ],
         "system": "state",
         "type": "trial"
@@ -29916,29 +29917,6 @@
         "regex": [
             "Family Court, Nassau County",
             "Fam Ct, Nassau County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "citation_string": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Family Court, New York County"
-        ],
-        "id": "nyfamctny",
-        "level": "trial",
-        "location": "New York",
-        "name": "New York Family Court, New York County",
-        "parent": "nyfamct",
-        "regex": [
-            "Family Court, New York County",
-            "Fam Ct, NY County"
         ],
         "system": "state",
         "type": "trial"
@@ -30767,32 +30745,6 @@
             "New York Supreme Court, Oneida County",
             "Supreme Court, Oneida County",
             "Sup Ct, Oneida County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "N.Y. Sup. Ct., Onondaga Cty.",
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
-        "dates": [
-            {
-                "end": null,
-                "start": "1896-01-01"
-            }
-        ],
-        "examples": [
-            "New York Supreme Court Onondaga Special Term"
-        ],
-        "id": "nysupctnndg",
-        "level": "gjc",
-        "location": "New York",
-        "name": "New York Supreme Court Onondaga Special Term",
-        "parent": "nysupct",
-        "regex": [
-            "New York Supreme Court Onondaga Special Term",
-            "New York Supreme Court, Onondaga County",
-            "Sup Ct, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
@@ -31786,7 +31738,10 @@
             "Sup Ct, Onondaga",
             "Integrated Domestic Violence Ct, Onondaga County",
             "Sup Ct. Onondaga County",
-            "Integrated Domestic Violence Part, Sup Ct, Onondaga County"
+            "Integrated Domestic Violence Part, Sup Ct, Onondaga County",
+            "New York Supreme Court Onondaga Special Term",
+            "New York Supreme Court, Onondaga County",
+            "Sup Ct, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
@@ -34528,7 +34483,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "N.Y. Just. Court, Bedford",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -34537,15 +34492,17 @@
             }
         ],
         "examples": [
-            "Justice Court Of The Town Of Bedford, Westchester County"
+            "Justice Court of Town of Bedford"
         ],
-        "id": "nyjustctbedford",
+        "id": "nybedfordjustct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Justice Court of The Town Of Bedford",
+        "name": "Bedford Justice Court",
+        "notes": "",
         "parent": "nyjustct",
         "regex": [
+            "Justice Court of Town of Bedford",
             "Justice Court Of The Town Of Bedford, Westchester County",
             "Just Ct Town Bedford, Westchester County"
         ],
@@ -34569,7 +34526,7 @@
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Aurora Justice Court",
+        "name": "Bethlehem Justice Court",
         "parent": "nyjustct",
         "regex": [
             "Bethlehem Justice Court",
@@ -35547,31 +35504,7 @@
             "Hunter Justice Court",
             "Justice Court of Town of Hunter",
             "Just Ct Hunter, Greene County",
-            "Hunter Town Ct"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Justice Court Town of Hunter"
-        ],
-        "id": "nyjustcthunter",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Justice Court Town of Hunter",
-        "parent": "nyjustct",
-        "regex": [
+            "Hunter Town Ct",
             "Just Ct Town Hunter, Greene County",
             "Justice Court Town of Hunter"
         ],
@@ -35932,32 +35865,6 @@
             "Justice Court of Tonawanda",
             "Tonawanda Justice Court",
             "Tonawanda Town Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "N.Y. Just. Court, Bedford",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Justice Court of Town of Bedford"
-        ],
-        "id": "nybedfordjustct",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Justice Court of Town of Bedford",
-        "notes": "",
-        "parent": "nyjustct",
-        "regex": [
-            "Justice Court of Town of Bedford"
         ],
         "system": "state",
         "type": "trial"
