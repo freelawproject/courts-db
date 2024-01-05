@@ -6534,13 +6534,8 @@
             }
         ],
         "examples": [
-            "Florida District Courts of Appeal Third District",
-            "Florida First District Court of Appeal",
-            "Florida Third District Court of Appeal",
-            "Florida District Court of Appeal Fourth Circuit",
             "Florida District Court of Appeal",
-            "Florida Court of Appeal Third District",
-            "Florida Court of Appeal of Florida Third District"
+            "Florida District Courts of Appeal"
         ],
         "id": "fladistctapp",
         "jurisdiction": "F.L.",
@@ -6611,7 +6606,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Florida First District Court of Appeal"
+        ],
         "id": "fladistctapp1",
         "level": "iac",
         "location": "Florida",
@@ -26819,7 +26816,7 @@
         "id": "nyoytermctnyc",
         "level": "",
         "location": "New York",
-        "name": "Court of Oyer And Terminer New York",
+        "name": "Court of Oyer And Terminer New York, New York County",
         "parent": "nyoytermct",
         "regex": [
             "Oyer and Terminer New York County"
@@ -27633,7 +27630,7 @@
         "examples": [
             "County Court of New York, Seneca County"
         ],
-        "id": "nysenecactyct",
+        "id": "nysenctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -27861,7 +27858,7 @@
         "examples": [
             "Hamilton County Court"
         ],
-        "id": "nycountycthami",
+        "id": "nyhamilctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -28141,7 +28138,7 @@
         "examples": [
             "Nassau County Court"
         ],
-        "id": "nynassauctyct",
+        "id": "nynassctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -28176,7 +28173,7 @@
         "location": "New York",
         "name": "New York County Court, King County",
         "notes": "",
-        "parent": "nycountyct",
+        "parent": "nykingsctyct",
         "regex": [
             "New York County Court, King County"
         ],
@@ -28881,7 +28878,7 @@
         "examples": [
             "Washington County Court"
         ],
-        "id": "nycountyctwash",
+        "id": "nywashctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -29513,7 +29510,8 @@
         "parent": "nyfamct",
         "regex": [
             "New York City Family Court",
-            "Family Court, New York County"
+            "Family Court, New York County",
+            "Fam Ct, NY County"
         ],
         "system": "state",
         "type": "trial"
@@ -29916,29 +29914,6 @@
         "regex": [
             "Family Court, Nassau County",
             "Fam Ct, Nassau County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "citation_string": "",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Family Court, New York County"
-        ],
-        "id": "nyfamctny",
-        "level": "trial",
-        "location": "New York",
-        "name": "New York Family Court, New York County",
-        "parent": "nyfamct",
-        "regex": [
-            "Family Court, New York County",
-            "Fam Ct, NY County"
         ],
         "system": "state",
         "type": "trial"
@@ -30773,32 +30748,6 @@
     },
     {
         "case_types": [],
-        "citation_string": "N.Y. Sup. Ct., Onondaga Cty.",
-        "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
-        "dates": [
-            {
-                "end": null,
-                "start": "1896-01-01"
-            }
-        ],
-        "examples": [
-            "New York Supreme Court Onondaga Special Term"
-        ],
-        "id": "nysupctnndg",
-        "level": "gjc",
-        "location": "New York",
-        "name": "New York Supreme Court Onondaga Special Term",
-        "parent": "nysupct",
-        "regex": [
-            "New York Supreme Court Onondaga Special Term",
-            "New York Supreme Court, Onondaga County",
-            "Sup Ct, Onondaga County"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
         "citation_string": "N.Y. Sup. Ct., St. Lawrence Cty.",
         "court_url": "http://www.nycourts.gov/courts/cts-outside-nyc-SUPREME.shtml",
         "dates": [
@@ -30838,7 +30787,7 @@
         "examples": [
             "New York Supreme Court, Steuben County"
         ],
-        "id": "nysupctsteub",
+        "id": "nysupctstbn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court Steuben",
@@ -30944,7 +30893,7 @@
         "examples": [
             "New York Supreme Court, Allegany County"
         ],
-        "id": "nysupctalleg",
+        "id": "nysupctalgny",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Allegany County",
@@ -30970,7 +30919,7 @@
         "examples": [
             "New York Supreme Court, Bronx, Special Term"
         ],
-        "id": "nysupctbronx",
+        "id": "nysupctbrnx",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Bronx County",
@@ -31000,7 +30949,7 @@
         "examples": [
             "New York Supreme Court, Broome, Special Term"
         ],
-        "id": "nysupctbroom",
+        "id": "nysupctbrm",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Broome County",
@@ -31027,7 +30976,7 @@
         "examples": [
             "New York Supreme Court, Cattaraugus"
         ],
-        "id": "nysupctcatta",
+        "id": "nysupctctrgs",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Cattaraugus",
@@ -31078,7 +31027,7 @@
         "examples": [
             "New York Supreme Court, Chautauqua, Special Term"
         ],
-        "id": "nysupctchaut",
+        "id": "nysupctchtq",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Chautauqua County",
@@ -31105,7 +31054,7 @@
         "examples": [
             "New York Supreme Court, Chemung County"
         ],
-        "id": "nysupctchemung",
+        "id": "nysupctchmng",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Chemung County",
@@ -31181,7 +31130,7 @@
         "examples": [
             "New York Supreme Court, Columbia, Special Term"
         ],
-        "id": "nysupctcolum",
+        "id": "nysupctclmb",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Columbia County",
@@ -31208,7 +31157,7 @@
         "examples": [
             "New York Supreme Court, Cortland, Special Term"
         ],
-        "id": "nysupctcortl",
+        "id": "nysupctcrtlnd",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Cortland County",
@@ -31235,7 +31184,7 @@
         "examples": [
             "New York Supreme Court, Delaware, Special Term"
         ],
-        "id": "nysupctdela",
+        "id": "nysupctdlwr",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Delaware County",
@@ -31263,7 +31212,7 @@
         "examples": [
             "New York Supreme Court, Dutchess, Special Term"
         ],
-        "id": "nysupctdutch",
+        "id": "nysupctdtchss",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Dutchess County",
@@ -31347,7 +31296,7 @@
         "examples": [
             "New York Supreme Court, Franklin, Special Term"
         ],
-        "id": "nysupctfrank",
+        "id": "nysupctfrnkln",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Franklin County",
@@ -31374,7 +31323,7 @@
         "examples": [
             "New York Supreme Court, Fulton, Special Term"
         ],
-        "id": "nysupctfulton",
+        "id": "nysupctfltn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Fulton County",
@@ -31401,7 +31350,7 @@
         "examples": [
             "New York Supreme Court, Genesee, Special Term"
         ],
-        "id": "nysupctgenes",
+        "id": "nysupctgnss",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Genesee County",
@@ -31428,7 +31377,7 @@
         "examples": [
             "New York Supreme Court, Greene, Special Term"
         ],
-        "id": "nysupctgreene",
+        "id": "nysupctgrn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Greene County",
@@ -31482,7 +31431,7 @@
         "examples": [
             "New York Supreme Court, Herkimer"
         ],
-        "id": "nysupctherkimer",
+        "id": "nysupcthrkmr",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Herkimer County",
@@ -31509,7 +31458,7 @@
         "examples": [
             "New York Supreme Court, Jefferson, Special Term"
         ],
-        "id": "nysupctjeffer",
+        "id": "nysupctjffrsn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Jefferson County",
@@ -31601,7 +31550,7 @@
         "examples": [
             "New York Supreme Court, Livingston, Special Term"
         ],
-        "id": "nysupctliving",
+        "id": "nysupctlvngstn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Livingston County",
@@ -31628,7 +31577,7 @@
         "examples": [
             "New York Supreme Court, Madison County"
         ],
-        "id": "nysupctmadison",
+        "id": "nysupctmdsn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Madison County",
@@ -31682,7 +31631,7 @@
         "examples": [
             "New York Supreme Court, Montgomery County"
         ],
-        "id": "nysupctmontgo",
+        "id": "nysupctmntgmry",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Montgomery County",
@@ -31708,7 +31657,7 @@
         "examples": [
             "New York Supreme Court, Nassau, Special Term"
         ],
-        "id": "nysupctnassau",
+        "id": "nysupctnss",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Nassau County",
@@ -31775,7 +31724,7 @@
         "examples": [
             "New York Supreme Court, Onondaga, Special Term"
         ],
-        "id": "nysupctonond",
+        "id": "nysupctnndg",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Onondaga County",
@@ -31786,7 +31735,10 @@
             "Sup Ct, Onondaga",
             "Integrated Domestic Violence Ct, Onondaga County",
             "Sup Ct. Onondaga County",
-            "Integrated Domestic Violence Part, Sup Ct, Onondaga County"
+            "Integrated Domestic Violence Part, Sup Ct, Onondaga County",
+            "New York Supreme Court Onondaga Special Term",
+            "New York Supreme Court, Onondaga County",
+            "Sup Ct, Onondaga County"
         ],
         "system": "state",
         "type": "trial"
@@ -31804,7 +31756,7 @@
         "examples": [
             "New York Supreme Court, Ontario, Special Term"
         ],
-        "id": "nysupctontar",
+        "id": "nysupctntr",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Ontario County",
@@ -31831,7 +31783,7 @@
         "examples": [
             "New York Supreme Court, Orange, Special Term"
         ],
-        "id": "nysupctoran",
+        "id": "nysupctorange",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Orange County",
@@ -31858,7 +31810,7 @@
         "examples": [
             "New York Supreme Court, Orleans County"
         ],
-        "id": "nysupctorlean",
+        "id": "nysupctrlns",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Orleans County",
@@ -31884,7 +31836,7 @@
         "examples": [
             "New York Supreme Court, Oswego County"
         ],
-        "id": "nysupctoswg",
+        "id": "nysupctswg",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Oswego County",
@@ -31938,7 +31890,7 @@
         "examples": [
             "New York Supreme Court, Putnam County"
         ],
-        "id": "nysupctputnam",
+        "id": "nysupctptnm",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Putnam County",
@@ -31993,7 +31945,7 @@
         "examples": [
             "New York Supreme Court, Richmond, Special Term"
         ],
-        "id": "nysupctrichm",
+        "id": "nysupctrichmond",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Richmond County",
@@ -32021,7 +31973,7 @@
         "examples": [
             "New York Supreme Court, Rockland, Special Term"
         ],
-        "id": "nysupctrockl",
+        "id": "nysupctrcklnd",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Rockland County",
@@ -32075,7 +32027,7 @@
         "examples": [
             "New York Supreme Court, Schenectady, Special Term"
         ],
-        "id": "nysupctschen",
+        "id": "nysupctschnec",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Schenectady County",
@@ -32102,7 +32054,7 @@
         "examples": [
             "New York Supreme Court, Seneca, Special Term"
         ],
-        "id": "nysupctseneca",
+        "id": "nysupctsnc",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Seneca County",
@@ -32129,7 +32081,7 @@
         "examples": [
             "New York Supreme Court, Schoharie County"
         ],
-        "id": "nysupctschoh",
+        "id": "nysupctscho",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Schoharie County",
@@ -32155,7 +32107,7 @@
         "examples": [
             "New York Supreme Court, Suffolk, Special Term"
         ],
-        "id": "nysupctsuff",
+        "id": "nysuprctfflk",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Suffolk County",
@@ -32187,7 +32139,7 @@
         "examples": [
             "New York Supreme Court, Sullivan, Special Term"
         ],
-        "id": "nysupctsull",
+        "id": "nysupctsllvn",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Sullivan County",
@@ -32241,7 +32193,7 @@
         "examples": [
             "New York Supreme Court, Tompkins, Special Term"
         ],
-        "id": "nysupcttomp",
+        "id": "nysupcttmpkns",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Tompkins County",
@@ -32268,7 +32220,7 @@
         "examples": [
             "New York Supreme Court, Warren, Special Term"
         ],
-        "id": "nysupctwarr",
+        "id": "nysupctwarren",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Warren County",
@@ -32317,7 +32269,7 @@
         "examples": [
             "New York Supreme Court, Wayne, Special Term"
         ],
-        "id": "nysupctwyn",
+        "id": "nysupctwayne",
         "level": "gjc",
         "location": "New York",
         "name": "New York Supreme Court, Wayne County",
@@ -32397,7 +32349,7 @@
         "examples": [
             "Supreme Court, Westchester County"
         ],
-        "id": "nysupctwestc",
+        "id": "nysupctwster",
         "level": "gjc",
         "location": "New York",
         "name": "Supreme Court, Westchester County",
@@ -34528,7 +34480,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "N.Y. Just. Court, Bedford",
         "court_url": "https://www.nycourts.gov/courts/townandvillage/",
         "dates": [
             {
@@ -34537,15 +34489,17 @@
             }
         ],
         "examples": [
-            "Justice Court Of The Town Of Bedford, Westchester County"
+            "Justice Court of Town of Bedford"
         ],
-        "id": "nyjustctbedford",
+        "id": "nybedfordjustct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Justice Court of The Town Of Bedford",
+        "name": "Bedford Justice Court",
+        "notes": "",
         "parent": "nyjustct",
         "regex": [
+            "Justice Court of Town of Bedford",
             "Justice Court Of The Town Of Bedford, Westchester County",
             "Just Ct Town Bedford, Westchester County"
         ],
@@ -34569,7 +34523,7 @@
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
-        "name": "Aurora Justice Court",
+        "name": "Bethlehem Justice Court",
         "parent": "nyjustct",
         "regex": [
             "Bethlehem Justice Court",
@@ -35547,31 +35501,7 @@
             "Hunter Justice Court",
             "Justice Court of Town of Hunter",
             "Just Ct Hunter, Greene County",
-            "Hunter Town Ct"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Justice Court Town of Hunter"
-        ],
-        "id": "nyjustcthunter",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Justice Court Town of Hunter",
-        "parent": "nyjustct",
-        "regex": [
+            "Hunter Town Ct",
             "Just Ct Town Hunter, Greene County",
             "Justice Court Town of Hunter"
         ],
@@ -35932,32 +35862,6 @@
             "Justice Court of Tonawanda",
             "Tonawanda Justice Court",
             "Tonawanda Town Court"
-        ],
-        "system": "state",
-        "type": "trial"
-    },
-    {
-        "case_types": [],
-        "citation_string": "N.Y. Just. Court, Bedford",
-        "court_url": "https://www.nycourts.gov/courts/townandvillage/",
-        "dates": [
-            {
-                "end": null,
-                "start": null
-            }
-        ],
-        "examples": [
-            "Justice Court of Town of Bedford"
-        ],
-        "id": "nybedfordjustct",
-        "jurisdiction": "N.Y.",
-        "level": "trial",
-        "location": "New York",
-        "name": "Justice Court of Town of Bedford",
-        "notes": "",
-        "parent": "nyjustct",
-        "regex": [
-            "Justice Court of Town of Bedford"
         ],
         "system": "state",
         "type": "trial"
