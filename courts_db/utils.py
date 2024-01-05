@@ -190,7 +190,7 @@ def gather_regexes(courts):
     """
     regexes = []
     for court in courts:
-        court_regexes = court["regex"] + [court['name']]
+        court_regexes = court["regex"] + [court["name"]]
         for reg_str in court_regexes:
             # Unwind the extra gruff in regexes
             reg_str = reg_str.replace("\\\\", "\\")

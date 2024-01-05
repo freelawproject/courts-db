@@ -6534,13 +6534,8 @@
             }
         ],
         "examples": [
-            "Florida District Courts of Appeal Third District",
-            "Florida First District Court of Appeal",
-            "Florida Third District Court of Appeal",
-            "Florida District Court of Appeal Fourth Circuit",
             "Florida District Court of Appeal",
-            "Florida Court of Appeal Third District",
-            "Florida Court of Appeal of Florida Third District"
+            "Florida District Courts of Appeal"
         ],
         "id": "fladistctapp",
         "jurisdiction": "F.L.",
@@ -6611,7 +6606,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Florida First District Court of Appeal"
+        ],
         "id": "fladistctapp1",
         "level": "iac",
         "location": "Florida",
@@ -26819,7 +26816,7 @@
         "id": "nyoytermctnyc",
         "level": "",
         "location": "New York",
-        "name": "Court of Oyer And Terminer New York",
+        "name": "Court of Oyer And Terminer New York, New York County",
         "parent": "nyoytermct",
         "regex": [
             "Oyer and Terminer New York County"
