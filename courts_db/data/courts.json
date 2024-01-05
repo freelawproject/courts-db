@@ -28601,7 +28601,7 @@
         "parent": "nycountyct",
         "regex": [
             "County Court of New York, Schoharie County",
-          "Schoharie County C(our)?t"
+            "Schoharie County C(our)?t"
         ],
         "system": "state",
         "type": "trial"
@@ -36923,7 +36923,7 @@
         "examples": [
             "Justice Court of Village of Port Washington"
         ],
-        "id": "nyjustctportwash",
+        "id": "nyjustctportwa",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
