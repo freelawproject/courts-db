@@ -27630,7 +27630,7 @@
         "examples": [
             "County Court of New York, Seneca County"
         ],
-        "id": "nysenecactyct",
+        "id": "nysenctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -27858,7 +27858,7 @@
         "examples": [
             "Hamilton County Court"
         ],
-        "id": "nycountycthami",
+        "id": "nyhamilctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -28138,7 +28138,7 @@
         "examples": [
             "Nassau County Court"
         ],
-        "id": "nynassauctyct",
+        "id": "nynassctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
@@ -28173,7 +28173,7 @@
         "location": "New York",
         "name": "New York County Court, King County",
         "notes": "",
-        "parent": "nycountyct",
+        "parent": "nykingsctyct",
         "regex": [
             "New York County Court, King County"
         ],
@@ -28878,7 +28878,7 @@
         "examples": [
             "Washington County Court"
         ],
-        "id": "nycountyctwash",
+        "id": "nywashctyct",
         "jurisdiction": "N.Y.",
         "level": "trial",
         "location": "New York",
