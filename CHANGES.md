@@ -6,7 +6,7 @@
 
 ## Current Version
 
-- 0.10.21 (2024-01-05): Court updates II (NY)
+- 0.10.22 (2024-01-05): Court updates II (NY)
 
 ## Past Versions
 
