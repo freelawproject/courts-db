@@ -20825,15 +20825,87 @@
             "State of Missouri St Louis Court of Appeals",
             "Court of Appeals? of Missouri",
             "Court of Appeals Kansas City Missouri",
-            "Court Appeals of Missouri Eastern District Division Six",
-            "Court of Appeals of St Louis Missouri",
-            "Appellate Court of Missouri Eastern District Second Division",
-            "MISSOURI COURT OF APPEALS, WESTERN DISTRICT",
-            "MISSOURI COURT OF APPEALS, SOUTHERN DISTRICT",
-            "MISSOURI COURT OF APPEALS, EASTERN DISTRICT"
+            "Court of Appeals of St Louis Missouri"
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.courts.mo.gov/page.jsp?id=99",
+        "dates": [
+            {
+                "end": null,
+                "start": "1820-01-01"
+            }
+        ],
+        "examples": [
+            "Missouri Court of Appeals, Eastern District"
+        ],
+        "id": "moctapped",
+        "level": "",
+        "location": "Missouri",
+        "name": "Missouri Court of Appeals, Eastern District",
+        "regex": [
+            "MISSOURI COURT OF APPEALS, EASTERN DISTRICT",
+          "Appellate Court of Missouri Eastern District Second Division",
+          "Court Appeals of Missouri Eastern District Division Six"
+        ],
+        "system": "state",
+        "type": "appellate",
+        "parent": "moctapp",
+        "notes": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.courts.mo.gov/page.jsp?id=208",
+        "dates": [
+            {
+                "end": null,
+                "start": "1820-01-01"
+            }
+        ],
+        "examples": [
+            "Missouri Court of Appeals, Southern District"
+        ],
+        "id": "moctappsd",
+        "level": "",
+        "location": "Missouri",
+        "name": "Missouri Court of Appeals, Southern District",
+        "regex": [
+            "MISSOURI COURT OF APPEALS, SOUTHERN DISTRICT"
+        ],
+        "system": "state",
+        "type": "appellate",
+        "parent": "moctapp",
+        "notes": ""
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.courts.mo.gov/page.jsp?id=227",
+        "dates": [
+            {
+                "end": null,
+                "start": "1820-01-01"
+            }
+        ],
+        "examples": [
+            "Missouri Court of Appeals, Western District"
+        ],
+        "id": "moctappwd",
+        "level": "",
+        "location": "Missouri",
+        "name": "Missouri Court of Appeals, Western District",
+        "regex": [
+            "MISSOURI COURT OF APPEALS, WESTERN DISTRICT"
+        ],
+        "system": "state",
+        "type": "appellate",
+        "parent": "moctapp",
+        "notes": ""
     },
     {
         "case_types": [],
