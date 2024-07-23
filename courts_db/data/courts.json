@@ -17267,6 +17267,7 @@
         "level": "",
         "location": "Maine",
         "name": "Supreme Judicial Court of Maine",
+        "notes": "The Supreme Judicial Court of Maine is the highest court in the state of Maine. It is made up of a chief justice and six associate justices who are appointed by the governor and confirmed by the Maine Senate. The court has general appellate jurisdiction and is responsible for interpreting the state's laws and constitution. It also has the power to issue advisory opinions on matters of law to the governor and the state's legislature.",
         "regex": [
             "${sjc} Maine",
             "Maine ${sjc}",
@@ -20847,15 +20848,15 @@
         "level": "",
         "location": "Missouri",
         "name": "Missouri Court of Appeals, Eastern District",
+        "notes": "",
+        "parent": "moctapp",
         "regex": [
             "MISSOURI COURT OF APPEALS, EASTERN DISTRICT",
-          "Appellate Court of Missouri Eastern District Second Division",
-          "Court Appeals of Missouri Eastern District Division Six"
+            "Appellate Court of Missouri Eastern District Second Division",
+            "Court Appeals of Missouri Eastern District Division Six"
         ],
         "system": "state",
-        "type": "appellate",
-        "parent": "moctapp",
-        "notes": ""
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -20874,13 +20875,13 @@
         "level": "",
         "location": "Missouri",
         "name": "Missouri Court of Appeals, Southern District",
+        "notes": "",
+        "parent": "moctapp",
         "regex": [
             "MISSOURI COURT OF APPEALS, SOUTHERN DISTRICT"
         ],
         "system": "state",
-        "type": "appellate",
-        "parent": "moctapp",
-        "notes": ""
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -20899,13 +20900,13 @@
         "level": "",
         "location": "Missouri",
         "name": "Missouri Court of Appeals, Western District",
+        "notes": "",
+        "parent": "moctapp",
         "regex": [
             "MISSOURI COURT OF APPEALS, WESTERN DISTRICT"
         ],
         "system": "state",
-        "type": "appellate",
-        "parent": "moctapp",
-        "notes": ""
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -24351,6 +24352,30 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.J. Ch.",
+        "dates": [
+            {
+                "end": "1947-12-31",
+                "start": "1743-01-01"
+            }
+        ],
+        "examples": [
+            "Chancery Court of New Jersey",
+            "New Jersey Court of Chancery"
+        ],
+        "id": "njch",
+        "level": "",
+        "location": "New Jersey",
+        "name": "New Jersey Court of Chancery",
+        "regex": [
+            "New Jersey Court of Chancery",
+            "Chancery Court of New Jersey"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
