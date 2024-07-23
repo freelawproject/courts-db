@@ -24355,7 +24355,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "",
+        "citation_string": "N.J. Ch.",
         "dates": [
             {
                 "end": "1947-12-31",
@@ -24372,7 +24372,7 @@
         "name": "New Jersey Court of Chancery",
         "regex": [
             "New Jersey Court of Chancery",
-            "Chancery Court of New Jersey"
+            "Chancery Court of New Jersey",
         ],
         "system": "state",
         "type": "trial"
