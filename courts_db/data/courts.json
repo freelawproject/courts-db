@@ -17462,7 +17462,8 @@
         "location": "Maryland",
         "name": "High Court of Chancery of Maryland",
         "regex": [
-            "High Court of Chancery of Maryland"
+            "High Court of Chancery of Maryland",
+            "Court of Chancery of Maryland"
         ],
         "system": "state",
         "type": "appellate"

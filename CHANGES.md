@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.24 (2024-07-24): Update more Chancery Courts
+- 0.10.25 (2024-07-24): One more regex pattern
 
 ## Past Versions
+
+- 0.10.24 (2024-07-24): Update more Chancery Courts
 
 - 0.10.23 (2024-07-24): Add NJ Chancery Court
 
