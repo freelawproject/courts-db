@@ -17448,6 +17448,27 @@
     },
     {
         "case_types": [],
+        "citation_string": "Md. Ch.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1854-06-04",
+                "start": ""
+            }
+        ],
+        "examples": [],
+        "id": "mdch",
+        "level": "iac",
+        "location": "Maryland",
+        "name": "High Court of Chancery of Maryland",
+        "regex": [
+            "High Court of Chancery of Maryland"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
         "citation_string": "D. Maryland",
         "court_url": "https://www.mdd.uscourts.gov/",
         "dates": [
@@ -19976,6 +19997,27 @@
     },
     {
         "case_types": [],
+        "citation_string": "MI Ct. Ch.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "1847-12-31",
+                "start": "1836-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "michchanct",
+        "level": "ljc",
+        "location": "Michigan",
+        "name": "Michigan Court of Chancery",
+        "regex": [
+            "Michigan Court of Chancery"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Bankr. E.D. Mich.",
         "court_url": "http://www.mieb.uscourts.gov/",
         "dates": [
@@ -20486,7 +20528,8 @@
         "location": "Mississippi",
         "name": "Mississippi Chancery Courts",
         "regex": [
-            "Mississippi Chancery Courts"
+            "Mississippi Chancery Courts",
+            "Mississippi Superior Court of Chancery"
         ],
         "system": "state",
         "type": "appellate"
@@ -62174,7 +62217,9 @@
         "location": "South Carolina",
         "name": "Court of Chancery of South Carolina",
         "notes": "See: https://www.carolana.com/SC/Courts/SC_Court_of_Equity.html",
-        "regex": [],
+        "regex": [
+            "Court of Chancery of South Carolina"
+        ],
         "system": "state",
         "type": "appellate"
     },
@@ -64447,7 +64492,8 @@
         "notes": "https://en.wikipedia.org/wiki/Virginia_Court_of_Chancery",
         "regex": [
             "Superior Court of Chancery of Virginia",
-            "Virginia Chancery Court"
+            "Virginia Chancery Court",
+            "High Court of Chancery of Virginia"
         ],
         "system": "state",
         "type": "trial"
