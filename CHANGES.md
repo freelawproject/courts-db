@@ -6,9 +6,11 @@
 
 ## Current Version
 
-- 0.10.23 (2024-07-24): Add NJ Chancery Court
+- 0.10.24 (2024-07-24): Update more Chancery Courts
 
 ## Past Versions
+
+- 0.10.23 (2024-07-24): Add NJ Chancery Court
 
 - 0.10.22 (2024-01-05): Court updates II (NY)
 
