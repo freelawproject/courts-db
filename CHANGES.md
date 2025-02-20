@@ -4,6 +4,10 @@
 
 - Features (suggestions welcome)?
 
+## Upcoming Changes
+
+- Add workflow to check for new entries in CHANGES.md file
+
 ## Current Version
 
 - 0.10.25 (2024-07-24): One more regex pattern
