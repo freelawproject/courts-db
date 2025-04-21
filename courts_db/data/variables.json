@@ -86,8 +86,8 @@
     "supct": "Sup(reme)? C(our)?t",
 
     "n1": "(First|One|1st|1)",
-    "n2": "(Second|Two|2nd|2)",
-    "n3": "(Third|Three|3rd|3)",
+    "n2": "(Second|Two|2nd|2d|2)",
+    "n3": "(Third|Three|3rd|3d|3)",
     "n4": "(Fou?rth|Four|4th|4)",
     "n5": "(Fifth|Five|5th|5)",
     "n6": "(Sixth|Six|6th|6)",
