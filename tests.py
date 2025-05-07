@@ -4,7 +4,6 @@ import re
 import sys
 import unittest
 from collections import Counter
-from io import open
 from json.decoder import JSONDecodeError
 from pathlib import Path
 from unittest import TestCase
@@ -157,13 +156,12 @@ class JsonTest(CourtsDBTestCase):
             # Load entire json to shortcircuit testing
             with open(
                 os.path.join(db_root, "data", "courts.json"),
-                "r",
                 encoding="utf-8",
             ) as f:
                 data = f.read()
                 json.loads(data)
                 return
-        except JSONDecodeError as e:
+        except JSONDecodeError:
             print("Errors exist in the data structure")
             pass
 
@@ -172,7 +170,7 @@ class JsonTest(CourtsDBTestCase):
             court = match[1].group().strip(",")
             try:
                 # Load individual courts
-                j = json.loads(court)
+                json.loads(court)
                 continue
             except JSONDecodeError:
                 pass
@@ -193,7 +191,7 @@ class JsonTest(CourtsDBTestCase):
         cites = [
             row["id"]
             for row in load_courts_db()
-            if row.get("citation_string", None) == None
+            if row.get("citation_string", None) is None
         ]
         self.assertEqual(len(cites), 0, msg=cites)
 
