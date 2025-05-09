@@ -20,9 +20,10 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Run tests
+
+    - name: Install dependencies
       run: |
-        python tests.py DataTest
-        python tests.py JsonTest
-        python tests.py ExamplesTest
-        python tests.py LazyLoadTest
+        python -m pip install tox
+
+    - name: Run tox targets for ${{ matrix.python-version }}
+      run: tox run -f py$(echo ${{ matrix.python-version }} | tr -d .)
