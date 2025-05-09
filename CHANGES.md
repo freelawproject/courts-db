@@ -7,6 +7,7 @@
 ## Upcoming Changes
 
 - Add workflow to check for new entries in CHANGES.md file
+- Support Python 3.13
 
 ## Current Version
 
