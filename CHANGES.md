@@ -7,6 +7,7 @@
 ## Upcoming Changes
 
 - Add workflow to check for new entries in CHANGES.md file
+- Adds support for "2d Cir." and "3d Cir." court strings
 
 ## Current Version
 
