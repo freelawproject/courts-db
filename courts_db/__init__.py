@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-from typing import List, Optional
+from typing import Optional
 
 from courts_db.text_utils import strip_punc
 
@@ -43,7 +43,7 @@ def find_court_ids_by_name(
     bankruptcy: Optional[bool],
     location: Optional[str],
     allow_partial_matches: bool,
-) -> List[str]:
+) -> list[str]:
     """Find court IDs with our courts-db regex list
 
     :param court_str: test string
@@ -52,16 +52,16 @@ def find_court_ids_by_name(
     """
     from . import regexes
 
-    assert isinstance(
-        court_str, str
-    ), f"court_str is not a text type, it's of type {type(court_str)}"
+    assert isinstance(court_str, str), (
+        f"court_str is not a text type, it's of type {type(court_str)}"
+    )
 
     court_matches = set()
     matches = []
     for (
         regex,
         court_id,
-        court_name,
+        _court_name,
         court_type,
         court_location,
         parent_court,
@@ -73,20 +73,21 @@ def find_court_ids_by_name(
         if bankruptcy is True:
             if court_type != "bankruptcy":
                 continue
-        elif bankruptcy is False:
-            if court_type == "bankruptcy":
-                continue
+        elif bankruptcy is False and court_type == "bankruptcy":
+            continue
         match = re.search(regex, court_str)
         if match:
-            if not allow_partial_matches:
-                if len(court_str) != match.span()[1] - match.span()[0]:
-                    continue
+            if (
+                not allow_partial_matches
+                and len(court_str) != match.span()[1] - match.span()[0]
+            ):
+                continue
             m = (match.group(0), court_id, parent_court)
             matches.append(m)
 
     # If no matches found - check against - Court Name - not regex patterns.
     if not matches:
-        for court in courts:
+        for court in courts:  # noqa: F821  This code is broken.
             # Add validation for location if provided.
             if location and court_location != location:
                 continue
@@ -138,9 +139,9 @@ def filter_courts_by_date(matches, date_found, strict_dates=False):
     """
     from . import courts
 
-    assert (
-        type(date_found) is datetime
-    ), f"date_found is not a date object, it's of type {type(date_found)}"
+    assert type(date_found) is datetime, (
+        f"date_found is not a date object, it's of type {type(date_found)}"
+    )
 
     results = [court for court in courts if court["id"] in matches]
     filtered_results = []
@@ -148,15 +149,15 @@ def filter_courts_by_date(matches, date_found, strict_dates=False):
         for date_object in result["dates"]:
             date_start = date_object["start"]
             date_end = date_object["end"]
-            if strict_dates == False:
-                if date_start == None:
+            if not strict_dates:
+                if date_start is None:
                     date_start = "1600-01-01"
-                if date_end == None:
+                if date_end is None:
                     date_end = "2100-01-01"
             if strict_dates:
-                if date_start == None:
+                if date_start is None:
                     continue
-                if date_end == None:
+                if date_end is None:
                     date_end = "2100-01-01"
 
             date_start = datetime.strptime(date_start, "%Y-%m-%d")
@@ -190,7 +191,7 @@ def find_court_by_id(court_id):
     return [court for court in courts if court["id"] == court_id]
 
 
-def _filter_parents_from_list(matches: List[str]) -> List[str]:
+def _filter_parents_from_list(matches: list[str]) -> list[str]:
     """Remove parents from the list of matches.
 
     Check if a match has a parent in the list.  If so remove it.
@@ -215,7 +216,7 @@ def find_court(
     strict_dates: Optional[bool] = False,
     location: Optional[str] = None,
     allow_partial_matches: Optional[bool] = False,
-) -> List[str]:
+) -> list[str]:
     """Finds a list of court ID for a given string and parameters
 
     :param court_str: The unicode string we are testing

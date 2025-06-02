@@ -2,7 +2,6 @@ import json
 import os
 import re
 from glob import iglob
-from io import open
 from string import Template
 
 db_root = os.path.dirname(os.path.realpath(__file__))
@@ -134,28 +133,30 @@ def load_courts_db():
     :return: A python object containing the rendered courts DB
     """
     with open(
-        os.path.join(db_root, "data", "variables.json"), "r", encoding="utf-8"
+        os.path.join(db_root, "data", "variables.json"), encoding="utf-8"
     ) as v:
         variables = json.load(v)
 
     for path in iglob(os.path.join(db_root, "data", "places", "*.txt")):
-        with open(path, "r", encoding="utf-8") as p:
+        with open(path, encoding="utf-8") as p:
             places = f"({'|'.join(p.read().splitlines())})"
             variables[path.split(os.path.sep)[-1].split(".txt")[0]] = places
 
     # Add in code to allow ordinal creation for many many judicial district numbers
     # for example 1 to 56 judicial districts
     with open(
-        os.path.join(db_root, "data", "courts.json"), "r", encoding="utf-8"
+        os.path.join(db_root, "data", "courts.json"), encoding="utf-8"
     ) as f:
         temp = f.read()
         ord_arrays = re.findall(r"\${(\d+)-(\d+)}", temp)
         for ord in ord_arrays:
-            re_ord = f"(({')|('.join(ordinals[int(ord[0])-1: int(ord[1])])}))"
+            re_ord = (
+                f"(({')|('.join(ordinals[int(ord[0]) - 1 : int(ord[1])])}))"
+            )
             temp = temp.replace(f"${{{ord[0]}-{ord[1]}}}", re_ord)
 
     with open(
-        os.path.join(db_root, "data", "courts.json"), "r", encoding="utf-8"
+        os.path.join(db_root, "data", "courts.json"), encoding="utf-8"
     ) as f:
         s = Template(temp).substitute(**variables)
     s = s.replace("\\", "\\\\")
@@ -164,15 +165,16 @@ def load_courts_db():
     for k in data:
         # If a child of a parent court - add parent data to child if not present
         # this should allow for streamed down data.  Inheritance
-        if "parent" in k.keys():
-            if not {"dates", "type", "location"} <= set(k.keys()):
-                parent = [x for x in data if x["id"] == k["parent"]][0]
-                if "dates" not in k.keys():
-                    k["dates"] = parent["dates"]
-                if "type" not in k.keys():
-                    k["type"] = parent["type"]
-                if "location" not in k.keys():
-                    k["location"] = parent["location"]
+        if "parent" in k and not {"dates", "type", "location"} <= set(
+            k.keys()
+        ):
+            parent = [x for x in data if x["id"] == k["parent"]][0]
+            if "dates" not in k:
+                k["dates"] = parent["dates"]
+            if "type" not in k:
+                k["type"] = parent["type"]
+            if "location" not in k:
+                k["location"] = parent["location"]
 
     return data
 

@@ -8,6 +8,7 @@
 
 - Add workflow to check for new entries in CHANGES.md file
 - Adds support for "2d Cir." and "3d Cir." court strings
+- Support Python 3.13
 
 ## Current Version
 

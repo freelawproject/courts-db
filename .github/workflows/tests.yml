@@ -1,6 +1,14 @@
 name: Tests
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -8,17 +16,28 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version:
+        - "3.9"
+        - "3.10"
+        - "3.11"
+        - "3.12"
+        - "3.13"
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+
+    - uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Run tests
-      run: |
-        python tests.py DataTest
-        python tests.py JsonTest
-        python tests.py ExamplesTest
-        python tests.py LazyLoadTest
+        allow-prereleases: true
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v6
+      with:
+        enable-cache: true
+
+    - name: Install dependencies
+      run: uv pip install --system tox tox-uv
+
+    - name: Run tox targets for ${{ matrix.python-version }}
+      run: tox run -f py$(echo ${{ matrix.python-version }} | tr -d .)
