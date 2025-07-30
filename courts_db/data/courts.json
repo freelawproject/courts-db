@@ -63253,16 +63253,16 @@
         "type": "appellate"
     },
     {
-        "citation_string": "Tex. Bus.",
+        "citation_string": "Tex. Bus. Ct.",
         "dates": [
             {
                 "end": null,
-                "start": "2024-10-30"
+                "start": "2023-09-01"
             }
         ],
         "examples": [],
         "id": "texbizct",
-        "level": "",
+        "level": "ljc",
         "location": "Texas",
         "name": "Texas Business Court",
         "name_abbreviation": null,
