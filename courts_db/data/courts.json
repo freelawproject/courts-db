@@ -63253,6 +63253,26 @@
         "type": "appellate"
     },
     {
+        "citation_string": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "2024-10-30"
+            }
+        ],
+        "examples": [],
+        "id": "texbizct",
+        "level": "",
+        "location": "Texas",
+        "name": "Texas Business Court",
+        "name_abbreviation": null,
+        "regex": [
+            "Texas Business Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
         "case_types": [],
         "citation_string": "Tex. Crim. App.",
         "court_url": "http://www.cca.courts.state.tx.us/",

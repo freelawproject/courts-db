@@ -10,6 +10,7 @@
 - Adds support for "2d Cir." and "3d Cir." court strings
 - Support Python 3.13
 - Change noqa F821  message  from "This code is broken." to "courts is imported lazily via __getattr__" #106
+- Add Texas Business Court  `texbizct` to courts-db #
 
 
 ## Current Version
