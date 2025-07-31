@@ -87,7 +87,7 @@ def find_court_ids_by_name(
 
     # If no matches found - check against - Court Name - not regex patterns.
     if not matches:
-        for court in courts:  # noqa: F821  This code is broken.
+        for court in courts:  # noqa: F821  courts is imported lazily via __getattr__
             # Add validation for location if provided.
             if location and court_location != location:
                 continue
