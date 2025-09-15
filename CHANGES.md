@@ -6,7 +6,7 @@
 
 ## Upcoming Changes
 
-- Adds fla 6th district court of appeals 
+- Adds fla 6th district court of appeals
 
 
 ## Current Version
