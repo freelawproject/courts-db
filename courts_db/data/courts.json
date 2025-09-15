@@ -6635,6 +6635,29 @@
     {
         "case_types": [],
         "citation_string": "",
+        "court_url": "https://6dca.flcourts.gov",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "fladistctapp6",
+        "level": "iac",
+        "location": "Florida",
+        "name": "Florida Sixth District Court of Appeal",
+        "parent": "fladistctapp",
+        "regex": [
+            "District Court of Appeal of Florida, Sixth District",
+            "Florida District Court of Appeal, Sixth District"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
         "court_url": "",
         "dates": [
             {
