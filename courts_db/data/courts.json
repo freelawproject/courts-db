@@ -2542,6 +2542,37 @@
         "type": "trial"
     },
     {
+        "citation_string": "Cal. State Bar Ct.",
+        "court_url": "https://www.statebarcourt.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1989-01-01"
+            }
+        ],
+        "examples": [
+            "State Bar Court of California",
+            "California State Bar Court",
+            "State Bar Court Review Department",
+            "State Bar Court Hearing Department"
+        ],
+        "id": "calstatebar",
+        "level": "special",
+        "location": "California",
+        "name": "State Bar Court of California",
+        "name_abbreviation": "Cal. State Bar Ct.",
+        "notes": "Disciplinary tribunal for California attorneys. Has Hearing Department (5 judges) and Review Department (3 judges). Final appeals go to California Supreme Court.",
+        "regex": [
+            "State Bar Court of California",
+            "California State Bar Court",
+            "State Bar Court",
+            "Cal\\.? State Bar Court",
+            "State Bar of California Court"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
         "active": true,
         "case_types": [],
         "citation_string": "9th Cir. BAP",
