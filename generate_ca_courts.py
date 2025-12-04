@@ -30,7 +30,7 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "Butte",
         "date": "1850-02-18",
-        "url": "https://www.buttecourt.ca.gov/",
+        "url": "https://www.butte.courts.ca.gov/",
         "id": "but",
     },
     {
@@ -48,7 +48,7 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "Contra Costa",
         "date": "1850-02-18",
-        "url": "https://www.cc-courts.org/",
+        "url": "https://contracosta.courts.ca.gov/",
         "id": "cc",
     },
     {
@@ -217,7 +217,7 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "San Bernardino",
         "date": "1853-04-26",
-        "url": "https://www.sb-court.org/",
+        "url": "https://sanbernardino.courts.ca.gov/",
         "id": "sbr",
     },
     {
@@ -254,13 +254,13 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "Santa Clara",
         "date": "1850-02-18",
-        "url": "https://www.scscourt.org/",
+        "url": "https://santaclara.courts.ca.gov/",
         "id": "sc",
     },
     {
         "name": "Santa Cruz",
         "date": "1850-02-18",
-        "url": "https://www.santacruzcourt.org/",
+        "url": "https://www.santacruz.courts.ca.gov/",
         "id": "scz",
     },
     {
@@ -290,13 +290,13 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "Sonoma",
         "date": "1850-02-18",
-        "url": "https://www.sonomacourt.org/",
+        "url": "https://sonoma.courts.ca.gov/",
         "id": "son",
     },
     {
         "name": "Stanislaus",
         "date": "1854-04-01",
-        "url": "https://www.stanct.org/",
+        "url": "https://www.stanislaus.courts.ca.gov/",
         "id": "sta",
     },
     {
