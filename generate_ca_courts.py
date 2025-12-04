@@ -127,7 +127,7 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "Marin",
         "date": "1850-02-18",
-        "url": "https://www.marincourt.org/",
+        "url": "https://www.marin.courts.ca.gov/",
         "id": "mrn",
     },
     {
@@ -242,13 +242,13 @@ CALIFORNIA_COUNTIES = [
     {
         "name": "San Mateo",
         "date": "1856-04-19",
-        "url": "https://www.sanmateocourt.org/",
+        "url": "https://sanmateo.courts.ca.gov/",
         "id": "sm",
     },
     {
         "name": "Santa Barbara",
         "date": "1850-02-18",
-        "url": "https://www.sbcourts.org/",
+        "url": "https://www.santabarbara.courts.ca.gov/",
         "id": "sb",
     },
     {
