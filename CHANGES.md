@@ -7,6 +7,7 @@
 ## Upcoming Changes
 
 - Adds fla 6th district court of appeals
+- Add USPTO administrative bodies (TTAB and PTAB)
 
 
 ## Current Version
