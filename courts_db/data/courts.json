@@ -67310,7 +67310,7 @@
         ],
         "id": "jpml",
         "level": "ljc",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": " United States Judicial Panel on Multidistrict Litigation",
         "notes": "See: https://en.wikipedia.org/wiki/Judicial_Panel_on_Multidistrict_Litigation",
         "regex": [
@@ -67337,7 +67337,7 @@
         ],
         "id": "ccpa",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "Court of Customs and Patent Appeals",
         "regex": [
             "U\\. S\\. Court of Customs Appeals",
@@ -67367,7 +67367,7 @@
         "id": "fcc",
         "jurisdiction": "D.C.",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "locations": 1,
         "lower_courts": [],
         "name": "Decisions of the Federal Communications Commission",
@@ -67393,7 +67393,7 @@
         ],
         "id": "reglrailreorgct",
         "level": "trial",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "Special Court Regional Rail Reorganization Act of 1973",
         "notes": "See: ",
         "regex": [
@@ -67421,7 +67421,7 @@
         ],
         "id": "usarmybrdrev",
         "level": "iac",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "U.S. Army Board of Review",
         "name_abbreviation": "A. Bd. Rev.",
         "regex": [
@@ -67443,7 +67443,7 @@
         "examples": [],
         "id": "com",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "U.S. Commerce Court",
         "name_abbreviation": "U.S. Commerce Ct.",
         "regex": [
@@ -67468,7 +67468,7 @@
         ],
         "id": "cc",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "United States Court of Claims",
         "name_abbreviation": "Ct. of Claims",
         "regex": [
