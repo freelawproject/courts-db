@@ -67332,8 +67332,7 @@
                 "start": "1909-08-05"
             }
         ],
-        "examples": [
-        ],
+        "examples": [],
         "id": "ccpa",
         "level": "",
         "location": "Washignton D.C.",
@@ -69721,14 +69720,14 @@
         "type": "appellate"
     },
     {
-        "id": "ttab",
         "active": true,
+        "citation_string": "T.T.A.B.",
         "court_url": "https://www.uspto.gov/trademarks/ttab",
-        "regex": [
-            "TTAB",
-            "T\\.T\\.A\\.B\\.",
-            "Trademark Trial and Appeal Board",
-            "Trademark Trial & Appeal Board"
+        "dates": [
+            {
+                "end": null,
+                "start": "1958-01-01"
+            }
         ],
         "examples": [
             "TTAB",
@@ -69736,30 +69735,30 @@
             "Trademark Trial and Appeal Board",
             "Trademark Trial & Appeal Board"
         ],
-        "name": "Trademark Trial and Appeal Board",
-        "name_abbreviation": "T.T.A.B.",
-        "dates": [
-            {
-                "start": "1958-01-01",
-                "end": null
-            }
-        ],
-        "system": "federal",
+        "id": "ttab",
         "level": "iac",
         "location": "Washington D.C.",
-        "type": "appellate",
-        "citation_string": "T.T.A.B.",
-        "notes": "Administrative body within the United States Patent and Trademark office that determines registrability of trademarks"
+        "name": "Trademark Trial and Appeal Board",
+        "name_abbreviation": "T.T.A.B.",
+        "notes": "Administrative body within the United States Patent and Trademark office that determines registrability of trademarks",
+        "regex": [
+            "TTAB",
+            "T\\.T\\.A\\.B\\.",
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
+        ],
+        "system": "federal",
+        "type": "appellate"
     },
     {
-        "id": "ptab",
         "active": true,
+        "citation_string": "P.T.A.B.",
         "court_url": "https://www.uspto.gov/patents/ptab",
-        "regex": [
-            "PTAB",
-            "P\\.T\\.A\\.B\\.",
-            "Patent Trial and Appeal Board",
-            "Patent Trial & Appeal Board"
+        "dates": [
+            {
+                "end": null,
+                "start": "2012-09-16"
+            }
         ],
         "examples": [
             "PTAB",
@@ -69767,30 +69766,30 @@
             "Patent Trial and Appeal Board",
             "Patent Trial & Appeal Board"
         ],
-        "name": "Patent Trial and Appeal Board",
-        "name_abbreviation": "P.T.A.B.",
-        "dates": [
-            {
-                "start": "2012-09-16",
-                "end": null
-            }
-        ],
-        "system": "federal",
+        "id": "ptab",
         "level": "iac",
         "location": "Washington D.C.",
-        "type": "appellate",
-        "citation_string": "P.T.A.B.",
-        "notes": "Administrative body within the United States Patent and Trademark office that determines patentability"
+        "name": "Patent Trial and Appeal Board",
+        "name_abbreviation": "P.T.A.B.",
+        "notes": "Administrative body within the United States Patent and Trademark office that determines patentability",
+        "regex": [
+            "PTAB",
+            "P\\.T\\.A\\.B\\.",
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
+        ],
+        "system": "federal",
+        "type": "appellate"
     },
     {
-        "id": "bpai",
         "active": false,
+        "citation_string": "B.P.A.I.",
         "court_url": null,
-        "regex": [
-            "B\\.P\\.A\\.I\\.",
-            "BPAI",
-            "Board of Patent Appeals and Interferences",
-            "Board of Patent Appeals & Interferences"
+        "dates": [
+            {
+                "end": "2012-09-15",
+                "start": null
+            }
         ],
         "examples": [
             "B.P.A.I.",
@@ -69798,19 +69797,19 @@
             "Board of Patent Appeals and Interferences",
             "Board of Patent Appeals & Interferences"
         ],
-        "name": "Board of Patent Appeals and Interferences",
-        "name_abbreviation": "B.P.A.I.",
-        "dates": [
-            {
-                "start": null,
-                "end": "2012-09-15"
-            }
-        ],
-        "system": "federal",
+        "id": "bpai",
         "level": "iac",
         "location": "Washington D.C.",
-        "type": "appellate",
-        "citation_string": "B.P.A.I.",
-        "notes": "Former administrative body within the United States Patent and Trademark office that determined patentability; replaced by PTAB in 2012"
+        "name": "Board of Patent Appeals and Interferences",
+        "name_abbreviation": "B.P.A.I.",
+        "notes": "Former administrative body within the United States Patent and Trademark office that determined patentability; replaced by PTAB in 2012",
+        "regex": [
+            "B\\.P\\.A\\.I\\.",
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
+        ],
+        "system": "federal",
+        "type": "appellate"
     }
 ]
