@@ -69726,13 +69726,15 @@
         "court_url": "https://www.uspto.gov/trademarks/ttab",
         "regex": [
             "TTAB",
-            "T\\.T\\.A\\.B\\."
+            "T\\.T\\.A\\.B\\.",
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
         ],
         "examples": [
-            "Trademark Trial and Appeal Board",
-            "Trademark Trial & Appeal Board",
+            "TTAB",
             "T.T.A.B.",
-            "TTAB"
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
         ],
         "name": "Trademark Trial and Appeal Board",
         "name_abbreviation": "T.T.A.B.",
@@ -69755,19 +69757,21 @@
         "court_url": "https://www.uspto.gov/patents/ptab",
         "regex": [
             "PTAB",
-            "P\\.T\\.A\\.B\\."
+            "P\\.T\\.A\\.B\\.",
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
         ],
         "examples": [
-            "Patent Trial and Appeal Board",
-            "Patent Trial & Appeal Board",
+            "PTAB",
             "P.T.A.B.",
-            "PTAB"
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
         ],
         "name": "Patent Trial and Appeal Board",
         "name_abbreviation": "P.T.A.B.",
         "dates": [
             {
-                "start": "2012-09-16, ",
+                "start": "2012-09-16",
                 "end": null
             }
         ],
@@ -69783,12 +69787,16 @@
         "active": false,
         "court_url": null,
         "regex": [
+            "B\\.P\\.A\\.I\\.",
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
         ],
         "examples": [
-            "Board of Patent Appeals and Interferences",
-            "Board of Patent Appeals & Interferences",
             "B.P.A.I.",
-            "BPAI"
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
         ],
         "name": "Board of Patent Appeals and Interferences",
         "name_abbreviation": "B.P.A.I.",
