@@ -6,11 +6,17 @@
 
 ## Upcoming Changes
 
-- Adds fla 6th district court of appeals
-- Add USPTO administrative bodies (TTAB and PTAB)
+-
 
 
 ## Current Version
+
+- 0.10.27 (2026-03-25)
+
+- Adds fla 6th district court of appeals
+- Add USPTO administrative bodies (TTAB and PTAB)
+
+## Past Versions
 
 - 0.10.26 (2025-08-27): various improvements to courts-db
 
@@ -19,8 +25,6 @@
 - Support Python 3.13
 - Change noqa F821  message  from "This code is broken." to "courts is imported lazily via __getattr__" #106
 - Add Texas Business Court  `texbizct` to courts-db #
-
-## Past Versions
 - 0.10.25 (2024-07-24): One more regex pattern
 
 - 0.10.24 (2024-07-24): Update more Chancery Courts

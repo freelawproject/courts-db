@@ -6,7 +6,7 @@ requires = [
 
 [project]
 name = "courts-db"
-version = "0.10.26"
+version = "0.10.27"
 description = "Database of Courts"
 readme = "README.rst"
 keywords = [ "courts", "legal" ]
