@@ -67332,9 +67332,7 @@
                 "start": "1909-08-05"
             }
         ],
-        "examples": [
-            "United States Patent And Trademark office"
-        ],
+        "examples": [],
         "id": "ccpa",
         "level": "",
         "location": "Washignton D.C.",
@@ -67344,7 +67342,6 @@
             "(^|\\s)U\\. S\\. Court of Customs and Patent Appeals",
             "${usa} Court of Customs and Patent Appeals",
             "Court of Customs and Patent Appeals",
-            "United States Patent And Trademark office",
             "United States Court of Customs And Patents Appeals",
             "United States Court of Customs Appeals"
         ],
@@ -69720,6 +69717,99 @@
             "Supreme Court of The Territory of Wyoming"
         ],
         "system": "state",
+        "type": "appellate"
+    },
+    {
+        "active": true,
+        "citation_string": "T.T.A.B.",
+        "court_url": "https://www.uspto.gov/trademarks/ttab",
+        "dates": [
+            {
+                "end": null,
+                "start": "1958-01-01"
+            }
+        ],
+        "examples": [
+            "TTAB",
+            "T.T.A.B.",
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
+        ],
+        "id": "ttab",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Trademark Trial and Appeal Board",
+        "name_abbreviation": "T.T.A.B.",
+        "notes": "Administrative body within the United States Patent and Trademark office that determines registrability of trademarks",
+        "regex": [
+            "TTAB",
+            "T\\.T\\.A\\.B\\.",
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "active": true,
+        "citation_string": "P.T.A.B.",
+        "court_url": "https://www.uspto.gov/patents/ptab",
+        "dates": [
+            {
+                "end": null,
+                "start": "2012-09-16"
+            }
+        ],
+        "examples": [
+            "PTAB",
+            "P.T.A.B.",
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
+        ],
+        "id": "ptab",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Patent Trial and Appeal Board",
+        "name_abbreviation": "P.T.A.B.",
+        "notes": "Administrative body within the United States Patent and Trademark office that determines patentability",
+        "regex": [
+            "PTAB",
+            "P\\.T\\.A\\.B\\.",
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "active": false,
+        "citation_string": "B.P.A.I.",
+        "court_url": null,
+        "dates": [
+            {
+                "end": "2012-09-15",
+                "start": null
+            }
+        ],
+        "examples": [
+            "B.P.A.I.",
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
+        ],
+        "id": "bpai",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Board of Patent Appeals and Interferences",
+        "name_abbreviation": "B.P.A.I.",
+        "notes": "Former administrative body within the United States Patent and Trademark office that determined patentability; replaced by PTAB in 2012",
+        "regex": [
+            "B\\.P\\.A\\.I\\.",
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
+        ],
+        "system": "federal",
         "type": "appellate"
     }
 ]
