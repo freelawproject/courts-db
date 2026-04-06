@@ -1920,7 +1920,7 @@
         "name_abbreviation": null,
         "regex": [
             "California District Court of Appeal",
-            "Court of Appeal of California",
+            "Court of Appeal of California(,? ${1-6} Appellate District(, Division .+)?)?",
             "Court of Appeal of the State of California",
             "California Court of Appeal",
             "District Court of Appeal of the State of California"
@@ -2391,7 +2391,8 @@
         "parent": "calsuperct",
         "regex": [
             "Superior Court,? in and for the City and County of San (Francisco|Francsico), State of California",
-            "Probate Court of the City and County of San Francisco"
+            "Probate Court of the City and County of San Francisco",
+            "${super}${ca}(,? (County of .+|.+ County))$$"
         ],
         "system": "state",
         "type": "trial"
@@ -2427,6 +2428,8 @@
         "name_abbreviation": null,
         "notes": "Not sure if Appellate Department is unique from Appellate Division",
         "regex": [
+            "Appellate (Department|Division),? ${super}${ca}(,? (.+ County|County of .+))?",
+            "${super}${ca}(,? (County of .+|.+ County)),? Appellate (Department|Division)",
             "Appellate Department Superior Court.* California",
             "State of California Superior Court Appellate Department",
             "Appellate Division Superior Court ${ca_counties} County",
@@ -3198,7 +3201,8 @@
         "name": "Colorado District Court",
         "name_abbreviation": null,
         "regex": [
-            "Colorado District Court"
+            "Colorado District Court",
+            "${d}${co}(, .+ County)?"
         ],
         "sub_names": [
             "First thru Twenty-Second District"
@@ -4728,7 +4732,8 @@
         "name": "Florida Circuit Court",
         "name_abbreviation": null,
         "regex": [
-            "Florida Circuit Courts"
+            "Florida Circuit Courts",
+            "${ccoa}${fl}(, .+ County)?"
         ],
         "sub_names": [
             "1st thru 20th"
@@ -9411,7 +9416,8 @@
         "name": "Georgia Juvenile Courts",
         "name_abbreviation": null,
         "regex": [
-            "Georgia Juvenile Courts"
+            "Georgia Juvenile Courts",
+            "Juvenile Court of ${ga}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -9526,7 +9532,8 @@
         "name": "Georgia Superior Courts",
         "name_abbreviation": null,
         "regex": [
-            "Georgia Superior Courts"
+            "Georgia Superior Courts",
+            "${super}${ga}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -11774,7 +11781,8 @@
             "Appe((llate)|(als)) Court of Indiana",
             "Indiana Court of Appeals",
             "State of Indiana Appellate Court",
-            "INDIANA COURT OF APPEALS, \\b\\w+\\b DISTRICT"
+            "INDIANA COURT OF APPEALS, \\b\\w+\\b DISTRICT",
+            "${coa}${in}, ${1-5} District"
         ],
         "system": "state",
         "type": "appellate"
@@ -16887,6 +16895,23 @@
     },
     {
         "case_types": [],
+        "citation_string": "La. Dist. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "lactapp",
+        "level": "",
+        "location": "Louisiana",
+        "name": "Louisiana District Court",
+        "regex": [
+            "(((\\d+)(st|nd|rd|th)|Fifth) )?${d}${la}(, (Parish of )?.+( Parish)?)?",
+            "Orleans Parish Criminal District Court of Louisiana"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "La. Ct. App.",
         "court_url": "http://louisiana.gov/Government/Judicial_Branch/#courtsofappeal",
         "dates": [
@@ -16912,7 +16937,7 @@
             "Court of Appeal F Louisiana Orleans",
             "Court of Appeal of Orleans Louisiana",
             "Court of of Appeal of Louisiana ${1-5} Circuit",
-            "Court Appeal of Louisiana ${1-5} Circuit",
+            "${coa}${la},? ${1-5} Circuit",
             "Court of Appeal State of Louisiana Orleans",
             "State of Louisiana Court of Appeal,? ${1-5} Circuit",
             "Louisiana Courts? of Appeal,? ${1-5} Circuit"
@@ -17399,7 +17424,8 @@
             "Circuit Court of ${md_circuits}.* Maryland",
             "Court For ${md_circuits} County Maryland",
             "Circuit Court of Maryland Pfunce George",
-            "Court For Prince George S County"
+            "Court For Prince George S County",
+            "${ccoa}${maryland}(, .+ (City|County))"
         ],
         "system": "state",
         "type": "trial"
@@ -17425,6 +17451,7 @@
         "name": "Court of Appeals of Maryland",
         "regex": [
             "${coa} Maryland",
+            "${app} ${maryland}",
             "${sup} Maryland",
             "(State of )?Maryland ${coa}",
             "Provincial Court of The Province of Maryland",
@@ -18545,6 +18572,28 @@
     },
     {
         "case_types": [],
+        "citation_string": "Michigan Dist. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "midistct",
+        "jurisdiction": "M.I.",
+        "level": "gjc",
+        "location": "Michigan",
+        "name": "Michigan District Court",
+        "name_abbreviation": "Michigan Dist. Ct.",
+        "regex": [
+            "\\d+(st|nd|rd|th) ${d}${mi}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Michigan Cir. Ct.",
         "dates": [
             {
@@ -18581,7 +18630,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 10th Cir.",
         "parent": "micirct",
         "regex": [
-            "Saginaw (County)? ?Circuit Court"
+            "Saginaw (County)? ?Circuit Court",
+            "${ccoa}${mi}, Saginaw( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18658,6 +18708,7 @@
             "Leelanau (County)? ?Circuit Court",
             "Leelanaw (County)? ?Circuit Court",
             "Antrim (County)? ?Circuit Court",
+            "${ccoa}${mi}, Antrim( County)?",
             "Grand Traverse (County)? ?Circuit Court"
         ],
         "system": "state",
@@ -18681,7 +18732,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 14th Cir.",
         "parent": "micirct",
         "regex": [
-            "Muskegon (County)? ?Circuit Court"
+            "Muskegon (County)? ?Circuit Court",
+            "${ccoa}${mi}, Muskegon( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18727,7 +18779,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 16th Cir.",
         "parent": "micirct",
         "regex": [
-            "Macomb (County)? ?Circuit Court"
+            "Macomb (County)? ?Circuit Court",
+            "${ccoa}${mi}, Macomb( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18750,7 +18803,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 17th Cir.",
         "parent": "micirct",
         "regex": [
-            "Kent (County)? ?Circuit Court"
+            "Kent (County)? ?Circuit Court",
+            "${ccoa}${mi}, Kent( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18797,6 +18851,7 @@
         "parent": "micirct",
         "regex": [
             "Benzie (County)? ?Circuit Court",
+            "${ccoa}${mi}, Benzie( County)?",
             "Manistee (County)? ?Circuit Court"
         ],
         "system": "state",
@@ -18843,7 +18898,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 20th Cir.",
         "parent": "micirct",
         "regex": [
-            "Ottawa (County)? ?Circuit Court"
+            "Ottawa (County)? ?Circuit Court",
+            "${ccoa}${mi}, Ottawa( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18866,7 +18922,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 21st Cir.",
         "parent": "micirct",
         "regex": [
-            "Isabella (County)? ?Circuit Court"
+            "Isabella (County)? ?Circuit Court",
+            "${ccoa}${mi}, Isabella( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18889,7 +18946,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 22nd Cir.",
         "parent": "micirct",
         "regex": [
-            "Washtenaw (County)? ?Circuit Court"
+            "Washtenaw (County)? ?Circuit Court",
+            "${ccoa}${mi}, Washtenaw( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19081,7 +19139,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 2nd Cir.",
         "parent": "micirct",
         "regex": [
-            "Berrien (County)? ?Circuit Court"
+            "Berrien (County)? ?Circuit Court",
+            "${ccoa}${mi}, Berrien( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19104,7 +19163,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 30th Cir.",
         "parent": "micirct",
         "regex": [
-            "Ingham (County)? ?Circuit Court"
+            "Ingham (County)? ?Circuit Court",
+            "${ccoa}${mi}, Ingham( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19221,7 +19281,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 35th Cir.",
         "parent": "micirct",
         "regex": [
-            "Shiawassee? (County)? ?Circuit Court"
+            "Shiawassee? (County)? ?Circuit Court",
+            "${ccoa}${mi}, Shiawassee( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19244,7 +19305,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 36th Cir.",
         "parent": "micirct",
         "regex": [
-            "Van Buren (County)? ?Circuit Court"
+            "Van Buren (County)? ?Circuit Court",
+            "${ccoa}${mi}, Van Buren( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19334,7 +19396,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 3rd Cir.",
         "parent": "micirct",
         "regex": [
-            "Wayne (County)? ?Circuit Court"
+            "Wayne (County)? ?Circuit Court",
+            "${ccoa}${mi}, Wayne( County)?(, Criminal Division)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19357,7 +19420,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 40th Cir.",
         "parent": "micirct",
         "regex": [
-            "Lapeer (County)? ?Circuit Court"
+            "Lapeer (County)? ?Circuit Court",
+            "${ccoa}${mi}, Lapeer( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19428,7 +19492,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 43rd Cir.",
         "parent": "micirct",
         "regex": [
-            "Cass (County)? ?Circuit Court"
+            "Cass (County)? ?Circuit Court",
+            "${ccoa}${mi}, Cass( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19451,7 +19516,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 44th Cir.",
         "parent": "micirct",
         "regex": [
-            "Livingston (County)? ?Circuit Court"
+            "Livingston (County)? ?Circuit Court",
+            "${ccoa}${mi}, Livingston( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19474,7 +19540,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 45th Cir.",
         "parent": "micirct",
         "regex": [
-            "St. Joseph (County)? ?Circuit Court"
+            "St\\. Joseph (County)? ?Circuit Court",
+            "${ccoa}${mi}, St\\. Joseph( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19592,7 +19659,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 4th Cir.",
         "parent": "micirct",
         "regex": [
-            "Jackson (County)? ?Circuit Court"
+            "Jackson (County)? ?Circuit Court",
+            "${ccoa}${mi}, Jackson( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19662,7 +19730,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 52nd Cir.",
         "parent": "micirct",
         "regex": [
-            "Huron (County)? ?Circuit Court"
+            "Huron (County)? ?Circuit Court",
+            "${ccoa}${mi}, Huron( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19709,7 +19778,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 54th Cir.",
         "parent": "micirct",
         "regex": [
-            "Tuscola (County)? ?Circuit Court"
+            "Tuscola (County)? ?Circuit Court",
+            "${ccoa}${mi}, Tuscola( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19756,7 +19826,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 56th Cir.",
         "parent": "micirct",
         "regex": [
-            "Eaton (County)? ?Circuit Court"
+            "Eaton (County)? ?Circuit Court",
+            "${ccoa}${mi}, Eaton( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19825,7 +19896,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 6th Cir.",
         "parent": "micirct",
         "regex": [
-            "Oakland (County)? ?Circuit Court"
+            "Oakland (County)? ?Circuit Court",
+            "${ccoa}${mi}, Oakland( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19848,7 +19920,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 7th Cir.",
         "parent": "micirct",
         "regex": [
-            "Genesee (County)? ?Circuit Court"
+            "Genesee (County)? ?Circuit Court",
+            "${ccoa}${mi}, Genesee( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19895,7 +19968,8 @@
         "name_abbreviation": "Mich. Cir. Ct., 9th Cir.",
         "parent": "micirct",
         "regex": [
-            "Kalamazoo (County)? ?Circuit Court"
+            "Kalamazoo (County)? ?Circuit Court",
+            "${ccoa}${mi}, Kalamazoo( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19917,7 +19991,8 @@
         "name": "Michigan Court of Appeals",
         "regex": [
             "Michigan Court of Appeals",
-            "Court of Appeals?,? of Michigan"
+            "Court of Appeals?,? of Michigan",
+            "${coa}${mi}(, .+ County)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -21790,7 +21865,8 @@
         "regex": [
             "Superior Court of New Hampshire",
             "Superior Court of Judicature of New Hampshire",
-            "New Hampshire Superior Court"
+            "New Hampshire Superior Court",
+            "${super}${nh}(, .+ County(, .+ District)?)?"
         ],
         "system": "state",
         "type": "trial"
@@ -24476,6 +24552,23 @@
             "${usdc} D New Mexico",
             "${usdc} ${d} ${nm}",
             "${usdc} ${nm}"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "nmdistct",
+        "level": "",
+        "location": "New Mexico",
+        "name": "New Mexico District Court",
+        "parent": "usdistct",
+        "regex": [
+            "${d}${nm}(, .+? County)?"
         ],
         "system": "federal",
         "type": "appellate"
@@ -30821,7 +30914,8 @@
             "Supreme Court, Chambers, New York County",
             "New York Supreme Court Special Term",
             "Supreme Court of the State of New York",
-            "Sup Ct, NY"
+            "Sup Ct, NY",
+            "${sup}${ny}(, .+ County)( - (Criminal|Civil) Term)?"
         ],
         "system": "state",
         "type": "trial"
@@ -39078,7 +39172,9 @@
         "location": "North Carolina",
         "name": "North Carolina District Court",
         "name_abbreviation": null,
-        "regex": [],
+        "regex": [
+            "${d}${nc}(, .+ County)"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -39124,7 +39220,8 @@
             "Superior Court of North Carolina",
             "In the General Court of Justice Superior Court Division",
             "North Carolina Superior Court",
-            "North Carolina Superior Court ?(New Hanover County)?"
+            "North Carolina Superior Court ?(New Hanover County)?",
+            "${super}${nc}(, .+ County)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -54692,7 +54789,8 @@
             "Pennsylvania County Court",
             "Pennsylvania Court of Common Pleas",
             "Court of Common Pleas",
-            "Pennsylvania District and County Reports"
+            "Pennsylvania District and County Reports",
+            "Court of Common Pleas of ${pa}(, .+ County)"
         ],
         "system": "state",
         "type": null
@@ -61744,7 +61842,8 @@
         "name": "Superior Court of Pennsylvania",
         "regex": [
             "Superior Court (of ?){1,2} Pennsylvania",
-            "(Commonwealth of )?Pennsylvania,? Superior Court"
+            "(Commonwealth of )?Pennsylvania,? Superior Court",
+            "${super}${pa}(, .+ Office)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -61773,7 +61872,8 @@
             "Supreme Court of Errors And Appeals of Pennsylvania",
             "High Court of Errors And Appeals of Pennsylvania",
             "Supreme Court State of Pennsylvania",
-            "Pennsylvania High Court of Errors and Appeals"
+            "Pennsylvania High Court of Errors and Appeals",
+            "${sup}${pa}(, .+ District)"
         ],
         "system": "state",
         "type": "appellate"
@@ -62185,7 +62285,8 @@
         "location": "South Carolina",
         "name": "Common Pleas Court of South Carolina",
         "regex": [
-            "Common Pleas Court of South Carolina"
+            "Common Pleas Court of South Carolina",
+            "Court of Common Pleas of ${sc}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -63270,7 +63371,8 @@
             "Commission of Appeals Texas Section A",
             "Court of Appeals of Texas, Fort Worth",
             "Court of Appeals of Texas, San Antonio",
-            "TEXAS COURT OF APPEALS, \\b\\w+\\b DISTRICT"
+            "TEXAS COURT OF APPEALS, \\b\\w+\\b DISTRICT",
+            "${coa}${tx}, ${1-14} District"
         ],
         "system": "state",
         "type": "appellate"
@@ -69249,6 +69351,28 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "W. Va. Circ. Ct.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": "1863-01-01"
+            }
+        ],
+        "examples": [],
+        "id": "wvcircct",
+        "level": "",
+        "location": "West Virginia",
+        "name": "West Virginia Circuit Court",
+        "regex": [
+            "${ccoa}${wv}(, .+ County)?",
+            "Family Court of ${wv}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "active": false,
