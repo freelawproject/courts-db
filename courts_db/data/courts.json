@@ -17,7 +17,8 @@
         "name": "Alabama Circuit Courts",
         "name_abbreviation": null,
         "regex": [
-            "Alabama Circuit Courts"
+            "Alabama Circuit Courts",
+            "${ccoa}${al}(, .+ County)?"
         ],
         "sub_names": [
             "Numbered 1-41"
@@ -671,7 +672,8 @@
         "name": "Alaska Superior Court",
         "name_abbreviation": null,
         "regex": [
-            "Alaska Superior Court"
+            "Alaska Superior Court",
+            "${super}Alaska(, \\d+(st|nd|rd|th) Judicial District)?"
         ],
         "sub_names": [
             "First",
@@ -832,6 +834,7 @@
         "name": "Arizona Court of Appeals",
         "name_abbreviation": null,
         "regex": [
+            "${coa}${az},? Division (One|Two)",
             "${coa} Arizona",
             "Arizona ${coa}",
             "ARIZONA COURT OF APPEALS, DIVISION (ONE|TWO)"
@@ -887,7 +890,8 @@
         "name": "Arizona Superior Court",
         "name_abbreviation": null,
         "regex": [
-            "Arizona Superior Court"
+            "Arizona Superior Court",
+            "${super}${az}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -3202,7 +3206,7 @@
         "name_abbreviation": null,
         "regex": [
             "Colorado District Court",
-            "${d}${co}(, .+ County)?"
+            "${d}${co}(,? .+ County)?"
         ],
         "sub_names": [
             "First thru Twenty-Second District"
@@ -3597,6 +3601,7 @@
         "name": "Connecticut Superior Court",
         "name_abbreviation": null,
         "regex": [
+            "${super}${ct}(, .+)?",
             "Superior Court of Connecticut",
             "State of Connecticut Superior Court",
             "Superior Court Housing Session of Connecticut",
@@ -4733,7 +4738,7 @@
         "name_abbreviation": null,
         "regex": [
             "Florida Circuit Courts",
-            "${ccoa}${fl}(, .+ County)?"
+            "${ccoa}${fl}(,? .+ County)?"
         ],
         "sub_names": [
             "1st thru 20th"
@@ -6654,6 +6659,7 @@
         "name": "Florida Sixth District Court of Appeal",
         "parent": "fladistctapp",
         "regex": [
+            "District ${coa}${fl},? Sixth District",
             "District Court of Appeal of Florida, Sixth District",
             "Florida District Court of Appeal, Sixth District"
         ],
@@ -11421,6 +11427,7 @@
         "location": "Illinois",
         "name": "Appellate Court of Illinois",
         "regex": [
+            "${app} ${il},? ${1-5} District",
             "${app} Illinois",
             "Illinois ${app}",
             "Illinois Court of Appeals",
@@ -12093,7 +12100,9 @@
         "level": "gjc",
         "location": "Iowa",
         "name": "Iowa District Court",
-        "regex": [],
+        "regex": [
+            "${d}${ia}(, .+ County)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -12535,7 +12544,8 @@
         "name": "Kentucky Circuit Courts",
         "notes": "Highest trial court in Kentucky, divided into circuits. May contain 1 to 4 counties",
         "regex": [
-            "Kentucky Circuit Court"
+            "Kentucky Circuit Court",
+            "${ccoa}${ky}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -16899,13 +16909,14 @@
         "court_url": "",
         "dates": [],
         "examples": [],
-        "id": "lactapp",
+        "id": "ladistct",
         "level": "",
         "location": "Louisiana",
         "name": "Louisiana District Court",
         "regex": [
             "(((\\d+)(st|nd|rd|th)|Fifth) )?${d}${la}(, (Parish of )?.+( Parish)?)?",
-            "Orleans Parish Criminal District Court of Louisiana"
+            "Orleans Parish Criminal District Court of Louisiana",
+            "Civil District Court of Orleans Parish"
         ],
         "system": "state",
         "type": "trial"
@@ -18066,6 +18077,7 @@
         "location": "Massachusetts",
         "name": "Massachusetts Superior Court",
         "regex": [
+            "${super}${ma}(, .+ County)?",
             "Massachusetts {super}",
             "State of Massachusetts Superior Court",
             "Superior Court of Massachusetts"
@@ -20601,6 +20613,22 @@
     },
     {
         "case_types": [],
+        "citation_string": "Miss. Cir. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "misscirct",
+        "level": "",
+        "location": "Mississippi",
+        "name": "Mississippi Circuit Courts",
+        "regex": [
+            "${ccoa}${ms}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Miss. Chanc. Ct.",
         "court_url": "",
         "dates": [
@@ -20981,6 +21009,7 @@
         "notes": "",
         "parent": "moctapp",
         "regex": [
+            "${coa}${mo},? Eastern District",
             "MISSOURI COURT OF APPEALS, EASTERN DISTRICT",
             "Appellate Court of Missouri Eastern District Second Division",
             "Court Appeals of Missouri Eastern District Division Six"
@@ -21008,6 +21037,7 @@
         "notes": "",
         "parent": "moctapp",
         "regex": [
+            "${coa}${mo},? Southern District",
             "MISSOURI COURT OF APPEALS, SOUTHERN DISTRICT"
         ],
         "system": "state",
@@ -21033,6 +21063,7 @@
         "notes": "",
         "parent": "moctapp",
         "regex": [
+            "${coa}${mo},? Western District",
             "MISSOURI COURT OF APPEALS, WESTERN DISTRICT"
         ],
         "system": "state",
@@ -21585,6 +21616,22 @@
     },
     {
         "case_types": [],
+        "citation_string": "Neb. Dist. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "nebdistct",
+        "level": "",
+        "location": "Nebraska",
+        "name": "Nebraska District Court",
+        "regex": [
+            "${d}${ne}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Bankr. D. Neb.",
         "court_url": "http://www.neb.uscourts.gov/",
         "dates": [
@@ -21710,7 +21757,9 @@
         "level": "gjc",
         "location": "Nevada",
         "name": "Nevada District Courts",
-        "regex": [],
+        "regex": [
+            "${d}${nv}(, .+ County)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -21895,6 +21944,22 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "N.H. Cir. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "nhcirct",
+        "level": "",
+        "location": "New Hampshire",
+        "name": "New Hampshire Circuit Court",
+        "regex": [
+            "\\d+(st|nd|rd|th) ${ccoa}${nh}(, .+)?"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -23355,7 +23420,8 @@
         "location": "New Jersey",
         "name": "New Jersey Superior Court",
         "regex": [
-            "New Jersey Superior Court, Law Division"
+            "New Jersey Superior Court, Law Division",
+            "${super}New Jersey(, .+ County(, .+ Division)?)?"
         ],
         "system": "state",
         "type": "trial"
@@ -27496,6 +27562,7 @@
         "name": "New York County Courts",
         "notes": "",
         "regex": [
+            "County (Court )?of ${ny}(, .+ County)?",
             "County Court of New York",
             "New York County Court",
             "NY County Ct",
@@ -30915,6 +30982,7 @@
             "New York Supreme Court Special Term",
             "Supreme Court of the State of New York",
             "Sup Ct, NY",
+            "${sup}\\d+(st|nd|rd|th) Judicial District of ${ny}(, .+ County)?",
             "${sup}${ny}(, .+ County)( - (Criminal|Civil) Term)?"
         ],
         "system": "state",
@@ -48154,6 +48222,1678 @@
     },
     {
         "case_types": [],
+        "citation_string": "Ohio Ct. App., Hamilton Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Hamilton County"
+        ],
+        "id": "ohctap1hamilto",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Hamilton County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Hamilton County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Champaign Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Champaign County"
+        ],
+        "id": "ohctap2champai",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Champaign County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Champaign County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Clark Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Clark County"
+        ],
+        "id": "ohctap2clark",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Clark County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Clark County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Darke Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Darke County"
+        ],
+        "id": "ohctap2darke",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Darke County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Darke County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Greene Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Greene County"
+        ],
+        "id": "ohctap2greene",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Greene County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Greene County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Miami Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Miami County"
+        ],
+        "id": "ohctap2miami",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Miami County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Miami County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Montgomery Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Montgomery County"
+        ],
+        "id": "ohctap2montgom",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Montgomery County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Montgomery County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Allen Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Allen County"
+        ],
+        "id": "ohctap3allen",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Allen County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Allen County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Auglaize Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Auglaize County"
+        ],
+        "id": "ohctap3auglaiz",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Auglaize County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Auglaize County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Crawford Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Crawford County"
+        ],
+        "id": "ohctap3crawfor",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Crawford County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Crawford County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Defiance Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Defiance County"
+        ],
+        "id": "ohctap3defianc",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Defiance County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Defiance County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Hancock Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Hancock County"
+        ],
+        "id": "ohctap3hancock",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Hancock County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Hancock County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Hardin Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Hardin County"
+        ],
+        "id": "ohctap3hardin",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Hardin County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Hardin County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Henry Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Henry County"
+        ],
+        "id": "ohctap3henry",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Henry County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Henry County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Logan Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Logan County"
+        ],
+        "id": "ohctap3logan",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Logan County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Logan County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Marion Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Marion County"
+        ],
+        "id": "ohctap3marion",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Marion County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Marion County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Mercer Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Mercer County"
+        ],
+        "id": "ohctap3mercer",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Mercer County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Mercer County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Paulding Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Paulding County"
+        ],
+        "id": "ohctap3pauldin",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Paulding County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Paulding County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Putnam Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Putnam County"
+        ],
+        "id": "ohctap3putnam",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Putnam County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Putnam County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Seneca Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Seneca County"
+        ],
+        "id": "ohctap3seneca",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Seneca County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Seneca County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Shelby Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Shelby County"
+        ],
+        "id": "ohctap3shelby",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Shelby County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Shelby County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Union Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Union County"
+        ],
+        "id": "ohctap3union",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Union County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Union County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Van Wert Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Van Wert County"
+        ],
+        "id": "ohctap3vanwert",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Van Wert County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Van Wert County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Wyandot Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Wyandot County"
+        ],
+        "id": "ohctap3wyandot",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Wyandot County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Wyandot County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Adams Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Adams County"
+        ],
+        "id": "ohctap4adams",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Adams County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Adams County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Athens Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Athens County"
+        ],
+        "id": "ohctap4athens",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Athens County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Athens County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Gallia Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Gallia County"
+        ],
+        "id": "ohctap4gallia",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Gallia County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Gallia County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Highland Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Highland County"
+        ],
+        "id": "ohctap4highlan",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Highland County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Highland County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Hocking Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Hocking County"
+        ],
+        "id": "ohctap4hocking",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Hocking County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Hocking County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Jackson Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Jackson County"
+        ],
+        "id": "ohctap4jackson",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Jackson County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Jackson County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Lawrence Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Lawrence County"
+        ],
+        "id": "ohctap4lawrenc",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Lawrence County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Lawrence County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Meigs Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Meigs County"
+        ],
+        "id": "ohctap4meigs",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Meigs County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Meigs County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Pickaway Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Pickaway County"
+        ],
+        "id": "ohctap4pickawa",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Pickaway County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Pickaway County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Pike Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Pike County"
+        ],
+        "id": "ohctap4pike",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Pike County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Pike County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Ross Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Ross County"
+        ],
+        "id": "ohctap4ross",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ross County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Ross County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Scioto Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Scioto County"
+        ],
+        "id": "ohctap4scioto",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Scioto County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Scioto County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Vinton Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Vinton County"
+        ],
+        "id": "ohctap4vinton",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Vinton County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Vinton County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Washington Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Washington County"
+        ],
+        "id": "ohctap4washing",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Washington County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Washington County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Ashland Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Ashland County"
+        ],
+        "id": "ohctap5ashland",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ashland County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Ashland County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Coshocton Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Coshocton County"
+        ],
+        "id": "ohctap5coshoct",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Coshocton County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Coshocton County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Delaware Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Delaware County"
+        ],
+        "id": "ohctap5delawar",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Delaware County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Delaware County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Fairfield Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Fairfield County"
+        ],
+        "id": "ohctap5fairfie",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fairfield County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Fairfield County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Guernsey Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Guernsey County"
+        ],
+        "id": "ohctap5guernse",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Guernsey County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Guernsey County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Holmes Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Holmes County"
+        ],
+        "id": "ohctap5holmes",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Holmes County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Holmes County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Knox Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Knox County"
+        ],
+        "id": "ohctap5knox",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Knox County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Knox County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Licking Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Licking County"
+        ],
+        "id": "ohctap5licking",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Licking County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Licking County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Morgan Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Morgan County"
+        ],
+        "id": "ohctap5morgan",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Morgan County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Morgan County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Morrow Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Morrow County"
+        ],
+        "id": "ohctap5morrow",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Morrow County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Morrow County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Muskingum Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Muskingum County"
+        ],
+        "id": "ohctap5musking",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Muskingum County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Muskingum County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Perry Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Perry County"
+        ],
+        "id": "ohctap5perry",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Perry County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Perry County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Richland Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Richland County"
+        ],
+        "id": "ohctap5richlan",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Richland County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Richland County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Stark Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Stark County"
+        ],
+        "id": "ohctap5stark",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Stark County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Stark County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Tuscarawas Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Tuscarawas County"
+        ],
+        "id": "ohctap5tuscara",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Tuscarawas County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Tuscarawas County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Erie Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Erie County"
+        ],
+        "id": "ohctap6erie",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Erie County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Erie County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Fulton Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Fulton County"
+        ],
+        "id": "ohctap6fulton",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fulton County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Fulton County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Huron Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Huron County"
+        ],
+        "id": "ohctap6huron",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Huron County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Huron County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Lucas Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Lucas County"
+        ],
+        "id": "ohctap6lucas",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Lucas County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Lucas County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Ottawa Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Ottawa County"
+        ],
+        "id": "ohctap6ottawa",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ottawa County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Ottawa County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Sandusky Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Sandusky County"
+        ],
+        "id": "ohctap6sandusk",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Sandusky County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Sandusky County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Williams Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Williams County"
+        ],
+        "id": "ohctap6william",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Williams County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Williams County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Wood Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Wood County"
+        ],
+        "id": "ohctap6wood",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Wood County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Wood County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Belmont Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Belmont County"
+        ],
+        "id": "ohctap7belmont",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Belmont County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Belmont County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Carroll Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Carroll County"
+        ],
+        "id": "ohctap7carroll",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Carroll County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Carroll County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Columbiana Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Columbiana County"
+        ],
+        "id": "ohctap7columbi",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Columbiana County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Columbiana County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Harrison Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Harrison County"
+        ],
+        "id": "ohctap7harriso",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Harrison County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Harrison County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Jefferson Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Jefferson County"
+        ],
+        "id": "ohctap7jeffers",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Jefferson County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Jefferson County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Mahoning Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Mahoning County"
+        ],
+        "id": "ohctap7mahonin",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Mahoning County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Mahoning County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Monroe Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Monroe County"
+        ],
+        "id": "ohctap7monroe",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Monroe County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Monroe County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Noble Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Noble County"
+        ],
+        "id": "ohctap7noble",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Noble County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Noble County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Cuyahoga Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Cuyahoga County"
+        ],
+        "id": "ohctap8cuyahog",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Cuyahoga County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Cuyahoga County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Lorain Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Lorain County"
+        ],
+        "id": "ohctap9lorain",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Lorain County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Lorain County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Medina Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Medina County"
+        ],
+        "id": "ohctap9medina",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Medina County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Medina County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Summit Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Summit County"
+        ],
+        "id": "ohctap9summit",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Summit County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Summit County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Wayne Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Wayne County"
+        ],
+        "id": "ohctap9wayne",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Wayne County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Wayne County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Franklin Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Franklin County"
+        ],
+        "id": "ohctap10frankli",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Franklin County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Franklin County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Ashtabula Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Ashtabula County"
+        ],
+        "id": "ohctap11ashtabu",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Ashtabula County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Ashtabula County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Geauga Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Geauga County"
+        ],
+        "id": "ohctap11geauga",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Geauga County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Geauga County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Lake Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Lake County"
+        ],
+        "id": "ohctap11lake",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Lake County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Lake County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Portage Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Portage County"
+        ],
+        "id": "ohctap11portage",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Portage County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Portage County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Trumbull Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Trumbull County"
+        ],
+        "id": "ohctap11trumbul",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Trumbull County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Trumbull County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Brown Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Brown County"
+        ],
+        "id": "ohctap12brown",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Brown County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Brown County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Butler Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Butler County"
+        ],
+        "id": "ohctap12butler",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Butler County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Butler County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Clermont Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Clermont County"
+        ],
+        "id": "ohctap12clermon",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Clermont County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Clermont County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Clinton Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Clinton County"
+        ],
+        "id": "ohctap12clinton",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Clinton County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Clinton County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Fayette Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Fayette County"
+        ],
+        "id": "ohctap12fayette",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Fayette County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Fayette County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Madison Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Madison County"
+        ],
+        "id": "ohctap12madison",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Madison County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Madison County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Preble Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Preble County"
+        ],
+        "id": "ohctap12preble",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Preble County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Preble County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Ohio Ct. App., Warren Cty.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "Court of Appeals of Ohio, Warren County"
+        ],
+        "id": "ohctap12warren",
+        "level": "",
+        "location": "Ohio",
+        "name": "Court of Appeals of Ohio, Warren County",
+        "parent": "ohioctapp",
+        "regex": [
+            "${coa}${oh},? Warren County"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
         "citation_string": "Oh. Ct. App. 8th Dist.",
         "court_url": "",
         "dates": [
@@ -53170,6 +54910,7 @@
         "location": "Oklahoma",
         "name": "Court of Civil Appeals of Oklahoma",
         "regex": [
+            "Court of Civil Appeals? (of )?${ok},? (First|Second|Third|Fourth) Division",
             "Court of Civils? Appeals? of Oklahoma",
             "Oklahoma Court of Civil Appeals?",
             "Court of Appeals?,? (civil )?(of )?(State )?(of )?Oklahoma",
@@ -53495,7 +55236,9 @@
         "level": "gjc",
         "location": "Oregon",
         "name": "Circuit Courts of Oregon",
-        "regex": [],
+        "regex": [
+            "${ccoa}${or}(, .+ County)?"
+        ],
         "system": "state",
         "type": "trial"
     },
@@ -62055,10 +63798,27 @@
             "Apelaciones De Puerto Rico",
             "Estado Libre Asocian?do De Puerto Rico",
             "Puerto Rico Circuit Court of Appeals",
-            "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam"
+            "Tribunal Circuíto De Apelaciones De Puerto Rico CircuíTo Regional Ii Bayam",
+            "${coa} Puerto Rico"
         ],
         "system": "federal",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "P.R. Super. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "prsupct",
+        "level": "",
+        "location": "Puerto Rico",
+        "name": "Superior Court of Puerto Rico",
+        "regex": [
+            "${super}Puerto Rico(, .+)?"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -62169,6 +63929,7 @@
         "location": "Rhode Island",
         "name": "Superior Court of Rhode Island",
         "regex": [
+            "${super}${ri}(, .+ County)?",
             "State of Rhode Island, Superior Court",
             "Superior Court of Rhode Island",
             "Rhode Island Superior Court",
@@ -62644,6 +64405,22 @@
     },
     {
         "case_types": [],
+        "citation_string": "S.D. Cir. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "sdcirct",
+        "level": "",
+        "location": "South Dakota",
+        "name": "South Dakota Circuit Court",
+        "regex": [
+            "${ccoa}${sdak}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Bankr. D.S.D.",
         "court_url": "https://ecf.sdb.uscourts.gov/",
         "dates": [
@@ -62873,6 +64650,38 @@
     },
     {
         "case_types": [],
+        "citation_string": "Tenn. Cir. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "tenncirct",
+        "level": "",
+        "location": "Tennessee",
+        "name": "Tennessee Circuit Court",
+        "regex": [
+            "${ccoa}${tn}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tenn. Ch. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "tennchanct",
+        "level": "",
+        "location": "Tennessee",
+        "name": "Tennessee Chancery Court",
+        "regex": [
+            "Chancery Court of ${tn}(, \\d+(st|nd|rd|th) Judicial District)?"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Tenn. Ct. App.",
         "court_url": "http://www.tncourts.gov/courts/court-appeals",
         "dates": [
@@ -62890,6 +64699,7 @@
         "location": "Tennessee",
         "name": "Court of Appeals of Tennessee",
         "regex": [
+            "${coa}${tn},? (Eastern|Middle|Western) (Division|Section)",
             "Court of Appeals? (of )?Tennessee",
             "Tennessee Court of Appeals",
             "${coa} ${tn}",
@@ -62920,6 +64730,7 @@
         "location": "Tennessee",
         "name": "Court of Criminal Appeals of Tennessee",
         "regex": [
+            "Court of Criminal Appeals? (of )?${tn},? (Eastern|Middle|Western) (Division|Section)",
             "Court of Criminal Appeals? (of) ?Tennessee",
             "Court of Criminal Appeals Tennessee",
             "Tennessee Court of Criminal Appeals",
@@ -62996,6 +64807,7 @@
         "location": "Tennessee",
         "name": "Tennessee Supreme Court",
         "regex": [
+            "${sup}${tn},? (Eastern|Middle|Western) (Division|Section)",
             "${sup} Tennessee",
             "${sup} Errors and Appeals, Nashville",
             "(State of)? ?Tennessee ${sup}",
@@ -63441,6 +65253,49 @@
         ],
         "system": "federal",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. Dist. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "139th District Court of Texas, Hidalgo County",
+            "178th District Court of Texas, Harris County",
+            "184th District Court of Texas, Harris County",
+            "272nd District Court of Texas, Brazos County",
+            "3rd District Court of Texas, Anderson County",
+            "Criminal District Court No.1 of Dallas County, Texas"
+        ],
+        "id": "texdistct",
+        "level": "",
+        "location": "Texas",
+        "name": "Texas District Courts",
+        "regex": [
+            "((\\d+)(st|nd|rd|th) )?(Criminal )?${d}${tx}(, .+ County)?",
+            "Criminal District Court No\\.\\d+ of .+ County, Texas"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Tex. Cnty. Ct. at Law",
+        "court_url": "",
+        "dates": [],
+        "examples": [
+            "County Court at Law 2, Montgomery County, Texas",
+            "County Court at Law No. 2, Collin County, Texas"
+        ],
+        "id": "texcntyct",
+        "level": "",
+        "location": "Texas",
+        "name": "Texas County Courts at Law",
+        "regex": [
+            "County Court at Law( No\\.)? ?\\d+, .+ County, Texas"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63986,6 +65841,22 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Utah Dist. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "utahdistct",
+        "level": "",
+        "location": "Utah",
+        "name": "Utah District Court",
+        "regex": [
+            "${d}${ut}(, .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "active": false,
@@ -64697,7 +66568,8 @@
         "location": "Virginia",
         "name": "Virginia Circuit Courts",
         "regex": [
-            "Virginia Circuit Court"
+            "Virginia Circuit Court",
+            "${ccoa}${va}(, (City of .+|.+ County))?"
         ],
         "system": "state",
         "type": "trial"
@@ -68019,6 +69891,7 @@
         "location": "Washington",
         "name": "Washingon Superior Court",
         "regex": [
+            "${super}${wa}(, .+ County)?",
             "State of Washington Superior Court ?(At Law)?",
             "State of Washingon Superior Court Department One"
         ],
@@ -69539,6 +71412,7 @@
         "location": "Wisconsin",
         "name": "Court of Appeals of Wisconsin",
         "regex": [
+            "${coa}${wi},? District (I{1,3}V?|IV)",
             "Court of Appeals? (of ?){1,2} Wisconsin",
             "Wisconsin Court of Appeals",
             "Court Appeals of Wisconsin",
@@ -69842,6 +71716,22 @@
         ],
         "system": "state",
         "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Wyo. Dist. Ct.",
+        "court_url": "",
+        "dates": [],
+        "examples": [],
+        "id": "wydistct",
+        "level": "",
+        "location": "Wyoming",
+        "name": "Wyoming District Court",
+        "regex": [
+            "${d}${wy}(,? .+ County)?"
+        ],
+        "system": "state",
+        "type": "trial"
     },
     {
         "active": true,
