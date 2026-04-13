@@ -6,7 +6,7 @@
 
 ## Upcoming Changes
 
--
+- Add missing lower courts found in SCOTUS scrape.
 
 
 ## Current Version
