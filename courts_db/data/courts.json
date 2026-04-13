@@ -2366,7 +2366,8 @@
         "regex": [
             "State of California Superior Court County of Los Angeles",
             "Superior Court Los Angeles County California",
-            "California Superior Court County of Los Angeles"
+            "California Superior Court County of Los Angeles",
+            "${super}${ca}(,? (County of .+|.+ County))$$"
         ],
         "system": "state",
         "type": "trial"
@@ -2395,8 +2396,7 @@
         "parent": "calsuperct",
         "regex": [
             "Superior Court,? in and for the City and County of San (Francisco|Francsico), State of California",
-            "Probate Court of the City and County of San Francisco",
-            "${super}${ca}(,? (County of .+|.+ County))$$"
+            "Probate Court of the City and County of San Francisco"
         ],
         "system": "state",
         "type": "trial"
@@ -18078,7 +18078,7 @@
         "name": "Massachusetts Superior Court",
         "regex": [
             "${super}${ma}(, .+ County)?",
-            "Massachusetts {super}",
+            "Massachusetts ${super}",
             "State of Massachusetts Superior Court",
             "Superior Court of Massachusetts"
         ],
@@ -24632,12 +24632,11 @@
         "level": "",
         "location": "New Mexico",
         "name": "New Mexico District Court",
-        "parent": "usdistct",
         "regex": [
             "${d}${nm}(, .+? County)?"
         ],
-        "system": "federal",
-        "type": "appellate"
+        "system": "state",
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -49917,7 +49916,7 @@
             "OHIO EIGHTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -49944,7 +49943,7 @@
             "OHIO ELEVENTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -49971,7 +49970,7 @@
             "OHIO FIFTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -49998,7 +49997,7 @@
             "OHIO FIRST DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50025,7 +50024,7 @@
             "OHIO FOURTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50052,7 +50051,7 @@
             "OHIO NINTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50079,7 +50078,7 @@
             "OHIO SECOND DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50106,7 +50105,7 @@
             "OHIO SEVENTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50133,7 +50132,7 @@
             "OHIO SIXTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50160,7 +50159,7 @@
             "OHIO TENTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50187,7 +50186,7 @@
             "OHIO THIRD DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -50214,7 +50213,7 @@
             "OHIO TWELFTH DISTRICT COURT OF APPEALS"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52395,7 +52394,7 @@
             "Hamilton County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52423,7 +52422,7 @@
             "Court of Appeals of Ohio, Tenth District, Franklin County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52451,7 +52450,7 @@
             "Ashtabula County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52477,7 +52476,7 @@
             "Court of Appeals of Ohio, Eleventh District, Geauga County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52503,7 +52502,7 @@
             "Court of Appeals of Ohio, Eleventh District, Lake County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52529,7 +52528,7 @@
             "Court of Appeals of Ohio, Eleventh District, Portage County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52555,7 +52554,7 @@
             "Court of Appeals of Ohio, Eleventh District, Trumbull County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52581,7 +52580,7 @@
             "Court of Appeals of Ohio, Twelfth District, Brown County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52609,7 +52608,7 @@
             "Court of Appeals of Ohio, Twelfth District, Butler County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52635,7 +52634,7 @@
             "Court of Appeals of Ohio, Twelfth District, Clermont County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52663,7 +52662,7 @@
             "Clinton County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52689,7 +52688,7 @@
             "Court of Appeals of Ohio, Twelfth District, Fayette County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52715,7 +52714,7 @@
             "Court of Appeals of Ohio, Twelfth District, Madison County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52741,7 +52740,7 @@
             "Court of Appeals of Ohio, Twelfth District, Preble County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52767,7 +52766,7 @@
             "Court of Appeals of Ohio, Twelfth District, Warren County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52793,7 +52792,7 @@
             "Court of Appeals of Ohio, Second District, Champaign County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52819,7 +52818,7 @@
             "Court of Appeals of Ohio, Second District, Clark County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52845,7 +52844,7 @@
             "Court of Appeals of Ohio, Second District, Darke County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52899,7 +52898,7 @@
             "Court of Appeals of Ohio, Second District, Miami County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52925,7 +52924,7 @@
             "Court of Appeals of Ohio, Second District, Montgomery County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52951,7 +52950,7 @@
             "Court of Appeals of Ohio, Third District, Allen County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -52977,7 +52976,7 @@
             "Court of Appeals of Ohio, Third District, Auglaize County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53003,7 +53002,7 @@
             "Court of Appeals of Ohio, Third District, Crawford County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53029,7 +53028,7 @@
             "Court of Appeals of Ohio, Third District, Defiance County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53055,7 +53054,7 @@
             "Court of Appeals of Ohio, Third District, Hancock County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53081,7 +53080,7 @@
             "Court of Appeals of Ohio, Third District, Hardin County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53107,7 +53106,7 @@
             "Court of Appeals of Ohio, Third District, Henry County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53133,7 +53132,7 @@
             "Court of Appeals of Ohio, Third District, Logan County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53159,7 +53158,7 @@
             "Court of Appeals of Ohio, Third District, Marion County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53185,7 +53184,7 @@
             "Court of Appeals of Ohio, Third District, Mercer County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53211,7 +53210,7 @@
             "Court of Appeals of Ohio, Third District, Paulding County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53237,7 +53236,7 @@
             "Court of Appeals of Ohio, Third District, Putnam County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53263,7 +53262,7 @@
             "Court of Appeals of Ohio, Third District, Seneca County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53289,7 +53288,7 @@
             "Court of Appeals of Ohio, Third District, Shelby County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53315,7 +53314,7 @@
             "Court of Appeals of Ohio, Third District, Union County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53341,7 +53340,7 @@
             "Court of Appeals of Ohio, Third District, Van Wert County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53367,7 +53366,7 @@
             "Court of Appeals of Ohio, Third District, Wyandot County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53393,7 +53392,7 @@
             "Court of Appeals of Ohio, Fourth District, Adams County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53419,7 +53418,7 @@
             "Court of Appeals of Ohio, Fourth District, Athens County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53445,7 +53444,7 @@
             "Court of Appeals of Ohio, Fourth District, Gallia County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53471,7 +53470,7 @@
             "Court of Appeals of Ohio, Fourth District, Highland County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53497,7 +53496,7 @@
             "Court of Appeals of Ohio, Fourth District, Hocking County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53523,7 +53522,7 @@
             "Court of Appeals of Ohio, Fourth District, Jackson County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53551,7 +53550,7 @@
             "Court of Appeals of Ohio, Fourth District, Lawrence County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53577,7 +53576,7 @@
             "Court of Appeals of Ohio, Fourth District, Meigs County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53603,7 +53602,7 @@
             "Court of Appeals of Ohio, Fourth District, Pickaway County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53629,7 +53628,7 @@
             "Court of Appeals of Ohio, Fourth District, Pike County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53655,7 +53654,7 @@
             "Court of Appeals of Ohio, Fourth District, Ross County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53681,7 +53680,7 @@
             "Court of Appeals of Ohio, Fourth District, Scioto County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53707,7 +53706,7 @@
             "Court of Appeals of Ohio, Fourth District, Vinton County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53733,7 +53732,7 @@
             "Court of Appeals of Ohio, Fourth District, Washington County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53759,7 +53758,7 @@
             "Court of Appeals of Ohio, Fifth District, Ashland County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53785,7 +53784,7 @@
             "Court of Appeals of Ohio, Fifth District, Coshocton County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53813,7 +53812,7 @@
             "Delaware County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53839,7 +53838,7 @@
             "Court of Appeals of Ohio, Fifth District, Fairfield County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53867,7 +53866,7 @@
             "Guernsey County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53893,7 +53892,7 @@
             "Court of Appeals of Ohio, Fifth District, Holmes County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53921,7 +53920,7 @@
             "Court of Appeals of Ohio, Fifth District, Knox County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53949,7 +53948,7 @@
             "Licking County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -53975,7 +53974,7 @@
             "Court of Appeals of Ohio, Fifth District, Morgan County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54001,7 +54000,7 @@
             "Court of Appeals of Ohio, Fifth District, Morrow County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54027,7 +54026,7 @@
             "Court of Appeals of Ohio, Fifth District, Muskingum County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54053,7 +54052,7 @@
             "Court of Appeals of Ohio, Fifth District, Richland County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54081,7 +54080,7 @@
             "Court of Appeals of Ohio, Fifth District, Stark County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54107,7 +54106,7 @@
             "Court of Appeals of Ohio, Fifth District, Tuscarawas County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54133,7 +54132,7 @@
             "Court of Appeals of Ohio, Sixth District, Erie County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54159,7 +54158,7 @@
             "Court of Appeals of Ohio, Sixth District, Fulton County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54187,7 +54186,7 @@
             "Court of Appeals of Ohio, Sixth District, Huron County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54217,7 +54216,7 @@
             "Lucas County District Court"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54243,7 +54242,7 @@
             "Court of Appeals of Ohio, Sixth District, Ottawa County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54269,7 +54268,7 @@
             "Court of Appeals of Ohio, Sixth District, Sandusky County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54295,7 +54294,7 @@
             "Court of Appeals of Ohio, Sixth District, Williams County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54323,7 +54322,7 @@
             "Court of Appeals of Ohio, Sixth District, Wood County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54349,7 +54348,7 @@
             "Court of Appeals of Ohio, Seventh District, Belmont County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54375,7 +54374,7 @@
             "Court of Appeals of Ohio, Seventh District, Carroll County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54401,7 +54400,7 @@
             "Court of Appeals of Ohio, Seventh District, Columbiana County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54429,7 +54428,7 @@
             "Court of Appeals of Ohio, Seventh District, Harrison County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54457,7 +54456,7 @@
             "Jefferson County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54485,7 +54484,7 @@
             "Mahoning County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54511,7 +54510,7 @@
             "Court of Appeals of Ohio, Seventh District, Monroe County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54537,7 +54536,7 @@
             "Court of Appeals of Ohio, Seventh District, Noble County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54565,7 +54564,7 @@
             "Cuyahoga County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54591,7 +54590,7 @@
             "Court of Appeals of Ohio, Ninth District, Lorain County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54617,7 +54616,7 @@
             "Court of Appeals of Ohio, Ninth District, Medina County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54645,7 +54644,7 @@
             "Summit County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
@@ -54673,7 +54672,7 @@
             "Wayne County Court of Appeals"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "active": false,
@@ -71412,7 +71411,7 @@
         "location": "Wisconsin",
         "name": "Court of Appeals of Wisconsin",
         "regex": [
-            "${coa}${wi},? District (I{1,3}V?|IV)",
+            "${coa}${wi},? District (I{1,3}|IV)",
             "Court of Appeals? (of ?){1,2} Wisconsin",
             "Wisconsin Court of Appeals",
             "Court Appeals of Wisconsin",
