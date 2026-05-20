@@ -18,7 +18,7 @@
         "name_abbreviation": null,
         "regex": [
             "Alabama Circuit Courts",
-            "${ccoa}${al}(, .+ County)?"
+            "${crct} ${al}(, .+ County)?"
         ],
         "sub_names": [
             "Numbered 1-41"
@@ -1924,6 +1924,7 @@
         "name_abbreviation": null,
         "regex": [
             "California District Court of Appeal",
+            "Court of Appeal of California",
             "Court of Appeal of the State of California",
             "California Court of Appeal",
             "District Court of Appeal of the State of California"
@@ -1960,7 +1961,7 @@
         "regex": [
             "Court of Appeal, Fifth Appellate District",
             "Court of Appeal, Fifth District, California",
-            "${coa} ${ca},? ${5} Appellate District(, Division .+)?"
+            "${ccoa} ${ca},? ${5-5} Appellate District(, Division .+)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -1989,7 +1990,7 @@
             "Court of Appeal, First District, Division [1-5], California",
             "California Court of Appeal, First Appellate District",
             "CALIFORNIA COURT OF APPEAL, FIRST APPELLATE DISTRICT, DIVISION (ONE|TWO|THREE|FOUR)",
-            "${coa} ${ca},? ${1} Appellate District(, Division .+)?"
+            "${ccoa} ${ca},? ${1-1} Appellate District(, Division .+)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -2016,7 +2017,7 @@
             "Court of Appeal, Fourth Appellate District",
             "Court of Appeal, Fourth District, Division [1-3], California",
             "CALIFORNIA COURT OF APPEAL, FOURTH APPELLATE DISTRICT, DIVISION (ONE|TWO|THREE)",
-            "${coa} ${ca},? ${4} Appellate District(, Division .+)?"
+            "${ccoa} ${ca},? ${4-4} Appellate District(, Division .+)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -2043,7 +2044,7 @@
             "Court of Appeal, Second District, California",
             "Court of Appeal, Second District, Division [1-8], California",
             "CALIFORNIA COURT OF APPEAL, SECOND APPELLATE DISTRICT, DIVISION (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT)",
-            "${coa} ${ca},? ${2} Appellate District(, Division .+)?"
+            "${ccoa} ${ca},? ${2-2} Appellate District(, Division .+)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -2068,7 +2069,7 @@
         "parent": "calctapp",
         "regex": [
             "Court of Appeal, Sixth District, California",
-            "${coa} ${ca},? ${6} Appellate District(, Division .+)?"
+            "${ccoa} ${ca},? ${6-6} Appellate District(, Division .+)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -2093,7 +2094,7 @@
         "parent": "calctapp",
         "regex": [
             "Court of Appeal, Third District, California",
-            "${coa} ${ca},? ${3} Appellate District(, Division .+)?"
+            "${ccoa} ${ca},? ${3-3} Appellate District(, Division .+)?"
         ],
         "system": "state",
         "type": "appellate"
@@ -18821,7 +18822,7 @@
         "parent": "micirct",
         "regex": [
             "Kent (County)? ?Circuit Court",
-            "${ccoa}${mi}, Kent( County)?"
+            "${crct}${mi}, Kent( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18868,7 +18869,7 @@
         "parent": "micirct",
         "regex": [
             "Benzie (County)? ?Circuit Court",
-            "${ccoa}${mi}, Benzie( County)?",
+            "${crct}${mi}, Benzie( County)?",
             "Manistee (County)? ?Circuit Court"
         ],
         "system": "state",
@@ -18916,7 +18917,7 @@
         "parent": "micirct",
         "regex": [
             "Ottawa (County)? ?Circuit Court",
-            "${ccoa}${mi}, Ottawa( County)?"
+            "${crct}${mi}, Ottawa( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18940,7 +18941,7 @@
         "parent": "micirct",
         "regex": [
             "Isabella (County)? ?Circuit Court",
-            "${ccoa}${mi}, Isabella( County)?"
+            "${crct}${mi}, Isabella( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -18964,7 +18965,7 @@
         "parent": "micirct",
         "regex": [
             "Washtenaw (County)? ?Circuit Court",
-            "${ccoa}${mi}, Washtenaw( County)?"
+            "${crct}${mi}, Washtenaw( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19157,7 +19158,7 @@
         "parent": "micirct",
         "regex": [
             "Berrien (County)? ?Circuit Court",
-            "${ccoa}${mi}, Berrien( County)?"
+            "${crct}${mi}, Berrien( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19181,7 +19182,7 @@
         "parent": "micirct",
         "regex": [
             "Ingham (County)? ?Circuit Court",
-            "${ccoa}${mi}, Ingham( County)?"
+            "${crct}${mi}, Ingham( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19299,7 +19300,7 @@
         "parent": "micirct",
         "regex": [
             "Shiawassee? (County)? ?Circuit Court",
-            "${ccoa}${mi}, Shiawassee( County)?"
+            "${crct}${mi}, Shiawassee( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19323,7 +19324,7 @@
         "parent": "micirct",
         "regex": [
             "Van Buren (County)? ?Circuit Court",
-            "${ccoa}${mi}, Van Buren( County)?"
+            "${crct}${mi}, Van Buren( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19414,7 +19415,7 @@
         "parent": "micirct",
         "regex": [
             "Wayne (County)? ?Circuit Court",
-            "${ccoa}${mi}, Wayne( County)?(, Criminal Division)?"
+            "${crct}${mi}, Wayne( County)?(, Criminal Division)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19438,7 +19439,7 @@
         "parent": "micirct",
         "regex": [
             "Lapeer (County)? ?Circuit Court",
-            "${ccoa}${mi}, Lapeer( County)?"
+            "${crct}${mi}, Lapeer( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19510,7 +19511,7 @@
         "parent": "micirct",
         "regex": [
             "Cass (County)? ?Circuit Court",
-            "${ccoa}${mi}, Cass( County)?"
+            "${crct}${mi}, Cass( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19534,7 +19535,7 @@
         "parent": "micirct",
         "regex": [
             "Livingston (County)? ?Circuit Court",
-            "${ccoa}${mi}, Livingston( County)?"
+            "${crct}${mi}, Livingston( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19558,7 +19559,7 @@
         "parent": "micirct",
         "regex": [
             "St\\. Joseph (County)? ?Circuit Court",
-            "${ccoa}${mi}, St\\. Joseph( County)?"
+            "${crct}${mi}, St\\. Joseph( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19677,7 +19678,7 @@
         "parent": "micirct",
         "regex": [
             "Jackson (County)? ?Circuit Court",
-            "${ccoa}${mi}, Jackson( County)?"
+            "${crct}${mi}, Jackson( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19748,7 +19749,7 @@
         "parent": "micirct",
         "regex": [
             "Huron (County)? ?Circuit Court",
-            "${ccoa}${mi}, Huron( County)?"
+            "${crct}${mi}, Huron( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19796,7 +19797,7 @@
         "parent": "micirct",
         "regex": [
             "Tuscola (County)? ?Circuit Court",
-            "${ccoa}${mi}, Tuscola( County)?"
+            "${crct}${mi}, Tuscola( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19844,7 +19845,7 @@
         "parent": "micirct",
         "regex": [
             "Eaton (County)? ?Circuit Court",
-            "${ccoa}${mi}, Eaton( County)?"
+            "${crct}${mi}, Eaton( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19914,7 +19915,7 @@
         "parent": "micirct",
         "regex": [
             "Oakland (County)? ?Circuit Court",
-            "${ccoa}${mi}, Oakland( County)?"
+            "${crct}${mi}, Oakland( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19938,7 +19939,7 @@
         "parent": "micirct",
         "regex": [
             "Genesee (County)? ?Circuit Court",
-            "${ccoa}${mi}, Genesee( County)?"
+            "${crct}${mi}, Genesee( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -19986,7 +19987,7 @@
         "parent": "micirct",
         "regex": [
             "Kalamazoo (County)? ?Circuit Court",
-            "${ccoa}${mi}, Kalamazoo( County)?"
+            "${crct}${mi}, Kalamazoo( County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -20627,7 +20628,7 @@
         "location": "Mississippi",
         "name": "Mississippi Circuit Courts",
         "regex": [
-            "${ccoa}${ms}(, .+ County)?"
+            "${crct}${ms}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -55241,7 +55242,7 @@
         "location": "Oregon",
         "name": "Circuit Courts of Oregon",
         "regex": [
-            "${ccoa}${or}(, .+ County)?"
+            "${crct}${or}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -64418,7 +64419,7 @@
         "location": "South Dakota",
         "name": "South Dakota Circuit Court",
         "regex": [
-            "${ccoa}${sdak}(, .+ County)?"
+            "${crct}${sdak}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -64663,7 +64664,7 @@
         "location": "Tennessee",
         "name": "Tennessee Circuit Court",
         "regex": [
-            "${ccoa}${tn}(, .+ County)?"
+            "${crct}${tn}(, .+ County)?"
         ],
         "system": "state",
         "type": "trial"
@@ -66573,7 +66574,7 @@
         "name": "Virginia Circuit Courts",
         "regex": [
             "Virginia Circuit Court",
-            "${ccoa}${va}(, (City of .+|.+ County))?"
+            "${crct}${va}(, (City of .+|.+ County))?"
         ],
         "system": "state",
         "type": "trial"
@@ -71245,7 +71246,7 @@
         "location": "West Virginia",
         "name": "West Virginia Circuit Court",
         "regex": [
-            "${ccoa}${wv}(, .+ County)?",
+            "${crct}${wv}(, .+ County)?",
             "Family Court of ${wv}(, .+ County)?"
         ],
         "system": "state",
