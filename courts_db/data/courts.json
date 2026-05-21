@@ -22400,13 +22400,13 @@
     },
     {
         "case_types": [],
-        "citation_string": null,
+        "citation_string": "",
         "court_url": "",
         "dates": [],
         "examples": [
             "9th Circuit Court of New Hampshire, District Division-Nashua"
         ],
-        "id": "nhcirct9d",
+        "id": "nhcirct9",
         "level": "",
         "location": "New Hampshire",
         "name": "New Hampshire Circuit Court",
