@@ -8,7 +8,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Alabama, Jefferson County",
+            "Circuit Court of Alabama, Mobile County"
+        ],
         "id": "alacirct",
         "jurisdiction": "A.L.",
         "level": "gjc",
@@ -662,7 +665,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Superior Court of Alaska, 3rd Judicial District",
+            "Superior Court of Alaska, 4th Judicial District"
+        ],
         "id": "aksuperct",
         "jurisdiction": null,
         "level": "gjc",
@@ -825,7 +831,10 @@
                 "start": "1965-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeals of Arizona, Division One",
+            "Court of Appeals of Arizona, Division Two"
+        ],
         "id": "arizctapp",
         "jurisdiction": "A.Z.",
         "level": "iac",
@@ -881,7 +890,14 @@
             }
         ],
         "division_type": "county",
-        "examples": [],
+        "examples": [
+            "Superior Court of Arizona, Coconino County",
+            "Superior Court of Arizona, Maricopa County",
+            "Superior Court of Arizona, Mohave County",
+            "Superior Court of Arizona, Pima County",
+            "Superior Court of Arizona, Pinal County",
+            "Superior Court of Arizona, Yavapai County"
+        ],
         "id": "azsuperct",
         "jurisdiction": "A.Z.",
         "level": "gjc",
@@ -1950,7 +1966,9 @@
                 "start": "1905-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeal of California, Fifth Appellate District"
+        ],
         "id": "calctapp5d",
         "jurisdiction": "C.A.",
         "level": "iac",
@@ -1976,7 +1994,9 @@
                 "start": "1905-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeal of California, First Appellate District"
+        ],
         "id": "calctapp1d",
         "jurisdiction": "C.A.",
         "level": "iac",
@@ -2005,7 +2025,12 @@
                 "start": "1905-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeal of California, Fourth Appellate District",
+            "Court of Appeal of California, Fourth Appellate District, Division One",
+            "Court of Appeal of California, Fourth Appellate District, Division Three",
+            "Court of Appeal of California, Fourth Appellate District, Division Two"
+        ],
         "id": "calctapp4d",
         "jurisdiction": "C.A.",
         "level": "iac",
@@ -2032,7 +2057,9 @@
                 "start": "1905-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeal of California, Second Appellate District"
+        ],
         "id": "calctapp2d",
         "jurisdiction": "C.A.",
         "level": "iac",
@@ -2059,7 +2086,9 @@
                 "start": "1905-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeal of California, Sixth Appellate District"
+        ],
         "id": "calctapp6d",
         "jurisdiction": "C.A.",
         "level": "iac",
@@ -2084,7 +2113,9 @@
                 "start": "1905-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeal of California, Third Appellate District"
+        ],
         "id": "calctapp3d",
         "jurisdiction": "C.A.",
         "level": "iac",
@@ -2358,9 +2389,166 @@
             }
         ],
         "examples": [
+            "Superior Court of California Ventura County"
+        ],
+        "id": "calsuppctventur",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Ventura Superior Court",
+        "name_abbreviation": null,
+        "parent": "calsuperct",
+        "regex": [
+            "${super}${ca},?( County of)? Ventura( County)?$$"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Superior Court of California, Contra Costa County"
+        ],
+        "id": "calsuppctcontra",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Contra Costa Superior Court",
+        "name_abbreviation": null,
+        "parent": "calsuperct",
+        "regex": [
+            "${super}${ca},?( County of)? Contra Costa( County)?$$"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Superior Court of California, Orange County"
+        ],
+        "id": "calsuppctorange",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Orange Superior Court",
+        "name_abbreviation": null,
+        "parent": "calsuperct",
+        "regex": [
+            "${super}${ca},?( County of)? Orange( County)?$$"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Superior Court of California, Sacramento County"
+        ],
+        "id": "calsuppctsacram",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Sacramento Superior Court",
+        "name_abbreviation": null,
+        "parent": "calsuperct",
+        "regex": [
+            "${super}${ca},?( County of)? Sacramento( County)?$$"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Superior Court of California, Solano County"
+        ],
+        "id": "calsuppctsolano",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Solano Superior Court",
+        "name_abbreviation": null,
+        "parent": "calsuperct",
+        "regex": [
+            "${super}${ca},?( County of)? Solano( County)?$$"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Superior Court of California, Sonoma County"
+        ],
+        "id": "calsuppctsonoma",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Sonoma Superior Court",
+        "name_abbreviation": null,
+        "parent": "calsuperct",
+        "regex": [
+            "${super}${ca},?( County of)? Sonoma( County)?$$"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
             "State of California Superior Court County of Los Angeles",
             "Superior Court Los Angeles County California",
-            "California Superior Court County of Los Angeles"
+            "California Superior Court County of Los Angeles",
+            "Superior Court of California, Los Angeles County"
         ],
         "id": "calsuppctla",
         "jurisdiction": "C.A.",
@@ -2373,7 +2561,7 @@
             "State of California Superior Court County of Los Angeles",
             "Superior Court Los Angeles County California",
             "California Superior Court County of Los Angeles",
-            "${super}${ca}(,? (County of .+|.+ County))$$"
+            "${super}${ca},?( County of)? Los Angeles( County)?$$"
         ],
         "system": "state",
         "type": "trial"
@@ -2391,7 +2579,8 @@
         "examples": [
             "Superior Court, in and for the City and County of San Francsico, State of California",
             "Probate Court of the City and County of San Francisco",
-            "Superior Court in and for the City and County of San Francisco, State of California"
+            "Superior Court in and for the City and County of San Francisco, State of California",
+            "Superior Court of California San Francisco County"
         ],
         "id": "calsuppctsf",
         "jurisdiction": "C.A.",
@@ -2427,7 +2616,20 @@
             "State of California Appellate Department",
             "State of California Appellate Department of The Superior Court",
             "State of California Appellate Department Superior Court",
-            "Court of Appeal Superior Court California"
+            "Court of Appeal Superior Court California",
+            "Appellate Department, Superior Court of California, El Dorado County",
+            "Appellate Department, Superior Court of California, Santa Barbara County",
+            "Appellate Division, Superior Court of California, County of Los Angeles",
+            "Appellate Division, Superior Court of California, Modoc County",
+            "Appellate Division, Superior Court of California, Orange County",
+            "Appellate Division, Superior Court of California, Sacramento County",
+            "Appellate Division, Superior Court of California, San Bernardino County",
+            "Appellate Division, Superior Court of California, San Diego County",
+            "Appellate Division, Superior Court of California, San Francisco County",
+            "Appellate Division, Superior Court of California, Santa Clara County",
+            "Superior Court of California, San Joaquin County, Appellate Department",
+            "Superior Court of California, County of San Joaquin, Appellate Division",
+            "Superior Court of California, County of Mateo, Appellate Division"
         ],
         "id": "calappdeptsuper",
         "jurisdiction": "C.A.",
@@ -3202,7 +3404,22 @@
             }
         ],
         "division_type": "county",
-        "examples": [],
+        "examples": [
+            "District Court of Colorado Elbert County",
+            "District Court of Colorado, Adams County",
+            "District Court of Colorado, Arapahoe County",
+            "District Court of Colorado, Broomfield County",
+            "District Court of Colorado, Denver County",
+            "District Court of Colorado, El Paso County",
+            "District Court of Colorado, Jefferson County",
+            "District Court of Colorado, Larimer County",
+            "District Court of Colorado, Lincoln County",
+            "District Court of Colorado, Ouray County",
+            "District Court of Colorado, Pitkin County",
+            "District Court of Colorado, Saguache County",
+            "District Court of Colorado, Teller County",
+            "District Court of Colorado, Weld County"
+        ],
         "id": "coldistct",
         "jurisdiction": "C.O.",
         "level": "gjc",
@@ -3399,7 +3616,8 @@
         ],
         "examples": [
             "United States Bankruptcy Appellate Panel For The Tenth Circuit",
-            "United States Bankruptcy Appellate Panel For Tenth Circuit"
+            "United States Bankruptcy Appellate Panel For Tenth Circuit",
+            "United States Bankruptcy Appellate Panel for the 10th Circuit"
         ],
         "id": "bap10",
         "level": "iac",
@@ -3597,7 +3815,8 @@
             }
         ],
         "examples": [
-            "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford"
+            "Superior Court Housing Session of Connecticut Judicial District of Hartford New Britain At Hartford",
+            "Superior Court of Connecticut, Hartford-New Britain"
         ],
         "id": "connsuperct",
         "jurisdiction": "C.T.",
@@ -6658,7 +6877,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "District Court of Appeals of Florida, Sixth District"
+        ],
         "id": "fladistctapp6",
         "level": "iac",
         "location": "Florida",
@@ -7863,7 +8084,9 @@
             }
         ],
         "examples": [
-            "Dade County Metropolitan Court"
+            "Dade County Metropolitan Court",
+            "Circuit Court of Florida, Dade County",
+            "Circuit Court of Florida, Miami-Dade County"
         ],
         "id": "flacirct11mia",
         "level": "gjc",
@@ -7931,7 +8154,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Florida, Sarasota County"
+        ],
         "id": "flacirct12sar",
         "level": "gjc",
         "location": "Florida",
@@ -8100,7 +8325,8 @@
             }
         ],
         "examples": [
-            "Palm Beach County Circuit Court"
+            "Palm Beach County Circuit Court",
+            "Circuit Court of Florida, Palm Beach County"
         ],
         "id": "flacirct15pal",
         "level": "gjc",
@@ -8167,7 +8393,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Florida Brevard County"
+        ],
         "id": "flacirct18bre",
         "level": "gjc",
         "location": "Florida",
@@ -8746,7 +8974,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Florida, Citrus County"
+        ],
         "id": "flacirct5cit",
         "level": "gjc",
         "location": "Florida",
@@ -8832,7 +9062,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Florida, Sumter County"
+        ],
         "id": "flacirct5sum",
         "level": "gjc",
         "location": "Florida",
@@ -8876,7 +9108,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Florida, Pinellas County"
+        ],
         "id": "flacirct6pin",
         "level": "gjc",
         "location": "Florida",
@@ -8940,7 +9174,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Florida, St. Johns County"
+        ],
         "id": "flacirct7stj",
         "level": "gjc",
         "location": "Florida",
@@ -9419,7 +9655,9 @@
                 "start": "1845-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Juvenile Court of Georgia, Douglas County"
+        ],
         "id": "gajuvct",
         "jurisdiction": "G.A.",
         "level": "ljc",
@@ -9535,7 +9773,49 @@
             }
         ],
         "division": "Districts and Circuits",
-        "examples": [],
+        "examples": [
+            "Superior Court of Georgia, Athens-Clarke County",
+            "Superior Court of Georgia, Baldwin County",
+            "Superior Court of Georgia, Butts County",
+            "Superior Court of Georgia, Calhoun County",
+            "Superior Court of Georgia, Charlton County",
+            "Superior Court of Georgia, Chatham County",
+            "Superior Court of Georgia, Chattooga County",
+            "Superior Court of Georgia, Clayton County",
+            "Superior Court of Georgia, Cobb County",
+            "Superior Court of Georgia, Coffee County",
+            "Superior Court of Georgia, Dekalb County",
+            "Superior Court of Georgia, Dodge County",
+            "Superior Court of Georgia, Dooly County",
+            "Superior Court of Georgia, Douglas County",
+            "Superior Court of Georgia, Floyd County",
+            "Superior Court of Georgia, Fulton County",
+            "Superior Court of Georgia, Glynn County",
+            "Superior Court of Georgia, Gwinnett County",
+            "Superior Court of Georgia, Habersham County",
+            "Superior Court of Georgia, Hall County",
+            "Superior Court of Georgia, Hancock County",
+            "Superior Court of Georgia, Jackson County",
+            "Superior Court of Georgia, Jenkins County",
+            "Superior Court of Georgia, Johnson County",
+            "Superior Court of Georgia, Lowndes County",
+            "Superior Court of Georgia, Macon County",
+            "Superior Court of Georgia, Madison County",
+            "Superior Court of Georgia, Mitchell County",
+            "Superior Court of Georgia, Monroe County",
+            "Superior Court of Georgia, Montgomery County",
+            "Superior Court of Georgia, Muscogee County",
+            "Superior Court of Georgia, Oconee County",
+            "Superior Court of Georgia, Richmond County",
+            "Superior Court of Georgia, Rockdale County",
+            "Superior Court of Georgia, Tattnall County",
+            "Superior Court of Georgia, Telfair County",
+            "Superior Court of Georgia, Troup County",
+            "Superior Court of Georgia, Ware County",
+            "Superior Court of Georgia, Washington County",
+            "Superior Court of Georgia, Wayne County",
+            "Superior Court of Georgia, Wilcox County"
+        ],
         "id": "gasuperct",
         "jurisdiction": "G.A.",
         "level": "gjc & iac",
@@ -11425,7 +11705,12 @@
         "examples": [
             "Appellate Court of Illinois Fifth District Industrial Commission Division",
             "ILLINOIS APPELLATE COURT, FIRST DISTRICT, DIVISION SIX",
-            "ILLINOIS APPELLATE COURT, FIRST DISTRICT"
+            "ILLINOIS APPELLATE COURT, FIRST DISTRICT",
+            "Appellate Court of Illinois, Fifth District",
+            "Appellate Court of Illinois, First District",
+            "Appellate Court of Illinois, Fourth District",
+            "Appellate Court of Illinois, Second District",
+            "Appellate Court of Illinois, Third District"
         ],
         "id": "illappct",
         "jurisdiction": "I.L.",
@@ -11784,7 +12069,13 @@
                 "start": "1891-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeals of Indiana, Fifth District",
+            "Court of Appeals of Indiana, First District",
+            "Court of Appeals of Indiana, Fourth District",
+            "Court of Appeals of Indiana, Second District",
+            "Court of Appeals of Indiana, Third District"
+        ],
         "id": "indctapp",
         "level": "iac",
         "location": "Indiana",
@@ -12101,7 +12392,14 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "DIstrict Court of Iowa, North Lee County",
+            "District Court of Iowa, Fremont County",
+            "District Court of Iowa, Jasper County",
+            "District Court of Iowa, Polk County",
+            "District Court of Iowa, Scott County",
+            "District Court of Iowa, Woodbury County"
+        ],
         "id": "iadistct",
         "level": "gjc",
         "location": "Iowa",
@@ -14159,7 +14457,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Kentucky, Trimble County"
+        ],
         "id": "kycircttrimble",
         "level": "",
         "location": "Kentucky",
@@ -14734,7 +15034,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Kentucky, Fayette County"
+        ],
         "id": "kycirctfayette",
         "level": "",
         "location": "Kentucky",
@@ -15309,7 +15611,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Kentucky, Knott County"
+        ],
         "id": "kycirctknott",
         "level": "",
         "location": "Kentucky",
@@ -15585,7 +15889,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Kentucky, Hopkins County"
+        ],
         "id": "kycircthopkins",
         "level": "",
         "location": "Kentucky",
@@ -16914,7 +17220,17 @@
         "citation_string": "La. Dist. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "29th Judicial District Court of Louisiana, Parish of St. Charles",
+            "38th Judicial District Court of Louisiana, Cameron Parish",
+            "39th Judicial District Court of Louisiana, Red River Parish",
+            "Civil District Court of Orleans Parish",
+            "District Court of Louisiana, East Baton Rouge Parish",
+            "District Court of Louisiana, Livingston Parish",
+            "District Court of Louisiana, St. Tammany Parish",
+            "Fifth Judicial District Court of Louisiana, Franklin Parish",
+            "Orleans Parish Criminal District Court of Louisiana"
+        ],
         "id": "ladistct",
         "level": "",
         "location": "Louisiana",
@@ -16938,7 +17254,12 @@
             }
         ],
         "examples": [
-            "State of Louisiana Court of Appeal Fourth Circuit"
+            "State of Louisiana Court of Appeal Fourth Circuit",
+            "Court of Appeal of Louisiana, Fifth Circuit",
+            "Court of Appeal of Louisiana, First Circuit",
+            "Court of Appeal of Louisiana, Fourth Circuit",
+            "Court of Appeal of Louisiana, Second Circuit",
+            "Court of Appeal of Louisiana, Third Circuit"
         ],
         "id": "lactapp",
         "level": "",
@@ -17429,7 +17750,18 @@
         ],
         "examples": [
             "Circuit Court of Maryland Pfunce George",
-            "Court For Prince George's County Maryland"
+            "Court For Prince George's County Maryland",
+            "Circuit Court of Maryland, Allegany County",
+            "Circuit Court of Maryland, Anne Arundel County",
+            "Circuit Court of Maryland, Baltimore County",
+            "Circuit Court of Maryland, Calvert County",
+            "Circuit Court of Maryland, Charles County",
+            "Circuit Court of Maryland, Frederick County",
+            "Circuit Court of Maryland, Harford County",
+            "Circuit Court of Maryland, Montgomery County",
+            "Circuit Court of Maryland, Prince George's County",
+            "Circuit Court of Maryland, Queen Anne's County",
+            "Circuit Court of Maryland, Wicomico County"
         ],
         "id": "mdcirct",
         "level": "gjc",
@@ -17487,7 +17819,9 @@
                 "start": "1967-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Appellate Court of Maryland"
+        ],
         "id": "mdctspecapp",
         "level": "",
         "location": "Maryland",
@@ -17598,7 +17932,9 @@
                 "start": "1789-09-24"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Maryland, Baltimore City"
+        ],
         "id": "mdcirctctbalt",
         "level": "gjc",
         "location": "Maryland",
@@ -18077,7 +18413,12 @@
                 "start": "1693-01-03"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Superior Court of Massachusetts, Bristol County",
+            "Superior Court of Massachusetts, Essex County",
+            "Superior Court of Massachusetts, Middlesex County",
+            "Superior Court of Massachusetts, Suffolk County"
+        ],
         "id": "masssuperct",
         "level": "",
         "location": "Massachusetts",
@@ -18597,7 +18938,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "28th Judicial District Court of Michigan",
+            "46th District Court of Michigan, Oakland County"
+        ],
         "id": "midistct",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18639,7 +18983,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Saginaw County"
+        ],
         "id": "micirct10",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18714,7 +19060,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Antrim County"
+        ],
         "id": "micirct13",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18741,7 +19089,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Muskegon County"
+        ],
         "id": "micirct14",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18788,7 +19138,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Macomb County"
+        ],
         "id": "micirct16",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18812,7 +19164,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Kent County"
+        ],
         "id": "micirct17",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18859,7 +19213,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Benzie County"
+        ],
         "id": "micirct19",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18907,7 +19263,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Ottawa County"
+        ],
         "id": "micirct20",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18931,7 +19289,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Isabella County"
+        ],
         "id": "micirct21",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -18955,7 +19315,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Washtenaw County"
+        ],
         "id": "micirct22",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19148,7 +19510,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Berrien County"
+        ],
         "id": "micirct2",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19172,7 +19536,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Ingham County"
+        ],
         "id": "micirct30",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19290,7 +19656,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Shiawassee County"
+        ],
         "id": "micirct35",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19314,7 +19682,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Van Buren County"
+        ],
         "id": "micirct36",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19405,7 +19775,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Wayne County",
+            "Circuit Court of Michigan, Wayne County, Criminal Division"
+        ],
         "id": "micirct3",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19429,7 +19802,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Lapeer County"
+        ],
         "id": "micirct40",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19501,7 +19876,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Cass County"
+        ],
         "id": "micirct43",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19525,7 +19902,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Livingston County"
+        ],
         "id": "micirct44",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19549,7 +19928,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, St. Joseph County"
+        ],
         "id": "micirct45",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19668,7 +20049,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Jackson County"
+        ],
         "id": "micirct4",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19739,7 +20122,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Huron County"
+        ],
         "id": "micirct52",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19787,7 +20172,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Tuscola County"
+        ],
         "id": "micirct54",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19835,7 +20222,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Eaton County"
+        ],
         "id": "micirct56",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19905,7 +20294,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Oakland County"
+        ],
         "id": "micirct6",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19929,7 +20320,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Genesee County"
+        ],
         "id": "micirct7",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -19977,7 +20370,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Michigan, Kalamazoo County"
+        ],
         "id": "micirct9",
         "jurisdiction": "M.I.",
         "level": "gjc",
@@ -20002,7 +20397,9 @@
                 "start": "1964-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Appeals of Michigan, Genesse County"
+        ],
         "id": "michctapp",
         "level": "",
         "location": "Michigan",
@@ -20622,7 +21019,10 @@
         "citation_string": "Miss. Cir. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Mississippi, Madison County",
+            "Circuit Court of Mississippi, Winston County"
+        ],
         "id": "misscirct",
         "level": "",
         "location": "Mississippi",
@@ -21006,7 +21406,8 @@
             }
         ],
         "examples": [
-            "Missouri Court of Appeals, Eastern District"
+            "Missouri Court of Appeals, Eastern District",
+            "Court of Appeals of Missouri, Eastern District"
         ],
         "id": "moctapped",
         "level": "",
@@ -21034,7 +21435,8 @@
             }
         ],
         "examples": [
-            "Missouri Court of Appeals, Southern District"
+            "Missouri Court of Appeals, Southern District",
+            "Court of Appeals of Missouri, Southern District"
         ],
         "id": "moctappsd",
         "level": "",
@@ -21060,7 +21462,8 @@
             }
         ],
         "examples": [
-            "Missouri Court of Appeals, Western District"
+            "Missouri Court of Appeals, Western District",
+            "Court of Appeals of Missouri, Western District"
         ],
         "id": "moctappwd",
         "level": "",
@@ -21625,7 +22028,9 @@
         "citation_string": "Neb. Dist. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "District Court of Nebraska, Lancaster County"
+        ],
         "id": "nebdistct",
         "level": "",
         "location": "Nebraska",
@@ -21758,7 +22163,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "District Court of Nevada, Clark County",
+            "District Court of Nevada, Elko County"
+        ],
         "id": "nevdistct",
         "level": "gjc",
         "location": "Nevada",
@@ -21912,7 +22320,15 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Superior Court of New Hampshire, Cheshire County",
+            "Superior Court of New Hampshire, Coos County",
+            "Superior Court of New Hampshire, Hillsborough County, Northern District",
+            "Superior Court of New Hampshire, Hillsborough County, Southern District",
+            "Superior Court of New Hampshire, Merrimack County",
+            "Superior Court of New Hampshire, Rockingham County",
+            "Superior Court of New Hampshire, Strafford County"
+        ],
         "id": "nhsuperct",
         "level": "gjc",
         "location": "New Hampshire",
@@ -21956,7 +22372,9 @@
         "citation_string": "N.H. Cir. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "9th Circuit Court of New Hampshire, District Division-Nashua"
+        ],
         "id": "nhcirct",
         "level": "",
         "location": "New Hampshire",
@@ -23420,7 +23838,11 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Superior Court of New Jersey, Atlantic County, Chancery Division",
+            "Superior Court of New Jersey, Middlesex County",
+            "Superior Court of New Jersey, Ocean County, Chancery Division"
+        ],
         "id": "njsuper",
         "level": "",
         "location": "New Jersey",
@@ -24633,7 +25055,15 @@
         "citation_string": "",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "District Court of New Mexico, Bernalillo County",
+            "District Court of New Mexico, Dona Ana County",
+            "District Court of New Mexico, Eddy County",
+            "District Court of New Mexico, Otero County",
+            "District Court of New Mexico, Rio Arriba County",
+            "District Court of New Mexico, San Juan County",
+            "District Court of New Mexico, Valencia County"
+        ],
         "id": "nmdistct",
         "level": "",
         "location": "New Mexico",
@@ -27558,7 +27988,8 @@
             }
         ],
         "examples": [
-            "New York County Court"
+            "New York County Court",
+            "County of New York, Broome County"
         ],
         "id": "nycountyct",
         "jurisdiction": "N.Y.",
@@ -30962,7 +31393,19 @@
             }
         ],
         "examples": [
-            "Supreme Courts of New York"
+            "Supreme Courts of New York",
+            "Supreme Court 3rd Judicial District of New York, Albany County",
+            "Supreme Court of New York, Bronx County",
+            "Supreme Court of New York, Erie County",
+            "Supreme Court of New York, Kings County",
+            "Supreme Court of New York, Kings County - Civil Term",
+            "Supreme Court of New York, Kings County - Criminal Term",
+            "Supreme Court of New York, Nassau County",
+            "Supreme Court of New York, New York County",
+            "Supreme Court of New York, Queens County",
+            "Supreme Court of New York, Richmond County",
+            "Supreme Court of New York, Suffolk County",
+            "Supreme Court of New York, Washington County"
         ],
         "id": "nysupct",
         "level": "",
@@ -39238,7 +39681,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "District Court of North Carolina, Perquimans County"
+        ],
         "id": "ncdistct",
         "jurisdiction": "N.C.",
         "level": "ljc",
@@ -39283,7 +39728,42 @@
             }
         ],
         "examples": [
-            "North Carolina Superior Court New Hanover County"
+            "North Carolina Superior Court New Hanover County",
+            "Superior Court of North Carolina, Alamance County",
+            "Superior Court of North Carolina, Anson County",
+            "Superior Court of North Carolina, Buncombe County",
+            "Superior Court of North Carolina, Cabarrus County",
+            "Superior Court of North Carolina, Catawba County",
+            "Superior Court of North Carolina, Chatham County",
+            "Superior Court of North Carolina, Cleveland County",
+            "Superior Court of North Carolina, Columbus County",
+            "Superior Court of North Carolina, Craven County",
+            "Superior Court of North Carolina, Cumberland County",
+            "Superior Court of North Carolina, Davidson County",
+            "Superior Court of North Carolina, Edgecombe County",
+            "Superior Court of North Carolina, Forsyth County",
+            "Superior Court of North Carolina, Guilford County",
+            "Superior Court of North Carolina, Harnett County",
+            "Superior Court of North Carolina, Haywood County",
+            "Superior Court of North Carolina, Henderson County",
+            "Superior Court of North Carolina, Iredell County",
+            "Superior Court of North Carolina, Lenoir County",
+            "Superior Court of North Carolina, Martin County",
+            "Superior Court of North Carolina, Mecklenburg County",
+            "Superior Court of North Carolina, Moore County",
+            "Superior Court of North Carolina, Nash County",
+            "Superior Court of North Carolina, New Hanover County",
+            "Superior Court of North Carolina, Onslow County",
+            "Superior Court of North Carolina, Pitt County",
+            "Superior Court of North Carolina, Richmond County",
+            "Superior Court of North Carolina, Rockingham County",
+            "Superior Court of North Carolina, Rutherford County",
+            "Superior Court of North Carolina, Sampson County",
+            "Superior Court of North Carolina, Stanly County",
+            "Superior Court of North Carolina, Stokes County",
+            "Superior Court of North Carolina, Surry County",
+            "Superior Court of North Carolina, Wake County",
+            "Superior Court of North Carolina, Wilson County"
         ],
         "id": "ncsuperct",
         "level": "",
@@ -50733,7 +51213,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, First District, Hamilton County",
-            "Hamilton County Court of Appeals"
+            "Hamilton County Court of Appeals",
+            "Court of Appeals of Ohio, Hamilton County"
         ],
         "id": "ohctapp1hamilto",
         "jurisdiction": "O.H.",
@@ -50762,7 +51243,8 @@
         ],
         "examples": [
             "Franklin County Court of Appeals",
-            "Court of Appeals of Ohio, Tenth District, Franklin County"
+            "Court of Appeals of Ohio, Tenth District, Franklin County",
+            "Court of Appeals of Ohio, Franklin County"
         ],
         "id": "ohctapp10frankl",
         "jurisdiction": "O.H.",
@@ -50791,7 +51273,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Eleventh District, Ashtabula County",
-            "Ashtabula County Court of Appeals"
+            "Ashtabula County Court of Appeals",
+            "Court of Appeals of Ohio, Ashtabula County"
         ],
         "id": "ohctapp11ashtab",
         "jurisdiction": "O.H.",
@@ -50819,7 +51302,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Eleventh District, Geauga County"
+            "Court of Appeals of Ohio, Eleventh District, Geauga County",
+            "Court of Appeals of Ohio, Geauga County"
         ],
         "id": "ohctapp11geauga",
         "jurisdiction": "O.H.",
@@ -50846,7 +51330,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Eleventh District, Lake County"
+            "Court of Appeals of Ohio, Eleventh District, Lake County",
+            "Court of Appeals of Ohio, Lake County"
         ],
         "id": "ohctapp11lake",
         "jurisdiction": "O.H.",
@@ -50873,7 +51358,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Eleventh District, Portage County"
+            "Court of Appeals of Ohio, Eleventh District, Portage County",
+            "Court of Appeals of Ohio, Portage County"
         ],
         "id": "ohctapp11portag",
         "jurisdiction": "O.H.",
@@ -50900,7 +51386,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Eleventh District, Trumbull County"
+            "Court of Appeals of Ohio, Eleventh District, Trumbull County",
+            "Court of Appeals of Ohio, Trumbull County"
         ],
         "id": "ohctapp11trumbu",
         "jurisdiction": "O.H.",
@@ -50927,7 +51414,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Twelfth District, Brown County"
+            "Court of Appeals of Ohio, Twelfth District, Brown County",
+            "Court of Appeals of Ohio, Brown County"
         ],
         "id": "ohctapp12brown",
         "jurisdiction": "O.H.",
@@ -50955,7 +51443,8 @@
         ],
         "examples": [
             "Butler County Court of Appeals",
-            "Court of Appeals of Ohio, Twelfth District, Butler County"
+            "Court of Appeals of Ohio, Twelfth District, Butler County",
+            "Court of Appeals of Ohio, Butler County"
         ],
         "id": "ohctapp12butler",
         "jurisdiction": "O.H.",
@@ -50983,7 +51472,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Twelfth District, Clermont County"
+            "Court of Appeals of Ohio, Twelfth District, Clermont County",
+            "Court of Appeals of Ohio, Clermont County"
         ],
         "id": "ohctapp12clermo",
         "jurisdiction": "O.H.",
@@ -51066,7 +51556,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Twelfth District, Madison County"
+            "Court of Appeals of Ohio, Twelfth District, Madison County",
+            "Court of Appeals of Ohio, Madison County"
         ],
         "id": "ohctapp12madiso",
         "jurisdiction": "O.H.",
@@ -51093,7 +51584,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Twelfth District, Preble County"
+            "Court of Appeals of Ohio, Twelfth District, Preble County",
+            "Court of Appeals of Ohio, Preble County"
         ],
         "id": "ohctapp12preble",
         "jurisdiction": "O.H.",
@@ -51120,7 +51612,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Twelfth District, Warren County"
+            "Court of Appeals of Ohio, Twelfth District, Warren County",
+            "Court of Appeals of Ohio, Warren County"
         ],
         "id": "ohctapp12warren",
         "jurisdiction": "O.H.",
@@ -51147,7 +51640,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Second District, Champaign County"
+            "Court of Appeals of Ohio, Second District, Champaign County",
+            "Court of Appeals of Ohio, Champaign County"
         ],
         "id": "ohctapp2champai",
         "jurisdiction": "O.H.",
@@ -51174,7 +51668,9 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Second District, Clark County"
+            "Court of Appeals of Ohio, Second District, Clark County",
+            "Court of Appeals of Ohio Clark County",
+            "Court of Appeals of Ohio, Clark County"
         ],
         "id": "ohctapp2clark",
         "jurisdiction": "O.H.",
@@ -51229,7 +51725,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Second District, Greene County",
-            "Greene County Court of Appeals"
+            "Greene County Court of Appeals",
+            "Court of Appeals of Ohio, Greene County"
         ],
         "id": "ohctapp2greene",
         "jurisdiction": "O.H.",
@@ -51284,7 +51781,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Second District, Montgomery County"
+            "Court of Appeals of Ohio, Second District, Montgomery County",
+            "Court of Appeals of Ohio, Montgomery County"
         ],
         "id": "ohctapp2montgom",
         "jurisdiction": "O.H.",
@@ -51311,7 +51809,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Allen County"
+            "Court of Appeals of Ohio, Third District, Allen County",
+            "Court of Appeals of Ohio, Allen County"
         ],
         "id": "ohctapp3allen",
         "jurisdiction": "O.H.",
@@ -51338,7 +51837,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Auglaize County"
+            "Court of Appeals of Ohio, Third District, Auglaize County",
+            "Court of Appeals of Ohio, Auglaize County"
         ],
         "id": "ohctapp3auglaiz",
         "jurisdiction": "O.H.",
@@ -51365,7 +51865,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Crawford County"
+            "Court of Appeals of Ohio, Third District, Crawford County",
+            "Court of Appeals of Ohio, Crawford County"
         ],
         "id": "ohctapp3crawfor",
         "jurisdiction": "O.H.",
@@ -51392,7 +51893,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Defiance County"
+            "Court of Appeals of Ohio, Third District, Defiance County",
+            "Court of Appeals of Ohio, Defiance County"
         ],
         "id": "ohctapp3defianc",
         "jurisdiction": "O.H.",
@@ -51419,7 +51921,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Hancock County"
+            "Court of Appeals of Ohio, Third District, Hancock County",
+            "Court of Appeals of Ohio, Hancock County"
         ],
         "id": "ohctapp3hancock",
         "jurisdiction": "O.H.",
@@ -51500,7 +52003,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Logan County"
+            "Court of Appeals of Ohio, Third District, Logan County",
+            "Court of Appeals of Ohio, Logan County"
         ],
         "id": "ohctapp3logan",
         "jurisdiction": "O.H.",
@@ -51527,7 +52031,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Marion County"
+            "Court of Appeals of Ohio, Third District, Marion County",
+            "Court of Appeals of Ohio, Marion County"
         ],
         "id": "ohctapp3marion",
         "jurisdiction": "O.H.",
@@ -51554,7 +52059,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Mercer County"
+            "Court of Appeals of Ohio, Third District, Mercer County",
+            "Court of Appeals of Ohio, Mercer County"
         ],
         "id": "ohctapp3mercer",
         "jurisdiction": "O.H.",
@@ -51635,7 +52141,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Seneca County"
+            "Court of Appeals of Ohio, Third District, Seneca County",
+            "Court of Appeals of Ohio, Seneca County"
         ],
         "id": "ohctapp3seneca",
         "jurisdiction": "O.H.",
@@ -51689,7 +52196,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Third District, Union County"
+            "Court of Appeals of Ohio, Third District, Union County",
+            "Court of Appeals of Ohio, Union County"
         ],
         "id": "ohctapp3union",
         "jurisdiction": "O.H.",
@@ -51824,7 +52332,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Gallia County"
+            "Court of Appeals of Ohio, Fourth District, Gallia County",
+            "Court of Appeals of Ohio, Gallia County"
         ],
         "id": "ohctapp4gallia",
         "jurisdiction": "O.H.",
@@ -51851,7 +52360,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Highland County"
+            "Court of Appeals of Ohio, Fourth District, Highland County",
+            "Court of Appeals of Ohio, Highland County"
         ],
         "id": "ohctapp4highlan",
         "jurisdiction": "O.H.",
@@ -51878,7 +52388,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Hocking County"
+            "Court of Appeals of Ohio, Fourth District, Hocking County",
+            "Court of Appeals of Ohio, Hocking County"
         ],
         "id": "ohctapp4hocking",
         "jurisdiction": "O.H.",
@@ -51933,7 +52444,8 @@
         ],
         "examples": [
             "Lawrence County Court of Appeals",
-            "Court of Appeals of Ohio, Fourth District, Lawrence County"
+            "Court of Appeals of Ohio, Fourth District, Lawrence County",
+            "Court of Appeals of Ohio, Lawrence County"
         ],
         "id": "ohctapp4lawrenc",
         "jurisdiction": "O.H.",
@@ -51988,7 +52500,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Pickaway County"
+            "Court of Appeals of Ohio, Fourth District, Pickaway County",
+            "Court of Appeals of Ohio, Pickaway County"
         ],
         "id": "ohctapp4pickawa",
         "jurisdiction": "O.H.",
@@ -52015,7 +52528,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Pike County"
+            "Court of Appeals of Ohio, Fourth District, Pike County",
+            "Court of Appeals of Ohio, Pike County"
         ],
         "id": "ohctapp4pike",
         "jurisdiction": "O.H.",
@@ -52042,7 +52556,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Ross County"
+            "Court of Appeals of Ohio, Fourth District, Ross County",
+            "Court of Appeals of Ohio, Ross County"
         ],
         "id": "ohctapp4ross",
         "jurisdiction": "O.H.",
@@ -52069,7 +52584,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Scioto County"
+            "Court of Appeals of Ohio, Fourth District, Scioto County",
+            "Court of Appeals of Ohio, Scioto County"
         ],
         "id": "ohctapp4scioto",
         "jurisdiction": "O.H.",
@@ -52096,7 +52612,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Vinton County"
+            "Court of Appeals of Ohio, Fourth District, Vinton County",
+            "Court of Appeals of Ohio, Vinton County"
         ],
         "id": "ohctapp4vinton",
         "jurisdiction": "O.H.",
@@ -52123,7 +52640,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fourth District, Washington County"
+            "Court of Appeals of Ohio, Fourth District, Washington County",
+            "Court of Appeals of Ohio, Washington County"
         ],
         "id": "ohctapp4washing",
         "jurisdiction": "O.H.",
@@ -52150,7 +52668,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Ashland County"
+            "Court of Appeals of Ohio, Fifth District, Ashland County",
+            "Court of Appeals of Ohio, Ashland County"
         ],
         "id": "ohctapp5ashland",
         "jurisdiction": "O.H.",
@@ -52177,7 +52696,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Coshocton County"
+            "Court of Appeals of Ohio, Fifth District, Coshocton County",
+            "Court of Appeals of Ohio, Coshocton County"
         ],
         "id": "ohctapp5coshoct",
         "jurisdiction": "O.H.",
@@ -52205,7 +52725,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Fifth District, Delaware County",
-            "Delaware County Court of Appeals"
+            "Delaware County Court of Appeals",
+            "Court of Appeals of Ohio, Delaware County"
         ],
         "id": "ohctapp5delawar",
         "jurisdiction": "O.H.",
@@ -52233,7 +52754,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Fairfield County"
+            "Court of Appeals of Ohio, Fifth District, Fairfield County",
+            "Court of Appeals of Ohio, Fairfield County"
         ],
         "id": "ohctapp5fairfie",
         "jurisdiction": "O.H.",
@@ -52261,7 +52783,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Fifth District, Guernsey County",
-            "Guernsey County Court of Appeals"
+            "Guernsey County Court of Appeals",
+            "Court of Appeals of Ohio, Guernsey County"
         ],
         "id": "ohctapp5guernse",
         "jurisdiction": "O.H.",
@@ -52317,7 +52840,8 @@
         ],
         "examples": [
             "Knox County Court of Appeals",
-            "Court of Appeals of Ohio, Fifth District, Knox County"
+            "Court of Appeals of Ohio, Fifth District, Knox County",
+            "Court of Appeals of Ohio, Knox County"
         ],
         "id": "ohctapp5knox",
         "jurisdiction": "O.H.",
@@ -52346,7 +52870,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Fifth District, Licking County",
-            "Licking County Court of Appeals"
+            "Licking County Court of Appeals",
+            "Court of Appeals of Ohio, Licking County"
         ],
         "id": "ohctapp5licking",
         "jurisdiction": "O.H.",
@@ -52374,7 +52899,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Morgan County"
+            "Court of Appeals of Ohio, Fifth District, Morgan County",
+            "Court of Appeals of Ohio, Morgan County"
         ],
         "id": "ohctapp5morgan",
         "jurisdiction": "O.H.",
@@ -52428,7 +52954,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Muskingum County"
+            "Court of Appeals of Ohio, Fifth District, Muskingum County",
+            "Court of Appeals of Ohio, Muskingum County"
         ],
         "id": "ohctapp5musking",
         "jurisdiction": "O.H.",
@@ -52455,7 +52982,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Richland County"
+            "Court of Appeals of Ohio, Fifth District, Richland County",
+            "Court of Appeals of Ohio, Richland County"
         ],
         "id": "ohctapp5richlan",
         "jurisdiction": "O.H.",
@@ -52483,7 +53011,8 @@
         ],
         "examples": [
             "Stark County Court of Appeals",
-            "Court of Appeals of Ohio, Fifth District, Stark County"
+            "Court of Appeals of Ohio, Fifth District, Stark County",
+            "Court of Appeals of Ohio, Stark County"
         ],
         "id": "ohctapp5stark",
         "jurisdiction": "O.H.",
@@ -52511,7 +53040,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Fifth District, Tuscarawas County"
+            "Court of Appeals of Ohio, Fifth District, Tuscarawas County",
+            "Court of Appeals of Ohio, Tuscarawas County"
         ],
         "id": "ohctapp5tuscara",
         "jurisdiction": "O.H.",
@@ -52538,7 +53068,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Sixth District, Erie County"
+            "Court of Appeals of Ohio, Sixth District, Erie County",
+            "Court of Appeals of Ohio, Erie County"
         ],
         "id": "ohctapp6erie",
         "jurisdiction": "O.H.",
@@ -52593,7 +53124,8 @@
         ],
         "examples": [
             "Huron County Court of Appeals",
-            "Court of Appeals of Ohio, Sixth District, Huron County"
+            "Court of Appeals of Ohio, Sixth District, Huron County",
+            "Court of Appeals of Ohio, Huron County"
         ],
         "id": "ohctapp6huron",
         "jurisdiction": "O.H.",
@@ -52623,7 +53155,8 @@
         "examples": [
             "Lucas County Court of Appeals",
             "Court of Appeals of Ohio, Sixth District, Lucas County",
-            "Lucas County District Court"
+            "Lucas County District Court",
+            "Court of Appeals of Ohio, Lucas County"
         ],
         "id": "ohctapp6lucas",
         "jurisdiction": "O.H.",
@@ -52679,7 +53212,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Sixth District, Sandusky County"
+            "Court of Appeals of Ohio, Sixth District, Sandusky County",
+            "Court of Appeals of Ohio, Sandusky County"
         ],
         "id": "ohctapp6sandusk",
         "jurisdiction": "O.H.",
@@ -52734,7 +53268,8 @@
         ],
         "examples": [
             "Wood County Court of Appeals",
-            "Court of Appeals of Ohio, Sixth District, Wood County"
+            "Court of Appeals of Ohio, Sixth District, Wood County",
+            "Court of Appeals of Ohio, Wood County"
         ],
         "id": "ohctapp6wood",
         "jurisdiction": "O.H.",
@@ -52762,7 +53297,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Seventh District, Belmont County"
+            "Court of Appeals of Ohio, Seventh District, Belmont County",
+            "Court of Appeals of Ohio, Belmont County"
         ],
         "id": "ohctapp7belmont",
         "jurisdiction": "O.H.",
@@ -52789,7 +53325,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Seventh District, Carroll County"
+            "Court of Appeals of Ohio, Seventh District, Carroll County",
+            "Court of Appeals of Ohio, Carroll County"
         ],
         "id": "ohctapp7carroll",
         "jurisdiction": "O.H.",
@@ -52816,7 +53353,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Seventh District, Columbiana County"
+            "Court of Appeals of Ohio, Seventh District, Columbiana County",
+            "Court of Appeals of Ohio, Columbiana County"
         ],
         "id": "ohctapp7columbi",
         "jurisdiction": "O.H.",
@@ -52873,7 +53411,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Seventh District, Jefferson County",
-            "Jefferson County Court of Appeals"
+            "Jefferson County Court of Appeals",
+            "Court of Appeals of Ohio, Jefferson County"
         ],
         "id": "ohctapp7jeffers",
         "jurisdiction": "O.H.",
@@ -52902,7 +53441,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Seventh District, Mahoning County",
-            "Mahoning County Court of Appeals"
+            "Mahoning County Court of Appeals",
+            "Court of Appeals of Ohio, Mahoning County"
         ],
         "id": "ohctapp7mahonin",
         "jurisdiction": "O.H.",
@@ -52985,7 +53525,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Eighth District, Cuyahoga County",
-            "Cuyahoga County Court of Appeals"
+            "Cuyahoga County Court of Appeals",
+            "Court of Appeals of Ohio, Cuyahoga County"
         ],
         "id": "ohctapp8cuyahog",
         "jurisdiction": "O.H.",
@@ -53013,7 +53554,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Ninth District, Lorain County"
+            "Court of Appeals of Ohio, Ninth District, Lorain County",
+            "Court of Appeals of Ohio, Lorain County"
         ],
         "id": "ohctapp9lorain",
         "jurisdiction": "O.H.",
@@ -53040,7 +53582,8 @@
             }
         ],
         "examples": [
-            "Court of Appeals of Ohio, Ninth District, Medina County"
+            "Court of Appeals of Ohio, Ninth District, Medina County",
+            "Court of Appeals of Ohio, Medina County"
         ],
         "id": "ohctapp9medina",
         "jurisdiction": "O.H.",
@@ -53068,7 +53611,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Ninth District, Summit County",
-            "Summit County Court of Appeals"
+            "Summit County Court of Appeals",
+            "Court of Appeals of Ohio, Summit County"
         ],
         "id": "ohctapp9summit",
         "jurisdiction": "O.H.",
@@ -53097,7 +53641,8 @@
         ],
         "examples": [
             "Court of Appeals of Ohio, Ninth District, Wayne County",
-            "Wayne County Court of Appeals"
+            "Wayne County Court of Appeals",
+            "Court of Appeals of Ohio, Wayne County"
         ],
         "id": "ohctapp9wayne",
         "jurisdiction": "O.H.",
@@ -53342,7 +53887,11 @@
         "examples": [
             "Courts of Appeal of Oklahoma Division",
             "Courts of Appeal of Oklahoma Division No 20",
-            "Oklahoma Court of Appeals"
+            "Oklahoma Court of Appeals",
+            "Court of Civil Appeals of Oklahoma, First Division",
+            "Court of Civil Appeals of Oklahoma, Fourth Division",
+            "Court of Civil Appeals of Oklahoma, Second Division",
+            "Court of Civil Appeals of Oklahoma, Third Division"
         ],
         "id": "oklacivapp",
         "level": "iac",
@@ -53670,7 +54219,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Oregon, Umatilla County",
+            "Circuit Court of Oregon, Washington County"
+        ],
         "id": "orcc",
         "level": "gjc",
         "location": "Oregon",
@@ -54954,7 +55506,11 @@
             }
         ],
         "examples": [
-            "Pennsylvania Court of Common Pleas"
+            "Pennsylvania Court of Common Pleas",
+            "Court of Common Pleas of Pennsylvania, Allegheny County",
+            "Court of Common Pleas of Pennsylvania, Butler County",
+            "Court of Common Pleas of Pennsylvania, Delaware County",
+            "Court of Common Pleas of Pennsylvania, Luzerne County"
         ],
         "id": "pactcompl",
         "jurisdiction": "P.A.",
@@ -62017,7 +62573,11 @@
                 "start": "1895-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Superior Court of Pennsylvania, Harrisburg Office",
+            "Superior Court of Pennsylvania, Philadelphia Office",
+            "Superior Court of Pennsylvania, Pittsburgh Office"
+        ],
         "id": "pasuperct",
         "level": "iac",
         "location": "Pennsylvania",
@@ -62043,7 +62603,11 @@
                 "start": "1722-05-22"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Supreme Court of Pennsylvania, Eastern District",
+            "Supreme Court of Pennsylvania, Middle District",
+            "Supreme Court of Pennsylvania, Western District"
+        ],
         "id": "pa",
         "level": "colr",
         "location": "Pennsylvania",
@@ -62212,7 +62776,8 @@
             "Tribunal Circuito Dé Apelaci",
             "Estado Libre Asociando De Puerto Rico Circuito Regional I San Juan",
             "Estado Libre Asociado De Puerto Rico RegióN Judicial De Aguadilla",
-            "Puerto Rico Circuit Court of Appeals"
+            "Puerto Rico Circuit Court of Appeals",
+            "Court of Appeals of Puerto Rico"
         ],
         "id": "prapp",
         "level": "iac",
@@ -62248,7 +62813,9 @@
         "citation_string": "P.R. Super. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "Superior Court of Puerto Rico, Centro Judicial de San Juan"
+        ],
         "id": "prsupct",
         "level": "",
         "location": "Puerto Rico",
@@ -62362,7 +62929,9 @@
                 "start": "1747-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Superior Court of Rhode Island, Providence County"
+        ],
         "id": "risuperct",
         "level": "",
         "location": "Rhode Island",
@@ -62479,7 +63048,19 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Court of Common Pleas of South Carolina, Abbeville County",
+            "Court of Common Pleas of South Carolina, Aiken County",
+            "Court of Common Pleas of South Carolina, Berkeley County",
+            "Court of Common Pleas of South Carolina, Calhoun County",
+            "Court of Common Pleas of South Carolina, Charleston County",
+            "Court of Common Pleas of South Carolina, Cherokee County",
+            "Court of Common Pleas of South Carolina, Greenville County",
+            "Court of Common Pleas of South Carolina, Orangeburg County",
+            "Court of Common Pleas of South Carolina, Richland County",
+            "Court of Common Pleas of South Carolina, Spartanburg County",
+            "Court of Common Pleas of South Carolina, Sumter County"
+        ],
         "id": "scctcompl",
         "level": "ljc",
         "location": "South Carolina",
@@ -62847,7 +63428,9 @@
         "citation_string": "S.D. Cir. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "Circuit Court of South Dakota, Yankton County"
+        ],
         "id": "sdcirct",
         "level": "",
         "location": "South Dakota",
@@ -63092,7 +63675,10 @@
         "citation_string": "Tenn. Cir. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Tennessee, Davidson County",
+            "Circuit Court of Tennessee, Maury County"
+        ],
         "id": "tenncirct",
         "level": "",
         "location": "Tennessee",
@@ -63108,7 +63694,9 @@
         "citation_string": "Tenn. Ch. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "Chancery Court of Tennessee, 30th Judicial District"
+        ],
         "id": "tennchanct",
         "level": "",
         "location": "Tennessee",
@@ -63131,7 +63719,10 @@
         ],
         "examples": [
             "Court of Chancery Appeals of Tennessee",
-            "Court of Appeals At Tennessee Western Section At Nashville"
+            "Court of Appeals At Tennessee Western Section At Nashville",
+            "Court of Appeals of Tennessee, Eastern Division",
+            "Court of Appeals of Tennessee, Middle Division",
+            "Court of Appeals of Tennessee, Western Division"
         ],
         "id": "tennctapp",
         "level": "",
@@ -63162,7 +63753,10 @@
             }
         ],
         "examples": [
-            "Tennessee Court of Criminal Appeals"
+            "Tennessee Court of Criminal Appeals",
+            "Court of Criminal Appeals of Tennessee, Eastern Division",
+            "Court of Criminal Appeals of Tennessee, Middle Division",
+            "Court of Criminal Appeals of Tennessee, Western Division"
         ],
         "id": "tenncrimapp",
         "level": "iac",
@@ -63239,7 +63833,10 @@
         ],
         "examples": [
             "Tennessee Supreme Court",
-            "Supreme Court of Tennessee"
+            "Supreme Court of Tennessee",
+            "Supreme Court of Tennessee, Eastern Division",
+            "Supreme Court of Tennessee, Middle Division",
+            "Supreme Court of Tennessee, Western Division"
         ],
         "id": "tenn",
         "level": "",
@@ -63593,7 +64190,21 @@
             "The First Court of Appeals Texas",
             "The First Supreme Judicial District Court of Appeals Texas",
             "Texas Courts of Appeals",
-            "TEXAS COURT OF APPEALS, THIRTEENTH DISTRICT"
+            "TEXAS COURT OF APPEALS, THIRTEENTH DISTRICT",
+            "Court of Appeals of Texas, Eighth District",
+            "Court of Appeals of Texas, Eleventh District",
+            "Court of Appeals of Texas, Fifth District",
+            "Court of Appeals of Texas, First District",
+            "Court of Appeals of Texas, Fourteenth District",
+            "Court of Appeals of Texas, Fourth District",
+            "Court of Appeals of Texas, Ninth District",
+            "Court of Appeals of Texas, Second District",
+            "Court of Appeals of Texas, Seventh District",
+            "Court of Appeals of Texas, Sixth District",
+            "Court of Appeals of Texas, Tenth District",
+            "Court of Appeals of Texas, Third District",
+            "Court of Appeals of Texas, Thirteenth District",
+            "Court of Appeals of Texas, Twelfth District"
         ],
         "id": "texapp",
         "level": "",
@@ -64286,7 +64897,9 @@
         "citation_string": "Utah Dist. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "District Court of Utah, Cache County"
+        ],
         "id": "utahdistct",
         "level": "",
         "location": "Utah",
@@ -65001,7 +65614,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of Virginia, City of Newport News",
+            "Circuit Court of Virginia, City of Richmond"
+        ],
         "id": "vacc",
         "level": "gjc",
         "location": "Virginia",
@@ -68323,7 +68939,11 @@
         "examples": [
             "State of Washingon Superior Court Department One",
             "State of Washington Superior Court At Law",
-            "State of Washington Superior Court"
+            "State of Washington Superior Court",
+            "Superior Court of Washington, Adams County",
+            "Superior Court of Washington, Clallam County",
+            "Superior Court of Washington, King County",
+            "Superior Court of Washington, Okanogan County"
         ],
         "id": "washsuperct",
         "level": "trial",
@@ -69674,7 +70294,40 @@
                 "start": "1863-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "Circuit Court of West Virginia, Berkeley County",
+            "Circuit Court of West Virginia, Boone County",
+            "Circuit Court of West Virginia, Braxton County",
+            "Circuit Court of West Virginia, Brooke County",
+            "Circuit Court of West Virginia, Cabell County",
+            "Circuit Court of West Virginia, Calhoun County",
+            "Circuit Court of West Virginia, Fayette County",
+            "Circuit Court of West Virginia, Greenbriar County",
+            "Circuit Court of West Virginia, Harrison County",
+            "Circuit Court of West Virginia, Jackson County",
+            "Circuit Court of West Virginia, Jefferson County",
+            "Circuit Court of West Virginia, Kanawha County",
+            "Circuit Court of West Virginia, Lincoln County",
+            "Circuit Court of West Virginia, Logan County",
+            "Circuit Court of West Virginia, Marshall County",
+            "Circuit Court of West Virginia, Mercer County",
+            "Circuit Court of West Virginia, Mineral County",
+            "Circuit Court of West Virginia, Monongalia County",
+            "Circuit Court of West Virginia, Morgan County",
+            "Circuit Court of West Virginia, Nicholas County",
+            "Circuit Court of West Virginia, Ohio County",
+            "Circuit Court of West Virginia, Pendleton County",
+            "Circuit Court of West Virginia, Pocahontas County",
+            "Circuit Court of West Virginia, Preston County",
+            "Circuit Court of West Virginia, Putnam County",
+            "Circuit Court of West Virginia, Raleigh County",
+            "Circuit Court of West Virginia, Roane County",
+            "Circuit Court of West Virginia, Wayne County",
+            "Circuit Court of West Virginia, Wetzel County",
+            "Circuit Court of West Virginia, Wood County",
+            "Circuit Court of West Virginia, Wyoming County",
+            "Family Court of West Virginia, Cabell County"
+        ],
         "id": "wvcircct",
         "level": "",
         "location": "West Virginia",
@@ -69844,7 +70497,11 @@
             }
         ],
         "examples": [
-            "WISCONSIN COURT OF APPEALS, DISTRICT FOUR"
+            "WISCONSIN COURT OF APPEALS, DISTRICT FOUR",
+            "Court of Appeals of Wisconsin, District I",
+            "Court of Appeals of Wisconsin, District II",
+            "Court of Appeals of Wisconsin, District III",
+            "Court of Appeals of Wisconsin, District IV"
         ],
         "id": "wisctapp",
         "level": "",
@@ -70161,7 +70818,14 @@
         "citation_string": "Wyo. Dist. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "District Court of Wyoming Campbell County",
+            "District Court of Wyoming, Hot Springs County",
+            "District Court of Wyoming, Platte County",
+            "District Court of Wyoming, Sheridan County",
+            "District Court of Wyoming, Teton County",
+            "District Court of Wyoming, Uinta County"
+        ],
         "id": "wydistct",
         "level": "",
         "location": "Wyoming",
