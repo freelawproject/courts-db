@@ -22387,13 +22387,15 @@
         "citation_string": "N.H. Cir. Ct.",
         "court_url": "",
         "dates": [],
-        "examples": [],
+        "examples": [
+            "8th Circuit Court of New Hampshire, District Division-Nashua"
+        ],
         "id": "nhcirct",
         "level": "",
         "location": "New Hampshire",
         "name": "New Hampshire Circuit Court",
         "regex": [
-            "\\d+(st|nd|rd|th) ${ccoa}${nh}(, .+)?"
+            "\\d+(st|nd|rd|th) ${crct}${nh}(, .+)?"
         ],
         "system": "state",
         "type": "trial"
@@ -22409,7 +22411,7 @@
         "id": "nhcirct9",
         "level": "",
         "location": "New Hampshire",
-        "name": "New Hampshire Circuit Court",
+        "name": "New Hampshire 9th Circuit Court",
         "parent": "nhcirct",
         "regex": [
             "(9th|Ninth) ${crct} ${nh}(, District Division.+)?"
@@ -51773,7 +51775,7 @@
             "Court of Appeals of Ohio, Greene County"
         ],
         "system": "state",
-        "type": "trial"
+        "type": "appellate"
     },
     {
         "case_types": [],
