@@ -17788,7 +17788,7 @@
             "Court For ${md_circuits} County Maryland",
             "Circuit Court of Maryland Pfunce George",
             "Court For Prince George S County",
-            "${crct} ${maryland}(, .+ (City|County))"
+            "${crct} ${maryland}(, .+ County)"
         ],
         "system": "state",
         "type": "trial"
