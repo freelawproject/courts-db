@@ -6,6 +6,7 @@
 
 ## Upcoming Changes
 
+- Fix `citation_string` for six federal district courts (nyed, mdd, mnd, pamd, wvsd, nmid) #136
 -
 
 
