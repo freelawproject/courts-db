@@ -6,6 +6,7 @@
 
 ## Upcoming Changes
 
+- Remove phantom "District of Oklahoma" court (okd) #136
 -
 
 
