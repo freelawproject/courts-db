@@ -6,6 +6,7 @@
 
 ## Upcoming Changes
 
+- Fix `type` for 48 federal district courts mislabeled "appellate" #136
 -
 
 
