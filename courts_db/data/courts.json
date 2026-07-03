@@ -53334,32 +53334,6 @@
         "type": "bankruptcy"
     },
     {
-        "appeal_to": "ca10",
-        "citation_string": "",
-        "dates": [
-            {
-                "end": null,
-                "notes": "Divided in two",
-                "start": null
-            }
-        ],
-        "examples": [
-            "District Court D Oklahoma"
-        ],
-        "federal_circuit": 10,
-        "id": "okd",
-        "jurisdiction": "",
-        "level": "gjc",
-        "location": "Oklahoma",
-        "name": "United States District Court for the District of Oklahoma",
-        "regex": [
-            "^${d} ?(D)? ?${ok}",
-            "${usdc} ${d} ${ok}"
-        ],
-        "system": "federal",
-        "type": "trial"
-    },
-    {
         "active": false,
         "case_types": [],
         "citation_string": "",
