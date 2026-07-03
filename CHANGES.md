@@ -6,6 +6,7 @@
 
 ## Upcoming Changes
 
+- Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
 -
 
 
