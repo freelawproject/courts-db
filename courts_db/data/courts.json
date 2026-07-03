@@ -17464,7 +17464,7 @@
         "dates": [
             {
                 "end": "1854-06-04",
-                "start": ""
+                "start": null
             }
         ],
         "examples": [],
@@ -21973,6 +21973,11 @@
             {
                 "end": "1801-02-13",
                 "start": "1789-09-24"
+            },
+            {
+                "end": null,
+                "notes": "Single district restored effective July 1, 1802 (2 Stat. 132)",
+                "start": "1802-07-01"
             }
         ],
         "examples": [],
@@ -39256,9 +39261,9 @@
                 "start": "1797-03-03"
             },
             {
-                "end": null,
-                "notes": "Divided in three into two",
-                "start": "1872-06-04"
+                "end": "1872-06-04",
+                "notes": "Divided into Eastern and Western districts, June 4, 1872 (17 Stat. 215)",
+                "start": null
             }
         ],
         "examples": [
@@ -62251,7 +62256,7 @@
                 "start": "1898-01-01"
             },
             {
-                "end": "",
+                "end": null,
                 "notes": "recombined",
                 "start": "1965-10-07"
             }
@@ -69122,7 +69127,8 @@
         "citation_string": "D. W.Va.",
         "dates": [
             {
-                "end": null,
+                "end": "1901-01-22",
+                "notes": "Divided into Northern and Southern districts (31 Stat. 736)",
                 "start": "1864-06-11"
             }
         ],
