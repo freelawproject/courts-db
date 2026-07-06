@@ -217,6 +217,38 @@ class JsonTest(CourtsDBTestCase):
                         bad.append((row["id"], key, value))
         self.assertEqual(len(bad), 0, msg=bad)
 
+    def test_regexes_render_and_compile(self):
+        """Every regex template must be written as ${var}.
+
+        A placeholder written as {var} is left untouched by
+        Template.substitute; a transposed {$var} has its inner $var expanded
+        but keeps the stray braces (e.g. txsd's `{$usa}}`). Either way the
+        result is a regex that still compiles but can never match its
+        intended text (#132) -- so a plain compile check misses both. We scan
+        the raw (pre-substitution) regexes for any {...} that is not a ${...}
+        reference or a {n,m} quantifier, and also confirm every regex compiles
+        after substitution.
+        """
+        brace = re.compile(r"(?<!\$)\{([^{}]*)\}")
+        bad = []
+        with open(
+            os.path.join(db_root, "data", "courts.json"), encoding="utf-8"
+        ) as f:
+            for row in json.load(f):
+                for regex in row.get("regex", []):
+                    for match in brace.finditer(regex):
+                        content = match.group(1)
+                        if re.fullmatch(r"[0-9]+(,[0-9]*)?", content):
+                            continue  # legitimate {n} / {n,m} quantifier
+                        bad.append((row["id"], regex, content))
+        for row in load_courts_db():
+            for regex in row.get("regex", []):
+                try:
+                    re.compile(regex)
+                except re.error as e:
+                    bad.append((row["id"], regex, str(e)))
+        self.assertEqual(len(bad), 0, msg=bad)
+
     def test_id_length(self):
         """Make sure Id length does not exceed 15 characters"""
         max_id_length = max([len(row["id"]) for row in load_courts_db()])
