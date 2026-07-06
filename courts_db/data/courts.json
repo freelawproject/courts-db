@@ -561,7 +561,7 @@
     {
         "appeal_to": "ca11",
         "citation_string": "S.D. Ala.",
-        "court_url": "http://www.als.uscourts.gov/",
+        "court_url": "https://www.alsd.uscourts.gov/",
         "dates": [
             {
                 "end": null,
@@ -24463,7 +24463,7 @@
     {
         "case_types": [],
         "citation_string": "D.N.M.",
-        "court_url": "http://www.nmcourt.fed.us/web/DCDOCS/dcindex.html",
+        "court_url": "https://www.nmd.uscourts.gov/",
         "dates": [
             {
                 "end": null,
@@ -52939,7 +52939,7 @@
     {
         "case_types": [],
         "citation_string": "W.D. Okla.",
-        "court_url": "http://www.uscourts.gov/",
+        "court_url": "https://www.okwd.uscourts.gov/",
         "dates": [
             {
                 "end": null,
