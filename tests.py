@@ -195,6 +195,28 @@ class JsonTest(CourtsDBTestCase):
         ]
         self.assertEqual(len(cites), 0, msg=cites)
 
+    def test_dates_are_null_or_valid(self):
+        """Are all court dates either null or valid YYYY-MM-DD strings?
+
+        filter_courts_by_date only substitutes defaults for None, so any
+        other non-parseable value (e.g. an empty string) makes find_court
+        raise ValueError when called with date_found.
+        """
+        from datetime import datetime
+
+        bad = []
+        for row in load_courts_db():
+            for date_object in row.get("dates", []):
+                for key in ("start", "end"):
+                    value = date_object.get(key)
+                    if value is None:
+                        continue
+                    try:
+                        datetime.strptime(value, "%Y-%m-%d")
+                    except (TypeError, ValueError):
+                        bad.append((row["id"], key, value))
+        self.assertEqual(len(bad), 0, msg=bad)
+
     def test_id_length(self):
         """Make sure Id length does not exceed 15 characters"""
         max_id_length = max([len(row["id"]) for row in load_courts_db()])
