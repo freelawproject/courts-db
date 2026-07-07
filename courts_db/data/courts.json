@@ -10647,7 +10647,7 @@
             "${usdc} Territory of Guam"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11369,7 +11369,7 @@
             "District Court of The United States For The ${sd} Ill(i?nois)"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -11499,7 +11499,7 @@
             "${usdc} ${cd} Illinois"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11522,7 +11522,7 @@
             "United States District Court for the District of Illinois"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11547,7 +11547,7 @@
             "United States District Court for the Eastern District of Illinois"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11708,7 +11708,7 @@
             "United States District Court For The District of Northern Indiana South Bend Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11912,7 +11912,7 @@
             "United States District Court for the District of Indiana"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": false,
@@ -12021,7 +12021,7 @@
             "United States District Court N D Iowa Cedar Rapids Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -12046,7 +12046,7 @@
             "U S District Court Iowa Appanoose County"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -12262,7 +12262,7 @@
             "United States District Court for Eastern the District of Kansas"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -12482,7 +12482,7 @@
             "United States District Court W D Kentucky Louisville Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -16862,7 +16862,7 @@
             "^${d} ?(D)? ?Orleans"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -17192,7 +17192,7 @@
             "United States District Court Southern District of Maine"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -17504,7 +17504,7 @@
             "${usdc} ${d} Md"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18356,7 +18356,7 @@
             "United States District Court For The Eastern Division ?(of)? Michigan ?(Southern Division)?"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18383,7 +18383,7 @@
             "United States District Court For The Western Division of Michigan"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18424,7 +18424,7 @@
             "${usdc} ${d} ${mi}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -20148,7 +20148,7 @@
             "United States District Court for the Northern District of Minnesota"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -20449,7 +20449,7 @@
             "District Court, E. D. Mississippi, N. D."
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -20522,7 +20522,7 @@
             "United States District Court for the District of Mississippi"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -20724,7 +20724,7 @@
             "United States District Court for the Southern District of Missouri"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -20799,7 +20799,7 @@
             "${usdc} ${d} ${mo}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -21595,7 +21595,7 @@
             "District Court Nevada"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -21993,7 +21993,7 @@
             "United States District Court, D. New Jersey, Camden Vicinage"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -24483,7 +24483,7 @@
             "${usdc} ${nm}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -24787,7 +24787,7 @@
             "Northern District of New York"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -24855,7 +24855,7 @@
             "United States District Court For The Western Division of New York"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -38974,7 +38974,7 @@
             "${usdc} ${wd} North Carolina"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -39324,7 +39324,7 @@
             "${usdc} ${d} North Dakota"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -42201,7 +42201,7 @@
             "United States District Court For The District of Ohio"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -52934,7 +52934,7 @@
             "${usdc} ${nd} ${ok}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -52961,7 +52961,7 @@
             "United States District Court For The Western Division Oklahoma"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "appeal_to": null,
@@ -54293,7 +54293,7 @@
             "${usdc} District To Oregon"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -54585,7 +54585,7 @@
             "${usdc} For The District For The ${ed} of ${pa}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -54617,7 +54617,7 @@
             "M\\.D\\. of Pennsylvania"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -56733,7 +56733,7 @@
             "${usdc} ${pa}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -62284,7 +62284,7 @@
             "${sc} District Court"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -62306,7 +62306,7 @@
             "United States District Court for the Eastern District of South Carolina"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63225,7 +63225,7 @@
             "United States District Court For The Western Division of Texas Waco Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63343,7 +63343,7 @@
             "${usdc} ${d} ${tx}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63617,7 +63617,7 @@
             "District Court United States"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -63937,7 +63937,7 @@
             "${usdc} ${vt} ${d}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -64274,7 +64274,7 @@
             "District Court For The Eastern Division of Virginia Alexandria Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -67618,7 +67618,7 @@
             "${usdc} ${wd} Wash(ington)"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -68175,7 +68175,7 @@
             "United States District Court for the District of D.C."
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -69120,7 +69120,7 @@
             "United States District Court S D W Va Huntington Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -69146,7 +69146,7 @@
             "United States District Court for the District of West Virginia"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -69378,7 +69378,7 @@
             "United States District Court For The Eastern Division of Wisconsin"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
