@@ -11268,7 +11268,7 @@
         "id": "circtndil",
         "level": "iac",
         "location": "Illinois",
-        "name": "U.S. Circuit Court for the Northern District of Illnois",
+        "name": "U.S. Circuit Court for the Northern District of Illinois",
         "name_abbreviation": "N. Ill. Cir. Ct",
         "parent": "uscirct",
         "regex": [
@@ -11292,7 +11292,7 @@
         "id": "circtsdil",
         "level": "iac",
         "location": "Illinois",
-        "name": "U.S. Circuit Court for the Southern District of Illnois",
+        "name": "U.S. Circuit Court for the Southern District of Illinois",
         "name_abbreviation": "S. Ill. Cir. Ct",
         "parent": "uscirct",
         "regex": [
@@ -67997,7 +67997,7 @@
         "id": "circtddc",
         "level": "iac",
         "location": "Washington D.C.",
-        "name": "U.S. Circuit Court for the District of District of Columbia",
+        "name": "U.S. Circuit Court for the District of Columbia",
         "name_abbreviation": "Dist. of Columbia Cir. Ct",
         "parent": "uscirct",
         "regex": [
