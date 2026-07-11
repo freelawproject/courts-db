@@ -217,6 +217,28 @@ class JsonTest(CourtsDBTestCase):
                         bad.append((row["id"], key, value))
         self.assertEqual(len(bad), 0, msg=bad)
 
+    def test_court_names_match_their_own_spelling(self):
+        """Each court's ``name`` doubles as a match string via gather_regexes,
+        so a typo in ``name`` silently prevents the court from matching its own
+        canonical name. Guards the three circuit-court typos fixed for #141
+        ("Illnois", doubled "District of").
+        """
+        expected = {
+            "circtndil": "U.S. Circuit Court for the Northern District of Illinois",
+            "circtsdil": "U.S. Circuit Court for the Southern District of Illinois",
+            "circtddc": "U.S. Circuit Court for the District of Columbia",
+        }
+        for court_id, name in expected.items():
+            stored = find_court_by_id(court_id)[0]["name"]
+            self.assertEqual(
+                stored, name, msg=f"{court_id} name is {stored!r}"
+            )
+            self.assertIn(
+                court_id,
+                find_court(name),
+                msg=f"{court_id} does not match its own name {name!r}",
+            )
+
     def test_id_length(self):
         """Make sure Id length does not exceed 15 characters"""
         max_id_length = max([len(row["id"]) for row in load_courts_db()])

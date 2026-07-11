@@ -9,7 +9,7 @@
 - Fix `type` for 48 federal district courts mislabeled "appellate" #136
 - Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
 - Fix `citation_string` for six federal district courts (nyed, mdd, mnd, pamd, wvsd, nmid) #136
--
+- Fix typos in three federal circuit-court `name` fields (circtndil, circtsdil "Illnois"; circtddc doubled "District of") #141
 
 
 ## Current Version
