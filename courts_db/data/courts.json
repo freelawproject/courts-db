@@ -12280,7 +12280,7 @@
         "location": "Kansas",
         "name": "Court of Appeals of Kansas",
         "regex": [
-            "{coa} Kansas",
+            "${coa} Kansas",
             "Court of Appeals? of Kansas",
             "Court of Appeals of The State of Kansas",
             "Kansas Court of Appeals"
@@ -16905,7 +16905,7 @@
         "regex": [
             "Court of Appeals? of Louisiana",
             "Louisiana Circuit Courts of Appeal",
-            "(State of) ?Louisiana ${coa} {bw} Circuit",
+            "(State of) ?Louisiana ${coa} ${bw} Circuit",
             "Louisia?na Court of Appeal",
             "State of Louisiana Parish of Orleans Court of Appeal",
             "Court of Appeal Louisiana",
@@ -18039,7 +18039,7 @@
         "location": "Massachusetts",
         "name": "Massachusetts Superior Court",
         "regex": [
-            "Massachusetts {super}",
+            "Massachusetts ${super}",
             "State of Massachusetts Superior Court",
             "Superior Court of Massachusetts"
         ],
@@ -63192,7 +63192,7 @@
             "${usdc} ${sd} ${tx}",
             "${d} Southern Division Texas Houston Div",
             "${sd} Texas Houston Division ${usdc}",
-            "${d} {$usa}} ${sd} Texas Corpus Christi Division",
+            "${d} ${usa} ${sd} Texas Corpus Christi Division",
             "${usdc} ${sd} Tex Brownsville Division"
         ],
         "system": "federal",
@@ -64159,7 +64159,7 @@
         "location": "Virgin Islands",
         "name": "United States Bankruptcy Court, D. Virgin Islands",
         "regex": [
-            "${usdc} {d} Virgin Islands",
+            "${usdc} ${d} Virgin Islands",
             "${usbcd} (the)? ?Virgin Islands",
             "District Court of The Virgin Islands"
         ],
@@ -67577,7 +67577,7 @@
         "name": "District Court, E.D. Washington",
         "parent": "usdistct",
         "regex": [
-            "{usdc} ${ed} Wash(ington)?",
+            "${usdc} ${ed} Wash(ington)?",
             "District Court E D Washington",
             "U S District Court For The Eastern District of Washington Northern Division",
             "United States District Court For The Eastern District Washington",
