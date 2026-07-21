@@ -2398,7 +2398,41 @@
     },
     {
         "case_types": [],
-        "citation_string": "Cal. App. Dep’t Super. Ct.",
+        "citation_string": "",
+        "court_url": "https://www.occourts.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1889-03-11"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Orange",
+            "Orange County Superior Court",
+            "Superior Court of Orange County",
+            "State of California Superior Court County of Orange"
+        ],
+        "id": "calsuppctorange",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Orange County Superior Court",
+        "name_abbreviation": "Orange Cnty. Super. Ct.",
+        "notes": "Orange County was created March 11, 1889 from Los Angeles County. One of the largest trial courts in California.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Orange",
+            "Orange County Superior Court",
+            "Superior Court of Orange County",
+            "State of California Superior Court County of Orange",
+            "Superior Court.* Orange County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. App. Dep't Super. Ct.",
         "dates": [
             {
                 "end": null,
