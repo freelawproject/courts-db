@@ -6,6 +6,7 @@
 
 ## Upcoming Changes
 
+- Fix dead or wrong `court_url` for three district courts: okwd (pointed at the generic uscourts.gov homepage), alsd (www.als.uscourts.gov no longer resolves), nmd (pointed at the retired nmcourt.fed.us host)
 - Fix `type` for 48 federal district courts mislabeled "appellate" #136
 - Fix six regexes with malformed template placeholders (kanctapp, lactapp, masssuperct, txsd, vib, waed); add a test that rejects unsubstituted `{var}`/`{$var}` templates #132
 - Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
