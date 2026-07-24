@@ -7607,8 +7607,8 @@
         "citation_string": "C.C.N.D. Fla.",
         "dates": [
             {
-                "end": null,
-                "start": null
+                "end": "1911-12-31",
+                "start": "1862-07-15"
             }
         ],
         "examples": [
@@ -7637,7 +7637,7 @@
         "dates": [
             {
                 "end": "1911-12-31",
-                "start": "1862-01-01"
+                "start": "1862-07-15"
             }
         ],
         "examples": [],
