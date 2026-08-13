@@ -2398,7 +2398,41 @@
     },
     {
         "case_types": [],
-        "citation_string": "Cal. App. Dep’t Super. Ct.",
+        "citation_string": "",
+        "court_url": "https://www.sdcourt.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Diego",
+            "San Diego County Superior Court",
+            "Superior Court of San Diego County",
+            "State of California Superior Court County of San Diego"
+        ],
+        "id": "calsuppctsd",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Diego County Superior Court",
+        "name_abbreviation": "San Diego Cnty. Super. Ct.",
+        "notes": "San Diego County is one of California's original 27 counties, established February 18, 1850. Second largest trial court in California by population served.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Diego",
+            "San Diego County Superior Court",
+            "Superior Court of San Diego County",
+            "State of California Superior Court County of San Diego",
+            "Superior Court.* San Diego County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. App. Dep't Super. Ct.",
         "dates": [
             {
                 "end": null,
