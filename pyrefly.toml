@@ -1,0 +1,136 @@
+# Pre-existing errors are grandfathered here; only new errors fail the check.
+baseline = ".pyrefly-baseline.json"
+ignore-missing-imports = []
+min-severity = "warn"
+permissive-ignores = false
+strict-callable-subtyping = true
+
+# These options are "good", but sub-configs may opt out.
+check-unannotated-defs = true
+infer-return-types = "checked"
+
+[errors]
+# The following errors are a baseline that sub configs can opt out of. Unfortunately, knowing what is and is not enabled
+# by default isn't terribly clear. This is big chunk of options copied from the documentation, where the criteria are
+# "sounds reasonable" and where violations are not pervasive.
+abstract-method-call = true
+assert-type = true
+bad-argument-count = true
+bad-argument-type = true
+bad-assignment = true
+bad-class-definition = true
+bad-context-manager = true
+bad-dunder-all = true
+bad-function-definition = true
+bad-index = true
+bad-instantiation = true
+bad-keyword-argument = true
+bad-match = true
+bad-override = true
+bad-override-mutable-attribute = true
+bad-raise = true
+bad-return = true
+bad-specialization = true
+bad-typed-dict = true
+bad-typed-dict-key = true
+bad-unpacking = true
+deprecated = true
+direct-abstract-base-instantiation = true
+incompatible-comparison = true
+incompatible-overload-residual = true
+inconsistent-inheritance = true
+inconsistent-overload = true
+inconsistent-overload-default = true
+internal-error = true
+invalid-abstract-method = true
+invalid-annotation = true
+invalid-argument = true
+invalid-cast = true
+invalid-decorator = true
+invalid-inheritance = true
+invalid-literal = true
+invalid-overload = true
+invalid-param-spec = true
+invalid-pattern = true
+invalid-self-type = true
+invalid-sentinel = true
+invalid-super-call = true
+invalid-syntax = true
+invalid-type-alias = true
+invalid-type-checking-constant = true
+invalid-type-var = true
+invalid-type-var-tuple = true
+invalid-variance = true
+invalid-yield = true
+implicit-abstract-class = true
+implicit-any = true
+misplaced-ignore = true
+missing-argument = true
+missing-attribute = true
+missing-module-attribute = true
+missing-source = true
+missing-source-for-stubs = true
+name-mismatch = true
+no-access = true
+no-matching-overload = true
+non-exhaustive-match = true
+not-a-type = true
+not-async = true
+not-callable = true
+not-iterable = true
+not-required-key-access = true
+open-unpacking = true
+potential-bad-keyword-argument = true
+unbound-name = true
+unknown-attribute-type = true
+unknown-name = true
+unknown-column = true
+unused-coroutine = true
+unused-ignore = true
+unused-type-ignore = true
+
+# The following errors that are disabled as a general matter. They come largely from the "strict" preset. Over time,
+# should be enabled. This section also captures the settings which are varied by sub-configs: sub-configs should copy
+# and opt-in or opt-out as the case may be. When there is unanimity among configutations, a setting is ripe for
+# promotion to the section above.
+bad-override-param-name = true
+explicit-any = true
+implicit-any-attribute = true
+implicit-any-empty-container = true
+implicit-any-lambda = true
+implicit-any-parameter = true
+implicit-any-type-argument = false
+implicit-bool = false
+missing-import = true
+missing-override-decorator = true
+no-any-return-explicit = true
+no-any-return-implicit = true
+unknown-argument-type = false
+unknown-variable-type = false
+unused-call-result = false
+
+# Tests are held to a weaker standard.
+[[sub-config]]
+matches = "tests.py"
+
+# Opt out
+check-unannotated-defs = true
+infer-return-types = "checked"
+
+[sub-config.errors]
+# Opt out
+bad-override-param-name = true
+explicit-any = true
+implicit-any-attribute = true
+implicit-any-empty-container = true
+implicit-any-lambda = true
+implicit-any-parameter = true
+implicit-any-type-argument = true
+implicit-bool = true
+missing-import = true
+missing-override-decorator = false
+no-any-return-explicit = true
+no-any-return-implicit = true
+unknown-argument-type = false
+unknown-variable-type = false
+unused-call-result = false
