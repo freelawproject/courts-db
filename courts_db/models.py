@@ -35,7 +35,6 @@ class CourtDict(TypedDict):
     cites: NotRequired[list[str]]
     sub_names: NotRequired[list[str]]
     divisions: NotRequired[list[str]]
-    division: NotRequired[Union[list[str], str]]
     division_type: NotRequired[str]
     federal_circuit: NotRequired[int]
     lower_courts: NotRequired[list[str]]

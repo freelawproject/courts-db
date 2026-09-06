@@ -3991,7 +3991,7 @@
                 "start": "1789-09-24"
             }
         ],
-        "division": [
+        "divisions": [
             "Wilmington"
         ],
         "examples": [
@@ -9518,7 +9518,9 @@
                 "start": null
             }
         ],
-        "division": "Districts and Circuits",
+        "divisions": [
+            "Districts and Circuits"
+        ],
         "examples": [],
         "id": "gasuperct",
         "jurisdiction": "G.A.",
