@@ -49,15 +49,16 @@ class DataTest(CourtsDBTestCase):
         """Can we extract the correct court id from string and date?"""
 
         for court in self.courts:
-            for court_str_example in court["examples"]:
-                print(f"Testing {court_str_example}", end=" ... ")
-                matches = find_court(court_str=court_str_example)
-                self.assertIn(
-                    court["id"],
-                    matches,
-                    f"Failure to find {court['id']} in {court_str_example}",
-                )
-                print("√")
+            with self.subTest(court_id=court["id"]):
+                for court_str_example in court["examples"]:
+                    print(f"Testing {court_str_example}", end=" ... ")
+                    matches = find_court(court_str=court_str_example)
+                    self.assertIn(
+                        court["id"],
+                        matches,
+                        f"Failure to find {court['id']} in {court_str_example}",
+                    )
+                    print("√")
 
     def test_location_filter(self):
         """Can we use location to filter properly"""
