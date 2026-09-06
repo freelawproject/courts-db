@@ -45,6 +45,13 @@ class DataTest(CourtsDBTestCase):
             find_court_by_id(matches[0])[0].get("parent", None), None
         )
 
+        for court in self.courts:
+            reference = court.get("parent")
+            if reference is not None:
+                with self.subTest(court_id=court["id"]):
+                    matches = find_court_by_id(reference)
+                    self.assertGreater(len(matches), 0, "No court found")
+
     def test_all_example(self):
         """Can we extract the correct court id from string and date?"""
 
