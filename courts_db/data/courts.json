@@ -4127,7 +4127,7 @@
     },
     {
         "active": true,
-        "case_types": null,
+        "case_types": [],
         "citation_string": "Del. Ct. Com. Pl.",
         "court_url": "http://courts.delaware.gov/Superior/",
         "dates": [
@@ -26748,7 +26748,7 @@
         "type": null
     },
     {
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26891,7 +26891,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26917,7 +26917,7 @@
         "type": "trial"
     },
     {
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26939,7 +26939,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26961,7 +26961,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26985,7 +26985,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27007,7 +27007,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27027,7 +27027,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27049,7 +27049,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27071,7 +27071,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {

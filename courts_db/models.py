@@ -14,7 +14,7 @@ class DateRange(TypedDict):
 
 class CourtDict(TypedDict):
     active: NotRequired[bool]
-    case_types: NotRequired[Union[list[str], str, None]]
+    case_types: NotRequired[Union[list[str]]]
     citation_string: str
     court_url: NotRequired[str]
     dates: list[DateRange]
