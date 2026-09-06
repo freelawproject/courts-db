@@ -28,7 +28,6 @@ class CourtDict(TypedDict):
     regex: list[str]
     system: str
     type: Union[str, None]
-    reorganization_dates: NotRequired[list[str]]
     url: NotRequired[str]
     bankruptcy: NotRequired[None]
     notes: NotRequired[Union[str, None]]

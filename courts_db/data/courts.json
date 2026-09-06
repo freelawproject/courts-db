@@ -1791,6 +1791,10 @@
         "dates": [
             {
                 "end": null,
+                "reorganization_dates": [
+                    "1866-03-09",
+                    "1966-01-01"
+                ],
                 "start": "1850-01-01"
             }
         ],
@@ -1823,10 +1827,6 @@
             "United States District Court Southern Division Northern District of ${ca}",
             "United States District Court San Jose Division San Jose Division"
         ],
-        "reorganization_dates": [
-            "1866-03-09",
-            "1966-01-01"
-        ],
         "system": "federal",
         "type": "trial"
     },
@@ -1838,6 +1838,10 @@
         "dates": [
             {
                 "end": null,
+                "reorganization_dates": [
+                    "1866-03-09",
+                    "1966-01-01"
+                ],
                 "start": "1850-01-01"
             }
         ],
@@ -1869,10 +1873,6 @@
             "District Court of The United States Southern District of California Central Division",
             "United States District Court Southern Division of California",
             "United States District Court Southern District of Galifornia"
-        ],
-        "reorganization_dates": [
-            "1866-03-09",
-            "1966-01-01"
         ],
         "system": "federal",
         "type": "trial"
