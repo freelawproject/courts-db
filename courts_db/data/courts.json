@@ -1464,6 +1464,7 @@
     {
         "case_types": [],
         "citation_string": "",
+        "court_url": "https://courts.arkansas.gov/content/city-courts",
         "dates": [
             {
                 "end": null,
@@ -1483,8 +1484,7 @@
             "Arkansas City Courts"
         ],
         "system": "state",
-        "type": "trial",
-        "url": "https://courts.arkansas.gov/content/city-courts"
+        "type": "trial"
     },
     {
         "case_types": [],
