@@ -6,9 +6,7 @@ from typing_extensions import NotRequired, TypedDict
 class DateRange(TypedDict):
     start: Union[str, None]
     end: Union[str, None]
-    reorganization_dates: NotRequired[list[str]]
-    reorganization: NotRequired[Union[list[str], str]]
-    reorg: NotRequired[list[str]]
+    reorganization: NotRequired[list[str]]
     notes: NotRequired[str]
     name: NotRequired[str]
     reason: NotRequired[str]

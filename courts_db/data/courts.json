@@ -1791,7 +1791,7 @@
         "dates": [
             {
                 "end": null,
-                "reorganization_dates": [
+                "reorganization": [
                     "1866-03-09",
                     "1966-01-01"
                 ],
@@ -1838,7 +1838,7 @@
         "dates": [
             {
                 "end": null,
-                "reorganization_dates": [
+                "reorganization": [
                     "1866-03-09",
                     "1966-01-01"
                 ],
@@ -9398,7 +9398,9 @@
         "dates": [
             {
                 "end": null,
-                "reorganization": "1983-01-01",
+                "reorganization": [
+                    "1983-01-01"
+                ],
                 "start": "1845-01-01"
             }
         ],
@@ -10461,7 +10463,9 @@
         "dates": [
             {
                 "end": null,
-                "reorganization": "1983-01-01",
+                "reorganization": [
+                    "1983-01-01"
+                ],
                 "start": "1845-01-01"
             }
         ],
@@ -10627,7 +10631,7 @@
         "dates": [
             {
                 "end": null,
-                "reorg": [
+                "reorganization": [
                     "1950-01-01"
                 ],
                 "start": "1924-01-01"
@@ -24794,7 +24798,7 @@
         "dates": [
             {
                 "end": null,
-                "reorganization_dates": [
+                "reorganization": [
                     "1865-02-24",
                     "1900-05-12"
                 ],
