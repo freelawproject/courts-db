@@ -104,7 +104,7 @@
         "type": "appellate"
     },
     {
-        "appeal_to": "colr",
+        "appeal_to": "ala",
         "citation_string": "",
         "dates": [
             {
@@ -4069,7 +4069,7 @@
     },
     {
         "active": true,
-        "appeal_to": "Court of Common Pleas",
+        "appeal_to": "delctcompl",
         "citation_string": "",
         "dates": [
             {
@@ -10553,9 +10553,6 @@
         "type": "bankruptcy"
     },
     {
-        "appeal_to": [
-            "scotus"
-        ],
         "citation_string": "11th Cir.",
         "court_url": "http://www.ca11.uscourts.gov/",
         "dates": [

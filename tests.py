@@ -45,19 +45,37 @@ class DataTest(CourtsDBTestCase):
             find_court_by_id(matches[0])[0].get("parent", None), None
         )
 
+        for court in self.courts:
+            reference = court.get("parent")
+            if reference is not None:
+                with self.subTest(court_id=court["id"]):
+                    matches = find_court_by_id(reference)
+                    self.assertGreater(len(matches), 0, "No court found")
+
+    def test_appeal_to_courts(self):
+        """Can we find the appeal_to court"""
+
+        for court in self.courts:
+            reference = court.get("appeal_to")
+            if reference is not None:
+                with self.subTest(court_id=court["id"]):
+                    matches = find_court_by_id(reference)
+                    self.assertGreater(len(matches), 0, "No court found")
+
     def test_all_example(self):
         """Can we extract the correct court id from string and date?"""
 
         for court in self.courts:
-            for court_str_example in court["examples"]:
-                print(f"Testing {court_str_example}", end=" ... ")
-                matches = find_court(court_str=court_str_example)
-                self.assertIn(
-                    court["id"],
-                    matches,
-                    f"Failure to find {court['id']} in {court_str_example}",
-                )
-                print("√")
+            with self.subTest(court_id=court["id"]):
+                for court_str_example in court["examples"]:
+                    print(f"Testing {court_str_example}", end=" ... ")
+                    matches = find_court(court_str=court_str_example)
+                    self.assertIn(
+                        court["id"],
+                        matches,
+                        f"Failure to find {court['id']} in {court_str_example}",
+                    )
+                    print("√")
 
     def test_location_filter(self):
         """Can we use location to filter properly"""
