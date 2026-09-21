@@ -116,14 +116,14 @@ ordinals = [
 #     return cd
 
 
-def make_court_dictionary(courts):
+def make_court_dictionary(courts: list[dict]) -> dict[str, dict]:
     cd = {}
     for court in courts:
         cd[court["id"]] = court
     return cd
 
 
-def load_courts_db():
+def load_courts_db() -> list[dict]:
     """Load the court data from disk, and render regex variables
 
     Court data is on disk as one main JSON file, another containing variables,
@@ -179,7 +179,7 @@ def load_courts_db():
     return data
 
 
-def gather_regexes(courts):
+def gather_regexes(courts: list[dict]) -> list[tuple]:
     """Create a variable mapping regexes to court IDs
 
     :param courts: The court DB

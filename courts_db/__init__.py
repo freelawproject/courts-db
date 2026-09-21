@@ -112,7 +112,10 @@ def find_court_ids_by_name(
     return list(court_matches)
 
 
-def reduce_court_list(court_list):
+_CourtMatch = tuple[str, str, Optional[str]]
+
+
+def reduce_court_list(court_list: list[_CourtMatch]) -> list[_CourtMatch]:
     """Reduce to lowest possible match
 
     :param court_list: List of matches
@@ -127,7 +130,11 @@ def reduce_court_list(court_list):
     return reduced_list
 
 
-def filter_courts_by_date(matches, date_found, strict_dates=False):
+def filter_courts_by_date(
+    matches: list[str],
+    date_found: datetime,
+    strict_dates: Optional[bool] = False,
+) -> list[str]:
     """Filter IDs by date found.
 
     Strict dates should be more useful as dates are filled in.
@@ -169,7 +176,9 @@ def filter_courts_by_date(matches, date_found, strict_dates=False):
     return filtered_results
 
 
-def filter_courts_by_bankruptcy(matches, bankruptcy):
+def filter_courts_by_bankruptcy(
+    matches: list[str], bankruptcy: Optional[bool]
+) -> list[str]:
     from . import courts
 
     results = [court for court in courts if court["id"] in matches]
@@ -180,7 +189,7 @@ def filter_courts_by_bankruptcy(matches, bankruptcy):
     return [court["id"] for court in results if court["type"] != "bankruptcy"]
 
 
-def find_court_by_id(court_id):
+def find_court_by_id(court_id: str) -> list[dict]:
     """Find court dictionary using court id code.
 
     :param court_id: Court code used by Courtlistener.com
