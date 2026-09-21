@@ -12,6 +12,7 @@
 - Fix six regexes with malformed template placeholders (kanctapp, lactapp, masssuperct, txsd, vib, waed); add a test that rejects unsubstituted `{var}`/`{$var}` templates #132
 - Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
 - Fix `citation_string` for six federal district courts (nyed, mdd, mnd, pamd, wvsd, nmid) #136
+- Give rudimentary type hints to all functions.
 -
 
 
