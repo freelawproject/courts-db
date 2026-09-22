@@ -69,3 +69,8 @@ lint.ignore = [
   # if-else-block-instead-of-if-exp
   "SIM108",
 ]
+
+[dependency-groups]
+dev = [
+    "pydantic>=2.13.5",
+]
