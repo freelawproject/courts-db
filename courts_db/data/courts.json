@@ -67930,6 +67930,33 @@
     },
     {
         "case_types": [],
+        "citation_string": "Spokane Cty. Super. Ct.",
+        "court_url": "https://www.spokanecounty.gov/401/Superior-Court",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [
+            "Spokane County Superior Court",
+            "Superior Court of Washington for Spokane County"
+        ],
+        "id": "washsuperctspk",
+        "jurisdiction": "W.A.",
+        "level": "gjc",
+        "location": "Washington",
+        "name": "Spokane County Superior Court",
+        "parent": "washsuperct",
+        "regex": [
+            "Spokane (County)? ?Superior Court",
+            "Superior Court of (the State of )?Washington,? (for )?Spokane County"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
         "citation_string": "Wash. Att'y Gen.",
         "court_url": "http://www.atg.wa.gov/",
         "dates": [
