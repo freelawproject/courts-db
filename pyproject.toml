@@ -33,6 +33,9 @@ classifiers = [
 ]
 
 urls.Repository = "https://github.com/freelawproject/courts-db"
+dependencies = [
+    "typing-extensions>=4.16.0",
+]
 
 [tool.setuptools]
 packages = [ "courts_db" ]
@@ -68,4 +71,9 @@ lint.ignore = [
   "SIM105",
   # if-else-block-instead-of-if-exp
   "SIM108",
+]
+
+[dependency-groups]
+test = [
+    "pydantic>=2.13.5",
 ]
