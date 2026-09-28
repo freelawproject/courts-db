@@ -43,4 +43,4 @@ class CourtDict(TypedDict):
     division_type: NotRequired[str]
     federal_circuit: NotRequired[int]
     lower_courts: NotRequired[list[str]]
-    appeal_to: NotRequired[Union[list[str], str, None]]
+    appeal_to: NotRequired[Union[str, None]]
