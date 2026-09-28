@@ -13,7 +13,8 @@
 - Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
 - Fix `citation_string` for six federal district courts (nyed, mdd, mnd, pamd, wvsd, nmid) #136
 - Give rudimentary type hints to all functions.
--
+- Verify the structure of `courts.json` by checking it against `courts_db.models.CourtDict`.
+ -
 
 
 ## Current Version
