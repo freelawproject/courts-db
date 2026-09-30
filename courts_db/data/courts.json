@@ -2398,6 +2398,2073 @@
     },
     {
         "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.alameda.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1853-03-25"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Alameda",
+            "Alameda County Superior Court",
+            "Superior Court of Alameda County",
+            "State of California Superior Court County of Alameda"
+        ],
+        "id": "calsuppctala",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Alameda County Superior Court",
+        "name_abbreviation": "Alameda Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Alameda",
+            "Alameda County Superior Court",
+            "Superior Court of Alameda County",
+            "State of California Superior Court County of Alameda",
+            "Superior Court.* Alameda County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.alpine.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1864-03-16"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Alpine",
+            "Alpine County Superior Court",
+            "Superior Court of Alpine County",
+            "State of California Superior Court County of Alpine"
+        ],
+        "id": "calsuppctalp",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Alpine County Superior Court",
+        "name_abbreviation": "Alpine Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Alpine",
+            "Alpine County Superior Court",
+            "Superior Court of Alpine County",
+            "State of California Superior Court County of Alpine",
+            "Superior Court.* Alpine County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.amadorcourt.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1854-05-11"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Amador",
+            "Amador County Superior Court",
+            "Superior Court of Amador County",
+            "State of California Superior Court County of Amador"
+        ],
+        "id": "calsuppctama",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Amador County Superior Court",
+        "name_abbreviation": "Amador Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Amador",
+            "Amador County Superior Court",
+            "Superior Court of Amador County",
+            "State of California Superior Court County of Amador",
+            "Superior Court.* Amador County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.buttecourt.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Butte",
+            "Butte County Superior Court",
+            "Superior Court of Butte County",
+            "State of California Superior Court County of Butte"
+        ],
+        "id": "calsuppctbut",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Butte County Superior Court",
+        "name_abbreviation": "Butte Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Butte",
+            "Butte County Superior Court",
+            "Superior Court of Butte County",
+            "State of California Superior Court County of Butte",
+            "Superior Court.* Butte County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.calaveras.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Calaveras",
+            "Calaveras County Superior Court",
+            "Superior Court of Calaveras County",
+            "State of California Superior Court County of Calaveras"
+        ],
+        "id": "calsuppctcal",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Calaveras County Superior Court",
+        "name_abbreviation": "Calaveras Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Calaveras",
+            "Calaveras County Superior Court",
+            "Superior Court of Calaveras County",
+            "State of California Superior Court County of Calaveras",
+            "Superior Court.* Calaveras County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.colusa.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Colusa",
+            "Colusa County Superior Court",
+            "Superior Court of Colusa County",
+            "State of California Superior Court County of Colusa"
+        ],
+        "id": "calsuppctcol",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Colusa County Superior Court",
+        "name_abbreviation": "Colusa Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Colusa",
+            "Colusa County Superior Court",
+            "Superior Court of Colusa County",
+            "State of California Superior Court County of Colusa",
+            "Superior Court.* Colusa County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.cc-courts.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Contra Costa",
+            "Contra Costa County Superior Court",
+            "Superior Court of Contra Costa County",
+            "State of California Superior Court County of Contra Costa"
+        ],
+        "id": "calsuppctcc",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Contra Costa County Superior Court",
+        "name_abbreviation": "Contra Costa Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Contra Costa",
+            "Contra Costa County Superior Court",
+            "Superior Court of Contra Costa County",
+            "State of California Superior Court County of Contra Costa",
+            "Superior Court.* Contra Costa County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.delnorte.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1857-03-02"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Del Norte",
+            "Del Norte County Superior Court",
+            "Superior Court of Del Norte County",
+            "State of California Superior Court County of Del Norte"
+        ],
+        "id": "calsuppctdn",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Del Norte County Superior Court",
+        "name_abbreviation": "Del Norte Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Del Norte",
+            "Del Norte County Superior Court",
+            "Superior Court of Del Norte County",
+            "State of California Superior Court County of Del Norte",
+            "Superior Court.* Del Norte County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.eldorado.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of El Dorado",
+            "El Dorado County Superior Court",
+            "Superior Court of El Dorado County",
+            "State of California Superior Court County of El Dorado"
+        ],
+        "id": "calsuppcteld",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "El Dorado County Superior Court",
+        "name_abbreviation": "El Dorado Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of El Dorado",
+            "El Dorado County Superior Court",
+            "Superior Court of El Dorado County",
+            "State of California Superior Court County of El Dorado",
+            "Superior Court.* El Dorado County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.fresno.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1856-04-19"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Fresno",
+            "Fresno County Superior Court",
+            "Superior Court of Fresno County",
+            "State of California Superior Court County of Fresno"
+        ],
+        "id": "calsuppctfre",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Fresno County Superior Court",
+        "name_abbreviation": "Fresno Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Fresno",
+            "Fresno County Superior Court",
+            "Superior Court of Fresno County",
+            "State of California Superior Court County of Fresno",
+            "Superior Court.* Fresno County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.glenn.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1891-03-11"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Glenn",
+            "Glenn County Superior Court",
+            "Superior Court of Glenn County",
+            "State of California Superior Court County of Glenn"
+        ],
+        "id": "calsuppctgle",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Glenn County Superior Court",
+        "name_abbreviation": "Glenn Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Glenn",
+            "Glenn County Superior Court",
+            "Superior Court of Glenn County",
+            "State of California Superior Court County of Glenn",
+            "Superior Court.* Glenn County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.humboldt.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1853-05-12"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Humboldt",
+            "Humboldt County Superior Court",
+            "Superior Court of Humboldt County",
+            "State of California Superior Court County of Humboldt"
+        ],
+        "id": "calsuppcthum",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Humboldt County Superior Court",
+        "name_abbreviation": "Humboldt Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Humboldt",
+            "Humboldt County Superior Court",
+            "Superior Court of Humboldt County",
+            "State of California Superior Court County of Humboldt",
+            "Superior Court.* Humboldt County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.imperial.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1907-08-15"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Imperial",
+            "Imperial County Superior Court",
+            "Superior Court of Imperial County",
+            "State of California Superior Court County of Imperial"
+        ],
+        "id": "calsuppctimp",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Imperial County Superior Court",
+        "name_abbreviation": "Imperial Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Imperial",
+            "Imperial County Superior Court",
+            "Superior Court of Imperial County",
+            "State of California Superior Court County of Imperial",
+            "Superior Court.* Imperial County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.inyo.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1866-03-22"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Inyo",
+            "Inyo County Superior Court",
+            "Superior Court of Inyo County",
+            "State of California Superior Court County of Inyo"
+        ],
+        "id": "calsuppctiny",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Inyo County Superior Court",
+        "name_abbreviation": "Inyo Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Inyo",
+            "Inyo County Superior Court",
+            "Superior Court of Inyo County",
+            "State of California Superior Court County of Inyo",
+            "Superior Court.* Inyo County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.kern.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1866-04-02"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Kern",
+            "Kern County Superior Court",
+            "Superior Court of Kern County",
+            "State of California Superior Court County of Kern"
+        ],
+        "id": "calsuppctker",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Kern County Superior Court",
+        "name_abbreviation": "Kern Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Kern",
+            "Kern County Superior Court",
+            "Superior Court of Kern County",
+            "State of California Superior Court County of Kern",
+            "Superior Court.* Kern County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.kings.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1893-03-22"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Kings",
+            "Kings County Superior Court",
+            "Superior Court of Kings County",
+            "State of California Superior Court County of Kings"
+        ],
+        "id": "calsuppctkin",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Kings County Superior Court",
+        "name_abbreviation": "Kings Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Kings",
+            "Kings County Superior Court",
+            "Superior Court of Kings County",
+            "State of California Superior Court County of Kings",
+            "Superior Court.* Kings County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.lake.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1861-05-20"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Lake",
+            "Lake County Superior Court",
+            "Superior Court of Lake County",
+            "State of California Superior Court County of Lake"
+        ],
+        "id": "calsuppctlak",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Lake County Superior Court",
+        "name_abbreviation": "Lake Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Lake",
+            "Lake County Superior Court",
+            "Superior Court of Lake County",
+            "State of California Superior Court County of Lake",
+            "Superior Court.* Lake County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.lassen.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1864-04-01"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Lassen",
+            "Lassen County Superior Court",
+            "Superior Court of Lassen County",
+            "State of California Superior Court County of Lassen"
+        ],
+        "id": "calsuppctlas",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Lassen County Superior Court",
+        "name_abbreviation": "Lassen Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Lassen",
+            "Lassen County Superior Court",
+            "Superior Court of Lassen County",
+            "State of California Superior Court County of Lassen",
+            "Superior Court.* Lassen County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.madera.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1893-03-11"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Madera",
+            "Madera County Superior Court",
+            "Superior Court of Madera County",
+            "State of California Superior Court County of Madera"
+        ],
+        "id": "calsuppctmad",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Madera County Superior Court",
+        "name_abbreviation": "Madera Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Madera",
+            "Madera County Superior Court",
+            "Superior Court of Madera County",
+            "State of California Superior Court County of Madera",
+            "Superior Court.* Madera County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.marincourt.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Marin",
+            "Marin County Superior Court",
+            "Superior Court of Marin County",
+            "State of California Superior Court County of Marin"
+        ],
+        "id": "calsuppctmrn",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Marin County Superior Court",
+        "name_abbreviation": "Marin Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Marin",
+            "Marin County Superior Court",
+            "Superior Court of Marin County",
+            "State of California Superior Court County of Marin",
+            "Superior Court.* Marin County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.mariposa.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Mariposa",
+            "Mariposa County Superior Court",
+            "Superior Court of Mariposa County",
+            "State of California Superior Court County of Mariposa"
+        ],
+        "id": "calsuppctmpa",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Mariposa County Superior Court",
+        "name_abbreviation": "Mariposa Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Mariposa",
+            "Mariposa County Superior Court",
+            "Superior Court of Mariposa County",
+            "State of California Superior Court County of Mariposa",
+            "Superior Court.* Mariposa County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.mendocino.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Mendocino",
+            "Mendocino County Superior Court",
+            "Superior Court of Mendocino County",
+            "State of California Superior Court County of Mendocino"
+        ],
+        "id": "calsuppctmen",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Mendocino County Superior Court",
+        "name_abbreviation": "Mendocino Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Mendocino",
+            "Mendocino County Superior Court",
+            "Superior Court of Mendocino County",
+            "State of California Superior Court County of Mendocino",
+            "Superior Court.* Mendocino County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.merced.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1855-04-19"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Merced",
+            "Merced County Superior Court",
+            "Superior Court of Merced County",
+            "State of California Superior Court County of Merced"
+        ],
+        "id": "calsuppctmer",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Merced County Superior Court",
+        "name_abbreviation": "Merced Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Merced",
+            "Merced County Superior Court",
+            "Superior Court of Merced County",
+            "State of California Superior Court County of Merced",
+            "Superior Court.* Merced County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.modoc.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1874-02-17"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Modoc",
+            "Modoc County Superior Court",
+            "Superior Court of Modoc County",
+            "State of California Superior Court County of Modoc"
+        ],
+        "id": "calsuppctmod",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Modoc County Superior Court",
+        "name_abbreviation": "Modoc Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Modoc",
+            "Modoc County Superior Court",
+            "Superior Court of Modoc County",
+            "State of California Superior Court County of Modoc",
+            "Superior Court.* Modoc County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.mono.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1861-04-24"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Mono",
+            "Mono County Superior Court",
+            "Superior Court of Mono County",
+            "State of California Superior Court County of Mono"
+        ],
+        "id": "calsuppctmon",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Mono County Superior Court",
+        "name_abbreviation": "Mono Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Mono",
+            "Mono County Superior Court",
+            "Superior Court of Mono County",
+            "State of California Superior Court County of Mono",
+            "Superior Court.* Mono County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.monterey.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Monterey",
+            "Monterey County Superior Court",
+            "Superior Court of Monterey County",
+            "State of California Superior Court County of Monterey"
+        ],
+        "id": "calsuppctmnt",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Monterey County Superior Court",
+        "name_abbreviation": "Monterey Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Monterey",
+            "Monterey County Superior Court",
+            "Superior Court of Monterey County",
+            "State of California Superior Court County of Monterey",
+            "Superior Court.* Monterey County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.napa.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Napa",
+            "Napa County Superior Court",
+            "Superior Court of Napa County",
+            "State of California Superior Court County of Napa"
+        ],
+        "id": "calsuppctnap",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Napa County Superior Court",
+        "name_abbreviation": "Napa Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Napa",
+            "Napa County Superior Court",
+            "Superior Court of Napa County",
+            "State of California Superior Court County of Napa",
+            "Superior Court.* Napa County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.nevada.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1851-04-25"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Nevada",
+            "Nevada County Superior Court",
+            "Superior Court of Nevada County",
+            "State of California Superior Court County of Nevada"
+        ],
+        "id": "calsuppctnev",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Nevada County Superior Court",
+        "name_abbreviation": "Nevada Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Nevada",
+            "Nevada County Superior Court",
+            "Superior Court of Nevada County",
+            "State of California Superior Court County of Nevada",
+            "Superior Court.* Nevada County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.occourts.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1889-03-11"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Orange",
+            "Orange County Superior Court",
+            "Superior Court of Orange County",
+            "State of California Superior Court County of Orange"
+        ],
+        "id": "calsuppctora",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Orange County Superior Court",
+        "name_abbreviation": "Orange Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Orange",
+            "Orange County Superior Court",
+            "Superior Court of Orange County",
+            "State of California Superior Court County of Orange",
+            "Superior Court.* Orange County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.placer.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1851-04-25"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Placer",
+            "Placer County Superior Court",
+            "Superior Court of Placer County",
+            "State of California Superior Court County of Placer"
+        ],
+        "id": "calsuppctpla",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Placer County Superior Court",
+        "name_abbreviation": "Placer Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Placer",
+            "Placer County Superior Court",
+            "Superior Court of Placer County",
+            "State of California Superior Court County of Placer",
+            "Superior Court.* Placer County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.plumas.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1854-03-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Plumas",
+            "Plumas County Superior Court",
+            "Superior Court of Plumas County",
+            "State of California Superior Court County of Plumas"
+        ],
+        "id": "calsuppctplu",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Plumas County Superior Court",
+        "name_abbreviation": "Plumas Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Plumas",
+            "Plumas County Superior Court",
+            "Superior Court of Plumas County",
+            "State of California Superior Court County of Plumas",
+            "Superior Court.* Plumas County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.riverside.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1893-03-11"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Riverside",
+            "Riverside County Superior Court",
+            "Superior Court of Riverside County",
+            "State of California Superior Court County of Riverside"
+        ],
+        "id": "calsuppctriv",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Riverside County Superior Court",
+        "name_abbreviation": "Riverside Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Riverside",
+            "Riverside County Superior Court",
+            "Superior Court of Riverside County",
+            "State of California Superior Court County of Riverside",
+            "Superior Court.* Riverside County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.saccourt.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Sacramento",
+            "Sacramento County Superior Court",
+            "Superior Court of Sacramento County",
+            "State of California Superior Court County of Sacramento"
+        ],
+        "id": "calsuppctsac",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Sacramento County Superior Court",
+        "name_abbreviation": "Sacramento Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Sacramento",
+            "Sacramento County Superior Court",
+            "Superior Court of Sacramento County",
+            "State of California Superior Court County of Sacramento",
+            "Superior Court.* Sacramento County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sanbenito.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1874-02-12"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Benito",
+            "San Benito County Superior Court",
+            "Superior Court of San Benito County",
+            "State of California Superior Court County of San Benito"
+        ],
+        "id": "calsuppctsbt",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Benito County Superior Court",
+        "name_abbreviation": "San Benito Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Benito",
+            "San Benito County Superior Court",
+            "Superior Court of San Benito County",
+            "State of California Superior Court County of San Benito",
+            "Superior Court.* San Benito County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sb-court.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1853-04-26"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Bernardino",
+            "San Bernardino County Superior Court",
+            "Superior Court of San Bernardino County",
+            "State of California Superior Court County of San Bernardino"
+        ],
+        "id": "calsuppctsbr",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Bernardino County Superior Court",
+        "name_abbreviation": "San Bernardino Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Bernardino",
+            "San Bernardino County Superior Court",
+            "Superior Court of San Bernardino County",
+            "State of California Superior Court County of San Bernardino",
+            "Superior Court.* San Bernardino County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sdcourt.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Diego",
+            "San Diego County Superior Court",
+            "Superior Court of San Diego County",
+            "State of California Superior Court County of San Diego"
+        ],
+        "id": "calsuppctsd",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Diego County Superior Court",
+        "name_abbreviation": "San Diego Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Diego",
+            "San Diego County Superior Court",
+            "Superior Court of San Diego County",
+            "State of California Superior Court County of San Diego",
+            "Superior Court.* San Diego County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sjcourts.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Joaquin",
+            "San Joaquin County Superior Court",
+            "Superior Court of San Joaquin County",
+            "State of California Superior Court County of San Joaquin"
+        ],
+        "id": "calsuppctsj",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Joaquin County Superior Court",
+        "name_abbreviation": "San Joaquin Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Joaquin",
+            "San Joaquin County Superior Court",
+            "Superior Court of San Joaquin County",
+            "State of California Superior Court County of San Joaquin",
+            "Superior Court.* San Joaquin County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.slo.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Luis Obispo",
+            "San Luis Obispo County Superior Court",
+            "Superior Court of San Luis Obispo County",
+            "State of California Superior Court County of San Luis Obispo"
+        ],
+        "id": "calsuppctslo",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Luis Obispo County Superior Court",
+        "name_abbreviation": "San Luis Obispo Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Luis Obispo",
+            "San Luis Obispo County Superior Court",
+            "Superior Court of San Luis Obispo County",
+            "State of California Superior Court County of San Luis Obispo",
+            "Superior Court.* San Luis Obispo County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sanmateocourt.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1856-04-19"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of San Mateo",
+            "San Mateo County Superior Court",
+            "Superior Court of San Mateo County",
+            "State of California Superior Court County of San Mateo"
+        ],
+        "id": "calsuppctsm",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "San Mateo County Superior Court",
+        "name_abbreviation": "San Mateo Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of San Mateo",
+            "San Mateo County Superior Court",
+            "Superior Court of San Mateo County",
+            "State of California Superior Court County of San Mateo",
+            "Superior Court.* San Mateo County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sbcourts.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Santa Barbara",
+            "Santa Barbara County Superior Court",
+            "Superior Court of Santa Barbara County",
+            "State of California Superior Court County of Santa Barbara"
+        ],
+        "id": "calsuppctsb",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Santa Barbara County Superior Court",
+        "name_abbreviation": "Santa Barbara Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Santa Barbara",
+            "Santa Barbara County Superior Court",
+            "Superior Court of Santa Barbara County",
+            "State of California Superior Court County of Santa Barbara",
+            "Superior Court.* Santa Barbara County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.scscourt.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Santa Clara",
+            "Santa Clara County Superior Court",
+            "Superior Court of Santa Clara County",
+            "State of California Superior Court County of Santa Clara"
+        ],
+        "id": "calsuppctsc",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Santa Clara County Superior Court",
+        "name_abbreviation": "Santa Clara Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Santa Clara",
+            "Santa Clara County Superior Court",
+            "Superior Court of Santa Clara County",
+            "State of California Superior Court County of Santa Clara",
+            "Superior Court.* Santa Clara County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.santacruzcourt.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Santa Cruz",
+            "Santa Cruz County Superior Court",
+            "Superior Court of Santa Cruz County",
+            "State of California Superior Court County of Santa Cruz"
+        ],
+        "id": "calsuppctscz",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Santa Cruz County Superior Court",
+        "name_abbreviation": "Santa Cruz Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Santa Cruz",
+            "Santa Cruz County Superior Court",
+            "Superior Court of Santa Cruz County",
+            "State of California Superior Court County of Santa Cruz",
+            "Superior Court.* Santa Cruz County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.shasta.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Shasta",
+            "Shasta County Superior Court",
+            "Superior Court of Shasta County",
+            "State of California Superior Court County of Shasta"
+        ],
+        "id": "calsuppctsha",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Shasta County Superior Court",
+        "name_abbreviation": "Shasta Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Shasta",
+            "Shasta County Superior Court",
+            "Superior Court of Shasta County",
+            "State of California Superior Court County of Shasta",
+            "Superior Court.* Shasta County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sierra.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1852-04-16"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Sierra",
+            "Sierra County Superior Court",
+            "Superior Court of Sierra County",
+            "State of California Superior Court County of Sierra"
+        ],
+        "id": "calsuppctsie",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Sierra County Superior Court",
+        "name_abbreviation": "Sierra Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Sierra",
+            "Sierra County Superior Court",
+            "Superior Court of Sierra County",
+            "State of California Superior Court County of Sierra",
+            "Superior Court.* Sierra County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.siskiyou.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1852-03-22"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Siskiyou",
+            "Siskiyou County Superior Court",
+            "Superior Court of Siskiyou County",
+            "State of California Superior Court County of Siskiyou"
+        ],
+        "id": "calsuppctsis",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Siskiyou County Superior Court",
+        "name_abbreviation": "Siskiyou Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Siskiyou",
+            "Siskiyou County Superior Court",
+            "Superior Court of Siskiyou County",
+            "State of California Superior Court County of Siskiyou",
+            "Superior Court.* Siskiyou County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.solano.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Solano",
+            "Solano County Superior Court",
+            "Superior Court of Solano County",
+            "State of California Superior Court County of Solano"
+        ],
+        "id": "calsuppctsol",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Solano County Superior Court",
+        "name_abbreviation": "Solano Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Solano",
+            "Solano County Superior Court",
+            "Superior Court of Solano County",
+            "State of California Superior Court County of Solano",
+            "Superior Court.* Solano County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sonomacourt.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Sonoma",
+            "Sonoma County Superior Court",
+            "Superior Court of Sonoma County",
+            "State of California Superior Court County of Sonoma"
+        ],
+        "id": "calsuppctson",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Sonoma County Superior Court",
+        "name_abbreviation": "Sonoma Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Sonoma",
+            "Sonoma County Superior Court",
+            "Superior Court of Sonoma County",
+            "State of California Superior Court County of Sonoma",
+            "Superior Court.* Sonoma County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.stanct.org/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1854-04-01"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Stanislaus",
+            "Stanislaus County Superior Court",
+            "Superior Court of Stanislaus County",
+            "State of California Superior Court County of Stanislaus"
+        ],
+        "id": "calsuppctsta",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Stanislaus County Superior Court",
+        "name_abbreviation": "Stanislaus Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Stanislaus",
+            "Stanislaus County Superior Court",
+            "Superior Court of Stanislaus County",
+            "State of California Superior Court County of Stanislaus",
+            "Superior Court.* Stanislaus County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.sutter.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Sutter",
+            "Sutter County Superior Court",
+            "Superior Court of Sutter County",
+            "State of California Superior Court County of Sutter"
+        ],
+        "id": "calsuppctsut",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Sutter County Superior Court",
+        "name_abbreviation": "Sutter Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Sutter",
+            "Sutter County Superior Court",
+            "Superior Court of Sutter County",
+            "State of California Superior Court County of Sutter",
+            "Superior Court.* Sutter County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.tehama.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1856-04-09"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Tehama",
+            "Tehama County Superior Court",
+            "Superior Court of Tehama County",
+            "State of California Superior Court County of Tehama"
+        ],
+        "id": "calsuppctteh",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Tehama County Superior Court",
+        "name_abbreviation": "Tehama Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Tehama",
+            "Tehama County Superior Court",
+            "Superior Court of Tehama County",
+            "State of California Superior Court County of Tehama",
+            "Superior Court.* Tehama County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.trinity.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Trinity",
+            "Trinity County Superior Court",
+            "Superior Court of Trinity County",
+            "State of California Superior Court County of Trinity"
+        ],
+        "id": "calsuppcttri",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Trinity County Superior Court",
+        "name_abbreviation": "Trinity Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Trinity",
+            "Trinity County Superior Court",
+            "Superior Court of Trinity County",
+            "State of California Superior Court County of Trinity",
+            "Superior Court.* Trinity County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.tulare.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1852-04-20"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Tulare",
+            "Tulare County Superior Court",
+            "Superior Court of Tulare County",
+            "State of California Superior Court County of Tulare"
+        ],
+        "id": "calsuppcttul",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Tulare County Superior Court",
+        "name_abbreviation": "Tulare Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Tulare",
+            "Tulare County Superior Court",
+            "Superior Court of Tulare County",
+            "State of California Superior Court County of Tulare",
+            "Superior Court.* Tulare County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.tuolumne.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Tuolumne",
+            "Tuolumne County Superior Court",
+            "Superior Court of Tuolumne County",
+            "State of California Superior Court County of Tuolumne"
+        ],
+        "id": "calsuppcttuo",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Tuolumne County Superior Court",
+        "name_abbreviation": "Tuolumne Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Tuolumne",
+            "Tuolumne County Superior Court",
+            "Superior Court of Tuolumne County",
+            "State of California Superior Court County of Tuolumne",
+            "Superior Court.* Tuolumne County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.ventura.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1872-03-22"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Ventura",
+            "Ventura County Superior Court",
+            "Superior Court of Ventura County",
+            "State of California Superior Court County of Ventura"
+        ],
+        "id": "calsuppctven",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Ventura County Superior Court",
+        "name_abbreviation": "Ventura Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Ventura",
+            "Ventura County Superior Court",
+            "Superior Court of Ventura County",
+            "State of California Superior Court County of Ventura",
+            "Superior Court.* Ventura County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.yolo.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Yolo",
+            "Yolo County Superior Court",
+            "Superior Court of Yolo County",
+            "State of California Superior Court County of Yolo"
+        ],
+        "id": "calsuppctyol",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Yolo County Superior Court",
+        "name_abbreviation": "Yolo Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Yolo",
+            "Yolo County Superior Court",
+            "Superior Court of Yolo County",
+            "State of California Superior Court County of Yolo",
+            "Superior Court.* Yolo County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://www.yuba.courts.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1850-02-18"
+            }
+        ],
+        "examples": [
+            "Superior Court of California, County of Yuba",
+            "Yuba County Superior Court",
+            "Superior Court of Yuba County",
+            "State of California Superior Court County of Yuba"
+        ],
+        "id": "calsuppctyub",
+        "jurisdiction": "C.A.",
+        "level": "gjc",
+        "location": "California",
+        "name": "Yuba County Superior Court",
+        "name_abbreviation": "Yuba Cnty. Super. Ct.",
+        "parent": "calsuperct",
+        "regex": [
+            "Superior Court of California,? County of Yuba",
+            "Yuba County Superior Court",
+            "Superior Court of Yuba County",
+            "State of California Superior Court County of Yuba",
+            "Superior Court.* Yuba County.* California"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. State Bar Ct.",
+        "court_url": "https://www.statebarcourt.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1989-01-01"
+            }
+        ],
+        "examples": [
+            "State Bar Court of California",
+            "California State Bar Court",
+            "State Bar Court Review Department",
+            "State Bar Court Hearing Department"
+        ],
+        "id": "calstatebar",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "State Bar Court of California",
+        "name_abbreviation": "Cal. State Bar Ct.",
+        "notes": "Disciplinary tribunal for California attorneys. Has Hearing Department (trial level) and Review Department (appellate level).",
+        "regex": [
+            "State Bar Court of California",
+            "California State Bar Court",
+            "State Bar Court Review Department",
+            "State Bar Court Hearing Department",
+            "State Bar Court",
+            "Cal\\.? State Bar Court",
+            "State Bar of California Court"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. WCAB",
+        "court_url": "https://www.dir.ca.gov/wcab/wcab.htm",
+        "dates": [
+            {
+                "end": null,
+                "start": "1913-01-01"
+            }
+        ],
+        "examples": [
+            "Workers' Compensation Appeals Board",
+            "California WCAB",
+            "Cal WCAB"
+        ],
+        "id": "calwcab",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "Workers' Compensation Appeals Board of California",
+        "name_abbreviation": "Cal. WCAB",
+        "notes": "Adjudicates workers' compensation disputes in California.",
+        "regex": [
+            "Workers'? Compensation Appeals Board",
+            "California WCAB",
+            "Cal\\.? WCAB",
+            "WCAB"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. CUIAB",
+        "court_url": "https://www.cuiab.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1943-01-01"
+            }
+        ],
+        "examples": [
+            "California Unemployment Insurance Appeals Board",
+            "CUIAB"
+        ],
+        "id": "calcuiab",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "California Unemployment Insurance Appeals Board",
+        "name_abbreviation": "Cal. CUIAB",
+        "notes": "Hears appeals of unemployment and disability insurance decisions.",
+        "regex": [
+            "California Unemployment Insurance Appeals Board",
+            "Unemployment Insurance Appeals Board",
+            "CUIAB"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. PERB",
+        "court_url": "https://perb.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1975-01-01"
+            }
+        ],
+        "examples": [
+            "Public Employment Relations Board",
+            "California PERB",
+            "PERB"
+        ],
+        "id": "calperb",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "California Public Employment Relations Board",
+        "name_abbreviation": "Cal. PERB",
+        "notes": "Adjudicates public sector labor disputes.",
+        "regex": [
+            "Public Employment Relations Board",
+            "California PERB",
+            "Cal\\.? PERB",
+            "PERB"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. PUC",
+        "court_url": "https://www.cpuc.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1911-01-01"
+            }
+        ],
+        "examples": [
+            "California Public Utilities Commission",
+            "CPUC",
+            "Cal PUC"
+        ],
+        "id": "calcpuc",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "California Public Utilities Commission",
+        "name_abbreviation": "Cal. PUC",
+        "notes": "Regulates utilities and has quasi-judicial authority.",
+        "regex": [
+            "California Public Utilities Commission",
+            "Public Utilities Commission",
+            "CPUC",
+            "Cal\\.? PUC"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. ALRB",
+        "court_url": "https://www.alrb.ca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1975-01-01"
+            }
+        ],
+        "examples": [
+            "Agricultural Labor Relations Board",
+            "California ALRB",
+            "ALRB"
+        ],
+        "id": "calalrb",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "California Agricultural Labor Relations Board",
+        "name_abbreviation": "Cal. ALRB",
+        "notes": "Adjudicates agricultural labor disputes under the ALRA.",
+        "regex": [
+            "Agricultural Labor Relations Board",
+            "California ALRB",
+            "Cal\\.? ALRB",
+            "ALRB"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
+        "citation_string": "Cal. OAH",
+        "court_url": "https://www.dgs.ca.gov/OAH",
+        "dates": [
+            {
+                "end": null,
+                "start": "1945-01-01"
+            }
+        ],
+        "examples": [
+            "Office of Administrative Hearings",
+            "California OAH",
+            "OAH"
+        ],
+        "id": "caloah",
+        "jurisdiction": "C.A.",
+        "level": "special",
+        "location": "California",
+        "name": "California Office of Administrative Hearings",
+        "name_abbreviation": "Cal. OAH",
+        "notes": "Provides administrative law judges for state agency hearings.",
+        "regex": [
+            "Office of Administrative Hearings",
+            "California OAH",
+            "Cal\\.? OAH",
+            "OAH"
+        ],
+        "system": "state",
+        "type": "special"
+    },
+    {
+        "case_types": [],
         "citation_string": "Cal. App. Dep’t Super. Ct.",
         "dates": [
             {
