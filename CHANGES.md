@@ -6,6 +6,7 @@
 
 ## Upcoming Changes
 
+- Add Spokane County Superior Court (`washsuperctspk`). Washington currently has a statewide superior-court catch-all (`washsuperct`) and no county trial courts; Spokane is the venue for the filings that surfaced the gap.
 - Add PR template with AI disclosure section #148
 
 - Fix `type` for 48 federal district courts mislabeled "appellate" #136
