@@ -16,7 +16,8 @@
 - Test correctness of references in `appeal_to` and `parent` fields.
 - Give rudimentary type hints to all functions.
 - Verify the structure of `courts.json` by checking it against `courts_db.models.CourtDict`.
- -
+- Fix "no changes" label handling for `CHANGES.md`
+-
 
 
 ## Current Version
