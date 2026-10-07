@@ -351,7 +351,6 @@
     {
         "active": false,
         "appeal_to": "ca11",
-        "bankruptcy": null,
         "citation_string": "D. Ala.",
         "dates": [
             {
@@ -1464,6 +1463,7 @@
     {
         "case_types": [],
         "citation_string": "",
+        "court_url": "https://courts.arkansas.gov/content/city-courts",
         "dates": [
             {
                 "end": null,
@@ -1483,8 +1483,7 @@
             "Arkansas City Courts"
         ],
         "system": "state",
-        "type": "trial",
-        "url": "https://courts.arkansas.gov/content/city-courts"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -1791,6 +1790,10 @@
         "dates": [
             {
                 "end": null,
+                "reorganization": [
+                    "1866-03-09",
+                    "1966-01-01"
+                ],
                 "start": "1850-01-01"
             }
         ],
@@ -1823,10 +1826,6 @@
             "United States District Court Southern Division Northern District of ${ca}",
             "United States District Court San Jose Division San Jose Division"
         ],
-        "reorganization_dates": [
-            "1866-03-09",
-            "1966-01-01"
-        ],
         "system": "federal",
         "type": "trial"
     },
@@ -1838,6 +1837,10 @@
         "dates": [
             {
                 "end": null,
+                "reorganization": [
+                    "1866-03-09",
+                    "1966-01-01"
+                ],
                 "start": "1850-01-01"
             }
         ],
@@ -1869,10 +1872,6 @@
             "District Court of The United States Southern District of California Central Division",
             "United States District Court Southern Division of California",
             "United States District Court Southern District of Galifornia"
-        ],
-        "reorganization_dates": [
-            "1866-03-09",
-            "1966-01-01"
         ],
         "system": "federal",
         "type": "trial"
@@ -3991,7 +3990,7 @@
                 "start": "1789-09-24"
             }
         ],
-        "division": [
+        "divisions": [
             "Wilmington"
         ],
         "examples": [
@@ -4127,7 +4126,7 @@
     },
     {
         "active": true,
-        "case_types": null,
+        "case_types": [],
         "citation_string": "Del. Ct. Com. Pl.",
         "court_url": "http://courts.delaware.gov/Superior/",
         "dates": [
@@ -9398,7 +9397,9 @@
         "dates": [
             {
                 "end": null,
-                "reorganization": "1983-01-01",
+                "reorganization": [
+                    "1983-01-01"
+                ],
                 "start": "1845-01-01"
             }
         ],
@@ -9516,7 +9517,9 @@
                 "start": null
             }
         ],
-        "division": "Districts and Circuits",
+        "divisions": [
+            "Districts and Circuits"
+        ],
         "examples": [],
         "id": "gasuperct",
         "jurisdiction": "G.A.",
@@ -10461,7 +10464,9 @@
         "dates": [
             {
                 "end": null,
-                "reorganization": "1983-01-01",
+                "reorganization": [
+                    "1983-01-01"
+                ],
                 "start": "1845-01-01"
             }
         ],
@@ -10627,7 +10632,7 @@
         "dates": [
             {
                 "end": null,
-                "reorg": [
+                "reorganization": [
                     "1950-01-01"
                 ],
                 "start": "1924-01-01"
@@ -24794,7 +24799,7 @@
         "dates": [
             {
                 "end": null,
-                "reorganization_dates": [
+                "reorganization": [
                     "1865-02-24",
                     "1900-05-12"
                 ],
@@ -26744,7 +26749,7 @@
         "type": null
     },
     {
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26887,7 +26892,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26913,7 +26918,7 @@
         "type": "trial"
     },
     {
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26935,7 +26940,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26957,7 +26962,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26981,7 +26986,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27003,7 +27008,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27023,7 +27028,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27045,7 +27050,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27067,7 +27072,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -69788,7 +69793,7 @@
     {
         "active": false,
         "citation_string": "B.P.A.I.",
-        "court_url": null,
+        "court_url": "",
         "dates": [
             {
                 "end": "2012-09-15",
