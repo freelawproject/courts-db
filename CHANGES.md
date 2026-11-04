@@ -18,6 +18,7 @@
 - Verify the structure of `courts.json` by checking it against `courts_db.models.CourtDict`.
 - Fix "no changes" label handling for `CHANGES.md`
 - Address outliers in the `courts.json` data structure #154
+- Add the Civilian Board of Contract Appeals (`cbca`) #166
 -
 
 
