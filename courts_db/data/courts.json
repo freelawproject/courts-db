@@ -2019,7 +2019,7 @@
         "dates": [
             {
                 "end": null,
-                "start": null
+                "start": "1905-01-01"
             }
         ],
         "examples": [
@@ -2048,7 +2048,7 @@
         "dates": [
             {
                 "end": null,
-                "start": null
+                "start": "1905-01-01"
             }
         ],
         "examples": [
@@ -2077,7 +2077,7 @@
         "dates": [
             {
                 "end": null,
-                "start": null
+                "start": "1905-01-01"
             }
         ],
         "examples": [
