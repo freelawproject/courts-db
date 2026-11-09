@@ -2,7 +2,7 @@
 
 ## Future Versions
 
-- Features (suggestions welcome)?
+- Features (suggestions welcome)
 
 ## Upcoming Changes
 
@@ -11,12 +11,38 @@
 - Support Python 3.13
 - Change noqa F821  message  from "This code is broken." to "courts is imported lazily via __getattr__" #106
 - Adds txboda court
+- Add PR template with AI disclosure section #148
+- Fix `type` for 48 federal district courts mislabeled "appellate" #136
+- Fix six regexes with malformed template placeholders (kanctapp, lactapp, masssuperct, txsd, vib, waed); add a test that rejects unsubstituted `{var}`/`{$var}` templates #132
+- Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
+- Fix `citation_string` for six federal district courts (nyed, mdd, mnd, pamd, wvsd, nmid) #136
+- Fix `appeal_to` references of `delaldct`, `alajudct`, and `ca11`.
+- Test correctness of references in `appeal_to` and `parent` fields.
+- Give rudimentary type hints to all functions.
+- Verify the structure of `courts.json` by checking it against `courts_db.models.CourtDict`.
+- Fix "no changes" label handling for `CHANGES.md`
+- Address outliers in the `courts.json` data structure #154
+- Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14 #168
+-
+
 
 ## Current Version
 
-- 0.10.25 (2024-07-24): One more regex pattern
+- 0.10.27 (2026-03-25)
+
+- Adds fla 6th district court of appeals
+- Add USPTO administrative bodies (TTAB and PTAB)
 
 ## Past Versions
+
+- 0.10.26 (2025-08-27): various improvements to courts-db
+
+- Add workflow to check for new entries in CHANGES.md file
+- Adds support for "2d Cir." and "3d Cir." court strings
+- Support Python 3.13
+- Change noqa F821  message  from "This code is broken." to "courts is imported lazily via __getattr__" #106
+- Add Texas Business Court  `texbizct` to courts-db #
+- 0.10.25 (2024-07-24): One more regex pattern
 
 - 0.10.24 (2024-07-24): Update more Chancery Courts
 

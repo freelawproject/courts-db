@@ -104,7 +104,7 @@
         "type": "appellate"
     },
     {
-        "appeal_to": "colr",
+        "appeal_to": "ala",
         "citation_string": "",
         "dates": [
             {
@@ -351,7 +351,6 @@
     {
         "active": false,
         "appeal_to": "ca11",
-        "bankruptcy": null,
         "citation_string": "D. Ala.",
         "dates": [
             {
@@ -1464,6 +1463,7 @@
     {
         "case_types": [],
         "citation_string": "",
+        "court_url": "https://courts.arkansas.gov/content/city-courts",
         "dates": [
             {
                 "end": null,
@@ -1483,8 +1483,7 @@
             "Arkansas City Courts"
         ],
         "system": "state",
-        "type": "trial",
-        "url": "https://courts.arkansas.gov/content/city-courts"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -1791,6 +1790,10 @@
         "dates": [
             {
                 "end": null,
+                "reorganization": [
+                    "1866-03-09",
+                    "1966-01-01"
+                ],
                 "start": "1850-01-01"
             }
         ],
@@ -1823,10 +1826,6 @@
             "United States District Court Southern Division Northern District of ${ca}",
             "United States District Court San Jose Division San Jose Division"
         ],
-        "reorganization_dates": [
-            "1866-03-09",
-            "1966-01-01"
-        ],
         "system": "federal",
         "type": "trial"
     },
@@ -1838,6 +1837,10 @@
         "dates": [
             {
                 "end": null,
+                "reorganization": [
+                    "1866-03-09",
+                    "1966-01-01"
+                ],
                 "start": "1850-01-01"
             }
         ],
@@ -1869,10 +1872,6 @@
             "District Court of The United States Southern District of California Central Division",
             "United States District Court Southern Division of California",
             "United States District Court Southern District of Galifornia"
-        ],
-        "reorganization_dates": [
-            "1866-03-09",
-            "1966-01-01"
         ],
         "system": "federal",
         "type": "trial"
@@ -3991,7 +3990,7 @@
                 "start": "1789-09-24"
             }
         ],
-        "division": [
+        "divisions": [
             "Wilmington"
         ],
         "examples": [
@@ -4069,7 +4068,7 @@
     },
     {
         "active": true,
-        "appeal_to": "Court of Common Pleas",
+        "appeal_to": "delctcompl",
         "citation_string": "",
         "dates": [
             {
@@ -4127,7 +4126,7 @@
     },
     {
         "active": true,
-        "case_types": null,
+        "case_types": [],
         "citation_string": "Del. Ct. Com. Pl.",
         "court_url": "http://courts.delaware.gov/Superior/",
         "dates": [
@@ -6628,6 +6627,29 @@
         "regex": [
             "District Court of Appeal of Florida, Fourth District",
             "Florida District Court of Appeal, Fourth District"
+        ],
+        "system": "state",
+        "type": "appellate"
+    },
+    {
+        "case_types": [],
+        "citation_string": "",
+        "court_url": "https://6dca.flcourts.gov",
+        "dates": [
+            {
+                "end": null,
+                "start": null
+            }
+        ],
+        "examples": [],
+        "id": "fladistctapp6",
+        "level": "iac",
+        "location": "Florida",
+        "name": "Florida Sixth District Court of Appeal",
+        "parent": "fladistctapp",
+        "regex": [
+            "District Court of Appeal of Florida, Sixth District",
+            "Florida District Court of Appeal, Sixth District"
         ],
         "system": "state",
         "type": "appellate"
@@ -9375,7 +9397,9 @@
         "dates": [
             {
                 "end": null,
-                "reorganization": "1983-01-01",
+                "reorganization": [
+                    "1983-01-01"
+                ],
                 "start": "1845-01-01"
             }
         ],
@@ -9493,7 +9517,9 @@
                 "start": null
             }
         ],
-        "division": "Districts and Circuits",
+        "divisions": [
+            "Districts and Circuits"
+        ],
         "examples": [],
         "id": "gasuperct",
         "jurisdiction": "G.A.",
@@ -10438,7 +10464,9 @@
         "dates": [
             {
                 "end": null,
-                "reorganization": "1983-01-01",
+                "reorganization": [
+                    "1983-01-01"
+                ],
                 "start": "1845-01-01"
             }
         ],
@@ -10530,9 +10558,7 @@
         "type": "bankruptcy"
     },
     {
-        "appeal_to": [
-            "scotus"
-        ],
+        "appeal_to": "scotus",
         "citation_string": "11th Cir.",
         "court_url": "http://www.ca11.uscourts.gov/",
         "dates": [
@@ -10606,7 +10632,7 @@
         "dates": [
             {
                 "end": null,
-                "reorg": [
+                "reorganization": [
                     "1950-01-01"
                 ],
                 "start": "1924-01-01"
@@ -10624,7 +10650,7 @@
             "${usdc} Territory of Guam"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11346,7 +11372,7 @@
             "District Court of The United States For The ${sd} Ill(i?nois)"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -11476,7 +11502,7 @@
             "${usdc} ${cd} Illinois"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11499,7 +11525,7 @@
             "United States District Court for the District of Illinois"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11524,7 +11550,7 @@
             "United States District Court for the Eastern District of Illinois"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11685,7 +11711,7 @@
             "United States District Court For The District of Northern Indiana South Bend Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -11889,7 +11915,7 @@
             "United States District Court for the District of Indiana"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": false,
@@ -11998,7 +12024,7 @@
             "United States District Court N D Iowa Cedar Rapids Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -12023,7 +12049,7 @@
             "U S District Court Iowa Appanoose County"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -12239,7 +12265,7 @@
             "United States District Court for Eastern the District of Kansas"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -12257,7 +12283,7 @@
         "location": "Kansas",
         "name": "Court of Appeals of Kansas",
         "regex": [
-            "{coa} Kansas",
+            "${coa} Kansas",
             "Court of Appeals? of Kansas",
             "Court of Appeals of The State of Kansas",
             "Kansas Court of Appeals"
@@ -12459,7 +12485,7 @@
             "United States District Court W D Kentucky Louisville Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -16839,7 +16865,7 @@
             "^${d} ?(D)? ?Orleans"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -16882,7 +16908,7 @@
         "regex": [
             "Court of Appeals? of Louisiana",
             "Louisiana Circuit Courts of Appeal",
-            "(State of) ?Louisiana ${coa} {bw} Circuit",
+            "(State of) ?Louisiana ${coa} ${bw} Circuit",
             "Louisia?na Court of Appeal",
             "State of Louisiana Parish of Orleans Court of Appeal",
             "Court of Appeal Louisiana",
@@ -17169,7 +17195,7 @@
             "United States District Court Southern District of Maine"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -17441,7 +17467,7 @@
         "dates": [
             {
                 "end": "1854-06-04",
-                "start": ""
+                "start": null
             }
         ],
         "examples": [],
@@ -17458,7 +17484,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "D. Maryland",
+        "citation_string": "D. Md.",
         "court_url": "https://www.mdd.uscourts.gov/",
         "dates": [
             {
@@ -17481,7 +17507,7 @@
             "${usdc} ${d} Md"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18016,7 +18042,7 @@
         "location": "Massachusetts",
         "name": "Massachusetts Superior Court",
         "regex": [
-            "Massachusetts {super}",
+            "Massachusetts ${super}",
             "State of Massachusetts Superior Court",
             "Superior Court of Massachusetts"
         ],
@@ -18333,7 +18359,7 @@
             "United States District Court For The Eastern Division ?(of)? Michigan ?(Southern Division)?"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18360,7 +18386,7 @@
             "United States District Court For The Western Division of Michigan"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -18401,7 +18427,7 @@
             "${usdc} ${d} ${mi}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -20101,7 +20127,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "D. Minnesota",
+        "citation_string": "D. Minn.",
         "court_url": "http://www.mnd.uscourts.gov/",
         "dates": [
             {
@@ -20125,7 +20151,7 @@
             "United States District Court for the Northern District of Minnesota"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -20426,7 +20452,7 @@
             "District Court, E. D. Mississippi, N. D."
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -20499,7 +20525,7 @@
             "United States District Court for the District of Mississippi"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -20701,7 +20727,7 @@
             "United States District Court for the Southern District of Missouri"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -20776,7 +20802,7 @@
             "${usdc} ${d} ${mo}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -21572,7 +21598,7 @@
             "District Court Nevada"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -21950,6 +21976,11 @@
             {
                 "end": "1801-02-13",
                 "start": "1789-09-24"
+            },
+            {
+                "end": null,
+                "notes": "Single district restored effective July 1, 1802 (2 Stat. 132)",
+                "start": "1802-07-01"
             }
         ],
         "examples": [],
@@ -21965,7 +21996,7 @@
             "United States District Court, D. New Jersey, Camden Vicinage"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -24455,7 +24486,7 @@
             "${usdc} ${nm}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -24682,7 +24713,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "E.D.N.Y",
+        "citation_string": "E.D.N.Y.",
         "court_url": "http://www.nyed.uscourts.gov/",
         "dates": [
             {
@@ -24759,7 +24790,7 @@
             "Northern District of New York"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -24768,7 +24799,7 @@
         "dates": [
             {
                 "end": null,
-                "reorganization_dates": [
+                "reorganization": [
                     "1865-02-24",
                     "1900-05-12"
                 ],
@@ -24827,7 +24858,7 @@
             "United States District Court For The Western Division of New York"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -26718,7 +26749,7 @@
         "type": null
     },
     {
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26861,7 +26892,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26887,7 +26918,7 @@
         "type": "trial"
     },
     {
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26909,7 +26940,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26931,7 +26962,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26955,7 +26986,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26977,7 +27008,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -26997,7 +27028,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27019,7 +27050,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -27041,7 +27072,7 @@
     },
     {
         "active": false,
-        "case_types": "",
+        "case_types": [],
         "citation_string": "",
         "dates": [
             {
@@ -38946,7 +38977,7 @@
             "${usdc} ${wd} North Carolina"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -39233,9 +39264,9 @@
                 "start": "1797-03-03"
             },
             {
-                "end": null,
-                "notes": "Divided in three into two",
-                "start": "1872-06-04"
+                "end": "1872-06-04",
+                "notes": "Divided into Eastern and Western districts, June 4, 1872 (17 Stat. 215)",
+                "start": null
             }
         ],
         "examples": [
@@ -39296,7 +39327,7 @@
             "${usdc} ${d} North Dakota"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -39391,7 +39422,7 @@
     {
         "active": true,
         "case_types": [],
-        "citation_string": "N. Mar. I.",
+        "citation_string": "D. N. Mar. I.",
         "court_url": "http://www.nmid.uscourts.gov/",
         "dates": [
             {
@@ -42173,7 +42204,7 @@
             "United States District Court For The District of Ohio"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -52906,7 +52937,7 @@
             "${usdc} ${nd} ${ok}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -52933,7 +52964,7 @@
             "United States District Court For The Western Division Oklahoma"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "appeal_to": null,
@@ -54265,7 +54296,7 @@
             "${usdc} District To Oregon"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -54557,11 +54588,11 @@
             "${usdc} For The District For The ${ed} of ${pa}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
-        "citation_string": "M.D. Penn.",
+        "citation_string": "M.D. Pa.",
         "court_url": "http://www.pamd.uscourts.gov/",
         "dates": [
             {
@@ -54589,7 +54620,7 @@
             "M\\.D\\. of Pennsylvania"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -56705,7 +56736,7 @@
             "${usdc} ${pa}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -62228,7 +62259,7 @@
                 "start": "1898-01-01"
             },
             {
-                "end": "",
+                "end": null,
                 "notes": "recombined",
                 "start": "1965-10-07"
             }
@@ -62256,7 +62287,7 @@
             "${sc} District Court"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -62278,7 +62309,7 @@
             "United States District Court for the Eastern District of South Carolina"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63164,7 +63195,7 @@
             "${usdc} ${sd} ${tx}",
             "${d} Southern Division Texas Houston Div",
             "${sd} Texas Houston Division ${usdc}",
-            "${d} {$usa}} ${sd} Texas Corpus Christi Division",
+            "${d} ${usa} ${sd} Texas Corpus Christi Division",
             "${usdc} ${sd} Tex Brownsville Division"
         ],
         "system": "federal",
@@ -63197,7 +63228,7 @@
             "United States District Court For The Western Division of Texas Waco Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63253,6 +63284,26 @@
         "type": "appellate"
     },
     {
+        "citation_string": "Tex. Bus. Ct.",
+        "dates": [
+            {
+                "end": null,
+                "start": "2023-06-09"
+            }
+        ],
+        "examples": [],
+        "id": "texbizct",
+        "level": "ljc",
+        "location": "Texas",
+        "name": "Texas Business Court",
+        "name_abbreviation": null,
+        "regex": [
+            "Texas Business Court"
+        ],
+        "system": "state",
+        "type": "trial"
+    },
+    {
         "case_types": [],
         "citation_string": "Tex. Crim. App.",
         "court_url": "http://www.cca.courts.state.tx.us/",
@@ -63295,7 +63346,7 @@
             "${usdc} ${d} ${tx}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -63591,7 +63642,7 @@
             "District Court United States"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "citation_string": "",
@@ -63911,7 +63962,7 @@
             "${usdc} ${vt} ${d}"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -64133,7 +64184,7 @@
         "location": "Virgin Islands",
         "name": "United States Bankruptcy Court, D. Virgin Islands",
         "regex": [
-            "${usdc} {d} Virgin Islands",
+            "${usdc} ${d} Virgin Islands",
             "${usbcd} (the)? ?Virgin Islands",
             "District Court of The Virgin Islands"
         ],
@@ -64248,7 +64299,7 @@
             "District Court For The Eastern Division of Virginia Alexandria Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -67289,7 +67340,7 @@
         ],
         "id": "jpml",
         "level": "ljc",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": " United States Judicial Panel on Multidistrict Litigation",
         "notes": "See: https://en.wikipedia.org/wiki/Judicial_Panel_on_Multidistrict_Litigation",
         "regex": [
@@ -67311,19 +67362,16 @@
                 "start": "1909-08-05"
             }
         ],
-        "examples": [
-            "United States Patent And Trademark office"
-        ],
+        "examples": [],
         "id": "ccpa",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "Court of Customs and Patent Appeals",
         "regex": [
             "U\\. S\\. Court of Customs Appeals",
             "(^|\\s)U\\. S\\. Court of Customs and Patent Appeals",
             "${usa} Court of Customs and Patent Appeals",
             "Court of Customs and Patent Appeals",
-            "United States Patent And Trademark office",
             "United States Court of Customs And Patents Appeals",
             "United States Court of Customs Appeals"
         ],
@@ -67346,7 +67394,7 @@
         "id": "fcc",
         "jurisdiction": "D.C.",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "locations": 1,
         "lower_courts": [],
         "name": "Decisions of the Federal Communications Commission",
@@ -67372,7 +67420,7 @@
         ],
         "id": "reglrailreorgct",
         "level": "trial",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "Special Court Regional Rail Reorganization Act of 1973",
         "notes": "See: ",
         "regex": [
@@ -67400,7 +67448,7 @@
         ],
         "id": "usarmybrdrev",
         "level": "iac",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "U.S. Army Board of Review",
         "name_abbreviation": "A. Bd. Rev.",
         "regex": [
@@ -67422,7 +67470,7 @@
         "examples": [],
         "id": "com",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "U.S. Commerce Court",
         "name_abbreviation": "U.S. Commerce Ct.",
         "regex": [
@@ -67447,7 +67495,7 @@
         ],
         "id": "cc",
         "level": "",
-        "location": "Washignton D.C.",
+        "location": "Washington D.C.",
         "name": "United States Court of Claims",
         "name_abbreviation": "Ct. of Claims",
         "regex": [
@@ -67554,7 +67602,7 @@
         "name": "District Court, E.D. Washington",
         "parent": "usdistct",
         "regex": [
-            "{usdc} ${ed} Wash(ington)?",
+            "${usdc} ${ed} Wash(ington)?",
             "District Court E D Washington",
             "U S District Court For The Eastern District of Washington Northern Division",
             "United States District Court For The Eastern District Washington",
@@ -67595,7 +67643,7 @@
             "${usdc} ${wd} Wash(ington)"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "active": true,
@@ -68152,7 +68200,7 @@
             "United States District Court for the District of D.C."
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -69074,7 +69122,7 @@
     },
     {
         "case_types": [],
-        "citation_string": "S.D.W. Va",
+        "citation_string": "S.D.W. Va.",
         "court_url": "http://www.wvsd.uscourts.gov/",
         "dates": [
             {
@@ -69097,14 +69145,15 @@
             "United States District Court S D W Va Huntington Division"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
         "citation_string": "D. W.Va.",
         "dates": [
             {
-                "end": null,
+                "end": "1901-01-22",
+                "notes": "Divided into Northern and Southern districts (31 Stat. 736)",
                 "start": "1864-06-11"
             }
         ],
@@ -69122,7 +69171,7 @@
             "United States District Court for the District of West Virginia"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -69354,7 +69403,7 @@
             "United States District Court For The Eastern Division of Wisconsin"
         ],
         "system": "federal",
-        "type": "appellate"
+        "type": "trial"
     },
     {
         "case_types": [],
@@ -69699,6 +69748,99 @@
             "Supreme Court of The Territory of Wyoming"
         ],
         "system": "state",
+        "type": "appellate"
+    },
+    {
+        "active": true,
+        "citation_string": "T.T.A.B.",
+        "court_url": "https://www.uspto.gov/trademarks/ttab",
+        "dates": [
+            {
+                "end": null,
+                "start": "1958-01-01"
+            }
+        ],
+        "examples": [
+            "TTAB",
+            "T.T.A.B.",
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
+        ],
+        "id": "ttab",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Trademark Trial and Appeal Board",
+        "name_abbreviation": "T.T.A.B.",
+        "notes": "Administrative body within the United States Patent and Trademark office that determines registrability of trademarks",
+        "regex": [
+            "TTAB",
+            "T\\.T\\.A\\.B\\.",
+            "Trademark Trial and Appeal Board",
+            "Trademark Trial & Appeal Board"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "active": true,
+        "citation_string": "P.T.A.B.",
+        "court_url": "https://www.uspto.gov/patents/ptab",
+        "dates": [
+            {
+                "end": null,
+                "start": "2012-09-16"
+            }
+        ],
+        "examples": [
+            "PTAB",
+            "P.T.A.B.",
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
+        ],
+        "id": "ptab",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Patent Trial and Appeal Board",
+        "name_abbreviation": "P.T.A.B.",
+        "notes": "Administrative body within the United States Patent and Trademark office that determines patentability",
+        "regex": [
+            "PTAB",
+            "P\\.T\\.A\\.B\\.",
+            "Patent Trial and Appeal Board",
+            "Patent Trial & Appeal Board"
+        ],
+        "system": "federal",
+        "type": "appellate"
+    },
+    {
+        "active": false,
+        "citation_string": "B.P.A.I.",
+        "court_url": "",
+        "dates": [
+            {
+                "end": "2012-09-15",
+                "start": null
+            }
+        ],
+        "examples": [
+            "B.P.A.I.",
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
+        ],
+        "id": "bpai",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Board of Patent Appeals and Interferences",
+        "name_abbreviation": "B.P.A.I.",
+        "notes": "Former administrative body within the United States Patent and Trademark office that determined patentability; replaced by PTAB in 2012",
+        "regex": [
+            "B\\.P\\.A\\.I\\.",
+            "BPAI",
+            "Board of Patent Appeals and Interferences",
+            "Board of Patent Appeals & Interferences"
+        ],
+        "system": "federal",
         "type": "appellate"
     }
 ]

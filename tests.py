@@ -6,9 +6,13 @@ import unittest
 from collections import Counter
 from json.decoder import JSONDecodeError
 from pathlib import Path
+from typing import cast
 from unittest import TestCase
 
+from pydantic import TypeAdapter, ValidationError
+
 from courts_db import find_court, find_court_by_id
+from courts_db.models import CourtDict
 from courts_db.text_utils import strip_punc
 from courts_db.utils import db_root, load_courts_db
 
@@ -45,19 +49,37 @@ class DataTest(CourtsDBTestCase):
             find_court_by_id(matches[0])[0].get("parent", None), None
         )
 
+        for court in self.courts:
+            reference = court.get("parent")
+            if reference is not None:
+                with self.subTest(court_id=court["id"]):
+                    matches = find_court_by_id(reference)
+                    self.assertGreater(len(matches), 0, "No court found")
+
+    def test_appeal_to_courts(self):
+        """Can we find the appeal_to court"""
+
+        for court in self.courts:
+            reference = court.get("appeal_to")
+            if reference is not None:
+                with self.subTest(court_id=court["id"]):
+                    matches = find_court_by_id(reference)
+                    self.assertGreater(len(matches), 0, "No court found")
+
     def test_all_example(self):
         """Can we extract the correct court id from string and date?"""
 
         for court in self.courts:
-            for court_str_example in court["examples"]:
-                print(f"Testing {court_str_example}", end=" ... ")
-                matches = find_court(court_str=court_str_example)
-                self.assertIn(
-                    court["id"],
-                    matches,
-                    f"Failure to find {court['id']} in {court_str_example}",
-                )
-                print("√")
+            with self.subTest(court_id=court["id"]):
+                for court_str_example in court["examples"]:
+                    print(f"Testing {court_str_example}", end=" ... ")
+                    matches = find_court(court_str=court_str_example)
+                    self.assertIn(
+                        court["id"],
+                        matches,
+                        f"Failure to find {court['id']} in {court_str_example}",
+                    )
+                    print("√")
 
     def test_location_filter(self):
         """Can we use location to filter properly"""
@@ -178,6 +200,41 @@ class JsonTest(CourtsDBTestCase):
             name = re.search(self.name_regex, court).group("name")
             print(f"Issues with ({id}) -- {name}")
 
+    def test_courts_structure(self):
+        """
+        There’s no validation in the read path; Make sure that the JSON data
+        is in the shape that we expect.
+        """
+        type_adapter = TypeAdapter(list[CourtDict])
+
+        with open(
+            os.path.join(db_root, "data", "courts.json"),
+            encoding="utf-8",
+        ) as f:
+            data = f.read()
+
+        # We directly validate json data so that useful line numbers are given.
+        _ = type_adapter.validate_json(data, extra="forbid")
+
+        courts = cast(list[dict[str, object]], load_courts_db())
+        # Make test would fail when required key is missing
+        modified_court = courts[0].copy()
+        del modified_court["id"]
+        with self.assertRaises(ValidationError):
+            type_adapter.validate_python(modified_court, extra="forbid")
+
+        # Make test would fail when value is the wrong type
+        modified_court = courts[0].copy()
+        modified_court["id"] = 123
+        with self.assertRaises(ValidationError):
+            type_adapter.validate_python(modified_court, extra="forbid")
+
+        # Make test would fail if extra key was present
+        modified_court = courts[0].copy()
+        modified_court["NotAKeyThatWouldEverBePresent"] = True
+        with self.assertRaises(ValidationError):
+            type_adapter.validate_python([modified_court], extra="forbid")
+
     def test_unique_ids(self):
         """Are all court ids unique?"""
         court_ids = [row["id"] for row in load_courts_db()]
@@ -194,6 +251,60 @@ class JsonTest(CourtsDBTestCase):
             if row.get("citation_string", None) is None
         ]
         self.assertEqual(len(cites), 0, msg=cites)
+
+    def test_dates_are_null_or_valid(self):
+        """Are all court dates either null or valid YYYY-MM-DD strings?
+
+        filter_courts_by_date only substitutes defaults for None, so any
+        other non-parseable value (e.g. an empty string) makes find_court
+        raise ValueError when called with date_found.
+        """
+        from datetime import datetime
+
+        bad = []
+        for row in load_courts_db():
+            for date_object in row.get("dates", []):
+                for key in ("start", "end"):
+                    value = date_object.get(key)
+                    if value is None:
+                        continue
+                    try:
+                        datetime.strptime(value, "%Y-%m-%d")
+                    except (TypeError, ValueError):
+                        bad.append((row["id"], key, value))
+        self.assertEqual(len(bad), 0, msg=bad)
+
+    def test_regexes_render_and_compile(self):
+        """Every regex template must be written as ${var}.
+
+        A placeholder written as {var} is left untouched by
+        Template.substitute; a transposed {$var} has its inner $var expanded
+        but keeps the stray braces (e.g. txsd's `{$usa}}`). Either way the
+        result is a regex that still compiles but can never match its
+        intended text (#132) -- so a plain compile check misses both. We scan
+        the raw (pre-substitution) regexes for any {...} that is not a ${...}
+        reference or a {n,m} quantifier, and also confirm every regex compiles
+        after substitution.
+        """
+        brace = re.compile(r"(?<!\$)\{([^{}]*)\}")
+        bad = []
+        with open(
+            os.path.join(db_root, "data", "courts.json"), encoding="utf-8"
+        ) as f:
+            for row in json.load(f):
+                for regex in row.get("regex", []):
+                    for match in brace.finditer(regex):
+                        content = match.group(1)
+                        if re.fullmatch(r"[0-9]+(,[0-9]*)?", content):
+                            continue  # legitimate {n} / {n,m} quantifier
+                        bad.append((row["id"], regex, content))
+        for row in load_courts_db():
+            for regex in row.get("regex", []):
+                try:
+                    re.compile(regex)
+                except re.error as e:
+                    bad.append((row["id"], regex, str(e)))
+        self.assertEqual(len(bad), 0, msg=bad)
 
     def test_id_length(self):
         """Make sure Id length does not exceed 15 characters"""
