@@ -1,11 +1,11 @@
-from typing import Union
+from typing import NotRequired
 
-from typing_extensions import NotRequired, TypedDict
+from typing_extensions import TypedDict
 
 
 class DateRange(TypedDict):
-    start: Union[str, None]
-    end: Union[str, None]
+    start: str | None
+    end: str | None
     reorganization: NotRequired[list[str]]
     notes: NotRequired[str]
     name: NotRequired[str]
@@ -14,22 +14,22 @@ class DateRange(TypedDict):
 
 class CourtDict(TypedDict):
     active: NotRequired[bool]
-    case_types: NotRequired[Union[list[str]]]
+    case_types: NotRequired[list[str]]
     citation_string: str
     court_url: NotRequired[str]
     dates: list[DateRange]
     examples: list[str]
     id: str
-    level: NotRequired[Union[str, None]]
+    level: NotRequired[str | None]
     location: str
     name: str
     regex: list[str]
     system: str
-    type: Union[str, None]
-    notes: NotRequired[Union[str, None]]
-    name_abbreviation: NotRequired[Union[str, None]]
-    jurisdiction: NotRequired[Union[str, None]]
-    parent: NotRequired[Union[str, None]]
+    type: str | None
+    notes: NotRequired[str | None]
+    name_abbreviation: NotRequired[str | None]
+    jurisdiction: NotRequired[str | None]
+    parent: NotRequired[str | None]
     locations: NotRequired[int]
     cites: NotRequired[list[str]]
     sub_names: NotRequired[list[str]]
@@ -37,4 +37,4 @@ class CourtDict(TypedDict):
     division_type: NotRequired[str]
     federal_circuit: NotRequired[int]
     lower_courts: NotRequired[list[str]]
-    appeal_to: NotRequired[Union[str, None]]
+    appeal_to: NotRequired[str | None]
