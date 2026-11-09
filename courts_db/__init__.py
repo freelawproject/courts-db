@@ -1,6 +1,5 @@
 import re
 from datetime import datetime
-from typing import Optional
 
 from courts_db.text_utils import strip_punc
 
@@ -40,8 +39,8 @@ def __getattr__(name):
 
 def find_court_ids_by_name(
     court_str: str,
-    bankruptcy: Optional[bool],
-    location: Optional[str],
+    bankruptcy: bool | None,
+    location: str | None,
     allow_partial_matches: bool,
 ) -> list[str]:
     """Find court IDs with our courts-db regex list
@@ -112,7 +111,7 @@ def find_court_ids_by_name(
     return list(court_matches)
 
 
-_CourtMatch = tuple[str, str, Optional[str]]
+_CourtMatch = tuple[str, str, str | None]
 
 
 def reduce_court_list(court_list: list[_CourtMatch]) -> list[_CourtMatch]:
@@ -133,7 +132,7 @@ def reduce_court_list(court_list: list[_CourtMatch]) -> list[_CourtMatch]:
 def filter_courts_by_date(
     matches: list[str],
     date_found: datetime,
-    strict_dates: Optional[bool] = False,
+    strict_dates: bool | None = False,
 ) -> list[str]:
     """Filter IDs by date found.
 
@@ -177,7 +176,7 @@ def filter_courts_by_date(
 
 
 def filter_courts_by_bankruptcy(
-    matches: list[str], bankruptcy: Optional[bool]
+    matches: list[str], bankruptcy: bool | None
 ) -> list[str]:
     from . import courts
 
@@ -220,11 +219,11 @@ def _filter_parents_from_list(matches: list[str]) -> list[str]:
 
 def find_court(
     court_str: str,
-    bankruptcy: Optional[bool] = None,
-    date_found: Optional[datetime] = None,
-    strict_dates: Optional[bool] = False,
-    location: Optional[str] = None,
-    allow_partial_matches: Optional[bool] = False,
+    bankruptcy: bool | None = None,
+    date_found: datetime | None = None,
+    strict_dates: bool | None = False,
+    location: str | None = None,
+    allow_partial_matches: bool | None = False,
 ) -> list[str]:
     """Finds a list of court ID for a given string and parameters
 
