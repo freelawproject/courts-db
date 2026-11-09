@@ -18,6 +18,7 @@
 - Verify the structure of `courts.json` by checking it against `courts_db.models.CourtDict`.
 - Fix "no changes" label handling for `CHANGES.md`
 - Address outliers in the `courts.json` data structure #154
+- Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14 #168
 - Add the Civilian Board of Contract Appeals (`cbca`) #166
 -
 
