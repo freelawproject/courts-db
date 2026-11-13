@@ -69936,5 +69936,36 @@
         ],
         "system": "federal",
         "type": "special"
+    },
+    {
+        "active": true,
+        "citation_string": "ASBCA",
+        "court_url": "https://www.asbca.mil/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1949-01-01"
+            }
+        ],
+        "examples": [
+            "ASBCA",
+            "A.S.B.C.A.",
+            "Armed Services Board of Contract Appeals",
+            "U.S. Armed Services Board of Contract Appeals",
+            "United States Armed Services Board of Contract Appeals"
+        ],
+        "id": "asbca",
+        "level": "ljc",
+        "location": "Virginia",
+        "name": "Armed Services Board of Contract Appeals",
+        "name_abbreviation": "ASBCA",
+        "notes": "Administrative board within the Department of Defense that hears Contract Disputes Act appeals between contractors and the Department of Defense, the military departments, NASA and other agencies by agreement (41 U.S.C. 7105(e)(1)(A)); formed in 1949 by merging the War Department Board of Contract Appeals and the Navy's contract appeals board, with separate Army, Navy and Air Force panels combined into a single board under the charter approved 1 May 1962; sits in Alexandria, Virginia",
+        "regex": [
+            "ASBCA",
+            "A\\.S\\.B\\.C\\.A\\.",
+            "(${usa} ?)?Armed Services Board of Contract Appeals"
+        ],
+        "system": "federal",
+        "type": "special"
     }
 ]
