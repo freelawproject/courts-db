@@ -6,8 +6,12 @@
 
 ## Upcoming Changes
 
+- Add workflow to check for new entries in CHANGES.md file
+- Adds support for "2d Cir." and "3d Cir." court strings
+- Support Python 3.13
+- Change noqa F821  message  from "This code is broken." to "courts is imported lazily via __getattr__" #106
+- Adds txboda court
 - Add PR template with AI disclosure section #148
-
 - Fix `type` for 48 federal district courts mislabeled "appellate" #136
 - Fix six regexes with malformed template placeholders (kanctapp, lactapp, masssuperct, txsd, vib, waed); add a test that rejects unsubstituted `{var}`/`{$var}` templates #132
 - Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
