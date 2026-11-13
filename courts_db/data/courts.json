@@ -69905,5 +69905,36 @@
         ],
         "system": "federal",
         "type": "appellate"
+    },
+    {
+        "active": true,
+        "citation_string": "CBCA",
+        "court_url": "https://www.cbca.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "2007-01-06"
+            }
+        ],
+        "examples": [
+            "CBCA",
+            "C.B.C.A.",
+            "Civilian Board of Contract Appeals",
+            "U.S. Civilian Board of Contract Appeals",
+            "United States Civilian Board of Contract Appeals"
+        ],
+        "id": "cbca",
+        "level": "ljc",
+        "location": "Washington D.C.",
+        "name": "Civilian Board of Contract Appeals",
+        "name_abbreviation": "CBCA",
+        "notes": "Administrative board within the General Services Administration that hears Contract Disputes Act appeals between contractors and civilian executive agencies; established January 6, 2007 by section 847 of Pub. L. 109-163, replacing the boards of contract appeals of GSA (GSBCA) and the Departments of Agriculture, Energy, Housing and Urban Development, Interior, Labor, Transportation, and Veterans Affairs",
+        "regex": [
+            "CBCA",
+            "C\\.B\\.C\\.A\\.",
+            "(${usa} ?)?Civilian Board of Contract Appeals"
+        ],
+        "system": "federal",
+        "type": "special"
     }
 ]

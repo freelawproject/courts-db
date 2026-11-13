@@ -19,6 +19,7 @@
 - Fix "no changes" label handling for `CHANGES.md`
 - Address outliers in the `courts.json` data structure #154
 - Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14 #168
+- Add the Civilian Board of Contract Appeals (`cbca`) #166
 - Add California Court of Appeal, Fourth Appellate District divisions `calctapp4d1`, `calctapp4d2` and `calctapp4d3` #163
 -
 
