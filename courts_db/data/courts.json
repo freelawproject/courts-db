@@ -63477,11 +63477,13 @@
         "type": "appellate"
     },
     {
+        "appeal_to": "tex",
         "case_types": [],
         "citation_string": "Tex. Bd. Disc. App.",
-        "court_url": "https://boda.texas.gov",
+        "court_url": "https://www.txboda.org",
         "dates": [
             {
+                "end": null,
                 "start": "1992-01-01"
             }
         ],
@@ -63493,7 +63495,7 @@
         "notes": "The Texas Board of Disciplinary Appeals (BODA) is an independent tribunal appointed by the Texas Supreme Court to hear attorney discipline cases. Created in 1992, it hears appeals from certain disciplinary actions and has original jurisdiction in select matters.",
         "regex": [
             "Texas Board of Disciplinary Appeals",
-            "Board of Disciplinary Appeals"
+            "Board of Disciplinary Appeals,? appointed by the Supreme Court of Texas"
         ],
         "system": "state",
         "type": "special"
