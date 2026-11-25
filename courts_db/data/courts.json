@@ -69932,6 +69932,37 @@
     },
     {
         "active": true,
+        "citation_string": "FLRA",
+        "court_url": "https://www.flra.gov/",
+        "dates": [
+            {
+                "end": null,
+                "start": "1979-01-01"
+            }
+        ],
+        "examples": [
+            "FLRA",
+            "F.L.R.A.",
+            "Federal Labor Relations Authority",
+            "U.S. Federal Labor Relations Authority",
+            "United States Federal Labor Relations Authority"
+        ],
+        "id": "flra",
+        "level": "iac",
+        "location": "Washington D.C.",
+        "name": "Federal Labor Relations Authority",
+        "name_abbreviation": "FLRA",
+        "notes": "Independent administrative agency that administers the Federal Service Labor-Management Relations Statute (Title VII of the Civil Service Reform Act of 1978, 5 U.S.C. §§ 7101-7135); its three-member Authority decides negotiability disputes and reviews administrative law judge decisions in unfair labor practice cases, regional director decisions in representation cases, and grievance-arbitration awards; established January 1, 1979 by Reorganization Plan No. 2 of 1978",
+        "regex": [
+            "(${usa} ?)?FLRA",
+            "(${usa} ?)?F\\.L\\.R\\.A\\.",
+            "(${usa} ?)?Federal Labor Relations Authority"
+        ],
+        "system": "federal",
+        "type": "special"
+    },
+    {
+        "active": true,
         "citation_string": "CBCA",
         "court_url": "https://www.cbca.gov/",
         "dates": [
