@@ -23,6 +23,7 @@
 - Add California Court of Appeal, Fourth Appellate District divisions `calctapp4d1`, `calctapp4d2` and `calctapp4d3` #163
 - Add Texas Board of Disciplinary Appeals (`txboda`) #110
 - Publish to PyPI with trusted publishing instead of an API token. #171
+- Match `ca11` when its name is printed with a comma, e.g. "United States Court of Appeals, Eleventh Circuit"
 -
 
 

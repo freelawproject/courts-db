@@ -10653,7 +10653,8 @@
             }
         ],
         "examples": [
-            "United States Court of Appeals Eleventh"
+            "United States Court of Appeals Eleventh",
+            "United States Court of Appeals, Eleventh Circuit"
         ],
         "federal_circuit": 11,
         "id": "ca11",
@@ -10674,6 +10675,7 @@
         "name": "United States Court of Appeals for the Eleventh Circuit",
         "name_abbreviation": null,
         "regex": [
+            "${usa} (Circuit )?(Courts? )?(of Appeals?(,|.)? ?)?(for the )?(Eleventh,? )(Circuit)?",
             "${usa} ${coa} Eleventh Circuit",
             "Circuit ${coa} ${n11} Circuit",
             "${uscoa} ${n11} ?(Circuit)?",
