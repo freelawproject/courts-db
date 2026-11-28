@@ -6,8 +6,14 @@
 
 ## Upcoming Changes
 
-- Add PR template with AI disclosure section #148
+-
 
+
+## Current Version
+
+- 0.10.28 (2026-11-28)
+
+- Add PR template with AI disclosure section #148
 - Fix `type` for 48 federal district courts mislabeled "appellate" #136
 - Fix six regexes with malformed template placeholders (kanctapp, lactapp, masssuperct, txsd, vib, waed); add a test that rejects unsubstituted `{var}`/`{$var}` templates #132
 - Fix date errors for njd, ncd, and wvad; replace empty-string dates (scd, mdch) that made `find_court` raise `ValueError` when called with `date_found` #136
@@ -25,17 +31,13 @@
 - Publish to PyPI with trusted publishing instead of an API token. #171
 - Match `ca11` when its name is printed with a comma, e.g. "United States Court of Appeals, Eleventh Circuit"
 - Match every current federal district court as reporters print it, e.g. "United States District Court, N.D. California". These matched the generic `usdistct`, alone or with the district court.
--
 
-
-## Current Version
+## Past Versions
 
 - 0.10.27 (2026-03-25)
 
 - Adds fla 6th district court of appeals
 - Add USPTO administrative bodies (TTAB and PTAB)
-
-## Past Versions
 
 - 0.10.26 (2025-08-27): various improvements to courts-db
 
