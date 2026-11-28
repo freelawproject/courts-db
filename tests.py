@@ -81,6 +81,34 @@ class DataTest(CourtsDBTestCase):
                     )
                     print("√")
 
+    def test_reporter_style_district_courts(self):
+        """Is a federal district court found as reporters print it?
+
+        e.g. "United States District Court, N.D. California". With partial
+        matches and without bankruptcy courts, which is how importers call
+        it, the district court must be the only match: not the generic
+        `usdistct`, alone or with it.
+        """
+        prefix = "United States District Court, "
+        examples = [
+            (court["id"], example)
+            for court in self.courts
+            for example in court["examples"]
+            if example.startswith(prefix)
+            and court["type"] != "bankruptcy"
+            and court["id"] != "usdistct"
+        ]
+        # Every current district court has one
+        self.assertGreater(len(examples), 90)
+        for court_id, example in examples:
+            with self.subTest(court_id=court_id, example=example):
+                matches = find_court(
+                    court_str=example,
+                    bankruptcy=False,
+                    allow_partial_matches=True,
+                )
+                self.assertEqual(matches, [court_id])
+
     def test_location_filter(self):
         """Can we use location to filter properly"""
 

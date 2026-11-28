@@ -490,7 +490,8 @@
         ],
         "examples": [
             "District Court M D Alabama Eastern Division",
-            "United States District Court M D Alabama"
+            "United States District Court M D Alabama",
+            "United States District Court, M.D. Alabama"
         ],
         "federal_circuit": 11,
         "id": "almd",
@@ -505,7 +506,8 @@
             "${usdc} ${md} ${al}",
             "United States For The Middle District of Alabama",
             "U S District Court So Div Mid Dist Ala",
-            "District Court M D Alabama Eastern Division"
+            "District Court M D Alabama Eastern Division",
+            "United States District Court,? M\\.? ?D\\.? ?Alabama"
         ],
         "system": "federal",
         "type": "trial"
@@ -535,7 +537,8 @@
         "examples": [
             "United States District Court N D Alabama",
             "United States District Court N D Alabama Jasper Division",
-            "U S District Court No Dist So Div Ala"
+            "U S District Court No Dist So Div Ala",
+            "United States District Court, N.D. Alabama"
         ],
         "federal_circuit": 11,
         "id": "alnd",
@@ -552,7 +555,8 @@
             "${usdc} ${nd} So Div ${al}",
             "U S District Court So Div No Dist Ala",
             "United States District Court For The Southern Division Northern District of Alabama",
-            "United States District Court N D Alabama Jasper Division"
+            "United States District Court N D Alabama Jasper Division",
+            "United States District Court,? N\\.? ?D\\.? ?Alabama"
         ],
         "system": "federal",
         "type": "trial"
@@ -575,7 +579,8 @@
             "Selma"
         ],
         "examples": [
-            "United States District Court S D Ala Southern Division"
+            "United States District Court S D Ala Southern Division",
+            "United States District Court, S.D. Alabama"
         ],
         "federal_circuit": 11,
         "id": "alsd",
@@ -589,7 +594,8 @@
         "regex": [
             "${usa} ${sd} ${al}",
             "${usdc} ${sd} ${al}",
-            "United States District Court S D Ala Southern Division"
+            "United States District Court S D Ala Southern Division",
+            "United States District Court,? S\\.? ?D\\.? ?Alabama"
         ],
         "system": "federal",
         "type": "trial"
@@ -740,7 +746,8 @@
             "United States District Court District of Alaska First Division",
             "District Court Territory of Alaska",
             "United States District Court Territory of Alaska",
-            "Alaska District Court"
+            "Alaska District Court",
+            "United States District Court, D. Alaska"
         ],
         "federal_circuit": 9,
         "id": "akd",
@@ -759,7 +766,8 @@
             "United States District Court For The Northern District of Alaska",
             "United States District Court At Anchorage District of Alaska",
             "Alaska District Court",
-            "United States District Court District of Alaska First Division"
+            "United States District Court District of Alaska First Division",
+            "United States District Court,? D\\.? ?Alaska"
         ],
         "system": "federal",
         "type": "trial"
@@ -1216,7 +1224,8 @@
             }
         ],
         "examples": [
-            "United States District Court For The Division of Arizona Tucson Division"
+            "United States District Court For The Division of Arizona Tucson Division",
+            "United States District Court, D. Arizona"
         ],
         "federal_circuit": 9,
         "id": "azd",
@@ -1230,7 +1239,8 @@
         "regex": [
             "${usdc} Arizona",
             "${usdc} ${d} Arizona",
-            "United States District Court For The Division of Arizona Tucson Division"
+            "United States District Court For The Division of Arizona Tucson Division",
+            "United States District Court,? D\\.? ?Arizona"
         ],
         "sub_names": [
             "Phoenix",
@@ -1359,7 +1369,9 @@
             "Pine Bluff",
             "Western"
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, E.D. Arkansas"
+        ],
         "federal_circuit": 8,
         "id": "ared",
         "jurisdiction": "A.R.",
@@ -1372,7 +1384,8 @@
         "regex": [
             "${usa} ${ed} ${ar}",
             "${d} ${ed} ${ar}",
-            "${usdc} ${ed} ${ar}"
+            "${usdc} ${ed} ${ar}",
+            "United States District Court,? E\\.? ?D\\.? ?Arkansas"
         ],
         "system": "federal",
         "type": "trial"
@@ -1397,7 +1410,8 @@
         ],
         "examples": [
             "United States District Court W D Arkansas",
-            "United States District Court For The Western Division of Arkansas Fayetteville Division"
+            "United States District Court For The Western Division of Arkansas Fayetteville Division",
+            "United States District Court, W.D. Arkansas"
         ],
         "federal_circuit": 8,
         "id": "arwd",
@@ -1411,7 +1425,8 @@
         "regex": [
             "${usdc} ${wd} ${ar}",
             "^${d} ${wd} ${ar}",
-            "United States District Court For The Western Division of Arkansas Fayetteville ?(Division)?"
+            "United States District Court For The Western Division of Arkansas Fayetteville ?(Division)?",
+            "United States District Court,? W\\.? ?D\\.? ?Arkansas"
         ],
         "system": "federal",
         "type": "trial"
@@ -1767,7 +1782,9 @@
             "Sacramento",
             "Eastern"
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, E.D. California"
+        ],
         "federal_circuit": 9,
         "id": "caed",
         "jurisdiction": "C.A.",
@@ -1777,7 +1794,8 @@
         "name_abbreviation": null,
         "parent": "usdistct",
         "regex": [
-            "${usdc} ${ed} ${ca}"
+            "${usdc} ${ed} ${ca}",
+            "United States District Court,? E\\.? ?D\\.? ?California"
         ],
         "system": "federal",
         "type": "trial"
@@ -1807,7 +1825,8 @@
             "United States District Court Southern Division Northern District of California",
             "United States District Court San Jose Division San Jose Division",
             "Northern District of California",
-            "District Court For The Northern Division California"
+            "District Court For The Northern Division California",
+            "United States District Court, N.D. California"
         ],
         "federal_circuit": 9,
         "id": "cand",
@@ -1824,7 +1843,8 @@
             "Northern District of ${ca}",
             "District Court For The Northern Division California",
             "United States District Court Southern Division Northern District of ${ca}",
-            "United States District Court San Jose Division San Jose Division"
+            "United States District Court San Jose Division San Jose Division",
+            "United States District Court,? N\\.? ?D\\.? ?California"
         ],
         "system": "federal",
         "type": "trial"
@@ -1854,7 +1874,8 @@
             "United States District Court of California Southern District",
             "United States District Court Southern Division of California",
             "United States District Court Southern District of Galifornia",
-            "District Court of The United States Southern District of California Central Division"
+            "District Court of The United States Southern District of California Central Division",
+            "United States District Court, S.D. California"
         ],
         "federal_circuit": 9,
         "id": "casd",
@@ -1871,7 +1892,8 @@
             "${usdc} ${ca} ${sd}",
             "District Court of The United States Southern District of California Central Division",
             "United States District Court Southern Division of California",
-            "United States District Court Southern District of Galifornia"
+            "United States District Court Southern District of Galifornia",
+            "United States District Court,? S\\.? ?D\\.? ?California"
         ],
         "system": "federal",
         "type": "trial"
@@ -2758,7 +2780,8 @@
         ],
         "examples": [
             "United States District Court C D California Los Angeles Division",
-            "United States District Court For The Centeral District of California"
+            "United States District Court For The Centeral District of California",
+            "United States District Court, C.D. California"
         ],
         "federal_circuit": 9,
         "id": "cacd",
@@ -2780,7 +2803,8 @@
             "United States District Court F The Central District of California",
             "United States District Court For The Centeral District of California",
             "United States District Court For The District Central of California",
-            "United States District Court C D California Los Angeles Division"
+            "United States District Court C D California Los Angeles Division",
+            "United States District Court,? C\\.? ?D\\.? ?California"
         ],
         "system": "federal",
         "type": "trial"
@@ -3517,7 +3541,8 @@
         ],
         "examples": [
             "United States District Court D Colorado",
-            "United States District Court Jefferson County Colorado"
+            "United States District Court Jefferson County Colorado",
+            "United States District Court, D. Colorado"
         ],
         "federal_circuit": 10,
         "id": "cod",
@@ -3530,7 +3555,8 @@
             "${d} ?(D)? ${co}",
             "${usdc} ${d} ${co}",
             "${usdc} ${co}",
-            "United States District Court Jefferson County Colorado"
+            "United States District Court Jefferson County Colorado",
+            "United States District Court,? D\\.? ?Colorado"
         ],
         "system": "federal",
         "type": "trial"
@@ -3947,7 +3973,8 @@
         ],
         "examples": [
             "United States District District of Connecticut",
-            "United States District Court of Connecticut"
+            "United States District Court of Connecticut",
+            "United States District Court, D. Connecticut"
         ],
         "federal_circuit": 2,
         "id": "ctd",
@@ -3962,7 +3989,8 @@
             "^${d} ?(D)? ?Connecticut",
             "United States District District of Connecticut",
             "${usdc} ${ct}",
-            "United States District Court Central of Connecticut Civil Division"
+            "United States District Court Central of Connecticut Civil Division",
+            "United States District Court,? D\\.? ?Connecticut"
         ],
         "system": "federal",
         "type": "trial"
@@ -4079,7 +4107,8 @@
             "Wilmington"
         ],
         "examples": [
-            "United States District Court District of Delaware"
+            "United States District Court District of Delaware",
+            "United States District Court, D. Delaware"
         ],
         "federal_circuit": 3,
         "id": "ded",
@@ -4093,7 +4122,8 @@
         "regex": [
             "${usdc} ${d} Delaware",
             "District Court of The United States District of Delaware",
-            "Delaware District Court"
+            "Delaware District Court",
+            "United States District Court,? D\\.? ?Delaware"
         ],
         "system": "federal",
         "type": "trial"
@@ -4523,7 +4553,8 @@
         ],
         "examples": [
             "United States District Court M D Florida Tampa Division",
-            "United States District Court Tampa Division M D Florida"
+            "United States District Court Tampa Division M D Florida",
+            "United States District Court, M.D. Florida"
         ],
         "federal_circuit": 11,
         "id": "flmd",
@@ -4538,7 +4569,8 @@
             "${usdc} ${md} ${fl}",
             "United States District Court Tampa Division M D ${fl}",
             "United States District Court For The District of Florida Orlando Division",
-            "United States District Court M D Florida Tampa Division"
+            "United States District Court M D Florida Tampa Division",
+            "United States District Court,? M\\.? ?D\\.? ?Florida"
         ],
         "system": "federal",
         "type": "trial"
@@ -4562,7 +4594,9 @@
             "Pensacola",
             "Pensacola"
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, N.D. Florida"
+        ],
         "federal_circuit": 11,
         "id": "flnd",
         "jurisdiction": "F.L.",
@@ -4575,7 +4609,8 @@
         "regex": [
             "${usdc} ${nd} ${fl}",
             "${usdc} District of Florida Pensacola Division",
-            "In The ${usdc} In And For The ${nd} ${fl}"
+            "In The ${usdc} In And For The ${nd} ${fl}",
+            "United States District Court,? N\\.? ?D\\.? ?Florida"
         ],
         "system": "federal",
         "type": "trial"
@@ -4594,7 +4629,8 @@
             }
         ],
         "examples": [
-            "United States District Court In And For The Southern District of Florida Miami Division"
+            "United States District Court In And For The Southern District of Florida Miami Division",
+            "United States District Court, S.D. Florida"
         ],
         "federal_circuit": 11,
         "id": "flsd",
@@ -4612,7 +4648,8 @@
             "United States District Court For The District of Florida Southern Division",
             "United States District Court In And For The Southern District of Florida Miami Division",
             "United States District Court For The Southern District of Florida2016",
-            "United States District Court For The Southern Division of Florida"
+            "United States District Court For The Southern Division of Florida",
+            "United States District Court,? S\\.? ?D\\.? ?Florida"
         ],
         "system": "federal",
         "type": "trial"
@@ -9296,7 +9333,9 @@
                 "start": "1926-05-28"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, M.D. Georgia"
+        ],
         "federal_circuit": 11,
         "id": "gamd",
         "jurisdiction": "G.A.",
@@ -9306,7 +9345,8 @@
         "name_abbreviation": null,
         "parent": "usdistct",
         "regex": [
-            "${usdc} ${md} ${ga}"
+            "${usdc} ${md} ${ga}",
+            "United States District Court,? M\\.? ?D\\.? ?Georgia"
         ],
         "system": "federal",
         "type": "trial"
@@ -9328,7 +9368,8 @@
         "examples": [
             "United States District Court N D Georgia Rome Division",
             "United States District Court For The Northern Division of Georgia Atlanta",
-            "U.S. District, Court No Ga Gainesville Div"
+            "U.S. District, Court No Ga Gainesville Div",
+            "United States District Court, N.D. Georgia"
         ],
         "federal_circuit": 11,
         "id": "gand",
@@ -9343,7 +9384,8 @@
             "United States District Court For The Northern Division of Georgia Atlanta",
             "${usdc} ${nd}.*(?=(georgia|${gand_divisions}))",
             "U\\.S\\. District,? Court,? No Ga Gainesville Div",
-            "United States District Court N D Georgia Rome Division"
+            "United States District Court N D Georgia Rome Division",
+            "United States District Court,? N\\.? ?D\\.? ?Georgia"
         ],
         "system": "federal",
         "type": "trial"
@@ -9363,7 +9405,8 @@
         ],
         "examples": [
             "United States District Court S D Georgia Statesboro Division",
-            "United States District Court For The Southern Division of Georgia Savannah Division"
+            "United States District Court For The Southern Division of Georgia Savannah Division",
+            "United States District Court, S.D. Georgia"
         ],
         "federal_circuit": 11,
         "id": "gasd",
@@ -9381,7 +9424,8 @@
             "District Court, E. D. Georgia, S. D.",
             "District Court, W. D. Georgia, S. D.",
             "District Court, E. D. Georgia. S. D.",
-            "United States District Court for the Southern District of Georgia"
+            "United States District Court for the Southern District of Georgia",
+            "United States District Court,? S\\.? ?D\\.? ?Georgia"
         ],
         "system": "federal",
         "type": "trial"
@@ -10725,7 +10769,9 @@
                 "start": "1924-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Guam"
+        ],
         "id": "gud",
         "level": "",
         "location": "Guam",
@@ -10734,7 +10780,8 @@
             "${d} Guam",
             "${usdc} ${d} Guam",
             "${usdc} Guam",
-            "${usdc} Territory of Guam"
+            "${usdc} Territory of Guam",
+            "United States District Court,? D\\.? ?Guam"
         ],
         "system": "federal",
         "type": "trial"
@@ -11030,7 +11077,9 @@
         ],
         "divisions": [],
         "examples": [
-            "United States District Court of Honolulu For The District of Hawaii First Division"
+            "United States District Court of Honolulu For The District of Hawaii First Division",
+            "United States District Court, D. Hawaii",
+            "United States District Court, D. Hawai'i"
         ],
         "federal_circuit": 9,
         "id": "hid",
@@ -11050,7 +11099,8 @@
             "United States District Court Territory of Hawaii",
             "United States District Court For The Territory of Hawaii",
             "United States District Court of Honolulu",
-            "United States District Court of Honolulu For The District of Hawaii First Division"
+            "United States District Court of Honolulu For The District of Hawaii First Division",
+            "United States District Court,? D\\.? ?Hawai'?i"
         ],
         "system": "federal",
         "type": "trial"
@@ -11276,7 +11326,9 @@
             "Moscow",
             "Pocatello"
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Idaho"
+        ],
         "federal_circuit": 9,
         "id": "idd",
         "jurisdiction": "I.D.",
@@ -11290,7 +11342,8 @@
             "${usdc} Idaho",
             "District Court N D Idaho E D",
             "United States District Court For The Southern District of Idaho",
-            "United States District Court for the Northern District of Idaho"
+            "United States District Court for the Northern District of Idaho",
+            "United States District Court,? D\\.? ?Idaho"
         ],
         "system": "federal",
         "type": "trial"
@@ -11403,7 +11456,8 @@
             }
         ],
         "examples": [
-            "United States District Court Nothern District of Illinois Eastern Division"
+            "United States District Court Nothern District of Illinois Eastern Division",
+            "United States District Court, N.D. Illinois"
         ],
         "id": "ilnd",
         "level": "gjc",
@@ -11433,7 +11487,8 @@
             "United States District Court For The Eastern Division Northern District of Illinois",
             "${usdc} ${nd} Illinois",
             "United States (Distrlct|Disttict|District) Court For The Northern District of (Illnois|Illinois)",
-            "United States District Court Nothern District of Illinois Eastern Division"
+            "United States District Court Nothern District of Illinois Eastern Division",
+            "United States District Court,? N\\.? ?D\\.? ?Illinois"
         ],
         "system": "federal",
         "type": "trial"
@@ -11448,7 +11503,9 @@
                 "start": "1855-02-13"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, S.D. Illinois"
+        ],
         "id": "ilsd",
         "level": "",
         "location": "Illinois",
@@ -11456,7 +11513,8 @@
         "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${il}",
-            "District Court of The United States For The ${sd} Ill(i?nois)"
+            "District Court of The United States For The ${sd} Ill(i?nois)",
+            "United States District Court,? S\\.? ?D\\.? ?Illinois"
         ],
         "system": "federal",
         "type": "trial"
@@ -11579,14 +11637,17 @@
                 "start": "1979-03-31"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, C.D. Illinois"
+        ],
         "id": "ilcd",
         "level": "",
         "location": "Illinois",
         "name": "District Court, C.D. Illinois",
         "regex": [
             "${cd} Ill(inois)?",
-            "${usdc} ${cd} Illinois"
+            "${usdc} ${cd} Illinois",
+            "United States District Court,? C\\.? ?D\\.? ?Illinois"
         ],
         "system": "federal",
         "type": "trial"
@@ -11783,7 +11844,8 @@
         ],
         "examples": [
             "United States District Court N D Indiana",
-            "United States District Court For The District of Northern Indiana South Bend Division"
+            "United States District Court For The District of Northern Indiana South Bend Division",
+            "United States District Court, N.D. Indiana"
         ],
         "id": "innd",
         "level": "",
@@ -11795,7 +11857,8 @@
             "${nd} ${in}",
             "${usdc} District of Northern Indiana",
             "United States District Court For The Northern Divisional Indiana",
-            "United States District Court For The District of Northern Indiana South Bend Division"
+            "United States District Court For The District of Northern Indiana South Bend Division",
+            "United States District Court,? N\\.? ?D\\.? ?Indiana"
         ],
         "system": "federal",
         "type": "trial"
@@ -11810,7 +11873,9 @@
                 "start": "1928-04-21"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, S.D. Indiana"
+        ],
         "id": "insd",
         "level": "",
         "location": "Indiana",
@@ -11818,7 +11883,8 @@
         "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} ${in}",
-            "${sd} ${in}"
+            "${sd} ${in}",
+            "United States District Court,? S\\.? ?D\\.? ?Indiana"
         ],
         "system": "federal",
         "type": "trial"
@@ -12096,7 +12162,8 @@
         "examples": [
             "United States District Court N D Iowa Cedar Rapids Division",
             "United States District Court Iowa Black Hawk County",
-            "United States District Court For The District of Iowa Eastern Division Dubuque"
+            "United States District Court For The District of Iowa Eastern Division Dubuque",
+            "United States District Court, N.D. Iowa"
         ],
         "id": "iand",
         "level": "",
@@ -12108,7 +12175,8 @@
             "${nd} Iowa",
             "United States District Court Iowa Black Hawk County",
             "United States District Court For The District of Iowa Eastern Division Dubuque",
-            "United States District Court N D Iowa Cedar Rapids Division"
+            "United States District Court N D Iowa Cedar Rapids Division",
+            "United States District Court,? N\\.? ?D\\.? ?Iowa"
         ],
         "system": "federal",
         "type": "trial"
@@ -12124,7 +12192,8 @@
             }
         ],
         "examples": [
-            "District Court S D Iowa"
+            "District Court S D Iowa",
+            "United States District Court, S.D. Iowa"
         ],
         "id": "iasd",
         "level": "",
@@ -12133,7 +12202,8 @@
         "parent": "usdistct",
         "regex": [
             "${usdc} ${sd} Iowa",
-            "U S District Court Iowa Appanoose County"
+            "U S District Court Iowa Appanoose County",
+            "United States District Court,? S\\.? ?D\\.? ?Iowa"
         ],
         "system": "federal",
         "type": "trial"
@@ -12328,7 +12398,8 @@
         ],
         "examples": [
             "United States District Court Wichita",
-            "United States District Court Topeka"
+            "United States District Court Topeka",
+            "United States District Court, D. Kansas"
         ],
         "id": "ksd",
         "level": "",
@@ -12349,7 +12420,8 @@
             "U S District Court Montgomery County Kan",
             "United States District Court For The Eastern District Kansas",
             "United States District Court for (the)? ?Eastern District of Kansas",
-            "United States District Court for Eastern the District of Kansas"
+            "United States District Court for Eastern the District of Kansas",
+            "United States District Court,? D\\.? ?Kansas"
         ],
         "system": "federal",
         "type": "trial"
@@ -12529,7 +12601,8 @@
             }
         ],
         "examples": [
-            "U S District Court East Dist Lexington Ky"
+            "U S District Court East Dist Lexington Ky",
+            "United States District Court, E.D. Kentucky"
         ],
         "id": "kyed",
         "level": "",
@@ -12540,7 +12613,8 @@
             "${ed} ${ky}",
             "${usdc} ${ed} Lexington Ky",
             "U S District Court East Dist Lexington Ky",
-            "${usdc} ${ed} Kentucky"
+            "${usdc} ${ed} Kentucky",
+            "United States District Court,? E\\.? ?D\\.? ?Kentucky"
         ],
         "system": "federal",
         "type": "trial"
@@ -12556,7 +12630,8 @@
             }
         ],
         "examples": [
-            "United States District Court W D Kentucky Louisville Division"
+            "United States District Court W D Kentucky Louisville Division",
+            "United States District Court, W.D. Kentucky"
         ],
         "id": "kywd",
         "level": "",
@@ -12569,7 +12644,8 @@
             "United States District Court For The Western Division of Kentucky",
             "United States District Court For The Western District Paducah Kentucky",
             "United States District Court For The Western District Louisville Kentucky",
-            "United States District Court W D Kentucky Louisville Division"
+            "United States District Court W D Kentucky Louisville Division",
+            "United States District Court,? W\\.? ?D\\.? ?Kentucky"
         ],
         "system": "federal",
         "type": "trial"
@@ -16758,7 +16834,9 @@
                 "start": "1971-12-18"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, M.D. Louisiana"
+        ],
         "id": "lamd",
         "level": "",
         "location": "Louisiana",
@@ -16766,7 +16844,8 @@
         "parent": "usdistct",
         "regex": [
             "${md} Louisiana",
-            "${usdc} ${md} ${la}"
+            "${usdc} ${md} ${la}",
+            "United States District Court,? M\\.? ?D\\.? ?Louisiana"
         ],
         "system": "federal",
         "type": "trial"
@@ -16782,7 +16861,8 @@
             }
         ],
         "examples": [
-            "United States District Court Western Division of Louisiana Lafayette Opelousas Division"
+            "United States District Court Western Division of Louisiana Lafayette Opelousas Division",
+            "United States District Court, W.D. Louisiana"
         ],
         "id": "lawd",
         "level": "gjc",
@@ -16793,7 +16873,8 @@
             "${wd} Louisiana",
             "${usdc} Western Division of Louisiana",
             "${usdc} ${wd} ?${la} ?(Lafayette Opelousas Division)?",
-            "${usdc} Western Division of Louisiana Lafayette Opelousas Division"
+            "${usdc} Western Division of Louisiana Lafayette Opelousas Division",
+            "United States District Court,? W\\.? ?D\\.? ?Louisiana"
         ],
         "system": "federal",
         "type": "trial"
@@ -16809,7 +16890,8 @@
             }
         ],
         "examples": [
-            "United States District Court Eastern District of Louisiana"
+            "United States District Court Eastern District of Louisiana",
+            "United States District Court, E.D. Louisiana"
         ],
         "id": "laed",
         "level": "",
@@ -16822,7 +16904,8 @@
             "${usdc} ${ed} ${la}",
             "${usdc} Estern District of Louisiana",
             "United States District Court E E Louisiana New Orleans Division",
-            "United States District Court For The Eastern Division of Louisiana"
+            "United States District Court For The Eastern Division of Louisiana",
+            "United States District Court,? E\\.? ?D\\.? ?Louisiana"
         ],
         "system": "federal",
         "type": "trial"
@@ -17266,7 +17349,9 @@
                 "start": "1820-03-30"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Maine"
+        ],
         "id": "med",
         "level": "",
         "location": "Maine",
@@ -17279,7 +17364,8 @@
             "${usdc} ${d} Maine",
             "District Court S D Maine",
             "United States District Court Northern District of Maine",
-            "United States District Court Southern District of Maine"
+            "United States District Court Southern District of Maine",
+            "United States District Court,? D\\.? ?Maine"
         ],
         "system": "federal",
         "type": "trial"
@@ -17580,7 +17666,8 @@
             }
         ],
         "examples": [
-            "Untied States District Court District of Maryland"
+            "Untied States District Court District of Maryland",
+            "United States District Court, D. Maryland"
         ],
         "id": "mdd",
         "level": "",
@@ -17591,7 +17678,8 @@
             "${usdc} ${d} Maryland",
             "United States District District of Maryland",
             "Untied States District Court District of Maryland",
-            "${usdc} ${d} Md"
+            "${usdc} ${d} Md",
+            "United States District Court,? D\\.? ?Maryland"
         ],
         "system": "federal",
         "type": "trial"
@@ -17851,7 +17939,8 @@
             }
         ],
         "examples": [
-            "In The District Court of The United States For The District of Massachusetts"
+            "In The District Court of The United States For The District of Massachusetts",
+            "United States District Court, D. Massachusetts"
         ],
         "id": "mad",
         "level": "",
@@ -17862,7 +17951,8 @@
             "${usdc} ${d} Mass(achusetts)?",
             "${usdc} Mass(achusetts)?",
             "District Court of The United States District of Massachusetts",
-            "In The District Court of The United States For The District of Massachusetts"
+            "In The District Court of The United States For The District of Massachusetts",
+            "United States District Court,? D\\.? ?Massachusetts"
         ],
         "system": "federal",
         "type": "trial"
@@ -18434,7 +18524,9 @@
                 "start": "1863-12-24"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, E.D. Michigan"
+        ],
         "id": "mied",
         "level": "",
         "location": "Michigan",
@@ -18443,7 +18535,8 @@
         "regex": [
             "${ed} ${mi}",
             "${usdc} ${ed} ${mi}",
-            "United States District Court For The Eastern Division ?(of)? Michigan ?(Southern Division)?"
+            "United States District Court For The Eastern Division ?(of)? Michigan ?(Southern Division)?",
+            "United States District Court,? E\\.? ?D\\.? ?Michigan"
         ],
         "system": "federal",
         "type": "trial"
@@ -18459,7 +18552,8 @@
             }
         ],
         "examples": [
-            "U S District Court West So Div Dist Mich"
+            "U S District Court West So Div Dist Mich",
+            "United States District Court, W.D. Michigan"
         ],
         "id": "miwd",
         "level": "",
@@ -18470,7 +18564,8 @@
             "${wd} ${mi}",
             "${usdc} ${wd} ${mi}",
             "U S District Court West So Div Dist Mich",
-            "United States District Court For The Western Division of Michigan"
+            "United States District Court For The Western Division of Michigan",
+            "United States District Court,? W\\.? ?D\\.? ?Michigan"
         ],
         "system": "federal",
         "type": "trial"
@@ -20223,7 +20318,8 @@
             }
         ],
         "examples": [
-            "United States District Court D Minnesota Second Division"
+            "United States District Court D Minnesota Second Division",
+            "United States District Court, D. Minnesota"
         ],
         "id": "mnd",
         "level": "",
@@ -20235,7 +20331,8 @@
             "${usdc} ${d} Minnesota( Second Division)?",
             "${usdc} ${d} ${mn}",
             "${usdc} ${mn}",
-            "United States District Court for the Northern District of Minnesota"
+            "United States District Court for the Northern District of Minnesota",
+            "United States District Court,? D\\.? ?Minnesota"
         ],
         "system": "federal",
         "type": "trial"
@@ -20526,7 +20623,8 @@
         ],
         "examples": [
             "United States District Court N D Mississippi Greenville Division",
-            "United States District Court Northern District of Mississippi"
+            "United States District Court Northern District of Mississippi",
+            "United States District Court, N.D. Mississippi"
         ],
         "id": "msnd",
         "level": "",
@@ -20536,7 +20634,8 @@
         "regex": [
             "${usdc} ${nd} Mississippi( Greenville Division)?",
             "District Court E D Mississippi N D",
-            "District Court, E. D. Mississippi, N. D."
+            "District Court, E. D. Mississippi, N. D.",
+            "United States District Court,? N\\.? ?D\\.? ?Mississippi"
         ],
         "system": "federal",
         "type": "trial"
@@ -20551,7 +20650,9 @@
                 "start": "1838-06-18"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, S.D. Mississippi"
+        ],
         "id": "mssd",
         "level": "",
         "location": "Mississippi",
@@ -20560,7 +20661,8 @@
         "regex": [
             "${usdc} ${sd} Mississippi",
             "District Court E D Mississippi S D",
-            "District Court, E. D. Mississippi, S. D."
+            "District Court, E. D. Mississippi, S. D.",
+            "United States District Court,? S\\.? ?D\\.? ?Mississippi"
         ],
         "system": "federal",
         "type": "trial"
@@ -20798,7 +20900,9 @@
                 "start": "1857-03-03"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, W.D. Missouri"
+        ],
         "id": "mowd",
         "level": "",
         "location": "Missouri",
@@ -20811,7 +20915,8 @@
             "United States District Court For The Western Division Missouri",
             "United States District Court For The Western District of Missouri",
             "United States District Court for the Central District of Missouri",
-            "United States District Court for the Southern District of Missouri"
+            "United States District Court for the Southern District of Missouri",
+            "United States District Court,? W\\.? ?D\\.? ?Missouri"
         ],
         "system": "federal",
         "type": "trial"
@@ -20904,7 +21009,8 @@
         "examples": [
             "United States District Court D Missouri Eastern Division",
             "United States District Court Eastern District Eastern Division of Missouri",
-            "United States District Court For The District of Eastern Missouri Eastern Division"
+            "United States District Court For The District of Eastern Missouri Eastern Division",
+            "United States District Court, E.D. Missouri"
         ],
         "id": "moed",
         "level": "",
@@ -20917,7 +21023,8 @@
             "${usdc} For The ${d} of Eastern ${mo} Eastern Division",
             "United States District Court for the Eastern District of Missouri",
             "United States District Court of the Eastern District of Missouri",
-            "District Court, N. D. Missouri, E. D."
+            "District Court, N. D. Missouri, E. D.",
+            "United States District Court,? E\\.? ?D\\.? ?Missouri"
         ],
         "system": "federal",
         "type": "trial"
@@ -21228,7 +21335,9 @@
                 "start": "1889-11-08"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Montana"
+        ],
         "id": "mtd",
         "level": "",
         "location": "Montana",
@@ -21237,7 +21346,8 @@
             "^${d} ?(D)? ?Montana",
             "${usdc} ${d} Montana",
             "${usdc} Montana",
-            "United States District Court For The Western District of Montana Southern Division"
+            "United States District Court For The Western District of Montana Southern Division",
+            "United States District Court,? D\\.? ?Montana"
         ],
         "system": "federal",
         "type": "trial"
@@ -21515,7 +21625,9 @@
                 "start": "1867-03-25"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Nebraska"
+        ],
         "federal_circuit": 8,
         "id": "ned",
         "level": "gjc",
@@ -21526,7 +21638,8 @@
             "^${d} ?(D)? ?${ne}",
             "${usdc} ${d} ${ne}",
             "${usdc} ${ne}",
-            "United States District Court For The District of Nebraska6"
+            "United States District Court For The District of Nebraska6",
+            "United States District Court,? D\\.? ?Nebraska"
         ],
         "system": "federal",
         "type": "trial"
@@ -21675,14 +21788,17 @@
                 "start": "1865-02-27"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Nevada"
+        ],
         "id": "nvd",
         "level": "",
         "location": "Nevada",
         "name": "District Court, D. Nevada",
         "regex": [
             "${usdc} ${d} Nevada",
-            "District Court Nevada"
+            "District Court Nevada",
+            "United States District Court,? D\\.? ?Nevada"
         ],
         "system": "federal",
         "type": "trial"
@@ -21849,7 +21965,9 @@
                 "start": "1789-09-24"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. New Hampshire"
+        ],
         "id": "nhd",
         "level": "",
         "location": "New Hampshire",
@@ -21857,7 +21975,8 @@
         "regex": [
             "${usdc} ${d} New Hampshire",
             "District Court N New Hampshire",
-            "United States District Court For The Eastern District of New Hampshire"
+            "United States District Court For The Eastern District of New Hampshire",
+            "United States District Court,? D\\.? ?New Hampshire"
         ],
         "system": "federal",
         "type": "trial"
@@ -22070,7 +22189,9 @@
                 "start": "1802-07-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. New Jersey"
+        ],
         "id": "njd",
         "level": "",
         "location": "New Jersey",
@@ -22080,7 +22201,8 @@
             "${usdc} New Jersey",
             "United States District Court Newark New Jersey",
             "United States District Court Third Dist(rict)? ?(of)? ?New Jersey",
-            "United States District Court, D. New Jersey, Camden Vicinage"
+            "United States District Court, D. New Jersey, Camden Vicinage",
+            "United States District Court,? D\\.? ?New Jersey"
         ],
         "system": "federal",
         "type": "trial"
@@ -24560,7 +24682,9 @@
                 "start": "1910-06-20"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. New Mexico"
+        ],
         "id": "nmd",
         "level": "",
         "location": "New Mexico",
@@ -24570,7 +24694,8 @@
             "^${d} ?(D)? ?New Mexico",
             "${usdc} D New Mexico",
             "${usdc} ${d} ${nm}",
-            "${usdc} ${nm}"
+            "${usdc} ${nm}",
+            "United States District Court,? D\\.? ?New Mexico"
         ],
         "system": "federal",
         "type": "trial"
@@ -24820,7 +24945,8 @@
             "Eastern District of New York",
             "United States District Colurt Eastern District of New York",
             "United States District Court Fastern District of New York",
-            "United States District Court Fot The Eastern District of New York"
+            "United States District Court Fot The Eastern District of New York",
+            "United States District Court, E.D. New York"
         ],
         "id": "nyed",
         "level": "",
@@ -24839,7 +24965,8 @@
             "U S District Court For The Eastern Div of New York",
             "United States District Court For The Eastern of District of New York",
             "United States District Court For The Eastern Division of New York",
-            "United States District Court E D New York"
+            "United States District Court E D New York",
+            "United States District Court,? E\\.? ?D\\.? ?New York"
         ],
         "system": "federal",
         "type": "trial"
@@ -24864,7 +24991,9 @@
                 "start": "1900-05-12"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, N.D. New York"
+        ],
         "id": "nynd",
         "level": "",
         "location": "New York",
@@ -24874,7 +25003,8 @@
             "${usdc} ${nd} ${ny}",
             "United States District Court For The Northern Division of New York",
             "United States District Court For The Northern District of New Yorke0",
-            "Northern District of New York"
+            "Northern District of New York",
+            "United States District Court,? N\\.? ?D\\.? ?New York"
         ],
         "system": "federal",
         "type": "trial"
@@ -24897,7 +25027,8 @@
             "United States District Court S D New York",
             "United States District Court Southern Distrist of New York",
             "United States District Court For The Souther District of New York",
-            "Southern District of New York"
+            "Southern District of New York",
+            "United States District Court, S.D. New York"
         ],
         "id": "nysd",
         "level": "trial",
@@ -24919,7 +25050,8 @@
             "United States District Court For The Southern Division of New York",
             "United States District Court For The Southern Idstrict of New York",
             "United States District Court For The Southern District Or?n? New York",
-            "United States District Court For The Souther District of New York"
+            "United States District Court For The Souther District of New York",
+            "United States District Court,? S\\.? ?D\\.? ?New York"
         ],
         "system": "federal",
         "type": "trial"
@@ -24934,7 +25066,9 @@
                 "start": "1900-05-12"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, W.D. New York"
+        ],
         "id": "nywd",
         "level": "",
         "location": "New York",
@@ -24942,7 +25076,8 @@
         "parent": "usdistct",
         "regex": [
             "${usdc} ${wd} ${ny}",
-            "United States District Court For The Western Division of New York"
+            "United States District Court For The Western Division of New York",
+            "United States District Court,? W\\.? ?D\\.? ?New York"
         ],
         "system": "federal",
         "type": "trial"
@@ -39002,7 +39137,8 @@
             }
         ],
         "examples": [
-            "United States District Court Eastern District of North Carolina Elizabeth City Division"
+            "United States District Court Eastern District of North Carolina Elizabeth City Division",
+            "United States District Court, E.D. North Carolina"
         ],
         "id": "nced",
         "level": "gjc",
@@ -39012,7 +39148,8 @@
         "regex": [
             "${ed} N(\\.|(orth)) Car?olina",
             "${usdc} ${ed} North Caroi?lina",
-            "${usdc} Eastern District of North Carolina Elizabeth City Division"
+            "${usdc} Eastern District of North Carolina Elizabeth City Division",
+            "United States District Court,? E\\.? ?D\\.? ?North Carolina"
         ],
         "system": "federal",
         "type": "trial"
@@ -39027,7 +39164,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, M.D. North Carolina"
+        ],
         "id": "ncmd",
         "level": "",
         "location": "North Carolina",
@@ -39037,7 +39176,8 @@
             "${md} N(\\.|(orth)) Car?olina",
             "Greensboro Division",
             "${usdc} ${md} North Carolina",
-            "United States District Court For The Middle Distrist of North Carolina Winston Salem"
+            "United States District Court For The Middle Distrist of North Carolina Winston Salem",
+            "United States District Court,? M\\.? ?D\\.? ?North Carolina"
         ],
         "system": "federal",
         "type": "trial"
@@ -39052,7 +39192,9 @@
                 "start": "1872-06-04"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, W.D. North Carolina"
+        ],
         "id": "ncwd",
         "level": "",
         "location": "North Carolina",
@@ -39061,7 +39203,8 @@
         "regex": [
             "${wd} N(\\.|(orth)) Car?olina",
             "Charlotte Division",
-            "${usdc} ${wd} North Carolina"
+            "${usdc} ${wd} North Carolina",
+            "United States District Court,? W\\.? ?D\\.? ?North Carolina"
         ],
         "system": "federal",
         "type": "trial"
@@ -39405,13 +39548,16 @@
                 "start": "1889-11-02"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. North Dakota"
+        ],
         "id": "ndd",
         "level": "",
         "location": "North Dakota",
         "name": "District Court, D. North Dakota",
         "regex": [
-            "${usdc} ${d} North Dakota"
+            "${usdc} ${d} North Dakota",
+            "United States District Court,? D\\.? ?North Dakota"
         ],
         "system": "federal",
         "type": "trial"
@@ -39517,7 +39663,10 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, Northern Mariana Islands",
+            "United States District Court, D. Northern Mariana Islands"
+        ],
         "id": "nmid",
         "level": "gjc",
         "location": "Northern Mariana Islands",
@@ -39529,7 +39678,8 @@
             "United States District Court For The District of The Northern Mariana Islands",
             "United States District Court For The Northern of Mariana Islands Appellate Division",
             "United States District Court For The Northern District of The Mariana Islands",
-            "United States District Court For The Northern District of Mariana Islands"
+            "United States District Court For The Northern District of Mariana Islands",
+            "United States District Court,? (D\\.? ?)?Northern Mariana Islands"
         ],
         "system": "federal",
         "type": "trial"
@@ -39709,7 +39859,8 @@
             "U S District N D Ohio E D",
             "District Court At Chambers N D Ohio E D",
             "District Court of The United States For The Northern District of Ohio Eastern Division",
-            "District Court of The United States Northern District of Ohio Eastern Division"
+            "District Court of The United States Northern District of Ohio Eastern Division",
+            "United States District Court, N.D. Ohio"
         ],
         "id": "ohnd",
         "level": "",
@@ -39728,7 +39879,8 @@
             "District Court At Chambers N D Ohio E D",
             "District Court of The United States For The Northern District of Ohio Eastern Division",
             "United States District Court, N.D. Ohio, Western Division",
-            "United States District Court, N.D. Ohio, E.D."
+            "United States District Court, N.D. Ohio, E.D.",
+            "United States District Court,? N\\.? ?D\\.? ?Ohio"
         ],
         "system": "federal",
         "type": "trial"
@@ -39745,7 +39897,8 @@
         ],
         "examples": [
             "Us District Court S D O Cincinnati",
-            "United States District Court For The Southern Division of Ohio Western Division"
+            "United States District Court For The Southern Division of Ohio Western Division",
+            "United States District Court, S.D. Ohio"
         ],
         "id": "ohsd",
         "level": "",
@@ -39758,7 +39911,8 @@
             "District Court of The United States For The Southern District of Ohio",
             "United States District Court For The For The Southern District of Ohio",
             "United States District Court For The Southern Division of Ohio Western Division",
-            "United States District Court For The Southern Ohio District Eastern Division"
+            "United States District Court For The Southern Ohio District Eastern Division",
+            "United States District Court,? S\\.? ?D\\.? ?Ohio"
         ],
         "system": "federal",
         "type": "trial"
@@ -52992,14 +53146,17 @@
                 "start": "1906-06-16"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, E.D. Oklahoma"
+        ],
         "id": "oked",
         "level": "",
         "location": "Oklahoma",
         "name": "United States District Court, Oklahoma Eastern",
         "parent": "usdistct",
         "regex": [
-            "${usdc} ${ed} ${ok}"
+            "${usdc} ${ed} ${ok}",
+            "United States District Court,? E\\.? ?D\\.? ?Oklahoma"
         ],
         "system": "federal",
         "type": "trial"
@@ -53014,14 +53171,17 @@
                 "start": "1925-02-16"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, N.D. Oklahoma"
+        ],
         "id": "oknd",
         "level": "",
         "location": "Oklahoma",
         "name": "United States District Court, Oklahoma Northern",
         "parent": "usdistct",
         "regex": [
-            "${usdc} ${nd} ${ok}"
+            "${usdc} ${nd} ${ok}",
+            "United States District Court,? N\\.? ?D\\.? ?Oklahoma"
         ],
         "system": "federal",
         "type": "trial"
@@ -53037,7 +53197,8 @@
             }
         ],
         "examples": [
-            "United States District Court For The Westrn District of Oklahoma"
+            "United States District Court For The Westrn District of Oklahoma",
+            "United States District Court, W.D. Oklahoma"
         ],
         "id": "okwd",
         "level": "",
@@ -53048,7 +53209,8 @@
             "${wd} ${ok}",
             "${usdc} ${wd} ${ok}",
             "United States District Court For The Westrn District of Oklahoma",
-            "United States District Court For The Western Division Oklahoma"
+            "United States District Court For The Western Division Oklahoma",
+            "United States District Court,? W\\.? ?D\\.? ?Oklahoma"
         ],
         "system": "federal",
         "type": "trial"
@@ -53439,7 +53601,8 @@
             }
         ],
         "examples": [
-            "District Court D Oklahoma"
+            "District Court D Oklahoma",
+            "United States District Court, D. Oklahoma"
         ],
         "federal_circuit": 10,
         "id": "okd",
@@ -53449,7 +53612,8 @@
         "name": "United States District Court for the District of Oklahoma",
         "regex": [
             "^${d} ?(D)? ?${ok}",
-            "${usdc} ${d} ${ok}"
+            "${usdc} ${d} ${ok}",
+            "United States District Court,? D\\.? ?Oklahoma"
         ],
         "system": "federal",
         "type": "trial"
@@ -54370,7 +54534,8 @@
             }
         ],
         "examples": [
-            "United States District Court District To Oregon"
+            "United States District Court District To Oregon",
+            "United States District Court, D. Oregon"
         ],
         "id": "ord",
         "level": "",
@@ -54380,7 +54545,8 @@
             "^${d} ?(D)? ?Oregon",
             "${usdc} ${d} Oregon",
             "${usdc} Oregon",
-            "${usdc} District To Oregon"
+            "${usdc} District To Oregon",
+            "United States District Court,? D\\.? ?Oregon"
         ],
         "system": "federal",
         "type": "trial"
@@ -54651,7 +54817,8 @@
             "United States District Court of For The Eastern District of Pennsylvania",
             "United States District Court For The District For The Eastern District of Pennsylvania",
             "States District Court For The District For The Eastern District of Pennsylvania",
-            "United States Ditsrict Court Eastern District of Pennsylvania"
+            "United States Ditsrict Court Eastern District of Pennsylvania",
+            "United States District Court, E.D. Pennsylvania"
         ],
         "id": "paed",
         "level": "",
@@ -54672,7 +54839,8 @@
             "United States District Court For The Eastern Division Pennsylvania",
             "United States District Court For The Eastern Distrtict of Pennsylvania",
             "United States District Court For The The Eastern District of Pennsylvania",
-            "${usdc} For The District For The ${ed} of ${pa}"
+            "${usdc} For The District For The ${ed} of ${pa}",
+            "United States District Court,? E\\.? ?D\\.? ?Pennsylvania"
         ],
         "system": "federal",
         "type": "trial"
@@ -54691,7 +54859,8 @@
             "United States District Court M D Pennsylvania",
             "Middle District of Pennsylvania",
             "Middle Dist. of Pennsylvania",
-            "M.D. of Pennsylvania"
+            "M.D. of Pennsylvania",
+            "United States District Court, M.D. Pennsylvania"
         ],
         "id": "pamd",
         "level": "",
@@ -54704,7 +54873,8 @@
             "United States District Court For The Middle District of Pennsylvaniaa",
             "United States District Court For The Middle District District of Pennsylvania",
             "Middle Dist\\.? of Pennsylvania",
-            "M\\.D\\. of Pennsylvania"
+            "M\\.D\\. of Pennsylvania",
+            "United States District Court,? M\\.? ?D\\.? ?Pennsylvania"
         ],
         "system": "federal",
         "type": "trial"
@@ -54721,7 +54891,8 @@
         ],
         "examples": [
             "United States District Court For The Westernd District of Pennsylvania",
-            "United States District Court For The Western of Pennsylvania"
+            "United States District Court For The Western of Pennsylvania",
+            "United States District Court, W.D. Pennsylvania"
         ],
         "id": "pawd",
         "level": "",
@@ -54733,7 +54904,8 @@
             "United States District Court For The Westernd District of Pennsylvania",
             "${usdc} ${wd} ${pa}",
             "United States District Court For The Western of Pennsylvania",
-            "United States District Court For The Western Division of Pennsylvania"
+            "United States District Court For The Western Division of Pennsylvania",
+            "United States District Court,? W\\.? ?D\\.? ?Pennsylvania"
         ],
         "system": "federal",
         "type": "trial"
@@ -61970,7 +62142,9 @@
                 "start": "1966-09-12"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Puerto Rico"
+        ],
         "id": "prd",
         "level": "",
         "location": "Puerto Rico",
@@ -61981,7 +62155,8 @@
             "${usdc} Puerto Rico",
             "United States District Court For The Division of Puerto Rico",
             "United States District Court, D. Puerto Rico",
-            "United States District Court for the Western District of Puerto Rico"
+            "United States District Court for the Western District of Puerto Rico",
+            "United States District Court,? D\\.? ?Puerto Rico"
         ],
         "system": "federal",
         "type": "trial"
@@ -62112,7 +62287,9 @@
                 "start": "1790-06-23"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Rhode Island"
+        ],
         "id": "rid",
         "level": "",
         "location": "Rhode Island",
@@ -62122,7 +62299,8 @@
             "${usdc} D ${ri}",
             "${d} ${ri}",
             "District Court Division Rhode Island",
-            "United States District Court for the District of Rhode Island"
+            "United States District Court for the District of Rhode Island",
+            "United States District Court,? D\\.? ?Rhode Island"
         ],
         "system": "federal",
         "type": "trial"
@@ -62356,7 +62534,8 @@
             "United States District Court D South Carolina Greenville Division",
             "United States District Court For South Carolina Beaufort Division",
             "United States District Court D Sourth Carolina Columbia Division",
-            "United States District Court Florence Division of South Carolina"
+            "United States District Court Florence Division of South Carolina",
+            "United States District Court, D. South Carolina"
         ],
         "id": "scd",
         "level": "",
@@ -62371,7 +62550,8 @@
             "${d} United States District of ${sc}",
             "${d} the United States District of ${sc} (Spartanburg|Greenville|Columbia|Beaufort) Division",
             "${usdc} D ${sc} (Spartanburg|Greenville|Columbia) Division",
-            "${sc} District Court"
+            "${sc} District Court",
+            "United States District Court,? D\\.? ?South Carolina"
         ],
         "system": "federal",
         "type": "trial"
@@ -62566,7 +62746,8 @@
             }
         ],
         "examples": [
-            "United States District Court For The Central District of South Dakota"
+            "United States District Court For The Central District of South Dakota",
+            "United States District Court, D. South Dakota"
         ],
         "id": "sdd",
         "level": "",
@@ -62580,7 +62761,8 @@
             "United States District Court For The Central District of South Dakota",
             "United States District Court For The Southern District of South Dakota",
             "United States District Court For The Southern District of South Dakota Northern Division",
-            "United States District Court for the Western District of South Dakota"
+            "United States District Court for the Western District of South Dakota",
+            "United States District Court,? D\\.? ?South Dakota"
         ],
         "system": "federal",
         "type": "trial"
@@ -62769,7 +62951,8 @@
             }
         ],
         "examples": [
-            "United States District Court For The Eastern District of At Knoxville Tennessee"
+            "United States District Court For The Eastern District of At Knoxville Tennessee",
+            "United States District Court, E.D. Tennessee"
         ],
         "id": "tned",
         "level": "",
@@ -62781,7 +62964,8 @@
             "${usdc} ${ed} ${tn}",
             "District Court At Chattannooga Tennessee",
             "United States District Court For The Eastern of Tennessee",
-            "United States District Court for the Northern District of Tennessee"
+            "United States District Court for the Northern District of Tennessee",
+            "United States District Court,? E\\.? ?D\\.? ?Tennessee"
         ],
         "system": "federal",
         "type": "trial"
@@ -62796,7 +62980,9 @@
                 "start": "1839-06-18"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, M.D. Tennessee"
+        ],
         "id": "tnmd",
         "level": "",
         "location": "Tennessee",
@@ -62805,7 +62991,8 @@
         "regex": [
             "${usdc} ${md} ${tn}",
             "District Court of The United States Middle District of Tennessee Nashville Division",
-            "District Court of The United States For The Middle District of Tennessee Nashville Division"
+            "District Court of The United States For The Middle District of Tennessee Nashville Division",
+            "United States District Court,? M\\.? ?D\\.? ?Tennessee"
         ],
         "system": "federal",
         "type": "trial"
@@ -62821,7 +63008,8 @@
             }
         ],
         "examples": [
-            "United States District Court For The Western District of Tennesseee"
+            "United States District Court For The Western District of Tennesseee",
+            "United States District Court, W.D. Tennessee"
         ],
         "id": "tnwd",
         "level": "",
@@ -62831,7 +63019,8 @@
         "regex": [
             "${usdc} ${wd} ${tn}",
             "U S District Court West Div West Dist Tenn",
-            "United States District Court For The Western Division of Tennessee"
+            "United States District Court For The Western Division of Tennessee",
+            "United States District Court,? W\\.? ?D\\.? ?Tennessee"
         ],
         "system": "federal",
         "type": "trial"
@@ -63222,14 +63411,17 @@
                 "start": "1857-02-21"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, E.D. Texas"
+        ],
         "id": "txed",
         "level": "",
         "location": "Texas",
         "name": "District Court, E.D. Texas",
         "parent": "usdistct",
         "regex": [
-            "${usdc} ${ed} ${tx}"
+            "${usdc} ${ed} ${tx}",
+            "United States District Court,? E\\.? ?D\\.? ?Texas"
         ],
         "system": "federal",
         "type": "trial"
@@ -63244,7 +63436,9 @@
                 "start": null
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, N.D. Texas"
+        ],
         "id": "txnd",
         "level": "",
         "location": "Texas",
@@ -63255,7 +63449,8 @@
             "District Court of The United States ${nd} Texas",
             "${usdc} Northern Disstrict of Texas Fort Worth Division",
             "${usdc} ${nd} Division of Texas Dallas Division",
-            "${usdc} Northern Division Texas Wichita Falls Division"
+            "${usdc} Northern Division Texas Wichita Falls Division",
+            "United States District Court,? N\\.? ?D\\.? ?Texas"
         ],
         "system": "federal",
         "type": "trial"
@@ -63271,7 +63466,8 @@
             }
         ],
         "examples": [
-            "United States District Court S D Tex Brownsville Division"
+            "United States District Court S D Tex Brownsville Division",
+            "United States District Court, S.D. Texas"
         ],
         "id": "txsd",
         "level": "",
@@ -63283,7 +63479,8 @@
             "${d} Southern Division Texas Houston Div",
             "${sd} Texas Houston Division ${usdc}",
             "${d} ${usa} ${sd} Texas Corpus Christi Division",
-            "${usdc} ${sd} Tex Brownsville Division"
+            "${usdc} ${sd} Tex Brownsville Division",
+            "United States District Court,? S\\.? ?D\\.? ?Texas"
         ],
         "system": "federal",
         "type": "trial"
@@ -63299,7 +63496,8 @@
             }
         ],
         "examples": [
-            "United States District Court For The Western of District Texas Austin Division"
+            "United States District Court For The Western of District Texas Austin Division",
+            "United States District Court, W.D. Texas"
         ],
         "id": "txwd",
         "level": "",
@@ -63312,7 +63510,8 @@
             "${usdc} For The Western of District Texas Austin Division",
             "District Court of United States Western District of Texas",
             "District Court For The Western Division Texas San Antonio Div",
-            "United States District Court For The Western Division of Texas Waco Division"
+            "United States District Court For The Western Division of Texas Waco Division",
+            "United States District Court,? W\\.? ?D\\.? ?Texas"
         ],
         "system": "federal",
         "type": "trial"
@@ -63919,7 +64118,8 @@
         ],
         "examples": [
             "United States District Court District of Utah Central Division",
-            "United States District Court In And For The District of Utah Northern Division"
+            "United States District Court In And For The District of Utah Northern Division",
+            "United States District Court, D. Utah"
         ],
         "id": "utd",
         "level": "",
@@ -63932,7 +64132,8 @@
             "${usdc} Utah",
             "${usdc} In And For The District of Utah Northern Division",
             "U S District Court For The States of Utah Central Div",
-            "${usdc} Central District of Utah"
+            "${usdc} Central District of Utah",
+            "United States District Court,? D\\.? ?Utah"
         ],
         "system": "federal",
         "type": "trial"
@@ -64040,7 +64241,9 @@
                 "start": "1791-03-02"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, D. Vermont"
+        ],
         "federal_circuit": 1,
         "id": "vtd",
         "level": "",
@@ -64048,7 +64251,8 @@
         "name": "District Court, D. Vermont",
         "regex": [
             "${usdc} ${d} ${vt}",
-            "${usdc} ${vt} ${d}"
+            "${usdc} ${vt} ${d}",
+            "United States District Court,? D\\.? ?Vermont"
         ],
         "system": "federal",
         "type": "trial"
@@ -64148,7 +64352,10 @@
                 "start": "1977-01-01"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, Virgin Islands",
+            "United States District Court, D. Virgin Islands"
+        ],
         "id": "vid",
         "level": "",
         "location": "Virgin Islands",
@@ -64164,7 +64371,8 @@
             "Virgin Islands District Court",
             "United States District Court For The District of Tthe Virgin Islands",
             "Districo Couro Virgin Islands Appelate Division D St Thomas",
-            "District of The Virgin Islands St Thomas Division"
+            "District of The Virgin Islands St Thomas Division",
+            "United States District Court,? (D\\.? ?)?Virgin Islands"
         ],
         "system": "federal",
         "type": "trial"
@@ -64367,7 +64575,8 @@
         "examples": [
             "United States District Court Eastern of Virginia Norfolk Division",
             "United States District Court For The Eastern Division of Virginia Richmond Division",
-            "District Court For The Eastern Division of Virginia Alexandria Division"
+            "District Court For The Eastern Division of Virginia Alexandria Division",
+            "United States District Court, E.D. Virginia"
         ],
         "id": "vaed",
         "level": "",
@@ -64385,7 +64594,8 @@
             "${usdc} Eastern of Virginia Norfolk Division",
             "${usdc} Eastern Division of Virginia Richmond Division",
             "${d} For The Eastern Division of ${va} Alexandria Division",
-            "District Court For The Eastern Division of Virginia Alexandria Division"
+            "District Court For The Eastern Division of Virginia Alexandria Division",
+            "United States District Court,? E\\.? ?D\\.? ?Virginia"
         ],
         "system": "federal",
         "type": "trial"
@@ -64402,7 +64612,8 @@
         ],
         "examples": [
             "United States District Court For The Western Division of Virginia",
-            "United States District Court Virginia Roanoke Division"
+            "United States District Court Virginia Roanoke Division",
+            "United States District Court, W.D. Virginia"
         ],
         "id": "vawd",
         "level": "",
@@ -64413,7 +64624,8 @@
             "${usdc} ${wd} ${va}",
             "United States District Court For The Western Division of Virginia",
             "United States District Court Virginia Roanoke Division",
-            "United States District Court W D Virginia Charlotte Division"
+            "United States District Court W D Virginia Charlotte Division",
+            "United States District Court,? W\\.? ?D\\.? ?Virginia"
         ],
         "system": "federal",
         "type": "trial"
@@ -67684,7 +67896,9 @@
                 "start": "1905-03-02"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, E.D. Washington"
+        ],
         "id": "waed",
         "level": "gjc",
         "location": "Washington",
@@ -67698,7 +67912,8 @@
             "United States District Court For The Eastern District of Washington",
             "District Court of The United States E D Washington S D",
             "United States District Court For The Eastern Division of Washington",
-            "District Court of The United States For The Eastern District of Washington Northern"
+            "District Court of The United States For The Eastern District of Washington Northern",
+            "United States District Court,? E\\.? ?D\\.? ?Washington"
         ],
         "system": "federal",
         "type": "trial"
@@ -67716,7 +67931,8 @@
         "examples": [
             "United States District Court Western Distict of Washington At Seattle",
             "United States District Court For The Western Division of Washington",
-            "United States District Court Westhern District"
+            "United States District Court Westhern District",
+            "United States District Court, W.D. Washington"
         ],
         "id": "wawd",
         "level": "",
@@ -67729,7 +67945,8 @@
             "United States District Court For The Western Division of Washington",
             "District Court W Washington S D",
             "United States District Court Westhern District",
-            "${usdc} ${wd} Wash(ington)"
+            "${usdc} ${wd} Wash(ington)",
+            "United States District Court,? W\\.? ?D\\.? ?Washington"
         ],
         "system": "federal",
         "type": "trial"
@@ -68265,7 +68482,8 @@
             }
         ],
         "examples": [
-            "United States District Court District of Columbia"
+            "United States District Court District of Columbia",
+            "United States District Court, District of Columbia"
         ],
         "id": "dcd",
         "level": "",
@@ -68286,7 +68504,8 @@
             "${usdc} For The Central District of Columbia",
             "United States District Court For The District Central of District of Columbia",
             "${usdc} Court For The District Central of District of Columbia",
-            "United States District Court for the District of D.C."
+            "United States District Court for the District of D.C.",
+            "United States District Court,? District of Columbia"
         ],
         "system": "federal",
         "type": "trial"
@@ -69194,7 +69413,8 @@
             }
         ],
         "examples": [
-            "United States District Court N D West Virginia Wheeling Division"
+            "United States District Court N D West Virginia Wheeling Division",
+            "United States District Court, N.D. West Virginia"
         ],
         "id": "wvnd",
         "level": "",
@@ -69204,7 +69424,8 @@
         "regex": [
             "${nd} ${wv}",
             "${usdc} ${nd} ${wv}",
-            "${usdc} N D ${wv} ?(Wheeling Division)?"
+            "${usdc} N D ${wv} ?(Wheeling Division)?",
+            "United States District Court,? N\\.? ?D\\.? ?West Virginia"
         ],
         "system": "federal",
         "type": "trial"
@@ -69220,7 +69441,8 @@
             }
         ],
         "examples": [
-            "United States District Court S D W Va Huntington Division"
+            "United States District Court S D W Va Huntington Division",
+            "United States District Court, S.D. West Virginia"
         ],
         "id": "wvsd",
         "level": "",
@@ -69231,7 +69453,8 @@
             "${sd} ${wv}",
             "${usdc} ${sd} ${wv}",
             "United States District Court For The Southern West Virginia",
-            "United States District Court S D W Va Huntington Division"
+            "United States District Court S D W Va Huntington Division",
+            "United States District Court,? S\\.? ?D\\.? ?West Virginia"
         ],
         "system": "federal",
         "type": "trial"
@@ -69478,7 +69701,8 @@
             }
         ],
         "examples": [
-            "United States District Court E E Wisconsin"
+            "United States District Court E E Wisconsin",
+            "United States District Court, E.D. Wisconsin"
         ],
         "id": "wied",
         "level": "",
@@ -69489,7 +69713,8 @@
             "${ed} Wisconsin",
             "${usdc} ${ed} ${wi}",
             "United States District Court E E Wisconsin",
-            "United States District Court For The Eastern Division of Wisconsin"
+            "United States District Court For The Eastern Division of Wisconsin",
+            "United States District Court,? E\\.? ?D\\.? ?Wisconsin"
         ],
         "system": "federal",
         "type": "trial"
@@ -69504,7 +69729,9 @@
                 "start": "1870-06-30"
             }
         ],
-        "examples": [],
+        "examples": [
+            "United States District Court, W.D. Wisconsin"
+        ],
         "id": "wiwd",
         "level": "",
         "location": "Wisconsin",
@@ -69512,7 +69739,8 @@
         "parent": "usdistct",
         "regex": [
             "${wd} Wisconsin",
-            "${usdc} ${wd} ${wi}"
+            "${usdc} ${wd} ${wi}",
+            "United States District Court,? W\\.? ?D\\.? ?Wisconsin"
         ],
         "system": "federal",
         "type": "trial"
@@ -69760,7 +69988,8 @@
             }
         ],
         "examples": [
-            "United States District Court District of Wyoming"
+            "United States District Court District of Wyoming",
+            "United States District Court, D. Wyoming"
         ],
         "id": "wyd",
         "level": "gjc",
@@ -69769,7 +69998,8 @@
         "regex": [
             "${d} D ${wy}",
             "${usdc} ${wy}",
-            "${usdc} ${d} ${wy}"
+            "${usdc} ${d} ${wy}",
+            "United States District Court,? D\\.? ?Wyoming"
         ],
         "system": "federal",
         "type": "trial"
