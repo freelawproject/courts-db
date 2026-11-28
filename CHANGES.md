@@ -24,6 +24,7 @@
 - Add Texas Board of Disciplinary Appeals (`txboda`) #110
 - Publish to PyPI with trusted publishing instead of an API token. #171
 - Match `ca11` when its name is printed with a comma, e.g. "United States Court of Appeals, Eleventh Circuit"
+- Match every current federal district court as reporters print it, e.g. "United States District Court, N.D. California". These matched the generic `usdistct`, alone or with the district court.
 -
 
 
